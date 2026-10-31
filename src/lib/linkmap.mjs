@@ -82,6 +82,7 @@ export const SLUGS = `/
 /mortgage-broker-terrace/
 /mortgage-broker-invermere/
 /mortgage-broker-keremeos/
+/mortgage-broker-prince-rupert/
 /mortgage-broker-quesnel/
 /mortgage-broker-white-rock/
 /mortgage-broker-north-vancouver/
