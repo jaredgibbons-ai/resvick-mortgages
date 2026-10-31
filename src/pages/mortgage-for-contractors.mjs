@@ -7,7 +7,6 @@ ${short({ answer: "Contractors and tradespeople can get a mortgage, but lenders 
 <p>Maybe you're an electrician who invoices three general contractors. Maybe you're a framer whose work stops when the rain starts. Maybe you run heavy equipment on a six-month contract. Or you're a plumber who incorporated two years ago on your accountant's advice.</p>
 <p>Your bank account looks healthy. Your trucks are paid off. You have more work than you can take.</p>
 <p>But the bank asked for a T4 you don't have. Or it looked at a tax return that shows a fraction of what you earn, because your accountant did a good job. The answer came back smaller than your apprentice would get on a salary.</p>
-<p>This page explains how lenders in BC read contractor and trades income. It covers the proof that settles the question. It also shows how Joshua, a former underwriter, builds the file so the income you actually earn is the income that counts.</p>
 
 <h2>First question: how are you paid?</h2>
 <p>Lenders care less about your trade than about how your income arrives. There are four common types, and each one is assessed differently.</p>

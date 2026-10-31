@@ -74,7 +74,7 @@ ${callout("The rate isn't the cost", "<p>A second with a lower rate and higher f
 export default {
   slug: "/second-mortgage-bc/",
   h1: "Second mortgages in BC: rates, costs and when they make sense",
-  lede: "How a second mortgage borrows against equity without touching your first, what it really costs once fees are counted, and the situations where it is the right tool.",
+  lede: "How a second mortgage borrows against equity without touching your first, what it costs once fees are counted, and the situations where it is the right tool.",
   crumbs: [["Home", "/"], ["Refinancing", "/refinance-mortgage-bc/"], ["Second mortgages", "/second-mortgage-bc/"]],
   nav: "/refinance-mortgage-bc/", body,
   faqs: [

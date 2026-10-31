@@ -14,7 +14,7 @@ ${ratesStrip()}
 <h2>Why a northern file needs an underwriter's eye</h2>
 <p>The City's economic development office lists the region's leading industries. They include forestry, pulp and paper, mining, construction and health care. Education, transportation, warehousing and professional services are on the list too (Move Up Prince George, Industries and Employers, read October 2026).</p>
 <p>Top employers include Northern Health and the University of Northern British Columbia. The College of New Caledonia, the school district and both levels of government are also on the list.</p>
-<p>That mix means very different paycheques. On one side are steady salaries. On the other is pay that's variable, seasonal or on a rotation. Often both sit in the same household.</p>
+<p>That mix means different paycheques. On one side are steady salaries. On the other is pay that's variable, seasonal or on a rotation. Often both sit in the same household.</p>
 <p>Lenders are fine with both. But they document each one differently. Picture a Northern Health salary next to a partner's contract forestry income. Or a camp rotation. That file needs to be put together with care.</p>
 <p>Joshua reads your file the way an underwriter would, before it goes to a lender. He checks which income counts at face value and which gets averaged over two years. He checks which allowances each lender will accept. Then he finds the lender whose rules fit the whole picture.</p>
 <p>That's the difference between two kinds of approval. One has conditions you can meet. The other stalls a week before completion.</p>

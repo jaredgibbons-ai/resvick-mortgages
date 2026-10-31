@@ -5,7 +5,7 @@ import { cta, callout } from "../lib/site.mjs";
 const body = `
 ${short({ answer: "On a fixed mortgage, the penalty is usually the bigger of three months' interest or the interest rate differential (IRD). How your lender works out the IRD can triple the number. This tool gives you a range.", who: "Anyone thinking about selling, refinancing or leaving their lender before the term ends.", next: "Run the estimator below, then ask your lender for a written penalty quote with the method named." })}
 <h2>Estimate your mortgage prepayment penalty</h2>
-<p>A prepayment penalty is the fee a lender charges when you pay off a mortgage early, in full or in part. People run into it for ordinary reasons. They sell the home, refinance to a better rate, pay off debt, or leave a lender with a poor renewal offer. The amount can be small or very large. You almost never see it until you ask.</p>
+<p>A prepayment penalty is the fee a lender charges when you pay off a mortgage early, in full or in part. People run into it for ordinary reasons. They sell the home, refinance to a better rate, pay off debt, or leave a lender with a poor renewal offer. The amount can be small or large. You almost never see it until you ask.</p>
 <p>This estimator gives you a range, not a single number. That's because the answer depends on a method your lender chooses. Enter what you know. Add the optional rates to see both versions of the interest rate differential.</p>
 <div class="tools">${TOOLS.penalty()}</div>
 <p>Everything on this page runs in your browser. Nothing you enter is sent anywhere, and you don't need an email address to see the result. The sections below explain where each figure comes from, so you can check the math yourself. Then they explain what to ask your lender to confirm it.</p>
@@ -65,7 +65,7 @@ ${short({ answer: "On a fixed mortgage, the penalty is usually the bigger of thr
 
 ${callout("Get the number in writing", "<p>Estimates are for planning. Before you sign a listing agreement, a new mortgage commitment or a payout request, ask your lender for a written penalty quote with the method named. If you would like a second opinion on whether the penalty is worth paying, <a href=\"/contact/\">contact Joshua</a> and bring the quote.</p>")}
 
-${cta({ title: "Not sure the penalty is worth paying?", text: "Book a 15-minute call. Bring your lender's quote, and Joshua will run the break-even and tell you honestly which way the numbers point." })}
+${cta({ title: "Not sure the penalty is worth paying?", text: "Book a 15-minute call. Bring your lender's quote, and Joshua will run the break-even and tell you which way the numbers point." })}
 
 <p>The full set of tools, including the payment, affordability and renewal calculators, is on the <a href="/mortgage-calculators/">mortgage calculators</a> page. If your mortgage is due for renewal, the <a href="/refinance-mortgage-bc/">refinancing hub</a> explains how a refinance differs from a switch.</p>
 `;

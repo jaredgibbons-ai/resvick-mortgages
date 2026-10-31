@@ -31,7 +31,7 @@ ${short({ answer: "A co-signer lends their income or credit to your mortgage and
 <li><strong>Their own credit and ratios.</strong> The mortgage shows on the co-signer's credit report and is counted among their debts. That can lower what they can borrow for themselves until they're removed. Think of a car, a line of credit or a home of their own. Lenders will count the full payment.</li>
 <li><strong>Control and consequences.</strong> If the borrower pays late, the co-signer's credit takes the damage too. The co-signer may have no say over how the home is used or whether it is sold.</li>
 <li><strong>Tax and title questions.</strong> Say a co-signer is on title for a home they don't live in. The principal residence exemption generally doesn't apply to their share. So a later sale can have tax consequences for them. Putting a person on title can also trigger transfer costs and has implications for first-time buyer programs, whose conditions apply to each person on title. Some families use a bare trust to separate legal title from ownership, which has its own tax and land-title reporting consequences. Speak with a lawyer and an accountant before choosing any of these structures.</li>
-<li><strong>Life changes.</strong> Death, illness, separation or a falling out in the family can make a signed arrangement very difficult to unwind.</li>
+<li><strong>Life changes.</strong> Death, illness, separation or a falling out in the family can make a signed arrangement difficult to unwind.</li>
 </ul>
 
 <h2>How removal works later</h2>
@@ -46,7 +46,7 @@ ${short({ answer: "A co-signer lends their income or credit to your mortgage and
 <h2>Alternatives to try first</h2>
 <p>Asking someone to co-sign is often not the first or best tool. Before you do, consider these.</p>
 <ul>
-<li><strong>A gifted down payment.</strong> A relative gives money without signing the mortgage or being responsible for it. The gift needs a letter and a paper trail, and the guide to a <a href="/gifted-down-payment/">gifted down payment</a> explains the steps. The relative's risk is limited to the money given, which is a very different commitment from a liability that lasts for years.</li>
+<li><strong>A gifted down payment.</strong> A relative gives money without signing the mortgage or being responsible for it. The gift needs a letter and a paper trail, and the guide to a <a href="/gifted-down-payment/">gifted down payment</a> explains the steps. The relative's risk is limited to the money given, which is a different commitment from a liability that lasts for years.</li>
 <li><strong>Suite income.</strong> If the home has a legal suite, the rent can raise what you qualify for. See <a href="/how-much-suite-income-will-a-lender-count/">how much suite income a lender will count</a>.</li>
 <li><strong>A different lender.</strong> Lenders read income and credit differently. A broker may find an A lender that fits, or a <a href="/b-lender-mortgage-bc/">B lender</a> for a file that is stronger than it looks to a bank. B lenders generally charge higher rates and may charge fees, with written disclosure first.</li>
 <li><strong>A smaller purchase or a longer wait.</strong> A lower price, a larger down payment saved over a few more months, or paying down a debt can bring the numbers in range without involving anyone. Test the numbers with the <a href="/how-much-mortgage-can-i-afford/">affordability guide</a>.</li>

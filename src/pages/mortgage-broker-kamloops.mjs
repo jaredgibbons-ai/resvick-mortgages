@@ -16,7 +16,7 @@ ${ratesStrip()}
 
 <h2>Income first: how Kamloops paycheques are read</h2>
 <p>In many cities, the question is the property. In Kamloops, it's often the income.</p>
-<p>The same gross earnings can qualify for very different mortgages. It depends on how the money arrives and how it's documented. So this page starts there.</p>
+<p>The same gross earnings can qualify for different mortgages. It depends on how the money arrives and how it's documented. So this page starts there.</p>
 <h3>Rail and shift income</h3>
 <p>Kamloops is a rail hub. Railway income usually comes with overtime, shift premiums and periods of layoff or reduced hours.</p>
 <p>Lenders generally take base salary at face value. They treat overtime and premiums as variable income, counted at the lower of last year's total or the two-year average. Some lenders also need the pattern to be consistent.</p>

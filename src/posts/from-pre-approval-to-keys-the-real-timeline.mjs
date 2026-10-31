@@ -19,7 +19,6 @@ ${short({
 <h2>The big picture</h2>
 <p>A home purchase is a chain of steps. You, your realtor, your broker, the lender and your lawyer or notary each own a piece. The chain only works if each piece arrives on time.</p>
 <p>The dates come from the contract of purchase and sale. That contract sets a deadline for each condition, a completion date, a possession date and an adjustment date. These dates can differ. Read them closely.</p>
-<p>This post gives a typical order and rough timing. Treat the times as ranges. Your contract is what counts.</p>
 
 <h2>Step 1: Pre-approval</h2>
 <p>This is the start. In a <a href="/mortgage-pre-approval-bc/">pre-approval</a>, a broker reviews your income, debts, credit and down payment. You learn how much you may be able to borrow, and the rate can be held for a set time.</p>

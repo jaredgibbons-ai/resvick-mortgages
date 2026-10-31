@@ -11,7 +11,6 @@ ${short({
 <p>A bankruptcy tells a lender two things. At some point your debts got out of hand. And you dealt with them through a legal process, instead of leaving creditors unpaid.</p>
 <p>The first is a risk signal. The second, read carefully, isn't. Lenders have approved mortgages for discharged bankrupts for decades. The rules are well established, even if they're rarely written down in one place.</p>
 <p>This page sets out those rules as lender norms, not law, because that's what they are. Most lenders share the same expectations about time, rebuilt credit and explanation. Each applies them its own way.</p>
-<p>It covers the insured and conventional paths, and how the down payment changes. It covers what the explanation letter should say. And it covers the B and private routes that can hold a home while your file matures. It's written for people who've been discharged, or soon will be, and want to know when owning a home is realistic again.</p>
 
 <h2>The standard re-establishment expectations</h2>
 <p>Three things show up on almost every lender's list after a bankruptcy.</p>

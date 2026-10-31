@@ -8,7 +8,6 @@ ${short({ answer: "A 5-year fixed locks your rate and payment for five years. It
 <p>Ask a Canadian what kind of mortgage they have. Often the answer is a five-year fixed. It has long been the most popular term. Most rate tables and ads lead with it.</p>
 <p>The reasons are practical. Five years is long enough to give a household a steady payment for a real stretch of life. It also fits how many people think about a home. You stay a while, plan around a payment, and look at it again in five years.</p>
 <p>That popularity is the reason to look closely rather than assume. The default for most people isn't always right for you. A good rate on the wrong term can cost more than a slightly higher rate on the right one.</p>
-<p>This page explains when the 5-year fixed fits and when a shorter term beats it. It also shows what the penalty can look like if you leave early. This page prints no rate in its text. A 15-minute call gets you today's number for your own file.</p>
 ${ratesStrip()}
 
 <h2>What a 5-year fixed term actually locks in</h2>
@@ -29,7 +28,7 @@ ${ratesStrip()}
 <li>A differential of 0.50 percentage points over those 36 months would be about $6,000.</li>
 <li>A differential of 1.00 percentage point would be about $12,000.</li>
 </ul>
-<p>The penalty is the larger figure. So the same mortgage can have a very different exit cost depending on the lender's method. The <a href="/mortgage-calculators/#penalty">penalty calculator</a> lets you try your own balance, rate and months left.</p>
+<p>The penalty is the larger figure. So the same mortgage can have a different exit cost depending on the lender's method. The <a href="/mortgage-calculators/#penalty">penalty calculator</a> lets you try your own balance, rate and months left.</p>
 <p>The lesson is to ask before you sign, not after. A five-year fixed with a harsh penalty can be a poor fit if you might move or refinance in three years. That's true even if its rate is the lowest on the table.</p>
 
 <h2>5-year or 3-year: some scenarios</h2>

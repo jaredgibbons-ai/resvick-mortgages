@@ -54,7 +54,7 @@ ${short({ answer: "Joshua's office is in Surrey, so this is his home city. He wo
 <p>It won't change a mortgage approval. But it's a fair reason to think five years ahead when you choose a term and a prepayment plan. If you might sell at renewal, a shorter term or a lower-penalty lender makes sense.</p>
 
 <h2>Rates with local context</h2>
-<p>Surrey buyers tend to compare rates on very different files. Think of a townhouse with 10 percent down, a suite house with 20 percent down, and a presale that closes years from now. Every lender prices those three differently. The <a href="/mortgage-rates-surrey/">Surrey mortgage rates page</a> explains that context. The <a href="/mortgage-rates-bc/">BC rates hub</a> covers how a rate gets set. A short call gets you today's number for your own file.</p>
+<p>Surrey buyers tend to compare rates on different files. Think of a townhouse with 10 percent down, a suite house with 20 percent down, and a presale that closes years from now. Every lender prices those three differently. The <a href="/mortgage-rates-surrey/">Surrey mortgage rates page</a> explains that context. The <a href="/mortgage-rates-bc/">BC rates hub</a> covers how a rate gets set. A short call gets you today's number for your own file.</p>
 
 <h2>Every city Joshua serves</h2>
 <p>Surrey is the office, but the service covers the whole province, online and by phone. Each city below has its own page with the local details, from suite bylaws to presale patterns.</p>

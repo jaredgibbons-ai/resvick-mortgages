@@ -48,7 +48,7 @@ ${callout("The 20 percent rule, briefly", "<p>High-ratio mortgage insurance isn'
 
 <h2>What the check can't do</h2>
 <p>It can't see your credit, so it goes by the band you give it. It can't know a lender's door limit or seasoning rules, and those vary. It can't tell you whether a property cash-flows, either. That's your spreadsheet, not this page.</p>
-<p>What it can do is tell you honestly whether you're in a position to be looking. If you're not, it shows what to shore up.</p>
+<p>What it can do is tell you whether you're in a position to be looking. If you're not, it shows what to shore up.</p>
 <p>On fees: on a mortgage with a mainstream (A) lender, the lender pays the broker. You pay nothing for the service, including on a rental. Fees only come up on some B-lender and private-lender files. BC rules say you see the disclosure in writing first.</p>
 <p>Already own a rental and need to renew it? The <a href="/rental-property-mortgage-renewal/">rental renewal guide</a> is the better page. Not sure this is your check? The <a href="/mortgage-check/">two-question router</a> will sort it out. The <a href="/contact/">contact page</a> is there if you'd rather talk.</p>
 

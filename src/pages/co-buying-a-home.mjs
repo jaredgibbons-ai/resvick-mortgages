@@ -9,7 +9,6 @@ ${short({
 })}
 <h2>Your situation</h2>
 <p>You and a friend, a sibling or a cousin have each been priced out of buying alone. Put your two incomes and two down payments together, though, and you could buy a home neither of you could manage solo. The idea makes sense. It also puts a relationship you care about inside a contract that lasts for years.</p>
-<p>This page explains how co-buying works in British Columbia. We'll cover how a lender qualifies two buyers, how ownership is recorded, and what happens to the first-time buyer programs when only one of you qualifies. We'll also cover the agreement you should have in writing before you make an offer. Joshua Resvick is a BC mortgage broker and former underwriter. Co-buying files are a growing part of his practice.</p>
 
 <h2>How lenders qualify co-buyers</h2>
 <p>To a lender, two people buying together are co-borrowers. Both are on the mortgage. Both are fully liable for the whole balance. Both incomes, debts and credit histories go into the application.</p>

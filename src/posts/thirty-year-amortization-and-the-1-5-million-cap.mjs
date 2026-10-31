@@ -23,7 +23,6 @@ ${short({
 <li>The price limit for an insured mortgage rose from $1 million to $1.5 million.</li>
 </ul>
 <p>An insured mortgage is one with less than 20 percent down. The borrower pays a premium to a mortgage insurer such as CMHC, and the insurance protects the lender. The rules for these mortgages are set in Ottawa, not by each lender.</p>
-<p>This post covers what the two changes mean. It is a rules post, so the facts are dated. The rules were current as of the date at the top of this page.</p>
 
 <h2>What amortization means</h2>
 <p>Amortization is the number of years it would take to pay the whole mortgage off. It is not the same as your term. A term is the length of your contract, often five years. You renew many times over one amortization.</p>

@@ -72,7 +72,7 @@ ${short({
 
 <h2>Is a broker worth it if the bank is free too</h2>
 <p>Your bank doesn't charge you a fee either. So the choice isn't free versus paid. It's one lender's products versus several lenders' products. The full version is on the <a href="/mortgage-broker-vs-bank/">broker versus bank</a> page.</p>
-<p>Here are the practical differences, at no cost to you. A broker can place the file where it fits, not just where you already bank. They can compare penalty methods, not only rates. And they can tell you honestly when the bank's offer is the right one.</p>
+<p>Here are the practical differences, at no cost to you. A broker can place the file where it fits, not just where you already bank. They can compare penalty methods, not only rates. And they can tell you when the bank's offer is the right one.</p>
 <p>Joshua spent five years as an underwriter before ten years as a broker. That matters here. Reading a file the way a lender reads it is how a broker avoids a declined application, and a lender that's wrong for the borrower.</p>
 <p>None of that means every borrower needs a broker. Maybe your file is simple, you're close with one bank, and you don't care to compare. The branch may serve you well. The point is only that the comparison costs nothing. So there's little reason not to see it before you sign.</p>
 

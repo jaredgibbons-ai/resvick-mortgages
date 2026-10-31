@@ -10,7 +10,7 @@ const hero = `<div class="hero-copy"><h1>Contact a mortgage broker in Surrey, BC
 
 const body = `
 <h2>Book a 15-minute call</h2>
-<p>The call is where a mortgage plan starts. I'll ask about your goals and your numbers, tell you what's realistic, and explain the next step. There's no obligation, and you don't need to prepare anything. Just pick a time that suits you in the calendar below. It's my own booking page, so what you see is what I've actually got open.</p>
+<p>The call is where a mortgage plan starts. I'll ask about your goals and your numbers, tell you what's realistic, and explain the next step. There's no obligation, and you don't need to prepare anything. Just pick a time that suits you in the calendar below. It's my own booking page, so what you see is what I've got open.</p>
 <div class="book-facade" data-nocount>
 <p><strong>Choose a time</strong></p>
 <p class="small">The calendar only loads when you ask for it, so this page stays quick on a phone.</p>
@@ -55,7 +55,7 @@ ${short({ answer: "Book a free 15-minute call, phone 778.882.5674, or send a not
 <h2>What happens on the call</h2>
 <p>Fifteen minutes goes quickly, so I keep the call to a simple agenda.</p>
 <ol>
-<li><strong>Your goal.</strong> Are you buying, renewing, refinancing or investing, and what are you actually trying to achieve? The best mortgage depends on the plan, so the plan comes first.</li>
+<li><strong>Your goal.</strong> Are you buying, renewing, refinancing or investing, and what are you trying to achieve? The best mortgage depends on the plan, so the plan comes first.</li>
 <li><strong>Your numbers.</strong> A rough picture is plenty: household income, the debts you pay each month, your down payment or home equity, and a target timeline. Estimates are fine. I'll tell you which ones matter most.</li>
 <li><strong>What's realistic.</strong> I'll explain where you stand, which lender types fit, and what could change the result. If something in the plan won't work, you'll hear it now, along with the alternatives.</li>
 <li><strong>The next step.</strong> That might be a pre-approval, a written lender comparison, a renewal timeline, or just a date to talk again. Nothing's required of you at the end of the call.</li>
@@ -98,7 +98,7 @@ export default {
   h1: "Contact a mortgage broker in Surrey, BC",
   hero, crumb: "Contact", nav: "/contact/", forms: true, body,
   faqs: [
-    { q: "How quickly will Joshua reply?", a: "I read and answer messages myself, so the reply comes from the person who'll actually work on your file. For anything with a deadline, like a closing date or a lender cutoff, phone " + SITE.phone + " rather than waiting on email. Mention the deadline in your message and I'll bump it up the list." },
+    { q: "How quickly will Joshua reply?", a: "I read and answer messages myself, so the reply comes from the person who'll work on your file. For anything with a deadline, like a closing date or a lender cutoff, phone " + SITE.phone + " rather than waiting on email. Mention the deadline in your message and I'll bump it up the list." },
     { q: "Can I speak with Joshua in the evening?", a: "The booking calendar shows the times I've got open, and it's the most reliable guide. If none of them suit your schedule, send an email or a message with a couple of times that work for you, and I'll reply with what's possible." },
     { q: "Is the call really without obligation?", a: "Yes, really. The 15-minute call is for understanding your situation and explaining your options. You're not asked to commit to anything, and on mainstream (A-lender) mortgages the lender pays the broker, so you pay nothing for the service. See <a href=\"/how-mortgage-brokers-get-paid/\">how brokers get paid</a>." },
     { q: "Do I need documents before I book?", a: "No. Bring your questions and a rough idea of your income, debts, savings and timeline. Documents come later, once you decide to go ahead, and I'll tell you exactly which ones you need and send a secure upload link so you can share them safely." }

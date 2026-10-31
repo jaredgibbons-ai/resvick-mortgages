@@ -12,7 +12,6 @@ ${short({
 <p>The first was a change to mortgage insurance rules. It would let a homeowner refinance to 90 percent of what the home will be worth once the suite is built. That's called the as-improved value. The money pays for the building.</p>
 <p>The second was a low-interest loan of up to $80,000 from CMHC. It was called the Canada Secondary Suite Loan Program.</p>
 <p>Two years later, the first is a working program that lenders use every week. The second never opened.</p>
-<p>This post is the record of both. Clients still come in asking for the loan, and the honest answer is that it doesn't exist. The program that does exist is explained in full in the <a href="/secondary-suite-refinance/">secondary suite refinance guide</a>. That page has its current terms and an eligibility checker.</p>
 
 <h2>October 8, 2024: the insured refinance is announced</h2>
 <p>The Department of Finance published the insurance rule changes on October 8, 2024. They took effect for insurance applications sent on or after January 15, 2025 (Department of Finance Canada, October 8, 2024). Lenders and insurers still work to the release's rules today.</p>

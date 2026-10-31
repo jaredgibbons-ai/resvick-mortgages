@@ -6,7 +6,6 @@ ${short({ answer: "Lenders don't care how many people earn the income, only whet
 
 <h2>Your situation</h2>
 <p>You're buying on one income, with kids who depend on it. You may receive child support, or pay it. Your down payment may have taken years to save. Or a parent may be offering to help. You've done the math many times, and the answer seems to change depending on who you ask.</p>
-<p>This page is about qualifying for a mortgage in British Columbia as a single parent. It covers how lenders treat support and benefits, and which programs cut your cash to close. It explains what a co-signer does and doesn't solve, and the order that gets you approved. Joshua Resvick is a BC mortgage broker and a former underwriter. His approach is to show you the real number early, so you can plan around it.</p>
 
 <h2>How lenders read one-income files</h2>
 <p>A lender doesn't care how many people earn the household income. It cares whether the income covers the mortgage and your other debts within its ratios.</p>

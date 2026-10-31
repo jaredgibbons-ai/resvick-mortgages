@@ -6,7 +6,6 @@ ${short({ answer: "Splitting up doesn't change your mortgage. Both of you stay o
 <h2>Your situation</h2>
 <p>The relationship has ended, or is ending. The house is the biggest thing you own together. One of you may want to stay, and one may need to leave. You're both on a mortgage that neither of you can just walk away from.</p>
 <p>You're being asked to make money decisions at the worst possible time. This page isn't legal advice, and it isn't about the separation itself. It's a calm look at what happens to the mortgage. It covers the three paths most people choose between. It also covers the order to decide in, so you don't close off a better option by taking the first one offered.</p>
-<p>Joshua Resvick is a BC mortgage broker and a former underwriter. This is a conversation he has with separating clients every month.</p>
 
 <h2>First, what does not change</h2>
 <p>A separation agreement or court order can decide who owns the home. It can decide who pays its costs. But it doesn't change the mortgage contract.</p>
@@ -72,6 +71,9 @@ ${short({ answer: "Splitting up doesn't change your mortgage. Both of you stay o
 ${callout("A note on the tone of this page", "<p>Separation is hard enough without a sales pitch. Want to talk through the mortgage side with someone who has handled many of these files? Joshua is happy to speak with either or both of you, and the conversation is free. The decisions stay with you and your lawyer.</p>")}
 
 ${cta({ title: "Work out the mortgage side calmly", text: "Book a 15-minute call. You'll leave knowing what each person can qualify for and what each path costs. That makes the rest of the decisions easier. Or <a href=\"/contact/\">contact Joshua</a> by email." })}
+
+<h2>Who wrote this</h2>
+<p>Joshua Resvick is a BC mortgage broker and a former underwriter. This is a conversation he has with separating clients every month.</p>
 `;
 
 export default {

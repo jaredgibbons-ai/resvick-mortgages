@@ -18,7 +18,6 @@ ${ratesStrip()}
 <p>The job market is unusual too. Victoria is the seat of the provincial government. Lots of buyers are public servants with salaries and pensions, which lenders like.</p>
 <p>There are others too. Canadian Armed Forces members are posted to CFB Esquimalt. There are university and hospital staff and tech workers. There are tradespeople, often self-employed, and retirees from across the country.</p>
 <p>Each kind of income is documented differently. A clean file starts with knowing which papers your income actually needs.</p>
-<p>Joshua spent five years as a mortgage underwriter before he became a broker. Victoria clients tend to value that most. He reads your file the way the lender will, before the lender does.</p>
 
 <h2>Property types that need a careful file</h2>
 <h3>Character and heritage homes</h3>
@@ -71,6 +70,9 @@ ${callout("What it costs you", "<p>On a mortgage placed with an A lender, the le
 ${cta({ title: "Talk to a broker who serves Victoria", text: "Book a 15-minute call. You'll leave with a clear picture of what you qualify for, what it'll cost and what to do next, whether or not you end up working with Joshua." })}
 
 <p>Resvick Mortgages is listed on Google as a mortgage broker serving BC from Surrey. Found this page by searching for a broker in Victoria? The <a href="/contact/">contact page</a> has the phone number, the email address and what to have ready for the first call.</p>
+
+<h2>Who wrote this</h2>
+<p>Joshua spent five years as a mortgage underwriter before he became a broker. Victoria clients tend to value that most. He reads your file the way the lender will, before the lender does.</p>
 `;
 
 export default {

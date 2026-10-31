@@ -80,7 +80,7 @@ ${callout("The fee question, answered first", "<p>On any mortgage with a mainstr
 
 <h2>Where a broker fits, and where one doesn't</h2>
 <p>A mortgage broker can't stop a foreclosure. A broker can't speak to the court for you or make a lender's hardship team say yes.</p>
-<p>Here's what a broker can do. A broker can tell you quickly and honestly which steps on the ladder are realistic for your file. A broker can run the numbers on a consolidation or a second mortgage, so you see if it actually helps. And a broker can place the file with a lender that will consider it.</p>
+<p>Here's what a broker can do. A broker can tell you quickly which steps on the ladder are realistic for your file. A broker can run the numbers on a consolidation or a second mortgage, so you see if it actually helps. And a broker can place the file with a lender that will consider it.</p>
 <p>Joshua spent five years as an underwriter and ten as a broker. The most useful thing he can offer here is a straight answer. If the right answer is a sale, he'll say so. If you want that conversation, <a href="/contact/">contact him</a>. Say in the first line that you're behind on payments, so it's handled with the urgency it deserves.</p>
 `;
 

@@ -5,7 +5,7 @@ const body = `
 ${short({ answer: "Renewing with your current lender is often still possible, because same-lender renewals usually skip a new income check. Switching is different. A new lender checks your income, and the stress-test exemption doesn't change that. Whatever you do, don't let the term end unsigned.", who: "Anyone who lost their job or income before a mortgage renewal, or expects to.", next: "Confirm your own lender's renewal terms first, then read about <a href=\"/switch-mortgage-lenders-at-renewal/\">switching lenders at renewal</a>." })}
 
 <h2>The short answer has two tracks</h2>
-<p>Maybe you've lost your job, or your income dropped, and your mortgage is up for renewal. The answer depends on which lender holds the mortgage next. Staying with your current lender and switching to a new one are treated very differently. People get conflicting answers because they're really answering different questions.</p>
+<p>Maybe you've lost your job, or your income dropped, and your mortgage is up for renewal. The answer depends on which lender holds the mortgage next. Staying with your current lender and switching to a new one are treated differently. People get conflicting answers because they're really answering different questions.</p>
 <p><strong>Track one: renew with your current lender.</strong> Normally, a same-lender renewal is offered without a new income check. The lender already has your mortgage, and you've been making your payments. The renewal just extends that relationship.</p>
 <p>So can you renew if you're not working? Renewing with your own lender is often still possible. Your contract and your lender's policy decide. A lender may look more closely if payments are behind or the mortgage is already in trouble. Read the renewal offer and confirm what it says. Ask your lender directly if any condition is attached.</p>
 <p><strong>Track two: switch to a different lender.</strong> A new lender is making a fresh decision. It reviews your credit, your income and the property. A job loss changes the income part of that review.</p>
@@ -44,7 +44,7 @@ ${callout("A plan, in order", "<p>1. Find your maturity date and your renewal of
 
 <p>Renewal has its own calendar. The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> sets out the timeline, the costs of switching and the common traps. The page on <a href="/switch-mortgage-lenders-at-renewal/">switching mortgage lenders at renewal</a> explains the steps one by one. It's useful context before you decide whether to try. If you'd like to talk it through, <a href="/contact/">contact Joshua</a> and describe your timeline.</p>
 
-${cta({ title: "Talk it through before you decide", text: "If your job situation is about to change, a short talk can show which track is open to you. Book a 15-minute call. Joshua has an underwriting background, and he'll tell you honestly what a lender is likely to approve." })}
+${cta({ title: "Talk it through before you decide", text: "If your job situation is about to change, a short talk can show which track is open to you. Book a 15-minute call. Joshua has an underwriting background, and he'll tell you what a lender is likely to approve." })}
 `;
 
 export default {

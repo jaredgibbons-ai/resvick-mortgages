@@ -42,7 +42,7 @@ ${short({ answer: "Every lender counts your base pay in full. Overtime, premiums
 <h2>Joshua's process for a first-responder file</h2>
 <ol>
 <li><strong>A 15-minute call</strong> about your pay, your schedule and your timeline. Shift workers often need the call outside office hours, and that's fine.</li>
-<li><strong>An underwriter's read of your income.</strong> Before anything is sent, Joshua works out what a lender will count. He tells you honestly if the number is lower than you hoped, and what would raise it.</li>
+<li><strong>An underwriter's read of your income.</strong> Before anything is sent, Joshua works out what a lender will count. He tells you if the number is lower than you hoped, and what would raise it.</li>
 <li><strong>Picking the lender.</strong> Lenders differ on probation, on how much variable pay they count and on second jobs. The file goes to the lender whose policy fits. You see the options in a written <a href="/lender-comparison-report/">Lender Comparison Report</a>.</li>
 <li><strong>A clean submission.</strong> Documents are organized and explained up front. The lender's underwriter has no reason to pause.</li>
 <li><strong>Aftercare.</strong> After funding, the <a href="/mortgage-aftercare-program/">aftercare program</a> keeps track of your renewal and your rate. It also tracks changes, like a promotion, a move to a new detachment or a plan to rent out a suite.</li>

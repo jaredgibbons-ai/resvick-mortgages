@@ -38,7 +38,7 @@ ${short({ answer: "Lenders want a track record, not just a score. A common targe
 <h2>Fixing errors and reading your own report</h2>
 <p>Pull your own report from both bureaus before you do anything else. Consumers in Canada are entitled to a free copy of their report from each bureau. Read every line. Look for accounts you don't recognize and balances that are wrong. Look for a paid collection still showing as unpaid. Check for an address or employer that belongs to someone else.</p>
 <p>Errors are more common than people expect. Each bureau has a dispute process for correcting them. A corrected report can move a score meaningfully in weeks. That is faster than any product.</p>
-<p>If you have an unpaid collection, pay it and keep the proof. Equifax Canada notes that a collection stays on the report for six years after the first delinquency, whether or not it is paid. But a mortgage lender reads a paid collection very differently from an active one. Most lenders require collections to be paid before funding anyway.</p>
+<p>If you have an unpaid collection, pay it and keep the proof. Equifax Canada notes that a collection stays on the report for six years after the first delinquency, whether or not it is paid. But a mortgage lender reads a paid collection differently from an active one. Most lenders require collections to be paid before funding anyway.</p>
 ${callout("Take the readiness quiz", "<p>The <a href=\"/mortgage-calculators/#quiz\">mortgage readiness quiz</a> asks a few questions about where you are, including credit. It points you to the guide and the next step that fit. You see the result first, with no sign-up.</p>")}
 
 <h2>A 12-to-24-month runway</h2>

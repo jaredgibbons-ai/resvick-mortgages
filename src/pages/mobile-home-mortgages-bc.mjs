@@ -8,11 +8,10 @@ ${short({
   next: "Before you write an offer, photograph the home's CSA label and find out whether the land is owned or rented."
 })}
 <h2>The first question is not the home, it is the land</h2>
-<p>In BC, a manufactured home can be financed in two very different ways. Which one applies depends on whether you own the land under it.</p>
+<p>In BC, a manufactured home can be financed in two different ways. Which one applies depends on whether you own the land under it.</p>
 <p>A home on land you own, set on a permanent foundation, is real property. It's registered at the Land Title Office with the land. Most lenders treat it much like any other house.</p>
 <p>A home on a rented pad in a manufactured home park isn't attached to land you own. So the lender can't take a mortgage on the land. It can only take a security interest in the home itself.</p>
 <p>That makes the loan closer to a vehicle loan than a mortgage. Expect shorter amortizations, fewer lenders and different rates. Pad rent changes everything, and it's the first thing a broker asks about.</p>
-<p>This page explains both setups. It covers the certification and registration lenders check, and how park rules and pad rent affect what you qualify for. It also covers what the insurers will and won't cover, and your options when a mainstream lender says no.</p>
 <p>It's written for BC buyers looking at a mobile, manufactured or modular home. That could be a first home, a retirement move or a rural property.</p>
 
 <h2>Three kinds of factory-built home, and why the label matters</h2>

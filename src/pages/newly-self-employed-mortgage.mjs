@@ -8,7 +8,6 @@ ${short({ answer: "Most A lenders want two years of tax returns from a business 
 <p>Most A lenders won't use self-employed income until the business has filed two years of tax returns. The rule isn't a judgment about you. It's about businesses in general. A large share of new ventures don't survive their first two years, and a lender can't tell from the outside which ones will.</p>
 <p>Two years of filed returns prove a few things. The business earns money steadily. The income survived a full tax cycle. And you've been paid from it long enough to average the figure.</p>
 <p>The rule frustrates capable people. Think of a dentist who leaves a clinic to open her own practice. Or a project manager who incorporates and signs a contract with his old employer. Or a tradesperson who goes from employee to sole owner, doing the same work. Each may earn more than before. Each may still hear from a bank that they have no usable income.</p>
-<p>This page explains what lenders look for in that gap. It covers the types of lender that will look at a business younger than two years. And it lays out the strategies that make a purchase possible before your second return is filed.</p>
 
 <h2>What counts as continuity</h2>
 <p>The strongest factor in a newly self-employed file is continuity. Is the new business the same kind of work you did as an employee? Take an electrician who worked for a contractor for eight years and now runs an electrical business. A lender can see he hasn't changed careers, only employers. His skills, clients and income all carry over. Many lenders will look at a file like that with less than two years of self-employment, especially with contracts in hand.</p>
@@ -60,7 +59,7 @@ ${callout("Get the pre-approval conversation right", "<p>A pre-approval for a ne
 
 <h2>How Joshua approaches a young business</h2>
 <p>Joshua spent five years as an underwriter. He learned what an underwriter needs to say yes to a file with no history. There's a clear line from the old job to the new business. The deposits match the story. And nothing is left unexplained.</p>
-<p>He builds your file in that order and finds the lenders interested in your case. Then he tells you honestly what's best: buy now with a B lender, bring in a co-signer, or wait a year. Every client gets a written comparison before deciding.</p>
+<p>He builds your file in that order and finds the lenders interested in your case. Then he tells you what's best: buy now with a B lender, bring in a co-signer, or wait a year. Every client gets a written comparison before deciding.</p>
 <p>The fees are simple. On an A-lender mortgage, the lender pays the broker and you pay nothing. On B or private files, any fee is disclosed in writing on BCFSA Form 1A before you commit.</p>
 <p><a href="/contact/">Contact Joshua</a> and bring your start date, your former role and any contracts you hold. That's enough for a first answer.</p>
 

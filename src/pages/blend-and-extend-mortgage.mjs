@@ -8,7 +8,6 @@ ${short({ answer: "A blend-and-extend mixes your current rate with today's rate 
 <p>Say your mortgage has two years left, at a rate higher than today's rates. You'd like the lower payment now, not at maturity. Breaking the mortgage would trigger a prepayment penalty.</p>
 <p>A blend-and-extend offers another route. Your lender mixes your current rate with its current rate for a longer term. That gives one blended rate. A new, longer term then starts at that rate. You don't pay a prepayment penalty, because you're not leaving the mortgage. You're renegotiating it with the same lender.</p>
 <p>That sounds like a free upgrade. Sometimes it's a good one. But it's not free. The cost hides in two places. First, the blended rate is a compromise between your old rate and the new one. So you don't get the full benefit of today's rates. Second, you're committed to the lender for a longer term.</p>
-<p>This page explains the math and when blending beats breaking. It also covers when blending is worse than doing nothing, and what to ask a lender that offers it. Rates in the examples are illustrative.</p>
 
 <h2>How the blend works, with numbers</h2>
 <p>Take a $400,000 balance with 20 years of amortization left. The current rate is 5.00 percent, with 2 years left in the term. For illustration, the lender's current five-year rate is 4.00 percent.</p>

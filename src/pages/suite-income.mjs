@@ -15,7 +15,6 @@ ${short({
 <p>Suites are everywhere in the Fraser Valley. Many homes come with a basement suite, a laneway home or a second unit. Most buyers want to know the same thing. Will a lender let the rent help me qualify?</p>
 <p>The honest answer is a method, not one number. Lenders don't just add the rent to your income. Each one uses a formula that counts a share of it. The share, the formula and the paperwork all differ from lender to lender.</p>
 <p>That matters. The same suite, with the same tenant and the same rent, can raise your approval a little at one lender and a lot at another. It can also count for nothing.</p>
-<p>This page explains the two common methods. It runs the same suite through each one. It covers the rule that decides whether the rent counts at all, and it lists the proof a lender will ask for. The percentages here are typical ranges, not promises. Only your own file gives a real answer.</p>
 
 <h2>The two methods side by side</h2>
 <p><strong>Rental offset.</strong> A share of the rent, often between 50 and 80 percent, is taken off the home's carrying costs. Your mortgage payment, property tax and heat are reduced by that credit. Only what's left counts against your income in the ratios. Offset tends to help most when a suite brings in good rent.</p>

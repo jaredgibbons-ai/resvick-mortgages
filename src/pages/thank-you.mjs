@@ -11,7 +11,7 @@ ${more ? `<p class="thx-more">${more}</p>` : ""}
 
 const blocks = [
   block("other", "Thank you", "Your details reached Joshua. He reads and replies himself.",
-    ["Joshua reads your message himself.", "He replies by email or phone, from the person who will actually work on your file.", "If anything has a deadline, phone or text so it does not wait in a queue."],
+    ["Joshua reads your message himself.", "He replies by email or phone, from the person who will work on your file.", "If anything has a deadline, phone or text so it does not wait in a queue."],
     `While you wait, the <a href="/mortgage-calculators/">mortgage calculators</a> give you rough numbers, and the <a href="/resources/">resources page</a> lists every guide.`),
   block("contact", "Thank you. Your message is in.", "Joshua reads every message himself and replies by email or phone.",
     ["Joshua reads your message and replies himself.", "He may reply with a question or two first, so he can point you the right way.", "Nothing is required of you. There is no obligation, and he will not ask for documents yet."],

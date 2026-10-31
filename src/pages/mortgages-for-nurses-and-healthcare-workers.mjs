@@ -7,7 +7,6 @@ ${short({ answer: "Lenders count base pay in full. Overtime, premiums and casual
 <h2>Your situation</h2>
 <p>You hold a casual line at one health authority and pick up shifts at a second site. Some months you earn more from overtime and premiums than from your scheduled hours. Your pay stubs are long, and your T4s come from more than one employer.</p>
 <p>You might be a nurse, a care aide, a lab technologist or a respiratory therapist. You might be a pharmacist, or a physician in the early years of practice. When you asked about a mortgage, the first answer ignored half of what you earn. The software couldn't see a pattern in a schedule you know is as steady as any salary.</p>
-<p>This page explains how lenders read healthcare income and which documents settle the question. It also shows how Joshua, a former underwriter, builds the file so the right number gets counted.</p>
 
 <h2>How lenders see healthcare income</h2>
 <p>Lenders sort healthcare workers into three groups. Your group decides how much work the application takes.</p>
@@ -41,7 +40,7 @@ ${short({ answer: "Lenders count base pay in full. Overtime, premiums and casual
 <h2>Joshua's process</h2>
 <ol>
 <li><strong>A 15-minute call,</strong> booked around your shifts. You talk about your positions, your pay history and what you want to buy.</li>
-<li><strong>Income read first.</strong> Joshua works out what each type of lender will count. Before you look at homes, he tells you honestly where the number lands and what would move it.</li>
+<li><strong>Income read first.</strong> Joshua works out what each type of lender will count. Before you look at homes, he tells you where the number lands and what would move it.</li>
 <li><strong>A real pre-approval.</strong> A <a href="/mortgage-pre-approval-bc/">pre-approval</a> that has actually been through your documents, not a rate quote. For a healthcare file, that's the whole game.</li>
 <li><strong>The right lender.</strong> It's chosen for its policy on casual and multi-employer income. You see the options in a written Lender Comparison Report.</li>
 <li><strong>A clean submission and aftercare.</strong> Your documents are explained up front. The relationship continues after funding, so a move to a new line or region gets handled early.</li>

@@ -61,7 +61,7 @@ ${jump}
 ${sections}
 <h2>Dated news and rule changes</h2>
 <p>The guides above are kept current and carry no dates on purpose. When something changes, it gets its own dated post in <a href="/guides/">Guides</a>. That might be a Bank of Canada decision or a new federal rule. Then the guide that carries the rule gets updated.</p>
-${cta({ title: "Can't find your question?", text: "Ask it. A 15-minute call is free, and you'll talk to the person who would actually do the work." })}
+${cta({ title: "Can't find your question?", text: "Ask it. A 15-minute call is free, and you'll talk to the person who would do the work." })}
 `;
 
 export default {

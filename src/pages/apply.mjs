@@ -140,7 +140,7 @@ ${callout("If you have an accepted offer", `<p>Skip this form and go straight to
 <p>If you're self-employed, the income question is the one lenders argue about most. I'd rather hear your real situation than a tidy number. The <a href="/self-employed-mortgage-bc/">self-employed mortgage guide</a> explains why declared income, business revenue and what a lender will count are three different figures. If your credit has had a rough patch, say so in the notes. It changes which lenders I'd look at, not whether I'll help.</p>
 <p>Not sure this is the right form? Want to ask one question first? That's what the call is for. <a href="/contact/">Get in touch</a> whichever way is easiest.</p>
 
-${cta({ title: "Prefer to talk it through first?", text: "Fifteen minutes on the phone covers most of what this form asks, and I'll tell you honestly where you stand." })}
+${cta({ title: "Prefer to talk it through first?", text: "Fifteen minutes on the phone covers most of what this form asks, and I'll tell you where you stand." })}
 `;
 
 export default {

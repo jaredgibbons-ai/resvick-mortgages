@@ -8,7 +8,6 @@ ${short({ answer: "A 3-year fixed gives you a set payment for three years, then 
 <p>A 3-year fixed is the quiet option in the rate table. It gets less advertising than the five-year term. Fewer people choose it. Yet it solves a real problem. Life tends to change faster than a five-year commitment assumes.</p>
 <p>People move. They separate, start businesses, have kids, build suites and change jobs. A shorter term means the mortgage gets in the way of those changes for less time. It also brings your next decision point closer.</p>
 <p>The trade is simple. A shorter term gives you more flexibility and more frequent renewals. In return, you take more risk on whatever rates are on the renewal date. Sometimes you also pay a slightly higher rate than the five-year term.</p>
-<p>This page explains who the 3-year fixed suits and how to compare it fairly with the five-year. It also shows how the penalty works at different points in the term. This page prints no rate in its text. A 15-minute call gets you today's number for your own file.</p>
 ${ratesStrip()}
 
 <h2>How the 3-year rate compares with the 5-year rate</h2>

@@ -13,7 +13,6 @@ ${short({ answer: "In BC, a lender can only foreclose through the Supreme Court.
 </ul>
 <p>Default is a breach of contract, not a court finding. Most defaults get fixed quietly. The payment is made, the taxes are paid, and nothing more happens.</p>
 <p>Foreclosure is what a lender can do if a default isn't fixed. In British Columbia, it's a court process from the first step to the last.</p>
-<p>This page walks through that process stage by stage. It follows the People's Law School guide to foreclosure, reviewed for legal accuracy in April 2025. It names the way out at each stage.</p>
 <p>This is general information, not legal advice. If you've been served with a petition, get legal advice now. Then come back and read the rest.</p>
 
 <h2>Why BC is different: there is no power of sale here</h2>

@@ -6,8 +6,6 @@ const body = `
 ${short({ answer: "Your renewal letter is your lender's first offer, not your only one. At maturity you can sign, negotiate, switch lenders with no penalty, or refinance. Start comparing about 120 days before your term ends.", who: "BC homeowners whose renewal letter has arrived, or whose maturity date is within the next year.", next: "Run the renewal calculator below, or set a <a href=\"/mortgage-renewal-reminder/\">free renewal reminder</a> if you're still months away." })}
 <h2>Your renewal letter is one offer, not the only offer</h2>
 <p>Has a letter from your lender landed on the counter? Is your maturity date coming into view? Then this page is for you.</p>
-<p>It explains what a renewal actually is and what your real choices are. It covers when to act and what to check before you sign. Here's the short version. That letter is your lender's opening offer. In most cases, you're free to compare it with others before your maturity date. Most people don't, which is why it's worth a few minutes here.</p>
-<p>Joshua Resvick is a BC mortgage broker. He has ten years as a broker, five years as an underwriter before that, and over 1,000 mortgages funded. He writes these pages for people whose payment might be about to change. They'd like to understand their options before picking one.</p>
 
 <h2>Why so many people are renewing at once</h2>
 <p>Most Canadian mortgages have terms of five years or less. So they come up for renewal fairly often. Right now, an unusually large crowd is renewing at the same time.</p>
@@ -72,6 +70,9 @@ ${cta({ title: "Four months out? That's the moment.", text: "Book a 15-minute ca
 <p>And since it comes up, here's how fees work. With a mainstream (A) lender, the lender pays the broker, and you pay nothing for the service. Fees come up only on some B-lender and private-lender files. BC rules require written disclosure before you commit.</p>
 
 ${callout("Illustrative figures", "<p>The payment and interest examples on this page use sample balances and rates to make a point. They aren't quotes. Your lender's figures, and the rates available to you on the day, will differ.</p>")}
+
+<h2>Who wrote this</h2>
+<p>Joshua Resvick is a BC mortgage broker. He has ten years as a broker, five years as an underwriter before that, and over 1,000 mortgages funded. He writes these pages for people whose payment might be about to change. They'd like to understand their options before picking one.</p>
 `;
 
 export default {

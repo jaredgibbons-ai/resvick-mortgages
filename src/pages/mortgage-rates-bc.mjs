@@ -7,7 +7,7 @@ ${ratesStrip()}
 
 <h2>Start with what a rate is, and what it is not</h2>
 <p>A mortgage rate is the price of borrowing. It's stated as a yearly percentage. It's the number everyone talks about.</p>
-<p>Oddly, it's also the number that tells you the least about whether a mortgage is any good. Two mortgages with the same rate can cost very different amounts. The differences hide in four places:</p>
+<p>Oddly, it's also the number that tells you the least about whether a mortgage is any good. Two mortgages with the same rate can cost different amounts. The differences hide in four places:</p>
 <ul>
 <li>The penalty to leave early.</li>
 <li>The limits on extra payments.</li>
@@ -44,7 +44,7 @@ ${ratesStrip()}
 <h2>Fixed versus variable at a glance</h2>
 <p>A fixed rate stays put for the whole term, so your payment is predictable. A variable rate moves with the lender's prime rate. Prime follows the Bank of Canada's policy rate. So what you pay can change during the term.</p>
 <p>Neither one is better in general, whatever anyone tells you at a barbecue. It comes down to three things. How much payment uncertainty can you live with? How likely are you to leave the mortgage early? What penalty would that trigger?</p>
-<p>The page on <a href="/fixed-vs-variable-mortgage/">fixed versus variable mortgages</a> works through the trade-offs properly. The page on <a href="/variable-rate-mortgage/">variable rate mortgages</a> explains the two very different ways a variable can behave. Your choice also shapes the penalty if you leave early. That's covered below and on the page about the <a href="/interest-rate-differential/">interest rate differential</a>.</p>
+<p>The page on <a href="/fixed-vs-variable-mortgage/">fixed versus variable mortgages</a> works through the trade-offs properly. The page on <a href="/variable-rate-mortgage/">variable rate mortgages</a> explains the two different ways a variable can behave. Your choice also shapes the penalty if you leave early. That's covered below and on the page about the <a href="/interest-rate-differential/">interest rate differential</a>.</p>
 
 <h2>Term lengths compared</h2>
 <p>The term is how long your rate and conditions are locked in. It can run from a few months to ten years, depending on the lender.</p>

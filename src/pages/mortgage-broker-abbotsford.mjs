@@ -8,7 +8,7 @@ const body = `
 ${short({
   answer: "Joshua Resvick serves Abbotsford online and by phone from his Surrey office. He handles suite homes, first-time purchases, renewals, and the acreage and farm files that make Abbotsford different.",
   who: "Abbotsford buyers and homeowners, especially anyone looking at an acreage, a farm or a home with a suite.",
-  next: "Book a 15-minute call before you fall for an acreage, so you know what a lender will actually value."
+  next: "Book a 15-minute call before you fall for an acreage, so you know what a lender will value."
 })}
 <h2>A city where most of the land is farmland</h2>
 <p>Abbotsford is the largest city in the Fraser Valley. What shapes its mortgages more than anything else is land.</p>
@@ -42,7 +42,7 @@ ${ratesStrip()}
 
 <h2>Self-employed, trades and farm income</h2>
 <p>Abbotsford's economy runs on farming, trucking and logistics, construction and trades. The regional hospital, the university and the airport are big employers too.</p>
-<p>So many households have income that isn't a simple T4. It might be farm returns, owner-operator income, contractor invoices or dividends from a company. Lenders read these differently. Two years of returns can support very different approvals, depending on the lender.</p>
+<p>So many households have income that isn't a simple T4. It might be farm returns, owner-operator income, contractor invoices or dividends from a company. Lenders read these differently. Two years of returns can support different approvals, depending on the lender.</p>
 <p>The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains add-backs, averaging and stated-income programs. It also covers when a fee can apply.</p>
 <p>On a mortgage with a mainstream lender, the lender pays the broker and you pay nothing for the service. Fees only come up on some B-lender and private files, with written disclosure first.</p>
 
@@ -63,7 +63,7 @@ ${ratesStrip()}
 
 ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-langley/">Langley</a> and <a href="/mortgage-broker-surrey/">Surrey</a>, where his office is. He also serves Mission, Chilliwack and the rest of the Fraser Valley. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from an Abbotsford client helps the next family find him.</p>`)}
 
-${cta({ title: "Buying a suite home, an acreage or a first townhouse in Abbotsford?", text: "Book a 15-minute call. You'll leave knowing what's realistic for the property you want, including what a lender will actually value." })}
+${cta({ title: "Buying a suite home, an acreage or a first townhouse in Abbotsford?", text: "Book a 15-minute call. You'll leave knowing what's realistic for the property you want, including what a lender will value." })}
 <p>For anything else, the <a href="/contact/">contact page</a> has the details.</p>
 `;
 

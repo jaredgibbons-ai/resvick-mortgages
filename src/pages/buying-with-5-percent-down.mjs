@@ -6,7 +6,6 @@ ${short({ answer: "Yes. You can buy in BC with 5 percent down, but only on the f
 <h2>The direct answer</h2>
 <p>Yes, you can buy a home in British Columbia with 5 percent down. It is legal, it is insured, and it is a common route for first-time buyers. There are three conditions to know before you plan around it.</p>
 <p>First, the 5 percent applies only to the first $500,000 of the price. On a more expensive home, the minimum is a blend. Second, buying with less than 20 percent down requires mortgage default insurance. The premium is added to your mortgage. Third, you still have to qualify at the stress-test rate, which is higher than the rate you will pay.</p>
-<p>This page explains each of those. It shows what 5 percent costs next to 10 and 20 percent, using a worked example. It also covers when a small down payment is a sound choice and when it is a stretch.</p>
 
 <h2>Who is eligible</h2>
 <p>The federal insured-mortgage rules set the minimum down payment. It is 5 percent of the first $500,000 of the price. It is 10 percent of the part from $500,000 up to a price below $1,500,000. At $1,500,000 and above, the minimum is 20 percent and insurance is not available. Insurers state the limit as a purchase price below $1,500,000, so that is the wording to use.</p>
@@ -63,7 +62,7 @@ ${callout("The $500,000 line", "<p>The 5 percent rate applies to the first $500,
 export default {
   slug: "/buying-with-5-percent-down/",
   h1: "Can I buy a house with 5% down in BC?",
-  lede: "Yes, with these rules: the first $500,000 at 5%, mortgage insurance, the stress test and a price below $1.5 million. Here is what it really costs.",
+  lede: "Yes, with these rules: the first $500,000 at 5%, mortgage insurance, the stress test and a price below $1.5 million. Here is what it costs.",
   crumbs: [["Home", "/"], ["First-time home buyers", "/first-time-home-buyer-bc/"], ["Buying with 5% down", "/buying-with-5-percent-down/"]],
   nav: "/first-time-home-buyer-bc/", body,
   faqs: [

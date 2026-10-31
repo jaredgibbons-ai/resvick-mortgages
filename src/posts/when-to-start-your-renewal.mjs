@@ -43,7 +43,7 @@ ${short({
 <p>Inside the window, your lender will usually discuss renewal terms. Other lenders can hold a rate for you while you compare. Nothing has to be signed.</p>
 <p>The <a href="/early-mortgage-renewal/">early renewal guide</a> separates two things. Renewing inside the window costs nothing. Renewing before the window opens means breaking the current term, and usually paying a penalty.</p>
 <p>At 120 days, the practical steps are simple. Ask your current lender for its offer. Have a broker approach other lenders. Compare the results in writing.</p>
-<p>A switch at maturity carries no prepayment penalty, because the old mortgage simply ends.</p>
+<p>A switch at maturity carries no prepayment penalty, because the old mortgage ends.</p>
 <p>The rules changed in late 2024, too. Since then, a straight switch to a new federally regulated lender generally doesn't need a new stress test. That's as long as the balance and amortization don't go up.</p>
 <p>The <a href="/switch-mortgage-lenders-at-renewal/">switching guide</a> covers the costs, the steps and the exceptions. Those include credit unions and collateral charges.</p>
 <p>If the comparison shows your current lender is competitive, you can renew there. You'll know it was checked.</p>

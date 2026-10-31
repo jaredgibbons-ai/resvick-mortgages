@@ -8,7 +8,8 @@ ${short({ answer: "An open mortgage lets you pay it off anytime with no penalty,
 <p>An <strong>open mortgage</strong> lets you pay off some or all of the balance at any time, with no penalty. A <strong>closed mortgage</strong> limits how much you can prepay during the term. It charges a penalty if you pay it out, or break it, before the term ends.</p>
 <p>Almost every mortgage in Canada is closed, and the reason is price. Lenders charge more for the right to leave at any moment. An open mortgage gives them no certainty about how long they'll earn interest on the money.</p>
 <p>So the choice is a trade. You pay a higher rate for freedom, or a lower rate for limits. Neither is better in general. The right one depends on how likely you are to need the freedom, and what it costs.</p>
-<p>This page shows how to price that trade. It covers the maturity trap that turns many borrowers into open-mortgage holders by accident. And it explains the middle path of prepayment privileges. It prints no current rates. The <a href="/mortgage-rates-bc/">mortgage rates hub</a> explains how your rate is set. A 15-minute call gets you today's number for your own file.</p>
+
+<p>No current rates are printed here, because they change often. The <a href="/mortgage-rates-bc/">mortgage rates hub</a> explains how your rate is set, and a 15-minute call gets you today's number for your own file.</p>
 
 <h2>What the open-mortgage premium looks like</h2>
 <p>Open rates are usually higher than closed rates for the same term, and the gap isn't small. It varies by lender and by when you ask, so no single number applies.</p>

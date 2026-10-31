@@ -7,7 +7,6 @@ ${short({ answer: "Most mainstream lenders won't count Airbnb income. And since 
 <h2>Two sets of rules, and both have changed</h2>
 <p>Financing a property with short-term rental income in BC means passing two tests. The first is the lender. It decides whether nightly rental income counts toward your mortgage at all, and if so, how much. The second is the Province. Since 2024, it has limited where short-term rentals are allowed and made hosts register.</p>
 <p>A property can pass one test and fail the other. A plan built on Airbnb income needs to clear both before you write an offer.</p>
-<p>This page covers the lender side first, because that's what a mortgage broker is for. Then it covers the provincial rules that shape which properties can earn this income at all. Last, it covers the financing routes that are still open.</p>
 <p>It also deals with one specific trap. Short-term rentals are excluded from CMHC's secondary suite refinance program. So a suite built with that program can't go on Airbnb.</p>
 
 <h2>How lenders treat short-term rental income</h2>

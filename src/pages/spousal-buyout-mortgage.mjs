@@ -37,7 +37,7 @@ ${short({
 <p>If the staying partner's income falls a little short, a <a href="/mortgage-with-a-cosigner/">co-signer</a> is sometimes the answer. Make sure the co-signer understands their own duties and risks first.</p>
 <p>The <a href="/mortgage-application-checklist/">application checklist</a> lists the documents. For a buyout, add the agreement, the appraisal and a payout statement to the usual set.</p>
 
-${cta({ title: "A confidential conversation first", text: "Book a 15-minute call. Joshua will look at the numbers and tell you honestly whether keeping the home is realistic on your income. He'll also explain what the lender and insurer will need, before anything is signed." })}
+${cta({ title: "A confidential conversation first", text: "Book a 15-minute call. Joshua will look at the numbers and tell you whether keeping the home is realistic on your income. He'll also explain what the lender and insurer will need, before anything is signed." })}
 
 <h2>Title and release from the mortgage</h2>
 <p>A buyout is only done when two things happen, one at the land title office and one at the lender. The departing partner's name comes off the title. And the departing partner is released from the mortgage.</p>

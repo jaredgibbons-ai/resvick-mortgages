@@ -52,7 +52,7 @@ ${short({ answer: "A bridge loan lends you the equity from your old home, for da
 ${cta({ title: "Buying and selling in the same window?", text: "Book a 15-minute call before you write the offer. Joshua will map both completion dates, check whether your new lender can bridge, and show you what the gap would cost, so the timing is a plan rather than a scramble." })}
 
 <h2>The plan-B conversation</h2>
-<p>Every bridge rests on the sale closing. Sales usually do close, but not always. A buyer's financing can fail. A strata document can surface a problem. A buyer can simply default. If that happens after your purchase has completed, you own two homes. The bridge is outstanding, and the lender expects repayment.</p>
+<p>Every bridge rests on the sale closing. Sales usually do close, but not always. A buyer's financing can fail. A strata document can surface a problem. A buyer can default. If that happens after your purchase has completed, you own two homes. The bridge is outstanding, and the lender expects repayment.</p>
 <p>Have this conversation before you commit, not after. The questions are practical:</p>
 <ul>
 <li>If the sale collapsed, could you carry two mortgages for a few months while re-listing?</li>
@@ -85,7 +85,7 @@ export default {
   faqs: [
     { q: "What is bridge financing?", a: "A short-term loan that advances the equity from the home you are selling so you can complete the purchase of your next home before the sale closes. It is secured by the home being sold and repaid from the sale proceeds, with daily interest and usually a set-up fee." },
     { q: "Can I get a bridge loan without a firm sale?", a: "Generally no. Lenders bridge against an unconditional contract with all subjects removed and a completion date set. Without a firm sale, what you need is a different and more expensive product, usually from a private lender." },
-    { q: "How long can a bridge loan last?", a: "Most are for days to a few weeks, and lenders set a maximum that varies, sometimes a few months. Longer bridges cost more in daily interest and receive more scrutiny. The bridge period is simply the gap between your two completion dates." },
+    { q: "How long can a bridge loan last?", a: "Most are for days to a few weeks, and lenders set a maximum that varies, sometimes a few months. Longer bridges cost more in daily interest and receive more scrutiny. The bridge period is the gap between your two completion dates." },
     { q: "How much does a bridge loan cost?", a: "Daily interest at a rate above mortgage rates, usually prime plus a spread, on the amount advanced for the days outstanding, plus a lender administration fee and some extra legal work. On a short gap the interest is modest; the fee and rate vary by lender, so ask for both." },
     { q: "What happens if my sale falls through after I have bridged?", a: "You own two homes and the bridge is still owed. Options include carrying both mortgages while re-listing, asking the lender to extend, or private lending against the unsold home. Decide before committing whether you could manage that scenario." }
   ]

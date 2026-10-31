@@ -11,7 +11,6 @@ ${short({
 <h2>Your situation</h2>
 <p>The house is bigger than you need. The stairs feel longer, and the yard takes a weekend you would rather spend elsewhere. Most of what you own is the equity in that house. So you are thinking about selling and moving to something smaller. It might be a townhouse, a condo or a rancher, maybe in a different town.</p>
 <p>People treat this as a real estate decision, and it is. But it is also a mortgage event. It has its own timing and its own costs. A few of the choices are easy to get wrong.</p>
-<p>This page covers the mortgage side of downsizing in British Columbia. We look at whether to carry a mortgage into the next home. We look at how to handle the gap between selling and buying. We look at what porting your mortgage can save, and at the option of staying put. Joshua Resvick is a BC mortgage broker and former underwriter. He works with downsizing clients across the province.</p>
 
 <h2>Start with the proceeds, not the listing</h2>
 <p>Everything else depends on one number: what you will actually net from the sale. It is less than the sale price. Several costs come off the top:</p>

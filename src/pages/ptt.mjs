@@ -8,7 +8,7 @@ ${short({ answer: "BC property transfer tax is 1 percent on the first $200,000 a
 <h2>Calculate your BC property transfer tax</h2>
 <p>The property transfer tax is a one-time tax paid to the Province of British Columbia when a property changes hands. It's due when the transfer is registered at the land title office. Your lawyer or notary collects it from you as part of your closing funds. It's one of the biggest costs on completion that buyers forget to plan for. For many first-time buyers, it can be reduced or removed.</p>
 <div class="tools">${TOOLS.ptt()}</div>
-<p>The calculator works out the general tax and the extra tax on very high-value homes. Then it applies whichever exemption fits. The sections below explain each step, so you can check the math yourself.</p>
+<p>The calculator works out the general tax and the extra tax on high-value homes. Then it applies whichever exemption fits. The sections below explain each step, so you can check the math yourself.</p>
 
 <h2>How the general tax is calculated</h2>
 <p>The tax is charged on the property's fair market value. In a normal arm's-length purchase, that's the price you pay. It works in bands, like income tax. Each rate applies only to the slice of value inside its band.</p>

@@ -10,7 +10,6 @@ ${short({
 <h2>Keeping the old home is a decision with four moving parts</h2>
 <p>When you move and keep your current home as a rental, nothing physical changes. The house is the same. The mortgage is the same. The address is the same. But four different parties start treating it differently. They are the lender on your existing mortgage, the lender on your new purchase, your insurer, and the Canada Revenue Agency.</p>
 <p>Each has its own rules about a property that stops being your home and starts being an investment. Ignore any one of them, and you create a problem that shows up later, usually at the worst time.</p>
-<p>This page is a checklist, in the order the steps tend to come up. It's written for a BC homeowner who is buying a new home and wants to keep the current one. That's the most common version. The tax section is general information and points you to an accountant. The tax treatment of a converted home is where the biggest and least reversible mistakes happen.</p>
 
 <h2>Step one: tell your existing lender, and read your mortgage</h2>
 <p>Most residential mortgages are approved on the basis that you live in the property. An insured mortgage has a down payment under 20 percent and a CMHC, Sagen or Canada Guaranty premium. It was specifically underwritten as owner-occupied.</p>

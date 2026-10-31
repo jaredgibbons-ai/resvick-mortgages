@@ -25,7 +25,7 @@ ${short({ answer: "Yes, you can get a mortgage in BC with bad credit. It changes
 <li><strong>Equity or down payment.</strong> The more of the property you own, the less the lender loses if things go wrong. A 25 or 35 percent down payment opens doors that 20 percent doesn't. On a refinance, a low loan-to-value ratio does the same job.</li>
 <li><strong>Steady income.</strong> A long time in the same job or business, with income that's easy to document, tells an underwriter the payments will be made.</li>
 <li><strong>Low ratios.</strong> A mortgage well inside the debt limits leaves room for error. Lenders notice.</li>
-<li><strong>An explanation that adds up.</strong> A credit problem with a clear cause and a clear end reads very differently from a pattern with no story. Think of a job loss, an illness or a separation, followed by a clean stretch. Most bruised-credit applications include a short letter of explanation. Joshua helps you write it.</li>
+<li><strong>An explanation that adds up.</strong> A credit problem with a clear cause and a clear end reads differently from a pattern with no story. Think of a job loss, an illness or a separation, followed by a clean stretch. Most bruised-credit applications include a short letter of explanation. Joshua helps you write it.</li>
 </ul>
 
 <h2>Collections, judgments and arrears</h2>

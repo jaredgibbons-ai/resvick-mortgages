@@ -10,7 +10,7 @@ ${short({
 <h2>Proposal versus bankruptcy, in a lender's eyes</h2>
 <p>A consumer proposal is a legal deal filed through a licensed insolvency trustee. You offer creditors a partial repayment over up to five years, instead of declaring bankruptcy. You keep your assets, including a home. Creditors accept less than the full amount.</p>
 <p>Lenders know the difference between a proposal and a bankruptcy. They read a proposal a little more kindly, because it shows an effort to repay. It's still an insolvency event, though, and it's treated as one.</p>
-<p>What lenders want to know is the proposal's status. There are three very different positions. It's still being paid, it was just completed, or it's several years behind you. Your options change a lot at each stage, and this page takes them one by one.</p>
+<p>What lenders want to know is the proposal's status. There are three different positions. It's still being paid, it was just completed, or it's several years behind you. Your options change a lot at each stage, and this page takes them one by one.</p>
 <p>It also explains how long a proposal stays on your credit report. It's shorter than many people fear, and you don't have to wait for it to disappear.</p>
 
 <h2>How long a proposal stays on your report</h2>

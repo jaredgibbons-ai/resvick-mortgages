@@ -8,7 +8,6 @@ ${short({ answer: "A private mortgage lends mainly against your property, not yo
 <p>A private mortgage is a loan secured against real estate. Someone other than a bank, credit union or institutional B lender funds it. The money comes from an individual investor, a group of investors, or a mortgage investment corporation (MIC). A MIC pools investors' money and lends it out.</p>
 <p>In BC, licensed mortgage brokers arrange private mortgages. They're registered on title like any other mortgage. Your lawyer handles the closing the usual way.</p>
 <p>What makes a private lender different is what it lends against. Banks lend mainly against income and credit, with the property as security. Private lenders lend mainly against the property. Income and credit come second. That's why a private lender can say yes in days to a file a bank won't touch. It's also why a private mortgage costs what it does.</p>
-<p>This page explains when private lending is the right tool and what it really costs. It shows why the exit plan is the product. And it covers the protections that exist for borrowers.</p>
 
 <h2>The legitimate use cases</h2>
 <p>Private lending has a reputation it only partly deserves. Used for the right reason, for a short time, with a way out, it solves problems nothing else can.</p>
@@ -60,7 +59,7 @@ ${cta({ title: "Facing a deadline?", text: "Call or book a 15-minute conversatio
 export default {
   slug: "/private-mortgage-lending-bc/",
   h1: "Private mortgage lending in BC: fast, expensive, and sometimes the right tool",
-  lede: "Private mortgages solve time and qualification problems at a price. Here is when private is the right answer in BC, what it really costs in full, and why the exit plan is the product.",
+  lede: "Private mortgages solve time and qualification problems at a price. Here is when private is the right answer in BC, what it costs in full, and why the exit plan is the product.",
   crumbs: [["Home", "/"], ["Self-employed", "/self-employed-mortgage-bc/"], ["Private lending", "/private-mortgage-lending-bc/"]],
   nav: "/self-employed-mortgage-bc/",
   body,

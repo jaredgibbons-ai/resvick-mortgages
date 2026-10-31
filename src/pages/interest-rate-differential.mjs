@@ -18,7 +18,7 @@ ${short({
 <p>The <strong>contract-rate method</strong> compares your rate with the rate the lender charges today for a term that matches your time left. With three years left, the lender looks at its current three-year rate. The IRD is the gap between the two rates.</p>
 <p>The <strong>posted-rate method</strong> works differently. First, the lender looks at the discount you got at the start. That's the gap between the posted rate back then and the rate you were given.</p>
 <p>Then it takes today's posted rate for your remaining term and subtracts that same discount. The result is the comparison rate. The IRD is the gap between your rate and that comparison rate.</p>
-<p>The comparison rate comes from posted rates, not the rates the lender actually charges today. So the result can look very different from the contract-rate method.</p>
+<p>The comparison rate comes from posted rates, not the rates the lender actually charges today. So the result can look different from the contract-rate method.</p>
 
 <h2>A worked example with generic figures</h2>
 <p>These figures are illustrative, not any lender's formula. They show how the methods compare on the same mortgage.</p>

@@ -53,7 +53,7 @@ ${short({ answer: "You don't need years of Canadian credit. Canada's three mortg
 <li><strong>A document plan.</strong> Newcomer files are won on paperwork. That means foreign bank statements, transfer records, an international credit report or bank letter, and an employment letter. Joshua tells you exactly what to gather and in what form.</li>
 <li><strong>Lender selection.</strong> Lenders differ on probation, credit alternatives and foreign funds. Your file goes to one whose policy fits. You see the options in a written Lender Comparison Report.</li>
 <li><strong>A clean submission,</strong> with every unusual item explained before the lender asks.</li>
-<li><strong>Aftercare.</strong> The relationship continues after funding. That matters for a newcomer, whose income and credit will look very different at renewal.</li>
+<li><strong>Aftercare.</strong> The relationship continues after funding. That matters for a newcomer, whose income and credit will look different at renewal.</li>
 </ol>
 
 <h2>What the service costs</h2>

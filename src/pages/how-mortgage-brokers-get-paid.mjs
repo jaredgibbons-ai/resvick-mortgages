@@ -52,7 +52,7 @@ ${cta({ title: "Ask the question on a call", text: "Want to know exactly what a 
 <li><strong>"Brokers raise the rate to cover their fee."</strong> On an A-lender mortgage, the lender pays the fee, and it isn't added to your rate. The written comparison lets you see the rates and terms on offer side by side.</li>
 <li><strong>"If it's free, the service must be thin."</strong> The work is real. It covers the application, lender selection, paperwork, negotiation and managing the file to funding. Who pays says nothing about how much work gets done.</li>
 <li><strong>"Banks never charge fees and brokers always do."</strong> Neither is true. Banks can charge fees for some products or services. Brokers on A-lender files don't charge the borrower.</li>
-<li><strong>"The cheapest rate is the cheapest mortgage."</strong> Penalties, prepayment limits and flexibility change what a mortgage really costs. The <a href="/mortgage-rates-bc/">guide to mortgage rates</a> shows how to think about it.</li>
+<li><strong>"The cheapest rate is the cheapest mortgage."</strong> Penalties, prepayment limits and flexibility change what a mortgage costs. The <a href="/mortgage-rates-bc/">guide to mortgage rates</a> shows how to think about it.</li>
 </ul>
 
 <h2>What to ask any broker</h2>

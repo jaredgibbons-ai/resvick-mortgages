@@ -11,8 +11,7 @@ ${short({
 <p>If you run your own business, you've likely spent years keeping your taxable income low. Your accountant helps you claim every fair deduction. Vehicle costs, a home office, equipment, and profit left in a corporation all shrink the number on line 15000 of your return.</p>
 <p>Then you apply for a mortgage. The bank looks at that exact line. It tells you that you don't earn enough to buy a house you can clearly afford.</p>
 <p>That's the paradox. The tax system rewards a small income. The mortgage system punishes it. Neither one is wrong. They're just measuring different things.</p>
-<p>A broker's job on a self-employed file is to find the lender whose rules match how your business really works. Then the file gets built so an underwriter can approve it without guessing.</p>
-<p>Joshua Resvick spent five years as a mortgage underwriter before he became a broker. Self-employed files are where that background pays off. This page is the hub for the topic. It covers the three doors you can walk through. It shows how sole owners and corporations get read differently. It lists the documents lenders want, and it explains what you pay when the bank's door is the wrong one.</p>
+<p>A broker's job on a self-employed file is to find the lender whose rules match how your business works. Then the file gets built so an underwriter can approve it without guessing.</p>
 
 <h2>The three doors</h2>
 <p>Almost every self-employed mortgage in BC goes through one of three kinds of lender. Each has different rules and a different cost. Let's take them one at a time.</p>
@@ -70,6 +69,9 @@ ${callout("What a broker costs on a self-employed file", "<p>When a mortgage goe
 <p>A good first step is the <a href="/mortgage-calculators/#affordability">affordability calculator</a>. Use the income a lender is likely to count, not what you really earn. Then <a href="/contact/">book a 15-minute call</a> to find out which door fits your file today.</p>
 
 ${cta({ title: "Self-employed and not sure which lender fits?", text: "Book a 15-minute call. Joshua will tell you how an underwriter would read your returns. He'll also show which lenders can use your income and what each would cost." })}
+
+<h2>Who wrote this</h2>
+<p>Joshua Resvick spent five years as a mortgage underwriter before he became a broker. Self-employed files are where that background pays off. This page is the hub for the topic. It covers the three doors you can walk through. It shows how sole owners and corporations get read differently. It lists the documents lenders want, and it explains what you pay when the bank's door is the wrong one.</p>
 `;
 
 export default {

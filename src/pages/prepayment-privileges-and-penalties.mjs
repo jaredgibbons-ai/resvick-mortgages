@@ -7,7 +7,6 @@ ${short({ answer: "Most closed mortgages let you pay extra each year with no pen
 <h2>Why this belongs on your list before you sign</h2>
 <p>When you choose a mortgage, everyone talks about the rate. Two other features shape what the mortgage is like to live with, and they get far less attention. The first is how much extra you can pay each year with no penalty. The second is what it costs to pay more than that, or to leave early.</p>
 <p>These are your prepayment privileges and your prepayment penalty. They're written into every closed mortgage, and they differ between lenders. They're far easier to compare before you sign than to discover afterwards.</p>
-<p>This page explains the three common privileges. It covers the questions that separate a generous lender from a strict one. It shows how penalties work when you go past your limits, and why renewal is the best moment for a big payment. It prints no rates or lender-specific percentages, because those change and differ by product. Check your own mortgage contract for the numbers that apply to you.</p>
 
 <h2>The three common privileges</h2>
 <p><strong>Lump-sum payments.</strong> Most closed mortgages let you pay a lump sum once or more each year with no penalty. The limit is a percentage of the original mortgage amount. Percentages of 10 to 20 percent are common, though they vary by lender and product. A lump sum goes straight to principal. That cuts the interest charged from that date on.</p>
@@ -22,7 +21,7 @@ ${short({ answer: "Most closed mortgages let you pay extra each year with no pen
 <p>Prepaying isn't always right. If you carry higher-interest debt, like a credit card, paying that first usually costs less. If you have no emergency savings, putting every spare dollar into the mortgage can leave you short. Prepayment privileges are options. Their value depends on whether you'll use them.</p>
 
 <h2>How lenders differ</h2>
-<p>Two mortgages can both advertise a 15 percent lump sum and still behave very differently. The questions below bring out the differences. Ask them of any lender. A broker can ask several at once.</p>
+<p>Two mortgages can both advertise a 15 percent lump sum and still behave differently. The questions below bring out the differences. Ask them of any lender. A broker can ask several at once.</p>
 <div class="table-wrap"><table>
 <thead><tr><th>Question</th><th>Why it matters</th></tr></thead>
 <tbody>
@@ -33,7 +32,7 @@ ${short({ answer: "Most closed mortgages let you pay extra each year with no pen
 <tr><th scope="row">Is a payment increase permanent?</th><td>It decides whether you can later go back to the original payment.</td></tr>
 <tr><th scope="row">Do the privileges differ by product or term?</th><td>Lower-rate products sometimes come with tighter limits.</td></tr>
 </tbody></table></div>
-<p>A lower rate with tighter privileges isn't always the cheaper mortgage, if you're likely to prepay. Compare the whole product. The <a href="/open-vs-closed-mortgage/">open versus closed mortgage</a> page explains this. An open mortgage is simply a mortgage with unlimited privileges, at a higher price.</p>
+<p>A lower rate with tighter privileges isn't always the cheaper mortgage, if you're likely to prepay. Compare the whole product. The <a href="/open-vs-closed-mortgage/">open versus closed mortgage</a> page explains this. An open mortgage is a mortgage with unlimited privileges, at a higher price.</p>
 
 <h2>Penalties when you go beyond the limit</h2>
 <p>Pay more than your privileges allow, or pay the mortgage out before the term ends, and a prepayment penalty applies. On a variable-rate mortgage, the penalty is generally three months of interest. On a fixed-rate mortgage, it's generally the greater of three months of interest and the <a href="/interest-rate-differential/">interest rate differential</a>. Lenders calculate that differential in different ways.</p>

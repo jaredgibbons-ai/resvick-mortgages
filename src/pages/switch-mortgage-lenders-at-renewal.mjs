@@ -10,7 +10,6 @@ ${short({
 <h2>A switch is a transfer, not a new purchase</h2>
 <p>When people hear "switching lenders," they often picture starting over. A full application, a new stress test, penalties and legal fees. At renewal, none of that is quite right.</p>
 <p>A switch at maturity moves your existing mortgage to a new lender. The balance and the property carry across. So does the time left on your amortization, if you want. What changes is who holds the mortgage, and the rate and terms you get from them.</p>
-<p>This guide explains how a switch works, what it costs, and when it fits or doesn't. Joshua Resvick is a BC mortgage broker. He has ten years as a broker and five as an underwriter before that. The checks described here are the ones a lender really uses.</p>
 
 <h2>The key difference: straight switch or refinance</h2>
 <p>Every move at renewal falls into one of two groups. The rules differ a lot between them.</p>

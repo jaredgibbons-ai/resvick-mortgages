@@ -34,7 +34,7 @@ ${short({
 <p>Take a household earning $10,000 a month before tax. 5 percent of that is $500. That's the "$500 problem" in the guide's title. Roughly the first $500 of monthly debt payments sits inside the gap and can be nearly free. Every dollar above that costs mortgage room at the full rate.</p>
 <p>So a buyer with no other debts who takes on a $400 car payment might lose only a bit. A buyer who already has $300 in card and student loan payments, then adds the same $400, loses most of it.</p>
 <p>The guide's table shows the effect for that example household. At $400 a month, the mortgage drops by about $29,900. At $650, it drops by about $67,200. At $900, it drops by about $104,500.</p>
-<p>The lesson is that the car payment isn't judged alone. It's judged on top of everything else you owe. Two buyers with the same salary and the same car loan can lose very different amounts. It depends on what else is on their credit reports.</p>
+<p>The lesson is that the car payment isn't judged alone. It's judged on top of everything else you owe. Two buyers with the same salary and the same car loan can lose different amounts. It depends on what else is on their credit reports.</p>
 
 <h2>Other things that change the number</h2>
 <p><strong>The qualifying rate.</strong> A higher stress-test rate means each dollar of payment buys less mortgage. So a car payment costs less room in dollars, but your overall approval is lower too. The two figures above cover the common range.</p>

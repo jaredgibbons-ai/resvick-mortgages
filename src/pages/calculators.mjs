@@ -35,7 +35,7 @@ ${TOOLS.cmhc()}
 ${TOOLS.renewal()}
 ${TOOLS.penalty()}
 </div>
-<p>Renewal is when you are most free to change lenders, and the <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> explains how. The penalty tool gives a range on purpose. Your lender chooses how it calculates its interest rate differential, and the two common methods can give very different results.</p>
+<p>Renewal is when you are most free to change lenders, and the <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> explains how. The penalty tool gives a range on purpose. Your lender chooses how it calculates its interest rate differential, and the two common methods can give different results.</p>
 
 <h2>For refinancing, investing and moving</h2>
 <p>These tools answer the questions that come after the purchase. How fast can you be mortgage-free? How does a refinance change your total cost? How does a suite count toward qualifying? What do you keep when you sell? The <a href="/refinance-break-even/">refinance break-even calculator</a> and the <a href="/home-equity-estimator/">home equity estimator</a> have their own pages.</p>

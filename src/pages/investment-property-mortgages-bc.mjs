@@ -11,9 +11,8 @@ ${short({
   next: "Run your rent through the comparator below, then book a 15-minute call to map the lender for each purchase."
 })}
 <h2>Rental mortgages start from a different set of rules</h2>
-<p>A mortgage on a home you live in and one on a home you rent out look alike on paper. Lenders see them very differently.</p>
+<p>A mortgage on a home you live in and one on a home you rent out look alike on paper. Lenders see them differently.</p>
 <p>A lender looks at a rental almost like a small business. What does it earn? What does it cost? How many do you already own? What happens to your finances if a tenant leaves? Those answers change the down payment, how your income is counted, the documents you need and which lenders will look at the file.</p>
-<p>This page is the map. It covers the basics for any rental purchase in BC and how lenders count rent. It shows how the number of properties you own changes the lender you need. Then it points to the strategy pages that go deeper.</p>
 <p>Those cover the Smith Manoeuvre, debt service coverage lending, the BRRRR cycle, rent-to-own and turning your current home into a rental. Most people arrive with one question. Find yours, then see what sits around it.</p>
 
 <h2>The basics: down payment, insurance and amortization</h2>
@@ -31,7 +30,7 @@ ${short({
 <li><strong>Rental offset.</strong> A share of the rent is subtracted from the property's carrying costs. That share is typically 50 to 80 percent, depending on the lender. Only what's left counts against your ratios.</li>
 <li><strong>Rental add-back.</strong> A share of the rent, commonly about 50 percent, is added to your gross income. The full carrying costs count as debts.</li>
 </ul>
-<p>The method and the share are lender policy. They can give very different results on the same property.</p>
+<p>The method and the share are lender policy. They can give different results on the same property.</p>
 <p>For insured owner-occupied two-unit homes, CMHC's guidance allows up to 100 percent of gross rent as an income add-back. That's a ceiling, not the norm. Many lenders use less, and some cap it at 50 percent.</p>
 <p>The comparator below runs the same rent through both methods at several shares, so you can see the spread. The suite-income page explains the registered-suite rule. That rule is why some rent counts for nothing at all.</p>
 ${tool}

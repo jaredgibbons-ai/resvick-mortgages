@@ -49,7 +49,7 @@ ${short({
 <h2>How to have the conversation</h2>
 <p>Bring numbers. Show the parent the affordability result with and without their income. Show them the size of the gap and the options you looked at. Tell them plainly that the mortgage will count as their debt and that they're liable for all of it.</p>
 <p>A parent who hears that and still says yes is making an informed choice. A parent who only hears "the bank needs a signature" isn't. Most families, given the full picture, land somewhere between a gift and a co-sign. Many find the gift was enough.</p>
-<p>Want a third party in the room for that talk? That's a normal use of a broker. On a short call, Joshua runs the numbers both ways and explains how the lender defines the role. He'll say honestly whether a co-sign is needed or a smaller fix would do. The <a href="/contact/">contact page</a> has the booking link.</p>
+<p>Want a third party in the room for that talk? That's a normal use of a broker. On a short call, Joshua runs the numbers both ways and explains how the lender defines the role. He'll say whether a co-sign is needed or a smaller fix would do. The <a href="/contact/">contact page</a> has the booking link.</p>
 `,
   faqs: [
     { q: "Is a co-signer the same as a guarantor?", a: "Not quite, and lenders define them differently. A co-signer is generally treated as a borrower, fully liable and often required on title, with their income counted. A guarantor stands behind the debt without ownership, and many lenders do not count a guarantor's income toward qualifying. The co-signer guide compares the roles in a table." },

@@ -10,7 +10,7 @@ ${short({ answer: "A rate hold locks in a rate for a set time, commonly 90 or 12
 <h2>How long a hold lasts</h2>
 <p>Holds commonly last 90 or 120 days, and many lenders offer both. Longer holds are sometimes available, mainly for new construction. The terms vary by lender, product and type of mortgage. For a purchase, the hold usually starts when you are pre-approved and ends on a fixed date. For a renewal, lenders typically allow you to secure a rate up to about 120 days before your maturity date.</p>
 <p>A hold applies to the rate, and for a fixed-rate mortgage that means the rate itself. For a variable-rate mortgage, a hold usually protects the discount from prime. Prime itself can change with any Bank of Canada announcement. Ask which one your lender is offering.</p>
-<p>It is also worth asking what the hold requires of you. Most holds do not oblige you to use them. If you do not close with that lender, the hold simply expires. A few come with conditions. They might set a property type or a minimum or maximum mortgage amount. Some require that your file doesn't change. Read what the hold is conditional on, in writing.</p>
+<p>It is also worth asking what the hold requires of you. Most holds do not oblige you to use them. If you do not close with that lender, the hold expires. A few come with conditions. They might set a property type or a minimum or maximum mortgage amount. Some require that your file doesn't change. Read what the hold is conditional on, in writing.</p>
 
 <h2>Hold, pre-approval and approval: three different things</h2>
 <p>These words are often used loosely. They describe three stages of certainty.</p>

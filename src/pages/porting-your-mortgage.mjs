@@ -7,7 +7,6 @@ ${short({ answer: "Porting moves your mortgage, rate and remaining term to your 
 <h2>Your situation</h2>
 <p>You're two years into a five-year fixed mortgage, at a rate you were happy to get. Now you need to move. Maybe it's a new job in another city, a growing family, a downsize or a separation. Breaking the mortgage would mean a prepayment penalty that could run to five figures.</p>
 <p>Someone told you that you can take your mortgage with you. That's porting. It's real, but it's one of the most misunderstood features in a mortgage contract.</p>
-<p>This page explains what porting actually moves and when it beats breaking. It covers how the blended rate works when the new mortgage is bigger. And it covers the qualification you still have to pass, because porting isn't automatic. Joshua Resvick is a BC mortgage broker and former underwriter. The port-or-break question comes up on a large share of his purchase files.</p>
 
 <h2>What porting is</h2>
 <p>Porting moves your existing mortgage from the home you're selling to the home you're buying, with no prepayment penalty. Your rate, remaining term and conditions all come along. The lender discharges the mortgage on the old property and registers it on the new one. There's usually a short gap allowed between the two closings.</p>

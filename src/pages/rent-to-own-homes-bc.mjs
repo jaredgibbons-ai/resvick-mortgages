@@ -7,7 +7,7 @@ ${short({ answer: "Rent-to-own lets you rent a home now with the right to buy it
 <h2>What rent-to-own actually is</h2>
 <p>Rent-to-own means you rent a home now, with the right to buy it later at a price fixed in advance. Sometimes you're required to buy. You usually pay an up-front option fee. Your monthly rent is higher than market, and part of each payment is credited toward the purchase. At the end of the term, usually two to five years, you get a mortgage and buy the home at the agreed price. The credits you built up go toward the down payment.</p>
 <p>It's marketed to people who can't qualify for a mortgage today. That includes buyers rebuilding credit, newcomers without Canadian credit, self-employed people with thin tax returns, and anyone short of a down payment. The appeal is easy to see. You move in now, lock a price and have a deadline that forces you to save.</p>
-<p>The setup is legal in British Columbia, and some people do make it to the purchase. Many don't. Those who don't usually lose money they couldn't afford to lose. This page explains how the deals are built, where they go wrong and what the mortgage at the end really requires. That way you can judge an offer with clear eyes.</p>
+<p>The setup is legal in British Columbia, and some people do make it to the purchase. Many don't. Those who don't usually lose money they couldn't afford to lose. This page explains how the deals are built, where they go wrong and what the mortgage at the end requires. That way you can judge an offer with clear eyes.</p>
 
 <h2>How the deals are structured</h2>
 <ul>

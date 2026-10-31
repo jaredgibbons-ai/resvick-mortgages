@@ -11,7 +11,6 @@ ${short({
 <p>A single missed mortgage payment is a credit problem and a cost problem. It isn't foreclosure, and in BC it's nowhere near it.</p>
 <p>Technically, missing a payment is a default under your mortgage contract. The contract gives the lender rights it almost never uses after one payment.</p>
 <p>In practice, one missed payment brings a fee, some interest and a phone call. If it goes past 30 days, you may also get a note on your credit file. What happens next depends mostly on what you do in the first two weeks.</p>
-<p>This page walks through what a lender in BC does, roughly day by day. Then it covers the steps that limit the damage. If you're more than one payment behind, or a letter from a lawyer has arrived, start with the <a href="/behind-on-mortgage-payments/">behind on mortgage payments</a> hub. It lays out your options in order.</p>
 
 <h2>Day 1 to 15: the payment bounces</h2>
 <p>Most mortgage payments come out by pre-authorized debit. If the money isn't in the account, the debit is returned. Two things happen right away.</p>
@@ -30,7 +29,7 @@ ${short({
 <p>The mortgage line on your credit report then shows the late payment for years. The hit to your score is bigger than most people expect. A mortgage is the largest account on your report, and every future lender reads a late mortgage payment as a serious signal.</p>
 <p>That's the real cost of one missed payment. It isn't the fee. It's the mark that follows you to your next renewal, refinance or purchase.</p>
 <p>There's one important exception. The Financial Consumer Agency of Canada's guideline for federally regulated lenders was published in July 2023. It expects lenders to report agreed relief measures accurately, not as ordinary missed payments. Ask your lender to confirm in writing how it will report before you accept.</p>
-<p>That's why calling before the due date, and getting the arrangement in writing, matters so much. A deferral agreed in advance is a relief measure. A payment that simply bounced isn't.</p>
+<p>That's why calling before the due date, and getting the arrangement in writing, matters so much. A deferral agreed in advance is a relief measure. A payment that bounced isn't.</p>
 
 <h2>Beyond 90 days: the demand letter</h2>
 <p>If payments keep being missed, the lender sends the file to a lawyer. The lawyer then sends a demand letter.</p>
@@ -42,7 +41,7 @@ ${short({
 <li><strong>Pay it if you can, even late.</strong> A payment made before the 30-day mark usually keeps it off your credit report. If savings, a family loan or an early paycheque can cover it, do that first. Sort out the cause second.</li>
 <li><strong>If you can't pay it, call before day 30.</strong> Ask for the hardship or financial-difficulty team, and ask what relief is available. For a one-off problem, a common answer is a one-payment deferral added to your balance. The <a href="/mortgage-payment-deferral/">deferral and skip-a-payment</a> page explains what that costs.</li>
 <li><strong>Ask how it will be reported.</strong> Get the answer in writing. If the lender agrees to a relief measure, it shouldn't show as an ordinary late payment.</li>
-<li><strong>Fix the cause.</strong> If your payment date lands before payday, ask the lender to move it. If the payment is simply too big for the budget, that's a different problem. A <a href="/refinance-to-pay-off-debt/">consolidation of other debts</a> or a longer amortization may help, if you still qualify.</li>
+<li><strong>Fix the cause.</strong> If your payment date lands before payday, ask the lender to move it. If the payment is too big for the budget, that's a different problem. A <a href="/refinance-to-pay-off-debt/">consolidation of other debts</a> or a longer amortization may help, if you still qualify.</li>
 <li><strong>Check your credit report in 60 days.</strong> Both bureaus give free copies. If an agreed relief payment shows as late, dispute it with the lender first and the bureau second. Attach your written agreement.</li>
 </ol>
 

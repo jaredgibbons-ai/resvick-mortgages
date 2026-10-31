@@ -10,7 +10,8 @@ ${short({
 <h2>The question underneath the question</h2>
 <p>People usually ask which one will cost less. Nobody can answer that in advance. It depends on what rates do over your term, and professional forecasters miss it all the time.</p>
 <p>A better question is which risk you can carry. A fixed rate gives you a steady payment, but a larger penalty if you leave early. A variable rate gives you a smaller, simpler penalty, but your cost of borrowing can change.</p>
-<p>This page covers how each one works and what the rate gap is really pricing. It also covers how the penalties differ and who each one tends to suit. It prints no current rates, because they change often. The <a href="/mortgage-rates-bc/">mortgage rates hub</a> explains how your rate is set. A 15-minute call gets you today's number for your own file. The examples below use rates chosen for illustration only.</p>
+
+<p>No current rates are printed here, because they change often. The <a href="/mortgage-rates-bc/">mortgage rates hub</a> explains how your rate is set, and a 15-minute call gets you today's number for your own file.</p>
 
 <h2>How each one works</h2>
 <p>A <strong>fixed rate</strong> is set at the start of the term. It stays the same until the term ends. Your payment doesn't change unless you choose to change it. At the end of the term, you renew at whatever rates are on offer then.</p>
@@ -26,7 +27,7 @@ ${short({
 <p>Pick variable because it's cheaper today, and you're betting rates won't rise enough to wipe out the saving. Pick fixed, and you're paying for certainty. Neither is a mistake. Both are choices.</p>
 
 <h2>The penalty asymmetry</h2>
-<p>The difference that surprises people most is the cost of leaving early. It matters if you might sell, refinance, separate or simply find a better mortgage.</p>
+<p>The difference that surprises people most is the cost of leaving early. It matters if you might sell, refinance, separate or find a better mortgage.</p>
 <p>The penalty on a variable mortgage is usually three months of interest. On a fixed mortgage, it's usually the greater of three months of interest and the <a href="/interest-rate-differential/">interest rate differential</a>.</p>
 <p>The differential compares your rate with the rate the lender could charge today for the time left. Lenders calculate it in different ways, and the gap between methods can be large.</p>
 <p>Here's an illustrative example. Say you have a $400,000 balance at about 5.00 percent, with three years left on a fixed term. These are generic figures, not any lender's actual formula:</p>
@@ -49,7 +50,7 @@ ${short({
 <h2>Who each one tends to suit</h2>
 <p>These are tendencies, not rules. They show how the conversation usually goes.</p>
 <ul>
-<li><strong>A first-time buyer with a tight budget</strong> often values a fixed payment. A payment that can't rise makes the household budget easier to plan. It also depends on how much room there is between the payment and your income. Variable with lots of room is very different from variable with almost none.</li>
+<li><strong>A first-time buyer with a tight budget</strong> often values a fixed payment. A payment that can't rise makes the household budget easier to plan. It also depends on how much room there is between the payment and your income. Variable with lots of room is different from variable with almost none.</li>
 <li><strong>A borrower with a big cushion</strong> can handle a payment rise more easily. Think stable income well above the payment, plus savings in reserve. That person may prefer the smaller penalty of a variable mortgage.</li>
 <li><strong>A household that might move or refinance within a few years</strong> should weigh the penalty at least as heavily as the rate. A variable mortgage is easier to leave.</li>
 <li><strong>A household staying put for the whole term</strong> often picks fixed for a steady plan. The penalty will probably never apply.</li>

@@ -40,7 +40,7 @@ ${callout("General information only", "<p>This page explains a financial strateg
 <p>The strategy is sometimes sold as free money. The mortgage gets paid anyway, and the tax refund seems to fund the rest. It isn't free. It's borrowing to invest, with your home as security.</p>
 <ul>
 <li><strong>Leverage cuts both ways.</strong> Investments can fall in value. The loan doesn't. In a long downturn, you owe the same amount against an account worth less. And interest keeps adding up at a variable rate.</li>
-<li><strong>The line's rate floats.</strong> HELOC rates move with prime. A plan that worked at one rate can look very different two years later. The lender can also cut or freeze the line. The <a href="/heloc-bc/">HELOC in BC</a> page explains how.</li>
+<li><strong>The line's rate floats.</strong> HELOC rates move with prime. A plan that worked at one rate can look different two years later. The lender can also cut or freeze the line. The <a href="/heloc-bc/">HELOC in BC</a> page explains how.</li>
 <li><strong>Your total debt doesn't shrink.</strong> The point is to keep the debt level while changing its type. If your goal is to be debt-free, that's a different plan. Don't mix the two up.</li>
 <li><strong>It affects your renewal.</strong> Readvanceable mortgages are registered as collateral charges. That can make switching lenders at renewal slower and costlier. The <a href="/collateral-charge-mortgage/">collateral charge mortgage</a> page explains why. The lender you pick is a long-term choice.</li>
 <li><strong>Tax rules can change.</strong> Deductibility depends on today's law and how the tax agency reads it. A ten-year plan that depends on it carries the risk that the rule tightens partway through.</li>

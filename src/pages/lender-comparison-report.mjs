@@ -22,13 +22,12 @@ ${short({
 <p>A rate alone tells you very little about the mortgage you'll live with for five years. And the lender quoting it has no reason to mention what a competitor would do differently.</p>
 <p>The Lender Comparison Report puts something next to the offer. On the first strategy call, Joshua Resvick commits to a written side-by-side of real lender options. It covers the rate, the term, the penalties, the prepayment privileges and the portability.</p>
 <p>You see the options in one document, with the trade-offs explained, before you choose. The goal is that you decide with the full picture, not the first number you heard.</p>
-<p>Joshua is a broker with Xeva Mortgage. That means he can place a mortgage with more than one lender. The report is where you actually see that advantage, instead of just reading about it on a website.</p>
 
 <h2>What the report compares</h2>
 <p>A comparison that stops at the rate is just a price list. Here's what Joshua puts in the report, and why each item matters.</p>
 <ul>
 <li><strong>Rate and term.</strong> The rate you'll pay, for how long, and whether it's fixed or variable. The <a href="/fixed-vs-variable-mortgage/">fixed versus variable guide</a> explains how to think about the choice.</li>
-<li><strong>The penalty, and how it's worked out.</strong> Breaking a fixed mortgage early can cost the greater of three months' interest or an interest rate differential (IRD). Lenders work out the IRD differently, and the gap can be very large. This is often the biggest difference between lenders. Most people don't look at it until they need to leave.</li>
+<li><strong>The penalty, and how it's worked out.</strong> Breaking a fixed mortgage early can cost the greater of three months' interest or an interest rate differential (IRD). Lenders work out the IRD differently, and the gap can be large. This is often the biggest difference between lenders. Most people don't look at it until they need to leave.</li>
 <li><strong>Prepayment privileges.</strong> How much extra you can pay each year, whether you can raise your regular payment, and any limits. These terms shape how fast you can shrink your balance. See <a href="/prepayment-privileges-and-penalties/">prepayment privileges and penalties</a> for the detail.</li>
 <li><strong>Portability.</strong> Whether you can take the mortgage with you if you move, and on what terms.</li>
 <li><strong>Collateral charge versus conventional charge.</strong> How the mortgage is registered on your title affects whether you can move it to another lender for free at renewal. The page on <a href="/collateral-charge-mortgage/">collateral charge mortgages</a> explains the trade-off.</li>
@@ -57,7 +56,7 @@ ${cta({ title: "Get your report", text: "The report starts with a 15-minute stra
 
 <h2>How lenders differ beyond rate</h2>
 <p>An underwriter reads files the way a lender does. Joshua spent five years doing exactly that, at volume. That's part of why the report goes beyond the rate sheet.</p>
-<p>Two lenders can quote the same rate and still approve very different files. They differ in how they treat things like these:</p>
+<p>Two lenders can quote the same rate and still approve different files. They differ in how they treat things like these:</p>
 <ul>
 <li><strong>Income.</strong> Lenders count overtime, bonuses, commissions, self-employed earnings and rental income in different ways. The gap can be big.</li>
 <li><strong>Debts and credit.</strong> Some lenders are more forgiving of certain credit histories. Others are more relaxed about certain debt loads.</li>
@@ -77,6 +76,9 @@ ${cta({ title: "Get your report", text: "The report starts with a 15-minute stra
 ${callout("What it costs", "<p>On a mortgage placed with an A lender, the lender pays the broker. You pay nothing for the service, including the report. Fees can come up on some B-lender and private-lender files. When they do, you see them in writing before you commit. The full explanation is on the page about <a href=\"/how-mortgage-brokers-get-paid/\">how mortgage brokers get paid</a>.</p>")}
 
 <p>Ready to start? Or want to know what a report would look like for you? <a href="/contact/">Contact Joshua</a> and he'll take it from there.</p>
+
+<h2>Who wrote this</h2>
+<p>Joshua is a broker with Xeva Mortgage. That means he can place a mortgage with more than one lender. The report is where you actually see that advantage, instead of just reading about it on a website.</p>
 `;
 
 export default {
