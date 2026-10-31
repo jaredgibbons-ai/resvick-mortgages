@@ -66,7 +66,7 @@ ${callout("Start with your housing office", "<p>If you are a member, your First 
 <h2>How Joshua helps</h2>
 <ol>
 <li><strong>A 15-minute call.</strong> You tell him the Nation, the land and the paper you hold.</li>
-<li><strong>The right lender.</strong> Not every lender works on this land. He places your file with a specific lender that does, and tells you what that lender will ask for. Which lender fits depends on the Nation, the land and your timing, so he confirms it once he has seen your paperwork.</li>
+<li><strong>The right lender.</strong> Not every lender works on this land. He places your file with a specific lender that does, and tells you what that lender will ask for. Which lender fits depends on the Nation, the land and your timing, so he confirms it once he has seen your paperwork. Banks and credit unions that have financed First Nations land in BC include Scotiabank, Vancity, Coast Capital Savings, Prospera Credit Union and BlueShore Financial. Each has its own approved Nations and developments, and those lists change.</li>
 <li><strong>A plan with your team.</strong> He works with your lawyer and your housing office so each step happens in the right order.</li>
 <li><strong>Options in writing.</strong> You see the choices side by side before you commit.</li>
 </ol>
