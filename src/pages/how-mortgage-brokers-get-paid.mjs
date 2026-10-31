@@ -17,7 +17,7 @@ ${short({
 <p>A lender that takes applications through brokers pays the brokerage a fee when a mortgage funds. That fee comes out of the lender's own revenue. It isn't tacked onto your rate or your balance as a separate charge. If the mortgage doesn't fund, there's no payment at all.</p>
 <p>Two parts of the arrangement are worth knowing.</p>
 <ul>
-<li><strong>The payment goes to the brokerage.</strong> Under BCFSA's rules, the brokerage gets paid, not the individual broker. Joshua works under Xeva Mortgage (Verico Xeva Mortgage Inc.), brokerage licence #X300203. The brokerage is the licensed party that receives the payment.</li>
+<li><strong>The payment goes to the brokerage.</strong> Under BCFSA's rules, the brokerage gets paid, not the individual broker. Joshua works under Xeva Mortgage, brokerage licence #X300203. The brokerage is the licensed party that receives the payment.</li>
 <li><strong>It's disclosed.</strong> A BC mortgage broker must tell you in writing how the brokerage is paid. BCFSA's Form 1A lists the possible sources. Form 4 shows the expected pay on your deal, as an amount or an estimate of how it's worked out.</li>
 </ul>
 

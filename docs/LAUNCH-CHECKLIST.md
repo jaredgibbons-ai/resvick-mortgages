@@ -24,7 +24,7 @@ Accounts stay in Josh's or Xeva's name; Jared and the builder get access, never 
 ## 4. Search Console and GBP
 - [ ] Verify the domain in Search Console under Josh's account; submit `https://www.resvickmortgages.com/sitemap.xml`; watch coverage for the old URLs for 60 days.
 - [ ] Google Business Profile per docs/GBP-SETUP.md (claim, categories, 20 service areas, services = site architecture, Q&A, photos, booking link, UTM website link).
-- [ ] Directories per docs/DIRECTORY-LISTINGS.md (Birdeye, WOWA, ThreeBestRated, Bing, Apple, Yelp, VERICO/Xeva profile).
+- [ ] Directories per docs/DIRECTORY-LISTINGS.md (Birdeye, WOWA, ThreeBestRated, Bing, Apple, Yelp, Xeva profile).
 
 ## 5. Pre-launch QA (run on the production preview)
 - [ ] `node tools/validate.mjs` → 0 errors. `node tests/engine.test.mjs` → all pass.

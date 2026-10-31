@@ -1,6 +1,6 @@
 # Resvick Mortgages website (resvickmortgages.com)
 
-Static site for Joshua Resvick, BC mortgage broker (Xeva Mortgage / VERICO). Built by Jared Gibbons.
+Static site for Joshua Resvick, BC mortgage broker (Xeva Mortgage). Built by Jared Gibbons.
 
 ## Commands
 - `npm install` once. `node build.mjs` builds to `dist/`. `node tools/validate.mjs` must show 0 errors before any commit.

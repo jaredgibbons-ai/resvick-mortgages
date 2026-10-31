@@ -54,7 +54,7 @@
     function errText(el) { if (el.getAttribute("data-msg")) return el.getAttribute("data-msg"); return el.type === "checkbox" ? "Please tick the required box." : "Please complete " + labelFor(el).replace(/^./, function (c) { return c.toLowerCase(); }) + "."; }
 
     // Multi-step: show one step, keep progress, build the review list.
-    function show(i) {
+    function show(i, initial) {
       cur = Math.max(0, Math.min(i, steps.length - 1));
       steps.forEach(function (s, j) { s.hidden = j !== cur; });
       var p = f.querySelector("[data-progress]"); if (p) { p.textContent = "Step " + (cur + 1) + " of " + steps.length; var bar = f.querySelector("[data-bar]"); if (bar) bar.style.width = Math.round(((cur + 1) / steps.length) * 100) + "%"; }
@@ -63,6 +63,7 @@
       if (next) next.hidden = cur === steps.length - 1; if (submit) submit.hidden = cur !== steps.length - 1;
       if (cur === steps.length - 1) review();
       setMsg("", false);
+      if (initial) return; // first paint: leave the page where it is, so the visitor sees the top
       try { steps[cur].scrollIntoView({ block: "start", behavior: "smooth" }); } catch (x) {}
       var h = steps[cur].querySelector("legend"); if (h) { h.setAttribute("tabindex", "-1"); h.focus({ preventScroll: true }); }
     }
@@ -107,7 +108,7 @@
       f.addEventListener("change", function () { save(); showIf(); });
       f.addEventListener("input", function () { save(); });
       showIf();
-      show(cur);
+      show(cur, true);
     }
     // Conditional blocks: [data-show-if="name=value"] shows when that radio/select matches.
     function showIf() {

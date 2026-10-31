@@ -91,16 +91,18 @@ ${choice("occupancy", "Will you live in it?", [["yes", "Yes, it's my home"], ["p
 </div>`;
 
 const body = `
+${form}
+
+${callout("Ready for the full application?", `<p>If we have already spoken, or you want to go straight to the full application, you can start it in my secure application portal. It is run by Newton and opens in a new tab. It is separate from the short form above and asks for more detail. Most people start with the short form, because it is faster and asks for nothing sensitive.</p>
+<p><a class="btn btn-ghost" href="${SITE.fullApp}" target="_blank" rel="noopener" data-evt="full_app_click">Start the full application</a></p>
+`)}
+
 ${short({ answer: "This is a short, easy first step. Six questions, about five minutes. It is not a credit application and asks for nothing sensitive. I read it myself, then we talk.", who: "Anyone buying, renewing, switching or refinancing in BC. Already have an accepted offer? Use the <a href=\"/accepted-offer/\">accepted offer page</a> instead.", next: "Fill in the form below, or <a href=\"/contact/\">book a 15-minute call</a> if you would rather talk first." })}
 <h2>What this is, and what it isn't</h2>
 <p>This is the easy version of a mortgage application. It has six short steps and takes about five minutes. You can do it on your phone. It tells me enough about your situation before we talk. That way the first call is about your options, not your postal code.</p>
 <p>It is not a credit application. Nothing here touches your credit report, and nothing gets sent to a lender. I'm not asking for anything a stranger shouldn't have. That means no social insurance number, no date of birth, no account numbers and no documents.</p>
 <p>Think of it as the first ten minutes of our chat, written down. Then neither of us has to repeat it. If you'd rather talk first and type later, that's fine too. <a href="/contact/">Book the 15-minute call</a> and skip the form entirely.</p>
 <p>Here's how I work, so you know what you're starting. On a mortgage placed with a mainstream (A) lender, the lender pays me. You pay nothing for the service. Fees only come up on some B-lender and private files. If that's ever the route for you, BC rules require me to disclose it in writing before you commit. The full explanation is on the page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
-
-${form}
-
-${callout("Ready for the full application?", `<p>If we have already spoken, or you want to go straight to the full application, you can start it in my secure application portal. It is run by Newton and opens in a new tab. It is separate from the short form above and asks for more detail. Most people start with the short form, because it is faster and asks for nothing sensitive.</p><p><a class="btn btn-ghost" href="${SITE.fullApp}" target="_blank" rel="noopener" data-evt="full_app_click">Start the full application</a></p>`)}
 
 <h2>Why I ask for rough numbers instead of exact ones</h2>
 <p>A lender checks everything to the dollar in the end. It uses pay stubs, tax documents and bank statements. That comes later, through a secure link. For now, rough is better than nothing. Rough is also better than a guess that sounds exact. If you earn about $120,000, type $120,000. Then I can tell you roughly what that supports. If you don't know your exact mortgage balance, your best guess from the last statement is plenty.</p>

@@ -57,7 +57,7 @@ for (const file of files) {
   for (const re of BANNED) if (re.test(html.replace(/<script[^>]*ld\+json[\s\S]*?<\/script>/g, "")) ) E(slug, `banned string ${re}`);
   if (!/BCFSA Brokerage Licence #X300203/.test(html)) E(slug, "footer licence line missing");
   if (!/Broker Licence #MB503619/.test($("footer").text())) E(slug, "footer broker licence number missing");
-  if (!/Xeva Mortgage \(Verico Xeva Mortgage Inc\.\)/.test($("footer").text())) E(slug, "footer brokerage line missing");
+  if (!/Xeva Mortgage/.test($("footer").text())) E(slug, "footer brokerage line missing");
   if (!$('footer a[href="/privacy/"]').length) E(slug, "footer privacy link missing");
   if (!spec.exempt && !$(".cta-block").length) E(slug, "no closing CTA");
   if (!spec.noindex && $('meta[name="robots"]').length) E(slug, "unexpected robots meta");

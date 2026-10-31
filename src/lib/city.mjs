@@ -10,7 +10,7 @@ export function cityServiceSchema(slug, city, extraAreas = []) {
     areaServed: [city, ...extraAreas].map((n) => ({ "@type": "City", name: n, containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } })),
     availableChannel: { "@type": "ServiceChannel", serviceUrl: SITE.book, servicePhone: "+1-778-882-5674" },
     founder: { "@type": "Person", name: SITE.person, jobTitle: "Mortgage Broker" },
-    parentOrganization: { "@type": "Organization", name: "Xeva Mortgage (Verico Xeva Mortgage Inc.)" }
+    parentOrganization: { "@type": "Organization", name: "Xeva Mortgage" }
   };
 }
 

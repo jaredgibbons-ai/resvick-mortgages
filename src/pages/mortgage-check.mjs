@@ -3,8 +3,9 @@ import { cta, callout } from "../lib/site.mjs";
 import { quizEmbed } from "../lib/quiz-markup.mjs";
 
 const body = `
-${short({ answer: "Answer two quick questions and you'll go to the check that fits you. You see your score and your numbers on the page right away. You never have to give an email to see them.", who: "Anyone buying, renewing, using equity, investing or self-employed who wants a quick read on where they stand.", next: "Answer the two questions below. Rather talk? <a href=\"/contact/\">Book a 15-minute call</a>." })}
 ${quizEmbed("check")}
+
+${short({ answer: "Answer two quick questions and you'll go to the check that fits you. You see your score and your numbers on the page right away. You never have to give an email to see them.", who: "Anyone buying, renewing, using equity, investing or self-employed who wants a quick read on where they stand.", next: "Answer the two questions below. Rather talk? <a href=\"/contact/\">Book a 15-minute call</a>." })}
 
 <h2>Two questions, then the right check for you</h2>
 <p>Keep it short. Most people don't need a long questionnaire. They need to know which of five situations they're in. The rules, the traps and the best first move differ for each one.</p>

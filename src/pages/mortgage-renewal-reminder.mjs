@@ -2,29 +2,6 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "Tell Joshua when your mortgage matures, and you'll get two emails: one at six months and one at 120 days before. That's when your options are widest. It's free, and it works no matter who holds your mortgage.", who: "Any BC homeowner whose renewal is more than a few months away.", next: "Fill in the short form below. Not sure of your date? Check your latest mortgage statement." })}
-<h2>Why a reminder is worth setting</h2>
-<p>A mortgage renewal is a deadline that only comes around every few years. That's exactly why people miss the best window for it. Most borrowers hear about their renewal when a letter shows up, and by then the useful time to compare options may be mostly gone. The reminder on this page is a simple fix. Tell Joshua when your mortgage matures. You'll get two emails at the points when your choices are widest.</p>
-<p>It is free, it carries no obligation, and it works whether your mortgage is with a bank, a credit union or another broker. You do not need to be a client. Joshua Resvick is a BC mortgage broker. He has ten years as a broker, five as an underwriter before that, and over 1,000 mortgages funded. He built this because timing is where most renewal money is won or lost.</p>
-
-<h2>Why timing is money</h2>
-<p>There are two clocks in every renewal. The first is the 120-day window. Most lenders will hold a rate for roughly 120 days, so that is when you can start comparing offers without being rushed. A broker can request quotes, hold a rate and keep your options open while you decide. Waiting until the last few weeks removes most of that room.</p>
-<p>The second is the renewal statement. Your lender must send it at least 21 days before your maturity date. That's often when people first start thinking about the renewal. Three weeks is not long enough to compare lenders carefully, and the letter itself is only one lender's offer. The page on <a href="/mortgage-renewal-letter-explained/">your mortgage renewal letter, explained</a> shows what to check when it arrives.</p>
-<p>The Bank of Canada (2025) estimated that about 60 percent of all outstanding mortgages renew in 2025 or 2026. About 60 percent of those borrowers face a higher payment. For anyone in that group, a few weeks of preparation can matter. The full set of options is on the <a href="/mortgage-renewal-bc/">mortgage renewal hub</a>.</p>
-
-<h2>The auto-renewal trap</h2>
-<p>If a mortgage reaches its maturity date and nothing has been signed, the lender typically rolls it into an open term. Open terms let you repay freely, and lenders price that flexibility high, so the rate is usually much higher than a negotiated renewal. It isn't a penalty, and it isn't anyone's fault. But it can cost a household money until the paperwork gets sorted. The page on <a href="/open-vs-closed-mortgage/">open versus closed mortgages</a> explains the difference and why the default is what it is.</p>
-<p>A reminder at six months and again at 120 days is designed to make sure the maturity date never sneaks up on you.</p>
-
-<h2>How the reminder works</h2>
-<ol>
-<li><strong>You tell us your maturity month and year.</strong> You do not need the exact day. Month and year are enough, because the emails are scheduled from them.</li>
-<li><strong>Email one arrives about six months before maturity.</strong> At this point your options are widest. It explains what to gather and what you can start doing now.</li>
-<li><strong>Email two arrives about 120 days before maturity.</strong> This is the usual rate-hold window. It explains how to start comparing and when to ask for a hold.</li>
-<li><strong>You decide what happens next.</strong> The reminders are information, not a sales sequence. You can book a call, forward your letter or do nothing at all.</li>
-</ol>
-<p>The two sends are scheduled in Pacific time (America/Vancouver). Each email carries an unsubscribe link, so you can stop at any time. If you tick the optional box for rate updates, you'll also get occasional Bank of Canada notes and mortgage tips. That's separate from the two reminders.</p>
-
 <h2>Set your reminder</h2>
 <div class="form-card">
 <p class="small"><strong>Please do not send financial documents through this form.</strong> It does not accept attachments. If documents are needed later, Joshua will send you a secure upload link.</p>
@@ -46,6 +23,30 @@ ${short({ answer: "Tell Joshua when your mortgage matures, and you'll get two em
 <p class="form-msg" role="status" aria-live="polite"></p>
 </form>
 </div>
+
+${short({ answer: "Tell Joshua when your mortgage matures, and you'll get two emails: one at six months and one at 120 days before. That's when your options are widest. It's free, and it works no matter who holds your mortgage.", who: "Any BC homeowner whose renewal is more than a few months away.", next: "Fill in the short form below. Not sure of your date? Check your latest mortgage statement." })}
+
+<h2>Why a reminder is worth setting</h2>
+<p>A mortgage renewal is a deadline that only comes around every few years. That's exactly why people miss the best window for it. Most borrowers hear about their renewal when a letter shows up, and by then the useful time to compare options may be mostly gone. The reminder on this page is a simple fix. Tell Joshua when your mortgage matures. You'll get two emails at the points when your choices are widest.</p>
+<p>It is free, it carries no obligation, and it works whether your mortgage is with a bank, a credit union or another broker. You do not need to be a client. Joshua Resvick is a BC mortgage broker. He has ten years as a broker, five as an underwriter before that, and over 1,000 mortgages funded. He built this because timing is where most renewal money is won or lost.</p>
+
+<h2>Why timing is money</h2>
+<p>There are two clocks in every renewal. The first is the 120-day window. Most lenders will hold a rate for roughly 120 days, so that is when you can start comparing offers without being rushed. A broker can request quotes, hold a rate and keep your options open while you decide. Waiting until the last few weeks removes most of that room.</p>
+<p>The second is the renewal statement. Your lender must send it at least 21 days before your maturity date. That's often when people first start thinking about the renewal. Three weeks is not long enough to compare lenders carefully, and the letter itself is only one lender's offer. The page on <a href="/mortgage-renewal-letter-explained/">your mortgage renewal letter, explained</a> shows what to check when it arrives.</p>
+<p>The Bank of Canada (2025) estimated that about 60 percent of all outstanding mortgages renew in 2025 or 2026. About 60 percent of those borrowers face a higher payment. For anyone in that group, a few weeks of preparation can matter. The full set of options is on the <a href="/mortgage-renewal-bc/">mortgage renewal hub</a>.</p>
+
+<h2>The auto-renewal trap</h2>
+<p>If a mortgage reaches its maturity date and nothing has been signed, the lender typically rolls it into an open term. Open terms let you repay freely, and lenders price that flexibility high, so the rate is usually much higher than a negotiated renewal. It isn't a penalty, and it isn't anyone's fault. But it can cost a household money until the paperwork gets sorted. The page on <a href="/open-vs-closed-mortgage/">open versus closed mortgages</a> explains the difference and why the default is what it is.</p>
+<p>A reminder at six months and again at 120 days is designed to make sure the maturity date never sneaks up on you.</p>
+
+<h2>How the reminder works</h2>
+<ol>
+<li><strong>You tell us your maturity month and year.</strong> You do not need the exact day. Month and year are enough, because the emails are scheduled from them.</li>
+<li><strong>Email one arrives about six months before maturity.</strong> At this point your options are widest. It explains what to gather and what you can start doing now.</li>
+<li><strong>Email two arrives about 120 days before maturity.</strong> This is the usual rate-hold window. It explains how to start comparing and when to ask for a hold.</li>
+<li><strong>You decide what happens next.</strong> The reminders are information, not a sales sequence. You can book a call, forward your letter or do nothing at all.</li>
+</ol>
+<p>The two sends are scheduled in Pacific time (America/Vancouver). Each email carries an unsubscribe link, so you can stop at any time. If you tick the optional box for rate updates, you'll also get occasional Bank of Canada notes and mortgage tips. That's separate from the two reminders.</p>
 
 <h2>What happens after you sign up</h2>
 <p>Nothing is required of you. The reminders arrive on schedule, and each one ends with the same invitation: if you would like help, you can book a short call. If you do, Joshua will look at your maturity date, balance and goals. He'll explain what a switch or a negotiation could look like. He can also prepare a written comparison of lender options if you'd like one.</p>

@@ -31,7 +31,7 @@ ${ratesStrip()}
 
 <h2>What it costs</h2>
 <p>On a mortgage with a mainstream (A) lender, the lender pays me. You pay nothing. Fees only come up on some B-lender and private files, and BC rules say you see them in writing first. Here is <a href="/how-mortgage-brokers-get-paid/">how brokers get paid</a>.</p>
-<p>I'm licensed by the BC Financial Services Authority (BCFSA), licence MB503619, through Xeva Mortgage (Verico Xeva Mortgage Inc.), brokerage licence #X300203. You can look me up in BCFSA's public lookup any time.</p>
+<p>I'm licensed by the BC Financial Services Authority (BCFSA), licence MB503619, through Xeva Mortgage, brokerage licence #X300203. You can look me up in BCFSA's public lookup any time.</p>
 
 <h2>Why me</h2>
 <p>I spent five years as a mortgage underwriter before I became a broker. So I read your file the way a lender will, and fix the problems before it gets sent. That means fewer surprises late in the process. More on the <a href="/about-joshua-resvick/">About page</a>.</p>

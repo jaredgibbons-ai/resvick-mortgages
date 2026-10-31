@@ -3,13 +3,41 @@ import { SITE, cta, callout } from "../lib/site.mjs";
 import { TOOLS } from "../lib/tools.mjs";
 
 const body = `
+
+${TOOLS["check-up"]()}
+
+<h2>Want it written up, with a reminder attached?</h2>
+<p>You've already got the result. Want it as a short written check-up? Want a reminder at six months and at 120 days before maturity? The form below does both. It's optional. The box that sends your numbers is unticked by default, so nothing travels unless you choose it. The reminder is the same one on the <a href="/mortgage-renewal-reminder/">free renewal reminder page</a>, and it works whether or not your mortgage is with me.</p>
+<div class="form-card">
+<form data-lead="check-up" data-stay novalidate>
+<input type="hidden" name="intent" value="renewal">
+<input type="hidden" name="tool_inputs" value="">
+<div class="row2">
+<div class="fld"><label for="cu-name">Your name</label><input id="cu-name" name="name" type="text" autocomplete="name" required></div>
+<div class="fld"><label for="cu-email">Email</label><input id="cu-email" name="email" type="email" autocomplete="email" required></div>
+</div>
+<div class="row2">
+<div class="fld"><label for="cu-phone">Phone (optional)</label><input id="cu-phone" name="phone" type="tel" autocomplete="tel"></div>
+<div class="fld"><label for="cu-lender">Current lender (optional)</label><input id="cu-lender" name="current_lender" type="text"></div>
+</div>
+<div class="fld"><label for="cu-timeline">Maturity date, if you'd like the reminders</label><input id="cu-timeline" name="timeline" type="text" placeholder="For example, June 2027"></div>
+<div class="hp" aria-hidden="true"><label for="cu-web">Leave this field empty</label><input id="cu-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+<label class="chk"><input type="checkbox" name="include_estimate"><span>Include the figures I entered above (balance, rate, maturity date, the result) with my message. Optional.</span></label>
+<label class="chk"><input type="checkbox" name="consent_reminders"><span>Send me the two renewal reminders, six months and 120 days before my maturity date. Optional; you can unsubscribe at any time.</span></label>
+<p class="small">By sending this you agree that Joshua Resvick may contact you to reply. See the <a href="/privacy/">privacy policy</a>.</p>
+<label class="chk"><input type="checkbox" name="consent_marketing"><span>Email me Bank of Canada rate updates and mortgage tips. Optional, unsubscribe any time.</span></label>
+<div><button class="btn" type="submit">Send my check-up</button></div>
+<p class="form-msg" role="status" aria-live="polite"></p>
+</form>
+</div>
+
 ${short({ answer: "Type in the numbers from your mortgage statement and see where you stand. You get your renewal window, the interest left in your term, your balance at renewal and a rough penalty to leave early.", who: "Anyone with a mortgage, especially if renewal is a year or less away.", next: "Fill in the check-up below. For a reminder before renewal, use the <a href=\"/mortgage-renewal-reminder/\">free renewal reminder</a>." })}
+
 <h2>What a check-up is, and why I built one</h2>
 <p>Most people know their mortgage payment to the dollar and almost nothing else about it. That's not a knock. The payment is the number that leaves the account every month. Everything else lives in a statement that gets filed and forgotten. Then the renewal letter arrives, usually with a few weeks to go. Suddenly there are five questions at once and no time to think.</p>
 <p>A check-up is the ten minutes that fixes that. You type in what you've got today, straight off your latest statement. You get a plain-language read on where the mortgage stands. It shows how far away your maturity date really is and which window you're in. It shows what the rest of the term will cost in interest. It shows what you'd still owe at the end, and roughly what it would cost to leave early. Add what you think the home is worth, and it also shows your equity. It shows how much room a lender would see for a refinance or a line of credit too.</p>
 <p>Then it tells you what to do about it, keyed to how many months you have left. Not a sales pitch, just the next sensible step. Everything happens in your browser. Nothing is looked up, nothing is sent anywhere, and you don't need to give an email address to see the result.</p>
 
-${TOOLS["check-up"]()}
 
 <h2>Where to find the numbers</h2>
 <p>Everything the tool asks for is on your latest mortgage statement. Most lenders send one once a year, and many post it in online banking. Look for the current balance (sometimes called principal outstanding), the interest rate, the payment frequency, the remaining amortization and the maturity date. If you've lost track of the statement, your lender's app or a two-minute phone call to its mortgage line will give you all five.</p>
@@ -37,31 +65,6 @@ ${TOOLS["check-up"]()}
 
 <h2>A note on your lender type</h2>
 <p>The tool asks who holds your mortgage because it changes the advice a little. Big banks often register collateral charges. Those can make a switch slower and a touch pricier, so check which charge you have. Credit unions are provincially regulated, so the federal switch rules read differently for them. Ask a quick question before you count on the stress-test exemption. Broker-channel lenders are usually the easiest to move away from at maturity, and often the ones worth comparing against.</p>
-
-<h2>Want it written up, with a reminder attached?</h2>
-<p>You've already got the result. Want it as a short written check-up? Want a reminder at six months and at 120 days before maturity? The form below does both. It's optional. The box that sends your numbers is unticked by default, so nothing travels unless you choose it. The reminder is the same one on the <a href="/mortgage-renewal-reminder/">free renewal reminder page</a>, and it works whether or not your mortgage is with me.</p>
-<div class="form-card">
-<form data-lead="check-up" data-stay novalidate>
-<input type="hidden" name="intent" value="renewal">
-<input type="hidden" name="tool_inputs" value="">
-<div class="row2">
-<div class="fld"><label for="cu-name">Your name</label><input id="cu-name" name="name" type="text" autocomplete="name" required></div>
-<div class="fld"><label for="cu-email">Email</label><input id="cu-email" name="email" type="email" autocomplete="email" required></div>
-</div>
-<div class="row2">
-<div class="fld"><label for="cu-phone">Phone (optional)</label><input id="cu-phone" name="phone" type="tel" autocomplete="tel"></div>
-<div class="fld"><label for="cu-lender">Current lender (optional)</label><input id="cu-lender" name="current_lender" type="text"></div>
-</div>
-<div class="fld"><label for="cu-timeline">Maturity date, if you'd like the reminders</label><input id="cu-timeline" name="timeline" type="text" placeholder="For example, June 2027"></div>
-<div class="hp" aria-hidden="true"><label for="cu-web">Leave this field empty</label><input id="cu-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
-<label class="chk"><input type="checkbox" name="include_estimate"><span>Include the figures I entered above (balance, rate, maturity date, the result) with my message. Optional.</span></label>
-<label class="chk"><input type="checkbox" name="consent_reminders"><span>Send me the two renewal reminders, six months and 120 days before my maturity date. Optional; you can unsubscribe at any time.</span></label>
-<p class="small">By sending this you agree that Joshua Resvick may contact you to reply. See the <a href="/privacy/">privacy policy</a>.</p>
-<label class="chk"><input type="checkbox" name="consent_marketing"><span>Email me Bank of Canada rate updates and mortgage tips. Optional, unsubscribe any time.</span></label>
-<div><button class="btn" type="submit">Send my check-up</button></div>
-<p class="form-msg" role="status" aria-live="polite"></p>
-</form>
-</div>
 
 ${callout("What this tool is not", "<p>It isn't an approval, a valuation or a rate quote. It's arithmetic on the numbers you typed, with the rules that apply to everyone laid over the top. A lender confirms the real figures after an appraisal, a credit check and proof of income, and your lender's penalty calculation is the one that counts.</p>")}
 

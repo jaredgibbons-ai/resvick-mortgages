@@ -10,7 +10,7 @@ ${short({
   next: "Book a 15-minute call and describe the property you have in mind."
 })}
 <p>Kelowna is the largest city in the Okanagan. It's also one of the places in BC where the words primary residence and second home show up in the same conversation.</p>
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage (Verico Xeva Mortgage Inc.). He serves Kelowna, West Kelowna, Lake Country, Peachland and the rest of the valley from his office in Surrey, by phone and video.</p>
+<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He serves Kelowna, West Kelowna, Lake Country, Peachland and the rest of the valley from his office in Surrey, by phone and video.</p>
 <p>He doesn't have a Kelowna branch. He has a process that works the same from anywhere in the province, and over 1,000 mortgages funded with it.</p>
 
 ${ratesStrip()}

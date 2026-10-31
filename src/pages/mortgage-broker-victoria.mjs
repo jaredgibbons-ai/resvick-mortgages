@@ -6,7 +6,7 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-vic
 
 const body = `
 ${short({ answer: "You can get a mortgage in Victoria through a broker who isn't in town. Joshua serves the Island from his Surrey office by phone and video. You sign with a local lawyer or notary.", who: "Greater Victoria buyers, public servants and military families, retirees moving to the Island, and anyone renewing.", next: "Book a 15-minute call, or work out your tax with the <a href=\"/bc-property-transfer-tax-calculator/\">BC property transfer tax calculator</a>." })}
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage (Verico Xeva Mortgage Inc.). His office is in Surrey. He serves Victoria and the rest of Vancouver Island by phone, video and secure document upload.</p>
+<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. His office is in Surrey. He serves Victoria and the rest of Vancouver Island by phone, video and secure document upload.</p>
 <p>There's no branch in Victoria, and you won't need one. Every step can be done from where you are, from the first chat to the lawyer's appointment. You get the same broker who has funded over 1,000 mortgages, working your file himself.</p>
 
 ${ratesStrip()}

@@ -22,7 +22,7 @@ ${short({
 <p>A rate alone tells you very little about the mortgage you'll live with for five years. And the lender quoting it has no reason to mention what a competitor would do differently.</p>
 <p>The Lender Comparison Report puts something next to the offer. On the first strategy call, Joshua Resvick commits to a written side-by-side of real lender options. It covers the rate, the term, the penalties, the prepayment privileges and the portability.</p>
 <p>You see the options in one document, with the trade-offs explained, before you choose. The goal is that you decide with the full picture, not the first number you heard.</p>
-<p>Joshua is a broker with Xeva Mortgage, part of the VERICO network. That means he can place a mortgage with more than one lender. The report is where you actually see that advantage, instead of just reading about it on a website.</p>
+<p>Joshua is a broker with Xeva Mortgage. That means he can place a mortgage with more than one lender. The report is where you actually see that advantage, instead of just reading about it on a website.</p>
 
 <h2>What the report compares</h2>
 <p>A comparison that stops at the rate is just a price list. Here's what Joshua puts in the report, and why each item matters.</p>

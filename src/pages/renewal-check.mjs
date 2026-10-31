@@ -3,9 +3,10 @@ import { cta, callout } from "../lib/site.mjs";
 import { quizEmbed } from "../lib/quiz-markup.mjs";
 
 const body = `
-${short({ answer: "This check scores how ready you are to shop your renewal, and turns your maturity date into a simple timeline. Many borrowers can now switch lenders at renewal without redoing the stress test. Your result shows on the page, with no email needed.", who: "Anyone whose mortgage term ends in the next year or so.", next: "Answer the questions below, then read the <a href=\"/mortgage-renewal-bc/\">renewal guide</a> for the full process." })}
 
 ${quizEmbed("renewal")}
+
+${short({ answer: "This check scores how ready you are to shop your renewal, and turns your maturity date into a simple timeline. Many borrowers can now switch lenders at renewal without redoing the stress test. Your result shows on the page, with no email needed.", who: "Anyone whose mortgage term ends in the next year or so.", next: "Answer the questions below, then read the <a href=\"/mortgage-renewal-bc/\">renewal guide</a> for the full process." })}
 
 <h2>What this check measures</h2>
 <p>Renewal is a free moment. It's the one time in a mortgage when you're truly free to shop, and most people waste it. The letter arrives with a rate on it, and signing takes thirty seconds. This check is built to slow that moment down.</p>

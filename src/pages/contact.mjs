@@ -9,7 +9,6 @@ const hero = `<div class="hero-copy"><h1>Contact a mortgage broker in Surrey, BC
 <p class="lede">The fastest way to start is a 15-minute call with me. Pick a time, phone, or send a message. Either way, you're dealing with me directly.</p></div>${photo}`;
 
 const body = `
-${short({ answer: "Book a free 15-minute call, phone 778.882.5674, or send a note below. You'll deal with me directly.", who: "Anyone in BC who is buying, renewing, refinancing or just has a mortgage question.", next: `Pick a time in the <a href="${SITE.book}">booking calendar</a>. You don't need any documents yet.` })}
 <h2>Book a 15-minute call</h2>
 <p>The call is where a mortgage plan starts. I'll ask about your goals and your numbers, tell you what's realistic, and explain the next step. There's no obligation, and you don't need to prepare anything. Just pick a time that suits you in the calendar below. It's my own booking page, so what you see is what I've actually got open.</p>
 <div class="book-facade" data-nocount>
@@ -19,36 +18,6 @@ ${short({ answer: "Book a free 15-minute call, phone 778.882.5674, or send a not
 <button class="btn" type="button" data-book-load>Show available times</button>
 <a href="${SITE.book}" data-evt="book_call_click">Or open the booking page in a new view</a>
 </div>
-
-<h2>Phone, email and office</h2>
-<div class="contact-grid">
-<div><strong>Phone</strong><a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a><br>Best for anything time-sensitive.<br>Or <a href="${SITE.smsHref}" data-evt="text_click">text Josh</a>.</div>
-<div><strong>Email</strong><a href="mailto:${SITE.email}">${SITE.email}</a><br>Best for questions that are not urgent.</div>
-<div><strong>Office</strong>#106, 2626 Croydon Drive<br>Surrey, BC V3Z 0S8<br>Xeva Mortgage head office</div>
-</div>
-<p>I'm a licensed mortgage broker with Xeva Mortgage (Verico Xeva Mortgage Inc.). The brokerage holds BCFSA Brokerage Licence #X300203, and my individual broker licence is MB503619. There's more about me on the <a href="/about-joshua-resvick/">About page</a>.</p>
-
-<h2>What happens on the call</h2>
-<p>Fifteen minutes goes quickly, so I keep the call to a simple agenda.</p>
-<ol>
-<li><strong>Your goal.</strong> Are you buying, renewing, refinancing or investing, and what are you actually trying to achieve? The best mortgage depends on the plan, so the plan comes first.</li>
-<li><strong>Your numbers.</strong> A rough picture is plenty: household income, the debts you pay each month, your down payment or home equity, and a target timeline. Estimates are fine. I'll tell you which ones matter most.</li>
-<li><strong>What's realistic.</strong> I'll explain where you stand, which lender types fit, and what could change the result. If something in the plan won't work, you'll hear it now, along with the alternatives.</li>
-<li><strong>The next step.</strong> That might be a pre-approval, a written lender comparison, a renewal timeline, or just a date to talk again. Nothing's required of you at the end of the call.</li>
-</ol>
-<p>One thing I'll say up front: nobody has ever wasted my time with a question that felt too basic. If you're not sure whether your situation even counts as a mortgage question, that's exactly the kind of thing the call is for.</p>
-<p>If you'd like a number before you call, the <a href="/mortgage-calculators/#affordability">affordability calculator</a> gives you an estimate of what your income might support. It's an estimate, not an approval, and we'll refine it together.</p>
-
-<h2>What to have ready</h2>
-<p>You can book the call with nothing in hand. When it's time to build an application, the documents depend on how you earn your income. These lists are a general guide. Lenders sometimes ask for more.</p>
-<ul>
-<li><strong>Employed, salary or hourly:</strong> recent pay stubs, a letter of employment, and recent tax documents from the Canada Revenue Agency (CRA).</li>
-<li><strong>Self-employed:</strong> several years of personal tax returns with notices of assessment, and business financial statements. Which documents work best depends on the lender, and sorting that out is part of what the first call is for. See the <a href="/self-employed-mortgage-bc/">self-employed mortgage guide</a>.</li>
-<li><strong>Down payment:</strong> statements showing where the money has been, since lenders usually look at its history. Gifted funds need a gift letter.</li>
-<li><strong>Renewal:</strong> your most recent mortgage statement and your renewal letter, along with your maturity date. The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> explains what to do with them.</li>
-<li><strong>Buyers:</strong> a rough timeline, a sense of the price range, and the date you'd like to close. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> covers the sequence.</li>
-</ul>
-<p>The <a href="/mortgage-application-checklist/">mortgage application checklist</a> goes further, with the six problems that most often sink applications and a self-check for each.</p>
 
 <h2>Send a message</h2>
 <p>If you'd rather write than talk, use the form. I read every message myself and reply by email or phone. For anything urgent, like a closing date or a lender deadline, just phone ${SITE.phone}.</p>
@@ -72,6 +41,38 @@ ${short({ answer: "Book a free 15-minute call, phone 778.882.5674, or send a not
 <p class="form-msg" role="status" aria-live="polite"></p>
 </form>
 </div>
+
+${short({ answer: "Book a free 15-minute call, phone 778.882.5674, or send a note below. You'll deal with me directly.", who: "Anyone in BC who is buying, renewing, refinancing or just has a mortgage question.", next: `Pick a time in the <a href="${SITE.book}">booking calendar</a>. You don't need any documents yet.` })}
+
+<h2>Phone, email and office</h2>
+<div class="contact-grid">
+<div><strong>Phone</strong><a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a><br>Best for anything time-sensitive.<br>Or <a href="${SITE.smsHref}" data-evt="text_click">text Josh</a>.</div>
+<div><strong>Email</strong><a href="mailto:${SITE.email}">${SITE.email}</a><br>Best for questions that are not urgent.</div>
+<div><strong>Office</strong>#106, 2626 Croydon Drive<br>Surrey, BC V3Z 0S8<br>Xeva Mortgage head office</div>
+</div>
+<p>I'm a licensed mortgage broker with Xeva Mortgage. The brokerage holds BCFSA Brokerage Licence #X300203, and my individual broker licence is MB503619. There's more about me on the <a href="/about-joshua-resvick/">About page</a>.</p>
+
+<h2>What happens on the call</h2>
+<p>Fifteen minutes goes quickly, so I keep the call to a simple agenda.</p>
+<ol>
+<li><strong>Your goal.</strong> Are you buying, renewing, refinancing or investing, and what are you actually trying to achieve? The best mortgage depends on the plan, so the plan comes first.</li>
+<li><strong>Your numbers.</strong> A rough picture is plenty: household income, the debts you pay each month, your down payment or home equity, and a target timeline. Estimates are fine. I'll tell you which ones matter most.</li>
+<li><strong>What's realistic.</strong> I'll explain where you stand, which lender types fit, and what could change the result. If something in the plan won't work, you'll hear it now, along with the alternatives.</li>
+<li><strong>The next step.</strong> That might be a pre-approval, a written lender comparison, a renewal timeline, or just a date to talk again. Nothing's required of you at the end of the call.</li>
+</ol>
+<p>One thing I'll say up front: nobody has ever wasted my time with a question that felt too basic. If you're not sure whether your situation even counts as a mortgage question, that's exactly the kind of thing the call is for.</p>
+<p>If you'd like a number before you call, the <a href="/mortgage-calculators/#affordability">affordability calculator</a> gives you an estimate of what your income might support. It's an estimate, not an approval, and we'll refine it together.</p>
+
+<h2>What to have ready</h2>
+<p>You can book the call with nothing in hand. When it's time to build an application, the documents depend on how you earn your income. These lists are a general guide. Lenders sometimes ask for more.</p>
+<ul>
+<li><strong>Employed, salary or hourly:</strong> recent pay stubs, a letter of employment, and recent tax documents from the Canada Revenue Agency (CRA).</li>
+<li><strong>Self-employed:</strong> several years of personal tax returns with notices of assessment, and business financial statements. Which documents work best depends on the lender, and sorting that out is part of what the first call is for. See the <a href="/self-employed-mortgage-bc/">self-employed mortgage guide</a>.</li>
+<li><strong>Down payment:</strong> statements showing where the money has been, since lenders usually look at its history. Gifted funds need a gift letter.</li>
+<li><strong>Renewal:</strong> your most recent mortgage statement and your renewal letter, along with your maturity date. The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> explains what to do with them.</li>
+<li><strong>Buyers:</strong> a rough timeline, a sense of the price range, and the date you'd like to close. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> covers the sequence.</li>
+</ul>
+<p>The <a href="/mortgage-application-checklist/">mortgage application checklist</a> goes further, with the six problems that most often sink applications and a self-check for each.</p>
 
 <h2>Questions people bring to a first call</h2>
 <p>You don't need a polished question to start. Here are the kinds of things people open with. Every one is a good reason to get in touch.</p>

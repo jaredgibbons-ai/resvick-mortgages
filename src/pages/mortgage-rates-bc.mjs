@@ -77,7 +77,7 @@ ${callout("An illustration, not a quote", "<p>Take a $500,000 mortgage on a 25-y
 <p>A rate hold reserves a rate for a set time. You might be shopping for a home, waiting for a build to finish or deciding at renewal. Holds commonly run 90 to 120 days. A hold isn't an approval. What happens if rates fall during it depends on the lender. The full story is on the page about <a href="/mortgage-rate-hold/">mortgage rate holds</a>.</p>
 
 <h2>How Joshua shops the market</h2>
-<p>Resvick Mortgages works under Xeva Mortgage (Verico Xeva Mortgage Inc.). That gives Joshua access to a wide range of lenders.</p>
+<p>Resvick Mortgages works under Xeva Mortgage. That gives Joshua access to a wide range of lenders.</p>
 <p>He doesn't just quote one lender's product. He asks the lenders whose rules fit your file for their terms. Then he compares them on everything above. That means rate, term, penalty, prepayment, portability and how the lender treats you later on. Every client gets that comparison in writing, in the <a href="/lender-comparison-report/">Lender Comparison Report</a>.</p>
 <p>And since people always wonder, here's how fees work. With a mainstream (A) lender, the lender pays the broker, and you pay nothing for the service. Fees come up only on some B-lender and private-lender files. When they do, BC rules require written disclosure before you commit. The page on <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> has the detail.</p>
 

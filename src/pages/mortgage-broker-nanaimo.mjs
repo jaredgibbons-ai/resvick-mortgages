@@ -7,7 +7,7 @@ const body = `
 ${short({ answer: "Yes, you can work with a mortgage broker in Nanaimo without one being in town. Joshua serves the city from his Surrey office by phone and video. The appraisal and the signing happen locally.", who: "Nanaimo buyers, ferry commuters, families moving to the Island and anyone renewing.", next: "Book a 15-minute call, or check your numbers first with the <a href=\"/mortgage-calculators/#affordability\">affordability calculator</a>." })}
 <p>Nanaimo sits where Vancouver Island comes closest to the mainland. A lot of its housing story follows from that. Two BC Ferries terminals, Departure Bay and Duke Point, link the city to Metro Vancouver. Seaplanes and a helicopter service also run to downtown Vancouver (City of Nanaimo, Getting Here, read October 2026).</p>
 <p>So Nanaimo is a city of commuters and people who moved here. Plenty of them have one foot on each side of the strait. That makes the mortgage questions a little different from a purely local market.</p>
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage (Verico Xeva Mortgage Inc.). He serves Nanaimo and the mid-Island from his Surrey office. He works by phone, video and secure document upload. He doesn't keep a Nanaimo branch, and the process doesn't need one.</p>
+<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He serves Nanaimo and the mid-Island from his Surrey office. He works by phone, video and secure document upload. He doesn't keep a Nanaimo branch, and the process doesn't need one.</p>
 <p>He has funded over 1,000 mortgages. Before he became a broker, he spent five years as a mortgage underwriter. He works every file himself.</p>
 
 ${ratesStrip()}

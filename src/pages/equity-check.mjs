@@ -3,13 +3,14 @@ import { quizEmbed } from "../lib/quiz-markup.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
+
+${quizEmbed("equity")}
+
 ${short({
   answer: "This check shows your loan-to-value, the equity you could realistically reach and a score out of 100. It also tells you whether using your equity is a clear case, a closer call, or worth a second thought.",
   who: "Homeowners thinking about a refinance, a line of credit, a renovation, debt payoff or a buyout. Only want a quick sort of your situation? Try the <a href='/mortgage-check/'>two-question router</a>.",
   next: "Answer the questions below. The result appears on this page before any form."
 })}
-
-${quizEmbed("equity")}
 
 <h2>What this check measures</h2>
 <p>"I want to use my equity" is the start of five different conversations. Someone wants to clear credit cards. Someone wants to renovate. Someone wants to buy a rental, or buy out a partner. Someone just wants to stop paying a rate that no longer makes sense. The mortgage that fits each of those is different. So is the cost of getting there. This check sorts out which conversation you're in.</p>

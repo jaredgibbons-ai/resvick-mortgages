@@ -3,12 +3,13 @@ import { quizEmbed } from "../lib/quiz-markup.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
+${quizEmbed("investor")}
+
 ${short({
   answer: "Ten questions on your reserves, plan, finances and experience. You get a score, a band and the one thing to work on, right on the page.",
   who: "Anyone thinking about buying a rental property, first or fifth.",
   next: "Take the check below. Then read the <a href=\"/investment-property-mortgages-bc/\">investment property guide</a> for the details."
 })}
-${quizEmbed("investor")}
 
 <h2>What this check measures</h2>
 <p>Rentals are different. A rental purchase is a business decision dressed up as a mortgage. The lender wants to know four things. How deep are your reserves? What do you plan to do with the property? How strong is your own position? Have you done this before?</p>

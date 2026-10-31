@@ -14,7 +14,7 @@ const body = `
 ${short({ answer: "I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as an underwriter, then ten as a broker, and I've funded over 1,000 mortgages.", who: "Anyone in BC who wants to know who they'd be working with before they call.", next: "Book a free <a href=\"https://cal.com/resvickmortgages/mortgage-advice\">15-minute call</a>, or read <a href=\"/how-mortgage-brokers-get-paid/\">how brokers get paid</a> first." })}
 
 <h2>Who I am</h2>
-<p>I'm the broker behind Resvick Mortgages. I work under Xeva Mortgage (Verico Xeva Mortgage Inc.). My office is in Surrey, British Columbia. I work with clients across the province, online and by phone.</p>
+<p>I'm the broker behind Resvick Mortgages. I work under Xeva Mortgage. My office is in Surrey, British Columbia. I work with clients across the province, online and by phone.</p>
 <p>I've been a mortgage broker for ten years. Before that, I was a mortgage underwriter for five years. I've funded over 1,000 mortgages.</p>
 <p>I work directly with every client. There's no call centre between you and me. No junior hands off your file. No team of strangers learns your story from scratch. When you call, you get me.</p>
 
@@ -67,7 +67,7 @@ ${short({ answer: "I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. 
 <p>I work with clients across BC. If you're near my office, the <a href="/mortgage-broker-surrey/">mortgage broker in Surrey</a> page has the local details. If you're anywhere else in the province, nothing changes. The process is online, and the service is the same.</p>
 
 <h2>Licence and brokerage details</h2>
-<p>Resvick Mortgages is the working name of Joshua Resvick, Mortgage Broker, at Xeva Mortgage (Verico Xeva Mortgage Inc.), a member of the VERICO network. The brokerage holds BCFSA Brokerage Licence #X300203. Joshua's own mortgage broker licence number is MB503619.</p>
+<p>Resvick Mortgages is the working name of Joshua Resvick, Mortgage Broker, at Xeva Mortgage. The brokerage holds BCFSA Brokerage Licence #X300203. Joshua's own mortgage broker licence number is MB503619.</p>
 <p>Mortgage brokers in British Columbia are regulated by the BC Financial Services Authority. You can confirm any broker's licence, including his, in BCFSA's public Find a Mortgage Broker lookup. Joshua encourages you to do that with every professional you consider.</p>
 <p>The office is #106, 2626 Croydon Drive, Surrey, BC V3Z 0S8. You can phone ${SITE.phone} or email <a href="mailto:${SITE.email}">${SITE.email}</a>. You can also use the <a href="/contact/">contact page</a>, which explains what to have ready for your first call.</p>
 <p>Wondering how the money side works? The page on <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> answers it plainly. On A-lender mortgages, the lender pays the broker and you pay nothing. Fees come up only on some B-lender and private files, with written disclosure first.</p>
@@ -83,7 +83,7 @@ export default {
   nav: "/about-joshua-resvick/",
   body,
   faqs: [
-    { q: "Is Joshua Resvick a licensed mortgage broker in BC?", a: "Yes. Joshua holds BC mortgage broker licence MB503619, and he works through Xeva Mortgage (Verico Xeva Mortgage Inc.), which holds BCFSA brokerage licence X300203. You can check both in the BCFSA public lookup for mortgage brokers, and he encourages you to do that with any broker you meet." },
+    { q: "Is Joshua Resvick a licensed mortgage broker in BC?", a: "Yes. Joshua holds BC mortgage broker licence MB503619, and he works through Xeva Mortgage, which holds BCFSA brokerage licence X300203. You can check both in the BCFSA public lookup for mortgage brokers, and he encourages you to do that with any broker you meet." },
     { q: "Does it cost me anything to work with Joshua?", a: "On a mortgage from an A-lender, the lender pays the broker and you pay nothing. Fees only come up on some B-lender or private files, and then you get the amount in writing, on the BCFSA disclosure form, before you agree to anything. The page on how mortgage brokers get paid has the full picture." },
     { q: "Where is Joshua's office, and do I have to come in?", a: "The office is at #106, 2626 Croydon Drive in Surrey. You do not have to visit. Most clients work with Joshua by phone, email and video call from anywhere in BC, and in-person meetings can be set up by appointment." },
     { q: "Does Joshua only work with people who live in Surrey?", a: "No. He serves clients across British Columbia from his Surrey office. The city pages on this site cover local details such as property transfer tax and municipal rules, but the process is the same wherever you live in the province." },
@@ -92,7 +92,7 @@ export default {
   schema: [{
     "@context": "https://schema.org", "@type": "Person", "@id": SITE.origin + "/about-joshua-resvick/#person", name: "Joshua Resvick", jobTitle: "Mortgage Broker", identifier: { "@type": "PropertyValue", propertyID: "BCFSA Mortgage Broker Licence", value: "MB503619" },
     url: SITE.origin + "/about-joshua-resvick/", email: SITE.email, telephone: "+1-778-882-5674",
-    worksFor: { "@type": "Organization", name: "Xeva Mortgage (Verico Xeva Mortgage Inc.)" },
+    worksFor: { "@type": "Organization", name: "Xeva Mortgage" },
     workLocation: { "@type": "Place", address: { "@type": "PostalAddress", streetAddress: "#106, 2626 Croydon Drive", addressLocality: "Surrey", addressRegion: "BC", postalCode: "V3Z 0S8", addressCountry: "CA" } }
   }]
 };

@@ -13,7 +13,7 @@ Use this block verbatim on Google and on every directory. Same characters, same 
 ```
 Business name:   Resvick Mortgages
 Owner / broker:  Joshua Resvick, Mortgage Broker
-Brokerage:       Xeva Mortgage (Verico Xeva Mortgage Inc.), VERICO network
+Brokerage:       Xeva Mortgage
 Address:         #106–2626 Croydon Drive, Surrey, BC V3Z 0S8
 Phone:           778.882.5674
 Email:           joshua@resvickmortgages.com
@@ -65,7 +65,7 @@ Do not add "Bank", "Real estate agency" or "Mortgage lender" as primary. Primary
 **Business description** (746 characters, under the 750 limit; paste as one paragraph):
 
 ```
-Resvick Mortgages is Joshua Resvick, a licensed mortgage broker (BCFSA #MB503619) with Xeva Mortgage, part of the VERICO network. Joshua has been a broker for ten years, after five years as a mortgage underwriter, and has funded over 1,000 mortgages. He works with first-time buyers, homeowners renewing or refinancing, self-employed borrowers and investors across British Columbia, online and by phone from his Surrey office. On most mortgages the lender pays the broker, so there is no fee to you; any exception is disclosed in writing first. Every client receives a written comparison of lender options before deciding, and the relationship continues after funding with annual reviews and renewal planning. Book a free 15-minute call to start.
+Resvick Mortgages is Joshua Resvick, a licensed mortgage broker (BCFSA #MB503619) with Xeva Mortgage. Joshua has been a broker for ten years, after five years as a mortgage underwriter, and has funded over 1,000 mortgages. He works with first-time buyers, homeowners renewing or refinancing, self-employed borrowers and investors across British Columbia, online and by phone from his Surrey office. On most mortgages the lender pays the broker, so there is no fee to you; any exception is disclosed in writing first. Every client receives a written comparison of lender options before deciding, and the relationship continues after funding with annual reviews and renewal planning. Book a free 15-minute call to start.
 ```
 
 **Opening date:** **JOSH** (the year Resvick Mortgages started trading under that name; Google only needs month and year).

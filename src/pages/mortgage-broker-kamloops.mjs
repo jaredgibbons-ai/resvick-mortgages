@@ -10,7 +10,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua how you're paid."
 })}
 <p>Kamloops is a working city. Rail, trades, mining, health care, the university and the ranching country around it produce a mix of incomes. Lenders don't all read those incomes the same way. That's where a broker earns a place in the process.</p>
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage (Verico Xeva Mortgage Inc.). He serves Kamloops and the Thompson region from his Surrey office, by phone and video. There's no Kamloops branch. Instead, there's a broker who was an underwriter for five years and has funded over 1,000 mortgages. He handles your file himself.</p>
+<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He serves Kamloops and the Thompson region from his Surrey office, by phone and video. There's no Kamloops branch. Instead, there's a broker who was an underwriter for five years and has funded over 1,000 mortgages. He handles your file himself.</p>
 
 ${ratesStrip()}
 

@@ -6,7 +6,7 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-pri
 const body = `
 ${short({ answer: "You don't need a local office to get a mortgage in Prince George. Joshua serves the North from his Surrey office by phone and video, and he's used to shift, camp and seasonal income.", who: "Prince George buyers, renewers and anyone with resource, rotation or contract pay.", next: "Book a 15-minute call, or start with the <a href=\"/self-employed-mortgage-bc/\">self-employed mortgage hub</a> if you work for yourself." })}
 <p>Prince George is the service centre of northern BC. It has a university, a college and a regional hospital. It has government offices, forestry and manufacturing, and a rail and highway hub. Plenty of smaller towns look to it for services.</p>
-<p>Mortgage brokering doesn't depend on where the broker sits. Joshua Resvick is a licensed mortgage broker with Xeva Mortgage (Verico Xeva Mortgage Inc.). He serves Prince George and the North from his Surrey office. He works by phone, video and secure document upload.</p>
+<p>Mortgage brokering doesn't depend on where the broker sits. Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He serves Prince George and the North from his Surrey office. He works by phone, video and secure document upload.</p>
 <p>He has no branch in the city. What he does have is a process built for distance. He has funded over 1,000 mortgages with it. Before that, he spent five years as a mortgage underwriter.</p>
 
 ${ratesStrip()}

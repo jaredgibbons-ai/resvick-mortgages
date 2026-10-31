@@ -49,7 +49,7 @@ ${ratesStrip()}
 ${callout("What the rate table doesn't tell you", "<p>A 5-year fixed rate is easy to advertise and hard to compare. Two mortgages with the same rate can have different penalties, prepayment limits and portability. Compare the whole mortgage, not just the number. The Lender Comparison Report is built for that.</p>")}
 
 <h2>How a broker approaches the 5-year question</h2>
-<p>Joshua Resvick works with Xeva Mortgage (Verico Xeva Mortgage Inc.). He compares lenders on more than the rate. For a five-year fixed, he asks each lender a few questions. How is the penalty worked out? What are the prepayment privileges? Can the mortgage be ported? What happens at renewal?</p>
+<p>Joshua Resvick works with Xeva Mortgage. He compares lenders on more than the rate. For a five-year fixed, he asks each lender a few questions. How is the penalty worked out? What are the prepayment privileges? Can the mortgage be ported? What happens at renewal?</p>
 <p>Every client gets the results as a written <a href="/lender-comparison-report/">Lender Comparison Report</a>. On a mortgage with a mainstream (A) lender, the lender pays the broker. You pay nothing for the service. Fees come up only on some B-lender and private files, with written disclosure first.</p>
 <p>Want to see how a 5-year fixed stacks up against your other options? The rates hub at <a href="/mortgage-rates-bc/">mortgage rates in BC</a> lays out the whole picture. The best next step is a short chat about your own plans.</p>
 

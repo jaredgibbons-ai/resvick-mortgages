@@ -3,12 +3,13 @@ import { quizEmbed } from "../lib/quiz-markup.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
+${quizEmbed("selfemployed")}
+
 ${short({
   answer: "Six quick questions and four numbers show which of three lending routes fits your business: traditional, stated income or alternative. You see all three side by side before any form.",
   who: "Business owners, contractors and anyone whose tax return shows less income than the business really earns.",
   next: "Take the check below with your last two notices of assessment handy. It runs in your browser and sends nothing."
 })}
-${quizEmbed("selfemployed")}
 
 <h2>What this check measures</h2>
 <p>Here's the problem. If you work for yourself, you know it well. Your business does fine. Your accountant keeps your taxable income low. Then a lender reads your tax return and sees a number that wouldn't rent a basement suite. This check is built around that gap.</p>

@@ -27,7 +27,7 @@ ${short({
 <p>The payment comes from the lender's own revenue. It isn't added to your rate as a separate line. It isn't a charge on your balance, and there's no invoice.</p>
 <p>If the mortgage doesn't fund, no fee is paid. So a broker has every reason to build a file that will really get approved.</p>
 <p>Two details are worth knowing, because they show up in the paperwork.</p>
-<p>First, the payment goes to the brokerage, not to the person. Joshua works under Xeva Mortgage (Verico Xeva Mortgage Inc.), BCFSA Brokerage Licence #X300203. The brokerage is the licensed party the lender pays.</p>
+<p>First, the payment goes to the brokerage, not to the person. Joshua works under Xeva Mortgage, BCFSA Brokerage Licence #X300203. The brokerage is the licensed party the lender pays.</p>
 <p>Second, the arrangement is disclosed in writing. The BC Financial Services Authority requires two forms. The Form 1A is the Disclosure of Representation to Borrower. It explains who the broker acts for and how the brokerage may be paid. The Form 4 sets out the expected pay on your own deal, as an amount or as a way of working it out. You'll see both before you commit.</p>
 
 <h2>Does lender pay mean lender bias</h2>

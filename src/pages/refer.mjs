@@ -35,13 +35,15 @@ ${toggle("buying", "Buying a home")}${toggle("renewing", "Renewing")}${toggle("r
 </div>`;
 
 const body = `
+
+${form}
+
 ${short({ answer: "If someone you know needs mortgage help, send them my way here. I'll mention your name, go at their pace and never charge them on an A-lender file. I don't pay for referrals. Just make sure they've agreed to hear from me first.", who: "Past clients, friends and colleagues who know someone buying, renewing or refinancing.", next: "Ask the person first, then fill in the short form below. Or send them the <a href=\"/contact/\">contact page</a>." })}
+
 
 <h2>How referrals work with me</h2>
 <p>Most of my clients come from other clients, and I'd like to keep it that way. Maybe someone you know is buying, renewing or refinancing. Or maybe a lender just confused them. You can send them my way here. I'll get in touch and mention your name, so it's not a stranger calling. Then I'll go at their pace. If they only want one question answered, that's a fine outcome. No pressure on them, and nothing expected of you.</p>
 <p>Two things I want to be clear about up front. First, I don't pay for referrals, and I don't run contests or gift cards. A referral should be a recommendation, not a transaction. BC's rules for mortgage brokers are also strict about anything that looks like an inducement. Second, the person you refer never pays for the service on a mainstream (A) lender file. The lender pays me, and they pay nothing. Fees only arise on some B-lender and private files, with written disclosure first. The page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> explains the whole arrangement. Feel free to send it to them before they decide.</p>
-
-${form}
 
 <h2>Why I ask whether they've agreed</h2>
 <p>That required box isn't a formality. Canada's anti-spam law means I shouldn't email or text someone who hasn't agreed to hear from me, and a referral doesn't change that. More to the point, nobody enjoys a surprise call about their mortgage. So here's what works best. You tell them about me. They say sure, have him reach out. Then you fill in the form. If you'd rather not be the go-between, send them the <a href="/contact/">contact page</a> instead. They can book a call themselves. Either route ends in the same conversation.</p>

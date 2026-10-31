@@ -3,9 +3,10 @@ import { cta, callout } from "../lib/site.mjs";
 import { quizEmbed } from "../lib/quiz-markup.mjs";
 
 const body = `
-${short({ answer: "This two-minute check scores how ready you are to buy, out of 100. It looks at what you can afford and whether you can prove it the way a lender needs. You see your result right away, with no email needed.", who: "Anyone thinking about buying a home in BC in the next year or so.", next: "Answer the questions below. If your result says to sort a few things first, the <a href=\"/first-time-home-buyer-bc/\">first-time buyer hub</a> shows the order." })}
 
 ${quizEmbed("purchase")}
+
+${short({ answer: "This two-minute check scores how ready you are to buy, out of 100. It looks at what you can afford and whether you can prove it the way a lender needs. You see your result right away, with no email needed.", who: "Anyone thinking about buying a home in BC in the next year or so.", next: "Answer the questions below. If your result says to sort a few things first, the <a href=\"/first-time-home-buyer-bc/\">first-time buyer hub</a> shows the order." })}
 
 <h2>What this check measures</h2>
 <p>Buying is two tests in one. The first one you already know: can you afford it? The second one trips people up: can you prove it, the way a lender needs, by the date you need it? This check scores both.</p>

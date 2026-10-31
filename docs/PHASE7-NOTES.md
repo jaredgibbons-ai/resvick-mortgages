@@ -49,3 +49,6 @@ Confirm with Josh:
 - `SITE.fullApp` (src/lib/site.mjs) holds Josh's Newton Velocity client-journey link. It shows as a secondary "Start the full application" button in a box under the short form on /apply/, and as a line on the apply thank-you block. The short form and its buttons are unchanged. Click event: `full_app_click`.
 - Confirm with Josh: (1) this link is meant to be public and safe to share on a website; (2) Xeva is fine with clients reaching the full application without a first call and without the BCFSA disclosure step being sent first; (3) the privacy policy should say lead details may be held in Newton.
 - Later option: Newton "Velocity In API" (request key in Velocity, Settings, Request API Key, with resvickmortgages.com) to push leads into Velocity automatically.
+
+## Verico removed (Oct 31, 2026)
+Josh says Xeva is no longer part of Verico. Every "Verico" and "VERICO network" mention is gone from the site, schema and docs; the brokerage now reads "Xeva Mortgage" everywhere (footer, schema, copy). Confirm with Josh: the exact registered brokerage name on the BCFSA licence record (#X300203), so the footer line matches the public lookup word for word.

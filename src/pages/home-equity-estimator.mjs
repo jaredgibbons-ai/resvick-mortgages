@@ -3,11 +3,12 @@ import { cta, callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
-${short({ answer: "Most BC homeowners can borrow up to 80% of their home's value in total, minus what they still owe. A line of credit alone is capped at 65%.", who: "Homeowners thinking about a renovation, paying off debt or buying a rental with their equity.", next: 'Enter your value and balance in the estimator below. Nothing is looked up or sent.' })}
 <h2>Estimate the equity you could borrow against</h2>
+<div class="tools">${TOOLS.equity()}</div>
+
+${short({ answer: "Most BC homeowners can borrow up to 80% of their home's value in total, minus what they still owe. A line of credit alone is capped at 65%.", who: "Homeowners thinking about a renovation, paying off debt or buying a rental with their equity.", next: 'Enter your value and balance in the estimator below. Nothing is looked up or sent.' })}
 <p>Home equity is the part of your home you own outright: its value, less what you still owe against it. It grows as you pay down principal and as your home's value changes. It's the source of money for many big decisions. Think of a renovation, paying off high-interest debt, a down payment on a rental, or a cushion if your income changes. Before you speak to any lender, it helps to know roughly how much of it is usable, and that is not the same as how much of it exists.</p>
 <p>Enter your own estimate of the home's value and what you owe. The estimator shows your equity, the room a regulated lender would allow you to borrow, and what happens to that room if the appraisal comes in lower than you hoped.</p>
-<div class="tools">${TOOLS.equity()}</div>
 <p>This tool does not check your credit, does not look up your property and does not send your figures anywhere. It works only from the numbers you type, which means it is a planning aid, and a real borrowing decision will involve more. The sections below explain how to read the result and what lenders add on top.</p>
 
 <h2>Equity and usable equity are different numbers</h2>

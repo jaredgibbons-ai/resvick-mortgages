@@ -40,17 +40,19 @@ const form = `
 </div>`;
 
 const body = `
+
+${form}
+
 ${short({ answer: "Send me three things today: the contract, the listing and your dates. I will line up the lender in the right order so you can meet your subject removal date.", who: "Anyone with an accepted offer and a financing condition. No offer yet? Start with the <a href=\"/mortgage-pre-approval-bc/\">pre-approval guide</a>.", next: "Use the form below, or phone <a href=\"tel:+17788825674\" data-evt=\"phone_click\">778.882.5674</a> if your deadline is within a few days." })}
+
 <h2>First, breathe. Then send me three things.</h2>
 <p>An accepted offer with a financing condition gives you a deadline. It is usually a week or so to get a lender's approval, and sometimes less. That's enough time if the file moves in the right order. That order starts today. Here's what I need first:</p>
 <ol>
 <li><strong>The contract.</strong> The accepted offer, with the subject removal date and the completion date on it. Your realtor can send it straight to me.</li>
 <li><strong>The listing.</strong> The MLS sheet, or just the address. The lender needs to know what it's lending against, and so do I.</li>
-<li><strong>Your dates.</strong> Use the form below, or phone. Subject removal is the date that matters most. Completion is the second.</li>
+<li><strong>Your dates.</strong> Use the form at the top of this page, or phone. Subject removal is the date that matters most. Completion is the second.</li>
 </ol>
 <p>Everything else comes later, once I've seen the deal. That means income documents and down payment statements. I'll ask for them in a set order through a secure link. If you already did a <a href="/mortgage-pre-approval-bc/">proper pre-approval</a> with me, most of that is done. The lender only needs the property side. If your pre-approval came from a bank, send it along anyway. Then I know what they checked and what they didn't.</p>
-
-${form}
 
 <h2>How the next week usually goes</h2>
 <p>Every file is its own, so treat this as the common shape rather than a promise. Lenders differ, and a busy week at a lender can stretch any of these steps.</p>

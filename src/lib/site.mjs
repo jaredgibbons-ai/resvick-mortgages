@@ -5,7 +5,7 @@ export const SITE = {
   origin: "https://www.resvickmortgages.com",
   name: "Resvick Mortgages",
   person: "Joshua Resvick",
-  brokerage: "Xeva Mortgage (Verico Xeva Mortgage Inc.)",
+  brokerage: "Xeva Mortgage",
   phone: "778.882.5674",
   phoneHref: "tel:+17788825674",
   smsHref: "sms:+17788825674",
@@ -53,7 +53,7 @@ export function header(current) {
   return `<header class="site-header" data-nocount>
 <a class="skip" href="#main">Skip to content</a>
 <div class="hdr-in">
-<a class="brand" href="/"><span class="brand-name">Resvick Mortgages</span><span class="brand-sub">Xeva Mortgage · VERICO</span></a>
+<a class="brand" href="/"><span class="brand-name">Resvick Mortgages</span><span class="brand-sub">Xeva Mortgage</span></a>
 <nav class="nav" aria-label="Primary"><ul>${items}</ul></nav>
 <div class="hdr-cta"><a class="hdr-phone" href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a><a class="btn btn-ghost btn-sm" href="/apply/" data-evt="apply_click">Apply</a><a class="btn btn-ghost btn-sm" href="/mortgage-check-up/" data-evt="checkup_click">Check-Up</a><a class="btn btn-sm" href="${SITE.book}" data-evt="book_call_click">Book a Call</a></div>
 <details class="mnav"><summary aria-label="Menu"><span></span></summary><div class="mnav-panel"><ul>${NAV.map((n) => `<li><a href="${n.href}">${esc(n.label)}</a></li>`).join("")}</ul>
@@ -65,7 +65,7 @@ export function footer() {
   return `<footer class="site-footer" data-nocount>
 <div class="ftr-in">
 <div><p class="ftr-brand">Resvick Mortgages</p>
-<p>Resvick Mortgages, Joshua Resvick, Mortgage Broker, Xeva Mortgage (Verico Xeva Mortgage Inc.), #106–2626 Croydon Drive, Surrey, BC · ${SITE.licence} · Broker Licence #${SITE.brokerLicence}</p>
+<p>Resvick Mortgages, Joshua Resvick, Mortgage Broker, Xeva Mortgage, #106–2626 Croydon Drive, Surrey, BC · ${SITE.licence} · Broker Licence #${SITE.brokerLicence}</p>
 <p><a href="${SITE.phoneHref}">${SITE.phone}</a> · <a href="mailto:${SITE.email}">${SITE.email}</a></p>
 <p class="small">Joshua serves clients across British Columbia, online and by phone, from his Surrey office. Verify any BC mortgage broker's licence with <a href="https://www.bcfsa.ca/public-resources/mortgage-brokers/find-mortgage-broker" rel="noopener">BCFSA's Find a Mortgage Broker</a>.</p></div>
 <div><p class="ftr-h">Buyers</p><ul><li><a href="/first-time-home-buyer-bc/">First-time buyers</a></li><li><a href="/down-payment-guide-bc/">Down payment guide</a></li><li><a href="/mortgage-pre-approval-bc/">Pre-approval</a></li><li><a href="/closing-costs-bc/">Closing costs</a></li><li><a href="/partners/">Realtor, notary and lawyer partners</a></li></ul></div>
@@ -78,7 +78,7 @@ export function footer() {
 </footer>`;
 }
 
-export const proofStrip = () => `<ul class="proof" data-nocount aria-label="At a glance"><li><strong>1,000+</strong> mortgages funded</li><li><strong>Xeva Mortgage</strong> / VERICO</li><li><strong>BC-wide</strong>, online</li><li>An <strong>underwriter's</strong> eye</li></ul>`;
+export const proofStrip = () => `<ul class="proof" data-nocount aria-label="At a glance"><li><strong>1,000+</strong> mortgages funded</li><li><strong>Xeva Mortgage</strong></li><li><strong>BC-wide</strong>, online</li><li>An <strong>underwriter's</strong> eye</li></ul>`;
 
 export const cta = (o = {}) => `<aside class="cta-block${o.dark ? " cta-dark" : ""}" data-cta>
 <div><h2>${esc(o.title || "Talk it through with Joshua")}</h2><p>${o.text || "A 15-minute call is enough to map your goals, your numbers and your next step. No obligation, and you deal directly with the broker who will do the work."}</p></div>
@@ -141,7 +141,7 @@ export function businessSchema() {
     address: { "@type": "PostalAddress", streetAddress: "#106, 2626 Croydon Drive", addressLocality: "Surrey", addressRegion: "BC", postalCode: "V3Z 0S8", addressCountry: "CA" },
     areaServed: { "@type": "AdministrativeArea", name: "British Columbia" },
     founder: { "@type": "Person", name: SITE.person, jobTitle: "Mortgage Broker" },
-    parentOrganization: { "@type": "Organization", name: "Xeva Mortgage (Verico Xeva Mortgage Inc.)" }
+    parentOrganization: { "@type": "Organization", name: "Xeva Mortgage" }
   };
 }
 

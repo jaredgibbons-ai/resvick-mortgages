@@ -8,7 +8,7 @@ export default {
   body: `
 <p><strong>Draft for review.</strong> This policy describes how the site is built to work. It should be reviewed by Joshua and Xeva Mortgage before launch.</p>
 <h2>Who is responsible</h2>
-<p>This website is operated by Resvick Mortgages, the working name of Joshua Resvick, Mortgage Broker, Xeva Mortgage (Verico Xeva Mortgage Inc.), #106–2626 Croydon Drive, Surrey, BC V3Z 0S8. Questions about your information can go to <a href="mailto:${SITE.email}">${SITE.email}</a>.</p>
+<p>This website is operated by Resvick Mortgages, the working name of Joshua Resvick, Mortgage Broker, Xeva Mortgage, #106–2626 Croydon Drive, Surrey, BC V3Z 0S8. Questions about your information can go to <a href="mailto:${SITE.email}">${SITE.email}</a>.</p>
 <h2>What we collect</h2>
 <p>If you send a message, we collect the details you type: your name, email address, optional phone number, what your message is about, an optional timeline and your message. We also record which page the message was sent from, any campaign tags in the link you followed, and the consent choices you made on the form.</p>
 <p>The calculators on this site run in your browser. The figures you enter into them are not sent to us. The one exception is the home equity estimator page: if you choose to send Joshua a message after seeing your result, there is an unticked box that adds the figures you entered (home value, mortgage balance and the estimate) to that message. If you do not tick it, they stay in your browser.</p>

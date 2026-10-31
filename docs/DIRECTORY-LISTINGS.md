@@ -11,7 +11,7 @@ The Oct 30 teardown found Birdeye auto-generated "Mortgage Brokers near Surrey" 
 ```
 Business name:   Resvick Mortgages
 Contact:         Joshua Resvick, Mortgage Broker
-Brokerage:       Xeva Mortgage (Verico Xeva Mortgage Inc.), VERICO network
+Brokerage:       Xeva Mortgage
 Address:         #106–2626 Croydon Drive, Surrey, BC V3Z 0S8
 Phone:           778.882.5674
 Email:           joshua@resvickmortgages.com
@@ -42,7 +42,7 @@ Resvick Mortgages is Joshua Resvick, a licensed mortgage broker (BCFSA #MB503619
 **Long (746 characters)** for full "about" fields:
 
 ```
-Resvick Mortgages is Joshua Resvick, a licensed mortgage broker (BCFSA #MB503619) with Xeva Mortgage, part of the VERICO network. Joshua has been a broker for ten years, after five years as a mortgage underwriter, and has funded over 1,000 mortgages. He works with first-time buyers, homeowners renewing or refinancing, self-employed borrowers and investors across British Columbia, online and by phone from his Surrey office. On most mortgages the lender pays the broker, so there is no fee to you; any exception is disclosed in writing first. Every client receives a written comparison of lender options before deciding, and the relationship continues after funding with annual reviews and renewal planning. Book a free 15-minute call to start.
+Resvick Mortgages is Joshua Resvick, a licensed mortgage broker (BCFSA #MB503619) with Xeva Mortgage. Joshua has been a broker for ten years, after five years as a mortgage underwriter, and has funded over 1,000 mortgages. He works with first-time buyers, homeowners renewing or refinancing, self-employed borrowers and investors across British Columbia, online and by phone from his Surrey office. On most mortgages the lender pays the broker, so there is no fee to you; any exception is disclosed in writing first. Every client receives a written comparison of lender options before deciding, and the relationship continues after funding with annual reviews and renewal planning. Book a free 15-minute call to start.
 ```
 
 Do not edit these per directory beyond trimming to a character limit. No "best", no "lowest rates", no lender counts, no review counts, no exclamation marks.
@@ -59,7 +59,7 @@ Every directory gets its own `utm_source` so GA4 can attribute traffic. Medium a
 | Birdeye | https://www.resvickmortgages.com/?utm_source=birdeye&utm_medium=directory&utm_campaign=listings |
 | WOWA | https://www.resvickmortgages.com/?utm_source=wowa&utm_medium=directory&utm_campaign=listings |
 | ThreeBestRated | https://www.resvickmortgages.com/?utm_source=threebestrated&utm_medium=directory&utm_campaign=listings |
-| VERICO / Xeva profile | https://www.resvickmortgages.com/?utm_source=verico&utm_medium=directory&utm_campaign=listings |
+| Xeva profile | https://www.resvickmortgages.com/?utm_source=xeva&utm_medium=directory&utm_campaign=listings |
 | Bing Places | https://www.resvickmortgages.com/?utm_source=bing&utm_medium=organic&utm_campaign=listings |
 | Apple Business Connect | https://www.resvickmortgages.com/?utm_source=apple&utm_medium=organic&utm_campaign=listings |
 | Yelp | https://www.resvickmortgages.com/?utm_source=yelp&utm_medium=directory&utm_campaign=listings |
