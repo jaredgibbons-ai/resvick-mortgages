@@ -49,8 +49,8 @@ ${short({ answer: "Lenders turn a teacher's contract into a yearly salary, so te
 </ul>
 <p>If your term contract is the weak spot, say so at the first call. There are often ways to solve it. A strong track record, a larger down payment or a different lender can each fix a file. A co-signer is another option, and the <a href="/mortgage-with-a-cosigner/">co-signer page</a> explains how that works.</p>
 
-<h2>Education assistants and school support staff</h2>
-<p>Education assistants, clerks, custodians and bus drivers are usually paid by the hour. Many work fewer hours than a full-time job, and some are paid for the school year only. That is a different file from a teacher's.</p>
+<h2>Education assistants and support staff</h2>
+<p>Most are paid by the hour. That includes education assistants, clerks, custodians and bus drivers. Many work fewer hours than a full-time job, and some are paid for the school year only. That is a different file from a teacher's.</p>
 <p>Here is how lenders tend to see it.</p>
 <ul>
 <li><strong>Guaranteed hours.</strong> If your letter states a set number of hours, lenders usually multiply them by your rate. Say the hours are in writing, because that is the number they trust most.</li>

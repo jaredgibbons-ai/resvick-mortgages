@@ -10,7 +10,7 @@ ${short({ answer: "Lenders usually average two years of your net commission inco
 <p>This page is about that gap. It covers how lenders read commission pay, what lowers the number, and how to build a file that holds up. It is written for a mortgage for real estate agents in BC, and for anyone else paid mainly by commission.</p>
 
 <h2>How a commission income mortgage is worked out</h2>
-<p>Most lenders treat a licensed agent as self-employed. You may be an independent contractor under your brokerage, so no employer pays you a wage. For tax, the Canada Revenue Agency (CRA) puts commission earners in the business income group. Self-employed commission agents can report income on the cash method or the accrual method (CRA, T4002 Chapter 1, page modified April 16, 2026, read October 2026).</p>
+<p>Most lenders treat a licensed agent as self-employed. You may be an independent contractor under your brokerage, so no employer pays you a wage. For tax, the Canada Revenue Agency (CRA) puts commission earners in the business income group. Self-employed commission agents can report income on the cash method or the accrual method (CRA, T4002 Chapter 1, April 16, 2026, read October 2026).</p>
 <p>That matters because lenders build a commission income mortgage file from your tax filings. The usual pieces are:</p>
 <ul>
 <li><strong>Two years of T1 General returns.</strong> This is your personal return, with the statement of business or commission activity attached.</li>
@@ -48,11 +48,11 @@ ${short({ answer: "Lenders usually average two years of your net commission inco
 </ul>
 <p>The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains how salary, dividends and retained earnings are weighed. If you are not sure whether your set-up fits an A lender, the <a href="/self-employed-check/">self-employed check</a> shows three routes side by side in a few minutes. The company itself may be only a year or two old. If so, read the <a href="/newly-self-employed-mortgage/">newly self-employed page</a> too.</p>
 
-<h2>GST/HST, tax installments and CRA balances</h2>
-<p>Lenders look closely at what you owe the CRA. A tax balance can slow an approval, or stop it. Commission earners are more exposed than most, because no one withholds tax from your cheques.</p>
+<h2>GST/HST, installments and CRA balances</h2>
+<p>Lenders check what you owe CRA. A tax balance can slow an approval, or stop it. Commission earners are more exposed than most, because no one withholds tax from your cheques.</p>
 <p>Two things cause most of the trouble.</p>
-<p><strong>GST/HST.</strong> The general rule is to register once taxable revenue passes $30,000 in one quarter or over four quarters in a row (CRA, T4002 Chapter 1, page modified April 16, 2026, read October 2026). Many agents pass that line in their first year. The tax you collect is not yours. If it sits in your operating account and gets spent, a return can come due with no cash to cover it.</p>
-<p><strong>Income tax installments.</strong> CRA says you may need to pay by installments if your net tax owing is over $3,000 this year and in one of the two years before (CRA, Who has to pay instalments, page modified January 20, 2026, read October 2026). Installments are generally due March 15, June 15, September 15 and December 15 (CRA, T4002 Chapter 1, page modified April 16, 2026, read October 2026). Confirm your own amounts with your accountant.</p>
+<p><strong>GST/HST.</strong> Registration is generally required once taxable revenue passes $30,000 in one quarter or over four quarters in a row (CRA, T4002 Chapter 1, April 16, 2026, read October 2026). Many agents pass that line in their first year. The tax you collect is not yours. If it sits in your operating account and gets spent, a return can come due with no cash to cover it.</p>
+<p><strong>Income tax installments.</strong> CRA sets a $3,000 test for installments. Your net tax owing must pass it this year and in one of the two years before (CRA, Who has to pay instalments, January 20, 2026, read October 2026). Installments are generally due March 15, June 15, September 15 and December 15 (CRA, T4002 Chapter 1, April 16, 2026, read October 2026). Confirm your own amounts with your accountant.</p>
 <p>What does this mean for a mortgage? If you owe a balance, lenders usually want it paid, or covered by an accepted payment arrangement with proof. Your Notice of Assessment and your CRA account show it. Clear it before you apply, if you can. Setting aside a share of every commission for tax is the simplest habit that protects a future approval.</p>
 
 <h2>Hot markets, slow markets and uneven income</h2>

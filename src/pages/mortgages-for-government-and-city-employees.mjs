@@ -61,7 +61,7 @@ ${short({ answer: "Steady pay on a published grid helps a file. Lenders still lo
 <p>We will not guess what your plan will pay. Ask your plan for an estimate if retirement timing affects your plans, such as how long a mortgage term and amortization make sense.</p>
 
 <h2>Mortgage for city workers: overtime and premiums</h2>
-<p>Some roles pay more than base. Think of public works crews, dispatchers, water and sewer staff, transit operators, hospital support staff and IT staff on call.</p>
+<p>Some roles pay extra. Think of public works crews, dispatchers, water and sewer staff, transit operators, hospital support staff and IT staff on call.</p>
 <p>Lenders treat this as variable income. A common approach is the two-year average on your T4s, or the lower of last year and the average. Some lenders cap it. Some count only part of it. Some do not count it at all. Lenders vary a lot here.</p>
 <p>Two habits help. First, look at your T4 box for total income and compare it with your base pay. The gap is your variable pay. Second, ask your employer for a letter that says whether overtime is regular. A lender is more comfortable with a note that your call-outs happen every year than with a stub that spikes once.</p>
 <p>Use the <a href="/mortgage-calculators/">mortgage calculators</a> twice. First enter base pay only. Then add the average of your variable pay. The gap shows how much of your approval rests on how a lender treats it.</p>

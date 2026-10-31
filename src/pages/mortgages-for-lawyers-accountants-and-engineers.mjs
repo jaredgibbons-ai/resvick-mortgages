@@ -28,20 +28,20 @@ ${short({ answer: "Salaried professionals are usually easy to approve. Partners,
 <p>One rule for everyone in law: keep client trust money out of your file. Funds in a trust account belong to your clients. They do not count as your savings or your income. A bank statement full of trust activity can slow an underwriter down, so use your personal accounts for the down payment.</p>
 
 <h2>A mortgage for accountants: CPA candidates and new designations</h2>
-<p>Accountants often earn well but pass through several steps. The CPA program has three parts: the professional education program, the Common Final Examination and a practical experience requirement of 30 months of full-time, paid accounting and finance work (CPABC, CPA program overview, 2026, read October 2026). A candidate may work at a firm for years before the designation.</p>
+<p>Accountants often earn well but pass through several steps. The CPA program has three parts. They are the professional education program, the Common Final Examination and a practical experience requirement. That last part is 30 months of full-time, paid accounting and finance work (CPABC, CPA program overview, 2026, read October 2026). A candidate may work at a firm for years before the designation.</p>
 <p>For a lender, the designation itself usually matters less than the job. A candidate with a steady salary at a firm, and a clear pay grid, is often fine. When you earn the designation, your pay may rise. Lenders vary on whether they count the new salary before you have a pay stub at that level. A letter from the firm stating the new pay and the start date is the key document.</p>
 <p>Accountants have one more wrinkle: tax season. If you work in public practice, your hours and your bonus may peak between January and April. A lender looking at year-to-date pay in March may see a spike or a gap, depending on when bonuses are paid. Explain that rhythm up front, and bring T4s that show the full-year pattern.</p>
-<p>If you apply during filing season, remember your own return. A lender wants your last two years of notices of assessment. For most people the filing deadline is April 30, and any tax owing is also due April 30. Self-employed people and their spouses have until June 15 to file, but the balance is still due April 30 (Canada Revenue Agency, important dates for individuals, 2026, read October 2026). Filing early gives you a clean paper trail.</p>
+<p>If you apply during filing season, remember your own return. A lender wants your last two years of notices of assessment. For most people the filing deadline is April 30, and any tax owing is also due April 30. Self-employed people and their spouses have until June 15 to file. Any balance is still due April 30 (Canada Revenue Agency, important dates for individuals, 2026, read October 2026). Filing early gives you a clean paper trail.</p>
 
 <h2>A mortgage for engineers: EITs, new P.Engs and consultants</h2>
-<p>Engineers-in-training are usually salaried. In BC, an EIT is working toward the four years of experience needed to apply for professional engineer registration (Engineers and Geoscientists BC, engineer-in-training, 2026, read October 2026). Lenders do not need you to hold the P.Eng. They look at your job, your pay and your time at the employer.</p>
+<p>Engineers-in-training are usually salaried. In BC, an EIT is still gaining the four years of experience needed for P.Eng. registration (Engineers and Geoscientists BC, engineer-in-training, 2026, read October 2026). Lenders do not need you to hold the P.Eng. They look at your job, your pay and your time at the employer.</p>
 <p>The common bumps for engineers are these. Contract roles with a consulting firm, project-based pay, overtime on site, and a move between firms. A permanent role with a pay grid reads cleanly. A contract engineer paid on invoices is self-employed to a lender, and that changes the paperwork.</p>
 <p>If you recently became a professional engineer, your raise and title change may take effect before your next pay stub. As with CPAs, a letter that states the new pay and effective date is the best proof. Joshua checks which lenders will use it right away.</p>
 <p>Architects and land surveyors follow the same logic. Salaried staff are simple. Principals who take draws or dividends need tax returns and sometimes company statements.</p>
 <p>Financial advisors are different again. If your pay is mostly commission or trailing fees, a lender will want two years of tax returns and will average the income. A base salary with a commission top-up is read in pieces. Lenders vary, so the right lender matters.</p>
 
 <h2>Your own firm or professional corporation</h2>
-<p>Many licensed professionals practise through a corporation. In BC, a lawyer needs a law corporation permit from the Law Society to practise through a corporation, and voting shares are limited to practising lawyers (Law Society of BC, law corporation permit, 2026, read October 2026). Rules for other professions differ, so check with your regulator.</p>
+<p>Many licensed professionals practise through a corporation. In BC, a lawyer needs a law corporation permit to practise through a corporation. Voting shares are limited to practising lawyers (Law Society of BC, law corporation permit, 2026, read October 2026). Rules for other professions differ, so check with your regulator.</p>
 <p>For the mortgage, the key question is how you pay yourself. Here is how lenders commonly read each type.</p>
 <ul>
 <li><strong>Salary.</strong> You get a T4 from your own company. Lenders read this easily when the salary has been steady for two years. They may still ask for the company's financial statements to show the salary can continue.</li>
@@ -77,7 +77,7 @@ ${short({ answer: "Salaried professionals are usually easy to approve. Partners,
 
 <h2>A worked example</h2>
 <p>These figures are only an illustration. An associate lawyer earns a base salary of $100,000. Her bonus was $20,000 two years ago and $10,000 last year. A lender that uses the lower year counts $10,000 of bonus. A lender that averages counts $15,000. A lender that counts no bonus uses $100,000.</p>
-<p>Now picture a partner who takes $9,000 a month in draws, or $108,000 a year. His tax return shows net business income of $80,000 after expenses. A lender uses the return, not the draws. Run these numbers in the <a href="/mortgage-calculators/#affordability">affordability calculator</a>. The gap is the lender's policy, not a change in the person.</p>
+<p>Now picture a partner who takes $9,000 a month in draws, or $108,000 a year. His tax return shows net business income of $80,000 after expenses. A lender uses the return, not the draws. Run these numbers in the <a href="/mortgage-calculators/#affordability">affordability calculator</a>, or browse <a href="/mortgage-calculators/">all the calculators</a>. The gap is the lender's policy, not a change in the person.</p>
 
 <h2>Down payment and closing costs</h2>
 <p>Most professionals have a strong savings record. The question is where the money sits. Savings in your own accounts for 90 days or more are easy to document. Funds from an RRSP, a gift or a line of credit follow other rules. Read the <a href="/down-payment-guide-bc/">down payment guide</a> for the sources lenders accept. If you put down less than 20 percent, the mortgage needs default insurance.</p>
@@ -103,7 +103,7 @@ ${short({ answer: "Salaried professionals are usually easy to approve. Partners,
 <li><strong>Taking one lender's answer as final.</strong> Lenders vary widely on professional income, so one no is not the whole market.</li>
 </ul>
 
-${callout("One request before the call", "<p>Gather your last two notices of assessment, your last two T4s or T5s, a current pay stub or a year-to-date summary, and a short note on how you are paid. With these, Joshua can tell you in one conversation what a lender will count.</p>")}
+${callout("One request before the call", "<p>Gather your last two notices of assessment and your last two T4s or T5s. Add a current pay stub and a short note on how you are paid. With these, Joshua can tell you in one conversation what a lender will count.</p>")}
 
 ${cta({ title: "Your title is not your income", text: "Book a 15-minute call. Joshua will read your pay the way a lender does and tell you which lender reads it best. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;
@@ -116,11 +116,11 @@ export default {
   nav: "/first-time-home-buyer-bc/",
   body,
   faqs: [
-    { q: "Can an articling student or newly called lawyer get a mortgage?", a: "Often, yes, with a clear employment letter and a start date. Some lenders accept a signed offer from a firm with conditions, and others want a few pay stubs first. Student debt counts in your ratios. Lenders vary, so Joshua checks which one fits your timing." },
+    { q: "Can an articling student or newly called lawyer get a mortgage?", a: "Often, yes, with a clear employment letter and a start date. Some lenders accept a signed offer from a firm with conditions, and others want a few pay stubs first. Student debt counts in your ratios. Lenders vary, so Joshua checks which one fits your timing and your pay." },
     { q: "How do lenders count partner draws?", a: "Most lenders do not use draws. They use your net business income from your tax return and notices of assessment, usually averaged over two years. A salaried partner with a T4 may be read like an employee. Joshua checks the lender's rule before you apply." },
     { q: "Do I need two years in practice to qualify?", a: "Not always. A salaried professional in a new job can often qualify with an offer letter or pay stubs. If you run your own firm, many A lenders want two years of tax returns, though some B lenders and other options can help while the history builds." },
     { q: "How does a professional corporation affect my mortgage?", a: "Lenders look at how you pay yourself. Steady salary on a T4 is easiest. Dividends on a T5 are often averaged over two years. Profit left inside the company may not count at some lenders. Talk to your accountant before you change your pay plan." },
-    { q: "Do lenders have special programs for professionals?", a: "Some lenders do. What they cover, who qualifies and how long you must hold your licence all vary, and programs change. Joshua confirms current programs on each file and compares them with standard options, rather than assuming a program is better." },
+    { q: "Do lenders have special programs for professionals?", a: "Some lenders do. What they cover, who qualifies and how long you must hold your licence all vary, and programs change. Joshua confirms current programs on each file and compares them with standard options, rather than assuming a program is better. Terms and eligibility can change." },
     { q: "Do bonuses and year-end pay count toward a mortgage?", a: "Often, once you have a history. Many lenders use a two-year average, and some use the lower year or count none. A bonus that has been paid and shows on your T4 is easier to count than one that is promised. Lenders vary, so ask early." }
   ]
 };
