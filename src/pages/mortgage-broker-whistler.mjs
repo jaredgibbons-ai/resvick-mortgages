@@ -22,6 +22,9 @@ ${ratesStrip()}
 </ul>
 <p>Houses in residential neighbourhoods are a fourth group. They follow the usual rules, and they cannot be rented to tourists. Everything below depends on which group your target home belongs to.</p>
 
+<h2>Incomes in Whistler</h2>
+<p>The 2021 Census put Whistler's median household income, before tax, at $99,000 for 2020. About 21.5 percent of workers were self-employed. Accommodation and food service was the largest industry by far, with 2,650 workers or 27.5 percent of the labour force. Construction came second with 985 workers, then retail with 880. (Statistics Canada, 2021 Census Profile, read October 2026). A town built on visitors means seasonal pay, tips and second jobs are common. Lenders vary on how they count tips and seasonal work, and many ask for two years of history. Bring your tax slips and pay records for each job.</p>
+
 <h2>How lenders read resort income</h2>
 <p>Whistler runs on seasons. Winter and summer bring different jobs, different hours and different pay. Whistler Blackcomb is based here and owned by Vail Resorts. It reported about 1,700 employees on July 31, 2025 (Whistler Blackcomb, FY25 annual report, read October 2026). Hotels, restaurants and tour companies add many more jobs. Statistics Canada puts the median after-tax household income in Whistler at $86,000 for 2020 (Statistics Canada, 2021 Census, Focus on Geography Series for Whistler, read October 2026).</p>
 <p>Lenders don't mark you down for working a season. They look for a pattern. Practice varies, but these points come up often:</p>

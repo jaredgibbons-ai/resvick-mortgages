@@ -12,6 +12,9 @@ ${short({ answer: "Most Vancouver mortgages are condo or townhouse mortgages, so
 <p>A lender reads each of those homes differently. Getting that right is the first job of a Vancouver mortgage broker.</p>
 <p>Joshua Resvick serves Vancouver from his office in Surrey, by phone, video and secure document upload. There is no Vancouver branch, and you never need to visit an office. Every step happens online, from the first call to the signed commitment. Your lawyer or notary handles the signing where you live.</p>
 
+<h2>Incomes in Vancouver</h2>
+<p>The 2021 Census puts Vancouver's median household income at $82,000 for 2020. About 17.7 percent of the city's workers were self-employed, which is one of the higher shares in Metro Vancouver. The three biggest industries were professional, scientific and technical services, health care, and retail. (Statistics Canada, 2021 Census Profile, read October 2026). Consultants, designers and small business owners are a large part of the city. If you work for yourself, lenders usually ask for two years of tax returns and notices of assessment. Our page on the <a href="/self-employed-mortgage-bc/">self-employed mortgage</a> shows how that income is counted.</p>
+
 <h2>How lenders read a Vancouver strata purchase</h2>
 <p>A condo mortgage gets approved on two files: yours and the building's. Your file is your income, credit, down payment and debts.</p>
 <p>The building's file is the strata paperwork. That includes the depreciation report, the Form B, the bylaws and the reserve fund. It also includes the minutes and any special levies, whether proposed or already approved.</p>

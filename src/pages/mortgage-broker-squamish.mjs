@@ -23,6 +23,9 @@ ${ratesStrip()}
 <h3>The commuter</h3>
 <p>If you drive or ride south for work, a lender will not price the trip. Your own budget should include it. What counts for approval is income, debts, credit and the down payment, supported by a proper <a href="/mortgage-pre-approval-bc/">pre-approval</a> before you make an offer.</p>
 
+<h2>Incomes in Squamish</h2>
+<p>Squamish's median household income was $111,000 for 2020, one of the higher figures among the cities we cover. About 20.7 percent of workers were self-employed. Professional services, construction and retail were almost level as the three largest industries. (Statistics Canada, 2021 Census Profile, read October 2026). A high self-employed share fits a town of contractors, remote workers and outdoor businesses. Lenders will want two years of tax returns, and some will also want to see your business is stable. Joshua can tell you early if your income reads well.</p>
+
 <h2>Suites, coach houses and short-term rentals in Squamish</h2>
 <p>Rent can help you qualify, but only if the unit is legal and the use is allowed. Squamish has clear rules on both points.</p>
 <p>The District allows a secondary suite in a single-unit or two-unit dwelling. The suite can be up to 90 square metres or 40 percent of the building's floor area, whichever is less. It allows one accessory dwelling, such as a coach house, on a parcel in zones that permit a single-unit home, with a building permit. Neither needs extra parking. Neither can be strata-titled or sold apart from the main home, and neither may be used for short-term rental. (District of Squamish, Secondary Suites, Accessory Dwelling Units and Multi-Unit Flex-Units page, read October 2026.)</p>

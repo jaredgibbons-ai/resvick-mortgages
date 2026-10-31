@@ -19,6 +19,9 @@ ${ratesStrip()}
 <p>There are others too. Canadian Armed Forces members are posted to CFB Esquimalt. There are university and hospital staff and tech workers. There are tradespeople, often self-employed, and retirees from across the country.</p>
 <p>Each kind of income is documented differently. A clean file starts with knowing which papers your income actually needs.</p>
 
+<h2>Incomes in Victoria</h2>
+<p>Victoria's median household income was $67,500 for 2020, one of the lower figures among the cities we cover. About 15.7 percent of workers were self-employed. Health care was the largest industry, then public administration, then professional services. (Statistics Canada, 2021 Census Profile, read October 2026). Government is a major employer in the capital. A permanent public sector job is often easy for a lender to confirm, and a probation period is a common question. Our page on <a href="/mortgages-for-government-and-city-employees/">government and city employee mortgages</a> covers it.</p>
+
 <h2>Property types that need a careful file</h2>
 <h3>Character and heritage homes</h3>
 <p>Older houses are common in Victoria's core neighbourhoods. Lenders finance them all the time, but the appraisal matters more than usual. Old wiring, old oil tanks, foundations and roofs can all come up. An insurer may ask questions before writing a policy.</p>

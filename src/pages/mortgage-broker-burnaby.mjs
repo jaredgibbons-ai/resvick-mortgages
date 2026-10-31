@@ -19,6 +19,9 @@ ${short({
 
 ${ratesStrip()}
 
+<h2>Incomes in Burnaby</h2>
+<p>In the 2021 Census, Burnaby's median household income was $83,000 for 2020. The self-employed made up 14.8 percent of workers. The largest industry was professional, scientific and technical services, followed by retail and health care. (Statistics Canada, 2021 Census Profile, read October 2026). A city led by office and professional jobs tends to bring salaried files, plus a good number of consultants who invoice through a company. Salaried files are simpler. A company owner may need extra paperwork, and lenders differ on what they accept.</p>
+
 <h2>Condo and townhouse mortgages near the town centres</h2>
 <p>A strata mortgage is approved on your file and on the building. Lenders read the depreciation report, the Form B, the contingency reserve fund and the minutes.</p>
 <p>They also add a share of the monthly strata fee to your housing costs when they work out what you can carry. In a tower with amenities and higher fees, that can cut the approval noticeably.</p>

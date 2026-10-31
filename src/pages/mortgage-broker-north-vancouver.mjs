@@ -19,6 +19,9 @@ ${ratesStrip()}
 <p>Each one writes its own bylaws. The rules for suites, coach houses and renovation permits can differ from one side of the border to the other. For a lender, that matters when part of your income or value comes from a suite. Your file starts with the exact address.</p>
 <p>Joshua works with buyers in all three. He checks which rules apply before you write an offer, not after.</p>
 
+<h2>Incomes in the two North Vancouvers</h2>
+<p>The City and the District of North Vancouver are counted separately in the 2021 Census. The District had the highest median household income of any area on this site at $123,000 for 2020, and 22.2 percent of its workers were self-employed. The City's median was $86,000, with 17.4 percent self-employed. Professional services led in both, followed by health care and retail. (Statistics Canada, 2021 Census Profile, read October 2026). A high household income can still fall short of what a North Shore detached home costs. Lenders also look at your down payment source and your debts. Joshua checks the numbers with you before you make an offer.</p>
+
 <h2>When the price is above the insured limit</h2>
 <p>An insured mortgage allows less than 20 percent down. It is only available when the home is priced at $1.5 million or less. Above that, the minimum down payment is 20 percent of the full price. Below it, the minimum is 5 percent on the first $500,000 and 10 percent on the part from $500,000 to $1.5 million.</p>
 <p>That gap is large. A $1.2 million home needs at least $95,000 down. A $1.6 million home needs $320,000. Check the price against the cap first, because it decides which lenders and which rates you can use.</p>

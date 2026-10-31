@@ -19,6 +19,9 @@ ${ratesStrip()}
 <p>Many lenders count pensions, CPP, OAS and registered retirement income when you can show award letters or statements. Investment income is often averaged over two years. Some lenders also look at savings and investments alongside income. Policies vary, so the order in which lenders are asked matters.</p>
 <p>The timing is the other half. If you must buy before your old home closes, a bridge loan or a longer closing can cover the gap. The <a href="/bridge-financing/">bridge financing page</a> explains the costs and risks. The <a href="/downsizing-and-your-mortgage/">downsizing page</a> covers how much of the proceeds to keep in cash. Homeowners who want to stay put and draw on equity can read about the <a href="/reverse-mortgage-bc/">reverse mortgage</a> option too.</p>
 
+<h2>Incomes in Penticton</h2>
+<p>Penticton's median household income was $68,000 for 2020. About 17.5 percent of workers were self-employed. Health care was the largest industry, followed by retail and construction. (Statistics Canada, 2021 Census Profile, read October 2026). The lower median fits a city with many retirees. Pension and savings income can qualify, but lenders vary in how they count it. If you are selling a home elsewhere, the sale proceeds also matter for the down payment. Joshua will tell you which documents each lender expects.</p>
+
 <h2>Renting a Penticton home by the night</h2>
 <p>Penticton has had many vacation rentals, and the rules have tightened. Check them before an offer, not after.</p>
 <p>The City treats a short-term rental as a business. Its licence page describes one as a stay of up to 90 days. It says applicants must be the primary resident of the property, and the form asks for proof of primary residency or a provincial exemption. (City of Penticton, Apply for a Business Licence, no date shown, read October 2026.)</p>

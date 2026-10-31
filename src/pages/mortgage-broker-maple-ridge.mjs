@@ -22,6 +22,9 @@ ${ratesStrip()}
 <h3>The new-home buyer</h3>
 <p>Newer homes and presales are common in the city's growing areas. Some homes are finished. Others are presales that complete a year or more after you sign. A presale needs a different plan for the rate hold and the final approval. The <a href="/presale-mortgages-bc/">presale mortgage guide</a> walks through it. A <a href="/mortgage-pre-approval-bc/">real pre-approval</a> should come before you sign anything.</p>
 
+<h2>Incomes in Maple Ridge</h2>
+<p>Maple Ridge's median household income was $105,000 for 2020, and 15.5 percent of workers were self-employed. Construction was the largest industry, ahead of retail and health care. (Statistics Canada, 2021 Census Profile, read October 2026). Construction work can mean contract jobs or a one-person company, with income that moves through the year. A lender will look at two years of tax returns for that kind of file. The longer you have been doing the same work, the easier the file is to place.</p>
+
 <h2>Suites in Maple Ridge: what the City says and what lenders ask</h2>
 <p>A legal suite can help you qualify. An illegal one can cause problems. So check the rules before you count on the rent.</p>
 <p>The City of Maple Ridge allows one secondary suite per lot, inside the same building as a single detached house. The suite can't be larger than 40 percent of the building's floor area. It needs a building permit, and it can't be in the floodplain area. If both an upper floor and a suite are rented, the property also needs a business licence. (City of Maple Ridge, Secondary Suites page, updated February 4, 2026, read October 2026.)</p>

@@ -19,6 +19,9 @@ ${ratesStrip()}
 <p>A second group earns money from the land. Farm income can be seasonal, tied to weather and paid through a proprietorship or a company. Lenders commonly average two years of tax returns and notices of assessment for this kind of income. A year with a poor crop pulls the average down. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains how those averages work, and lenders vary in how much they will credit.</p>
 <p>If you are newly in business, a small down payment can narrow your choices. The right lender depends on how long you have filed and how steady the income has been. Joshua sorts that out before you start shopping, not after you have a firm offer.</p>
 
+<h2>Incomes in Pitt Meadows</h2>
+<p>Pitt Meadows' own Census profile shows a median household income of $104,000 for 2020. About 14.5 percent of workers were self-employed, or 1,550 of 10,655 in the labour force. Health care was the largest industry with 1,275 workers, then construction with 1,140 and retail with 1,120. (Statistics Canada, 2021 Census Profile, read October 2026). Wages from hospitals and stores sit next to trades pay and small companies. Lenders read each differently, so Joshua asks how you are paid and for how long before he chooses where to apply.</p>
+
 <h2>Homes in town and homes on the land</h2>
 <h3>The town stock</h3>
 <p>Houses and attached homes such as townhouses make up most of the housing in town. Apartments are a small share (Statistics Canada 2021 Census, via Point2Homes, read October 2026). For a lender, that means less strata paperwork than in a condo-heavy city. If you do buy a townhouse in a strata, the <a href="/condo-and-townhouse-mortgages/">condo and townhouse mortgage page</a> lists what lenders ask to see.</p>

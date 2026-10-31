@@ -21,6 +21,9 @@ ${ratesStrip()}
 <li><strong>Moving your current mortgage</strong> to the new home is called porting. It can save you a penalty if your lender allows it and the dates line up. Portability is one of the terms Joshua compares before you pick a lender.</li>
 </ul>
 
+<h2>Incomes in Nanaimo</h2>
+<p>Nanaimo's median household income was $75,500 for 2020, and 16.3 percent of workers were self-employed. Health care, retail and construction were the three largest industries. (Statistics Canada, 2021 Census Profile, read October 2026). The median is lower than in most of the Lower Mainland. Some buyers close that gap with equity from a sale on the mainland, or with a spouse's income earned across the water. Lenders ask for proof of both. Joshua helps you collect the paperwork so the file is complete.</p>
+
 <h2>Nanaimo housing and suites</h2>
 <p>Nanaimo has older character streets near the harbour. It has settled subdivisions in the north and south ends. It also has newer townhouses and condos, plus rural lots at the edges.</p>
 <p>Homes with suites are a big part of the market, and the City's rules are specific. The source is the City's own guide (City of Nanaimo, Secondary Suites: Building Code and Zoning Requirements, revised September 2024). Here's what it says.</p>

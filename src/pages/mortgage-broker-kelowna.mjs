@@ -33,6 +33,9 @@ ${ratesStrip()}
 <p>Many residential lenders cap how much land they'll value. They treat farm buildings as having no lending value. And they won't lend where the property is mainly a business.</p>
 <p>Some lenders do this well. The key is to identify the property type before the offer is written, not after.</p>
 
+<h2>Incomes in Kelowna</h2>
+<p>Kelowna's median household income was $82,000 for 2020. About 18.7 percent of workers were self-employed, close to one in five. Health care, retail and construction were the three largest industries. (Statistics Canada, 2021 Census Profile, read October 2026). A high self-employed share means business-owner files are normal here, not unusual. Lenders still want a clear record of your income, usually two years of tax returns. Our page on the <a href="/self-employed-mortgage-bc/">self-employed mortgage</a> explains how it works.</p>
+
 <h2>Income in the Okanagan</h2>
 <p>Kelowna's economy has a lot of salaried work, at the hospital, the university, the school district and the airport. It also has a large base of self-employed people. Think tradespeople, tourism and hospitality operators, farm businesses, realtors and consultants.</p>
 <p>Seasonal and commission income is common. Lenders handle each kind differently. The gap between a smooth approval and a hard one is usually in how the income is documented.</p>

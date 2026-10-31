@@ -20,6 +20,9 @@ ${ratesStrip()}
 <p>Joshua reads your T4s, your recent pay stubs and your employer letter before anything is submitted. He then picks lenders whose rules fit the way you are paid. If part of your income comes from a side business, the <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains how it is read. The <a href="/mortgage-for-contractors/">contractors and trades page</a> covers invoices and write-offs.</p>
 <p>Before you shop for homes, get a <a href="/mortgage-pre-approval-bc/">real pre-approval</a>. It confirms how much a lender will lend on your actual documents, not on a guess.</p>
 
+<h2>Incomes in Port Coquitlam</h2>
+<p>Port Coquitlam's median household income was $102,000 for 2020, and 13.5 percent of workers were self-employed. Health care was the largest industry, followed by retail and construction. (Statistics Canada, 2021 Census Profile, read October 2026). That is a lower self-employed share than in most Metro Vancouver cities. Most files here are wage files, with a smaller group in the trades who run their own shop. A steady hourly job is usually quick for a lender to read. A trades business takes a little longer.</p>
+
 <h2>Suites and coach houses in Port Coquitlam: check the zone first</h2>
 <p>Rent from a legal suite can help you qualify. Rent from an illegal one usually cannot be counted. So the first question on any PoCo house with a basement unit is whether the suite is allowed at all.</p>
 <p>The City of Port Coquitlam says secondary suites are only permitted in the RS-1, RS-2, RS-3 and RS-4 zones. Building or altering a suite needs a building permit, and the work is inspected in stages, ending with a final inspection. A contractor needs a valid City business licence before a permit is issued. Properties in a floodplain may need a covenant registered on title. (City of Port Coquitlam, Secondary Suites page, read October 2026.)</p>

@@ -32,6 +32,9 @@ ${ratesStrip()}
 <p>These files are usually simple. Royal Inland Hospital, Thompson Rivers University, the school district and government give Kamloops a large base of salaried, pensionable income.</p>
 <p>The decisions that matter are about term, penalty and portability, not qualifying. Those are the terms Joshua compares in every Lender Comparison Report.</p>
 
+<h2>Incomes in Kamloops</h2>
+<p>Kamloops had a median household income of $88,000 for 2020. About 12.0 percent of workers were self-employed, a lower share than in most cities we cover. Health care was the biggest industry, followed by retail and construction. (Statistics Canada, 2021 Census Profile, read October 2026). The low self-employed share points to a wage economy built on hospitals, stores and trades employers. Salaried files are the most common. For these, lenders usually want a recent pay stub, a job letter and your tax slip.</p>
+
 <h2>Kamloops housing and what lenders notice</h2>
 <p>Kamloops housing ranges from established neighbourhoods on both sides of the river to newer subdivisions. There are townhouses and a growing supply of condos too. Detached homes with basement suites are common.</p>
 <p>The City recognizes three suite types: secondary suites, garden suites and carriage suites. Each has size limits and parking requirements, and needs a building permit under the BC Building Code. A suite is legal only after final inspection. Suites that aren't owner-occupied need a business licence (City of Kamloops, Residential Suites Guide, read October 2026).</p>

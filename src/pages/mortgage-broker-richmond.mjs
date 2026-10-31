@@ -13,6 +13,9 @@ ${short({ answer: "Joshua serves Richmond buyers and homeowners online from his 
 
 ${ratesStrip()}
 
+<h2>Incomes in Richmond</h2>
+<p>Richmond's median household income was $79,000 for 2020, and 17.5 percent of workers were self-employed. Retail was the biggest industry, then professional services and health care. (Statistics Canada, 2021 Census Profile, read October 2026). Many Richmond buyers pool money from family members or from the sale of another property to reach their down payment. Lenders ask where each part of the down payment came from, and Joshua helps you gather that proof early.</p>
+
 <h2>Buyers who are new to Canada</h2>
 <p>Many newcomers to Canada settle in Richmond first. A big share of first purchases here are newcomer files.</p>
 <p>Lenders and mortgage insurers run special programs for these buyers. The rules cover your status and how long you've been in Canada. They cover how lenders treat credit history from another country. They also cover how to prove income from a new Canadian job or from abroad.</p>

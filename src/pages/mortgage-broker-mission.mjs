@@ -19,6 +19,9 @@ ${ratesStrip()}
 <p>Timing is the hard part. If you buy before your sale completes, you may need a short-term loan to cover the gap. The <a href="/bridge-financing/">bridge financing page</a> explains how that works and what it costs. If you sell first, a lender will want to see the money in your account before it counts.</p>
 <p>If you still have time left on a low-rate mortgage, ask whether it can move with you. Porting avoids a penalty, but you still have to qualify again. The <a href="/porting-your-mortgage/">porting page</a> explains when it beats breaking. Selling a bigger home to buy a smaller one is a different path, covered on the <a href="/downsizing-and-your-mortgage/">downsizing page</a>.</p>
 
+<h2>Incomes in Mission</h2>
+<p>Mission's median household income was $98,000 for 2020, and 16.5 percent of workers were self-employed. Construction was the biggest industry, then retail and health care. (Statistics Canada, 2021 Census Profile, read October 2026). A construction-led city means many buyers have trades pay or run their own crew. Others commute west on the train or the highway for wages from a bigger employer. Each group gets read differently, so tell Joshua how you are paid and for how long.</p>
+
 <h2>Silverdale, Cedar Valley and new construction</h2>
 <p>Silverdale and Cedar Valley are two of Mission's longtime localities, and new building has reached Silverdale in particular. A large master-planned community at Silverdale broke ground in late 2020, starting with a townhouse phase (Business in Vancouver, December 2020, read October 2026).</p>
 <p>New builds come with their own mortgage steps. A presale may complete a year or more after you sign. A new home may carry GST, and the first-time buyer rebate has its own rules. Some builders offer a price that depends on using their lender or lawyer. Compare that against your own options before you agree.</p>

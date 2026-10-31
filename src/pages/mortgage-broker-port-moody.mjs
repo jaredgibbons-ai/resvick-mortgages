@@ -22,6 +22,9 @@ ${ratesStrip()}
 <h3>Detached homes on the hill</h3>
 <p>Neighbourhoods such as Heritage Mountain and College Park have more single-family houses. These are often move-up purchases, where buyers sell a condo and carry the equity into a larger home. Those files raise questions about the order of events. Do you sell first, buy first, or need a bridge? The <a href="/bridge-financing/">bridge financing page</a> explains the choices.</p>
 
+<h2>Incomes in Port Moody</h2>
+<p>Port Moody's median household income was $115,000 for 2020, one of the highest of the cities we cover. About 16.2 percent of workers were self-employed. Professional services led the industries, followed by health care and retail. (Statistics Canada, 2021 Census Profile, read October 2026). Higher household incomes can still run into the insured limit on a home price, since a down payment of less than 20 percent is only available under a set price cap. Joshua can show you where your numbers land before you start looking.</p>
+
 <h2>Buying a strata home: what the lender wants to read</h2>
 <p>When you buy a condo or townhouse in BC, the seller's strata provides a package of documents. Lenders commonly ask to see parts of it before they fund.</p>
 <ul>

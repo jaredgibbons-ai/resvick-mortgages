@@ -19,6 +19,9 @@ ${ratesStrip()}
 <p>Joshua reads your file the way an underwriter would, before it goes to a lender. He checks which income counts at face value and which gets averaged over two years. He checks which allowances each lender will accept. Then he finds the lender whose rules fit the whole picture.</p>
 <p>That's the difference between two kinds of approval. One has conditions you can meet. The other stalls a week before completion.</p>
 
+<h2>Incomes in Prince George</h2>
+<p>Prince George had a median household income of $88,000 for 2020. Only 9.8 percent of workers were self-employed, the lowest share among the larger cities we cover. Health care was the biggest industry, then retail and construction. (Statistics Canada, 2021 Census Profile, read October 2026). Most files here are wage files. That is good news for the paperwork, since employer letters and pay stubs are easy for a lender to check. Where a mill or industrial job is involved, a lender may ask about layoffs or recalls, so be ready to explain your work history.</p>
+
 <h2>Resource, shift and rotation income</h2>
 <ul>
 <li><strong>Mill and plant workers</strong> paid hourly, with shift premiums and overtime. Base pay counts at face value. Premiums and overtime usually need a two-year history, and lenders often count the lower of last year's total or the two-year average. Your proof is your T4s and an employment letter.</li>

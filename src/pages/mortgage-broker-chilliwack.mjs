@@ -20,6 +20,9 @@ ${ratesStrip()}
 <p>Joshua checks both before you list. If you're leaving a big home for a smaller one, the <a href="/downsizing-and-your-mortgage/">downsizing page</a> shows what you'll net from the sale.</p>
 <p>Many buyers keep a job in the Lower Mainland and commute west. Lenders count your income wherever the employer is. What matters is how you're paid and how long you've been paid that way.</p>
 
+<h2>Incomes in Chilliwack</h2>
+<p>Chilliwack's median household income was $85,000 for 2020, and 17.8 percent of workers were self-employed. Construction, retail and health care were nearly tied as the three largest industries. (Statistics Canada, 2021 Census Profile, read October 2026). That is a high self-employed share for a city of this size. Many buyers here run a trade, a farm service or a small business. If this is you, two full years of tax returns and notices of assessment are the usual starting point.</p>
+
 <h2>Farmland is most of the city</h2>
 <p>The City of Chilliwack says agriculture accounts for 67 percent of its land base (City of Chilliwack, Agricultural Planning, read October 2026). That's why so many Chilliwack properties are acreages, hobby farms or houses on large lots next to working fields.</p>
 <p>Lenders treat these differently from a city lot. Many limit how much land value they'll count. Most give farm buildings little or no lending value. Some decline when the property is mainly a business. If the land is in the Agricultural Land Reserve, what you can do with it is also limited. The City's online map shows whether a given lot is in the ALR.</p>

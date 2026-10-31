@@ -25,6 +25,9 @@ ${ratesStrip()}
 <h3>Queensborough</h3>
 <p>Queensborough is a distinct community across the river, with newer townhomes and detached houses. The City notes that it must study water, sewer and ground conditions there before some of the new provincial housing rules apply in full. Details change, so confirm what a given lot allows. (City of New Westminster, Small Scale Multi Unit Housing page, read October 2026.)</p>
 
+<h2>Incomes in New Westminster</h2>
+<p>New Westminster's median household income was $82,000 for 2020. About 12.0 percent of workers were self-employed, a low share for the region. The largest industries were health care, professional services and retail. (Statistics Canada, 2021 Census Profile, read October 2026). With health care at the top, many local files are hospital and clinic wages, often with shift pay or part-time hours. Lenders vary on how they count shift premiums and casual hours, so bring your last two pay stubs and your most recent tax slip.</p>
+
 <h2>Suites, laneway homes and infill in New Westminster</h2>
 <p>A legal suite can help you qualify, and an unauthorized one can sink a deal. The City's rules are specific, so read them before you count on any rent.</p>
 <p>New Westminster generally permits one suite in most single detached houses. A building permit is required, and the suite must meet the Zoning Bylaw and the BC Building Code. A suite cannot be strata-titled, sold on its own or used for short-term rental. It can house family or a long-term tenant. Most single detached lots may also hold a laneway or carriage house if each unit meets the rules. The City says it can take enforcement action against an unauthorized suite, and paying a utility charge does not make a suite legal. (City of New Westminster, Secondary Suites page, read October 2026.)</p>

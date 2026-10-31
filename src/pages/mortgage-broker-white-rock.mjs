@@ -26,6 +26,9 @@ ${ratesStrip()}
 </ul>
 <p>Joshua asks for the strata documents early, before your subject-removal date. If a lender is going to be uneasy about the building, you want to know while you can still change your mind. The <a href="/condo-and-townhouse-mortgages/">condo and townhouse mortgage page</a> covers the full list.</p>
 
+<h2>Incomes in White Rock</h2>
+<p>White Rock stands out in the 2021 Census. About 24.4 percent of its workers were self-employed, nearly one in four and among the highest shares of the cities we cover. The median household income was $73,000 for 2020. Health care, retail and professional services were the biggest industries. (Statistics Canada, 2021 Census Profile, read October 2026). A small household income can sit next to large home equity, especially for owners who have lived here for years. Lenders look at income and equity together, and the rules differ for a purchase and a refinance. Joshua can walk through both.</p>
+
 <h2>Presale towers and new construction</h2>
 <p>White Rock also has newer towers and presale projects. A presale means you sign now and complete in the future, sometimes years later. The mortgage you line up today isn't the mortgage you close.</p>
 <p>Some lenders hold a rate for a set number of days, but most presale completions are further out than any hold. Lenders also re-check your income, credit and the finished building at completion. The <a href="/presale-mortgages-bc/">presale mortgage page</a> explains how to plan for that gap.</p>
