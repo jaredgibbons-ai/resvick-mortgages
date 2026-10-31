@@ -43,7 +43,7 @@ for (const p of await loadPosts()) {
 // 2. Assets (css, js, self-hosted fonts)
 fs.cpSync(path.join(root, "src/assets"), path.join(dist, "assets"), { recursive: true });
 fs.mkdirSync(path.join(dist, "assets/fonts"), { recursive: true });
-const fonts = [["figtree", ["400-normal", "500-normal", "600-normal", "700-normal"]], ["dm-serif-display", ["400-normal", "400-italic"]]];
+const fonts = [["plus-jakarta-sans", ["400-normal", "500-normal", "600-normal", "700-normal", "800-normal"]]];
 for (const [pkg, ws] of fonts) for (const w of ws) {
   const name = `${pkg}-latin-${w}.woff2`;
   fs.copyFileSync(path.join(root, "node_modules/@fontsource", pkg, "files", name), path.join(dist, "assets/fonts", name));
