@@ -68,6 +68,8 @@ ${callout("What you pay", "<p>On most Squamish and Whistler files, an A lender p
 <h2>Close to the coast</h2>
 <p>Squamish is the gateway to the corridor. If you also look at homes on the North Shore, the <a href="/mortgage-broker-north-vancouver/">North Vancouver page</a> covers that market. The <a href="/mortgage-broker-vancouver/">Vancouver page</a> covers the city at the other end of the highway. The process is the same in each place.</p>
 
+<p class="more-links"><strong>More for Squamish buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-tech-workers/">tech workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves Squamish and Whistler", text: "Book a 15-minute call. Tell Joshua how you are paid and how you plan to use the property. You will leave knowing how a lender will read it and what to gather first." })}
 `;
 

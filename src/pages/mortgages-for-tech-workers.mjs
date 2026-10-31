@@ -119,6 +119,8 @@ ${short({ answer: "Lenders usually count your base pay first. Bonuses and shares
 
 ${callout("One request before the call", "<p>Gather your offer letter or contract, your last two T4s or tax returns, your latest pay stub and your brokerage statements. With those, Joshua can tell you in one conversation what a lender is likely to count.</p>")}
 
+<p class="more-links"><strong>Where Joshua helps tech workers.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-vancouver/">Vancouver</a>, <a href="/mortgage-broker-burnaby/">Burnaby</a>, <a href="/mortgage-broker-kelowna/">Kelowna</a>, <a href="/mortgage-broker-squamish/">Squamish</a>, <a href="/mortgage-broker-richmond/">Richmond</a> and <a href="/mortgage-broker-port-moody/">Port Moody</a>.</p>
+
 ${cta({ title: "Equity, remote work or contract pay, read right", text: "Book a 15-minute call. Joshua will read your income the way a lender does and point you to the lenders that fit. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;
 

@@ -129,6 +129,8 @@ ${short({ answer: "Lenders turn a teacher's contract into a yearly salary, so te
 
 ${callout("One request before the call", "<p>Find your last two T4s and one recent pay stub. Add your contract or letter of employment. With those three items, Joshua can usually tell you in one call how a lender will read your school income.</p>")}
 
+<p class="more-links"><strong>Where Joshua helps teachers and school staff.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-langley/">Langley</a>, <a href="/mortgage-broker-saanich/">Saanich</a>, <a href="/mortgage-broker-courtenay/">Courtenay and Comox</a>, <a href="/mortgage-broker-vernon/">Vernon</a> and <a href="/mortgage-broker-maple-ridge/">Maple Ridge</a>.</p>
+
 ${cta({ title: "Your school job, read the right way", text: "Book a 15-minute call that fits around your day. Joshua will tell you how lenders count your pay and which lender fits best. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;
 

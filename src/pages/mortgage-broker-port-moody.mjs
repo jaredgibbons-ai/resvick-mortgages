@@ -66,6 +66,8 @@ ${callout("The cost to you", "<p>On most Port Moody purchases and renewals, the 
 <h2>Neighbouring cities</h2>
 <p>Many Port Moody buyers also look in <a href="/mortgage-broker-coquitlam/">Coquitlam</a>, where the housing mix differs. Others look at <a href="/mortgage-broker-burnaby/">Burnaby</a>, just to the west. Joshua serves all three the same way. The <a href="/contact/">contact page</a> has the phone number and email for a first call.</p>
 
+<p class="more-links"><strong>More for Port Moody buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-tech-workers/">tech workers</a>, <a href="/mortgages-for-lawyers-accountants-and-engineers/">lawyers, accountants and engineers</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves Port Moody", text: "Book a 15-minute call. Tell Joshua which building or street you are looking at. You will leave knowing what a lender will check and what to gather." })}
 `;
 

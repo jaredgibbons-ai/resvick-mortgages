@@ -81,6 +81,8 @@ ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-langley/">L
 
 <p>If you own a business in Surrey and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
 
+<p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>, <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-government-and-city-employees/">government and city employees</a>. To plan a Surrey purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
 ${cta({ title: "Buying, renewing or refinancing in Surrey?", text: "Book a 15-minute call, by phone or at the Surrey office. You'll leave with a clear picture and a next step." })}
 <p>For anything else, the <a href="/contact/">contact page</a> has the phone number, email and what to have ready.</p>
 `;

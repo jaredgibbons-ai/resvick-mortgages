@@ -67,6 +67,8 @@ ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-vancouver/"
 
 <p>UniverCity at SFU is leasehold. SFU Community Trust says it prepares sites for developers on a prepaid, 99-year leasehold basis (SFU Community Trust, UniverCity for developers, read October 2026). Lenders vary on leasehold, so ask early. See <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p><p>If you own a business in Burnaby and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
 
+<p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-tech-workers/">tech workers</a>, <a href="/mortgages-for-lawyers-accountants-and-engineers/">lawyers, accountants and engineers</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Burnaby file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
 ${cta({ title: "Buying near Metrotown or Brentwood, or renewing in the Heights?", text: "Book a 15-minute call. You'll leave knowing what's realistic and what to do first." })}
 <p>First purchase? Start with the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a>. For anything else, use the <a href="/contact/">contact page</a>.</p>
 `;

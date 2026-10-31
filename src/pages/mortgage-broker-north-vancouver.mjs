@@ -69,6 +69,8 @@ ${callout("What you pay", "<p>Most North Shore files go to an A lender, where th
 <h2>Nearby</h2>
 <p>Joshua serves the whole Lower Mainland the same way. The <a href="/mortgage-broker-vancouver/">Vancouver page</a> covers the city across the inlet. The <a href="/mortgage-broker-burnaby/">Burnaby page</a> covers the neighbouring city to the east and the Tri-Cities beyond it.</p>
 
+<p class="more-links"><strong>More for North Vancouver buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-lawyers-accountants-and-engineers/">lawyers, accountants and engineers</a>, <a href="/mortgages-for-tech-workers/">tech workers</a> and <a href="/mortgages-for-government-and-city-employees/">government and city employees</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves North Vancouver", text: "Book a 15-minute call. Tell Joshua the property, the price range and how you're paid. You'll leave knowing what a lender will ask for first." })}
 `;
 

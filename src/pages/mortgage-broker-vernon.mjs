@@ -59,6 +59,8 @@ ${callout("What you pay", "<p>On most North Okanagan files the lender pays Joshu
 
 <p>If a home you like sits on First Nation land or leased land, it is a different kind of file. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
 
+<p class="more-links"><strong>More for Vernon buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves the North Okanagan", text: "Book a 15-minute call. Share the address, the land and how you are paid. Joshua will tell you what a lender is likely to say." })}
 `;
 

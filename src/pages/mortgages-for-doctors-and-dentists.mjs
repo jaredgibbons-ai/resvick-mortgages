@@ -121,6 +121,8 @@ ${short({ answer: "Lenders look at where your income is heading, not just last y
 
 ${callout("Bring these to the first call", "<p>Have a rough idea of your pay or your contract, your student loan and line of credit balances, and your target move date. If you have a corporation, bring last year's financial statements and your accountant's name. That is enough for Joshua to give you a clear first read.</p>")}
 
+<p class="more-links"><strong>Where Joshua helps doctors and dentists.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-kamloops/">Kamloops</a>, <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-nanaimo/">Nanaimo</a>, <a href="/mortgage-broker-kelowna/">Kelowna</a>, <a href="/mortgage-broker-victoria/">Victoria</a>, <a href="/mortgage-broker-white-rock/">White Rock</a> and <a href="/mortgage-broker-vancouver/">Vancouver</a>.</p>
+
 ${cta({ title: "Your income, read the way a lender reads it", text: "Book a 15-minute call. Joshua will look at your stage, your debt and your timeline, then tell you what is realistic. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;
 

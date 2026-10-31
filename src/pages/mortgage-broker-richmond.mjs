@@ -62,6 +62,8 @@ ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-vancouver/"
 
 <p>If you own a business in Richmond and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
 
+<p class="more-links"><strong>More for Richmond buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-lawyers-accountants-and-engineers/">lawyers, accountants and engineers</a>, <a href="/mortgages-for-tech-workers/">tech workers</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
 ${cta({ title: "A first home near the Canada Line, or a move up in Steveston?", text: "Book a 15-minute call. You'll leave knowing what's realistic and what to do first." })}
 <p>First purchase? The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> is the place to start. For anything else, see the <a href="/contact/">contact page</a>.</p>
 `;

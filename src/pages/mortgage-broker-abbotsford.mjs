@@ -66,7 +66,9 @@ ${ratesStrip()}
 
 ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-langley/">Langley</a> and <a href="/mortgage-broker-surrey/">Surrey</a>, where his office is. He also serves Mission, Chilliwack and the rest of the Fraser Valley. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from an Abbotsford client helps the next family find him.</p>`)}
 
-<p>If you own a business in Abbotsford and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+<p>Farm families and small business owners here sometimes want to buy a shop, a packing building or a small commercial unit. Joshua can arrange that kind of file too, and our <a href="/commercial-mortgages-bc/">commercial mortgage page</a> sets out the down payment, the income tests and the costs.</p>
+
+<p class="more-links"><strong>Next steps for an Abbotsford file.</strong> Contractors, truckers and healthcare workers make up much of the local workforce, so see the pages for <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. Then read the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. If you wonder who pays Joshua, read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
 ${cta({ title: "Buying a suite home, an acreage or a first townhouse in Abbotsford?", text: "Book a 15-minute call. You'll leave knowing what's realistic for the property you want, including what a lender will value." })}
 <p>For anything else, the <a href="/contact/">contact page</a> has the details.</p>

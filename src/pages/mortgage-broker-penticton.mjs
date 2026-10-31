@@ -58,6 +58,8 @@ ${callout("What a mortgage broker costs", "<p>For most Penticton purchases and r
 
 <p>Some Penticton homes sit on leased land. Skaha Hills, on Penticton Indian Band land, says it offers a registered, deeded title to a 99-year prepaid Crown lease (Skaha Hills, Current phases, read October 2026). That is the developer's own description, and each lender decides for itself whether to lend. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. Our pages on <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a> explain the questions to ask.</p>
 
+<p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/self-employed-mortgage-bc/">self-employed mortgages</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Penticton file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves Penticton", text: "Book a 15-minute call. Describe the property and where the money comes from. You'll leave knowing which kind of lender fits and what to gather first." })}
 `;
 

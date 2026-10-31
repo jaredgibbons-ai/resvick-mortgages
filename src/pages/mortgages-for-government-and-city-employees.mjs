@@ -129,6 +129,8 @@ ${short({ answer: "Steady pay on a published grid helps a file. Lenders still lo
 
 ${callout("Why an underwriting background helps here", "<p>An underwriter asks one question about a public-sector file. How much of this income will still be there in two years? Joshua builds your application to answer that before it is asked. He shows the grid, the status and the history, and he explains anything that looks unusual.</p>")}
 
+<p class="more-links"><strong>Where Joshua helps government and city employees.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-victoria/">Victoria</a>, <a href="/mortgage-broker-saanich/">Saanich</a>, <a href="/mortgage-broker-langford/">Langford</a>, <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-courtenay/">Courtenay and Comox</a> and <a href="/mortgage-broker-vancouver/">Vancouver</a>.</p>
+
 ${cta({ title: "Your employer is solid. Let's make the file read that way.", text: "Book a call and Joshua will tell you what a lender will count and which lender fits your status. You can also <a href=\"/contact/\">contact him</a> by email." })}
 `;
 

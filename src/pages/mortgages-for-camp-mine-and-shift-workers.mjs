@@ -128,6 +128,8 @@ ${short({ answer: "Lenders usually count your base wage first. Overtime, premium
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some files with very new or irregular income may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
+<p class="more-links"><strong>Where Joshua helps camp, mine and shift workers.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-kitimat/">Kitimat</a>, <a href="/mortgage-broker-terrace/">Terrace</a>, <a href="/mortgage-broker-quesnel/">Quesnel</a>, <a href="/mortgage-broker-princeton/">Princeton</a> and <a href="/mortgage-broker-kamloops/">Kamloops</a>. Related pages: <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>.</p>
+
 ${cta({ title: "Talk to a broker who works your schedule", text: "Book a 15-minute call on a break, in the camp lounge or on a day off. Share how you are paid and how long you have been on the job. You will leave knowing which lenders fit and what to line up first. Or <a href=\"/contact/\">contact Joshua</a> by email." })}
 `;
 

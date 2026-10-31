@@ -55,6 +55,8 @@ ${callout("What you pay", "<p>When a Maple Ridge file fits an A lender, which mo
 <p>Pitt Meadows is next door. The two communities are linked by Highway 7 and Dewdney Trunk Road, and many buyers look at both. Joshua serves Pitt Meadows the same way, with the same lenders and the same written comparison.</p>
 <p>The <a href="/mortgage-broker-coquitlam/">Coquitlam page</a> covers the Tri-Cities side of the commute. The <a href="/mortgage-broker-langley/">Langley page</a> covers the other side of the Golden Ears Bridge, including acreage. To start, use the <a href="/contact/">contact page</a>, which has the phone number, the email and what to have ready.</p>
 
+<p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Maple Ridge file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves Maple Ridge", text: "Book a 15-minute call. Tell Joshua what you're buying and how you're paid. You'll leave knowing how a lender will read it and what to gather first." })}
 `;
 

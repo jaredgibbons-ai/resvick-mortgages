@@ -56,6 +56,8 @@ ${callout("What it costs you", "<p>For most Port Coquitlam files, the A lender p
 <h2>Next door</h2>
 <p>Many PoCo buyers also look across the border in Coquitlam, where the housing mix and the suite rules differ. The <a href="/mortgage-broker-coquitlam/">Coquitlam page</a> covers that side. Across the Pitt River, the <a href="/mortgage-broker-maple-ridge/">Maple Ridge page</a> covers acreage and newer subdivisions. The <a href="/contact/">contact page</a> has the number and email for a first call.</p>
 
+<p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Port Coquitlam file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves Port Coquitlam", text: "Book a 15-minute call. Tell Joshua how you are paid and which home you are weighing. You will leave knowing what a lender will ask for first." })}
 `;
 

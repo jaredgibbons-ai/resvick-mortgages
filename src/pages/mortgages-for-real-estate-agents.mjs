@@ -117,6 +117,8 @@ ${callout("One request before the call", "<p>Pull your last two tax returns, you
 
 <p>If you own your brokerage office or an investment building, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
 
+<p class="more-links"><strong>Where Joshua helps real estate agents.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-vancouver/">Vancouver</a>, <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-langley/">Langley</a>, <a href="/mortgage-broker-kelowna/">Kelowna</a>, <a href="/mortgage-broker-victoria/">Victoria</a> and <a href="/mortgage-broker-white-rock/">White Rock</a>.</p>
+
 ${cta({ title: "Commission income, read the way a lender reads it", text: "Book a 15-minute call around your showings. Joshua will go through your returns and tell you which lender is likely to read your income best. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;
 

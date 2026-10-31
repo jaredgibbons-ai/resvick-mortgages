@@ -69,6 +69,8 @@ ${callout("What you pay", "<p>Most White Rock files go to an A lender. There the
 <h2>Nearby</h2>
 <p>White Rock sits inside Surrey, so the <a href="/mortgage-broker-surrey/">Surrey page</a> covers the office and the neighbourhoods around it, including South Surrey. Joshua also serves <a href="/mortgage-broker-langley/">Langley</a>, where many downsizers sell before they move to the coast.</p>
 
+<p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-doctors-and-dentists/">doctors and dentists</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-lawyers-accountants-and-engineers/">lawyers, accountants and engineers</a>. To plan a White Rock purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves White Rock", text: "Book a 15-minute call. Tell Joshua whether you're buying a unit, selling a house or planning a renewal. You'll leave knowing what to gather first." })}
 
 `;

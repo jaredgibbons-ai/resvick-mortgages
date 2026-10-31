@@ -57,6 +57,8 @@ ${callout("What you pay in Saanich", "<p>For most Saanich files the lender is an
 <h2>Nearby</h2>
 <p>For heritage homes and downtown condos, see the <a href="/mortgage-broker-victoria/">Victoria page</a>. For a bigger move up the Island, see the <a href="/mortgage-broker-nanaimo/">Nanaimo page</a>. Joshua also works with buyers in Central Saanich, North Saanich and Sidney the same way.</p>
 
+<p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-government-and-city-employees/">government and city employees</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Saanich file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves Saanich", text: "Book a 15-minute call. Tell Joshua the property, the plan and how you are paid. You will leave knowing what a lender will ask for first." })}
 `;
 

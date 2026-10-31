@@ -58,6 +58,8 @@ ${callout("Who pays for the broker", "<p>On most West Kelowna files, the lender 
 <h2>Around West Kelowna</h2>
 <p>Many buyers cross the lake to compare. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the city on the other side, including carriage houses and recreational property. The <a href="/mortgage-broker-kamloops/">Kamloops page</a> covers trades, rail and shift income farther north. Joshua serves the whole Okanagan, including Lake Country, in the same way.</p>
 
+<p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. To plan a West Kelowna purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves West Kelowna", text: "Book a 15-minute call. Say which neighbourhood you like and what the title is. You'll leave knowing which lenders fit and what to gather first." })}
 `;
 

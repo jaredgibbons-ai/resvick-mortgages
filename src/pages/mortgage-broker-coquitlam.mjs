@@ -65,6 +65,8 @@ ${ratesStrip()}
 
 ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-burnaby/">Burnaby</a>, <a href="/mortgage-broker-surrey/">Surrey</a>, Port Moody, Port Coquitlam, Anmore and Belcarra. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from a Coquitlam client helps the next family find him.</p>`)}
 
+<p class="more-links"><strong>Related for Tri-Cities buyers.</strong> Health care, retail and professional services lead the local job market, so you may find your situation on the pages for <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgages-for-tech-workers/">tech workers</a> or <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. For the steps before an offer, read the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a> and the <a href="/down-payment-guide-bc/">down payment guide</a>. The <a href="/closing-costs-bc/">closing costs guide</a> covers what you pay at the end. A dentist, tradesperson or shop owner who wants to buy the building they work in can read about <a href="/commercial-mortgages-bc/">commercial mortgages</a>, and you can <a href="/about-joshua-resvick/">learn about Joshua</a>.</p>
+
 ${cta({ title: "Buying a townhouse near the line, or moving up to Burke Mountain?", text: "Book a 15-minute call. You'll leave knowing what's realistic and what to do first." })}
 <p>For anything else, the <a href="/contact/">contact page</a> has the details.</p>
 `;

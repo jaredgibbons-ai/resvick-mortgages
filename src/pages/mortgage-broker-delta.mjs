@@ -57,6 +57,8 @@ ${callout("What you pay", "<p>Most Delta purchases and renewals go to A lenders,
 
 <p>If you own a business in Delta and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
 
+<p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. To plan a Delta purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves Delta", text: "Book a 15-minute call. Tell Joshua which part of Delta and what kind of property. You'll leave knowing how a lender will read it and what to gather first." })}
 
 `;

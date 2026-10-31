@@ -109,6 +109,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <p>If a home near Kitimat sits on First Nation land, it is financed differently from other land. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
 
+<p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>, <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a> and <a href="/mortgage-for-contractors/">contractors and trades</a>. To plan a Kitimat purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves Kitimat", text: "Book a 15-minute call. Share how you are paid, when your contract ends and the kind of home you want. You will leave knowing which lenders fit and what to line up first." })}
 `;
 

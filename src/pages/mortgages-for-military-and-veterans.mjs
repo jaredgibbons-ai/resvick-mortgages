@@ -58,6 +58,8 @@ ${short({ answer: "Military pay is some of the cleanest income a lender sees. Ba
 
 ${callout("Serving clients anywhere in BC", "<p>Postings land people in Esquimalt, Comox, Chilliwack and everywhere in between. Joshua works online and by phone from his Surrey office. The process is the same on Vancouver Island, in the Fraser Valley or in the Interior. It doesn't matter if you call from your current base or from a hotel on house-hunting leave.</p>")}
 
+<p class="more-links"><strong>Where Joshua helps military and veterans.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-langford/">Langford</a>, <a href="/mortgage-broker-courtenay/">Courtenay and Comox</a>, <a href="/mortgage-broker-victoria/">Victoria</a>, <a href="/mortgage-broker-saanich/">Saanich</a> and <a href="/mortgage-broker-nanaimo/">Nanaimo</a>.</p>
+
 ${cta({ title: "Buying on a posting timeline?", text: "Book a 15-minute call before your house-hunting trip. Joshua will confirm what you qualify for, line up a rate hold that covers the closing and plan the bridge if you need one. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;
 

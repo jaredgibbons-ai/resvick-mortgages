@@ -64,6 +64,8 @@ ${short({ answer: "Every lender counts your base pay in full. Overtime, premiums
 
 ${callout("Why an underwriting background matters here", "<p>An underwriter reads a shift-work file by asking one question. How much of this income will still be there in two years? Joshua builds your application to answer that before it's asked. He lays out the base pay on the grid and the variable pay with its two-year history. He explains anything that looks unusual.</p>")}
 
+<p class="more-links"><strong>Where Joshua helps first responders.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-abbotsford/">Abbotsford</a>, <a href="/mortgage-broker-langford/">Langford</a>, <a href="/mortgage-broker-new-westminster/">New Westminster</a>, <a href="/mortgage-broker-vancouver/">Vancouver</a> and <a href="/mortgage-broker-prince-george/">Prince George</a>.</p>
+
 ${cta({ title: "Shift work should not shrink your approval", text: "Book a 15-minute call at a time that fits your rotation. Joshua will tell you what a lender will count, and which lender counts the most of it. You can also <a href=\"/contact/\">contact him</a> by email." })}
 `;
 

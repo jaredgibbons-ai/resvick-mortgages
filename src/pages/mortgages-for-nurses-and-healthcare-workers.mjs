@@ -61,6 +61,8 @@ ${short({ answer: "Lenders count base pay in full. Overtime, premiums and casual
 
 ${callout("One request before the call", "<p>Pull your last two T4s from each employer and your latest pay stub. With those, Joshua can tell you in one conversation what a lender will count. Everything else depends on that number.</p>")}
 
+<p class="more-links"><strong>Where Joshua helps nurses and healthcare workers.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-kamloops/">Kamloops</a>, <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-terrace/">Terrace</a>, <a href="/mortgage-broker-white-rock/">White Rock</a> and <a href="/mortgage-broker-new-westminster/">New Westminster</a>.</p>
+
 ${cta({ title: "Casual line, real approval", text: "Book a 15-minute call around your schedule. Joshua will read your income the way a lender does and tell you which lender reads it best. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;
 

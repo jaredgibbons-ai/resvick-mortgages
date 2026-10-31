@@ -134,6 +134,8 @@ ${callout("Bring one thing to the call", "<p>Pull your last two years of T4s or 
 
 <p>If your company buys a yard or shop, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> for owner-occupied premises.</p>
 
+<p class="more-links"><strong>Where Joshua helps truckers and owner-operators.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-delta/">Delta</a>, <a href="/mortgage-broker-abbotsford/">Abbotsford</a>, <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-kamloops/">Kamloops</a> and <a href="/mortgage-broker-quesnel/">Quesnel</a>. Related pages: <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/commercial-mortgages-bc/">commercial mortgages</a>.</p>
+
 ${cta({ title: "The road is your office. The call can be too.", text: "Book a 15-minute call from wherever you are. Joshua will read your income the way a lender does and tell you which type of lender fits. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;
 

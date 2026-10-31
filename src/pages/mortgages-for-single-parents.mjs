@@ -64,6 +64,8 @@ ${short({ answer: "Lenders don't care how many people earn the income, only whet
 
 ${callout("Bring the agreement", "<p>If you receive or pay support, a lender will ask first for the separation agreement or court order. Bring it, your latest pay stub and three months of bank statements. With those, Joshua can tell you in one call what your income counts for at the lenders that read it best.</p>")}
 
+<p class="more-links"><strong>Where Joshua helps single parents.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-abbotsford/">Abbotsford</a>, <a href="/mortgage-broker-chilliwack/">Chilliwack</a>, <a href="/mortgage-broker-mission/">Mission</a> and <a href="/mortgage-broker-nanaimo/">Nanaimo</a>.</p>
+
 ${cta({ title: "One income, full approval", text: "Book a 15-minute call. Joshua will show you the real number, the programs that apply and the plan if the number needs to move. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;
 

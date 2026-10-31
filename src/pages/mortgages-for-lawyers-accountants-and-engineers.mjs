@@ -105,6 +105,8 @@ ${short({ answer: "Salaried professionals are usually easy to approve. Partners,
 
 ${callout("One request before the call", "<p>Gather your last two notices of assessment and your last two T4s or T5s. Add a current pay stub and a short note on how you are paid. With these, Joshua can tell you in one conversation what a lender will count.</p>")}
 
+<p class="more-links"><strong>Where Joshua helps lawyers, accountants and engineers.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-vancouver/">Vancouver</a>, <a href="/mortgage-broker-burnaby/">Burnaby</a>, <a href="/mortgage-broker-richmond/">Richmond</a>, <a href="/mortgage-broker-north-vancouver/">North Vancouver</a>, <a href="/mortgage-broker-port-moody/">Port Moody</a> and <a href="/mortgage-broker-victoria/">Victoria</a>.</p>
+
 ${cta({ title: "Your title is not your income", text: "Book a 15-minute call. Joshua will read your pay the way a lender does and tell you which lender reads it best. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;
 
