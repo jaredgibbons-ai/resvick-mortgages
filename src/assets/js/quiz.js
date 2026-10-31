@@ -371,7 +371,10 @@
       fetch("/api/lead", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }).then(function (res) {
         if (!res.ok) throw new Error("bad");
         track("form_submit", { form: "quiz", quiz: id });
+        // Keep the score for /thank-you/ (no financial values), leave a one-conversion token, then go there. If navigation is blocked, the message below stays.
+        try { window.sessionStorage.setItem("rm-quiz", JSON.stringify({ title: def.title, score: r.score, band: r.band.name, page: location.pathname })); window.sessionStorage.setItem("rm-lead", JSON.stringify({ f: "quiz", t: Date.now() })); } catch (x) {}
         f.innerHTML = '<p class="qz-q">Sent. Thank you.</p><p>Joshua will write it up and send it to ' + esc(email) + '. If you would rather talk sooner, <a href="' + esc(book) + '" data-evt="book_call_click">book a 15-minute call</a>.</p>';
+        try { location.assign("/thank-you/?f=quiz"); } catch (x) {}
       }).catch(function () { btn.disabled = false; btn.textContent = "Send it"; err.innerHTML = 'That did not go through. Email <a href="mailto:joshua@resvickmortgages.com">joshua@resvickmortgages.com</a> or call 778.882.5674 and mention your score.'; });
     }
 

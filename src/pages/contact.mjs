@@ -22,7 +22,7 @@ ${short({ answer: "Book a free 15-minute call, phone 778.882.5674, or send a not
 
 <h2>Phone, email and office</h2>
 <div class="contact-grid">
-<div><strong>Phone</strong><a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a><br>Best for anything time-sensitive.</div>
+<div><strong>Phone</strong><a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a><br>Best for anything time-sensitive.<br>Or <a href="${SITE.smsHref}" data-evt="text_click">text Josh</a>.</div>
 <div><strong>Email</strong><a href="mailto:${SITE.email}">${SITE.email}</a><br>Best for questions that are not urgent.</div>
 <div><strong>Office</strong>#106, 2626 Croydon Drive<br>Surrey, BC V3Z 0S8<br>Xeva Mortgage head office</div>
 </div>

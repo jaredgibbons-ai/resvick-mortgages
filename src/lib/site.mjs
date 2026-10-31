@@ -8,6 +8,7 @@ export const SITE = {
   brokerage: "Xeva Mortgage (Verico Xeva Mortgage Inc.)",
   phone: "778.882.5674",
   phoneHref: "tel:+17788825674",
+  smsHref: "sms:+17788825674",
   email: "joshua@resvickmortgages.com",
   book: "https://cal.com/resvickmortgages/mortgage-advice",
   bookRoot: "https://cal.com/resvickmortgages",
@@ -156,7 +157,7 @@ export const actionCards = () => `<div class="act-cards" data-nocount>
 <a class="act" href="/apply/" data-evt="apply_click"><span class="act-ic">${IC.doc}</span><span><b>Apply online</b><small>A secure form. You can stop and come back.</small></span>${IC.arrow}</a>
 <a class="act" href="/mortgage-check/" data-evt="checkup_click"><span class="act-ic">${IC.quiz}</span><span><b>Take a quiz</b><small>Buying, renewing, equity and more.</small></span>${IC.arrow}</a>
 </div>`;
-const NO_QUICK = new Set(["/apply/", "/accepted-offer/", "/refer/", "/privacy/", "/mortgage-check/", "/purchase-readiness-check/", "/renewal-check/", "/equity-check/", "/investor-check/", "/self-employed-check/", "/lender-match/", "/404.html"]);
+const NO_QUICK = new Set(["/apply/", "/accepted-offer/", "/refer/", "/privacy/", "/mortgage-check/", "/purchase-readiness-check/", "/renewal-check/", "/equity-check/", "/investor-check/", "/self-employed-check/", "/lender-match/", "/thank-you/", "/404.html"]);
 const quickRow = (slug) => NO_QUICK.has(slug) ? "" : `<div class="wrap" data-nocount><nav class="quick" aria-label="Quick actions"><a href="${SITE.book}" data-evt="book_call_click">${IC.cal}Book a call</a><a href="/apply/" data-evt="apply_click">${IC.doc}Apply online</a><a href="/mortgage-check/" data-evt="checkup_click">${IC.quiz}Take a quiz</a></nav></div>`;
 
 /** Add ids to h2s and build a "jump to" list for long pages. Returns the new body. */
@@ -219,11 +220,12 @@ ${withToc(page)}
 ${page.faqs && page.faqs.length ? faq(page.faqs) : ""}
 </article>
 ${revFor(page) ? `<div class="wrap">${revFor(page)}</div>` : ""}
-<div class="wrap">${cta(page.closing || { dark: true })}</div>
+${page.closing === false ? "" : `<div class="wrap">${cta(page.closing || { dark: true })}</div>`}
 </main>
 ${footer()}
 ${stickyBar(page.slug)}
 ${scripts}
 <script src="/assets/js/track.js" defer></script>
+${(page.scripts || []).map((s) => `<script src="${s}" defer></script>`).join("")}
 </body></html>`;
 }

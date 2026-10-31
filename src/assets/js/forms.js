@@ -6,6 +6,12 @@
   var FALLBACK = "That did not send. Please call 778.882.5674 or email joshua@resvickmortgages.com and Joshua will pick it up directly.";
   function utm() { var o = {}, p = new URLSearchParams(location.search); ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content"].forEach(function (k) { if (p.get(k)) o[k] = p.get(k); }); return o; }
   function val(d, k) { return (d.get(k) || "").toString().trim(); }
+  // Leave a short-lived token so /thank-you/ counts exactly one conversion, then go there. If navigation is blocked, the in-page success message stays.
+  function goThanks(kind) {
+    try { window.sessionStorage.setItem("rm-lead", JSON.stringify({ f: kind, t: Date.now() })); } catch (x) {}
+    try { location.assign("/thank-you/?f=" + encodeURIComponent(kind)); } catch (x) {}
+  }
+  window.RMGoThanks = goThanks;
   function store(key, fn) { try { return fn(window.localStorage, key); } catch (x) { return null; } }
 
   // Fields named x_<something> travel in `extra` (flat, short strings). Everything else is the standard contract.
@@ -137,7 +143,10 @@
           var done = f.getAttribute("data-success") || "Thank you. Joshua will reply personally.";
           var panel = f.querySelector("[data-done]");
           if (panel) { Array.prototype.forEach.call(f.children, function (c) { if (c !== panel) c.hidden = true; }); panel.hidden = false; try { panel.scrollIntoView({ block: "start", behavior: "smooth" }); } catch (x) {} } else setMsg(done, false);
-          if (window.RMTrack) window.RMTrack(kind === "renewal-reminder" ? "reminder_signup" : "form_submit", { page: location.pathname, intent: body.intent, form: kind }); })
+          if (window.RMTrack) window.RMTrack(kind === "renewal-reminder" ? "reminder_signup" : "form_submit", { page: location.pathname, intent: body.intent, form: kind });
+          // Tool-result forms (data-stay) keep the visitor on their result and count the lead in place. Everything else goes to /thank-you/.
+          if (f.hasAttribute("data-stay")) { if (window.RMTrack) window.RMTrack("generate_lead", { form: kind, page: location.pathname }); }
+          else goThanks(kind); })
         .catch(function () { setMsg(FALLBACK, true); })
         .then(function () { btn.disabled = false; });
     });
@@ -152,6 +161,19 @@
       var title = b.getAttribute("data-book-title") || "Book a 15-minute call with Joshua Resvick";
       h.innerHTML = '<iframe src="' + url + (url.indexOf("?") > 0 ? "&" : "?") + 'embed=true&layout=month_view" title="' + title.replace(/"/g, "") + '" width="100%" height="680" style="border:0;border-radius:14px" loading="lazy"></iframe>';
       b.hidden = true; if (window.RMTrack) window.RMTrack("book_call_click", { page: location.pathname, via: "embed" });
+      listenBooking(h);
     });
   });
+  // Cal.com posts a "bookingSuccessful" message from its embed iframe when a booking is confirmed. Matching is deliberately loose
+  // (type, data.type or method) because the exact envelope can change; the origin must be cal.com. Fires once per page view.
+  var booked = false;
+  function listenBooking(host) {
+    window.addEventListener("message", function (e) {
+      if (booked || !/^https:\/\/([a-z0-9-]+\.)*cal\.com$/.test(e.origin || "")) return;
+      var d = e.data, tag = "";
+      try { tag = typeof d === "string" ? d : [d && d.type, d && d.data && d.data.type, d && d.method, d && d.action, d && d.eventName].join(" "); } catch (x) {}
+      if (!/bookingSuccessful/i.test(tag)) return;
+      booked = true; goThanks("booking");
+    });
+  }
 })();

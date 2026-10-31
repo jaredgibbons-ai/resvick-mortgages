@@ -13,6 +13,7 @@ export const SLUGS = `/
 /accepted-offer/
 /refer/
 /partners/
+/thank-you/
 /3-year-fixed-mortgage-rate/
 /5-year-fixed-mortgage-rate/
 /about-joshua-resvick/

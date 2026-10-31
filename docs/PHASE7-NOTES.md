@@ -25,3 +25,22 @@ Corrections from Jared's fact-check file applied to the site copy:
 - Suite income: unauthorized-suite wording tightened (Sagen case by case, most A lenders count zero); Canada Guaranty caps at 50% of gross rent, so the 100% two-unit credit is CMHC and Sagen only; insurers publish no offset percentage.
 - Left as written (confirmed): strata 50%, HELOC 65/80, bridge financing, spousal buyout 95%, 90 days of down payment history, rate holds, prepayment privileges, short-term rental exclusion.
 Open gaps from the fact-check: CMHC and Canada Guaranty bankruptcy seasoning lines, CMHC tax-arrears rule, B2B figures (broker-hosted copy), and no insurer publishes an STR rule.
+
+## Thank-you flow and conversion tracking
+
+- Page: `/thank-you/` (src/pages/thank-you.mjs, script src/assets/js/thanks.js). noindex, left out of sitemap.xml, disallowed in robots.txt, no closing CTA, no reviews. One page, nine blocks chosen by `?f=` (contact, apply, refer, accepted-offer, renewal-reminder, check-up, quiz, booking, other). Unknown or missing `f` shows the generic block; with JavaScript off the generic block shows.
+- Redirects: after `/api/lead` returns 200, forms.js sends the visitor to `/thank-you/?f=<data-lead value>`. A failed post (502) shows the existing error message and does not redirect. The in-page success message stays as the fallback if navigation is blocked.
+- Quiz: quiz.js redirects to `/thank-you/?f=quiz` only after the lead is saved. It stores the title, score and band (no financial values) in sessionStorage so the thank-you page can show "Your result" with a link back to the quiz.
+- Stay-on-page forms: the mortgage check-up and the home equity estimator carry `data-stay`. Their results live on the page, so they keep the visitor there and fire `generate_lead` in place. Remove `data-stay` from the form if Josh prefers a redirect.
+- Booking: after the visitor clicks "Show available times" on /contact/, forms.js listens for a cal.com iframe message containing `bookingSuccessful` (origin must be cal.com) and redirects to `/thank-you/?f=booking`. Bookings made by the "open the booking page in a new view" link, or from the Book a call buttons that go straight to cal.com, cannot be seen by the site. See the confirm list below.
+- Events (GA4, when `GA4_ID` is set): `generate_lead` {form, page} fires once per real submission on /thank-you/ (and in place for the two stay-on-page forms). Existing events are unchanged: `form_submit`, `reminder_signup`, `book_call_click`, `phone_click`, plus a new `text_click` for the "Text Josh" links. Without gtag, events go into `window.dataLayer` instead (harmless; useful if Tag Manager is added later).
+- De-duplication: forms.js and quiz.js leave a ten-minute sessionStorage token (`rm-lead`) just before redirecting. thanks.js consumes it on first view, so a refresh, a bookmark or a shared link never counts a second conversion. If storage is blocked, the event fires once per view.
+- "Text Josh": `sms:+17788825674` link on the contact page (Phone card) and on /thank-you/ only. Not in the sticky bar. No WhatsApp.
+
+How to set the GA4 conversion: in GA4 go to Admin, Events, wait for `generate_lead` to appear (or add it by name), then switch on "Mark as key event". Count it as the only lead conversion. `form_submit` fires too, so do not mark both or leads will be double counted. Optional: create audiences or reports by the `form` parameter (register `form` as a custom dimension, event scope).
+
+Confirm with Josh:
+- Can 778.882.5674 receive texts? If not, remove the sms links (contact page, SITE.smsHref in site.mjs, thank-you page).
+- Response-time wording: the thank-you copy makes no timing promise (it follows the contact page: "I read and answer messages myself"). The quiz form's existing line says "usually within a business day" and the refer form's existing in-page message says "in the next day or two". Confirm both or soften them.
+- cal.com: confirm the real booking-success message from the embed on a live booking (it could not be tested offline; the test used a simulated cal.com message). Cal's own setting "redirect on booking" could send people to the thank-you page, but inside the embed iframe it would load the whole page in the frame, so the message hook is used instead. Confirm the cal.com event sends the confirmation email (the booking block says it does).
+- robots.txt blocks /thank-you/ and the page is also noindex. That is fine because nothing links to it. If it ever gets linked, remove the robots.txt line so search engines can see the noindex tag.
