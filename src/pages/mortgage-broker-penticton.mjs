@@ -60,6 +60,8 @@ ${callout("What a mortgage broker costs", "<p>For most Penticton purchases and r
 
 <p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/self-employed-mortgage-bc/">self-employed mortgages</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Penticton file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
+<p>South of Penticton, the <a href="/mortgage-broker-osoyoos-oliver/">Osoyoos and Oliver page</a> covers wine country, band leasehold homes and local short-term rental rules.</p>
+
 ${cta({ title: "Talk to a broker who serves Penticton", text: "Book a 15-minute call. Describe the property and where the money comes from. You'll leave knowing which kind of lender fits and what to gather first." })}
 `;
 

@@ -24,6 +24,11 @@ ${ratesStrip()}
 <li><strong>Growers and owners.</strong> A vineyard, orchard or small business owner usually needs two years of tax returns, and lenders often look at net income after expenses. The <a href="/self-employed-mortgage-bc/">self-employed hub</a> explains the routes.</li>
 </ul>
 
+<h2>What the two towns look like</h2>
+<p>Osoyoos is mostly houses. In 2021 about 60 percent of its homes were single-detached, 19 percent were low-rise apartments and 5 percent were manufactured or mobile homes. Eighty-one percent of households owned their home (Town of Osoyoos, Housing Needs Assessment 2024, February 2025, read October 2026). The report says the town needs 303 new homes over five years.</p>
+<p>Oliver is similar but a little more varied. About two-thirds of its homes were single-detached, and 3.9 percent were manufactured homes (Town of Oliver, Housing Needs Report, November 2024, read October 2026). Oliver's report says the town needs 302 homes over five years. Local anchors include the South Okanagan General Hospital, a packinghouse and the Okanagan Correctional Centre, which the Town's plan says created 240 full-time jobs (Town of Oliver, Official Community Plan Bylaw No. 1436, read October 2026).</p>
+<p>On Osoyoos Indian Band land in Osoyoos, 43 affordable rental homes opened at Cedar Lane in October 2025. The Province says they are open to band members and Osoyoos residents (Province of BC, Forty-three homes open for people in Osoyoos, October 2, 2025, read October 2026). They are rentals, so they do not change what a buyer can borrow. They do show how much housing in the area sits on band land.</p>
+
 <h2>Moving to the South Okanagan</h2>
 <p>Many people who search for buying a home in Osoyoos or Oliver do not live here yet. Some are retirees who sold elsewhere. Some are starting work at a winery, a packinghouse or the hospital. In Osoyoos, the 2021 Census counted 632 of 3,279 homes as vacant or held by temporary residents (Town of Osoyoos, Housing Needs Assessment 2024, February 2025, read October 2026). That means part-year owners are common, and lenders see second homes often.</p>
 <p>An order that tends to work:</p>

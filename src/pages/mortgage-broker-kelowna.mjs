@@ -67,6 +67,8 @@ ${callout("No fee on A-lender mortgages", "<p>When your mortgage is placed with 
 
 <p class="more-links"><strong>More for Kelowna buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-tech-workers/">tech workers</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgage-for-contractors/">contractors and trades</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
+<p>Buyers who look east of the Okanagan also read about <a href="/mortgage-broker-trail-castlegar/">Trail and Castlegar</a>, where smelter and mill wages meet lower prices.</p>
+
 ${cta({ title: "Talk to a broker who serves Kelowna", text: "Book a 15-minute call. Bring the property type you have in mind, even if it's only an idea. You'll leave knowing whether it fits a mainstream lender." })}
 
 <p>Resvick Mortgages appears on Google as a mortgage broker serving British Columbia from Surrey. Did a search for a mortgage broker in Kelowna bring you here? The <a href="/contact/">contact page</a> has the phone number, the email address and what to have ready.</p>

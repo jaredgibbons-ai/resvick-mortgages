@@ -65,6 +65,8 @@ ${callout("What you pay", "<p>On a mortgage placed with an A lender, the lender 
 
 <p class="more-links"><strong>More for Kamloops files.</strong> Hospitals, stores and trades employers lead the local jobs, and rail and trucking pay is common too. Pages that may match your work include <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a> and <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>. To plan your purchase, begin with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> if you want to know who pays Joshua.</p>
 
+<p>Rail crews also work out of Revelstoke. Our <a href="/mortgage-broker-revelstoke/">Revelstoke page</a> explains how rail, hydro and resort pay are read.</p>
+
 ${cta({ title: "Talk to a broker who serves Kamloops", text: "Book a 15-minute call. Tell Joshua how you're paid. You'll leave knowing how a lender will read it and what to gather first." })}
 
 <p>Resvick Mortgages is listed on Google as a mortgage broker serving British Columbia from Surrey. Did you search for a mortgage broker in Kamloops and land here? The <a href="/contact/">contact page</a> has the phone number, the email address and what to have ready for the first call.</p>

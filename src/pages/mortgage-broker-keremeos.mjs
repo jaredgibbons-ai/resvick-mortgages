@@ -89,6 +89,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/farm-and-alr-mortgages-bc/">farm and ALR mortgages</a>. To plan a Keremeos purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
+<p>The next towns south and east are Oliver and Osoyoos. Our <a href="/mortgage-broker-osoyoos-oliver/">Osoyoos and Oliver page</a> compares their zoning, rentals and leasehold homes.</p>
+
 ${cta({ title: "Talk to a broker who serves Keremeos", text: "Book a 15-minute call. Share where you are moving from, how you are paid and the kind of home you want. You will leave knowing which lenders fit and what to line up before you move." })}
 `;
 

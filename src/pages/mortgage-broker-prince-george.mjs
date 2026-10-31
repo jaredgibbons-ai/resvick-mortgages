@@ -62,6 +62,8 @@ ${callout("What a broker costs in Prince George", "<p>The same as anywhere in BC
 
 <p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>, <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Prince George file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
+<p>Buyers who work in the Peace often compare notes with Prince George. See our <a href="/mortgage-broker-fort-st-john/">Fort St. John page</a> for energy pay, manufactured homes and acreage in that region.</p>
+
 ${cta({ title: "Talk to a broker who serves Prince George", text: "Book a 15-minute call. Tell Joshua how you're paid and what you're looking at. You'll leave knowing how a lender will read your file and what to gather first." })}
 
 <p>Resvick Mortgages is listed on Google as a mortgage broker serving BC from Surrey. Did a search for a broker in Prince George bring you here? The <a href="/contact/">contact page</a> has the phone number, the email address and what to have ready.</p>

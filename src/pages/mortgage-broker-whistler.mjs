@@ -108,6 +108,8 @@ ${callout("Who pays for what", "<p>When a Whistler file suits an A lender, that 
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/self-employed-mortgage-bc/">self-employed mortgages</a> and <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>. To plan a Whistler purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
+<p>For another resort market in the Interior, see <a href="/mortgage-broker-revelstoke/">Revelstoke</a>, where some homes carry resale price caps.</p>
+
 ${cta({ title: "Talk to a broker who serves Whistler", text: "Book a 15-minute call. Tell Joshua the building, the zoning and how you earn. You will leave knowing how a lender may read the file and what to gather first." })}
 `;
 

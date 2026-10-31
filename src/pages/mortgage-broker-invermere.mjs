@@ -110,6 +110,8 @@ ${callout("Who pays for what", "<p>When a Columbia Valley file suits an A lender
 
 <p class="more-links"><strong>More for Invermere buyers.</strong> Pages that may fit your situation: <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/self-employed-mortgage-bc/">self-employed mortgages</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
+<p>Another mountain market sits to the south. The <a href="/mortgage-broker-fernie/">Fernie page</a> covers mine pay, resort pay and second homes in the Elk Valley.</p>
+
 ${cta({ title: "Talk to a broker who serves Invermere", text: "Book a 15-minute call. Tell Joshua how you plan to use the home and how you earn. You will leave knowing how a lender may read the file and what to gather first." })}
 `;
 
