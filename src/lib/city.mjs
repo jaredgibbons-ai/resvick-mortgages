@@ -15,4 +15,4 @@ export function cityServiceSchema(slug, city, extraAreas = []) {
 }
 
 /** One honest line about where the office is and how the city is served. */
-export const servesLine = (city) => `Joshua Resvick serves ${city} from his office in Surrey, by phone, video and secure document upload. There is no ${city} branch, and you do not need to visit any office: every step, from the first call to the signed commitment, is done online, and your lawyer or notary handles the signing where you live.`;
+export const servesLine = (city) => `Joshua Resvick serves ${city} from his office in Surrey, by phone, video and secure document upload. There is no ${city} branch, and you do not need to visit any office. Every step, from the first call to the signed commitment, is done online. Your lawyer or notary handles the signing where you live.`;
