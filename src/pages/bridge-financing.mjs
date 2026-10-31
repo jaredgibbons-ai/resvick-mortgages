@@ -39,14 +39,14 @@ ${short({ answer: "A bridge loan lends you the equity from your old home, for da
 
 <h2>Bridge, open mortgage or deposit loan</h2>
 <p>A bridge is not the only tool for a timing gap. It helps to know what the others do.</p>
-<table>
+<div class="table-wrap"><table>
 <thead><tr><th>Tool</th><th>What it covers</th><th>When it fits</th></tr></thead>
 <tbody>
 <tr><td>Bridge loan</td><td>The down payment on the purchase, between the two completion dates</td><td>Purchase completes before the sale; the sale is firm</td></tr>
 <tr><td><a href="/open-vs-closed-mortgage/">Open mortgage</a></td><td>A mortgage on the home you are selling, repayable anytime without penalty</td><td>Your current term is ending and the sale is near; avoids a renewal into a closed term you would then break</td></tr>
 <tr><td><a href="/deposit-loan-and-borrowed-down-payment/">Deposit loan</a></td><td>The deposit due on the purchase contract, which is owed well before completion</td><td>Your cash is in the home you have not yet sold and the deposit is due now</td></tr>
 </tbody>
-</table>
+</table></div>
 <p>They are often used together. A buyer may need a deposit loan when the offer is accepted. Then a bridge covers the completion gap. If the old mortgage is at maturity, an open term on it avoids a penalty when the sale closes. Each of these has a cost. A broker's job is to find the mix that solves the timing with the least of it.</p>
 
 ${cta({ title: "Buying and selling in the same window?", text: "Book a 15-minute call before you write the offer. Joshua will map both completion dates, check whether your new lender can bridge, and show you what the gap would cost, so the timing is a plan rather than a scramble." })}

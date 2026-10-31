@@ -29,7 +29,7 @@ ${short({
 
 <h2>HELOC, refinance or second mortgage: the decision</h2>
 <p>Three products borrow against the same equity. The right one depends on what the money is for, how long you'll carry it and what your current mortgage looks like.</p>
-<table>
+<div class="table-wrap"><table>
 <thead><tr><th>Question</th><th>HELOC</th><th>Cash-out refinance</th><th>Second mortgage</th></tr></thead>
 <tbody>
 <tr><td>Touches your first mortgage?</td><td>No, if added alongside it</td><td>Yes, replaces it</td><td>No</td></tr>
@@ -38,7 +38,7 @@ ${short({
 <tr><td>Repayment</td><td>Interest only minimum, revolving</td><td>Amortized</td><td>Often interest only, short term</td></tr>
 <tr><td>Best for</td><td>Ongoing or uncertain needs, a reserve</td><td>A single large, long-held amount</td><td>Short-term need when the first mortgage must stay</td></tr>
 </tbody>
-</table>
+</table></div>
 <p>A HELOC suits money you may or may not need. Think of a renovation paid in stages, or a reserve for a business or family event.</p>
 <p>A <a href="/cash-out-refinance-bc/">cash-out refinance</a> suits one large amount you'll carry for years. There, an amortized payment at a mortgage rate is usually cheaper and more disciplined.</p>
 <p>A <a href="/second-mortgage-bc/">second mortgage</a> is usually the answer only in one case. Your first mortgage has a rate too good to break, and you don't qualify for a line at a prime lender. The <a href="/refinance-mortgage-bc/">refinance hub</a> walks through all the options.</p>

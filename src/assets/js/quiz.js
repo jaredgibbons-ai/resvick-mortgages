@@ -275,7 +275,7 @@
       }
       h += nav(state.history.length > 0);
       sec.innerHTML = h;
-      var inp = sec.querySelector("input"); if (inp) { inp.focus(); if (s.live === "ltv") { var upd = function () { var b = Number(inp.value), V = state.nums.value; var el = sec.querySelector("[data-live=ltv]"); if (el) el.textContent = b >= 0 && V > 0 && inp.value !== "" ? "Loan-to-value: " + pct1((b / V) * 100) + (b / V > 0.8 ? " (above the 80 percent refinance limit)" : "") : ""; }; inp.addEventListener("input", upd); upd(); } }
+      var inp = sec.querySelector("input"); if (inp) { if (state.history.length) inp.focus({ preventScroll: true }); if (s.live === "ltv") { var upd = function () { var b = Number(inp.value), V = state.nums.value; var el = sec.querySelector("[data-live=ltv]"); if (el) el.textContent = b >= 0 && V > 0 && inp.value !== "" ? "Loan-to-value: " + pct1((b / V) * 100) + (b / V > 0.8 ? " (above the 80 percent refinance limit)" : "") : ""; }; inp.addEventListener("input", upd); upd(); } }
       else { var first = sec.querySelector(".qz-opt"); if (first && state.history.length) first.focus(); }
     }
 

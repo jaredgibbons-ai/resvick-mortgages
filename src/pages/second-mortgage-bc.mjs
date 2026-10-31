@@ -33,7 +33,7 @@ ${short({
 
 <h2>Second mortgage, HELOC or refinance</h2>
 <p>Here's how the three options compare.</p>
-<table>
+<div class="table-wrap"><table>
 <thead><tr><th></th><th>Second mortgage</th><th>HELOC</th><th>Cash-out refinance</th></tr></thead>
 <tbody>
 <tr><td>Your first mortgage.</td><td>Left alone.</td><td>Left alone, if added beside it.</td><td>Replaced, with a penalty during a term.</td></tr>
@@ -42,7 +42,7 @@ ${short({
 <tr><td>Term.</td><td>Short, usually one to two years.</td><td>Open and reusable.</td><td>A full term and amortization.</td></tr>
 <tr><td>Best when.</td><td>The first must stay and a line isn't available.</td><td>You qualify at a bank and want flexibility.</td><td>The amount is large and the penalty is bearable.</td></tr>
 </tbody>
-</table>
+</table></div>
 <p>If you qualify for a HELOC at a bank, a second is rarely the better choice. If you don't, or you need more than a line can give, a second is the realistic route. Then the question is which lender and what terms. The <a href="/refinance-mortgage-bc/">refinance hub</a> compares all three in more depth.</p>
 <p>Third mortgages exist too. They sit behind the second, and their price shows it. They belong to the world of <a href="/private-mortgage-lending-bc/">private mortgage lending</a>, and that page covers them.</p>
 

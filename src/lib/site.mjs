@@ -78,7 +78,7 @@ export function footer() {
 </footer>`;
 }
 
-export const proofStrip = () => `<ul class="proof" data-nocount aria-label="At a glance"><li><strong>1,000+</strong> mortgages funded</li><li><strong>Xeva Mortgage</strong></li><li><strong>BC-wide</strong>, online</li><li>An <strong>underwriter's</strong> eye</li></ul>`;
+export const proofStrip = () => `<ul class="proof" data-nocount aria-label="At a glance"><li><strong>1,000+</strong> mortgages funded</li><li><strong>Xeva Mortgage</strong> brokerage</li><li><strong>BC-wide</strong>, online</li><li>An <strong>underwriter's</strong> eye</li></ul>`;
 
 export const cta = (o = {}) => `<aside class="cta-block${o.dark ? " cta-dark" : ""}" data-cta>
 <div><h2>${esc(o.title || "Talk it through with Joshua")}</h2><p>${o.text || "A 15-minute call is enough to map your goals, your numbers and your next step. No obligation, and you deal directly with the broker who will do the work."}</p></div>

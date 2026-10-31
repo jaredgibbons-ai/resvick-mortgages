@@ -51,7 +51,7 @@
       var l = el.id && f.querySelector('label[for="' + el.id + '"]'); if (l) return l.textContent.trim();
       var fs = el.closest("fieldset"), lg = fs && fs.querySelector("legend"); return lg ? lg.textContent.trim() : "this field";
     }
-    function errText(el) { if (el.getAttribute("data-msg")) return el.getAttribute("data-msg"); return el.type === "checkbox" ? "Please tick the required box." : "Please complete " + labelFor(el).replace(/^./, function (c) { return c.toLowerCase(); }) + "."; }
+    function errText(el) { if (el.getAttribute("data-msg")) return el.getAttribute("data-msg"); if (el.type === "radio") return "Please pick an answer: " + labelFor(el) + "?"; return el.type === "checkbox" ? "Please tick the required box." : "Please complete " + labelFor(el).replace(/^./, function (c) { return c.toLowerCase(); }) + "."; }
 
     // Multi-step: show one step, keep progress, build the review list.
     function show(i, initial) {
