@@ -56,7 +56,7 @@ ${callout("Check these before you make an offer", "<ul><li>Get a full copy of th
 <ol>
 <li><strong>A 15-minute call.</strong> You describe the property, the landlord and the lease term. He tells you what is likely to matter to a lender.</li>
 <li><strong>A look at the lease.</strong> You send the lease and the listing. He flags the points a lender will ask about.</li>
-<li><strong>The right lender.</strong> Not every lender works on leased land. He places your file with a specific lender that does, and shows you the terms in writing.</li>
+<li><strong>The right lender.</strong> Not every lender works on leased land. He places your file with a specific lender that does, and shows you the terms in writing. Which lender fits depends on the lease and on your timing, so he confirms it once he has seen both.</li>
 <li><strong>Conditions that fit the lease.</strong> He helps you set a financing condition with enough time for the lender to review the lease.</li>
 </ol>
 <p>Most files go to a mainstream lender, which pays Joshua. In that case you pay nothing for his work. A leasehold file that needs a B lender or private lender can carry a fee. If so, it appears in writing on BCFSA's Form 1A before you commit. See <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
