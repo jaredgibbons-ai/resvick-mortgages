@@ -290,3 +290,6 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 .cb-go{display:flex;gap:14px;align-items:center;flex-wrap:wrap}.cb-go .form-msg{margin:0}
 .callback .small{margin:10px 0 14px}
 @media(min-width:900px){.callback{grid-template-columns:minmax(0,.8fr) minmax(0,1.6fr);align-items:start;padding:30px 34px}.cb-row{grid-template-columns:1fr 1fr 1fr}}
+
+.cb-alt{margin:14px 0 0;font-size:16px}
+@media(min-width:900px){.cb-alt{grid-column:2}}
