@@ -18,7 +18,7 @@ ${ratesStrip()}
 <p>The District's housing report gives a clear picture. It counts 2,238 private dwellings and says 578 of them, about 26 percent, are not occupied by usual residents. About 71 percent of households own, and 29 percent rent. The median household income was about $84,000. Owners sat near $93,000, and renters near $53,200 (Housing Needs Report, November 25, 2024, read October 2026).</p>
 <p>Those numbers explain a lot. A good share of buyers do not live here full time. Local renters earn far less than owners, so many locals compete with buyers who have other sources of money. A lender sees that mix too, and it asks what the home is for before it looks at much else.</p>
 
-<h2>Buying a second home or a getaway</h2>
+<h2>Buying a vacation home in Invermere: second homes and getaways</h2>
 <p>A second home is not treated like the home you live in. Lenders vary, but these points come up often:</p>
 <ul>
 <li><strong>Down payment.</strong> Insurance for a small down payment is generally for homes you will live in. For a second home, plan on at least 20 percent down. The <a href="/down-payment-guide-bc/">down payment guide</a> shows what counts as a source.</li>
