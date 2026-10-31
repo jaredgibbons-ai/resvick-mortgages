@@ -30,6 +30,21 @@ export async function onRequestPost({ request, env }) {
     consent_recorded_at: new Date().toISOString(), form: FORMS.includes(form) ? form : "other", form_raw: form,
     tool_inputs: tools(b.tool_inputs), extra: extra(b.extra)
   };
+  // Readable copy for email/Sheet automations: the same record as plain text, so nobody has to read raw JSON.
+  const FORM_LABEL = { contact: "Contact form", "renewal-reminder": "Renewal reminder", "equity-estimator": "Home equity estimator", apply: "Application", "accepted-offer": "Accepted offer", refer: "Referral", quiz: "Quiz", "check-up": "Mortgage check-up", other: "Website form" };
+  const label = (k) => String(k).replace(/[_-]+/g, " ").replace(/^./, (c) => c.toUpperCase());
+  const rows = (o) => o ? Object.entries(o).map(([k, x]) => "  " + label(k) + ": " + x) : [];
+  lead.subject = "New website lead: " + (FORM_LABEL[lead.form] || FORM_LABEL.other) + " from " + lead.name;
+  lead.summary = [
+    "Form: " + (FORM_LABEL[lead.form] || FORM_LABEL.other) + " (" + lead.source_page + ")",
+    "Name: " + lead.name, "Email: " + lead.email, lead.phone && "Phone: " + lead.phone,
+    "Looking for: " + lead.intent, lead.timeline && "Timeline: " + lead.timeline, lead.current_lender && "Current lender: " + lead.current_lender,
+    lead.message && "Message: " + lead.message,
+    lead.extra && "Answers:\n" + rows(lead.extra).join("\n"),
+    lead.tool_inputs && "Estimate inputs (shared by the visitor):\n" + rows(lead.tool_inputs).join("\n"),
+    "Consent: enquiry " + (lead.consent_enquiry ? "yes" : "no") + ", reminders " + (lead.consent_reminders ? "yes" : "no") + ", marketing " + (lead.consent_marketing ? "yes" : "no") + (lead.consent_referee ? ", referee agreed yes" : ""),
+    "Received: " + lead.consent_recorded_at
+  ].filter(Boolean).join("\n");
   try {
     if (!env.CRM_WEBHOOK_URL) throw new Error("CRM_WEBHOOK_URL not configured");
     const r = await fetch(env.CRM_WEBHOOK_URL, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(lead) });

@@ -22,3 +22,7 @@ Rules the CRM side must implement: one record per person (match on email + phone
 Failure handling: if the CRM call fails, the function posts `{alert, error, lead}` to `ALERT_WEBHOOK_URL` (set it to something that emails Josh) and returns 502; the page then tells the visitor to phone or email. A silent lost lead is launch-blocking, so do not go live without both variables set and a test submission from staging.
 
 Environment variables: `CRM_WEBHOOK_URL`, `ALERT_WEBHOOK_URL`.
+
+## Readable fields (added Oct 31, 2026)
+
+Every record also carries `subject` (for example "New website lead: Application from Test Buyer") and `summary` (the whole record as plain text, including questionnaire answers in `extra` and any shared estimate inputs). An email or Google Sheet automation can drop `subject` and `summary` straight into an email, so nobody has to read raw JSON. Questionnaire answers are never SIN, birth date, account or card numbers; the function drops any key that looks like one.
