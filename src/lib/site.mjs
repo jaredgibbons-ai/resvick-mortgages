@@ -163,8 +163,17 @@ const NO_QUICK = new Set(["/apply/", "/accepted-offer/", "/refer/", "/privacy/",
 const quickRow = (slug) => NO_QUICK.has(slug) ? "" : `<div class="wrap" data-nocount><nav class="quick" aria-label="Quick actions"><a href="${SITE.book}" data-evt="book_call_click">${IC.cal}Book a call</a><a href="/apply/" data-evt="apply_click">${IC.doc}Apply online</a><a href="/mortgage-check/" data-evt="checkup_click">${IC.quiz}Take a quiz</a></nav></div>`;
 
 /** Add ids to h2s and build a "jump to" list for long pages. Returns the new body. */
+/** One slim prompt about a third of the way down long pages: apply or book. Skipped on tool, quiz, form and short pages. */
+const nudge = () => `<aside class="nudge" data-nocount><p><b>Want to know what you could qualify for?</b> Start an application, or book a short call and Joshua will walk you through it.</p><div class="nudge-btns"><a class="btn" href="/apply/" data-evt="apply_click">Apply online</a><a class="btn btn-ghost" href="${SITE.book}" data-evt="book_call_click">Book a call</a></div></aside>`;
+function withNudge(page, html) {
+  if (page.home || NO_QUICK.has(page.slug) || page.calc || page.quiz || page.forms) return html;
+  const heads = [...html.matchAll(/<h2[\s>]/g)].map((m) => m.index);
+  if (heads.length < 6) return html;
+  const at = heads[Math.max(2, Math.round(heads.length / 3))];
+  return html.slice(0, at) + nudge() + "\n" + html.slice(at);
+}
 function withTop(page) {
-  const html = withToc(page);
+  const html = withNudge(page, withToc(page));
   if (page.slug !== "/resources/") return html;
   const blk = latestGuides(4, "Latest guides");
   const i = html.indexOf("</aside>");
