@@ -25,7 +25,8 @@ const GROUPS = [
     "/build-credit-for-a-mortgage/", "/mortgage-after-bankruptcy/", "/mortgage-after-consumer-proposal/"]],
   ["Your situation", "Your job, your household or your stage of life can change how a lender reads your file.", [
     "/mortgages-for-first-responders/", "/mortgages-for-nurses-and-healthcare-workers/", "/mortgages-for-military-and-veterans/", "/new-to-canada-mortgage/", "/foreign-buyers-bc/",
-    "/mortgages-during-separation-and-divorce/", "/mortgages-for-single-parents/"]],
+    "/mortgages-during-separation-and-divorce/", "/mortgages-for-single-parents/",
+    "/mortgages-for-doctors-and-dentists/", "/mortgages-for-real-estate-agents/", "/mortgages-for-lawyers-accountants-and-engineers/", "/mortgages-for-government-and-city-employees/", "/mortgages-for-teachers-and-school-staff/", "/mortgages-for-tech-workers/", "/mortgages-for-truckers-and-owner-operators/", "/mortgages-for-camp-mine-and-shift-workers/"]],
   ["Property types", "Strata, manufactured homes and farmland each have their own lender rules.", [
     "/condo-and-townhouse-mortgages/", "/mobile-home-mortgages-bc/", "/farm-and-alr-mortgages-bc/"]],
   ["Investing", "Rental mortgages, how rent counts, and the strategies worth knowing before you use them.", [
@@ -40,7 +41,7 @@ const GROUPS = [
     "/mortgage-broker-surrey/", "/mortgage-broker-vancouver/", "/mortgage-broker-langley/", "/mortgage-broker-burnaby/", "/mortgage-broker-coquitlam/", "/mortgage-broker-richmond/",
     "/mortgage-broker-white-rock/", "/mortgage-broker-delta/", "/mortgage-broker-north-vancouver/", "/mortgage-broker-maple-ridge/", "/mortgage-broker-mission/", "/mortgage-broker-chilliwack/",
     "/mortgage-broker-port-coquitlam/", "/mortgage-broker-port-moody/", "/mortgage-broker-new-westminster/", "/mortgage-broker-squamish/", "/mortgage-broker-langford/", "/mortgage-broker-saanich/", "/mortgage-broker-courtenay/", "/mortgage-broker-vernon/", "/mortgage-broker-penticton/", "/mortgage-broker-west-kelowna/",
-    "/mortgage-broker-abbotsford/", "/mortgage-broker-victoria/", "/mortgage-broker-nanaimo/", "/mortgage-broker-kelowna/", "/mortgage-broker-kamloops/", "/mortgage-broker-prince-george/",
+    "/mortgage-broker-abbotsford/", "/mortgage-broker-victoria/", "/mortgage-broker-nanaimo/", "/mortgage-broker-kelowna/", "/mortgage-broker-kamloops/", "/mortgage-broker-prince-george/", "/mortgage-broker-pitt-meadows/", "/mortgage-broker-whistler/", "/mortgage-broker-keremeos/", "/mortgage-broker-princeton/", "/mortgage-broker-invermere/", "/mortgage-broker-quesnel/", "/mortgage-broker-terrace/", "/mortgage-broker-kitimat/",
     "/mortgage-rates-vancouver/", "/mortgage-rates-surrey/"]]
 ];
 
