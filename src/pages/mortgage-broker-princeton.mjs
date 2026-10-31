@@ -76,6 +76,7 @@ ${ratesStrip()}
 <li><strong>Writes the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
 <li><strong>Stays in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and calls about six months before renewal.</li>
 </ol>
+<p>If you do not have a realtor yet, Stacey Roberts of Flex Realty is the Princeton realtor Joshua works with. You can see her listings at <a href="https://sellingprinceton.ca" rel="noopener" target="_blank">sellingprinceton.ca</a> and find her contact details on our <a href="/partners/">partners page</a>. You are free to use any realtor you like. Joshua does not take or pay referral fees for introductions.</p>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Princeton files, such as pad homes or very new income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 

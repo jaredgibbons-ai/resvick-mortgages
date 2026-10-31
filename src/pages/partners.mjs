@@ -15,6 +15,16 @@ const realtorCard = card({
   links: [tel("604-928-1361"), `<a href="mailto:jaredgibbons@royallepage.ca" data-evt="partner_click">jaredgibbons@royallepage.ca</a>`, ext("https://jaredgibbons.ca", "jaredgibbons.ca")]
 });
 
+const princetonRealtorCard = card({
+  kind: "REALTOR®, Princeton", name: "Stacey Roberts Personal Real Estate Corporation", wide: true,
+  lines: [
+    "Flex Realty",
+    "259 Bridge Street, Princeton, BC V0X 1W0",
+    "Buying or selling in Princeton and the Similkameen."
+  ],
+  links: [tel("250-808-4569"), `<a href="mailto:stacey@flexrealtygroup.ca" data-evt="partner_click">stacey@flexrealtygroup.ca</a>`, ext("https://sellingprinceton.ca", "sellingprinceton.ca")]
+});
+
 const notaryCards = [
   card({
     kind: "Notary public", name: "Rajesh Ahuja Notary Corporation",
@@ -55,6 +65,9 @@ ${callout("Good to know", "<p>The people below are independent businesses. They 
 <p>A realtor works for you through the whole search. They know the neighbourhoods and the market. They also know how to write an offer that protects you, with the right conditions and dates.</p>
 <p>Jared Gibbons is a REALTOR® with Royal LePage Little Oak Realty. He works with buyers and sellers in South Surrey, White Rock, Langley and the Fraser Valley. We have worked together on a number of purchases, and his clients often need a mortgage plan early. That is the part I help with.</p>
 <div class="partner-grid">${realtorCard}</div>
+<h3>A realtor in Princeton</h3>
+<p>Buying in Princeton or the Similkameen? Stacey Roberts of Flex Realty is the local realtor I work with there. She knows the town, the acreages and the pad homes, and she is based on Bridge Street. A local realtor can also tell you which streets, and which kinds of homes, sell quickly.</p>
+<div class="partner-grid">${princetonRealtorCard}</div>
 <p>If you already have a realtor you like, keep them. A good fit matters more than a name. If you want a second opinion on an offer or a neighbourhood, Jared is easy to reach.</p>
 
 <h2>Notaries public</h2>
