@@ -22,7 +22,7 @@ ${short({ answer: "Most Vancouver mortgages are condo or townhouse mortgages, so
 <p>Three Vancouver points come up often.</p>
 <ul>
 <li><strong>Strata fees count against you.</strong> Lenders add part of the monthly fee, commonly half, to your housing costs. A high-fee building lowers what you qualify for. That's why two units at the same price can get different approvals.</li>
-<li><strong>Leasehold and co-op units are a smaller market.</strong> Some land, including parts of the waterfront and the area near the university, is leasehold, not freehold. Fewer lenders finance leasehold, and the years left on the lease matter. Co-op housing is financed differently again. Know what you're buying before you write an offer.</li>
+<li><strong>Leasehold and co-op units are a smaller market.</strong> Some land, including parts of the waterfront and the area near the university, is leasehold, not freehold. Fewer lenders finance leasehold, and the years left on the lease matter. Co-op housing is financed differently again. Know what you're buying before you write an offer. Our page on <a href="/leasehold-mortgages-bc/">leasehold mortgages</a> explains what lenders ask.</li>
 <li><strong>Presales are financed at completion.</strong> Vancouver has a steady presale market. Your mortgage is approved near the completion date, not when you sign. That can be years after the deposit. The <a href="/presale-mortgages-bc/">presale mortgages guide</a> explains the timing and the deposit rules.</li>
 </ul>
 

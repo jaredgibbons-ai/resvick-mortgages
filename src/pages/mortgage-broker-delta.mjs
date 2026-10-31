@@ -30,7 +30,7 @@ ${ratesStrip()}
 
 <h2>Tsawwassen First Nation lands: leased, not owned outright</h2>
 <p>Part of Tsawwassen is Tsawwassen First Nation land. Homes there are commonly on long-term leases, not on land you own outright. The First Nation describes them as 99-year leases (Greater Vancouver Realtors member news, Tsawwassen First Nation development, read October 2026).</p>
-<p>A leasehold home can be a good fit for some buyers, but it's a different mortgage. Some lenders won't lend on leasehold at all. Others will, and they want to read the lease and check what is left of the term. Resale rules and costs can also differ from a normal freehold home. So the lender and the lawyer need the lease early.</p>
+<p>A leasehold home can be a good fit for some buyers, but it's a different mortgage. Some lenders won't lend on leasehold at all. Others will, and they want to read the lease and check what is left of the term. Resale rules and costs can also differ from a normal freehold home. So the lender and the lawyer need the lease early. Our page on <a href="/leasehold-mortgages-bc/">leasehold mortgages</a> lists the questions lenders ask, and the page on <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> covers the First Nation side.</p>
 <p>If you are looking at a Tsawwassen property, find out first whether it's freehold or leasehold. The listing and the realtor can tell you. Then bring the details to Joshua before you commit.</p>
 
 <h2>Water on three sides, and the roads out</h2>

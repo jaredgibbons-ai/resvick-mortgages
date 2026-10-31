@@ -53,7 +53,7 @@ ${cta({ title: "Looking at a manufactured home and not sure how it will finance?
 <p>None of this makes a park home a bad buy. It makes it a purchase to finance before you write the offer, not after. The gap between what buyers assume and what a chattel lender will do is wide.</p>
 
 <h2>Leased land that is not a park</h2>
-<p>Some manufactured homes sit on leased land outside a park. Examples include First Nations reserve land under a leasehold, or a long-term private lease. Lenders look at these case by case.</p>
+<p>Some manufactured homes sit on leased land outside a park. Examples include First Nations reserve land under a leasehold, or a long-term private lease. Lenders look at these case by case. See our pages on <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
 <p>A long registered leasehold with enough years left can sometimes be financed as a leasehold mortgage. A short or unregistered lease usually can't. Reserve-land leases come with extra federal rules, and sometimes specific lender programs.</p>
 <p>Bring the lease to the first conversation. How many years are left, and whether it's registered, decide the answer before anything about the home does.</p>
 

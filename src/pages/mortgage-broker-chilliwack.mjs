@@ -36,7 +36,7 @@ ${ratesStrip()}
 <h2>Manufactured homes and Cultus Lake leases</h2>
 <p>Chilliwack has manufactured homes in parks and on their own lots. A home on land you own is financed differently from a home in a park you rent a pad in. The <a href="/mobile-home-mortgages-bc/">mobile home mortgage page</a> covers the two routes: a home on land you own, and a home on a rented pad.</p>
 <p>Cultus Lake is a different case. The land in Cultus Lake Park is leased, not owned. The park says its residential properties are held on 21-year leases, with about 480 residential leaseholders, and that buying one goes through a lease assignment process. The park lies outside the City's boundaries and is run by its own Park Board (Cultus Lake Park Board, read October 2026).</p>
-<p>Lenders vary a great deal on leasehold property. Some won't lend on it. Others care how many years remain on the lease compared with the mortgage's amortization. Ask first, before you fall for a cabin.</p>
+<p>Lenders vary a great deal on leasehold property. Some won't lend on it. Others care how many years remain on the lease compared with the mortgage's amortization. Ask first, before you fall for a cabin. See our page on <a href="/leasehold-mortgages-bc/">leasehold mortgages</a> for the questions to ask.</p>
 
 <h2>First homes, upgrades and renovations</h2>
 <p>First-time buyers here can use the same programs as anyone in BC. The <a href="/first-time-buyer-programs-bc/">first-time buyer programs page</a> lists them. The <a href="/down-payment-guide-bc/">down payment guide</a> explains how much you need at each price.</p>

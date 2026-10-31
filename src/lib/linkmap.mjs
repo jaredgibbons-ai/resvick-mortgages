@@ -53,6 +53,8 @@ export const SLUGS = `/
 /interest-rate-differential/
 /investment-property-mortgages-bc/
 /commercial-mortgages-bc/
+/leasehold-mortgages-bc/
+/first-nations-land-mortgages-bc/
 /is-it-worth-refinancing/
 /lender-comparison-report/
 /missed-a-mortgage-payment/

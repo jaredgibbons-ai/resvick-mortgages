@@ -28,7 +28,7 @@ const GROUPS = [
     "/mortgages-during-separation-and-divorce/", "/mortgages-for-single-parents/",
     "/mortgages-for-doctors-and-dentists/", "/mortgages-for-real-estate-agents/", "/mortgages-for-lawyers-accountants-and-engineers/", "/mortgages-for-government-and-city-employees/", "/mortgages-for-teachers-and-school-staff/", "/mortgages-for-tech-workers/", "/mortgages-for-truckers-and-owner-operators/", "/mortgages-for-camp-mine-and-shift-workers/"]],
   ["Property types", "Strata, manufactured homes and farmland each have their own lender rules.", [
-    "/condo-and-townhouse-mortgages/", "/mobile-home-mortgages-bc/", "/farm-and-alr-mortgages-bc/"]],
+    "/condo-and-townhouse-mortgages/", "/mobile-home-mortgages-bc/", "/leasehold-mortgages-bc/", "/first-nations-land-mortgages-bc/", "/farm-and-alr-mortgages-bc/"]],
   ["Investing", "Rental mortgages, how rent counts, and the strategies worth knowing before you use them.", [
     "/investment-property-mortgages-bc/", "/commercial-mortgages-bc/", "/refinance-rental-property/", "/converting-your-home-to-a-rental/", "/airbnb-and-short-term-rental-mortgages/", "/dscr-loans-canada/",
     "/brrrr-strategy-canada/", "/smith-manoeuvre/"]],
