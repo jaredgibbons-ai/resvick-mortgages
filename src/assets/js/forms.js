@@ -133,7 +133,8 @@
       var name = val(d, "name"), email = val(d, "email");
       if (kind === "renewal-reminder" && d.get("consent_reminders") !== "on") { setMsg("Please tick the box to agree to receive the two reminder emails.", true); return; }
       if (kind === "refer" && d.get("consent_referee") !== "on") { setMsg("Please confirm the person you are referring has agreed to be contacted.", true); return; }
-      if (!name || !EMAIL.test(email)) { setMsg("Please enter your name and a valid email address.", true); return; }
+      if (kind === "callback") { if (!name || val(d, "phone").replace(/\D/g, "").length < 7) { setMsg("Please enter your name and a phone number Joshua can call.", true); return; } }
+      else if (!name || !EMAIL.test(email)) { setMsg("Please enter your name and a valid email address.", true); return; }
       var btn = f.querySelector("button[type=submit]"); btn.disabled = true; setMsg("Sending...", false);
       var ti = null; if (d.get("include_estimate") === "on" && d.get("tool_inputs")) { try { ti = JSON.parse(d.get("tool_inputs")); } catch (x) { ti = null; } }
       var body = { tool_inputs: ti, extra: extras(f), name: name, email: email, phone: val(d, "phone"), intent: d.get("intent") || "other", timeline: val(d, "timeline"), message: val(d, "message"),

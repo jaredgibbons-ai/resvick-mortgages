@@ -199,8 +199,16 @@ function withToc(page) {
   return k > -1 && k < 3000 ? out.slice(0, k + 8) + toc + out.slice(k + 8) : toc + out;
 }
 
+
+/** Short "call me back" form at the foot of every content page. Name and phone only; posts to /api/lead as form "callback". */
+const callbackBlock = (page) => (page.home || NO_QUICK.has(page.slug) || page.forms) ? "" : `<div class="wrap" data-nocount><aside class="callback" aria-labelledby="cb-h"><div class="cb-copy"><h2 id="cb-h">Prefer a call back?</h2><p>Leave your name and number. Joshua will phone you at the time you pick.</p></div>
+<form data-lead="callback" novalidate data-success="Thank you. Joshua will call you back."><div class="cb-row"><div class="fld"><label for="cb-name">Your name</label><input id="cb-name" name="name" type="text" autocomplete="name" required></div><div class="fld"><label for="cb-phone">Phone</label><input id="cb-phone" name="phone" type="tel" autocomplete="tel" required></div><div class="fld"><label for="cb-when">Best time</label><select id="cb-when" name="x_best_time"><option>Morning</option><option>Afternoon</option><option>Evening</option><option>Any time</option></select></div></div>
+<div class="hp" aria-hidden="true"><label for="cb-web">Leave this field empty</label><input id="cb-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+<p class="small">By sending this you agree that Joshua Resvick may phone you about your request. See the <a href="/privacy/">privacy policy</a>.</p>
+<div class="cb-go"><button class="btn" type="submit" data-evt="callback_submit">Request a call back</button><p class="form-msg" role="status"></p></div></form></aside></div>`;
+
 /** Sticky bottom bar on phones. */
-const stickyBar = (slug) => NO_QUICK.has(slug) ? "" : `<div class="sticky-cta" data-nocount><a class="sc-main" href="${SITE.book}" data-evt="book_call_click">${IC.cal}Book a call</a><a href="/mortgage-check/" data-evt="checkup_click">${IC.quiz}Take a quiz</a></div>`;
+const stickyBar = (slug) => NO_QUICK.has(slug) ? "" : `<div class="sticky-cta" data-nocount><a class="sc-main" href="${SITE.book}" data-evt="book_call_click">${IC.cal}Book a call</a><a href="/apply/" data-evt="apply_click">${IC.doc}Get pre-approved</a></div>`;
 
 
 // ---- Internal linking: related guides, page clusters, latest guides (data comes from build.mjs via setLinkData) ----
@@ -265,7 +273,7 @@ export function render(page) {
   if (page.slug === "/") schemas.push(businessSchema());
   if (page.faqs && page.faqs.length) schemas.push({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: page.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/<[^>]+>/g, "") } })) });
   const hero = page.hero || `<div class="hero-copy"><h1>${page.h1}</h1>${page.lede ? `<p class="lede">${page.lede}</p>` : ""}</div>`;
-  const scripts = (page.calc ? `<script src="/assets/js/engine.js" defer></script><script src="/assets/js/calc-ui.js" defer></script>` : page.quiz ? `<script src="/assets/js/engine.js" defer></script>` : "") + (page.quiz ? `<script src="/assets/js/quiz.js" defer></script>` : "") + (page.forms ? `<script src="/assets/js/forms.js" defer></script>` : "");
+  const scripts = (page.calc ? `<script src="/assets/js/engine.js" defer></script><script src="/assets/js/calc-ui.js" defer></script>` : page.quiz ? `<script src="/assets/js/engine.js" defer></script>` : "") + (page.quiz ? `<script src="/assets/js/quiz.js" defer></script>` : "") + ((page.forms || callbackBlock(page)) ? `<script src="/assets/js/forms.js" defer></script>` : "");
   return `<!doctype html>
 <html lang="${page.lang || "en-CA"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(page.title)}</title>
@@ -295,6 +303,7 @@ ${page.faqs && page.faqs.length ? faq(page.faqs) : ""}
 </article>
 ${revFor(page) ? `<div class="wrap">${revFor(page)}</div>` : ""}
 ${page.closing === false ? "" : `<div class="wrap">${cta(page.closing || { dark: true })}</div>`}
+${callbackBlock(page)}
 </main>
 ${footer()}
 ${stickyBar(page.slug)}
