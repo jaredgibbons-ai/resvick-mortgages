@@ -1,3 +1,4 @@
+import { short } from "../lib/short.mjs";
 import { SPECS } from "../lib/specs.mjs";
 import { esc, cta } from "../lib/site.mjs";
 
@@ -45,18 +46,21 @@ const label = (slug) => esc((SPECS[slug].h1 || SPECS[slug].title).split(" | ")[0
 const groupId = (name) => name.toLowerCase().replace(/[^a-z]+/g, "-").replace(/^-|-$/g, "");
 const groups = GROUPS.map(([name, blurb, slugs]) => [name, blurb, slugs.filter((s) => SPECS[s])]).filter(([, , s]) => s.length);
 
-const jump = `<nav class="res-jump" aria-label="Jump to a topic" data-nocount><ul>${groups.map(([n]) => `<li><a href="#${groupId(n)}">${esc(n)}</a></li>`).join("")}</ul></nav>`;
+const jump = `<nav class="res-jump" aria-label="Jump to a topic" data-nocount><ul>${groups.map(([n]) => `<li><a href="#${groupId(n)}">${esc(n)}</a><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">. </span></li>`).join("\n")}</ul></nav>`;
 const sections = groups.map(([name, blurb, slugs]) => `<h2 id="${groupId(name)}">${esc(name)}</h2>
 <p>${esc(blurb)}</p>
-<ul class="res-list">${slugs.map((s) => `<li><a href="${s}">${label(s)}</a><span>${esc(SPECS[s].meta)}</span></li>`).join("")}</ul>`).join("\n");
+<ul class="res-list">${slugs.map((s) => `<li><a href="${s}">${label(s)}</a><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">. </span><span>${esc(SPECS[s].meta)}</span></li>`).join("\n")}</ul>`).join("\n");
 
 const body = `
-<p>Not sure what to search for? That's normal. Mortgages come with their own vocabulary, and the question you need answered often has a name you haven't heard yet. This page lists every guide on the site in one place, sorted by what's going on in your life rather than by jargon. Find the heading that sounds like you, skim the one-line summaries and open whatever fits.</p>
-<p>Every guide is written by Joshua Resvick to explain, not to sell. Each one starts with a short version box, so you can get the answer in ten seconds and read the detail only if you want it.</p>
+${short({ answer: "Every guide, calculator and check on this site is listed here, grouped by what's going on in your life. Find the heading that sounds like you and open what fits.", who: "Anyone who isn't sure what to search for, or wants to see everything in one place.", next: "Not sure where to start? Try the <a href=\"/mortgage-check/\">two-minute mortgage check</a>." })}
+
+<p>Not sure what to search for? That's normal. Mortgages have their own words. The question you need answered often has a name you haven't heard yet.</p>
+<p>This page lists every guide on the site in one place. It's sorted by what's going on in your life, not by jargon. Find the heading that sounds like you. Skim the one-line summaries and open whatever fits.</p>
+<p>Joshua Resvick writes every guide to explain, not to sell. Each one starts with a short version box. You get the answer in ten seconds, and read the detail only if you want it.</p>
 ${jump}
 ${sections}
 <h2>Dated news and rule changes</h2>
-<p>The guides above are kept current and carry no dates on purpose. When something changes, like a Bank of Canada decision or a new federal rule, it gets its own dated post in <a href="/guides/">Guides</a>, and the guide that carries the rule gets updated.</p>
+<p>The guides above are kept current and carry no dates on purpose. When something changes, it gets its own dated post in <a href="/guides/">Guides</a>. That might be a Bank of Canada decision or a new federal rule. Then the guide that carries the rule gets updated.</p>
 ${cta({ title: "Can't find your question?", text: "Ask it. A 15-minute call is free, and you'll talk to the person who would actually do the work." })}
 `;
 
