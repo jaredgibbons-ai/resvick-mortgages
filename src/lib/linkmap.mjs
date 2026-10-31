@@ -62,6 +62,12 @@ export const SLUGS = `/
 /mortgage-application-checklist/
 /mortgage-broker-abbotsford/
 /mortgage-broker-burnaby/
+/mortgage-broker-white-rock/
+/mortgage-broker-north-vancouver/
+/mortgage-broker-mission/
+/mortgage-broker-maple-ridge/
+/mortgage-broker-delta/
+/mortgage-broker-chilliwack/
 /mortgage-broker-coquitlam/
 /mortgage-broker-kamloops/
 /mortgage-broker-kelowna/
@@ -73,6 +79,7 @@ export const SLUGS = `/
 /mortgage-broker-vancouver/
 /mortgage-broker-victoria/
 /mortgage-broker-vs-bank/
+/mortgage-faq/
 /mortgage-calculators/
 /mortgage-default-and-foreclosure-bc/
 /mortgage-for-contractors/

@@ -2,9 +2,14 @@
 import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { render, SITE } from "./src/lib/site.mjs";
+import { render, SITE, setLinkData } from "./src/lib/site.mjs";
 import { SPECS } from "./src/lib/specs.mjs";
 import { loadPosts, postPage } from "./src/lib/posts.mjs";
+
+setLinkData({
+  guides: await loadPosts(),
+  labels: Object.fromEntries(Object.entries(SPECS).map(([k, v]) => [k, String(v.h1 || v.title || "").split(" | ")[0]]))
+});
 
 const root = path.dirname(new URL(import.meta.url).pathname);
 const dist = path.join(root, "dist");

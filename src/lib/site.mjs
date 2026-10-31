@@ -72,7 +72,7 @@ export function footer() {
 <div><p class="ftr-h">Homeowners</p><ul><li><a href="/mortgage-renewal-bc/">Mortgage renewal</a></li><li><a href="/refinance-mortgage-bc/">Refinancing</a></li><li><a href="/self-employed-mortgage-bc/">Self-employed</a></li><li><a href="/mortgage-aftercare-program/">Aftercare program</a></li></ul></div>
 <div><p class="ftr-h">Tools</p><ul><li><a href="/mortgage-calculators/">Calculators</a></li><li><a href="/bc-property-transfer-tax-calculator/">Property transfer tax</a></li><li><a href="/mortgage-check-up/">Mortgage check-up</a></li><li><a href="/apply/">Start your application</a></li><li><a href="/mortgage-rates-bc/">Rates</a></li><li><a href="/resources/">All guides</a></li><li><a href="/guides/">News and rule changes</a></li><li><a href="/contact/">Contact</a></li></ul></div>
 <div><p class="ftr-h">Who we help</p><ul><li><a href="/mortgages-for-first-responders/">First responders</a></li><li><a href="/mortgages-for-nurses-and-healthcare-workers/">Nurses and healthcare</a></li><li><a href="/mortgages-for-military-and-veterans/">Military and veterans</a></li><li><a href="/mortgage-for-contractors/">Contractors and trades</a></li><li><a href="/new-to-canada-mortgage/">New to Canada</a></li><li><a href="/mortgages-for-single-parents/">Single parents</a></li><li><a href="/mortgages-during-separation-and-divorce/">Separation and divorce</a></li><li><a href="/co-buying-a-home/">Co-buying</a></li><li><a href="/downsizing-and-your-mortgage/">Downsizing</a></li><li><a href="/investment-property-mortgages-bc/">Investors</a></li><li><a href="/condo-and-townhouse-mortgages/">Condos and townhouses</a></li><li><a href="/mobile-home-mortgages-bc/">Mobile and manufactured homes</a></li><li><a href="/farm-and-alr-mortgages-bc/">Farm and ALR</a></li></ul></div>
-<div><p class="ftr-h">Cities served</p><ul><li><a href="/mortgage-broker-surrey/">Surrey</a></li><li><a href="/mortgage-broker-vancouver/">Vancouver</a></li><li><a href="/mortgage-broker-langley/">Langley</a></li><li><a href="/mortgage-broker-burnaby/">Burnaby</a></li><li><a href="/mortgage-broker-coquitlam/">Coquitlam</a></li><li><a href="/mortgage-broker-richmond/">Richmond</a></li><li><a href="/mortgage-broker-abbotsford/">Abbotsford</a></li><li><a href="/mortgage-broker-victoria/">Victoria</a></li><li><a href="/mortgage-broker-nanaimo/">Nanaimo</a></li><li><a href="/mortgage-broker-kelowna/">Kelowna</a></li><li><a href="/mortgage-broker-kamloops/">Kamloops</a></li><li><a href="/mortgage-broker-prince-george/">Prince George</a></li></ul></div>
+<div><p class="ftr-h">Cities served</p><ul><li><a href="/mortgage-broker-surrey/">Surrey</a></li><li><a href="/mortgage-broker-vancouver/">Vancouver</a></li><li><a href="/mortgage-broker-langley/">Langley</a></li><li><a href="/mortgage-broker-burnaby/">Burnaby</a></li><li><a href="/mortgage-broker-coquitlam/">Coquitlam</a></li><li><a href="/mortgage-broker-richmond/">Richmond</a></li><li><a href="/mortgage-broker-white-rock/">White Rock</a></li><li><a href="/mortgage-broker-delta/">Delta</a></li><li><a href="/mortgage-broker-north-vancouver/">North Vancouver</a></li><li><a href="/mortgage-broker-maple-ridge/">Maple Ridge</a></li><li><a href="/mortgage-broker-mission/">Mission</a></li><li><a href="/mortgage-broker-chilliwack/">Chilliwack</a></li><li><a href="/mortgage-broker-abbotsford/">Abbotsford</a></li><li><a href="/mortgage-broker-victoria/">Victoria</a></li><li><a href="/mortgage-broker-nanaimo/">Nanaimo</a></li><li><a href="/mortgage-broker-kelowna/">Kelowna</a></li><li><a href="/mortgage-broker-kamloops/">Kamloops</a></li><li><a href="/mortgage-broker-prince-george/">Prince George</a></li></ul></div>
 </div>
 <div class="ftr-legal"><p>© ${new Date().getFullYear()} Resvick Mortgages. Mortgage information on this site is general education, not advice on your file; every approval is subject to lender and insurer underwriting. <a href="/privacy/">Privacy policy</a></p></div>
 </footer>`;
@@ -163,6 +163,13 @@ const NO_QUICK = new Set(["/apply/", "/accepted-offer/", "/refer/", "/privacy/",
 const quickRow = (slug) => NO_QUICK.has(slug) ? "" : `<div class="wrap" data-nocount><nav class="quick" aria-label="Quick actions"><a href="${SITE.book}" data-evt="book_call_click">${IC.cal}Book a call</a><a href="/apply/" data-evt="apply_click">${IC.doc}Apply online</a><a href="/mortgage-check/" data-evt="checkup_click">${IC.quiz}Take a quiz</a></nav></div>`;
 
 /** Add ids to h2s and build a "jump to" list for long pages. Returns the new body. */
+function withTop(page) {
+  const html = withToc(page);
+  if (page.slug !== "/resources/") return html;
+  const blk = latestGuides(4, "Latest guides");
+  const i = html.indexOf("</aside>");
+  return i >= 0 ? html.slice(0, i + 8) + "\n" + blk + html.slice(i + 8) : blk + html;
+}
 function withToc(page) {
   const body = page.body || "";
   if (page.home || NO_QUICK.has(page.slug)) return body;
@@ -185,6 +192,60 @@ function withToc(page) {
 
 /** Sticky bottom bar on phones. */
 const stickyBar = (slug) => NO_QUICK.has(slug) ? "" : `<div class="sticky-cta" data-nocount><a class="sc-main" href="${SITE.book}" data-evt="book_call_click">${IC.cal}Book a call</a><a href="/mortgage-check/" data-evt="checkup_click">${IC.quiz}Take a quiz</a></div>`;
+
+
+// ---- Internal linking: related guides, page clusters, latest guides (data comes from build.mjs via setLinkData) ----
+let LINK_DATA = { guides: [], labels: {} };
+export function setLinkData(d) { LINK_DATA = { guides: d.guides || [], labels: d.labels || {} }; }
+
+const CLUSTERS = [
+  ["cities", "Other cities Joshua serves", ["/mortgage-broker-surrey/", "/mortgage-broker-vancouver/", "/mortgage-broker-langley/", "/mortgage-broker-burnaby/", "/mortgage-broker-coquitlam/", "/mortgage-broker-richmond/", "/mortgage-broker-white-rock/", "/mortgage-broker-delta/", "/mortgage-broker-north-vancouver/", "/mortgage-broker-maple-ridge/", "/mortgage-broker-mission/", "/mortgage-broker-abbotsford/", "/mortgage-broker-chilliwack/", "/mortgage-broker-victoria/", "/mortgage-broker-nanaimo/", "/mortgage-broker-kelowna/", "/mortgage-broker-kamloops/", "/mortgage-broker-prince-george/"]],
+  ["income", "Mortgages for other jobs and incomes", ["/mortgages-for-first-responders/", "/mortgages-for-military-and-veterans/", "/mortgages-for-nurses-and-healthcare-workers/", "/mortgages-for-single-parents/", "/mortgage-for-contractors/", "/new-to-canada-mortgage/", "/newly-self-employed-mortgage/", "/self-employed-mortgage-bc/", "/stated-income-mortgage/"]],
+  ["hardship", "If your situation is different", ["/mortgages-during-separation-and-divorce/", "/spousal-buyout-mortgage/", "/mortgage-after-consumer-proposal/", "/mortgage-after-bankruptcy/", "/bad-credit-mortgage-bc/", "/build-credit-for-a-mortgage/", "/missed-a-mortgage-payment/", "/behind-on-mortgage-payments/", "/mortgage-payment-deferral/", "/mortgage-default-and-foreclosure-bc/", "/renewing-mortgage-without-a-job/", "/mortgage-renewal-denied/"]],
+  ["property", "Other property types", ["/mobile-home-mortgages-bc/", "/farm-and-alr-mortgages-bc/", "/condo-and-townhouse-mortgages/", "/airbnb-and-short-term-rental-mortgages/", "/rent-to-own-homes-bc/", "/presale-mortgages-bc/", "/brrrr-strategy-canada/", "/converting-your-home-to-a-rental/", "/downsizing-and-your-mortgage/", "/car-loan-affecting-mortgage/", "/deposit-loan-and-borrowed-down-payment/"]],
+  ["checks", "More free checks", ["/mortgage-check/", "/purchase-readiness-check/", "/renewal-check/", "/equity-check/", "/investor-check/", "/self-employed-check/", "/lender-match/", "/mortgage-check-up/"]],
+  ["rates", "More on rates", ["/mortgage-rates-bc/", "/mortgage-rates-surrey/", "/mortgage-rates-vancouver/", "/mortgage-renewal-rates-bc/", "/3-year-fixed-mortgage-rate/", "/5-year-fixed-mortgage-rate/", "/variable-rate-mortgage/"]]
+];
+const NO_GUIDE_TARGET = new Set(["/contact/", "/partners/", "/mortgage-calculators/", "/", "/privacy/", "/apply/", "/refer/", "/resources/"]);
+const mon = (iso) => new Date(iso + "T12:00:00Z").toLocaleDateString("en-CA", { year: "numeric", month: "long", timeZone: "UTC" });
+const guideLi = (g) => `<li><a href="${g.slug}">${esc(g.h1)}</a> <span class="small">${mon(g.date)}</span></li>`;
+const hrefOf = (u) => u.split("#")[0];
+
+function relatedHtml(page) {
+  const { guides, labels } = LINK_DATA;
+  if (!guides.length || page.slug === "/thank-you/" || page.slug === "/privacy/") return "";
+  const parts = [];
+  if (page.slug.startsWith("/guides/")) {
+    if (page.slug === "/guides/") return "";
+    const i = guides.findIndex((g) => g.slug === page.slug);
+    const more = [1, 2, 3].map((k) => guides[(i + k) % guides.length]).filter((g) => g && g.slug !== page.slug);
+    parts.push(`<aside class="callout related" data-nocount><p class="callout-t">More guides</p><ul>${more.map(guideLi).join("")}</ul></aside>`);
+    return parts.join("\n");
+  }
+  if (page.slug !== "/" && page.slug !== "/resources/") {
+    const hits = [];
+    for (const g of guides) {
+      const idx = (g.links || []).map(hrefOf).indexOf(page.slug);
+      if (idx >= 0 && !NO_GUIDE_TARGET.has(page.slug)) hits.push({ g, idx });
+    }
+    hits.sort((a, b) => a.idx - b.idx || (a.g.date < b.g.date ? 1 : -1));
+    if (hits.length) parts.push(`<aside class="callout related" data-nocount><p class="callout-t">Related guides</p><ul>${hits.slice(0, 3).map((h) => guideLi(h.g)).join("")}</ul></aside>`);
+    for (const [, title, slugs] of CLUSTERS) {
+      const i = slugs.indexOf(page.slug);
+      if (i < 0) continue;
+      const others = [];
+      for (let k = 1; k < slugs.length && others.length < 5; k++) { const s = slugs[(i + k) % slugs.length]; if (labels[s]) others.push(s); }
+      if (others.length) parts.push(`<aside class="callout related" data-nocount><p class="callout-t">${esc(title)}</p><ul>${others.map((s) => `<li><a href="${s}">${esc(labels[s])}</a></li>`).join("")}</ul></aside>`);
+    }
+  }
+  return parts.join("\n");
+}
+
+function latestGuides(n, heading) {
+  const { guides } = LINK_DATA;
+  if (!guides.length) return "";
+  return `<aside class="callout related" data-nocount><p class="callout-t">${esc(heading)}</p><ul>${guides.slice(0, n).map(guideLi).join("")}</ul><p class="small"><a href="/guides/">See all guides</a></p></aside>`;
+}
 
 /** page: {slug,title,meta,h1,lede,body,faqs,crumbs,schema:[...],home,closing,assets:{calc:bool}} */
 export function render(page) {
@@ -218,7 +279,9 @@ ${header(page.nav || "")}
 <section class="hero${page.home ? " hero-home" : ""}"><div class="wrap hero-in">${hero}</div>${page.home ? "" : quickRow(page.slug)}</section>
 <div class="wrap">${proofStrip()}${page.slug === "/" ? "" : breadcrumbs(trail)}</div>
 <article class="wrap prose">
-${withToc(page)}
+${withTop(page)}
+${relatedHtml(page)}
+${page.slug === "/" ? latestGuides(3, "From the guides") : ""}
 ${page.faqs && page.faqs.length ? faq(page.faqs) : ""}
 </article>
 ${revFor(page) ? `<div class="wrap">${revFor(page)}</div>` : ""}

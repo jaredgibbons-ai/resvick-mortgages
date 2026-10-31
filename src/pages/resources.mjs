@@ -35,9 +35,10 @@ const GROUPS = [
     "/mortgage-calculators/", "/bc-property-transfer-tax-calculator/", "/mortgage-penalty-calculator/", "/refinance-break-even/", "/home-equity-estimator/",
     "/mortgage-check/", "/purchase-readiness-check/", "/renewal-check/", "/equity-check/", "/investor-check/", "/self-employed-check/", "/lender-match/", "/mortgage-check-up/"]],
   ["Working with Joshua", "Who he is, how he's paid, and what happens after your mortgage funds.", [
-    "/about-joshua-resvick/", "/how-mortgage-brokers-get-paid/", "/mortgage-broker-vs-bank/", "/lender-comparison-report/", "/mortgage-aftercare-program/", "/apply/", "/contact/"]],
+    "/about-joshua-resvick/", "/mortgage-faq/", "/how-mortgage-brokers-get-paid/", "/mortgage-broker-vs-bank/", "/lender-comparison-report/", "/mortgage-aftercare-program/", "/apply/", "/contact/"]],
   ["Cities served", "Joshua works from his Surrey office and serves all of BC online and by phone. These pages cover the local details.", [
     "/mortgage-broker-surrey/", "/mortgage-broker-vancouver/", "/mortgage-broker-langley/", "/mortgage-broker-burnaby/", "/mortgage-broker-coquitlam/", "/mortgage-broker-richmond/",
+    "/mortgage-broker-white-rock/", "/mortgage-broker-delta/", "/mortgage-broker-north-vancouver/", "/mortgage-broker-maple-ridge/", "/mortgage-broker-mission/", "/mortgage-broker-chilliwack/",
     "/mortgage-broker-abbotsford/", "/mortgage-broker-victoria/", "/mortgage-broker-nanaimo/", "/mortgage-broker-kelowna/", "/mortgage-broker-kamloops/", "/mortgage-broker-prince-george/",
     "/mortgage-rates-vancouver/", "/mortgage-rates-surrey/"]]
 ];
