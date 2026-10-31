@@ -1,0 +1,169 @@
+// Shared site constants + components. Every fact here comes from the build prompt's §2 (verified; invent nothing).
+import fs from "node:fs";
+
+export const SITE = {
+  origin: "https://www.resvickmortgages.com",
+  name: "Resvick Mortgages",
+  person: "Joshua Resvick",
+  brokerage: "Xeva Mortgage (Verico Xeva Mortgage Inc.)",
+  phone: "778.882.5674",
+  phoneHref: "tel:+17788825674",
+  email: "joshua@resvickmortgages.com",
+  book: "https://cal.com/resvickmortgages/mortgage-advice",
+  bookRoot: "https://cal.com/resvickmortgages",
+  address: { street: "#106, 2626 Croydon Drive", city: "Surrey", region: "BC", postal: "V3Z 0S8" },
+  licence: "BCFSA Brokerage Licence #X300203",
+  brokerLicence: "MB503619",
+  ga4: process.env.GA4_ID || "" // set GA4_ID in the Pages build environment once Josh creates the property (Open Item 15)
+};
+
+export const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
+const NAV = [
+  { label: "Buy", href: "/first-time-home-buyer-bc/", kids: [
+    ["First-time buyer guide", "/first-time-home-buyer-bc/"], ["Programs & grants", "/first-time-buyer-programs-bc/"], ["Pre-approval", "/mortgage-pre-approval-bc/"],
+    ["How much can I afford?", "/how-much-mortgage-can-i-afford/"], ["Down payment", "/down-payment-guide-bc/"], ["Closing costs", "/closing-costs-bc/"], ["Presales", "/presale-mortgages-bc/"], ["Accepted an offer?", "/accepted-offer/"]] },
+  { label: "Renew", href: "/mortgage-renewal-bc/", kids: [
+    ["Renewal guide", "/mortgage-renewal-bc/"], ["Switch lenders", "/switch-mortgage-lenders-at-renewal/"], ["Stress-test exemption", "/stress-test-exemption-switching-lenders/"],
+    ["Early renewal", "/early-mortgage-renewal/"], ["Your renewal letter", "/mortgage-renewal-letter-explained/"], ["Free renewal reminder", "/mortgage-renewal-reminder/"]] },
+  { label: "Refinance", href: "/refinance-mortgage-bc/", kids: [
+    ["Refinance guide", "/refinance-mortgage-bc/"], ["Is it worth it?", "/is-it-worth-refinancing/"], ["Pay off debt", "/refinance-to-pay-off-debt/"],
+    ["Cash-out refinance", "/cash-out-refinance-bc/"], ["Home equity line (HELOC)", "/heloc-bc/"], ["Secondary suite refinance", "/secondary-suite-refinance/"]] },
+  { label: "Situations", href: "/resources/#your-situation", kids: [
+    ["Self-employed", "/self-employed-mortgage-bc/"], ["New to Canada", "/new-to-canada-mortgage/"], ["Separation and divorce", "/mortgages-during-separation-and-divorce/"],
+    ["Behind on payments", "/behind-on-mortgage-payments/"], ["Bad credit", "/bad-credit-mortgage-bc/"], ["Investors", "/investment-property-mortgages-bc/"], ["Cities served", "/mortgage-broker-surrey/"]] },
+  { label: "Tools", href: "/mortgage-calculators/", kids: [
+    ["All calculators", "/mortgage-calculators/"], ["Two-minute mortgage check", "/mortgage-check/"], ["Mortgage check-up", "/mortgage-check-up/"],
+    ["BC property transfer tax", "/bc-property-transfer-tax-calculator/"], ["Penalty calculator", "/mortgage-penalty-calculator/"], ["Lender match", "/lender-match/"]] },
+  { label: "Learn", href: "/resources/", kids: [
+    ["All guides by topic", "/resources/"], ["Mortgage rates explained", "/mortgage-rates-bc/"], ["Fixed vs variable", "/fixed-vs-variable-mortgage/"],
+    ["Penalties (IRD)", "/interest-rate-differential/"], ["Broker vs bank", "/mortgage-broker-vs-bank/"], ["News and rule changes", "/guides/"]] },
+  { label: "About", href: "/about-joshua-resvick/", kids: [
+    ["About Joshua", "/about-joshua-resvick/"], ["Aftercare program", "/mortgage-aftercare-program/"], ["Lender Comparison Report", "/lender-comparison-report/"],
+    ["How brokers get paid", "/how-mortgage-brokers-get-paid/"], ["Refer a friend", "/refer/"], ["Contact", "/contact/"]] }
+];
+
+export function header(current) {
+  const items = NAV.map((n) => {
+    const kids = n.kids.map(([t, h]) => `<li><a href="${h}">${esc(t)}</a></li>`).join("");
+    return `<li class="nav-item"><a class="nav-top" href="${n.href}"${current === n.href || n.kids.some(([, h]) => h === current) ? ' aria-current="page"' : ""}>${esc(n.label)}</a><ul class="nav-drop">${kids}</ul></li>`;
+  }).join("");
+  return `<header class="site-header" data-nocount>
+<a class="skip" href="#main">Skip to content</a>
+<div class="hdr-in">
+<a class="brand" href="/"><span class="brand-name">Resvick Mortgages</span><span class="brand-sub">Xeva Mortgage · VERICO</span></a>
+<nav class="nav" aria-label="Primary"><ul>${items}</ul></nav>
+<div class="hdr-cta"><a class="hdr-phone" href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a><a class="btn btn-ghost btn-sm" href="/apply/" data-evt="apply_click">Apply</a><a class="btn btn-ghost btn-sm" href="/mortgage-check-up/" data-evt="checkup_click">Check-Up</a><a class="btn btn-sm" href="${SITE.book}" data-evt="book_call_click">Book a Call</a></div>
+<details class="mnav"><summary aria-label="Menu"><span></span></summary><div class="mnav-panel"><ul>${NAV.map((n) => `<li><a href="${n.href}">${esc(n.label)}</a></li>`).join("")}</ul>
+<div class="mnav-actions"><a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a 15-minute call</a><a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Start your application</a><a class="btn btn-ghost" href="/mortgage-check-up/" data-evt="checkup_click">Mortgage check-up</a></div><a class="mnav-phone" href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a></div></details>
+</div></header>`;
+}
+
+export function footer() {
+  return `<footer class="site-footer" data-nocount>
+<div class="ftr-in">
+<div><p class="ftr-brand">Resvick Mortgages</p>
+<p>Resvick Mortgages — Joshua Resvick, Mortgage Broker, Xeva Mortgage (Verico Xeva Mortgage Inc.), #106–2626 Croydon Drive, Surrey, BC · ${SITE.licence} · Broker Licence #${SITE.brokerLicence}</p>
+<p><a href="${SITE.phoneHref}">${SITE.phone}</a> · <a href="mailto:${SITE.email}">${SITE.email}</a></p>
+<p class="small">Joshua serves clients across British Columbia, online and by phone, from his Surrey office. Verify any BC mortgage broker's licence with <a href="https://www.bcfsa.ca/public-resources/mortgage-brokers/find-mortgage-broker" rel="noopener">BCFSA's Find a Mortgage Broker</a>.</p></div>
+<div><p class="ftr-h">Buyers</p><ul><li><a href="/first-time-home-buyer-bc/">First-time buyers</a></li><li><a href="/down-payment-guide-bc/">Down payment guide</a></li><li><a href="/mortgage-pre-approval-bc/">Pre-approval</a></li><li><a href="/closing-costs-bc/">Closing costs</a></li></ul></div>
+<div><p class="ftr-h">Homeowners</p><ul><li><a href="/mortgage-renewal-bc/">Mortgage renewal</a></li><li><a href="/refinance-mortgage-bc/">Refinancing</a></li><li><a href="/self-employed-mortgage-bc/">Self-employed</a></li><li><a href="/mortgage-aftercare-program/">Aftercare program</a></li></ul></div>
+<div><p class="ftr-h">Tools</p><ul><li><a href="/mortgage-calculators/">Calculators</a></li><li><a href="/bc-property-transfer-tax-calculator/">Property transfer tax</a></li><li><a href="/mortgage-check-up/">Mortgage check-up</a></li><li><a href="/apply/">Start your application</a></li><li><a href="/mortgage-rates-bc/">Rates</a></li><li><a href="/resources/">All guides</a></li><li><a href="/guides/">News and rule changes</a></li><li><a href="/contact/">Contact</a></li></ul></div>
+<div><p class="ftr-h">Who we help</p><ul><li><a href="/mortgages-for-first-responders/">First responders</a></li><li><a href="/mortgages-for-nurses-and-healthcare-workers/">Nurses and healthcare</a></li><li><a href="/mortgages-for-military-and-veterans/">Military and veterans</a></li><li><a href="/mortgage-for-contractors/">Contractors and trades</a></li><li><a href="/new-to-canada-mortgage/">New to Canada</a></li><li><a href="/mortgages-for-single-parents/">Single parents</a></li><li><a href="/mortgages-during-separation-and-divorce/">Separation and divorce</a></li><li><a href="/co-buying-a-home/">Co-buying</a></li><li><a href="/downsizing-and-your-mortgage/">Downsizing</a></li><li><a href="/investment-property-mortgages-bc/">Investors</a></li><li><a href="/condo-and-townhouse-mortgages/">Condos and townhouses</a></li><li><a href="/mobile-home-mortgages-bc/">Mobile and manufactured homes</a></li><li><a href="/farm-and-alr-mortgages-bc/">Farm and ALR</a></li></ul></div>
+<div><p class="ftr-h">Cities served</p><ul><li><a href="/mortgage-broker-surrey/">Surrey</a></li><li><a href="/mortgage-broker-vancouver/">Vancouver</a></li><li><a href="/mortgage-broker-langley/">Langley</a></li><li><a href="/mortgage-broker-burnaby/">Burnaby</a></li><li><a href="/mortgage-broker-coquitlam/">Coquitlam</a></li><li><a href="/mortgage-broker-richmond/">Richmond</a></li><li><a href="/mortgage-broker-abbotsford/">Abbotsford</a></li><li><a href="/mortgage-broker-victoria/">Victoria</a></li><li><a href="/mortgage-broker-nanaimo/">Nanaimo</a></li><li><a href="/mortgage-broker-kelowna/">Kelowna</a></li><li><a href="/mortgage-broker-kamloops/">Kamloops</a></li><li><a href="/mortgage-broker-prince-george/">Prince George</a></li></ul></div>
+</div>
+<div class="ftr-legal"><p>© ${new Date().getFullYear()} Resvick Mortgages. Mortgage information on this site is general education, not advice on your file; every approval is subject to lender and insurer underwriting. <a href="/privacy/">Privacy policy</a></p></div>
+</footer>`;
+}
+
+export const proofStrip = () => `<ul class="proof" data-nocount aria-label="At a glance"><li><strong>1,000+</strong> mortgages funded</li><li><strong>Xeva Mortgage</strong> / VERICO</li><li><strong>BC-wide</strong>, online</li><li>An <strong>underwriter's</strong> eye</li></ul>`;
+
+export const cta = (o = {}) => `<aside class="cta-block${o.dark ? " cta-dark" : ""}" data-cta>
+<div><h2>${esc(o.title || "Talk it through with Joshua")}</h2><p>${o.text || "A 15-minute call is enough to map your goals, your numbers and your next step. No obligation, and you deal directly with the broker who will do the work."}</p></div>
+<a class="btn${o.dark ? " btn-light" : ""}" href="${o.href || SITE.book}" data-evt="book_call_click">${esc(o.label || "Book a 15-minute call")}</a></aside>`;
+
+export const faq = (items) => `<section class="faq" aria-labelledby="faq-h"><h2 id="faq-h">Frequently asked questions</h2>${items.map((f) => `<details><summary>${esc(f.q)}</summary><div><p>${f.a}</p></div></details>`).join("")}</section>`;
+
+export function ratesStrip(file = "src/data/rates.json") {
+  let d = { rows: [], updated: "" };
+  try { d = JSON.parse(fs.readFileSync(file, "utf8")); } catch {}
+  // Staleness rule: rates older than maxAgeDays (default 14) are hidden at build time and replaced with "Ask for today's rate".
+  const maxAge = Number(d.maxAgeDays || 14), ts = Date.parse(d.updated || "");
+  const stale = !d.updated || Number.isNaN(ts) || (Date.now() - ts) / 86400000 > maxAge;
+  if (stale) d = { ...d, rows: (d.rows || []).map((r) => ({ ...r, rate: null })), updated: "" };
+  if (!(d.rows || []).some((r) => r.rate != null)) return ""; // no confirmed rates: the panel is omitted entirely, pages read as plain articles
+  const rows = (d.rows || []).map((r) => `<tr><th scope="row">${esc(r.term)}</th><td>${r.rate == null ? "Ask for today's rate" : esc(r.rate) + "%"}</td></tr>`).join("");
+  return `<section class="rates" data-nocount aria-label="Current rates"><div class="rates-head"><h2>Current rates</h2><p class="small">${d.updated ? "Last updated " + esc(d.updated) + ". " : ""}Rates change — confirm yours. The rate you qualify for depends on your down payment, credit, property and lender.</p></div>
+<table><tbody>${rows}</tbody></table>
+<p class="small">${(d.rows || []).some((r) => r.rate != null) ? "" : "Joshua posts confirmed rates here. Until then, a 15-minute call gets you today's numbers across a wide range of lenders. "}<a href="/mortgage-rates-bc/">How your rate is set</a></p></section>`;
+}
+
+export function reviews(file = "src/data/reviews.json") {
+  let d = { items: [], link: "" };
+  try { d = JSON.parse(fs.readFileSync(file, "utf8")); } catch {}
+  if (!d.items || !d.items.length) return "";
+  const stat = d.count && d.rating ? `<p class="small rev-stat">${esc(d.rating)} out of 5 on Google, from ${esc(d.count)} reviews${d.asOf ? ", as of " + esc(d.asOf) : ""}. Figures are Josh's own profile, updated by hand.</p>` : "";
+  return `<section class="reviews" data-nocount aria-labelledby="rev-h"><h2 id="rev-h">What clients say</h2>${stat}<div class="rev-grid">${d.items.map((r) => `<blockquote><p>${esc(r.text)}</p><footer>${esc(r.name)}${r.when ? ", " + esc(r.when) : ""}</footer></blockquote>`).join("")}</div>${d.link ? `<p class="small"><a href="${esc(d.link)}" rel="noopener">Read all reviews on Google</a> · <a href="/reviews">Leave a review</a></p>` : ""}</section>`;
+}
+
+export const callout = (title, html) => `<aside class="callout"><p class="callout-t">${esc(title)}</p>${html}</aside>`;
+
+export function breadcrumbs(trail) {
+  const li = trail.map(([t, h], i) => `<li>${i < trail.length - 1 ? `<a href="${h}">${esc(t)}</a>` : `<span aria-current="page">${esc(t)}</span>`}</li>`).join("");
+  return `<nav class="crumbs" data-nocount aria-label="Breadcrumb"><ol>${li}</ol></nav>`;
+}
+
+function ld(obj) { return `<script type="application/ld+json">${JSON.stringify(obj)}</script>`; }
+
+export function businessSchema() {
+  return {
+    "@context": "https://schema.org", "@type": ["MortgageBroker", "FinancialService"], "@id": SITE.origin + "/#business",
+    name: SITE.name, url: SITE.origin + "/", telephone: "+1-778-882-5674", email: SITE.email,
+    address: { "@type": "PostalAddress", streetAddress: "#106, 2626 Croydon Drive", addressLocality: "Surrey", addressRegion: "BC", postalCode: "V3Z 0S8", addressCountry: "CA" },
+    areaServed: { "@type": "AdministrativeArea", name: "British Columbia" },
+    founder: { "@type": "Person", name: SITE.person, jobTitle: "Mortgage Broker" },
+    parentOrganization: { "@type": "Organization", name: "Xeva Mortgage (Verico Xeva Mortgage Inc.)" }
+  };
+}
+
+/** page: {slug,title,meta,h1,lede,body,faqs,crumbs,schema:[...],home,closing,assets:{calc:bool}} */
+export function render(page) {
+  const url = SITE.origin + page.slug;
+  const trail = page.crumbs || [["Home", "/"], [page.crumb || page.h1, page.slug]];
+  const crumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: trail.map(([t, h], i) => ({ "@type": "ListItem", position: i + 1, name: t, item: SITE.origin + h })) };
+  const schemas = [crumbSchema, ...(page.schema || [])];
+  if (page.slug === "/") schemas.push(businessSchema());
+  if (page.faqs && page.faqs.length) schemas.push({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: page.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/<[^>]+>/g, "") } })) });
+  const hero = page.hero || `<div class="hero-copy"><h1>${page.h1}</h1>${page.lede ? `<p class="lede">${page.lede}</p>` : ""}</div>`;
+  const scripts = (page.calc ? `<script src="/assets/js/engine.js" defer></script><script src="/assets/js/calc-ui.js" defer></script>` : "") + (page.forms ? `<script src="/assets/js/forms.js" defer></script>` : "");
+  return `<!doctype html>
+<html lang="${page.lang || "en-CA"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${esc(page.title)}</title>
+<meta name="description" content="${esc(page.meta)}">
+<link rel="canonical" href="${url}">
+${page.noindex ? '<meta name="robots" content="noindex,follow">' : ""}
+${page.alternate ? `<link rel="alternate" hreflang="en-CA" href="${SITE.origin}${page.alternate}"><link rel="alternate" hreflang="${page.lang || "en-CA"}" href="${url}">` : ""}
+<meta property="og:type" content="website"><meta property="og:site_name" content="Resvick Mortgages"><meta property="og:title" content="${esc(page.title)}"><meta property="og:description" content="${esc(page.meta)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${SITE.origin}/assets/img/og-default.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#253551">
+${SITE.ga4 ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${SITE.ga4}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","${SITE.ga4}",{anonymize_ip:true})</script>` : ""}
+${process.env.STAGING ? '<meta name="robots" content="noindex,nofollow">' : ""}
+<link rel="preload" href="/assets/fonts/newsreader-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+${schemas.map(ld).join("\n")}
+</head><body${page.home ? ' class="is-home"' : ""}>
+${header(page.nav || "")}
+<main id="main">
+<section class="hero${page.home ? " hero-home" : ""}"><div class="wrap hero-in">${hero}</div></section>
+<div class="wrap">${proofStrip()}${page.slug === "/" ? "" : breadcrumbs(trail)}</div>
+<article class="wrap prose">
+${page.body}
+${page.faqs && page.faqs.length ? faq(page.faqs) : ""}
+</article>
+<div class="wrap">${cta(page.closing || { dark: true })}</div>
+</main>
+${footer()}
+${scripts}
+<script src="/assets/js/track.js" defer></script>
+</body></html>`;
+}

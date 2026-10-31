@@ -1,0 +1,2880 @@
+{
+ "payments": [
+  {
+   "in": [
+    500000,
+    5,
+    25,
+    "monthly"
+   ],
+   "out": {
+    "payment": 2908.02,
+    "periods": 301,
+    "totalInterest": 372408.92
+   }
+  },
+  {
+   "in": [
+    400000,
+    4.5,
+    30,
+    "biweekly"
+   ],
+   "out": {
+    "payment": 929.93,
+    "periods": 781,
+    "totalInterest": 325345.63
+   }
+  },
+  {
+   "in": [
+    400000,
+    4.5,
+    30,
+    "accbiweekly"
+   ],
+   "out": {
+    "payment": 1008.43,
+    "periods": 665,
+    "totalInterest": 270396.68
+   }
+  },
+  {
+   "in": [
+    300000,
+    6,
+    20,
+    "weekly"
+   ],
+   "out": {
+    "payment": 492.12,
+    "periods": 1040,
+    "totalInterest": 211804.23
+   }
+  },
+  {
+   "in": [
+    600000,
+    5.49,
+    25,
+    "semimonthly"
+   ],
+   "out": {
+    "payment": 1827.36,
+    "periods": 601,
+    "totalInterest": 496421.49
+   }
+  },
+  {
+   "in": [
+    450000,
+    4.99,
+    25,
+    "accweekly"
+   ],
+   "out": {
+    "payment": 653.67,
+    "periods": 1117,
+    "totalInterest": 279584.12
+   }
+  },
+  {
+   "in": [
+    250000,
+    3.25,
+    15,
+    "monthly"
+   ],
+   "out": {
+    "payment": 1754.03,
+    "periods": 180,
+    "totalInterest": 65724.39
+   }
+  },
+  {
+   "in": [
+    800000,
+    5.79,
+    30,
+    "accbiweekly"
+   ],
+   "out": {
+    "payment": 2327.02,
+    "periods": 642,
+    "totalInterest": 693248.63
+   }
+  }
+ ],
+ "cmhc": [
+  {
+   "in": [
+    500000,
+    25000,
+    25,
+    false
+   ],
+   "out": {
+    "error": false,
+    "required": true,
+    "rate": 4.0,
+    "premium": 19000.0,
+    "total": 494000.0
+   }
+  },
+  {
+   "in": [
+    500000,
+    50000,
+    25,
+    false
+   ],
+   "out": {
+    "error": false,
+    "required": true,
+    "rate": 3.1,
+    "premium": 13950.0,
+    "total": 463950.0
+   }
+  },
+  {
+   "in": [
+    500000,
+    75000,
+    25,
+    false
+   ],
+   "out": {
+    "error": false,
+    "required": true,
+    "rate": 2.8,
+    "premium": 11900.0,
+    "total": 436900.0
+   }
+  },
+  {
+   "in": [
+    500000,
+    100000,
+    25,
+    false
+   ],
+   "out": {
+    "error": false,
+    "required": false,
+    "premium": 0.0,
+    "total": 400000.0
+   }
+  },
+  {
+   "in": [
+    1000000,
+    100000,
+    25,
+    false
+   ],
+   "out": {
+    "error": false,
+    "required": true,
+    "rate": 3.1,
+    "premium": 27900.0,
+    "total": 927900.0
+   }
+  },
+  {
+   "in": [
+    1000000,
+    100000,
+    25,
+    true
+   ],
+   "out": {
+    "error": false,
+    "required": true,
+    "rate": 3.1,
+    "premium": 27900.0,
+    "total": 927900.0
+   }
+  },
+  {
+   "in": [
+    1000000,
+    75000,
+    25,
+    true
+   ],
+   "out": {
+    "error": false,
+    "required": true,
+    "rate": 4.5,
+    "premium": 41625.0,
+    "total": 966625.0
+   }
+  },
+  {
+   "in": [
+    600000,
+    35000,
+    30,
+    false
+   ],
+   "out": {
+    "error": false,
+    "required": true,
+    "rate": 4.2,
+    "premium": 23730.0,
+    "total": 588730.0
+   }
+  },
+  {
+   "in": [
+    600000,
+    30000,
+    25,
+    false
+   ],
+   "out": {
+    "error": true
+   }
+  },
+  {
+   "in": [
+    1500000,
+    150000,
+    25,
+    false
+   ],
+   "out": {
+    "error": true
+   }
+  },
+  {
+   "in": [
+    1500000,
+    300000,
+    25,
+    false
+   ],
+   "out": {
+    "error": false,
+    "required": false,
+    "premium": 0.0,
+    "total": 1200000.0
+   }
+  },
+  {
+   "in": [
+    1499999,
+    125000,
+    25,
+    false
+   ],
+   "out": {
+    "error": false,
+    "required": true,
+    "rate": 4.0,
+    "premium": 54999.96,
+    "total": 1429998.96
+   }
+  },
+  {
+   "in": [
+    400000,
+    140000,
+    25,
+    false
+   ],
+   "out": {
+    "error": false,
+    "required": false,
+    "premium": 0.0,
+    "total": 260000.0
+   }
+  },
+  {
+   "in": [
+    700000,
+    35000,
+    25,
+    false
+   ],
+   "out": {
+    "error": true
+   }
+  }
+ ],
+ "ptt": [
+  {
+   "in": [
+    200000,
+    false,
+    false
+   ],
+   "out": {
+    "general": 2000.0,
+    "additional": 0.0,
+    "ftbExemption": 2000.0,
+    "newBuiltExemption": 2000.0,
+    "net": 2000.0
+   }
+  },
+  {
+   "in": [
+    200000,
+    true,
+    false
+   ],
+   "out": {
+    "general": 2000.0,
+    "additional": 0.0,
+    "ftbExemption": 2000.0,
+    "newBuiltExemption": 2000.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    200000,
+    false,
+    true
+   ],
+   "out": {
+    "general": 2000.0,
+    "additional": 0.0,
+    "ftbExemption": 2000.0,
+    "newBuiltExemption": 2000.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    200000,
+    true,
+    true
+   ],
+   "out": {
+    "general": 2000.0,
+    "additional": 0.0,
+    "ftbExemption": 2000.0,
+    "newBuiltExemption": 2000.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    200001,
+    false,
+    false
+   ],
+   "out": {
+    "general": 2000.02,
+    "additional": 0.0,
+    "ftbExemption": 2000.02,
+    "newBuiltExemption": 2000.02,
+    "net": 2000.02
+   }
+  },
+  {
+   "in": [
+    200001,
+    true,
+    false
+   ],
+   "out": {
+    "general": 2000.02,
+    "additional": 0.0,
+    "ftbExemption": 2000.02,
+    "newBuiltExemption": 2000.02,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    200001,
+    false,
+    true
+   ],
+   "out": {
+    "general": 2000.02,
+    "additional": 0.0,
+    "ftbExemption": 2000.02,
+    "newBuiltExemption": 2000.02,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    200001,
+    true,
+    true
+   ],
+   "out": {
+    "general": 2000.02,
+    "additional": 0.0,
+    "ftbExemption": 2000.02,
+    "newBuiltExemption": 2000.02,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    500000,
+    false,
+    false
+   ],
+   "out": {
+    "general": 8000.0,
+    "additional": 0.0,
+    "ftbExemption": 8000.0,
+    "newBuiltExemption": 8000.0,
+    "net": 8000.0
+   }
+  },
+  {
+   "in": [
+    500000,
+    true,
+    false
+   ],
+   "out": {
+    "general": 8000.0,
+    "additional": 0.0,
+    "ftbExemption": 8000.0,
+    "newBuiltExemption": 8000.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    500000,
+    false,
+    true
+   ],
+   "out": {
+    "general": 8000.0,
+    "additional": 0.0,
+    "ftbExemption": 8000.0,
+    "newBuiltExemption": 8000.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    500000,
+    true,
+    true
+   ],
+   "out": {
+    "general": 8000.0,
+    "additional": 0.0,
+    "ftbExemption": 8000.0,
+    "newBuiltExemption": 8000.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    500001,
+    false,
+    false
+   ],
+   "out": {
+    "general": 8000.02,
+    "additional": 0.0,
+    "ftbExemption": 8000.0,
+    "newBuiltExemption": 8000.02,
+    "net": 8000.02
+   }
+  },
+  {
+   "in": [
+    500001,
+    true,
+    false
+   ],
+   "out": {
+    "general": 8000.02,
+    "additional": 0.0,
+    "ftbExemption": 8000.0,
+    "newBuiltExemption": 8000.02,
+    "net": 0.02
+   }
+  },
+  {
+   "in": [
+    500001,
+    false,
+    true
+   ],
+   "out": {
+    "general": 8000.02,
+    "additional": 0.0,
+    "ftbExemption": 8000.0,
+    "newBuiltExemption": 8000.02,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    500001,
+    true,
+    true
+   ],
+   "out": {
+    "general": 8000.02,
+    "additional": 0.0,
+    "ftbExemption": 8000.0,
+    "newBuiltExemption": 8000.02,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    835000,
+    false,
+    false
+   ],
+   "out": {
+    "general": 14700.0,
+    "additional": 0.0,
+    "ftbExemption": 8000.0,
+    "newBuiltExemption": 14700.0,
+    "net": 14700.0
+   }
+  },
+  {
+   "in": [
+    835000,
+    true,
+    false
+   ],
+   "out": {
+    "general": 14700.0,
+    "additional": 0.0,
+    "ftbExemption": 8000.0,
+    "newBuiltExemption": 14700.0,
+    "net": 6700.0
+   }
+  },
+  {
+   "in": [
+    835000,
+    false,
+    true
+   ],
+   "out": {
+    "general": 14700.0,
+    "additional": 0.0,
+    "ftbExemption": 8000.0,
+    "newBuiltExemption": 14700.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    835000,
+    true,
+    true
+   ],
+   "out": {
+    "general": 14700.0,
+    "additional": 0.0,
+    "ftbExemption": 8000.0,
+    "newBuiltExemption": 14700.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    845000,
+    false,
+    false
+   ],
+   "out": {
+    "general": 14900.0,
+    "additional": 0.0,
+    "ftbExemption": 4800.0,
+    "newBuiltExemption": 14900.0,
+    "net": 14900.0
+   }
+  },
+  {
+   "in": [
+    845000,
+    true,
+    false
+   ],
+   "out": {
+    "general": 14900.0,
+    "additional": 0.0,
+    "ftbExemption": 4800.0,
+    "newBuiltExemption": 14900.0,
+    "net": 10100.0
+   }
+  },
+  {
+   "in": [
+    845000,
+    false,
+    true
+   ],
+   "out": {
+    "general": 14900.0,
+    "additional": 0.0,
+    "ftbExemption": 4800.0,
+    "newBuiltExemption": 14900.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    845000,
+    true,
+    true
+   ],
+   "out": {
+    "general": 14900.0,
+    "additional": 0.0,
+    "ftbExemption": 4800.0,
+    "newBuiltExemption": 14900.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    859000,
+    false,
+    false
+   ],
+   "out": {
+    "general": 15180.0,
+    "additional": 0.0,
+    "ftbExemption": 320.0,
+    "newBuiltExemption": 15180.0,
+    "net": 15180.0
+   }
+  },
+  {
+   "in": [
+    859000,
+    true,
+    false
+   ],
+   "out": {
+    "general": 15180.0,
+    "additional": 0.0,
+    "ftbExemption": 320.0,
+    "newBuiltExemption": 15180.0,
+    "net": 14860.0
+   }
+  },
+  {
+   "in": [
+    859000,
+    false,
+    true
+   ],
+   "out": {
+    "general": 15180.0,
+    "additional": 0.0,
+    "ftbExemption": 320.0,
+    "newBuiltExemption": 15180.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    859000,
+    true,
+    true
+   ],
+   "out": {
+    "general": 15180.0,
+    "additional": 0.0,
+    "ftbExemption": 320.0,
+    "newBuiltExemption": 15180.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    860000,
+    false,
+    false
+   ],
+   "out": {
+    "general": 15200.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 15200.0,
+    "net": 15200.0
+   }
+  },
+  {
+   "in": [
+    860000,
+    true,
+    false
+   ],
+   "out": {
+    "general": 15200.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 15200.0,
+    "net": 15200.0
+   }
+  },
+  {
+   "in": [
+    860000,
+    false,
+    true
+   ],
+   "out": {
+    "general": 15200.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 15200.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    860000,
+    true,
+    true
+   ],
+   "out": {
+    "general": 15200.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 15200.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    1100000,
+    false,
+    false
+   ],
+   "out": {
+    "general": 20000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 20000.0,
+    "net": 20000.0
+   }
+  },
+  {
+   "in": [
+    1100000,
+    true,
+    false
+   ],
+   "out": {
+    "general": 20000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 20000.0,
+    "net": 20000.0
+   }
+  },
+  {
+   "in": [
+    1100000,
+    false,
+    true
+   ],
+   "out": {
+    "general": 20000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 20000.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    1100000,
+    true,
+    true
+   ],
+   "out": {
+    "general": 20000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 20000.0,
+    "net": 0.0
+   }
+  },
+  {
+   "in": [
+    1101000,
+    false,
+    false
+   ],
+   "out": {
+    "general": 20020.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 19619.6,
+    "net": 20020.0
+   }
+  },
+  {
+   "in": [
+    1101000,
+    true,
+    false
+   ],
+   "out": {
+    "general": 20020.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 19619.6,
+    "net": 20020.0
+   }
+  },
+  {
+   "in": [
+    1101000,
+    false,
+    true
+   ],
+   "out": {
+    "general": 20020.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 19619.6,
+    "net": 400.4
+   }
+  },
+  {
+   "in": [
+    1101000,
+    true,
+    true
+   ],
+   "out": {
+    "general": 20020.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 19619.6,
+    "net": 400.4
+   }
+  },
+  {
+   "in": [
+    1125000,
+    false,
+    false
+   ],
+   "out": {
+    "general": 20500.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 10250.0,
+    "net": 20500.0
+   }
+  },
+  {
+   "in": [
+    1125000,
+    true,
+    false
+   ],
+   "out": {
+    "general": 20500.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 10250.0,
+    "net": 20500.0
+   }
+  },
+  {
+   "in": [
+    1125000,
+    false,
+    true
+   ],
+   "out": {
+    "general": 20500.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 10250.0,
+    "net": 10250.0
+   }
+  },
+  {
+   "in": [
+    1125000,
+    true,
+    true
+   ],
+   "out": {
+    "general": 20500.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 10250.0,
+    "net": 10250.0
+   }
+  },
+  {
+   "in": [
+    1149999,
+    false,
+    false
+   ],
+   "out": {
+    "general": 20999.98,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.42,
+    "net": 20999.98
+   }
+  },
+  {
+   "in": [
+    1149999,
+    true,
+    false
+   ],
+   "out": {
+    "general": 20999.98,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.42,
+    "net": 20999.98
+   }
+  },
+  {
+   "in": [
+    1149999,
+    false,
+    true
+   ],
+   "out": {
+    "general": 20999.98,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.42,
+    "net": 20999.56
+   }
+  },
+  {
+   "in": [
+    1149999,
+    true,
+    true
+   ],
+   "out": {
+    "general": 20999.98,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.42,
+    "net": 20999.56
+   }
+  },
+  {
+   "in": [
+    1150000,
+    false,
+    false
+   ],
+   "out": {
+    "general": 21000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 21000.0
+   }
+  },
+  {
+   "in": [
+    1150000,
+    true,
+    false
+   ],
+   "out": {
+    "general": 21000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 21000.0
+   }
+  },
+  {
+   "in": [
+    1150000,
+    false,
+    true
+   ],
+   "out": {
+    "general": 21000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 21000.0
+   }
+  },
+  {
+   "in": [
+    1150000,
+    true,
+    true
+   ],
+   "out": {
+    "general": 21000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 21000.0
+   }
+  },
+  {
+   "in": [
+    2000000,
+    false,
+    false
+   ],
+   "out": {
+    "general": 38000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 38000.0
+   }
+  },
+  {
+   "in": [
+    2000000,
+    true,
+    false
+   ],
+   "out": {
+    "general": 38000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 38000.0
+   }
+  },
+  {
+   "in": [
+    2000000,
+    false,
+    true
+   ],
+   "out": {
+    "general": 38000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 38000.0
+   }
+  },
+  {
+   "in": [
+    2000000,
+    true,
+    true
+   ],
+   "out": {
+    "general": 38000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 38000.0
+   }
+  },
+  {
+   "in": [
+    3000000,
+    false,
+    false
+   ],
+   "out": {
+    "general": 68000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 68000.0
+   }
+  },
+  {
+   "in": [
+    3000000,
+    true,
+    false
+   ],
+   "out": {
+    "general": 68000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 68000.0
+   }
+  },
+  {
+   "in": [
+    3000000,
+    false,
+    true
+   ],
+   "out": {
+    "general": 68000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 68000.0
+   }
+  },
+  {
+   "in": [
+    3000000,
+    true,
+    true
+   ],
+   "out": {
+    "general": 68000.0,
+    "additional": 0.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 68000.0
+   }
+  },
+  {
+   "in": [
+    3500000,
+    false,
+    false
+   ],
+   "out": {
+    "general": 83000.0,
+    "additional": 10000.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 93000.0
+   }
+  },
+  {
+   "in": [
+    3500000,
+    true,
+    false
+   ],
+   "out": {
+    "general": 83000.0,
+    "additional": 10000.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 93000.0
+   }
+  },
+  {
+   "in": [
+    3500000,
+    false,
+    true
+   ],
+   "out": {
+    "general": 83000.0,
+    "additional": 10000.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 93000.0
+   }
+  },
+  {
+   "in": [
+    3500000,
+    true,
+    true
+   ],
+   "out": {
+    "general": 83000.0,
+    "additional": 10000.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 93000.0
+   }
+  },
+  {
+   "in": [
+    4000000,
+    false,
+    false
+   ],
+   "out": {
+    "general": 98000.0,
+    "additional": 20000.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 118000.0
+   }
+  },
+  {
+   "in": [
+    4000000,
+    true,
+    false
+   ],
+   "out": {
+    "general": 98000.0,
+    "additional": 20000.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 118000.0
+   }
+  },
+  {
+   "in": [
+    4000000,
+    false,
+    true
+   ],
+   "out": {
+    "general": 98000.0,
+    "additional": 20000.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 118000.0
+   }
+  },
+  {
+   "in": [
+    4000000,
+    true,
+    true
+   ],
+   "out": {
+    "general": 98000.0,
+    "additional": 20000.0,
+    "ftbExemption": 0.0,
+    "newBuiltExemption": 0.0,
+    "net": 118000.0
+   }
+  },
+  {
+   "in": [
+    835000,
+    true,
+    false,
+    0.5
+   ],
+   "out": {
+    "general": 14700.0,
+    "additional": 0.0,
+    "ftbExemption": 4000.0,
+    "newBuiltExemption": 7350.0,
+    "net": 10700.0
+   }
+  }
+ ],
+ "minDown": [
+  {
+   "in": 100000,
+   "out": 5000.0
+  },
+  {
+   "in": 500000,
+   "out": 25000.0
+  },
+  {
+   "in": 500001,
+   "out": 25000.1
+  },
+  {
+   "in": 750000,
+   "out": 50000.0
+  },
+  {
+   "in": 1000000,
+   "out": 75000.0
+  },
+  {
+   "in": 1499999,
+   "out": 124999.9
+  },
+  {
+   "in": 1500000,
+   "out": 300000.0
+  },
+  {
+   "in": 2000000,
+   "out": 400000.0
+  }
+ ],
+ "prepay": [
+  {
+   "in": [
+    500000,
+    5,
+    25,
+    "monthly",
+    200,
+    0,
+    0
+   ],
+   "out": {
+    "payment": 2908.02,
+    "basePeriods": 300,
+    "baseInterest": 372408.91,
+    "periods": 265,
+    "interest": 322390.24,
+    "saved": 50018.67,
+    "periodsSaved": 35
+   }
+  },
+  {
+   "in": [
+    500000,
+    5,
+    25,
+    "accbiweekly",
+    0,
+    10000,
+    5000
+   ],
+   "out": {
+    "payment": 1454.01,
+    "basePeriods": 559,
+    "baseInterest": 311972.69,
+    "periods": 442,
+    "interest": 236352.22,
+    "saved": 75620.48,
+    "periodsSaved": 117
+   }
+  },
+  {
+   "in": [
+    300000,
+    4.2,
+    20,
+    "weekly",
+    50,
+    0,
+    0
+   ],
+   "out": {
+    "payment": 424.95,
+    "basePeriods": 1040,
+    "baseInterest": 141955.22,
+    "periods": 880,
+    "interest": 117943.17,
+    "saved": 24012.05,
+    "periodsSaved": 160
+   }
+  },
+  {
+   "in": [
+    400000,
+    6,
+    25,
+    "biweekly",
+    0,
+    0,
+    0
+   ],
+   "out": {
+    "payment": 1179.61,
+    "basePeriods": 650,
+    "baseInterest": 366753.77,
+    "periods": 650,
+    "interest": 366753.77,
+    "saved": 0.0,
+    "periodsSaved": 0
+   }
+  },
+  {
+   "in": [
+    250000,
+    3.5,
+    15,
+    "monthly",
+    0,
+    20000,
+    0
+   ],
+   "out": {
+    "payment": 1784.11,
+    "basePeriods": 180,
+    "baseInterest": 71139.3,
+    "periods": 162,
+    "interest": 58323.57,
+    "saved": 12815.73,
+    "periodsSaved": 18
+   }
+  },
+  {
+   "in": [
+    650000,
+    5.49,
+    30,
+    "monthly",
+    0,
+    0,
+    10000
+   ],
+   "out": {
+    "payment": 3661.42,
+    "basePeriods": 360,
+    "baseInterest": 668108.72,
+    "periods": 240,
+    "interest": 416101.4,
+    "saved": 252007.32,
+    "periodsSaved": 120
+   }
+  },
+  {
+   "in": [
+    180000,
+    4.79,
+    10,
+    "semimonthly",
+    75,
+    5000,
+    2500
+   ],
+   "out": {
+    "payment": 942.39,
+    "basePeriods": 240,
+    "baseInterest": 46173.21,
+    "periods": 190,
+    "interest": 34927.7,
+    "saved": 11245.52,
+    "periodsSaved": 50
+   }
+  },
+  {
+   "in": [
+    500000,
+    5,
+    25,
+    "monthly",
+    3000,
+    0,
+    0
+   ],
+   "out": {
+    "payment": 2908.02,
+    "basePeriods": 300,
+    "baseInterest": 372408.91,
+    "periods": 105,
+    "interest": 116239.21,
+    "saved": 256169.7,
+    "periodsSaved": 195
+   }
+  }
+ ],
+ "compare": [
+  {
+   "in": {
+    "balance": 500000,
+    "amort": 25,
+    "freq": "monthly",
+    "sc": [
+     [
+      5.0,
+      5,
+      "fixed",
+      0
+     ],
+     [
+      4.5,
+      5,
+      "fixed",
+      1500
+     ],
+     [
+      5.6,
+      3,
+      "fixed",
+      0
+     ],
+     [
+      6.1,
+      5,
+      "variable",
+      0
+     ]
+    ]
+   },
+   "out": {
+    "rows": [
+     {
+      "payment": 2908.02,
+      "interest": 117019.07,
+      "endBalance": 442537.87,
+      "total": 117019.07,
+      "three": 6250.0
+     },
+     {
+      "payment": 2767.36,
+      "interest": 105023.86,
+      "endBalance": 438982.26,
+      "total": 106523.86,
+      "three": 5625.0
+     },
+     {
+      "payment": 3081.13,
+      "interest": 80663.05,
+      "endBalance": 469742.37,
+      "total": 80663.05,
+      "three": 7000.0
+     },
+     {
+      "payment": 3228.81,
+      "interest": 143543.3,
+      "endBalance": 449814.7,
+      "total": 143543.3,
+      "three": 7625.0
+     }
+    ],
+    "best": 2,
+    "bestPerYear": 1
+   }
+  },
+  {
+   "in": {
+    "balance": 320000,
+    "amort": 20,
+    "freq": "biweekly",
+    "sc": [
+     [
+      4.99,
+      5,
+      "fixed",
+      0
+     ],
+     [
+      4.49,
+      3,
+      "fixed",
+      800
+     ]
+    ]
+   },
+   "out": {
+    "rows": [
+     {
+      "payment": 968.65,
+      "interest": 72689.11,
+      "endBalance": 266764.61,
+      "total": 72689.11,
+      "three": 3992.0
+     },
+     {
+      "payment": 929.35,
+      "interest": 40613.17,
+      "endBalance": 288123.87,
+      "total": 41413.17,
+      "three": 3592.0
+     }
+    ],
+    "best": 1,
+    "bestPerYear": 1
+   }
+  },
+  {
+   "in": {
+    "balance": 750000,
+    "amort": 30,
+    "freq": "accbiweekly",
+    "sc": [
+     [
+      5.25,
+      1,
+      "fixed",
+      0
+     ],
+     [
+      5.0,
+      2,
+      "fixed",
+      0
+     ],
+     [
+      4.89,
+      5,
+      "fixed",
+      0
+     ]
+    ]
+   },
+   "out": {
+    "rows": [
+     {
+      "payment": 2057.66,
+      "interest": 38536.0,
+      "endBalance": 735036.84,
+      "total": 38536.0,
+      "three": 9843.75
+     },
+     {
+      "payment": 2001.34,
+      "interest": 72650.54,
+      "endBalance": 718580.86,
+      "total": 72650.54,
+      "three": 9375.0
+     },
+     {
+      "payment": 1976.78,
+      "interest": 171498.49,
+      "endBalance": 664517.09,
+      "total": 171498.49,
+      "three": 9168.75
+     }
+    ],
+    "best": 0,
+    "bestPerYear": 2
+   }
+  }
+ ],
+ "consolidation": [
+  {
+   "in": [
+    400000,
+    5.2,
+    20,
+    [
+     [
+      18000,
+      19.99,
+      540
+     ],
+     [
+      25000,
+      7.5,
+      520
+     ],
+     [
+      9000,
+      9.5,
+      250
+     ]
+    ],
+    4.6,
+    20,
+    3200,
+    1800
+   ],
+   "out": {
+    "curMonthly": 3981.87,
+    "curInterest": 256194.78,
+    "newPayment": 2905.17,
+    "newInterest": 240240.99,
+    "monthlyChange": -1076.7,
+    "interestChange": -15953.79,
+    "sameOutlayMonths": 152,
+    "sameOutlayInterest": 144325.19
+   }
+  },
+  {
+   "in": [
+    550000,
+    4.1,
+    22,
+    [
+     [
+      30000,
+      21.9,
+      900
+     ]
+    ],
+    5.4,
+    25,
+    0,
+    1500
+   ],
+   "out": {
+    "curMonthly": 4055.35,
+    "curInterest": 299660.17,
+    "newPayment": 3515.65,
+    "newInterest": 473195.28,
+    "monthlyChange": -539.7,
+    "interestChange": 173535.11,
+    "sameOutlayMonths": 229,
+    "sameOutlayInterest": 346811.4
+   }
+  },
+  {
+   "in": [
+    300000,
+    6.0,
+    18,
+    [
+     [
+      12000,
+      8.0,
+      400
+     ],
+     [
+      6000,
+      22.0,
+      200
+     ]
+    ],
+    4.75,
+    18,
+    1000,
+    1200
+   ],
+   "out": {
+    "curMonthly": 2862.08,
+    "curInterest": 192832.05,
+    "newPayment": 2200.2,
+    "newInterest": 155044.6,
+    "monthlyChange": -661.88,
+    "interestChange": -37787.45,
+    "sameOutlayMonths": 148,
+    "sameOutlayInterest": 102075.25
+   }
+  }
+ ],
+ "refi": [
+  {
+   "in": [
+    500000,
+    5.5,
+    20,
+    null,
+    4.5,
+    20,
+    4000,
+    1500,
+    false,
+    60
+   ],
+   "out": {
+    "keep": 3421.96,
+    "refi": 3152.03,
+    "be": 14,
+    "simple": 21,
+    "advantage": 18006.94,
+    "rows": {
+     "12": -631.53,
+     "24": 4165.28,
+     "36": 8879.04,
+     "48": 13497.4,
+     "60": 18006.94
+    }
+   }
+  },
+  {
+   "in": [
+    500000,
+    5.5,
+    20,
+    null,
+    4.5,
+    20,
+    4000,
+    1500,
+    true,
+    60
+   ],
+   "out": {
+    "keep": 3421.96,
+    "refi": 3186.7,
+    "be": 15,
+    "simple": 24,
+    "advantage": 16881.6,
+    "rows": {
+     "12": -873.21,
+     "24": 3689.86,
+     "36": 8178.18,
+     "48": 12579.76,
+     "60": 16881.6
+    }
+   }
+  },
+  {
+   "in": [
+    500000,
+    5.5,
+    20,
+    null,
+    4.5,
+    20,
+    0,
+    0,
+    false,
+    60
+   ],
+   "out": {
+    "keep": 3421.96,
+    "refi": 3152.03,
+    "be": 0,
+    "simple": 0,
+    "advantage": 23506.94,
+    "rows": {
+     "12": 4868.47,
+     "24": 9665.28,
+     "36": 14379.04,
+     "48": 18997.4,
+     "60": 23506.94
+    }
+   }
+  },
+  {
+   "in": [
+    500000,
+    4.5,
+    20,
+    null,
+    5.5,
+    20,
+    0,
+    1500,
+    false,
+    60
+   ],
+   "out": {
+    "keep": 3152.03,
+    "refi": 3421.96,
+    "be": null,
+    "simple": null,
+    "advantage": -25006.94,
+    "rows": {
+     "12": -6368.47,
+     "24": -11165.28,
+     "36": -15879.04,
+     "48": -20497.4,
+     "60": -25006.94
+    }
+   }
+  },
+  {
+   "in": [
+    620000,
+    5.89,
+    24,
+    3900.0,
+    4.79,
+    30,
+    9200,
+    2100,
+    true,
+    120
+   ],
+   "out": {
+    "keep": 3900.0,
+    "refi": 3290.45,
+    "be": 23,
+    "simple": 19,
+    "advantage": 38657.79,
+    "rows": {
+     "12": -5244.48,
+     "24": 625.64,
+     "36": 6293.92,
+     "48": 11742.72,
+     "60": 16953.04,
+     "72": 21904.47,
+     "84": 26575.09,
+     "96": 30941.35,
+     "108": 34977.96,
+     "120": 38657.79
+    }
+   }
+  },
+  {
+   "in": [
+    350000,
+    5.0,
+    15,
+    null,
+    4.9,
+    15,
+    6000,
+    1500,
+    false,
+    60
+   ],
+   "out": {
+    "keep": 2758.43,
+    "refi": 2740.64,
+    "be": null,
+    "simple": 422,
+    "advantage": -5924.56,
+    "rows": {
+     "12": -7161.42,
+     "24": -6833.19,
+     "36": -6516.64,
+     "48": -6213.24,
+     "60": -5924.56
+    }
+   }
+  },
+  {
+   "in": [
+    450000,
+    6.2,
+    25,
+    null,
+    4.4,
+    25,
+    5200,
+    2400,
+    false,
+    24
+   ],
+   "out": {
+    "keep": 2932.84,
+    "refi": 2465.67,
+    "be": 12,
+    "simple": 17,
+    "advantage": 8174.62,
+    "rows": {
+     "12": 308.76,
+     "24": 8174.62
+    }
+   }
+  }
+ ],
+ "rental": [
+  {
+   "in": [
+    110000,
+    2000,
+    4.5,
+    25,
+    350,
+    120,
+    400,
+    true
+   ],
+   "out": {
+    "base": 463554.75,
+    "rows": [
+     {
+      "share": 0.5,
+      "addBack": 521779.02,
+      "offset": 612847.75
+     },
+     {
+      "share": 0.8,
+      "addBack": 556713.58,
+      "offset": 702423.55
+     },
+     {
+      "share": 1.0,
+      "addBack": 580003.29,
+      "offset": 762140.75
+     }
+    ]
+   }
+  },
+  {
+   "in": [
+    110000,
+    2000,
+    4.5,
+    25,
+    350,
+    120,
+    400,
+    false
+   ],
+   "out": {
+    "base": 463554.75,
+    "rows": [
+     {
+      "share": 0.5,
+      "addBack": 463554.75,
+      "offset": 463554.75
+     },
+     {
+      "share": 0.8,
+      "addBack": 463554.75,
+      "offset": 463554.75
+     },
+     {
+      "share": 1.0,
+      "addBack": 463554.75,
+      "offset": 463554.75
+     }
+    ]
+   }
+  },
+  {
+   "in": [
+    85000,
+    1800,
+    5.0,
+    30,
+    300,
+    100,
+    0,
+    true
+   ],
+   "out": {
+    "base": 358713.66,
+    "rows": [
+     {
+      "share": 0.5,
+      "addBack": 412008.26,
+      "offset": 495366.48
+     },
+     {
+      "share": 0.8,
+      "addBack": 443985.02,
+      "offset": 577358.17
+     },
+     {
+      "share": 1.0,
+      "addBack": 465302.86,
+      "offset": 632019.3
+     }
+    ]
+   }
+  },
+  {
+   "in": [
+    150000,
+    2600,
+    3.0,
+    25,
+    500,
+    150,
+    900,
+    true
+   ],
+   "out": {
+    "base": 662842.85,
+    "rows": [
+     {
+      "share": 0.5,
+      "addBack": 758829.21,
+      "offset": 880993.67
+     },
+     {
+      "share": 0.8,
+      "addBack": 816421.03,
+      "offset": 1011884.15
+     },
+     {
+      "share": 1.0,
+      "addBack": 854815.57,
+      "offset": 1099144.48
+     }
+    ]
+   }
+  },
+  {
+   "in": [
+    60000,
+    1500,
+    4.0,
+    25,
+    400,
+    120,
+    1500,
+    true
+   ],
+   "out": {
+    "base": 28133.5,
+    "rows": [
+     {
+      "share": 0.5,
+      "addBack": 79711.58,
+      "offset": 145356.42
+     },
+     {
+      "share": 0.8,
+      "addBack": 110658.44,
+      "offset": 215690.17
+     },
+     {
+      "share": 1.0,
+      "addBack": 131289.67,
+      "offset": 262579.34
+     }
+    ]
+   }
+  }
+ ],
+ "readv": [
+  {
+   "in": [
+    1000000,
+    400000,
+    4.5,
+    25,
+    0,
+    10
+   ],
+   "out": {
+    "payment": 2213.89,
+    "rows": [
+     {
+      "bal": 400000.0,
+      "limit": 400000.0
+     },
+     {
+      "bal": 391086.17,
+      "limit": 408913.83
+     },
+     {
+      "bal": 381766.7,
+      "limit": 418233.3
+     },
+     {
+      "bal": 372023.15,
+      "limit": 427976.85
+     },
+     {
+      "bal": 361836.19,
+      "limit": 438163.81
+     },
+     {
+      "bal": 351185.67,
+      "limit": 448814.33
+     },
+     {
+      "bal": 340050.49,
+      "limit": 459949.51
+     },
+     {
+      "bal": 328408.58,
+      "limit": 471591.42
+     },
+     {
+      "bal": 316236.89,
+      "limit": 483763.11
+     },
+     {
+      "bal": 303511.32,
+      "limit": 496488.68
+     },
+     {
+      "bal": 290206.65,
+      "limit": 509793.35
+     }
+    ]
+   }
+  },
+  {
+   "in": [
+    800000,
+    560000,
+    5.0,
+    25,
+    50000,
+    5
+   ],
+   "out": {
+    "payment": 3256.99,
+    "rows": [
+     {
+      "bal": 560000.0,
+      "limit": 80000.0
+     },
+     {
+      "bal": 548367.34,
+      "limit": 91632.66
+     },
+     {
+      "bal": 536145.77,
+      "limit": 103854.23
+     },
+     {
+      "bal": 523305.49,
+      "limit": 116694.51
+     },
+     {
+      "bal": 509815.17,
+      "limit": 130184.83
+     },
+     {
+      "bal": 495641.9,
+      "limit": 144358.1
+     }
+    ]
+   }
+  },
+  {
+   "in": [
+    1200000,
+    300000,
+    4.0,
+    20,
+    100000,
+    15
+   ],
+   "out": {
+    "payment": 1812.74,
+    "rows": [
+     {
+      "bal": 300000.0,
+      "limit": 660000.0
+     },
+     {
+      "bal": 289967.21,
+      "limit": 670032.79
+     },
+     {
+      "bal": 279529.09,
+      "limit": 680470.91
+     },
+     {
+      "bal": 268669.28,
+      "limit": 691330.72
+     },
+     {
+      "bal": 257370.73,
+      "limit": 702629.27
+     },
+     {
+      "bal": 245615.71,
+      "limit": 714384.29
+     },
+     {
+      "bal": 233385.8,
+      "limit": 726614.2
+     },
+     {
+      "bal": 220661.79,
+      "limit": 739338.21
+     },
+     {
+      "bal": 207423.74,
+      "limit": 752576.26
+     },
+     {
+      "bal": 193650.87,
+      "limit": 766349.13
+     },
+     {
+      "bal": 179321.57,
+      "limit": 780000.0
+     },
+     {
+      "bal": 164413.37,
+      "limit": 780000.0
+     },
+     {
+      "bal": 148902.88,
+      "limit": 780000.0
+     },
+     {
+      "bal": 132765.77,
+      "limit": 780000.0
+     },
+     {
+      "bal": 115976.72,
+      "limit": 780000.0
+     },
+     {
+      "bal": 98509.38,
+      "limit": 780000.0
+     }
+    ]
+   }
+  },
+  {
+   "in": [
+    500000,
+    400000,
+    5.5,
+    30,
+    0,
+    3
+   ],
+   "out": {
+    "payment": 2255.63,
+    "rows": [
+     {
+      "bal": 400000.0,
+      "limit": 0.0
+     },
+     {
+      "bal": 394550.01,
+      "limit": 5449.99
+     },
+     {
+      "bal": 388796.14,
+      "limit": 11203.86
+     },
+     {
+      "bal": 382721.46,
+      "limit": 17278.54
+     }
+    ]
+   }
+  }
+ ],
+ "sale": [
+  {
+   "in": [
+    1000000,
+    7,
+    2.5,
+    450000,
+    0,
+    0,
+    1800,
+    3000
+   ],
+   "out": {
+    "commission": 29500.0,
+    "gst": 1475.0,
+    "net": 514225.0
+   }
+  },
+  {
+   "in": [
+    100000,
+    7,
+    2.5,
+    50000,
+    0,
+    0,
+    1000,
+    0
+   ],
+   "out": {
+    "commission": 7000.0,
+    "gst": 350.0,
+    "net": 41650.0
+   }
+  },
+  {
+   "in": [
+    100001,
+    7,
+    2.5,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out": {
+    "commission": 7000.03,
+    "gst": 350.0,
+    "net": 92650.97
+   }
+  },
+  {
+   "in": [
+    850000,
+    5,
+    2,
+    610000,
+    9500,
+    25000,
+    2000,
+    6000
+   ],
+   "out": {
+    "commission": 20000.0,
+    "gst": 1000.0,
+    "net": 176500.0
+   }
+  },
+  {
+   "in": [
+    600000,
+    4,
+    1.5,
+    590000,
+    15000,
+    0,
+    1800,
+    5000
+   ],
+   "out": {
+    "commission": 11500.0,
+    "gst": 575.0,
+    "net": -23875.0
+   }
+  }
+ ],
+ "equity": [
+  {
+   "in": [
+    900000,
+    400000,
+    0,
+    0,
+    0
+   ],
+   "out": {
+    "equity": 500000.0,
+    "refi": 320000.0,
+    "net": 320000.0,
+    "line": 320000.0,
+    "l5": 284000.0,
+    "l10": 248000.0
+   }
+  },
+  {
+   "in": [
+    900000,
+    400000,
+    50000,
+    6000,
+    2000
+   ],
+   "out": {
+    "equity": 450000.0,
+    "refi": 270000.0,
+    "net": 262000.0,
+    "line": 270000.0,
+    "l5": 234000.0,
+    "l10": 198000.0
+   }
+  },
+  {
+   "in": [
+    1000000,
+    800000,
+    0,
+    0,
+    0
+   ],
+   "out": {
+    "equity": 200000.0,
+    "refi": 0.0,
+    "net": 0.0,
+    "line": 0.0,
+    "l5": 0.0,
+    "l10": 0.0
+   }
+  },
+  {
+   "in": [
+    1000000,
+    850000,
+    0,
+    0,
+    0
+   ],
+   "out": {
+    "equity": 150000.0,
+    "refi": 0.0,
+    "net": 0.0,
+    "line": 0.0,
+    "l5": 0.0,
+    "l10": 0.0
+   }
+  },
+  {
+   "in": [
+    750000,
+    100000,
+    0,
+    0,
+    0
+   ],
+   "out": {
+    "equity": 650000.0,
+    "refi": 500000.0,
+    "net": 500000.0,
+    "line": 487500.0,
+    "l5": 470000.0,
+    "l10": 440000.0
+   }
+  },
+  {
+   "in": [
+    640000,
+    512000,
+    0,
+    0,
+    0
+   ],
+   "out": {
+    "equity": 128000.0,
+    "refi": 0.0,
+    "net": 0.0,
+    "line": 0.0,
+    "l5": 0.0,
+    "l10": 0.0
+   }
+  }
+ ],
+ "suite": [
+  {
+   "in": [
+    1200000,
+    600000,
+    180000,
+    180000,
+    2,
+    "owner",
+    false,
+    false,
+    30,
+    "600plus",
+    true
+   ],
+   "out": {
+    "fails": 0,
+    "checks": 0,
+    "result": "likely",
+    "maxNew": 180000.0
+   }
+  },
+  {
+   "in": [
+    1999999,
+    600000,
+    180000,
+    180000,
+    2,
+    "relative",
+    false,
+    false,
+    25,
+    "600plus",
+    true
+   ],
+   "out": {
+    "fails": 0,
+    "checks": 0,
+    "result": "likely",
+    "maxNew": 180000.0
+   }
+  },
+  {
+   "in": [
+    2000000,
+    600000,
+    180000,
+    180000,
+    2,
+    "owner",
+    false,
+    false,
+    25,
+    "600plus",
+    true
+   ],
+   "out": {
+    "fails": 1,
+    "checks": 0,
+    "result": "no",
+    "maxNew": 180000.0
+   }
+  },
+  {
+   "in": [
+    1000000,
+    720000,
+    180000,
+    180000,
+    2,
+    "owner",
+    false,
+    false,
+    25,
+    "600plus",
+    true
+   ],
+   "out": {
+    "fails": 0,
+    "checks": 0,
+    "result": "likely",
+    "maxNew": 180000.0
+   }
+  },
+  {
+   "in": [
+    1000000,
+    720000,
+    180000,
+    180000,
+    2,
+    "owner",
+    false,
+    false,
+    25,
+    "600plus",
+    true
+   ],
+   "out": {
+    "fails": 0,
+    "checks": 0,
+    "result": "likely",
+    "maxNew": 180000.0
+   }
+  },
+  {
+   "in": [
+    1000000,
+    700000,
+    200000,
+    200000,
+    2,
+    "owner",
+    false,
+    false,
+    25,
+    "600plus",
+    true
+   ],
+   "out": {
+    "fails": 0,
+    "checks": 0,
+    "result": "likely",
+    "maxNew": 200000.0
+   }
+  },
+  {
+   "in": [
+    1000000,
+    700000,
+    200000,
+    200001,
+    2,
+    "owner",
+    false,
+    false,
+    25,
+    "600plus",
+    true
+   ],
+   "out": {
+    "fails": 2,
+    "checks": 0,
+    "result": "no",
+    "maxNew": 200000.0
+   }
+  },
+  {
+   "in": [
+    1300000,
+    500000,
+    150000,
+    150000,
+    5,
+    "owner",
+    false,
+    false,
+    25,
+    "600plus",
+    true
+   ],
+   "out": {
+    "fails": 1,
+    "checks": 0,
+    "result": "no",
+    "maxNew": 150000.0
+   }
+  },
+  {
+   "in": [
+    1300000,
+    500000,
+    150000,
+    150000,
+    4,
+    "no",
+    false,
+    false,
+    25,
+    "600plus",
+    true
+   ],
+   "out": {
+    "fails": 1,
+    "checks": 0,
+    "result": "no",
+    "maxNew": 150000.0
+   }
+  },
+  {
+   "in": [
+    1300000,
+    500000,
+    150000,
+    150000,
+    3,
+    "owner",
+    true,
+    false,
+    25,
+    "unsure",
+    true
+   ],
+   "out": {
+    "fails": 1,
+    "checks": 1,
+    "result": "no",
+    "maxNew": 150000.0
+   }
+  },
+  {
+   "in": [
+    1300000,
+    500000,
+    150000,
+    150000,
+    3,
+    "owner",
+    false,
+    true,
+    31,
+    "below",
+    false
+   ],
+   "out": {
+    "fails": 3,
+    "checks": 1,
+    "result": "no",
+    "maxNew": 150000.0
+   }
+  },
+  {
+   "in": [
+    1300000,
+    500000,
+    150000,
+    150000,
+    3,
+    "owner",
+    false,
+    false,
+    30,
+    "unsure",
+    true
+   ],
+   "out": {
+    "fails": 0,
+    "checks": 1,
+    "result": "confirm",
+    "maxNew": 150000.0
+   }
+  }
+ ],
+ "checkup": [
+  {
+   "in": {
+    "balance": 480000,
+    "rate": 4.79,
+    "amort": 21,
+    "freq": "monthly",
+    "type": "fixed",
+    "today": "2026-10-30",
+    "maturity": "2027-06-01"
+   },
+   "out": {
+    "months": 7,
+    "days": 214,
+    "phase": "compare",
+    "inEarly": false,
+    "inOutreach": false,
+    "three": 5748.0,
+    "interest": 13186.96,
+    "endBalance": 472104.85
+   }
+  },
+  {
+   "in": {
+    "balance": 300000,
+    "rate": 5.25,
+    "amort": 18,
+    "freq": "biweekly",
+    "type": "fixed",
+    "today": "2026-10-30",
+    "maturity": "2026-12-15"
+   },
+   "out": {
+    "months": 1,
+    "days": 46,
+    "phase": "now",
+    "inEarly": true,
+    "inOutreach": true,
+    "three": 3937.5,
+    "interest": 1196.33,
+    "endBalance": 299222.71
+   }
+  },
+  {
+   "in": {
+    "balance": 650000,
+    "rate": 6.1,
+    "amort": 24,
+    "freq": "monthly",
+    "type": "variable",
+    "today": "2026-10-30",
+    "maturity": "2028-02-29"
+   },
+   "out": {
+    "months": 15,
+    "days": 487,
+    "phase": "plan",
+    "inEarly": false,
+    "inOutreach": false,
+    "three": 9912.5,
+    "interest": null,
+    "endBalance": null
+   }
+  },
+  {
+   "in": {
+    "balance": 200000,
+    "rate": 3.99,
+    "amort": 10,
+    "freq": "accbiweekly",
+    "type": "fixed",
+    "today": "2026-10-30",
+    "maturity": "2027-04-30"
+   },
+   "out": {
+    "months": 6,
+    "days": 182,
+    "phase": "compare",
+    "inEarly": false,
+    "inOutreach": true,
+    "three": 1995.0,
+    "interest": 3869.48,
+    "endBalance": 190734.02
+   }
+  },
+  {
+   "in": {
+    "balance": 410000,
+    "rate": 4.5,
+    "amort": 22,
+    "freq": "monthly",
+    "type": "fixed",
+    "today": "2026-10-30",
+    "maturity": "2027-02-27"
+   },
+   "out": {
+    "months": 3,
+    "days": 120,
+    "phase": "now",
+    "inEarly": true,
+    "inOutreach": true,
+    "three": 4612.5,
+    "interest": 4559.61,
+    "endBalance": 407239.94
+   }
+  },
+  {
+   "in": {
+    "balance": 410000,
+    "rate": 4.5,
+    "amort": 22,
+    "freq": "monthly",
+    "type": "fixed",
+    "today": "2026-10-30",
+    "maturity": "2026-10-01"
+   },
+   "out": {
+    "months": -1,
+    "days": -29,
+    "phase": "past",
+    "inEarly": false,
+    "inOutreach": false,
+    "three": 4612.5,
+    "interest": null,
+    "endBalance": null
+   }
+  }
+ ]
+}

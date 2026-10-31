@@ -1,0 +1,19 @@
+{
+  "updated": "",
+  "maxAgeDays": 14,
+  "note": "Josh/Xeva update this file. Set updated to the ISO date (YYYY-MM-DD) you confirmed the rates. Rates older than maxAgeDays are hidden automatically at build time and the panel shows 'Ask for today's rate'. Leave rate as null until a confirmed, lender-sourced rate is available. Never publish an unconfirmed rate.",
+  "rows": [
+    {
+      "term": "5-year fixed",
+      "rate": null
+    },
+    {
+      "term": "3-year fixed",
+      "rate": null
+    },
+    {
+      "term": "Variable",
+      "rate": null
+    }
+  ]
+}
