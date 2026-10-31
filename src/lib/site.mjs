@@ -11,6 +11,7 @@ export const SITE = {
   smsHref: "sms:+17788825674",
   email: "joshua@resvickmortgages.com",
   book: "https://cal.com/resvickmortgages/mortgage-advice",
+  fullApp: "https://velocity-client.newton.ca/en/client/journey/home?shortCode=n7tlotk51ren",
   bookRoot: "https://cal.com/resvickmortgages",
   address: { street: "#106, 2626 Croydon Drive", city: "Surrey", region: "BC", postal: "V3Z 0S8" },
   licence: "BCFSA Brokerage Licence #X300203",
