@@ -5,11 +5,11 @@ export const QUIZ_IDS = ["check", "purchase", "renewal", "equity", "investor", "
 
 const LEDE = {
   check: "Two quick questions, then the check that fits your situation.",
-  purchase: "Four numbers and nine questions. You see your full result before anything is asked of you.",
-  renewal: "Four numbers and ten questions, including the one most renewal letters never mention.",
-  equity: "Three numbers and eight questions. Your loan-to-value shows as you type.",
-  investor: "Eleven questions on money, plan and experience. No numbers needed.",
-  selfemployed: "Nine questions, then five numbers. The result compares three lending routes side by side.",
+  purchase: "Three numbers and seven questions. You see your full result before anything is asked of you.",
+  renewal: "Four numbers and six questions, including the one most renewal letters never mention.",
+  equity: "Three numbers and six questions. Your loan-to-value shows as you type.",
+  investor: "Ten questions on money, plan and experience. No numbers needed.",
+  selfemployed: "Six questions, then four numbers. The result compares three lending routes side by side.",
   lendermatch: "Seven sliders. The result names a lender type and a rate type, with the reason."
 };
 

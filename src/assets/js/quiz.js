@@ -44,7 +44,6 @@
         { type: "number", id: "income", q: "Roughly, what is your household's gross annual income?", hint: "Before tax, everyone who will be on the mortgage.", placeholder: "e.g. 120000", min: 1 },
         { type: "number", id: "down", q: "How much have you set aside for a down payment?", hint: "Savings, FHSA, RRSP you plan to use, confirmed gifts.", placeholder: "e.g. 50000", min: 0 },
         { type: "number", id: "debts", q: "What do you pay each month on debts, not counting a future mortgage?", hint: "Car loans, student loans, card minimums, lines of credit.", placeholder: "e.g. 500", min: 0 },
-        { type: "number", id: "price", q: "Target purchase price, if you have one", hint: "Optional. Leave it blank and the check will estimate one.", placeholder: "e.g. 650000", min: 0, optional: true },
         CREDIT,
         { id: "job", q: "How do you earn your income?", why: "Salaried income with two years in the field is the easiest for a lender to count. Hourly, commission, contract and self-employed income all count too, but usually on a two-year average and with more paperwork.",
           options: [{ label: "Salaried, same employer two years or more", score: 10 }, { label: "Salaried, new job or still on probation", score: 6 }, { label: "Hourly, overtime, commission or bonus", score: 6 }, { label: "Self-employed or contract", score: 4 }] },
@@ -58,10 +57,6 @@
           options: [{ label: "Yes, a full one with documents reviewed", score: 10 }, { label: "A rate quote or an online estimate only", score: 5 }, { label: "Not yet", score: 3 }] },
         { id: "reserves", q: "After the down payment and closing costs, what would be left?", why: "Lenders like to see a cushion, and so should you. Closing costs in BC commonly run one to three percent of the price on top of the down payment, and something always comes up in the first year.",
           options: [{ label: "Three months of expenses or more", score: 10 }, { label: "About one month", score: 6 }, { label: "Very little", score: 3 }, { label: "I have not worked it out", score: 2 }] },
-        { id: "closing", q: "Do you know what your closing costs will be?", why: "Property transfer tax, legal fees, an appraisal, an inspection and adjustments all land on completion day. The first-time buyer exemption can remove most of the tax below the threshold, but you need to know your number.",
-          options: [{ label: "Yes, I have a figure", score: 10 }, { label: "Roughly", score: 6 }, { label: "No idea", score: 2 }] },
-        { id: "cobuyer", q: "Who is buying with you?", why: "A second income can change what you qualify for, and so can a co-signer. Anyone on the mortgage is responsible for the whole payment, so it is a decision for both people.",
-          options: [{ label: "Just me", score: 7 }, { label: "A partner with their own income", score: 10 }, { label: "A parent or family member helping", score: 8 }, { label: "Friends or siblings", score: 6 }] }
       ]
     },
 
@@ -77,22 +72,14 @@
           options: [{ label: "None", score: 10 }, { label: "One, and it was sorted quickly", score: 6 }, { label: "More than one", score: 2 }] },
         { id: "income", q: "How stable is your income right now?", why: "Staying with your lender usually needs no income re-check. Moving to a new one does, so a job change or a gap changes which option is simplest.",
           options: [{ label: "Steady, same work for two years or more", score: 10 }, { label: "Steady, but changed jobs recently", score: 7 }, { label: "Variable or self-employed", score: 6 }, { label: "Reduced or between jobs", score: 2 }] },
-        { id: "creditcheck", q: "When did you last look at your credit report?", why: "Errors on a credit report are common and take weeks to fix. Looking now, while there is time, costs nothing and avoids a surprise at the new lender.",
-          options: [{ label: "In the last six months", score: 10 }, { label: "In the last two years", score: 6 }, { label: "Never, or I cannot remember", score: 3 }] },
         { id: "stresstest", q: "True or false: if you switch lenders at renewal, you have to pass the stress test again.", why: "Usually false. Since late 2024, two federal measures let most borrowers move an existing mortgage to a new lender at renewal without re-qualifying at the higher rate, as long as the balance and amortization do not increase. OSFI's measure (November 21, 2024) covers uninsured mortgages at federally regulated lenders; Finance Canada's (December 16, 2024) covers insured ones. Credit unions and collateral charges can complicate it, so check the details for your file.",
           options: [{ label: "False, most switches skip it now", score: 10 }, { label: "True, that is why I never switch", score: 4 }, { label: "I did not know either way", score: 6 }] },
-        { id: "shock", q: "If your payment went up by a few hundred dollars a month, how would that land?", why: "Many people renewing in 2025 and 2026 are coming off lower rates. Knowing how much room you have decides whether to prioritise payment size, term length or paying some principal down first.",
-          options: [{ label: "Fine, there is room in the budget", score: 10 }, { label: "Tight but manageable", score: 7 }, { label: "It would be a real problem", score: 3 }] },
         { id: "dti", q: "Roughly how much of your take-home pay goes to all debt payments, mortgage included?", why: "Lenders look at your total debt load against gross income. A high ratio limits switching and may point to restructuring at renewal rather than a plain rate shop.",
           options: [{ label: "Under a third", score: 10 }, { label: "About a third to a half", score: 6 }, { label: "More than half", score: 2 }, { label: "Not sure", score: 4 }] },
         { id: "reserves", q: "How many months of expenses could you cover from savings?", why: "Reserves are not a lender rule at renewal, but they decide how much flexibility you have to pick the term you want rather than the payment you need.",
           options: [{ label: "Six or more", score: 10 }, { label: "Three to six", score: 7 }, { label: "One or two", score: 4 }, { label: "Less than one", score: 2 }] },
-        { id: "consolidate", q: "Are you thinking about rolling other debts into the mortgage at renewal?", why: "Adding to the balance turns a renewal into a refinance. That changes the rules: the stress-test exemption no longer applies, there is an appraisal, and the 80 percent limit comes in. It can still be the right move; it is a different check.",
-          options: [{ label: "No, just renewing the balance", score: 10 }, { label: "Maybe, I want to see the numbers", score: 7 }, { label: "Yes, that is the main reason", score: 7, goto: "/equity-check/", note: "Rolling debt into the mortgage makes this a refinance, so the equity check is the better fit. It takes about two minutes." }] },
         { id: "lender", q: "Who holds your mortgage now?", why: "It matters for the switch rules. Federally regulated banks and monolines fall under the OSFI measure; credit unions are provincially regulated and set their own policies; a collateral charge can add legal costs to a move.",
           options: [{ label: "A big bank", score: 8 }, { label: "A monoline lender (through a broker)", score: 10 }, { label: "A credit union", score: 6 }, { label: "Not sure", score: 5 }] },
-        { id: "advisor", q: "What matters most to you at this renewal?", why: "There is no wrong answer. It tells us whether to lead with rate, with flexibility or with a longer-term plan, which is what a written comparison is for.",
-          options: [{ label: "The lowest payment", score: 8 }, { label: "Flexibility to move or pay down", score: 9 }, { label: "Certainty for the whole term", score: 9 }, { label: "Someone to explain it all", score: 10 }] }
       ]
     },
 
@@ -115,10 +102,6 @@
           options: [{ label: "Consolidate higher-interest debt", score: 8 }, { label: "Renovations or a suite", score: 10 }, { label: "Buy an investment property", score: 8 }, { label: "A separation or buyout", score: 7 }, { label: "Lower my payment", score: 7 }, { label: "Just exploring", score: 6 }] },
         { id: "timeline", q: "When do you need it?", why: "A refinance takes a few weeks including an appraisal. If the need is immediate, a line of credit or a short bridge may be the realistic tool.",
           options: [{ label: "No rush, planning ahead", score: 10 }, { label: "In the next couple of months", score: 8 }, { label: "As soon as possible", score: 5 }] },
-        { id: "review", q: "When did your lender last review your mortgage with you, unprompted?", why: "A mortgage that is never reviewed drifts. Annual reviews are part of how Joshua works, and they are where most equity plans start.",
-          options: [{ label: "Within the last year", score: 10 }, { label: "A few years ago", score: 6 }, { label: "Never", score: 4 }] },
-        { id: "advisor", q: "What do you want from an advisor on this?", why: "Honest answer wanted. If it is a number, you get a number. If it is a plan, you get a plan with the number in it.",
-          options: [{ label: "The cheapest way to get the money", score: 8 }, { label: "A plan for paying it back", score: 10 }, { label: "To know whether it is a bad idea", score: 10 }, { label: "Speed", score: 6 }] }
       ]
     },
 
@@ -163,16 +146,9 @@
           options: [{ label: "Sole proprietor", score: 8 }, { label: "Incorporated, I pay myself salary or dividends", score: 10 }, { label: "Incorporated, most income stays in the company", score: 5 }, { label: "Contract or commission, paid by one or two clients", score: 7 }] },
         { id: "filing", q: "Which returns do you file?", why: "Lenders read the T1 General and Notices of Assessment first; corporate T2s and financial statements come next. Having them ready is half the job.",
           options: [{ label: "T1 only", score: 8 }, { label: "T1 and T2 with financial statements", score: 10 }, { label: "Not up to date", score: 2 }] },
-        { id: "preparer", q: "Who prepares your taxes?", why: "An accountant-prepared file with notes on add-backs (such as capital cost allowance) is easier for an underwriter to read, and easier to defend.",
-          options: [{ label: "An accountant", score: 10 }, { label: "Me, with software", score: 7 }, { label: "It is a bit of a mess", score: 3 }] },
-        { id: "coborrower", q: "Is there a co-borrower with employment income?", why: "A salaried partner on the file can carry part of the qualification and change which lenders are in play.",
-          options: [{ label: "Yes", score: 10 }, { label: "No", score: 6 }] },
-        { id: "flags", q: "Any of these apply?", why: "First-time buyer programs and new-build rules add options and conditions; they matter for the price you can target.",
-          options: [{ label: "First-time buyer", score: 10 }, { label: "Buying a new build or presale", score: 8 }, { label: "Both", score: 9 }, { label: "Neither", score: 8 }] },
         { type: "number", id: "revenue", q: "Gross business revenue, last full year", hint: "Before expenses.", placeholder: "e.g. 180000", min: 0 },
         { type: "number", id: "declared", q: "Your declared income, averaged over the last two years", hint: "Line 15000 on your Notice of Assessment, averaged.", placeholder: "e.g. 70000", min: 0 },
         { type: "number", id: "debts", q: "Monthly debt payments", hint: "Optional. Leave blank if none.", placeholder: "e.g. 600", min: 0, optional: true },
-        { type: "number", id: "price", q: "Target purchase price, or the mortgage you need", placeholder: "e.g. 750000", min: 0, optional: true },
         { type: "number", id: "down", q: "Down payment, or equity available", placeholder: "e.g. 150000", min: 0, optional: true }
       ]
     },

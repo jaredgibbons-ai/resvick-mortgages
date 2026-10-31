@@ -9,7 +9,7 @@ ${quizEmbed("purchase")}
 
 <h2>What this check measures</h2>
 <p>Buying is two tests in one. The first one you already know: can you afford it? The second one trips people up: can you prove it, the way a lender needs, by the date you need it? This check scores both.</p>
-<p>It starts with four numbers. Those are your household income, what you've saved, what you pay on debts each month, and a target price if you have one. Then it asks about ten questions on the things that decide a purchase file. How long have you been in your job? Where did the down payment come from? How does your credit look? Do you have a pre-approval? How soon do you plan to write an offer?</p>
+<p>It starts with three numbers. Those are your household income, what you've saved, and what you pay on debts each month. Then it asks seven questions on the things that decide a purchase file. How long have you been in your job? Where did the down payment come from? How does your credit look? Do you have a pre-approval? How soon do you plan to write an offer?</p>
 <p>Every question has a "why this matters" note under it. That's on purpose. By the end, you'll know what an underwriter looks at and why. That's worth more than the score itself.</p>
 
 <h2>The numbers you'll see</h2>
@@ -46,7 +46,7 @@ ${cta({ title: "Got your result?", text: "Bring it to a 15-minute call. Joshua w
 export default {
   slug: "/purchase-readiness-check/",
   h1: "Purchase readiness check: how ready are you to buy in BC?",
-  lede: "Four numbers and about ten questions. You get a score, a band and your affordability figures on the page, before any form. The written version with Joshua's notes is optional.",
+  lede: "Three numbers and seven questions. You get a score, a band and your affordability figures on the page, before any form. The written version with Joshua's notes is optional.",
   crumb: "Purchase readiness check", nav: "/mortgage-check/", quiz: true, body,
   faqs: [
     { q: "How accurate is the affordability number?", a: "It applies the standard lender ratios and the stress test to the figures you type, using the same engine as the site's calculators. It's a planning estimate. Lenders differ in how they count income and debts, and a pre-approval checked against real lender policy is the figure to rely on before you write an offer." },

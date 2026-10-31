@@ -13,7 +13,7 @@ ${quizEmbed("equity")}
 
 <h2>What this check measures</h2>
 <p>"I want to use my equity" is the start of five different conversations. Someone wants to clear credit cards. Someone wants to renovate. Someone wants to buy a rental, or buy out a partner. Someone just wants to stop paying a rate that no longer makes sense. The mortgage that fits each of those is different. So is the cost of getting there. This check sorts out which conversation you're in.</p>
-<p>It starts with three numbers: your home's rough value, what you still owe and your monthly non-mortgage debt payments. It shows your loan-to-value live as you type. Then it asks about eight questions:</p>
+<p>It starts with three numbers: your home's rough value, what you still owe and your monthly non-mortgage debt payments. It shows your loan-to-value live as you type. Then it asks six questions:</p>
 <ul>
 <li>Your rate type.</li>
 <li>Where the mortgage lives.</li>
@@ -21,8 +21,6 @@ ${quizEmbed("equity")}
 <li>Whether you already have a line of credit.</li>
 <li>What the money is for.</li>
 <li>Your timeline.</li>
-<li>When a lender last looked at your mortgage.</li>
-<li>What you want from an advisor.</li>
 </ul>
 
 <h2>The numbers you'll see</h2>
@@ -55,7 +53,7 @@ ${cta({ title: "Equity there, but the penalty's the question?", text: "Fifteen m
 export default {
   slug: "/equity-check/",
   h1: "Equity check: can you use your home's value, and should you?",
-  lede: "Three numbers and about eight questions. Your loan-to-value, accessible equity and a score appear on the page, before any form.",
+  lede: "Three numbers and six questions. Your loan-to-value, accessible equity and a score appear on the page, before any form.",
   crumb: "Equity check", nav: "/mortgage-check/", quiz: true, body,
   faqs: [
     { q: "How does the check know what my home is worth?", a: "It doesn't. It uses the value you type and labels it as your estimate. No valuation data is looked up, nothing is fetched, and nothing is sent anywhere. A lender will order an appraisal before any refinance, and that figure, not yours or the check's, is the one that counts." },

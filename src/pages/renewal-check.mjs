@@ -9,7 +9,7 @@ ${quizEmbed("renewal")}
 
 <h2>What this check measures</h2>
 <p>Renewal is a free moment. It's the one time in a mortgage when you're truly free to shop, and most people waste it. The letter arrives with a rate on it, and signing takes thirty seconds. This check is built to slow that moment down.</p>
-<p>It asks about a dozen questions across five themes. Timing is how long until your term ends. Your situation covers missed payments or big life changes. Income is how stable your pay is today. Flexibility is how much room you'd have if the payment went up. And horizon is how long you expect to stay in the home. Each question comes with a note on why a lender, or you, should care.</p>
+<p>It asks four numbers and six questions across five themes. Timing is how long until your term ends. Your situation covers missed payments or big life changes. Income is how stable your pay is today. Flexibility is how much room you'd have if the payment went up. And horizon is how long you expect to stay in the home. Each question comes with a note on why a lender, or you, should care.</p>
 <p>One question is really a lesson in disguise. It asks whether you know that most borrowers can now switch lenders at renewal without the stress test. A lot of people don't. It's the biggest reason renewals cost more than they should. The <a href="/stress-test-exemption-switching-lenders/">stress-test exemption guide</a> has the full explanation. The check just makes sure you've heard of it.</p>
 
 <h2>What the result shows</h2>
@@ -44,7 +44,7 @@ ${cta({ title: "Maturity date in the next year?", text: "Book the 15-minute call
 export default {
   slug: "/renewal-check/",
   h1: "Renewal check: are you ready to compare before you sign?",
-  lede: "About a dozen questions on timing, your situation, income, flexibility and how long you're staying. Score and timeline on the page, before any form.",
+  lede: "Four numbers and six questions on timing, your situation, income, flexibility and how long you're staying. Score and timeline on the page, before any form.",
   crumb: "Renewal check", nav: "/mortgage-check/", quiz: true, body,
   faqs: [
     { q: "My renewal is more than two years away. Is there any point?", a: "Yes, mostly for the timeline. The check tells you when to start and what to have in order by then, and it flags anything in your situation that would be better fixed early, like a credit report nobody has looked at. You can also sign up for the free renewal reminder so you hear from Joshua at six months and 120 days out." },

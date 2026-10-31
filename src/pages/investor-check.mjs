@@ -4,7 +4,7 @@ import { short } from "../lib/short.mjs";
 
 const body = `
 ${short({
-  answer: "Eleven questions on your reserves, plan, finances and experience. You get a score, a band and the one thing to work on, right on the page.",
+  answer: "Ten questions on your reserves, plan, finances and experience. You get a score, a band and the one thing to work on, right on the page.",
   who: "Anyone thinking about buying a rental property, first or fifth.",
   next: "Take the check below. Then read the <a href=\"/investment-property-mortgages-bc/\">investment property guide</a> for the details."
 })}
@@ -12,7 +12,7 @@ ${quizEmbed("investor")}
 
 <h2>What this check measures</h2>
 <p>Rentals are different. A rental purchase is a business decision dressed up as a mortgage. The lender wants to know four things. How deep are your reserves? What do you plan to do with the property? How strong is your own position? Have you done this before?</p>
-<p>So that's how this check is built. There are no number screens at the start. Instead it asks about eleven questions.</p>
+<p>So that's how this check is built. There are no number screens at the start. Instead it asks ten questions.</p>
 <ul>
 <li>How many properties you own today.</li>
 <li>Whether you own your home, and how much equity is in it.</li>
@@ -57,7 +57,7 @@ ${cta({ title: "Ready to run a real property through the numbers?", text: "Bring
 export default {
   slug: "/investor-check/",
   h1: "Investor check: are you ready to buy a rental property?",
-  lede: "Eleven questions on reserves, intent, strength and experience. Score, band and a recommended focus on the page, before any form.",
+  lede: "Ten questions on reserves, intent, strength and experience. Score, band and a recommended focus on the page, before any form.",
   crumb: "Investor check", nav: "/mortgage-check/", quiz: true, body,
   faqs: [
     { q: "Why doesn't the investor check give me an affordability number?", a: "Because rental affordability depends on how a lender counts the rent, and lenders use different methods and different shares. A single number would be a guess. The rental income comparator on the calculators page shows how the same rent changes the result under each method, which is the honest way to look at it." },

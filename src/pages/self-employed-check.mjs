@@ -4,7 +4,7 @@ import { short } from "../lib/short.mjs";
 
 const body = `
 ${short({
-  answer: "Nine quick questions and five numbers show which of three lending routes fits your business: traditional, stated income or alternative. You see all three side by side before any form.",
+  answer: "Six quick questions and four numbers show which of three lending routes fits your business: traditional, stated income or alternative. You see all three side by side before any form.",
   who: "Business owners, contractors and anyone whose tax return shows less income than the business really earns.",
   next: "Take the check below with your last two notices of assessment handy. It runs in your browser and sends nothing."
 })}
@@ -12,8 +12,8 @@ ${quizEmbed("selfemployed")}
 
 <h2>What this check measures</h2>
 <p>Here's the problem. If you work for yourself, you know it well. Your business does fine. Your accountant keeps your taxable income low. Then a lender reads your tax return and sees a number that wouldn't rent a basement suite. This check is built around that gap.</p>
-<p>It starts with nine questions. They cover your credit range and what you're doing: buying, refinancing or renewing. They ask your goal and how long you've worked for yourself. They ask how the business is set up, how you file, and who does your taxes. They ask if there's a co-borrower, and whether you're a first-time buyer or buying new.</p>
-<p>Then it asks for five numbers. Those are your gross business revenue and your declared income as a two-year average. It also asks your monthly debt payments, a target price and your down payment.</p>
+<p>It starts with six questions. They cover your credit range and what you're doing: buying, refinancing or renewing. They ask your goal and how long you've worked for yourself. They ask how the business is set up and how you file.</p>
+<p>Then it asks for four numbers. Those are your gross business revenue and your declared income as a two-year average. It also asks your monthly debt payments and your down payment.</p>
 <p>The order is on purpose. The questions decide which routes are even open to you. The numbers then show what each route would look like. Done the other way round, you'd get a number that might not apply.</p>
 
 <h2>Three routes, side by side</h2>
@@ -51,7 +51,7 @@ ${cta({ title: "Three routes is a lot to weigh on your own", text: "Fifteen minu
 export default {
   slug: "/self-employed-check/",
   h1: "Self-employed check: which lending route fits your business?",
-  lede: "Nine questions, then five numbers. The result previews three lending routes side by side, on the page, before any form.",
+  lede: "Six questions, then four numbers. The result previews three lending routes side by side, on the page, before any form.",
   crumb: "Self-employed check", nav: "/mortgage-check/", quiz: true, body,
   faqs: [
     { q: "Why does this check ask the questions before the numbers?", a: "Because the questions decide which lending routes are open to you, and the numbers only mean something inside a route. Two years of declared income matters a lot to a traditional lender and much less to a stated-income one. Asking in this order means the three previews at the end actually apply to you." },

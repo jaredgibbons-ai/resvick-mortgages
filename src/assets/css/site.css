@@ -91,6 +91,20 @@ a:hover{text-decoration-thickness:2px}
 .quick svg{width:18px;height:18px}
 @media(min-width:900px){.hero-home .act-cards{max-width:520px}}
 
+/* jump-to list and sticky phone bar */
+.toc{margin:0 0 1.8em;max-width:var(--measure)}
+.toc details{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:4px 18px}
+.toc summary{cursor:pointer;font:600 15px var(--ui);color:var(--navy);padding:12px 0;list-style:none;display:flex;justify-content:space-between;align-items:center}
+.toc summary::-webkit-details-marker{display:none}.toc summary::after{content:"+";font-size:22px;line-height:1}.toc details[open] summary::after{content:"\2212"}
+.toc ol{margin:0 0 12px;padding-left:1.3em;font:400 16px/1.5 var(--ui)}.toc li{margin:5px 0}
+.sticky-cta{display:none}
+@media(max-width:899px){
+  .sticky-cta{display:flex;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(235,235,232,.96);backdrop-filter:blur(8px);border-top:1px solid var(--rule)}
+  .sticky-cta a{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:8px;font:600 16px var(--ui);padding:13px 10px;border-radius:99px;text-decoration:none;color:var(--navy);background:#fff;border:1.5px solid var(--navy)}
+  .sticky-cta a.sc-main{background:var(--navy);color:#fff}
+  .sticky-cta svg{width:19px;height:19px}
+  body{padding-bottom:76px}
+}
 /* proof + crumbs */
 .proof{list-style:none;margin:22px 0 0;padding:14px 18px;display:flex;flex-wrap:wrap;gap:8px 26px;background:var(--card);border:1px solid var(--rule);border-radius:var(--r);font:400 14.5px var(--ui);color:var(--muted)}
 .proof strong{color:var(--ink);font-weight:600}
@@ -182,7 +196,7 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 .print-row{margin:14px 0 0}
 @media print{
   body{background:#fff!important;color:#000!important;font-size:11.5pt}
-  .site-header,.site-footer,.proof,.crumbs,.cta-block,.form-card,.mnav,.hero-actions,.print-row,.faq,.persona,.band,.callout,.rates,.reviews,.tool-grid,.steps,.hero .arch{display:none!important}
+  .sticky-cta,.toc,.site-header,.site-footer,.proof,.crumbs,.cta-block,.form-card,.mnav,.hero-actions,.print-row,.faq,.persona,.band,.callout,.rates,.reviews,.tool-grid,.steps,.hero .arch{display:none!important}
   .hero{background:#fff!important;color:#000!important;padding:0}.hero h1{color:#000!important;font-size:22pt}.lede{display:none}
   a{color:#000;text-decoration:none}a[href^="http"]::after{content:""}
   body.printing-tool article.prose>*:not(.tools):not(.tool.printing){display:none!important}

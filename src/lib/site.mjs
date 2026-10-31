@@ -142,6 +142,30 @@ export const actionCards = () => `<div class="act-cards" data-nocount>
 const NO_QUICK = new Set(["/apply/", "/accepted-offer/", "/refer/", "/privacy/", "/mortgage-check/", "/purchase-readiness-check/", "/renewal-check/", "/equity-check/", "/investor-check/", "/self-employed-check/", "/lender-match/", "/404.html"]);
 const quickRow = (slug) => NO_QUICK.has(slug) ? "" : `<div class="wrap" data-nocount><nav class="quick" aria-label="Quick actions"><a href="${SITE.book}" data-evt="book_call_click">${IC.cal}Book a call</a><a href="/apply/" data-evt="apply_click">${IC.doc}Apply online</a><a href="/mortgage-check/" data-evt="checkup_click">${IC.quiz}Take a quiz</a></nav></div>`;
 
+/** Add ids to h2s and build a "jump to" list for long pages. Returns the new body. */
+function withToc(page) {
+  const body = page.body || "";
+  if (page.home || NO_QUICK.has(page.slug)) return body;
+  const used = new Set((body.match(/\sid="([^"]+)"/g) || []).map((x) => x.slice(5, -1)));
+  const items = [];
+  const out = body.replace(/<h2(\s[^>]*)?>([\s\S]*?)<\/h2>/g, (m, attrs = "", inner) => {
+    const text = inner.replace(/<[^>]+>/g, "").trim();
+    const have = /\sid="([^"]+)"/.exec(attrs);
+    let id = have ? have[1] : text.toLowerCase().replace(/&amp;/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 48) || "section";
+    if (!have) { let base = id, n = 2; while (used.has(id)) id = base + "-" + n++; used.add(id); }
+    if (text) items.push([id, text]);
+    return have ? m : `<h2${attrs} id="${id}">${inner}</h2>`;
+  });
+  if (items.length < 5) return out;
+  if (page.faqs && page.faqs.length) items.push(["faq-h", "Frequently asked questions"]);
+  const toc = `<nav class="toc" aria-label="Jump to a section" data-nocount><details><summary>Jump to a section</summary><ol>${items.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join("")}</ol></details></nav>`;
+  const k = out.indexOf("</aside>");
+  return k > -1 && k < 3000 ? out.slice(0, k + 8) + toc + out.slice(k + 8) : toc + out;
+}
+
+/** Sticky bottom bar on phones. */
+const stickyBar = (slug) => NO_QUICK.has(slug) ? "" : `<div class="sticky-cta" data-nocount><a class="sc-main" href="${SITE.book}" data-evt="book_call_click">${IC.cal}Book a call</a><a href="/mortgage-check/" data-evt="checkup_click">${IC.quiz}Take a quiz</a></div>`;
+
 /** page: {slug,title,meta,h1,lede,body,faqs,crumbs,schema:[...],home,closing,assets:{calc:bool}} */
 export function render(page) {
   const url = SITE.origin + page.slug;
@@ -173,12 +197,13 @@ ${header(page.nav || "")}
 <section class="hero${page.home ? " hero-home" : ""}"><div class="wrap hero-in">${hero}</div>${page.home ? "" : quickRow(page.slug)}</section>
 <div class="wrap">${proofStrip()}${page.slug === "/" ? "" : breadcrumbs(trail)}</div>
 <article class="wrap prose">
-${page.body}
+${withToc(page)}
 ${page.faqs && page.faqs.length ? faq(page.faqs) : ""}
 </article>
 <div class="wrap">${cta(page.closing || { dark: true })}</div>
 </main>
 ${footer()}
+${stickyBar(page.slug)}
 ${scripts}
 <script src="/assets/js/track.js" defer></script>
 </body></html>`;
