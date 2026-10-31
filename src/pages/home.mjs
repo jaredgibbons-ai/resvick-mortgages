@@ -10,6 +10,7 @@ const hero = `<div class="hero-copy"><h1>Josh Resvick<span class="h1-sub">Your B
 ${actionCards()}<p class="hero-phone">Prefer to talk? Call <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p></div>${photo}`;
 
 const body = `
+${reviews()}
 ${ratesStrip()}
 <h2>What do you need help with?</h2>
 <div class="persona">
@@ -44,7 +45,6 @@ ${ratesStrip()}
 
 <h2>Try a calculator</h2>
 <p>Every result shows right away. No email needed. <a href="/mortgage-calculators/#affordability">How much can I afford</a>, <a href="/mortgage-calculators/#payment">my payment</a>, <a href="/mortgage-calculators/#penalty">my penalty</a> or <a href="/bc-property-transfer-tax-calculator/">BC property transfer tax</a>. Or see <a href="/mortgage-calculators/">all the calculators</a>. Wondering about rates? Read <a href="/mortgage-rates-bc/">how mortgage rates work in BC</a>.</p>
-${reviews()}
 `;
 
 export default {

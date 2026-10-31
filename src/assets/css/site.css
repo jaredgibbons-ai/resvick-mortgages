@@ -116,7 +116,7 @@ a:hover{text-decoration-thickness:2px}
 /* prose */
 .prose{padding-top:34px;padding-bottom:20px}
 .prose>*{max-width:var(--measure)}
-.prose>.wide,.prose>.tools,.prose>.table-wrap,.prose>.cta-block,.prose>.rates,.prose>.persona,.prose>.steps,.prose>.band{max-width:none}
+.prose>.wide,.prose>.reviews,.prose>.tools,.prose>.table-wrap,.prose>.cta-block,.prose>.rates,.prose>.persona,.prose>.steps,.prose>.band{max-width:none}
 .prose h2{font:400 clamp(30px,3.6vw,42px)/1.14 var(--display);margin:56px 0 14px;letter-spacing:-.01em;text-wrap:balance}
 .prose h3{font:400 26px/1.22 var(--display);margin:34px 0 8px}
 .prose p{margin:0 0 1.15em}
