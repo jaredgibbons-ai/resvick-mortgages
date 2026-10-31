@@ -10,7 +10,7 @@ ${short({
   next: "Book a 15-minute call, and bring the strata documents if you already have them."
 })}
 <p>White Rock is a small city on Semiahmoo Bay, surrounded on three sides by Surrey. Buyers here come with different stories. Some are selling a larger house nearby and moving to the water. Some are retiring into a condo. Others are younger buyers who want the beach and a short drive to work.</p>
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He serves White Rock from his Surrey office, by phone, video and secure document upload. There's no White Rock branch. Instead, there's a broker who was an underwriter for five years and has funded over 1,000 mortgages. He handles your file himself.</p>
+<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage, and a former underwriter. His office is in Surrey, a short drive from White Rock, and he works with clients by phone, video and secure uploads. There is no White Rock branch. More than 1,000 mortgages have been funded through him, and you can <a href="/contact/">book a 15-minute call</a> to start.</p>
 
 ${ratesStrip()}
 
@@ -51,24 +51,23 @@ ${ratesStrip()}
 <h2>What Joshua does for White Rock clients</h2>
 <ol>
 <li><strong>Reads the building and the borrower together.</strong> Before you fall for a unit, he checks the strata documents and your income against what lenders accept.</li>
-<li><strong>Compares lenders in writing.</strong> You get a <a href="/lender-comparison-report/">Lender Comparison Report</a>: rate, term, penalty method, prepayment privileges and portability, side by side.</li>
-<li><strong>Runs the file to funding.</strong> You get secure document links, an appraiser, and updates at every step. Your realtor and lawyer hear from him directly.</li>
-<li><strong>Stays on it afterwards.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> means an annual review and contact about six months before your maturity date, so a renewal is compared and not signed by default.</li>
+<li><strong>Puts lenders side by side.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lays out rate, term, how a penalty is worked out, prepayment room and portability, so a strata purchase is not judged on rate alone.</li>
+<li><strong>Handles the paperwork flow.</strong> Documents go through secure links. Your realtor, lawyer or notary and appraiser hear from him directly, so nothing waits on you to relay a message.</li>
+<li><strong>Checks back.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> he reviews your mortgage each year and reaches out roughly six months before maturity, while comparing is still easy.</li>
 </ol>
 
-${callout("What you pay", "<p>On a mortgage placed with an A lender, the lender pays the broker and you pay nothing for the service. Fees arise only on certain B-lender and private files. In BC, they must be disclosed in writing on BCFSA's Form 1A before you commit. If your file needs one of those lenders, you'll know the cost before you decide.</p>")}
+${callout("What you pay", "<p>Most White Rock files go to an A lender. There the lender pays Joshua and you pay nothing for his work. If a file needs a B lender or a private lender, any fee to you must be shown on BCFSA's Form 1A before you agree to anything. You would see the cost first.</p>")}
 
 <h2>Buying, renewing and refinancing in White Rock</h2>
-<p><strong>First-time buyers</strong> can use the same provincial and federal programs as anywhere in BC. That includes the property transfer tax exemption, the First Home Savings Account and the Home Buyers' Plan. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> explains how they fit together, and the <a href="/mortgage-pre-approval-bc/">pre-approval page</a> shows what a real one involves.</p>
-<p><strong>Renewing owners</strong> should treat the lender's letter as an opening offer. The <a href="/mortgage-renewal-bc/">renewal guide</a> covers the timeline, and the <a href="/mortgage-calculators/">mortgage calculators</a> include a <a href="/mortgage-calculators/#renewal">renewal scenario tool</a> that compares staying, switching and refinancing on your own figures.</p>
-<p><strong>Self-employed owners</strong> and people with business income are read through tax returns, not pay stubs. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains the routes. Current rates, and how your rate is set, are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
+<p><strong>First-time buyers</strong> in White Rock often start with a condo. The transfer tax exemption, the First Home Savings Account and the Home Buyers' Plan apply here as they do across BC. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> shows how they fit together, and the <a href="/mortgage-pre-approval-bc/">pre-approval page</a> explains what a real approval involves.</p>
+<p><strong>Renewing owners</strong> have a decision to make well before the letter arrives. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline. Try the <a href="/mortgage-calculators/#renewal">renewal tool</a> inside the <a href="/mortgage-calculators/">mortgage calculators</a>; it compares staying, switching and refinancing with your own numbers.</p>
+<p><strong>Business owners</strong> are read through tax returns instead of pay stubs. The <a href="/self-employed-mortgage-bc/">self-employed hub</a> sets out the routes. For how a rate gets set, see the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
 <h2>Nearby</h2>
 <p>White Rock sits inside Surrey, so the <a href="/mortgage-broker-surrey/">Surrey page</a> covers the office and the neighbourhoods around it, including South Surrey. Joshua also serves <a href="/mortgage-broker-langley/">Langley</a>, where many downsizers sell before they move to the coast.</p>
 
 ${cta({ title: "Talk to a broker who serves White Rock", text: "Book a 15-minute call. Tell Joshua whether you're buying a unit, selling a house or planning a renewal. You'll leave knowing what to gather first." })}
 
-<p>Searched for a mortgage broker in White Rock and landed here? The <a href="/contact/">contact page</a> has the phone number, the email address and what to have ready for the first call.</p>
 `;
 
 export default {

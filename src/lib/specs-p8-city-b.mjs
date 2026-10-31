@@ -3,12 +3,12 @@ const common = ["/mortgage-rates-bc/", "/first-time-home-buyer-bc/", "/mortgage-
 export default {
   "/mortgage-broker-maple-ridge/": {
     title: "Mortgage Broker in Maple Ridge, BC | Resvick Mortgages",
-    meta: "Mortgage broker serving Maple Ridge and Pitt Meadows: Joshua Resvick (Xeva Mortgage) helps with suites, acreage, new homes and renewals, online and by phone.",
+    meta: "Mortgage broker serving Maple Ridge and Pitt Meadows: Joshua Resvick (Xeva Mortgage) helps with suites, acreage, new homes and renewals.",
     links: [...common, "/mortgage-broker-coquitlam/", "/mortgage-broker-langley/"]
   },
   "/mortgage-broker-mission/": {
     title: "Mortgage Broker in Mission, BC | Resvick Mortgages",
-    meta: "Mortgage broker serving Mission, BC: Joshua Resvick (Xeva Mortgage) helps buyers moving up the valley, with new homes, acreage and suites, by phone and video.",
+    meta: "Mortgage broker serving Mission, BC: Joshua Resvick (Xeva Mortgage) helps valley buyers with new homes, acreage and suites, by phone and video.",
     links: [...common, "/mortgage-broker-abbotsford/", "/mortgage-broker-langley/"]
   }
 };

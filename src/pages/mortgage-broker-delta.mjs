@@ -11,7 +11,7 @@ ${short({
 })}
 <p>Delta is really three places. North Delta is the largest community and the most suburban. Ladner, a former fishing village, and Tsawwassen make up South Delta. Delta is also the largest municipality in Metro Vancouver by area, and most of its land is farmland protected by the Agricultural Land Reserve.</p>
 <p>That mix matters for a mortgage. A detached house with a suite in North Delta, a farm lot in Ladner and a home on leased land in Tsawwassen are three different files. Lenders don't treat them the same way.</p>
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He serves Delta from his Surrey office, by phone, video and secure document upload. There's no Delta branch. Instead, there's a broker who was an underwriter for five years and has funded over 1,000 mortgages. He handles your file himself.</p>
+<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. His office is in Surrey, next door to North Delta, and he works with Ladner, Tsawwassen and North Delta clients by phone, video and secure uploads. There is no Delta branch. You get a former underwriter who has funded over 1,000 mortgages, and you can <a href="/contact/">book a 15-minute call</a> to start.</p>
 
 ${ratesStrip()}
 
@@ -37,24 +37,23 @@ ${ratesStrip()}
 <h2>What Joshua does for Delta clients</h2>
 <ol>
 <li><strong>Names the property type first.</strong> Suite, farm, acreage or leasehold, each is identified before the offer is written, so the financing condition is realistic.</li>
-<li><strong>Compares lenders in writing.</strong> You get a <a href="/lender-comparison-report/">Lender Comparison Report</a>: rate, term, penalty method, prepayment privileges and portability, side by side.</li>
-<li><strong>Runs the file to funding.</strong> You get secure document links, an appraiser, and updates at every step. Your realtor and lawyer hear from him directly.</li>
-<li><strong>Stays on it afterwards.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> means an annual review and contact about six months before your maturity date. So a renewal is compared, not signed by default.</li>
+<li><strong>Lays lenders out side by side.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> compares rate, term, penalty method, prepayment room and portability, so a leasehold or farm-edge property is not judged on rate alone.</li>
+<li><strong>Keeps the file moving.</strong> Documents go through secure links, and he talks to your realtor, lawyer and appraiser himself.</li>
+<li><strong>Checks back after funding.</strong> With <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> he reviews your mortgage once a year and contacts you about six months before maturity, so the renewal gets compared.</li>
 </ol>
 
-${callout("What you pay", "<p>On a mortgage placed with an A lender, the lender pays the broker and you pay nothing for the service. Fees arise only on certain B-lender and private files. In BC, they must be disclosed in writing on BCFSA's Form 1A before you commit. Farm, leasehold and unusual-income files sometimes need those lenders. If yours does, you'll know the cost before you decide.</p>")}
+${callout("What you pay", "<p>Most Delta purchases and renewals go to A lenders, where the lender pays Joshua and your cost is nothing. Leasehold, farm-edge and unusual-income files sometimes need a B or private lender. Any fee to you on those must appear in writing on BCFSA's Form 1A before you commit.</p>")}
 
 <h2>Buying, renewing and refinancing in Delta</h2>
-<p><strong>First-time buyers</strong> in Delta can use the same provincial and federal programs as anywhere in BC. That means the property transfer tax exemption, the First Home Savings Account, the Home Buyers' Plan and the GST rebate on new homes. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> explains how to stack them.</p>
-<p><strong>Renewing homeowners</strong> should treat the lender's letter as an opening offer. The <a href="/mortgage-renewal-bc/">renewal guide</a> explains the timeline and the switching rules that changed in late 2024. The <a href="/mortgage-calculators/">mortgage calculators</a> include a <a href="/mortgage-calculators/#renewal">renewal scenario tool</a> that compares staying, switching and refinancing on your own figures.</p>
-<p><strong>Refinancing</strong> to pay off debt, renovate or add a suite starts with the break-even math. Do that before anyone talks about a rate. Current rates, and how your rate is set, are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
+<p><strong>First-time buyers</strong> in Delta can use the same federal and provincial programs as everyone in BC: the transfer tax exemption, the First Home Savings Account, the Home Buyers' Plan and the new-home GST rebate. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> shows how they stack.</p>
+<p><strong>Renewing owners</strong> in Delta get the same advice as anywhere: the letter is a first offer. The <a href="/mortgage-renewal-bc/">renewal guide</a> has the timeline and the late-2024 switching rules. Then run your figures through the <a href="/mortgage-calculators/">mortgage calculators</a>, including the <a href="/mortgage-calculators/#renewal">renewal scenario tool</a>.</p>
+<p><strong>Refinancing</strong> for debt, a renovation or a suite begins with the break-even math, ahead of any talk about rates. For how a rate is set, see the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
 <h2>Nearby</h2>
 <p>North Delta borders Surrey, where Joshua's office is. The <a href="/mortgage-broker-surrey/">Surrey page</a> has the address and what to bring for an in-person meeting. Across the tunnel, the <a href="/mortgage-broker-richmond/">Richmond page</a> covers the other side of Highway 99.</p>
 
 ${cta({ title: "Talk to a broker who serves Delta", text: "Book a 15-minute call. Tell Joshua which part of Delta and what kind of property. You'll leave knowing how a lender will read it and what to gather first." })}
 
-<p>Did you search for a mortgage broker in Delta and land here? The <a href="/contact/">contact page</a> has the phone number, the email address and what to have ready for the first call.</p>
 `;
 
 export default {

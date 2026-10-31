@@ -10,7 +10,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua the property and the price range."
 })}
 <p>North Vancouver is the part of the Lower Mainland where the price is often the first question. It's also where a lender's eye lands on the building, the strata and the suite. Those details move a file more than they do in most cities.</p>
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He serves North Vancouver and West Vancouver from his Surrey office, by phone and video. There's no North Shore branch. There's a broker who spent five years as an underwriter, has ten years in the business, and has funded over 1,000 mortgages. He handles your file himself.</p>
+<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He works with North Vancouver and West Vancouver clients from his Surrey office, by phone and video, and there is no North Shore branch. He spent five years as an underwriter and has funded over 1,000 mortgages. You can <a href="/contact/">book a 15-minute call</a> to begin.</p>
 
 ${ratesStrip()}
 
@@ -31,8 +31,8 @@ ${ratesStrip()}
 <p>Joshua reviews the strata package alongside your own documents, so surprises come out while you still have time to act.</p>
 
 <h2>Suites, coach houses and the legal question</h2>
-<p>Both municipalities allow secondary suites and coach houses in some form, and the rules are not the same. In the City of North Vancouver, installing, renovating or legalizing a suite needs a building permit (City of North Vancouver, Accessory Secondary Suite Zoning Bylaw Requirements, read October 2026).</p>
-<p>In the District, being registered is not the same as being permitted. A local brokerage guide notes that a suite can be registered for utility billing without being a legal, inspected suite, and that older suites may not be authorized by default (Rossetti Realty, Guide to Secondary Suites in the District of North Vancouver, July 2025). Ask for the permit history, not just the utility notice.</p>
+<p>Both municipalities allow secondary suites and coach houses in some form, and the rules are not the same. In the City of North Vancouver, a suite needs a building permit to install, renovate or legalize (City of North Vancouver, Accessory Secondary Suite Zoning Bylaw Requirements, read October 2026).</p>
+<p>In the District, being registered is not the same as being permitted. A local brokerage guide notes that a suite can be registered for utility billing without being a legal, inspected suite. It adds that older suites may not be authorized by default (Rossetti Realty, Guide to Secondary Suites in the District of North Vancouver, July 2025). Ask for the permit history, not just the utility notice.</p>
 <p>This matters because lenders usually count rent only from a legal, documented suite. An unpermitted one often can't count. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> explains the offset and add-back methods. Confirm the current rules with the City or the District before you rely on a unit being legal.</p>
 
 <h2>Long-time owners: equity, renewals and the next move</h2>
@@ -48,16 +48,16 @@ ${ratesStrip()}
 <ol>
 <li><strong>Checks the property first.</strong> Price against the insured limit, strata documents, suite status. Problems surface before you are committed.</li>
 <li><strong>Reads your income like an underwriter.</strong> Salary, commission, bonus and self-employed income each have a lender they fit. He matches the file before it is sent.</li>
-<li><strong>Compares lenders in writing.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> sets rate, term, penalty method and privileges side by side.</li>
-<li><strong>Stays in touch after funding.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> means an annual review and a call about six months before maturity.</li>
+<li><strong>Puts the options in writing.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> sets rate, term, penalty method and privileges next to each other.</li>
+<li><strong>Keeps in touch.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> adds a yearly review and a call roughly six months before maturity.</li>
 </ol>
 
-${callout("What you pay", "<p>On a mortgage placed with an A lender, the lender pays the broker and you pay nothing for the service. Fees come up only on some B-lender and private files, such as a self-employed file that needs an alternative lender. In BC, any fee must be disclosed in writing on BCFSA's Form 1A before you commit. If yours has one, you'll see the cost before you decide.</p>")}
+${callout("What you pay", "<p>Most North Shore files go to an A lender, where the lender pays Joshua and you pay nothing for his work. A self-employed file that needs an alternative lender is the usual exception. Any fee to you must be shown in writing on BCFSA's Form 1A before you commit.</p>")}
 
 <h2>Buying, renewing and refinancing on the North Shore</h2>
-<p><strong>First-time buyers</strong> can stack the same federal and provincial programs as anyone in BC, including the First Home Savings Account and the property transfer tax exemption. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> explains the order. The <a href="/bc-property-transfer-tax-calculator/">property transfer tax calculator</a> gives the exact figure for any price.</p>
+<p><strong>First-time buyers</strong> can stack the federal and provincial programs, including the First Home Savings Account and the property transfer tax exemption. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> explains the order. The <a href="/bc-property-transfer-tax-calculator/">property transfer tax calculator</a> gives the exact figure at any price.</p>
 <p><strong>Self-employed owners and professionals</strong> are common here. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains how lenders read business income, and which routes exist when your tax return understates what you earn.</p>
-<p><strong>Renewals and refinances</strong> start with your own numbers. The <a href="/mortgage-calculators/">calculators</a> compare staying, switching and refinancing. Current rates, and how your rate is set, are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
+<p><strong>Renewals and refinances</strong> begin with your own numbers. The <a href="/mortgage-calculators/">calculators</a> compare staying, switching and refinancing, and the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a> explains how a rate is set.</p>
 
 <h2>Nearby</h2>
 <p>Joshua serves the whole Lower Mainland the same way. The <a href="/mortgage-broker-vancouver/">Vancouver page</a> covers the city across the inlet. The <a href="/mortgage-broker-burnaby/">Burnaby page</a> covers the neighbouring city to the east and the Tri-Cities beyond it.</p>

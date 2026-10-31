@@ -10,7 +10,7 @@ ${short({
   next: "Book a 15-minute call and describe the property you have in mind."
 })}
 <p>Chilliwack draws a few kinds of buyers. Some are first-time buyers who want a home they can afford. Some are Lower Mainland owners selling at a high price and buying with room to spare. Others want land, animals or a lake cabin. Each of those needs a different mortgage file.</p>
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He serves Chilliwack, Sardis, Vedder and the rest of the Fraser Valley from his Surrey office, by phone and video. He has no Chilliwack branch. He has five years as an underwriter, ten years as a broker, and over 1,000 mortgages funded. He handles your file himself.</p>
+<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He works with Chilliwack, Sardis and Vedder clients from his Surrey office, by phone and video, and has no Chilliwack branch. He was an underwriter for five years and has funded over 1,000 mortgages. <a href="/contact/">Book a 15-minute call</a> to start.</p>
 
 ${ratesStrip()}
 
@@ -27,7 +27,7 @@ ${ratesStrip()}
 
 <h2>Suites, coach houses and the flood line</h2>
 <p>Chilliwack permits rental secondary suites in single detached homes across the city, regardless of the zone. New suites can't go below the flood construction level, and they need a building permit. Coach houses and garden suites go through a development permit first (City of Chilliwack, Secondary Suites, Coach Houses and Garden Suites, read October 2026).</p>
-<p>The rules have also grown. After provincial changes, Council updated the zoning bylaw in June 2024. Single detached lots now allow at least one secondary suite. Larger single detached or duplex lots, over 280 square metres and inside the urban growth boundary, can hold up to four units (City of Chilliwack, Small-Scale Multi-Unit Housing, read October 2026).</p>
+<p>The rules have also grown. After provincial changes, Council updated the zoning bylaw in June 2024. Single detached lots now allow at least one secondary suite. Larger lots can hold up to four units. That applies to single detached or duplex lots over 280 square metres, inside the urban growth boundary (City of Chilliwack, Small-Scale Multi-Unit Housing, read October 2026).</p>
 <p>For a lender, a legal, permitted unit means a share of the rent can count toward qualifying. An unpermitted one usually can't. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> explains how the share is worked out. Confirm the current rules with the City before you rely on a unit being legal.</p>
 
 <h2>Manufactured homes and Cultus Lake leases</h2>
@@ -43,15 +43,15 @@ ${ratesStrip()}
 <ol>
 <li><strong>Names the property type early.</strong> House, acreage, manufactured home or leased cabin. He tells you which lenders fit before you write an offer.</li>
 <li><strong>Lines up the timing.</strong> If you're selling elsewhere, he maps closing dates, the old mortgage and any bridge you might need.</li>
-<li><strong>Compares lenders in writing.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> puts rate, term, penalty method and privileges side by side.</li>
-<li><strong>Follows up.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> means an annual review and contact about six months before your maturity date.</li>
+<li><strong>Writes the comparison down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> shows rate, term, penalty method and privileges for each lender.</li>
+<li><strong>Checks in later.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> adds a yearly review and a contact before your maturity date.</li>
 </ol>
 
-${callout("What you pay", "<p>On a mortgage placed with an A lender, the lender pays the broker and you pay nothing for the service. Fees come up only on some B-lender and private files, which acreage and leasehold properties sometimes need. In BC, any fee must be disclosed in writing on BCFSA's Form 1A before you commit. You'll know the cost before you decide.</p>")}
+${callout("What you pay", "<p>Most Chilliwack files go to an A lender, where the lender pays Joshua and you pay nothing for his work. Acreage and leasehold properties sometimes need a B or private lender. Any fee to you must be disclosed in writing on BCFSA's Form 1A before you commit.</p>")}
 
 <h2>Buying, renewing and refinancing</h2>
 <p><strong>Buyers</strong> should start with the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a>, even if this isn't your first home. It lists the steps in order. <strong>Self-employed owners</strong> will find the routes in the <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a>, which matters for farm and trades income.</p>
-<p><strong>Renewing owners</strong> should treat the lender's letter as an opening offer. The <a href="/mortgage-renewal-bc/">renewal guide</a> explains the timeline. The <a href="/mortgage-calculators/">calculators</a> run your own figures. Current rates, and how your rate is set, are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
+<p><strong>Renewing owners</strong> in Chilliwack should treat the letter as a first offer. The <a href="/mortgage-renewal-bc/">renewal guide</a> explains the timeline, the <a href="/mortgage-calculators/">calculators</a> run your figures, and the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a> shows how a rate is set.</p>
 
 <h2>Nearby</h2>
 <p>Joshua serves the whole Fraser Valley the same way. The <a href="/mortgage-broker-abbotsford/">Abbotsford page</a> covers the next city west, including acreage and Agricultural Land Reserve property. The <a href="/mortgage-broker-langley/">Langley page</a> covers the Township and the City of Langley. Communities near Chilliwack, such as Rosedale and Agassiz, may fall under a different local government, so their bylaws can differ. Joshua serves them too.</p>
