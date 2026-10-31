@@ -120,6 +120,14 @@ export const SLUGS = `/
 /mortgages-for-military-and-veterans/
 /mortgages-for-nurses-and-healthcare-workers/
 /mortgages-for-single-parents/
+/mortgages-for-doctors-and-dentists/
+/mortgages-for-real-estate-agents/
+/mortgages-for-lawyers-accountants-and-engineers/
+/mortgages-for-government-and-city-employees/
+/mortgages-for-teachers-and-school-staff/
+/mortgages-for-tech-workers/
+/mortgages-for-truckers-and-owner-operators/
+/mortgages-for-camp-mine-and-shift-workers/
 /foreign-buyers-bc/
 /new-to-canada-mortgage/
 /newly-self-employed-mortgage/
