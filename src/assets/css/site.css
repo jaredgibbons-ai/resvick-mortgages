@@ -276,3 +276,5 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 .thx-contact{background:var(--card);border:1px solid var(--rule);border-radius:var(--r);padding:8px 20px 14px;margin:1.6em 0}.thx-btns{display:flex;flex-wrap:wrap;gap:10px}
 
 .wizard [data-show-if]:not([hidden]){margin-top:18px}.wizard .row2{margin-top:16px}.wizard .choice+.choice,.wizard .row2+.choice{margin-top:16px}
+
+.ftr-cities{columns:2;column-gap:20px}.ftr-cities li{break-inside:avoid}

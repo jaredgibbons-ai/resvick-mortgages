@@ -62,6 +62,16 @@ export const SLUGS = `/
 /mortgage-application-checklist/
 /mortgage-broker-abbotsford/
 /mortgage-broker-burnaby/
+/mortgage-broker-west-kelowna/
+/mortgage-broker-penticton/
+/mortgage-broker-vernon/
+/mortgage-broker-courtenay/
+/mortgage-broker-saanich/
+/mortgage-broker-langford/
+/mortgage-broker-squamish/
+/mortgage-broker-new-westminster/
+/mortgage-broker-port-moody/
+/mortgage-broker-port-coquitlam/
 /mortgage-broker-white-rock/
 /mortgage-broker-north-vancouver/
 /mortgage-broker-mission/

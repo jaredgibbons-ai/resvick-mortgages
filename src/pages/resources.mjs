@@ -39,6 +39,7 @@ const GROUPS = [
   ["Cities served", "Joshua works from his Surrey office and serves all of BC online and by phone. These pages cover the local details.", [
     "/mortgage-broker-surrey/", "/mortgage-broker-vancouver/", "/mortgage-broker-langley/", "/mortgage-broker-burnaby/", "/mortgage-broker-coquitlam/", "/mortgage-broker-richmond/",
     "/mortgage-broker-white-rock/", "/mortgage-broker-delta/", "/mortgage-broker-north-vancouver/", "/mortgage-broker-maple-ridge/", "/mortgage-broker-mission/", "/mortgage-broker-chilliwack/",
+    "/mortgage-broker-port-coquitlam/", "/mortgage-broker-port-moody/", "/mortgage-broker-new-westminster/", "/mortgage-broker-squamish/", "/mortgage-broker-langford/", "/mortgage-broker-saanich/", "/mortgage-broker-courtenay/", "/mortgage-broker-vernon/", "/mortgage-broker-penticton/", "/mortgage-broker-west-kelowna/",
     "/mortgage-broker-abbotsford/", "/mortgage-broker-victoria/", "/mortgage-broker-nanaimo/", "/mortgage-broker-kelowna/", "/mortgage-broker-kamloops/", "/mortgage-broker-prince-george/",
     "/mortgage-rates-vancouver/", "/mortgage-rates-surrey/"]]
 ];
