@@ -45,6 +45,18 @@ ${ratesStrip()}
 <li><strong>Ask how long the job runs.</strong> A home you may leave in two years carries a different risk than one you plan to keep for ten.</li>
 </ol>
 
+<h2>Moving to Kitimat: buying a home before or after you arrive</h2>
+<p>Many people who search for buying a home in Kitimat are not living here yet. They have a job offer, a start date and a short window to find a place. Moving to Kitimat for work brings a few mortgage questions that a local buyer does not face.</p>
+<p>Here is an order that tends to work:</p>
+<ol>
+<li><strong>Get pre-approved before you visit.</strong> A pre-approval tells you what price range to search in. It also holds a rate for a set time, so you can look without a clock on your back. The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> shows what lenders ask for.</li>
+<li><strong>Bring your offer letter.</strong> A signed offer, your pay rate and your start date matter most. If you worked in the same trade before, add your past pay stubs and T4s.</li>
+<li><strong>Ask about probation.</strong> Many lenders want probation finished before they fund. Some will look at a file earlier in certain cases. Policies vary, so raise it early.</li>
+<li><strong>Time your closing to your move.</strong> If you can, pick a closing date that falls after you start work and after any probation ends.</li>
+<li><strong>Plan for the home you leave.</strong> If you own a place elsewhere, the sale date matters. A <a href="/bridge-financing/">bridge loan</a> may cover a gap in some cases.</li>
+</ol>
+<p>You do not have to live in Kitimat to start. Joshua works by phone and video, so a pre-approval can be done before you ever drive up Highway 37 or Highway 16. If you are moving from another province, lenders ask for the same kinds of papers. They just come from a different employer and a different bank.</p>
+
 <h2>Contract, camp and rotation pay</h2>
 <p>Large projects hire in several ways, and a lender sorts them into different boxes. Policies vary, so Joshua checks each file against a lender's rules before you apply.</p>
 <h3>Permanent staff</h3>
@@ -97,13 +109,15 @@ ${cta({ title: "Talk to a broker who serves Kitimat", text: "Book a 15-minute ca
 
 export default {
   slug: "/mortgage-broker-kitimat/",
-  h1: "Mortgage broker serving Kitimat, BC",
-  lede: "Joshua Resvick, Xeva Mortgage, serves Kitimat from his Surrey office by phone and video. LNG and smelter pay, contract work, older homes and small-market appraisals, explained the way an underwriter reads them.",
+  h1: "Mortgage broker in Kitimat, BC: buying a home or moving to Kitimat",
+  lede: "Buying a home in Kitimat, or moving to Kitimat for work? Joshua Resvick, Xeva Mortgage, serves Kitimat from his Surrey office by phone and video. LNG and smelter pay, contract work, older homes and small-market appraisals, explained the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Kitimat", "/mortgage-broker-kitimat/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
+    { q: "Can I buy a home in Kitimat before I move there?", a: "Yes, often. Many people get pre-approved by phone or video, then make an offer when they visit or through a realtor. Lenders look at your job offer, pay and credit, not where you live today. Ask for a closing date that fits your start date and any probation." },
+    { q: "I am moving to Kitimat for a new job. When should I get pre-approved?", a: "As soon as you have a signed offer letter. A pre-approval shows your price range and holds a rate for a set time. Bring the offer, your start date, recent pay stubs and your down payment details. If you are still on probation, tell Joshua early so he can plan around it." },
     { q: "I work on a contract at an LNG site. Can I get a mortgage?", a: "Often yes. Lenders commonly look at whether the contract runs past closing, or whether you have a record of back-to-back contracts in the same trade. A permanent role is simpler. Joshua checks your file against lender rules before you apply, so you know where it stands." },
     { q: "Will a lender count my camp pay or living allowance?", a: "Many lenders do not count an allowance as income that can carry a mortgage, and some count only part of it. Base wage is usually counted in full once your job is confirmed. Ask before you assume the allowance helps, and keep the pay stubs that show it." },
     { q: "My employer housing lease may end. Should I buy instead of renting?", a: "It depends on how long you plan to stay and what rent would cost. The District's report expects rents to rise as company leases reset. Compare the monthly cost of a home you could really buy with the rent you may face. A pre-approval shows your budget without a commitment." },
