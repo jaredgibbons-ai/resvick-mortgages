@@ -13,4 +13,4 @@ Source: josh-resvick-package-2026-10-30.zip (INTAKE.md addendum, CONFIRM-LIST.md
 1 Punjabi: no (pages deleted). 2 Licence: MB503619 (in). 6 Proof line: "Over 1,000 mortgages funded" (in). 12 Service promises: confirmed (in). 13 Aftercare name: Resvick Aftercare. 16 Rates: no rates shown (Jared's call; panel auto-returns if a dated rate is ever supplied).
 
 ## Still open for Josh
-3 VERICO/Xeva disclosure wording · 4 first licensed year (copy says ten years as a broker) · 5 lender count (copy says "many lenders") · 7 Google review link and count · 8 suite-income lender practice · 9 spousal buyout insurers (Sagen 2019 bulletin is cited) · 10 lender norms · 11 MLI Select tiers · 14 CRM webhook and alert email · 15 GA4 property · 17 registrar and account access.
+3 Xeva disclosure wording · 4 first licensed year (copy says ten years as a broker) · 5 lender count (copy says "many lenders") · 7 Google review link and count · 8 suite-income lender practice · 9 spousal buyout insurers (Sagen 2019 bulletin is cited) · 10 lender norms · 11 MLI Select tiers · 14 CRM webhook and alert email · 15 GA4 property · 17 registrar and account access.

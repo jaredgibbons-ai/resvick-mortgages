@@ -16,7 +16,7 @@ Added: the guides engine, 12 pages (120 total: 108 evergreen + /guides/ + 11 pos
 
 ## GBP and directories (§7.14)
 `docs/GBP-SETUP.md`: claim and verify steps, how to handle the father's separate Invis listing (never merge, cite or borrow reviews), NAP block, categories, a 746-character description, 20 named service areas (Metro Vancouver and Fraser Valley, not "all of BC"), 21 services mirroring the site with UTM links, 8 seeded Q&A pairs, first-month posting plan, review-request SMS and email scripts, monthly maintenance.
-`docs/DIRECTORY-LISTINGS.md`: NAP, three description lengths, UTM table, claim steps for Birdeye, WOWA, ThreeBestRated, VERICO/Xeva, Bing, Apple, Yelp, a 13-item consistency checklist.
+`docs/DIRECTORY-LISTINGS.md`: NAP, three description lengths, UTM table, claim steps for Birdeye, WOWA, ThreeBestRated, Xeva, Bing, Apple, Yelp, a 13-item consistency checklist.
 
 ## Launch plumbing
 - `GA4_ID` build variable injects gtag on every page (anonymize_ip); events already fire from `track.js`, `forms.js`, `calc-ui.js`. `STAGING=1` forces site-wide noindex for the password-protected preview.

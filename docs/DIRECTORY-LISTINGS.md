@@ -90,11 +90,11 @@ Why: its Langley list ranked third for "mortgage broker Langley". ThreeBestRated
 2. Supply the NAP block, the medium description and the ThreeBestRated UTM URL.
 3. Selection depends mostly on Google review volume and consistency over time, so this is a six-to-twelve-month outcome tied to the review engine in GBP-SETUP.md section 9. Nominate now, expect nothing until reviews exist.
 
-### VERICO and Xeva profile alignment
+### Xeva profile alignment
 Why: the brokerage's own directory is the one citation that also confirms the licence relationship, and it is the first place a lender or regulator looks.
-1. **JOSH:** ask Xeva for the edit access to his agent profile on the Xeva site and on the VERICO broker directory.
+1. **JOSH:** ask Xeva for the edit access to his agent profile on the Xeva site.
 2. Make the name, phone, email, address and photo match the NAP block exactly. Replace any old headshot with the hero portrait.
-3. Set the website link to the VERICO UTM URL. If the profile has a bio field, use the medium description.
+3. Set the website link to the Xeva UTM URL. If the profile has a bio field, use the medium description.
 4. Confirm the licence number shown is MB503619 and the brokerage licence is X300203.
 5. If Xeva requires a network disclosure line on agent sites, get the exact wording (Confirm List item 3) and send it to Jared for the footer.
 
@@ -142,6 +142,6 @@ Keep one row per directory in a shared sheet: directory, URL of the live listing
 ## What Josh must supply
 
 1. Logins he owns for Google, Microsoft, Apple and Yelp (or create them under joshua@resvickmortgages.com).
-2. Edit access to his Xeva and VERICO profiles, and the network disclosure wording if Xeva requires one.
+2. Edit access to his Xeva profile, and the network disclosure wording if Xeva requires one.
 3. Real business hours.
 4. A decision on ThreeBestRated nomination timing (now, or after the first reviews exist).
