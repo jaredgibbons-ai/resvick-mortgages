@@ -31,6 +31,9 @@ ${ratesStrip()}
 </ul>
 <p>The Castlegar housing report found that employers struggle to hire because housing is hard to find. In interviews from December 2022, some said senior jobs stayed unfilled because candidates could not find a home (City of Castlegar, 2023 Castlegar Housing Needs Report, read October 2026). That interview data is older, but it shows why relocating buyers are common here.</p>
 
+<h2>Incomes in Trail and Castlegar</h2>
+<p>The census counts the two cities separately, and the numbers differ. In Trail, the median household income was $68,000 for 2020, and 11.3 percent of workers were self-employed (395 of 3,500). Health care was the largest industry with about 560 workers, then retail with about 530 and manufacturing with about 415. In Castlegar, the median was $81,000, and 12.0 percent were self-employed (480 of 4,000). Health care led with about 610 workers, then retail with about 510 and manufacturing with about 485. (Statistics Canada, 2021 Census Profile, read October 2026). The gap of $13,000 in the medians is worth knowing if you are comparing prices between the two. Both cities lean on wages from hospitals, stores and plants, so most files are salaried. For those, lenders usually want a recent pay stub, a job letter and your tax slips. Manufacturing pay can include shift premiums or overtime, which a lender may average over two years.</p>
+
 <h2>Moving to the West Kootenay</h2>
 <p>Plenty of Trail and Castlegar buyers are still living elsewhere when they start looking. Some are starting at the smelter, the mill or the college. Others are leaving the Lower Mainland or Calgary for a slower pace. Here is a way to line things up:</p>
 <ol>

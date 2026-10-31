@@ -25,6 +25,9 @@ ${ratesStrip()}
 </ul>
 <p>If your pay includes overtime, shift premiums or camp rotations, see our page for <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>. Truck drivers can read the <a href="/mortgages-for-truckers-and-owner-operators/">trucker page</a>.</p>
 
+<h2>Incomes in Prince Rupert</h2>
+<p>Prince Rupert's median household income was $95,000 for 2020. About 11.5 percent of workers were self-employed, or 780 of 6,780 in the labour force. The biggest industry by far was transportation and warehousing, with about 1,550 workers. Retail had about 795 and health care about 655. (Statistics Canada, 2021 Census Profile, read October 2026). Transportation and warehousing covers the port, the railway and the trucking and marine firms that serve them. Those jobs often pay overtime, shift premiums or seasonal extras. Lenders usually average that extra pay over about two years, so keep your pay stubs and tax slips together. The census is from 2021, so it does not show later job changes at the port.</p>
+
 <h2>Moving to Prince Rupert for work</h2>
 <p>Many people who search for buying a home in Prince Rupert do not live here yet. They are starting a job at the port, the hospital or a school. The City's 2022 housing report says Northern Health lost 18 staff in two years and ties part of that to housing (City of Prince Rupert, Prince Rupert Housing Needs Report, December 2022, read October 2026). The Province describes a 40-home rental project called Estrella as housing for people who work in health care, education, port operations and logistics (BC Government News, Minister's statement on March 2026 housing highlights, April 10, 2026, read October 2026).</p>
 <p>An order that tends to work:</p>
