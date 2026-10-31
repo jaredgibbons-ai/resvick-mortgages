@@ -118,7 +118,8 @@ function ld(obj) { return `<script type="application/ld+json">${JSON.stringify(o
 export function businessSchema() {
   return {
     "@context": "https://schema.org", "@type": ["MortgageBroker", "FinancialService"], "@id": SITE.origin + "/#business",
-    name: SITE.name, url: SITE.origin + "/", telephone: "+1-778-882-5674", email: SITE.email,
+    name: SITE.name, url: SITE.origin + "/", image: SITE.origin + "/assets/img/og-default.jpg", logo: SITE.origin + "/assets/apple-touch-icon.png", telephone: "+1-778-882-5674", email: SITE.email,
+    identifier: [{ "@type": "PropertyValue", propertyID: "BCFSA mortgage broker licence", value: SITE.brokerLicence }, { "@type": "PropertyValue", propertyID: "BCFSA brokerage licence", value: "X300203" }],
     address: { "@type": "PostalAddress", streetAddress: "#106, 2626 Croydon Drive", addressLocality: "Surrey", addressRegion: "BC", postalCode: "V3Z 0S8", addressCountry: "CA" },
     areaServed: { "@type": "AdministrativeArea", name: "British Columbia" },
     founder: { "@type": "Person", name: SITE.person, jobTitle: "Mortgage Broker" },
@@ -183,12 +184,13 @@ export function render(page) {
 <link rel="canonical" href="${url}">
 ${page.noindex ? '<meta name="robots" content="noindex,follow">' : ""}
 ${page.alternate ? `<link rel="alternate" hreflang="en-CA" href="${SITE.origin}${page.alternate}"><link rel="alternate" hreflang="${page.lang || "en-CA"}" href="${url}">` : ""}
-<meta property="og:type" content="website"><meta property="og:site_name" content="Resvick Mortgages"><meta property="og:title" content="${esc(page.title)}"><meta property="og:description" content="${esc(page.meta)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${SITE.origin}/assets/img/og-default.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:locale" content="en_CA"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(page.title)}"><meta name="twitter:description" content="${esc(page.meta)}"><meta property="og:type" content="website"><meta property="og:site_name" content="Resvick Mortgages"><meta property="og:title" content="${esc(page.title)}"><meta property="og:description" content="${esc(page.meta)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${SITE.origin}/assets/img/og-default.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#253551">
 ${SITE.ga4 ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${SITE.ga4}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","${SITE.ga4}",{anonymize_ip:true})</script>` : ""}
 ${process.env.STAGING ? '<meta name="robots" content="noindex,nofollow">' : ""}
 <link rel="preload" href="/assets/fonts/figtree-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/assets/favicon-48.png" sizes="48x48" type="image/png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/css/site.css">
 ${schemas.map(ld).join("\n")}
 </head><body${page.home ? ' class="is-home"' : ""}>

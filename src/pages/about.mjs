@@ -11,7 +11,7 @@ const hero = `<div class="hero-copy"><h1>Joshua Resvick, mortgage broker in Surr
 <div class="hero-actions"><a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a 15-minute call</a></div></div>${photo}`;
 
 const body = `
-${short({ answer: "I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as an underwriter, then ten as a broker, and I've funded over 1,000 mortgages.", who: "Anyone in BC who wants to know who they'd be working with before they call.", next: "Book a free <a href=\"${SITE.book}\">15-minute call</a>, or read <a href=\"/how-mortgage-brokers-get-paid/\">how brokers get paid</a> first." })}
+${short({ answer: "I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as an underwriter, then ten as a broker, and I've funded over 1,000 mortgages.", who: "Anyone in BC who wants to know who they'd be working with before they call.", next: "Book a free <a href=\"https://cal.com/resvickmortgages/mortgage-advice\">15-minute call</a>, or read <a href=\"/how-mortgage-brokers-get-paid/\">how brokers get paid</a> first." })}
 
 <h2>Who I am</h2>
 <p>I'm the broker behind Resvick Mortgages. I work under Xeva Mortgage (Verico Xeva Mortgage Inc.). My office is in Surrey, British Columbia. I work with clients across the province, online and by phone.</p>

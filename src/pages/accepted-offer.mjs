@@ -40,7 +40,7 @@ const form = `
 </div>`;
 
 const body = `
-${short({ answer: "Send me three things today: the contract, the listing and your dates. I will line up the lender in the right order so you can meet your subject removal date.", who: "Anyone with an accepted offer and a financing condition. No offer yet? Start with the <a href=\"/mortgage-pre-approval-bc/\">pre-approval guide</a>.", next: "Use the form below, or phone <a href=\"${SITE.phoneHref}\" data-evt=\"phone_click\">${SITE.phone}</a> if your deadline is within a few days." })}
+${short({ answer: "Send me three things today: the contract, the listing and your dates. I will line up the lender in the right order so you can meet your subject removal date.", who: "Anyone with an accepted offer and a financing condition. No offer yet? Start with the <a href=\"/mortgage-pre-approval-bc/\">pre-approval guide</a>.", next: "Use the form below, or phone <a href=\"tel:+17788825674\" data-evt=\"phone_click\">778.882.5674</a> if your deadline is within a few days." })}
 <h2>First, breathe. Then send me three things.</h2>
 <p>An accepted offer with a financing condition gives you a deadline. It is usually a week or so to get a lender's approval, and sometimes less. That's enough time if the file moves in the right order. That order starts today. Here's what I need first:</p>
 <ol>

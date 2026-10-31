@@ -44,6 +44,9 @@ for (const [pkg, ws] of fonts) for (const w of ws) {
   fs.copyFileSync(path.join(root, "node_modules/@fontsource", pkg, "files", name), path.join(dist, "assets/fonts", name));
 }
 
+fs.copyFileSync(path.join(root, "src/assets/favicon.svg"), path.join(dist, "favicon.svg"));
+fs.copyFileSync(path.join(root, "src/assets/favicon-48.png"), path.join(dist, "favicon.ico"));
+
 // 3. 404, sitemap, robots, redirects, headers
 const nf = render({ slug: "/404.html", title: "Page not found | Resvick Mortgages", meta: "That page is not here. Start from the hubs below.", h1: "That page is not here", lede: "The address may have changed. These are the main sections of the site.", noindex: true,
   body: `<p>Try one of these: <a href="/first-time-home-buyer-bc/">first-time home buyers</a>, <a href="/mortgage-renewal-bc/">mortgage renewals</a>, <a href="/refinance-mortgage-bc/">refinancing</a>, <a href="/mortgage-calculators/">calculators</a>, or <a href="/contact/">contact Joshua</a> directly.</p>` });
