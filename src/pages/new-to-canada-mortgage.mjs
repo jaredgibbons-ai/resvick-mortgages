@@ -56,6 +56,8 @@ ${short({ answer: "You don't need years of Canadian credit. Canada's three mortg
 <li><strong>Aftercare.</strong> The relationship continues after funding. That matters for a newcomer, whose income and credit will look different at renewal.</li>
 </ol>
 
+<p>If you are not yet a permanent resident, or you live abroad, two more rules can apply: the federal foreign buyer ban and BC's foreign buyer tax. The <a href="/foreign-buyers-bc/">foreign buyer page</a> explains both.</p>
+
 <h2>What the service costs</h2>
 <p>An insured newcomer mortgage usually goes to a mainstream A lender. On those, the lender pays the broker and you pay nothing for the service. Fees only come up on certain B-lender and private files. In BC, they're disclosed in writing on BCFSA's Form 1A before you commit. Mortgage insurance has its own premium, which is added to the mortgage. The <a href="/mortgage-calculators/#cmhc">CMHC premium calculator</a> shows the amount.</p>
 

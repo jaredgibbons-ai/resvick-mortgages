@@ -111,6 +111,7 @@ export const SLUGS = `/
 /mortgages-for-military-and-veterans/
 /mortgages-for-nurses-and-healthcare-workers/
 /mortgages-for-single-parents/
+/foreign-buyers-bc/
 /new-to-canada-mortgage/
 /newly-self-employed-mortgage/
 /open-vs-closed-mortgage/

@@ -24,7 +24,7 @@ const GROUPS = [
     "/behind-on-mortgage-payments/", "/missed-a-mortgage-payment/", "/mortgage-payment-deferral/", "/mortgage-default-and-foreclosure-bc/", "/bad-credit-mortgage-bc/",
     "/build-credit-for-a-mortgage/", "/mortgage-after-bankruptcy/", "/mortgage-after-consumer-proposal/"]],
   ["Your situation", "Your job, your household or your stage of life can change how a lender reads your file.", [
-    "/mortgages-for-first-responders/", "/mortgages-for-nurses-and-healthcare-workers/", "/mortgages-for-military-and-veterans/", "/new-to-canada-mortgage/",
+    "/mortgages-for-first-responders/", "/mortgages-for-nurses-and-healthcare-workers/", "/mortgages-for-military-and-veterans/", "/new-to-canada-mortgage/", "/foreign-buyers-bc/",
     "/mortgages-during-separation-and-divorce/", "/mortgages-for-single-parents/"]],
   ["Property types", "Strata, manufactured homes and farmland each have their own lender rules.", [
     "/condo-and-townhouse-mortgages/", "/mobile-home-mortgages-bc/", "/farm-and-alr-mortgages-bc/"]],

@@ -54,7 +54,7 @@ ${short({ answer: "BC property transfer tax is 1 percent on the first $200,000 a
 <p>On a $750,000 home with one qualifying buyer, the exemption is $4,000 instead of $8,000. The tax payable is $9,000. Use the share selector in the calculator to model it. This surprises many couples, so know it before you choose how to take title.</p>
 
 <h2>What the calculator does not include</h2>
-<p>The tool follows the Province's rules for standard cases. It doesn't model properties over 0.5 hectares, which have their own treatment. It doesn't include the additional tax on foreign nationals, foreign corporations and certain trustees in designated areas of BC. It also leaves out any other tax or fee on completion. The Province's own assessment is the final word. Your lawyer or notary will confirm the exact amount before closing.</p>
+<p>The tool follows the Province's rules for standard cases. It doesn't model properties over 0.5 hectares, which have their own treatment. It doesn't include the additional tax on foreign nationals, foreign corporations and certain trustees in designated areas of BC. The <a href="/foreign-buyers-bc/">foreign buyer page</a> shows where it applies. It also leaves out any other tax or fee on completion. The Province's own assessment is the final word. Your lawyer or notary will confirm the exact amount before closing.</p>
 
 <h2>Where it fits in your closing costs</h2>
 <p>The transfer tax is only one item. A realistic cash plan also covers your down payment and legal fees. Add an appraisal if the lender needs one, a home inspection and title insurance. Then there are adjustments for property taxes and utilities, plus moving costs.</p>
