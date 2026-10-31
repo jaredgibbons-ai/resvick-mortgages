@@ -2,13 +2,13 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "You can usually refinance a rental up to 80 percent of its value at an A lender, if you have about four rental properties or fewer, and about 75 percent at alternative lenders. Lenders count part of the rent, check your whole portfolio and want leases and tax returns.", who: "BC landlords who want a better rate, cash for repairs or another purchase, or to clean up debt.", next: "See how lenders count rent on the <a href=\"/how-much-suite-income-will-a-lender-count/\">suite income page</a>." })}
+${short({ answer: "You can usually refinance a rental up to 80 percent of its value at an A lender, if you have about four rental properties or fewer, and up to 80 percent at alternative lenders on strong files, with less when credit or the property is harder. Lenders count part of the rent, check your whole portfolio and want leases and tax returns.", who: "BC landlords who want a better rate, cash for repairs or another purchase, or to clean up debt.", next: "See how lenders count rent on the <a href=\"/how-much-suite-income-will-a-lender-count/\">suite income page</a>." })}
 
 <h2>The direct answer</h2>
 <p>Yes, you can refinance a rental property in BC. How much you can take out, and from whom, depends on the type of lender and on how many rental properties you hold.</p>
 <ul>
 <li><strong>A lenders (banks, credit unions and mainstream lenders).</strong> A refinance on a rental is generally capped at 80 percent of its appraised value. Many lenders apply that to portfolios of up to about four rental doors. Past that, a lender's appetite and rules change. The file may need a different lender.</li>
-<li><strong>Alternative lenders.</strong> These are more flexible about the borrower and the property. They often cap the loan at about 75 percent of value, with a higher rate and sometimes fees.</li>
+<li><strong>Alternative lenders.</strong> These are more flexible about the borrower and the property. Strong files can reach 80 percent. When credit or the property is harder, the cap often falls to 65 to 75 percent of value. Expect a higher rate and sometimes fees.</li>
 </ul>
 <p>These ceilings are typical, not fixed, and each lender sets its own. Confirm the limits for your property and your portfolio before planning around them. Here is the arithmetic. Suppose your rental is worth $700,000 and you owe $380,000. At 80 percent, the largest new mortgage is $560,000, which leaves up to $180,000 of room before costs. At 75 percent it is $525,000 and $145,000 of room. The <a href="/home-equity-estimator/">home equity estimator</a> gives a first look at what your own number might be.</p>
 <p>A rental refinance is a full new application, and it is subject to the same stress test as other refinances. If you are renewing rather than refinancing, the page on <a href="/rental-property-mortgage-renewal/">rental property mortgage renewal</a> explains how that route differs. The wider view is on the <a href="/refinance-mortgage-bc/">refinance hub</a>.</p>
@@ -58,11 +58,11 @@ ${callout("Portfolios change the answer", "<p>The number of rental properties yo
 export default {
   slug: "/refinance-rental-property/",
   h1: "Can I refinance my rental property? A BC landlord guide",
-  lede: "Usually yes, to 80 percent at A lenders for smaller portfolios and about 75 percent at alternative lenders. How rent is counted, what to document and how to decide.",
+  lede: "Usually yes, to 80 percent at A lenders for smaller portfolios and 65 to 80 percent at alternative lenders, depending on the file. How rent is counted, what to document and how to decide.",
   crumbs: [["Home", "/"], ["Refinancing", "/refinance-mortgage-bc/"], ["Refinance a rental", "/refinance-rental-property/"]],
   nav: "/refinance-mortgage-bc/", body,
   faqs: [
-    { q: "Can I refinance a rental property in BC?", a: "Yes. A lenders generally lend up to 80 percent of the appraised value, often for portfolios of up to about four rental doors, and alternative lenders commonly lend up to about 75 percent. Limits vary by lender, so confirm yours before you plan around them." },
+    { q: "Can I refinance a rental property in BC?", a: "Yes. A lenders generally lend up to 80 percent of the appraised value, often for portfolios of up to about four rental doors, and alternative lenders can reach 80 percent on strong files, but often lend 65 to 75 percent when credit or the property is harder. Limits vary by lender, so confirm yours before you plan around them." },
     { q: "How does a lender count my rental income?", a: "Typically by offset, where 50 to 80 percent of rent reduces the property's costs, or by add-back, where about 50 percent of rent is added to your income. The method and the percentage depend on the lender, and the unit usually needs to be legal and documented." },
     { q: "What documents do I need to refinance a rental?", a: "Signed leases, bank statements showing rent deposits, your T776 rental statement, property tax and insurance statements, and mortgage statements for the other properties you hold. A rental with under about two years of rent history may be capped." },
     { q: "Is the interest on a rental refinance tax deductible?", a: "In general, interest is deductible when the borrowed money is used to earn income from the property, and the CRA looks at how the funds are used. Money used for personal purposes is not deductible. This is general information, so speak to an accountant about your case." },

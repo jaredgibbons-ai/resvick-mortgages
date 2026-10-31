@@ -52,9 +52,9 @@ export default {
   },
   "/build-credit-for-a-mortgage/": {
     specTitle: "How to Build Credit for a Mortgage | The 2/2/2 Rule",
-    specMeta: "Two trades, two years, two-thousand-dollar limits — the 2/2/2 rule lenders use to judge rebuilt credit. A practical BC plan to become mortgage-ready.",
+    specMeta: "Two trades, two years, two-thousand-dollar limits — the 2/2/2 rule of thumb for rebuilt credit. A practical BC plan to become mortgage-ready.",
     title: "How to Build Credit for a Mortgage | The 2/2/2 Rule",
-    meta: "Two trades, two years, $2,000 limits: the 2/2/2 rule lenders use to judge rebuilt credit. A practical plan for BC buyers to become mortgage-ready.",
+    meta: "Two trades, two years, $2,000 limits: the 2/2/2 rule of thumb for rebuilt credit. A practical plan for BC buyers to become mortgage-ready.",
     links: ["/bad-credit-mortgage-bc/", "/mortgage-after-bankruptcy/", "/mortgage-application-checklist/", "/mortgage-calculators/#affordability", "/first-time-home-buyer-bc/", "/mortgage-calculators/#quiz", "/contact/"]
   },
   "/private-mortgage-lending-bc/": {

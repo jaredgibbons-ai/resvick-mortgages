@@ -58,7 +58,7 @@ export default {
  },
  "/refinance-rental-property/": {
   "title": "Can I Refinance My Rental Property? | BC Landlord Guide",
-  "meta": "Yes — usually to 80% at A lenders (up to ~4 doors), ~75% alternative. Rent proof, T776s and portfolio rules: how rental refinances get approved in BC.",
+  "meta": "Yes. Usually to 80% at A lenders (up to ~4 doors), 65% to 80% at alternative lenders. Rent proof, T776s and portfolio rules: how rental refinances get approved in BC.",
   "links": [
    "/rental-property-mortgage-renewal/",
    "/investment-property-mortgages-bc/",

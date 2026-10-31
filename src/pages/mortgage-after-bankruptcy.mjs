@@ -16,8 +16,8 @@ ${short({
 <h2>The standard re-establishment expectations</h2>
 <p>Three things show up on almost every lender's list after a bankruptcy.</p>
 <ol>
-<li><strong>Time since discharge.</strong> Lenders count from your discharge date, not your filing date. A lenders and the mortgage insurers typically want a stretch of clean history after discharge before offering standard pricing. Two years is the figure most often quoted in the industry. Some lenders want longer for an insured purchase. B lenders will often look at a file sooner.</li>
-<li><strong>Re-established credit.</strong> Lenders want to see new credit opened after discharge, and paid perfectly. The industry shorthand is the 2/2/2 rule: two accounts, open about two years, with limits around $2,000 or more. The page on <a href="/build-credit-for-a-mortgage/">building credit for a mortgage</a> explains how to meet it. That includes secured credit cards if you can't get a regular one yet.</li>
+<li><strong>Time since discharge.</strong> Lenders count from your discharge date, not your filing date. A lenders and the mortgage insurers typically want a stretch of clean history after discharge before offering standard pricing. Sagen's published guideline is two years after discharge, plus two years of re-established credit, and prime lenders commonly use the same test. Some lenders want longer for an insured purchase. B lenders will often look at a file sooner.</li>
+<li><strong>Re-established credit.</strong> Lenders want to see new credit opened after discharge, and paid perfectly. The industry shorthand is the 2/2/2 rule: two accounts, open about two years, with limits around $2,000 or more. It is a rule of thumb, and the limit varies by lender. The page on <a href="/build-credit-for-a-mortgage/">building credit for a mortgage</a> explains how to meet it. That includes secured credit cards if you can't get a regular one yet.</li>
 <li><strong>No new missed payments.</strong> A late payment after discharge reads as the old pattern continuing, not a one-off. In a lender's eyes, it can reset the clock. A perfect payment record after bankruptcy matters more than anything else.</li>
 </ol>
 <p>These are norms, and Joshua will confirm each lender's current policy for your file. The direction is consistent, though. The longer since discharge and the cleaner your new history, the more lenders you can use and the better the price.</p>
@@ -34,7 +34,7 @@ ${short({
 <p>The exact mix of time and credit each insurer wants changes. Joshua checks the current position when you apply, instead of quoting a rule that may have moved.</p>
 <h3>The conventional route</h3>
 <p>With 20 percent or more down, no insurer is involved. The lender's own policy decides. A lenders still apply their norms on time and credit.</p>
-<p>B lenders are more flexible. They'll often consider a file within a year or two of discharge. Expect a higher rate, a lender fee and a short term. The <a href="/b-lender-mortgage-bc/">B lender page</a> explains that pricing and the plan back to an A lender.</p>
+<p>B lenders are more flexible. Timelines vary by lender and product. Some consider a file within a year of discharge, and a few sooner. Expect a higher rate, a lender fee and a short term. The <a href="/b-lender-mortgage-bc/">B lender page</a> explains that pricing and the plan back to an A lender.</p>
 
 <h2>Down payment: more helps, and its source matters</h2>
 <p>A bigger down payment helps a post-bankruptcy file in two ways. It opens the conventional route, which takes the insurer's rules out of the picture. And it lowers the lender's risk, which makes a B lender more willing, and sometimes better on rate.</p>
@@ -49,7 +49,7 @@ ${callout("Documents to gather", "<p>Start with the standard items on the <a hre
 
 <h2>B and private routes in the interim</h2>
 <p>Want or need to buy before an A lender will look at the file? There are two interim routes.</p>
-<p>A B lender will often fund a purchase or refinance within a year or two of discharge. You need rebuilt credit and at least 20 percent down. The rate is higher and a lender fee applies. But the terms are short, and the move to an A lender is planned from the start.</p>
+<p>Depending on the lender and product, a B lender may fund a purchase or refinance within a year of discharge, and sometimes sooner. You need rebuilt credit and at least 20 percent down. The rate is higher and a lender fee applies. But the terms are short, and the move to an A lender is planned from the start.</p>
 <p>A private lender will fund sooner still, based on equity instead of credit. The cost only makes sense for a short time, with a set exit date.</p>
 <p>On either route, a broker fee can apply. BC rules require it to be disclosed to you in writing under BCFSA Form 1A before you commit. On an A-lender mortgage, the lender pays the broker and you pay nothing for the service. Joshua shows you every cost before you decide.</p>
 
@@ -73,7 +73,7 @@ export default {
   faqs: [
     { q: "How long after bankruptcy can I get a mortgage?", a: "Lenders count from the discharge date. A lenders and insurers typically want a clean period of around two years with re-established credit, and some want longer for an insured purchase. B lenders will often consider a file sooner, and private lenders sooner still, at a higher cost. Policies vary, so Joshua checks the current position for your file." },
     { q: "Does a bankruptcy have to be off my credit report first?", a: "No. Equifax Canada keeps a first bankruptcy on the report for six years after discharge, but lenders approve mortgages well before that, provided the time since discharge and the re-established credit meet their expectations. The entry is read alongside the clean history that follows it, not on its own." },
-    { q: "What is the 2/2/2 rule?", a: "An industry convention for rebuilt credit: two active accounts, each open about two years, with limits around $2,000 or more, all paid on time. It is not a regulation, and lenders apply it flexibly, but it describes what an underwriter wants to see after a bankruptcy." },
+    { q: "What is the 2/2/2 rule?", a: "An industry rule of thumb for rebuilt credit: two active accounts, each open about two years, with limits around $2,000 or more, all paid on time. It is not a regulation, and lenders apply it flexibly, but it describes what an underwriter wants to see after a bankruptcy." },
     { q: "Can I buy with 5 percent down after a bankruptcy?", a: "Sometimes. A purchase with less than 20 percent down must be insured, and the insurer applies its own standards on time since discharge and re-established credit. Where the file meets both the insurer's and the lender's rules, 5 percent down at A-lender pricing is possible." },
     { q: "Will I pay a broker fee because of my bankruptcy?", a: "Not if the mortgage is placed with an A lender, where the lender pays the broker and you pay nothing. If your file needs a B or private lender in the interim, a fee can apply and must be disclosed to you in writing under BCFSA Form 1A before you commit." }
   ]

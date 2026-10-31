@@ -21,7 +21,7 @@ ${ratesStrip()}
 
 <h2>Resource, shift and rotation income</h2>
 <ul>
-<li><strong>Mill and plant workers</strong> paid hourly, with shift premiums and overtime. Base pay counts at face value. Premiums and overtime are usually averaged over two years. Your proof is your T4s and an employment letter.</li>
+<li><strong>Mill and plant workers</strong> paid hourly, with shift premiums and overtime. Base pay counts at face value. Premiums and overtime usually need a two-year history, and lenders often count the lower of last year's total or the two-year average. Your proof is your T4s and an employment letter.</li>
 <li><strong>Camp and rotation workers</strong> in mining, pipeline, forestry or construction. Lenders look for steady work and renewed contracts. They also check whether you're paid on a T4 or by invoice. Living-out and travel allowances may or may not count, depending on the lender.</li>
 <li><strong>Seasonal workers</strong>, including people with regular EI periods. Some lenders average your full-year income over two years. Others leave EI out. The right lender depends on your pattern.</li>
 <li><strong>Owner-operators and contractors</strong>, from logging trucks to the trades. Lenders assess self-employed income from your tax returns. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains the add-backs and the two-year rule. It also covers stated-income and B-lender options for when your returns don't tell the whole story.</li>

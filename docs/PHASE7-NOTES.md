@@ -13,3 +13,15 @@
 
 ## Where reviews appear
 Home, about, contact, apply, refer, partners, first-time buyer, pre-approval, programs, affordability, down payment, accepted offer, broker vs bank, how brokers get paid, and every city page. All four reviews are purchase stories, so they are kept off renewal, refinance and self-employed pages. Controlled by REV_TAG in src/lib/site.mjs; each review has tags in reviews.json.
+
+## Fact-check 13-30 applied (Oct 31)
+Corrections from Jared's fact-check file applied to the site copy:
+- Alternative-lender refinance ceiling: 80% on strong files, 65% to 75% when credit or property is harder (was "about 75%"). Pages: refinance a rental, rental renewal, BRRRR, plus SEO meta.
+- Stated income: insured programs (Sagen, Canada Guaranty) can go to 10% down; uninsured and alternative programs are capped at 80% LTV.
+- 2/2/2 is labelled a rule of thumb, not a published insurer rule; the dollar limit varies by lender.
+- Bankruptcy and proposal: Sagen's two-year test is named; B-lender timelines vary by lender and product.
+- Variable pay: needs a two-year history; often the lower of last year or the two-year average (first responders, nurses, single parents, Kamloops, Prince George).
+- Porting: several major lenders allow up to 120 days.
+- Suite income: unauthorized-suite wording tightened (Sagen case by case, most A lenders count zero); Canada Guaranty caps at 50% of gross rent, so the 100% two-unit credit is CMHC and Sagen only; insurers publish no offset percentage.
+- Left as written (confirmed): strata 50%, HELOC 65/80, bridge financing, spousal buyout 95%, 90 days of down payment history, rate holds, prepayment privileges, short-term rental exclusion.
+Open gaps from the fact-check: CMHC and Canada Guaranty bankruptcy seasoning lines, CMHC tax-arrears rule, B2B figures (broker-hosted copy), and no insurer publishes an STR rule.

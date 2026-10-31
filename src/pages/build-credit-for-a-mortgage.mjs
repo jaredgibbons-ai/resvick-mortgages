@@ -2,14 +2,14 @@ import { cta, callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
-${short({ answer: "Lenders want a track record, not just a score. A common target is the 2/2/2 rule: two credit accounts, open about two years, each with a limit near $2,000, all paid on time. Most people can get there in 12 to 24 months.", who: "Anyone with thin, new or damaged credit who wants a mortgage. Already bankrupt or in a proposal? See <a href=\"/mortgage-after-bankruptcy/\">after bankruptcy</a>.", next: "Pull your reports from both bureaus this week, then <a href=\"/contact/\">book a 15-minute call</a> for a month-by-month plan." })}
+${short({ answer: "Lenders want a track record, not just a score. A common target is the 2/2/2 rule of thumb: two credit accounts, open about two years, each with a limit around $2,000 or more, all paid on time. It is a guide, not a published rule. Most people can get there in 12 to 24 months.", who: "Anyone with thin, new or damaged credit who wants a mortgage. Already bankrupt or in a proposal? See <a href=\"/mortgage-after-bankruptcy/\">after bankruptcy</a>.", next: "Pull your reports from both bureaus this week, then <a href=\"/contact/\">book a 15-minute call</a> for a month-by-month plan." })}
 <h2>How mortgage lenders judge credit</h2>
 <p>A credit score is a single number, and lenders look at it first. They don't stop there. An underwriter reading your report for a mortgage looks at three things together. They are the score, the depth of the history behind it, and the behaviour that history shows.</p>
 <p>A high score built on one card opened eight months ago is thin. A moderate score is different if it comes with two accounts paid perfectly for three years after a hard period. That history is deep. The second file is often stronger for a mortgage. It shows what a mortgage lender cares about most, which is a long run of payments made on time.</p>
 <p>That is why building credit for a mortgage is different from chasing a score. The goal is a report an underwriter can read as a track record. This page covers the rule lenders use to judge that record and the tools for building it. It covers the habits that move a score up or down, how to fix errors, and a realistic 12-to-24-month plan from wherever you are starting.</p>
 
 <h2>The 2/2/2 rule</h2>
-<p>Lenders in Canada commonly describe re-established or newly built credit with a shorthand: two trades, two years, two thousand dollars. A trade is a credit account that reports to the bureaus. Examples are a credit card, a line of credit or an instalment loan.</p>
+<p>Brokers in Canada commonly describe re-established or newly built credit with a shorthand: two trades, two years, two thousand dollars. It is a rule of thumb, not a published insurer rule. The two trades and the two years appear in published guidelines. The dollar figure varies by lender, and brokers often quote $2,000 to $2,500 or more. A trade is a credit account that reports to the bureaus. Examples are a credit card, a line of credit or an instalment loan.</p>
 <p>An underwriter wants to see at least two trades. Each should be open and reporting for about two years. Each should have a limit of roughly $2,000 or more. And all of them should be paid on time.</p>
 <p>The rule is a convention, not a regulation. Lenders apply it with some flexibility, and the insurers have their own standards. But it captures what matters:</p>
 <ul>
@@ -62,12 +62,12 @@ ${cta({ title: "Want a plan with a date on it?", text: "Take the readiness quiz,
 export default {
   slug: "/build-credit-for-a-mortgage/",
   h1: "How to build credit for a mortgage: the 2/2/2 rule",
-  lede: "Two trades, two years, limits around $2,000. That is the standard lenders use to judge built or rebuilt credit. Here is a practical plan to meet it in 12 to 24 months.",
+  lede: "Two trades, two years, limits around $2,000. That is the rule of thumb brokers use to judge built or rebuilt credit. Here is a practical plan to meet it in 12 to 24 months.",
   crumbs: [["Home", "/"], ["Self-employed", "/self-employed-mortgage-bc/"], ["Build credit", "/build-credit-for-a-mortgage/"]],
   nav: "/self-employed-mortgage-bc/",
   body,
   faqs: [
-    { q: "What is the 2/2/2 rule for mortgage credit?", a: "An industry convention: two credit accounts, each open and reporting for about two years, each with a limit of roughly $2,000 or more, all paid on time. It is not a regulation, and lenders apply it with some flexibility, but it describes what an underwriter wants to see on a built or rebuilt file." },
+    { q: "What is the 2/2/2 rule for mortgage credit?", a: "An industry convention: two credit accounts, each open and reporting for about two years, each with a limit of roughly $2,000 or more, all paid on time. It is not a regulation or a published insurer rule, and lenders apply it with some flexibility, but it describes what an underwriter wants to see on a built or rebuilt file." },
     { q: "How fast can I build credit for a mortgage?", a: "Correcting errors and paying collections can move a score within weeks. Building the history lenders want takes longer, because the two-year element of the 2/2/2 rule cannot be hurried. A realistic runway from thin or damaged credit to a mortgage-ready file is 12 to 24 months." },
     { q: "Do secured credit cards help with a mortgage?", a: "Yes. A secured card reports to the bureaus like any other card, so it builds the same history. For borrowers rebuilding after an insolvency, it is usually the first of the two trades. Choose one that reports to both Equifax and TransUnion and ask about converting to unsecured later." },
     { q: "Should I close old credit cards before applying for a mortgage?", a: "Usually not. The age of your history counts, and closing an old account can shorten it and raise your utilization on the remaining limits. Keep old accounts open where it costs nothing, use them lightly and pay them in full." },

@@ -19,7 +19,7 @@ ${short({ answer: "Lenders don't care how many people earn the income, only whet
 <li><strong>Spousal support you receive.</strong> It counts on similar terms. Lenders want the agreement and a payment history, and they look at how long it runs.</li>
 <li><strong>Support you pay.</strong> It's a debt. The monthly amount counts in your ratios and lowers what you qualify for.</li>
 <li><strong>Canada Child Benefit.</strong> Some lenders count it as income. Often it's only for children under a certain age, and sometimes only part of it. Others leave it out. Since it's non-taxable, lenders that count it may gross it up. Ask, don't assume.</li>
-<li><strong>Employment income.</strong> It counts the same as for anyone. Base pay counts in full and variable pay on a two-year average, with letters and T4s.</li>
+<li><strong>Employment income.</strong> It counts the same as for anyone. Base pay counts in full and variable pay on the lower of last year or the two-year average, with letters and T4s.</li>
 </ul>
 <p>These are lender norms, not published rules. Here's the practical point. A single parent's qualifying income can differ by tens of thousands of dollars between lenders, just from how support and benefits are treated. That's the first thing Joshua checks.</p>
 

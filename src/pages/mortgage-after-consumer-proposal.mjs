@@ -3,7 +3,7 @@ import { short } from "../lib/short.mjs";
 
 const body = `
 ${short({
-  answer: "Yes. Lenders start counting from the day your proposal is completed. B lenders often look within about a year with 20 percent down. A lenders commonly want around two years of clean, rebuilt credit.",
+  answer: "Yes. Lenders start counting from the day your proposal is completed. Some B lenders look within about a year with 20 percent down. A lenders commonly want around two years of clean, rebuilt credit.",
   who: "Anyone in a consumer proposal, just finished one, or wondering if an old one still blocks a mortgage.",
   next: "Get your certificate of full performance, open two small credit accounts and pay them perfectly. Then <a href=\"/contact/\">book a call</a> to map the timeline."
 })}
@@ -26,7 +26,7 @@ ${short({
 
 <h2>Just completed: the rebuild clock starts</h2>
 <p>Lenders start counting the day your trustee gives you the certificate of full performance. From then on, the expectations match the ones after a bankruptcy, applied a little more gently.</p>
-<p>They look at time since completion, rebuilt credit and no new missed payments. The industry shorthand for rebuilt credit is the 2/2/2 rule. That's two accounts, open about two years, with limits around $2,000 or more, paid perfectly.</p>
+<p>They look at time since completion, rebuilt credit and no new missed payments. The industry shorthand for rebuilt credit is the 2/2/2 rule. That's two accounts, open about two years, with limits around $2,000 or more, paid perfectly. It is a rule of thumb, and the exact limit varies by lender.</p>
 <p>The page on <a href="/build-credit-for-a-mortgage/">building credit for a mortgage</a> turns that into a practical plan. It includes secured cards if you can't get a regular one yet.</p>
 <p>Many people finish a proposal with no active credit at all, because every account went into it. That's the first problem to fix. With no new accounts, there's no history for a lender to read, and the clock hasn't really started.</p>
 <p>The most valuable thing you can do is simple. Open two modest accounts in the first months after you finish. Then pay them on time, every time.</p>
@@ -34,7 +34,7 @@ ${short({
 <h2>After completion: realistic lender tiers</h2>
 <p>Once the proposal is done and your credit is rebuilt, the lender tiers open up in order.</p>
 <ul>
-<li><strong>B lenders</strong> will often look at a purchase or refinance within about a year of completion. They want 20 percent or more down and two new accounts in good standing. The rate is higher than A pricing, a lender fee applies and the term is short. The <a href="/b-lender-mortgage-bc/">B lender page</a> explains the setup and the plan back to an A lender.</li>
+<li><strong>B lenders</strong> set their own timelines, and some will look at a purchase or refinance within about a year of completion. They want 20 percent or more down and two new accounts in good standing. The rate is higher than A pricing, a lender fee applies and the term is short. The <a href="/b-lender-mortgage-bc/">B lender page</a> explains the setup and the plan back to an A lender.</li>
 <li><strong>A lenders and insurers</strong> typically want a longer clean stretch. The industry commonly describes it as about two years after completion, with the 2/2/2 standard met. Then an insured purchase with as little as 5 percent down becomes possible, subject to each insurer's current policy.</li>
 <li><strong>Private lenders</strong> come before both. They lend against equity for people who need to act before a B lender will. The cost only makes sense for a short time.</li>
 </ul>

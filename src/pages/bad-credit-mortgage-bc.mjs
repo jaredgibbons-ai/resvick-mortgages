@@ -47,7 +47,7 @@ ${short({ answer: "Yes, you can get a mortgage in BC with bad credit. It changes
 <p>Paying an item doesn't remove it sooner. But it does change how a lender reads it.</p>
 
 <h2>The rebuild rule lenders use</h2>
-<p>When lenders judge rebuilt credit, they commonly look for what the industry calls the 2/2/2 rule. That means two active credit accounts. Each has been open for about two years. Each has a limit of around $2,000 or more. And all of them are paid on time.</p>
+<p>When lenders judge rebuilt credit, they commonly look for what the industry calls the 2/2/2 rule. That means two active credit accounts. Each has been open for about two years. Each has a limit of around $2,000 or more. And all of them are paid on time. It is a broker rule of thumb, not a published rule, and lenders vary.</p>
 <p>It's a convention, not a regulation. Lenders apply it with some flexibility. But it describes what an underwriter wants to see after a credit event. You need enough recent history, on enough accounts, to show the problem is behind you. The page on <a href="/build-credit-for-a-mortgage/">how to build credit for a mortgage</a> turns the rule into a 12-to-24-month plan.</p>
 ${callout("Renewing with changed credit", "<p>Has your credit gotten worse since your mortgage was arranged? Your current lender will often renew anyway. A renewal with the same lender usually doesn't involve a new credit check. Switching lenders is where your credit gets looked at again. The page on <a href=\"/mortgage-renewal-denied/\">what happens when a renewal is denied</a> explains both cases and the order to do things in.</p>")}
 

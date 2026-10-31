@@ -7,7 +7,7 @@ const tool = TOOLS.offset ? TOOLS.offset() : "";
 
 const body = `
 ${short({
-  answer: "It depends on the lender's method. An offset often credits about 50 to 80 percent of the rent against your housing costs. An add-back often adds about 50 percent of the rent to your income. Rent from an unregistered suite usually counts as zero at A lenders.",
+  answer: "It depends on the lender's method. An offset often credits about 50 to 80 percent of the rent against your housing costs. An add-back often adds about 50 percent of the rent to your income. Plan on rent from an unregistered suite counting as zero at A lenders.",
   who: "Buyers looking at homes with a basement suite, laneway home or second unit, and owners thinking of adding one.",
   next: "Run your numbers in the <a href=\"/mortgage-calculators/#offset\">offset and add-back comparator</a>, and confirm the suite's permit history before you write an offer."
 })}
@@ -21,7 +21,7 @@ ${short({
 <p><strong>Rental offset.</strong> A share of the rent, often between 50 and 80 percent, is taken off the home's carrying costs. Your mortgage payment, property tax and heat are reduced by that credit. Only what's left counts against your income in the ratios. Offset tends to help most when a suite brings in good rent.</p>
 <p><strong>Rental add-back.</strong> A share of the gross rent is added to your income. At many lenders that's about 50 percent, and some go higher. Then the full costs of the home count as expenses.</p>
 <p>Because the credit shows up as income, it gets multiplied by the ratio limit first. That limit is 39 percent for housing costs. So an add-back usually raises your approval less than an offset at the same percentage.</p>
-<p>Published sources don't agree on one set of percentages. Some lenders and broker guides describe offsets of 50 to 80 percent and add-backs of about 50 percent. Others say some lenders go higher on either method. The big banks often sit near 50 to 60 percent.</p>
+<p>Published sources don't agree on one set of percentages. Some lenders and broker guides describe offsets of 50 to 80 percent and add-backs of about 50 percent. Others say some lenders go higher on either method. Insurers publish no offset percentage. The offset range is lender policy, and the 50 percent add-back is the insurers' standard. The big banks often sit near 50 to 60 percent.</p>
 <p>The lesson is simple. The percentage is a lender's policy. So ask which lender uses which method before you pick one.</p>
 
 <h2>A worked example: $1,800 a month in rent</h2>
@@ -42,7 +42,7 @@ ${short({
 ${tool}
 
 <h2>The registered-suite rule: an unregistered suite usually counts as zero</h2>
-<p>Everything above assumes the suite is legal. At A lenders, rent from a suite that isn't legal or registered with the city generally counts as zero. It doesn't matter how reliable the tenant is or how long it's been rented.</p>
+<p>Everything above assumes the suite is legal. At A lenders, rent from a suite that isn't legal or registered with the city generally counts as zero. It doesn't matter how reliable the tenant is or how long it's been rented. Insurers require the property to meet zoning and bylaw rules. Sagen may review income from an unauthorized suite case by case, but most A lenders won't count it. The suite's status can also affect the appraisal and whether the property is eligible. Legalizing the suite is what unlocks the income.</p>
 <p>The suite usually needs to be self-contained. That means its own entrance, kitchen and bathroom. It also needs to meet local zoning and building rules.</p>
 <p>This is the most important point for buyers in markets where unregistered suites are common. A listing that mentions a suite doesn't tell you it's legal. Ask for the permit history. Ask the city what it has on file for the address. Have your realtor and lawyer confirm it before you count on the rent.</p>
 <p>If the suite isn't legal, you may still be able to buy the home. But you'd qualify on your income alone. Some B lenders may treat the rent differently. That's a different talk, covered on the <a href="/b-lender-mortgage-bc/">B-lender page</a>.</p>
@@ -62,7 +62,7 @@ ${tool}
 <h2>The insured two-unit nuance</h2>
 <p>If CMHC will insure your mortgage, the insurer has its own rental income rules. CMHC's rental income reference sheet (2024) covers owner-occupied homes with two units. For those, it allows an approach that credits up to 100 percent of gross rent.</p>
 <p>Owner-occupied homes with three or four units follow different approaches. One credits up to 50 percent of gross rent. The other is based on net rental income.</p>
-<p>Read that carefully. The figure is a ceiling, not a promise. The lender still sets its own policy, and many credit less than the insurer would allow. The 100 percent figure also only applies to a legal, self-contained two-unit home that you live in. It doesn't mean every lender counts every dollar of rent. When you compare offers, ask which percentage the lender will really use on your file.</p>
+<p>Read that carefully. The figure is a ceiling, not a promise. The lender still sets its own policy, and many credit less than the insurer would allow. The 100 percent figure also only applies to a legal, self-contained two-unit home that you live in. Sagen matches that treatment, but Canada Guaranty's published guide caps the credit at 50 percent of gross rent, so don't count on 100 percent until the insurer confirms it. It doesn't mean every lender counts every dollar of rent. When you compare offers, ask which percentage the lender will really use on your file.</p>
 
 <h2>Buying with a suite versus adding one later</h2>
 <p>There are two ways to end up in a suited home. You can buy a home that already has a legal suite. Then the rent helps you qualify from day one. Or you can buy a home and add a suite later.</p>

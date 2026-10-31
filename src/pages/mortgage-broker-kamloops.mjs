@@ -19,7 +19,7 @@ ${ratesStrip()}
 <p>The same gross earnings can qualify for very different mortgages. It depends on how the money arrives and how it's documented. So this page starts there.</p>
 <h3>Rail and shift income</h3>
 <p>Kamloops is a rail hub. Railway income usually comes with overtime, shift premiums and periods of layoff or reduced hours.</p>
-<p>Lenders generally take base salary at face value. They treat overtime and premiums as variable income, averaged over two years. Some lenders also need the pattern to be consistent.</p>
+<p>Lenders generally take base salary at face value. They treat overtime and premiums as variable income, counted at the lower of last year's total or the two-year average. Some lenders also need the pattern to be consistent.</p>
 <p>The documents that matter are two years of T4s and recent pay stubs. You'll also need a letter from your employer with your base rate, position and hire date. A year with unusually high overtime doesn't lift your qualifying income the way a two-year average does.</p>
 <h3>Trades: employed and self-employed</h3>
 <p>A ticketed tradesperson on a company payroll is a salaried or hourly employee to a lender. The same person running their own company, or paid by invoice as a contractor, is self-employed. Then you're assessed on tax returns instead of pay stubs.</p>
@@ -72,7 +72,7 @@ export default {
   body,
   schema: [schema],
   faqs: [
-    { q: "Does overtime count toward my mortgage in Kamloops?", a: "Usually, as variable income averaged over two years, provided it is consistent and shown on your T4s. Base salary counts at face value. A single strong year of overtime does not lift your qualifying income the way a two-year average does, and some lenders are stricter than others. Joshua will tell you which lenders suit your pattern." },
+    { q: "Does overtime count toward my mortgage in Kamloops?", a: "Usually, as variable income counted at the lower of last year's total or the two-year average, provided it is consistent and shown on your T4s. Base salary counts at face value. A single strong year of overtime does not lift your qualifying income the way a two-year average does, and some lenders are stricter than others. Joshua will tell you which lenders suit your pattern." },
     { q: "I work rotations at a mine on contract. Can I get a mortgage?", a: "Yes, with the right lender. Lenders look for continuity: how long you have worked this way, whether contracts have renewed, and whether you are paid on a T4 or by invoice. Allowances may or may not count. The file is matched to a lender whose policy fits, which is most of the work on a contract-income mortgage." },
     { q: "Will a lender count the rent from my basement suite?", a: "If the suite is legal under the City of Kamloops rules, with a building permit and final inspection, most lenders count a share of the documented rent, either against your housing costs or as added income. The share and method vary by lender. An unpermitted suite usually cannot be counted. Joshua runs both methods on your numbers." },
     { q: "Do I need to come to Surrey to work with Joshua?", a: "No. Everything is done by phone, video and secure document exchange. The appraisal is done by a Kamloops appraiser and you sign with a local lawyer or notary. BC brokers are licensed provincially by BCFSA and the lenders lend across the province, so the broker's location has no effect on your mortgage." },

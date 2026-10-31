@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "Every lender counts your base pay in full. Overtime, premiums and on-call pay usually count as a two-year average, and lenders differ a lot on how much. The right lender can count more of what you actually earn.", who: "Police officers, firefighters, paramedics, dispatchers and corrections officers in BC.", next: "Run the <a href=\"/mortgage-calculators/#affordability\">affordability calculator</a> twice, with and without overtime, then book a call at a time that fits your rotation." })}
+${short({ answer: "Every lender counts your base pay in full. Overtime, premiums and on-call pay usually need a two-year history. Lenders often use the lower of last year's total or the two-year average, and they differ a lot on how much they count. The right lender can count more of what you actually earn.", who: "Police officers, firefighters, paramedics, dispatchers and corrections officers in BC.", next: "Run the <a href=\"/mortgage-calculators/#affordability\">affordability calculator</a> twice, with and without overtime, then book a call at a time that fits your rotation." })}
 <h2>Your situation</h2>
 <p>You work a rotating schedule. Your pay stubs never look the same twice. A good part of your income comes as overtime, shift premiums, on-call pay or acting pay.</p>
 <p>You may also have a second stream. Maybe it's paid-duty work, a training contract or a side business run through a corporation.</p>

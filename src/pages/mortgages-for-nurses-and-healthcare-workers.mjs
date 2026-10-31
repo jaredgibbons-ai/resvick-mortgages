@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "Lenders count base pay in full. Overtime, premiums and casual shifts usually count on a two-year average. Lenders differ a lot here, so the right lender can matter more than the rate.", who: "Nurses, care aides, technologists, pharmacists and new physicians with casual lines, overtime or more than one employer.", next: "Pull two years of T4s from each employer and run the <a href=\"/mortgage-calculators/#affordability\">affordability calculator</a>." })}
+${short({ answer: "Lenders count base pay in full. Overtime, premiums and casual shifts usually need a two-year history and are often counted at the lower of last year or the two-year average. Lenders differ a lot here, so the right lender can matter more than the rate.", who: "Nurses, care aides, technologists, pharmacists and new physicians with casual lines, overtime or more than one employer.", next: "Pull two years of T4s from each employer and run the <a href=\"/mortgage-calculators/#affordability\">affordability calculator</a>." })}
 
 <h2>Your situation</h2>
 <p>You hold a casual line at one health authority and pick up shifts at a second site. Some months you earn more from overtime and premiums than from your scheduled hours. Your pay stubs are long, and your T4s come from more than one employer.</p>
@@ -12,7 +12,7 @@ ${short({ answer: "Lenders count base pay in full. Overtime, premiums and casual
 <h2>How lenders see healthcare income</h2>
 <p>Lenders sort healthcare workers into three groups. Your group decides how much work the application takes.</p>
 <ul>
-<li><strong>Permanent full-time or part-time lines.</strong> Base pay on a collective agreement grid counts in full. Overtime, shift premiums and weekend or night differentials count on a two-year average at most lenders. You back them up with T4s and a letter from the employer.</li>
+<li><strong>Permanent full-time or part-time lines.</strong> Base pay on a collective agreement grid counts in full. Overtime, shift premiums and weekend or night differentials need a two-year history at most lenders, and are often counted at the lower of last year or the two-year average. You back them up with T4s and a letter from the employer.</li>
 <li><strong>Casual and relief positions.</strong> This is where files go wrong. There are no guaranteed hours. So many lenders won't count casual income at all until it has a two-year history, and then they use the average. A casual nurse earning full-time pay for three years is usually a clean file. A casual nurse in the first year often isn't, at an A lender.</li>
 <li><strong>Multiple employers and agency work.</strong> Income from two health authorities or a private clinic is added up, each with its own letter and T4s. Agency nursing paid as a contractor is self-employment income. That means tax returns, not pay stubs. A new agency setup may not count yet at an A lender. The <a href="/newly-self-employed-mortgage/">newly self-employed page</a> explains your options when the history is short.</li>
 </ul>
