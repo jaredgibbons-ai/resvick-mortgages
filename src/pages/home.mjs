@@ -1,5 +1,5 @@
 import fs from "node:fs";
-import { SITE, ratesStrip, reviews, cta, callout } from "../lib/site.mjs";
+import { SITE, ratesStrip, reviews, cta, callout, actionCards } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const photo = fs.existsSync("src/assets/img/josh-hero.webp")
@@ -8,7 +8,7 @@ const photo = fs.existsSync("src/assets/img/josh-hero.webp")
 
 const hero = `<div class="hero-copy"><h1>A BC mortgage broker who explains the process, then manages the mortgage after it funds</h1>
 <p class="lede">Hi, I'm Joshua Resvick. I've been a mortgage broker for ten years, I spent five years before that as a mortgage underwriter, and I've funded over 1,000 mortgages. You deal with me directly, from the first call right through to renewal.</p>
-<div class="hero-actions"><a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a 15-minute call</a><a class="btn btn-ghost" href="${SITE.phoneHref}" data-evt="phone_click">Call ${SITE.phone}</a></div></div>${photo}`;
+${actionCards()}<p class="hero-phone">Prefer to talk? Call <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p></div>${photo}`;
 
 const body = `
 ${ratesStrip()}

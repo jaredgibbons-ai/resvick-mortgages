@@ -1,31 +1,53 @@
 import { cta, callout } from "../lib/site.mjs";
 import { quizEmbed } from "../lib/quiz-markup.mjs";
+import { short } from "../lib/short.mjs";
 
 const body = `
+${short({
+  answer: "This check shows your loan-to-value, the equity you could realistically reach and a score out of 100. It also tells you whether using your equity is a clear case, a closer call, or worth a second thought.",
+  who: "Homeowners thinking about a refinance, a line of credit, a renovation, debt payoff or a buyout. Only want a quick sort of your situation? Try the <a href='/mortgage-check/'>two-question router</a>.",
+  next: "Answer the questions below. The result appears on this page before any form."
+})}
+
 ${quizEmbed("equity")}
 
 <h2>What this check measures</h2>
-<p>"I want to use my equity" is the start of five different conversations. Someone wants to clear credit cards. Someone wants to renovate. Someone wants to buy a rental, or buy out a partner, or just stop paying a rate that no longer makes sense. The mortgage that fits each of those is different, and so is the cost of getting there. This check sorts out which conversation you're in. It starts with three numbers (your home's rough value, what you still owe, and your monthly non-mortgage debt payments) and shows your loan-to-value live as you type. Then it asks about eight questions: your current rate type, where the mortgage lives, whether you know your payout penalty, whether you already have a line of credit, what the money is for, your timeline, when a lender last looked at your mortgage, and what you want from an advisor.</p>
+<p>"I want to use my equity" is the start of five different conversations. Someone wants to clear credit cards. Someone wants to renovate. Someone wants to buy a rental, or buy out a partner. Someone just wants to stop paying a rate that no longer makes sense. The mortgage that fits each of those is different. So is the cost of getting there. This check sorts out which conversation you're in.</p>
+<p>It starts with three numbers: your home's rough value, what you still owe and your monthly non-mortgage debt payments. It shows your loan-to-value live as you type. Then it asks about eight questions:</p>
+<ul>
+<li>Your rate type.</li>
+<li>Where the mortgage lives.</li>
+<li>Whether you know your payout penalty.</li>
+<li>Whether you already have a line of credit.</li>
+<li>What the money is for.</li>
+<li>Your timeline.</li>
+<li>When a lender last looked at your mortgage.</li>
+<li>What you want from an advisor.</li>
+</ul>
 
 <h2>The numbers you'll see</h2>
-<p>The result shows your score out of 100 and a band, plus a short numbers panel: home value, mortgage balance, loan-to-value, and the equity you could realistically access. That last figure uses the limits that apply to federally regulated lenders, which is up to 80 percent of the home's value on a refinance, and 65 percent for the revolving part of a line of credit. It's an estimate from the value you typed, not an appraisal, and the page says so. If you want to play with the inputs, the <a href="/home-equity-estimator/">home equity estimator</a> does the same calculation with more detail.</p>
-<p>If you told the check your rate type and that you're mid-term, it'll also remind you that breaking a fixed term usually carries a penalty, and that the penalty is the number everything else hinges on. The <a href="/mortgage-penalty-calculator/">penalty calculator</a> shows a range; your lender's figure governs.</p>
+<p>The result shows your score out of 100 and a band. It also shows a short numbers panel: home value, mortgage balance, loan-to-value, and the equity you could realistically reach. That last figure uses the limits for federally regulated lenders. They allow up to 80 percent of the home's value on a refinance, and 65 percent for the revolving part of a line of credit. It's an estimate from the value you typed, not an appraisal, and the page says so. Want to play with the inputs? The <a href="/home-equity-estimator/">home equity estimator</a> does the same math with more detail.</p>
+<p>Say you told the check your rate type and that you're mid-term. It will remind you that breaking a fixed term usually carries a penalty. That penalty is the number everything else hinges on. The <a href="/mortgage-penalty-calculator/">penalty calculator</a> shows a range, but your lender's figure governs.</p>
 
 <h2>What the bands mean</h2>
-<p>"Clear case" means the equity is there, the purpose is sound and the costs are likely worth it. "Possible, check the math" is the honest middle: the equity exists, but a penalty, a timeline or a purpose makes it a closer call, and the result tells you which. "Think twice" means the numbers point the other way, at least for now, and the result says why. It's not a refusal. Sometimes the right answer is a line of credit instead of a refinance, or waiting for renewal, or nothing at all, and a check that can say "nothing" is more useful than one that can't.</p>
+<p>"Clear case" means the equity is there, the purpose is sound and the costs are likely worth it.</p>
+<p>"Possible, check the math" is the honest middle. The equity exists, but a penalty, a timeline or a purpose makes it a closer call. The result tells you which one.</p>
+<p>"Think twice" means the numbers point the other way, at least for now, and the result says why. It's not a refusal. Sometimes the right answer is a line of credit instead of a refinance. Sometimes it's waiting for renewal, or doing nothing at all. A check that can say "nothing" is more useful than one that can't.</p>
 
 <h2>Why the result comes first</h2>
-<p>You see everything on the page the moment you finish, and nothing is sent anywhere; the check runs in your browser. Afterwards there's an optional button for a written version with Joshua's notes, which is where you'd give a name and an email. The consent box starts unticked, and so does the "I'd like a call" box. The answer is yours either way.</p>
+<p>You see everything on the page the moment you finish. Nothing is sent anywhere, because the check runs in your browser. Afterwards there's an optional button for a written version with Joshua's notes. That's where you'd give a name and an email. The consent box starts unticked, and so does the "I'd like a call" box. The answer is yours either way.</p>
 
-${callout("Consolidating debt: the question the payment hides", "<p>Rolling $40,000 of cards into a mortgage drops the monthly payment a lot. It also spreads that $40,000 over 25 years. The check asks what you'd use the equity for so it can show total interest beside the payment, because the payment alone tells you the wrong story. The <a href=\"/refinance-to-pay-off-debt/\">debt consolidation guide</a> goes through it properly.</p>")}
+${callout("Consolidating debt: the question the payment hides", "<p>Rolling $40,000 of cards into a mortgage drops the monthly payment a lot. It also spreads that $40,000 over 25 years. The check asks what you'd use the equity for so it can show total interest beside the payment. The payment alone tells you the wrong story. The <a href=\"/refinance-to-pay-off-debt/\">debt consolidation guide</a> goes through it properly.</p>")}
 
 <h2>What Joshua does with the written version</h2>
-<p>He reads your answers against the thing that decides every refinance: the break-even. Penalty plus costs on one side, savings or benefit on the other, month by month. The written version tells you whether the math is likely to work for your purpose and timeline, what a lender would want to see, and whether a different product (a line of credit, a second mortgage, a <a href="/blend-and-extend-mortgage/">blend and extend</a> with your current lender) would get you there cheaper. If you've asked for a call, he'll suggest a time.</p>
-<p>If you haven't had anyone look at your mortgage since it funded, that's normal and it's also the problem. His <a href="/mortgage-aftercare-program/">aftercare program</a> exists so the equity conversation happens at the right moment rather than by accident.</p>
+<p>He reads your answers against the thing that decides every refinance: the break-even. The penalty plus costs sit on one side. The savings or benefit sit on the other, month by month.</p>
+<p>The written version tells you whether the math is likely to work for your purpose and timeline. It also says what a lender would want to see. And it says whether a different product would get you there cheaper. That might be a line of credit, a second mortgage, or a <a href="/blend-and-extend-mortgage/">blend and extend</a> with your current lender. If you've asked for a call, he'll suggest a time.</p>
+<p>Maybe no one has looked at your mortgage since it funded. That's normal, and it's also the problem. His <a href="/mortgage-aftercare-program/">aftercare program</a> exists so the equity conversation happens at the right moment, not by accident.</p>
 
 <h2>What the check can't do</h2>
-<p>It can't value your home; it works from your estimate, which is why the result says "your estimate" next to it. It can't calculate your actual penalty, because your lender chooses the method. And it can't tell you whether a specific lender will approve a specific purpose; some restrict what they'll lend for, and that's a conversation. What it can do is tell you, in two minutes, whether you're having the right conversation at all.</p>
-<p>On fees: on a mortgage placed with a mainstream (A) lender, the lender pays the broker, and you pay nothing for the service. Fees only come up on certain B-lender and private-lender files, and BC rules say you see the disclosure in writing first. If the check suggests your file points that way, it'll say so. The <a href="/refinance-mortgage-bc/">refinancing guide</a> is the long version of everything here; the <a href="/mortgage-check/">two-question router</a> is there if this wasn't your check; and the <a href="/contact/">contact page</a> is there if you'd rather talk.</p>
+<p>It can't value your home. It works from your estimate, which is why the result says "your estimate" next to it. It can't calculate your actual penalty, because your lender chooses the method. And it can't tell you whether a specific lender will approve a specific purpose. Some lenders restrict what they'll lend for, and that's a conversation. What it can do is tell you, in two minutes, whether you're having the right conversation at all.</p>
+<p>On fees: on a mortgage placed with a mainstream (A) lender, the lender pays the broker, and you pay nothing for the service. Fees only come up on certain B-lender and private-lender files. BC rules say you see the disclosure in writing first. If the check suggests your file points that way, it will say so.</p>
+<p>The <a href="/refinance-mortgage-bc/">refinancing guide</a> is the long version of everything here. The <a href="/mortgage-check/">two-question router</a> is there if this wasn't your check. And the <a href="/contact/">contact page</a> is there if you'd rather talk.</p>
 
 ${cta({ title: "Equity there, but the penalty's the question?", text: "Fifteen minutes with your lender's penalty figure in hand is usually enough to settle it either way." })}
 `;

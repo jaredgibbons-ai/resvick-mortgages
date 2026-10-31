@@ -63,7 +63,7 @@ export function footer() {
   return `<footer class="site-footer" data-nocount>
 <div class="ftr-in">
 <div><p class="ftr-brand">Resvick Mortgages</p>
-<p>Resvick Mortgages — Joshua Resvick, Mortgage Broker, Xeva Mortgage (Verico Xeva Mortgage Inc.), #106–2626 Croydon Drive, Surrey, BC · ${SITE.licence} · Broker Licence #${SITE.brokerLicence}</p>
+<p>Resvick Mortgages, Joshua Resvick, Mortgage Broker, Xeva Mortgage (Verico Xeva Mortgage Inc.), #106–2626 Croydon Drive, Surrey, BC · ${SITE.licence} · Broker Licence #${SITE.brokerLicence}</p>
 <p><a href="${SITE.phoneHref}">${SITE.phone}</a> · <a href="mailto:${SITE.email}">${SITE.email}</a></p>
 <p class="small">Joshua serves clients across British Columbia, online and by phone, from his Surrey office. Verify any BC mortgage broker's licence with <a href="https://www.bcfsa.ca/public-resources/mortgage-brokers/find-mortgage-broker" rel="noopener">BCFSA's Find a Mortgage Broker</a>.</p></div>
 <div><p class="ftr-h">Buyers</p><ul><li><a href="/first-time-home-buyer-bc/">First-time buyers</a></li><li><a href="/down-payment-guide-bc/">Down payment guide</a></li><li><a href="/mortgage-pre-approval-bc/">Pre-approval</a></li><li><a href="/closing-costs-bc/">Closing costs</a></li></ul></div>
@@ -126,6 +126,22 @@ export function businessSchema() {
   };
 }
 
+
+const IC = {
+  cal: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg>',
+  doc: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3.5h7l4 4V20a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4.5a1 1 0 0 1 1-1z"/><path d="M14 3.5V8h4M9 12h6M9 16h6"/></svg>',
+  quiz: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="4" width="14" height="17" rx="2.5"/><path d="M9 4V3h6v1M9 10l1.2 1.2L12.5 9M9 16l1.2 1.2 2.3-2.2M14.5 11h2M14.5 16h2"/></svg>',
+  arrow: '<svg class="act-ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>'
+};
+/** Three big buttons for the top of the home page. */
+export const actionCards = () => `<div class="act-cards" data-nocount>
+<a class="act act-main" href="${SITE.book}" data-evt="book_call_click"><span class="act-ic">${IC.cal}</span><span><b>Book a call</b><small>Pick a time that works for you.</small></span>${IC.arrow}</a>
+<a class="act" href="/apply/" data-evt="apply_click"><span class="act-ic">${IC.doc}</span><span><b>Apply online</b><small>A secure form. You can stop and come back.</small></span>${IC.arrow}</a>
+<a class="act" href="/mortgage-check/" data-evt="checkup_click"><span class="act-ic">${IC.quiz}</span><span><b>Take a quiz</b><small>Buying, renewing, equity and more.</small></span>${IC.arrow}</a>
+</div>`;
+const NO_QUICK = new Set(["/apply/", "/accepted-offer/", "/refer/", "/privacy/", "/mortgage-check/", "/purchase-readiness-check/", "/renewal-check/", "/equity-check/", "/investor-check/", "/self-employed-check/", "/lender-match/", "/404.html"]);
+const quickRow = (slug) => NO_QUICK.has(slug) ? "" : `<div class="wrap" data-nocount><nav class="quick" aria-label="Quick actions"><a href="${SITE.book}" data-evt="book_call_click">${IC.cal}Book a call</a><a href="/apply/" data-evt="apply_click">${IC.doc}Apply online</a><a href="/mortgage-check/" data-evt="checkup_click">${IC.quiz}Take a quiz</a></nav></div>`;
+
 /** page: {slug,title,meta,h1,lede,body,faqs,crumbs,schema:[...],home,closing,assets:{calc:bool}} */
 export function render(page) {
   const url = SITE.origin + page.slug;
@@ -147,14 +163,14 @@ ${page.alternate ? `<link rel="alternate" hreflang="en-CA" href="${SITE.origin}$
 <meta name="theme-color" content="#253551">
 ${SITE.ga4 ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${SITE.ga4}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","${SITE.ga4}",{anonymize_ip:true})</script>` : ""}
 ${process.env.STAGING ? '<meta name="robots" content="noindex,nofollow">' : ""}
-<link rel="preload" href="/assets/fonts/newsreader-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/css/site.css">
 ${schemas.map(ld).join("\n")}
 </head><body${page.home ? ' class="is-home"' : ""}>
 ${header(page.nav || "")}
 <main id="main">
-<section class="hero${page.home ? " hero-home" : ""}"><div class="wrap hero-in">${hero}</div></section>
+<section class="hero${page.home ? " hero-home" : ""}"><div class="wrap hero-in">${hero}</div>${page.home ? "" : quickRow(page.slug)}</section>
 <div class="wrap">${proofStrip()}${page.slug === "/" ? "" : breadcrumbs(trail)}</div>
 <article class="wrap prose">
 ${page.body}

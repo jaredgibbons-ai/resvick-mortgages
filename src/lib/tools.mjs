@@ -32,7 +32,7 @@ ${chk("elig30", "I am a first-time buyer or buying a newly built home (needed fo
 <div class="row2">${num("debts", "Other debt payments ($/month)", { ph: "cards, car, loans, support", hint: "Count the payment on every loan, line and lease" })}${num("rate", "Rate you expect to get (%)", { req: 1, value: "" })}</div>
 <div class="row2">${num("tax", "Property tax ($/month)", { value: "", ph: "estimate" })}${num("heat", "Heating ($/month)", { value: "", ph: "estimate" })}</div>
 <div class="row2">${num("condo", "Condo/strata fees ($/month)", { value: "" })}${sel("amort", "Amortization", AMORT.slice(0, 2), "25")}</div>`,
-    "An estimate, not an approval — a lender still verifies your income, credit and the property. The qualifying rate is the greater of your contract rate plus 2% or 5.25%. Home values you enter are your own estimate."),
+    "An estimate, not an approval. A lender still verifies your income, credit and the property. The qualifying rate is the greater of your contract rate plus 2% or 5.25%. Home values you enter are your own estimate."),
 
   "down-payment": () => tool("down-payment", "downpayment", "Minimum down payment calculator",
     "The 5% / 10% tiers, the 20% rule at $1,500,000 and the premium that comes with a smaller down payment.",
@@ -64,7 +64,7 @@ ${chk("elig30", "I am a first-time buyer or buying a newly built home (needed fo
     "Compares payments, interest over the term and the balance you carry out of it. It does not model a change of balance or amortization. A switch that keeps the same balance is the straight switch that skips the stress test; adding money makes it a refinance."),
 
   "check-up": () => tool("check-up", "checkup", "Mortgage Check-Up",
-    "Type in what you have today and get a plain-language read on where your mortgage stands: renewal timing, what the rest of the term costs, what leaving early would cost, and what to do next.",
+    "Type in what you have today. You get a plain read on where your mortgage stands. That covers renewal timing, what the rest of the term costs, what leaving early would cost and what to do next.",
     `<div class="row2">${num("balance", "Current mortgage balance ($)", { req: 1, ph: "from your latest statement" })}${num("rate", "Your current interest rate (%)", { req: 1, ph: "e.g. 4.79" })}</div>
 <div class="row2">${sel("type", "Rate type", [["fixed", "Fixed"], ["variable", "Variable"]], "fixed")}${sel("freq", "Payment frequency", FREQS, "monthly")}</div>
 <div class="row2">${num("amort", "Years left on your amortization", { req: 1, value: 20, hint: "Your statement shows the remaining amortization" })}<div class="fld"><label for="maturity">Maturity date (end of your current term)</label><input id="maturity" name="maturity" type="date" required><span class="hint">On your renewal letter or your last annual statement</span></div></div>

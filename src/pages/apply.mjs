@@ -1,4 +1,5 @@
 import { SITE, cta, callout } from "../lib/site.mjs";
+import { short } from "../lib/short.mjs";
 
 // Radio group helper: name is x_<key> so the answer travels in `extra` (see forms.js / lead.js).
 const choice = (key, q, opts, extra = "") => `<div class="choice${opts.length > 3 ? " cols" : ""}"${extra}><p class="choice-q" id="q-${key}">${q}</p>${opts.map(([v, l, s], i) => `<label><input type="radio" name="x_${key}" value="${v}" id="${key}-${i}" ${extra ? "data-required" : "required"}><span>${l}${s ? `<small>${s}</small>` : ""}</span></label>`).join("")}</div>`;
@@ -90,25 +91,34 @@ ${choice("occupancy", "Will you live in it?", [["yes", "Yes, it's my home"], ["p
 </div>`;
 
 const body = `
+${short({ answer: "This is a short, easy first step. Six questions, about five minutes. It is not a credit application and asks for nothing sensitive. I read it myself, then we talk.", who: "Anyone buying, renewing, switching or refinancing in BC. Already have an accepted offer? Use the <a href=\"/accepted-offer/\">accepted offer page</a> instead.", next: "Fill in the form below, or <a href=\"/contact/\">book a 15-minute call</a> if you would rather talk first." })}
 <h2>What this is, and what it isn't</h2>
-<p>This is the easy version of a mortgage application. Six short steps, about five minutes, and you can do it on your phone. It gives me enough to understand your situation before we talk, so the first call is about your options instead of your postal code. It is not a credit application. Nothing here touches your credit report, nothing gets sent to a lender, and I'm not asking for anything a stranger shouldn't have: no social insurance number, no date of birth, no account numbers, no documents.</p>
-<p>Think of it as the conversation we'd have in the first ten minutes anyway, just written down so neither of us has to repeat it. If you'd rather talk first and type later, that's fine too. <a href="/contact/">Book the 15-minute call</a> and skip the form entirely.</p>
-<p>Here's how I work, so you know what you're starting. On a mortgage placed with a mainstream (A) lender, the lender pays me and you pay nothing for the service. Fees only come up on some B-lender and private files, and if that's ever the route for you, BC rules require me to disclose it in writing before you commit. The full explanation is on the page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+<p>This is the easy version of a mortgage application. It has six short steps and takes about five minutes. You can do it on your phone. It tells me enough about your situation before we talk. That way the first call is about your options, not your postal code.</p>
+<p>It is not a credit application. Nothing here touches your credit report, and nothing gets sent to a lender. I'm not asking for anything a stranger shouldn't have. That means no social insurance number, no date of birth, no account numbers and no documents.</p>
+<p>Think of it as the first ten minutes of our chat, written down. Then neither of us has to repeat it. If you'd rather talk first and type later, that's fine too. <a href="/contact/">Book the 15-minute call</a> and skip the form entirely.</p>
+<p>Here's how I work, so you know what you're starting. On a mortgage placed with a mainstream (A) lender, the lender pays me. You pay nothing for the service. Fees only come up on some B-lender and private files. If that's ever the route for you, BC rules require me to disclose it in writing before you commit. The full explanation is on the page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
 ${form}
 
 <h2>Why I ask for rough numbers instead of exact ones</h2>
-<p>A lender eventually verifies everything to the dollar, from pay stubs, tax documents and bank statements. That comes later, through a secure link. At this stage, rough is better than nothing and rough is better than guessing precisely. If you earn about $120,000 and you type $120,000, I can tell you roughly what that supports. If you don't know your exact mortgage balance, your best guess from the last statement is plenty.</p>
-<p>I spent five years as a mortgage underwriter before I became a broker, which means I read applications the way a lender does: looking for the thing that will trip it up. That's why the questions here are the ones that matter. How you earn, how long you've earned it that way, what you pay on debts each month, where the down payment is coming from. Those four answers decide most files. The <a href="/mortgage-application-checklist/">application checklist</a> walks through the six problems that sink applications, and nearly all of them show up in those same four answers.</p>
+<p>A lender checks everything to the dollar in the end. It uses pay stubs, tax documents and bank statements. That comes later, through a secure link. For now, rough is better than nothing. Rough is also better than a guess that sounds exact. If you earn about $120,000, type $120,000. Then I can tell you roughly what that supports. If you don't know your exact mortgage balance, your best guess from the last statement is plenty.</p>
+<p>I spent five years as a mortgage underwriter before I became a broker. So I read applications the way a lender does. I look for the thing that will trip it up. That's why the questions here are the ones that matter:</p>
+<ul>
+<li>How you earn.</li>
+<li>How long you've earned it that way.</li>
+<li>What you pay on debts each month.</li>
+<li>Where the down payment is coming from.</li>
+</ul>
+<p>Those four answers decide most files. The <a href="/mortgage-application-checklist/">application checklist</a> walks through the six problems that sink applications. Nearly all of them show up in those same four answers.</p>
 
 <h2>What happens after you press send</h2>
 <ol>
 <li><strong>I read it.</strong> Me, not a system. I'll usually have a view on your situation before we speak.</li>
-<li><strong>We talk.</strong> A short call to confirm the goal, check the numbers, and tell you what's realistic. If something in the plan won't work, you hear it then, with the alternatives. If you'd like a sense of the numbers before the call, the <a href="/mortgage-calculators/#affordability">affordability calculator</a> gives an estimate.</li>
-<li><strong>Secure step.</strong> If we're going ahead, I send a secure link for documents, the credit-check authorization, and the BCFSA Form 1A disclosure that tells you in writing who I'm acting for. That's where the formal application lives, and it's the only place anything sensitive travels.</li>
-<li><strong>A written comparison.</strong> Before you choose anything, you get a side-by-side of real lender options, covering rate, term, penalties, prepayment and portability. The <a href="/lender-comparison-report/">Lender Comparison Report</a> page shows what it looks like.</li>
+<li><strong>We talk.</strong> A short call to confirm the goal, check the numbers, and tell you what's realistic. If something in the plan won't work, you hear it then, with the alternatives. Want a sense of the numbers before the call? The <a href="/mortgage-calculators/#affordability">affordability calculator</a> gives an estimate.</li>
+<li><strong>Secure step.</strong> If we're going ahead, I send a secure link. It covers your documents and the credit-check authorization. It also has the BCFSA Form 1A disclosure, which tells you in writing who I'm acting for. That's where the formal application lives. It's the only place anything sensitive travels.</li>
+<li><strong>A written comparison.</strong> Before you choose anything, you get a side-by-side of real lender options. It covers rate, term, penalties, prepayment and portability. The <a href="/lender-comparison-report/">Lender Comparison Report</a> page shows what it looks like.</li>
 </ol>
-<p>For buyers who want to shop with confidence, step three usually means a <a href="/mortgage-pre-approval-bc/">proper pre-approval</a>, the kind where income, credit and down payment have actually been checked and a rate is held. For renewals and switches, it means I pull your options together before your maturity date, so you're comparing instead of just signing.</p>
+<p>For buyers who want to shop with confidence, step three usually means a <a href="/mortgage-pre-approval-bc/">proper pre-approval</a>. That's the kind where income, credit and down payment have actually been checked and a rate is held. For renewals and switches, it means I pull your options together before your maturity date. Then you're comparing instead of just signing.</p>
 
 <h2>Good to have nearby, but not required</h2>
 <p>You can fill this in from memory. If you want to be a little more precise, these help:</p>
@@ -119,12 +129,12 @@ ${form}
 <li>For buyers, the price range you're looking at and the down payment you've set aside, including any gift from family. The <a href="/down-payment-guide-bc/">down payment guide</a> explains what counts.</li>
 </ul>
 
-${callout("If you have an accepted offer", `<p>Skip this form and go straight to the <a href="/accepted-offer/">accepted offer page</a>. It has the short list of what to send today and a booking link for a longer call, because a subject-removal deadline changes the order of everything.</p>`)}
+${callout("If you have an accepted offer", `<p>Skip this form and go straight to the <a href="/accepted-offer/">accepted offer page</a>. It has a short list of what to send today. It also has a booking link for a longer call. A subject-removal deadline changes the order of everything.</p>`)}
 
 <h2>A few honest notes</h2>
-<p>Your answers are saved on your own device while you work through the steps, so you can close the page and come back. They're sent to me only when you press the button at the end. Once sent, they go into my client system and nowhere else; the <a href="/privacy/">privacy policy</a> has the details, and you can ask me to delete them at any time.</p>
-<p>If you're self-employed, the income question is the one lenders argue about most, and I'd rather hear your real situation than a tidy number. The <a href="/self-employed-mortgage-bc/">self-employed mortgage guide</a> explains why declared income, business revenue and what a lender will count are three different figures. If your credit has had a rough patch, say so in the notes. It changes which lenders I'd look at, not whether I'll help.</p>
-<p>And if you're not sure this is the right form, or you just want to ask one question first, that's what the call is for. <a href="/contact/">Get in touch</a> whichever way is easiest.</p>
+<p>Your answers are saved on your own device while you work through the steps. So you can close the page and come back. They're sent to me only when you press the button at the end. Once sent, they go into my client system and nowhere else. The <a href="/privacy/">privacy policy</a> has the details. You can ask me to delete them at any time.</p>
+<p>If you're self-employed, the income question is the one lenders argue about most. I'd rather hear your real situation than a tidy number. The <a href="/self-employed-mortgage-bc/">self-employed mortgage guide</a> explains why declared income, business revenue and what a lender will count are three different figures. If your credit has had a rough patch, say so in the notes. It changes which lenders I'd look at, not whether I'll help.</p>
+<p>Not sure this is the right form? Want to ask one question first? That's what the call is for. <a href="/contact/">Get in touch</a> whichever way is easiest.</p>
 
 ${cta({ title: "Prefer to talk it through first?", text: "Fifteen minutes on the phone covers most of what this form asks, and I'll tell you honestly where you stand." })}
 `;

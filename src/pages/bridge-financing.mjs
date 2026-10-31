@@ -1,17 +1,23 @@
 import { cta, callout } from "../lib/site.mjs";
+import { short } from "../lib/short.mjs";
 
 const body = `
+${short({ answer: "A bridge loan lends you the equity from your old home, for days or weeks, so you can close on the new one first. It is repaid when your sale closes. Your sale must be firm.", who: "Anyone buying a home before selling the current one. Dates that line up? You may not need a bridge at all.", next: "<a href=\"/contact/\">Book a 15-minute call</a> before you write the offer, so we can map both completion dates." })}
 <h2>The overlap problem</h2>
-<p>Most people who already own a home and buy another face the same timing question: the purchase and the sale rarely complete on the same day. If the purchase completes first, the down payment for the new home is still tied up in the old one, because the equity only becomes cash when the sale closes. Bridge financing is the short-term loan that covers that gap. It advances the equity from your sale so you can complete the purchase, and it is repaid in full when the sale closes, usually days or weeks later.</p>
-<p>The alternative is to arrange completion dates that line up, with the sale closing a day before the purchase. That is cleaner and cheaper, and it is the first thing to try. When the dates cannot be matched, because the buyer of your home needs a later date or the seller of your new one needs an earlier one, a bridge is the normal solution, and lenders arrange them routinely.</p>
+<p>Most people who own a home and buy another face the same timing question. The purchase and the sale rarely complete on the same day. If the purchase completes first, the down payment is still tied up in the old home. The equity only becomes cash when the sale closes.</p>
+<p>Bridge financing is the short-term loan that covers that gap. It advances the equity from your sale so you can complete the purchase. It is repaid in full when the sale closes, usually days or weeks later.</p>
+<p>The alternative is to line up the completion dates, with the sale closing a day before the purchase. That is cleaner and cheaper, so try it first. Sometimes the dates can't be matched. Maybe the buyer of your home needs a later date. Maybe the seller of your new one needs an earlier one. Then a bridge is the normal answer, and lenders arrange them routinely.</p>
 
 <h2>How a bridge loan works</h2>
-<p>A bridge is secured against the home you are selling, and it is sized from the equity in that sale. The lender takes the firm sale price, subtracts the mortgage to be paid out, the real estate commission, legal costs and any other closing costs, and advances some or all of the remainder. The money goes to your lawyer or notary for the purchase completion. When the sale completes, the lawyer repays the bridge from the proceeds, along with the interest for the days it was outstanding.</p>
-<p>Bridges are short by design. Most lenders will advance for a period measured in days to a few months, with a maximum that varies by lender. Interest is charged daily at a rate above a mortgage rate, usually quoted as prime plus a spread, and most lenders charge an administration fee for setting it up. Because the loan is open for a short period, the interest cost is usually modest compared to the price of the home, but the fee and the rate still deserve a look, and lenders differ on both.</p>
-<p>Not every lender offers bridge financing, and those that do generally offer it only to borrowers whose new mortgage is also with them. That is one reason to raise the timing question with your broker early, so that the lender chosen for the purchase is one that can bridge if the dates slip.</p>
+<p>A bridge is secured against the home you are selling. It is sized from the equity in that sale. The lender takes the firm sale price. It subtracts the mortgage to be paid out, the real estate commission, legal costs and other closing costs. Then it advances some or all of the rest.</p>
+<p>The money goes to your lawyer or notary for the purchase completion. When the sale completes, the lawyer repays the bridge from the proceeds. You also pay the interest for the days it was outstanding.</p>
+<p>Bridges are short by design. Most lenders advance for days to a few months, with a maximum that varies by lender. Interest is charged daily at a rate above a mortgage rate. It is usually quoted as prime plus a spread. Most lenders also charge an administration fee to set it up.</p>
+<p>The loan is open only for a short time. So the interest is usually modest next to the price of the home. Still, the fee and the rate deserve a look, and lenders differ on both.</p>
+<p>Not every lender offers bridge financing. Those that do generally offer it only when your new mortgage is also with them. That is one reason to raise the timing question with your broker early. Then the lender chosen for the purchase can bridge if the dates slip.</p>
 
 <h2>Eligibility: the firm sale is the key</h2>
-<p>The single condition that matters most is that your sale is firm. Lenders bridge against an unconditional contract of purchase and sale, with all subjects removed, a deposit in trust, and a completion date on the page. A sale that is still subject to financing or inspection is not firm, and a listing with no accepted offer is not a sale at all. Without a firm sale, what you are asking for is not a bridge but an open-ended loan against a home you may or may not sell, and that is a different and much more expensive product.</p>
+<p>The one condition that matters most is that your sale is firm. Lenders bridge against an unconditional contract of purchase and sale. All subjects are removed, a deposit is in trust, and a completion date is on the page.</p>
+<p>A sale still subject to financing or inspection is not firm. A listing with no accepted offer is not a sale at all. Without a firm sale, you are not asking for a bridge. You are asking for an open-ended loan against a home you may or may not sell. That is a different product, and it costs much more.</p>
 <p>The lender will also want:</p>
 <ul>
 <li>The signed, subject-free contract for the sale, and the contract for the purchase.</li>
@@ -19,14 +25,20 @@ const body = `
 <li>Confirmation of the completion dates for both transactions, usually from your lawyer or notary.</li>
 <li>Your approval for the new mortgage, since the bridge is tied to it.</li>
 </ul>
-<p>The bridge period is the gap between the two completion dates. A few days is routine. Several weeks is common. Several months is possible with some lenders but costs more and is scrutinized more closely.</p>
+<p>The bridge period is the gap between the two completion dates. A few days is routine. Several weeks is common. Several months is possible with some lenders. It costs more and gets a closer look.</p>
 
 <h2>What it costs</h2>
-<p>Three items make up the cost of a bridge. First, the interest, charged daily at the bridge rate on the amount advanced, for the number of days between the purchase completion and the sale completion. Second, the lender's administration or set-up fee, which is a flat amount. Third, any extra legal work, since your lawyer or notary handles the advance and the repayment. On a bridge placed through a prime lender, the lender pays the broker and you pay nothing for the arrangement; broker fees arise only on B-lender and private files, with written disclosure on a Form 1A first.</p>
-<p>The <a href="/mortgage-calculators/#sale-proceeds">sale proceeds calculator</a> shows how much cash a sale actually produces after commission, mortgage payout and any prepayment penalty. That net figure is the ceiling for a bridge, and it is often less than people expect, particularly where a penalty applies on the mortgage being paid out. Run it before you assume the equity will cover the new down payment.</p>
+<p>Three items make up the cost of a bridge.</p>
+<ol>
+<li><strong>Interest.</strong> It is charged daily at the bridge rate on the amount advanced. It runs for the days between the purchase completion and the sale completion.</li>
+<li><strong>An administration fee.</strong> This is the lender's set-up fee, and it is a flat amount.</li>
+<li><strong>Extra legal work.</strong> Your lawyer or notary handles the advance and the repayment.</li>
+</ol>
+<p>On a bridge placed through a prime lender, the lender pays the broker and you pay nothing for the arrangement. Broker fees only arise on B-lender and private files. Those come with written disclosure on a Form 1A first.</p>
+<p>The <a href="/mortgage-calculators/#sale-proceeds">sale proceeds calculator</a> shows how much cash a sale actually produces. It counts commission, mortgage payout and any prepayment penalty. That net figure is the ceiling for a bridge. It is often less than people expect, especially when a penalty applies on the mortgage being paid out. Run it before you assume the equity will cover the new down payment.</p>
 
 <h2>Bridge, open mortgage or deposit loan</h2>
-<p>A bridge is not the only tool for a timing gap, and it helps to know what the others do.</p>
+<p>A bridge is not the only tool for a timing gap. It helps to know what the others do.</p>
 <table>
 <thead><tr><th>Tool</th><th>What it covers</th><th>When it fits</th></tr></thead>
 <tbody>
@@ -35,14 +47,21 @@ const body = `
 <tr><td><a href="/deposit-loan-and-borrowed-down-payment/">Deposit loan</a></td><td>The deposit due on the purchase contract, which is owed well before completion</td><td>Your cash is in the home you have not yet sold and the deposit is due now</td></tr>
 </tbody>
 </table>
-<p>They are often used together. A buyer may need a deposit loan when the offer is accepted, a bridge for the completion gap, and, if the old mortgage is at maturity, an open term on it so there is no penalty when the sale closes. Each of these has a cost, and a broker's job is to find the combination that solves the timing with the least of it.</p>
+<p>They are often used together. A buyer may need a deposit loan when the offer is accepted. Then a bridge covers the completion gap. If the old mortgage is at maturity, an open term on it avoids a penalty when the sale closes. Each of these has a cost. A broker's job is to find the mix that solves the timing with the least of it.</p>
 
 ${cta({ title: "Buying and selling in the same window?", text: "Book a 15-minute call before you write the offer. Joshua will map both completion dates, check whether your new lender can bridge, and show you what the gap would cost, so the timing is a plan rather than a scramble." })}
 
 <h2>The plan-B conversation</h2>
-<p>Every bridge rests on the sale closing. Sales usually do close, but not always: a buyer's financing can fail, a strata document can surface a problem, or a buyer can simply default. If that happens after your purchase has completed, you own two homes, the bridge is outstanding, and the lender expects repayment.</p>
-<p>This is the conversation to have before you commit, not after. The questions are practical. If the sale collapsed, could you carry two mortgages for a few months while re-listing? Would the new lender extend the bridge, and at what cost? Is there a family member or a line of credit that could cover the gap? Is the deposit from your buyer large enough that a default would at least fund some carrying cost? The answers decide how much risk you are really taking, and a broker who has seen a sale fall through will insist on them. If the answer to all of them is no, the safer path may be to make your purchase subject to the sale of your home, accept a weaker negotiating position, and avoid the bridge altogether.</p>
-<p>If the sale falls through and the bridge cannot be extended, the options narrow to <a href="/private-mortgage-lending-bc/">private lending</a> against the unsold home, at a price that reflects the urgency. That is a workable last resort, but it is far better to have decided in advance whether you could live with it.</p>
+<p>Every bridge rests on the sale closing. Sales usually do close, but not always. A buyer's financing can fail. A strata document can surface a problem. A buyer can simply default. If that happens after your purchase has completed, you own two homes. The bridge is outstanding, and the lender expects repayment.</p>
+<p>Have this conversation before you commit, not after. The questions are practical:</p>
+<ul>
+<li>If the sale collapsed, could you carry two mortgages for a few months while re-listing?</li>
+<li>Would the new lender extend the bridge, and at what cost?</li>
+<li>Is there a family member or a line of credit that could cover the gap?</li>
+<li>Is your buyer's deposit large enough that a default would at least fund some carrying cost?</li>
+</ul>
+<p>The answers show how much risk you are really taking. A broker who has seen a sale fall through will insist on them. If every answer is no, the safer path may be different. Make your purchase subject to the sale of your home. Accept a weaker negotiating position. Skip the bridge altogether.</p>
+<p>Say the sale falls through and the bridge cannot be extended. Then the options narrow to <a href="/private-mortgage-lending-bc/">private lending</a> against the unsold home, at a price that reflects the urgency. That is a workable last resort. It is far better to decide in advance whether you could live with it.</p>
 
 <h2>Timing the steps</h2>
 <ol>
@@ -52,9 +71,9 @@ ${cta({ title: "Buying and selling in the same window?", text: "Book a 15-minute
 <li><strong>Purchase completion.</strong> The bridge funds through your lawyer along with the new mortgage.</li>
 <li><strong>Sale completion.</strong> The lawyer repays the bridge with interest from the sale proceeds. The old mortgage is discharged at the same time.</li>
 </ol>
-<p>Move-up buyers often arrive at this with the same cash questions first-time buyers have, in a different form. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> covers the purchase side of the costs, and most of it applies to a second purchase as well. If your situation does not fit neatly into any of this, <a href="/contact/">contact Joshua</a> and describe the dates; the plan usually follows from them.</p>
+<p>Move-up buyers often meet the same cash questions first-time buyers have, in a different form. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> covers the purchase side of the costs. Most of it applies to a second purchase too. If your situation does not fit neatly into any of this, <a href="/contact/">contact Joshua</a> and describe the dates. The plan usually follows from them.</p>
 
-${callout("Firm means firm", "<p>Lenders bridge against a sale with every subject removed and a completion date fixed. Until then, the equity is not available to borrow against at bridge rates, and planning as if it were is the most common way this goes wrong.</p>")}
+${callout("Firm means firm", "<p>Lenders bridge against a sale with every subject removed and a completion date fixed. Until then, the equity is not available to borrow against at bridge rates. Planning as if it were is the most common way this goes wrong.</p>")}
 `;
 
 export default {

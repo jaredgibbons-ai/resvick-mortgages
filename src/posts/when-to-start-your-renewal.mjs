@@ -8,7 +8,7 @@ export default {
   meta: "Six months out, 120 days out, 21 days out and the day itself: what is possible at each point of a BC mortgage renewal, and what you lose by waiting.",
   h1: "When should I start my renewal?",
   crumb: "When to start your renewal",
-  lede: "A month-by-month answer. What you can do at six months, at 120 days, at 21 days and on the day, and why the common instinct to wait for the letter is the expensive one.",
+  lede: "A month-by-month answer. Here is what you can do at six months, at 120 days, at 21 days and on the day. Waiting for the letter is the common instinct, and it is the expensive one.",
   links: ["/mortgage-renewal-bc/", "/early-mortgage-renewal/", "/mortgage-renewal-reminder/", "/switch-mortgage-lenders-at-renewal/", "/mortgage-renewal-letter-explained/", "/mortgage-calculators/#renewal", "/contact/"],
   body: `
 ${short({

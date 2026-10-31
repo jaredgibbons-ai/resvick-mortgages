@@ -1,4 +1,5 @@
 import { SITE, cta, callout } from "../lib/site.mjs";
+import { short } from "../lib/short.mjs";
 
 const BOOK45 = "https://cal.com/resvickmortgages/30min"; // cal.com "New Client Discovery Meeting", listed as 45 minutes (the slug says 30min; see notes)
 
@@ -39,44 +40,45 @@ const form = `
 </div>`;
 
 const body = `
+${short({ answer: "Send me three things today: the contract, the listing and your dates. I will line up the lender in the right order so you can meet your subject removal date.", who: "Anyone with an accepted offer and a financing condition. No offer yet? Start with the <a href=\"/mortgage-pre-approval-bc/\">pre-approval guide</a>.", next: "Use the form below, or phone <a href=\"${SITE.phoneHref}\" data-evt=\"phone_click\">${SITE.phone}</a> if your deadline is within a few days." })}
 <h2>First, breathe. Then send me three things.</h2>
-<p>An accepted offer with a financing condition means you now have a deadline, usually a week or so to get a lender's approval, sometimes less. That's enough time when the file moves in the right order, and that order starts today. Here's what I need from you before anything else:</p>
+<p>An accepted offer with a financing condition gives you a deadline. It is usually a week or so to get a lender's approval, and sometimes less. That's enough time if the file moves in the right order. That order starts today. Here's what I need first:</p>
 <ol>
 <li><strong>The contract.</strong> The accepted offer, with the subject removal date and the completion date on it. Your realtor can send it straight to me.</li>
 <li><strong>The listing.</strong> The MLS sheet, or just the address. The lender needs to know what it's lending against, and so do I.</li>
-<li><strong>Your dates.</strong> Use the form below, or phone. Subject removal is the date that matters most; completion is the second.</li>
+<li><strong>Your dates.</strong> Use the form below, or phone. Subject removal is the date that matters most. Completion is the second.</li>
 </ol>
-<p>Everything else, income documents and down payment statements, I'll ask for in a specific order through a secure link once I've seen the deal. If you already did a <a href="/mortgage-pre-approval-bc/">proper pre-approval</a> with me, most of that is done and the lender only needs the property side. If your pre-approval came from a bank, send it along anyway, so I know what they checked and what they didn't.</p>
+<p>Everything else comes later, once I've seen the deal. That means income documents and down payment statements. I'll ask for them in a set order through a secure link. If you already did a <a href="/mortgage-pre-approval-bc/">proper pre-approval</a> with me, most of that is done. The lender only needs the property side. If your pre-approval came from a bank, send it along anyway. Then I know what they checked and what they didn't.</p>
 
 ${form}
 
 <h2>How the next week usually goes</h2>
 <p>Every file is its own, so treat this as the common shape rather than a promise. Lenders differ, and a busy week at a lender can stretch any of these steps.</p>
 <ol class="steps">
-<li><strong>Day one</strong>Contract, listing and dates in. I confirm the plan, match the deal to the right lender and send you the secure document link with a short, specific list. If you don't have a pre-approval, the credit-check authorization and the BCFSA Form 1A disclosure happen here too, in writing.</li>
-<li><strong>Days two to three</strong>The application goes to the lender. Commonly, a lender comes back with an approval and a list of conditions within a couple of business days, sometimes the same day, sometimes longer on a complicated file or a busy week.</li>
-<li><strong>Days three to five</strong>Conditions get cleared: the lender confirms income, down payment and the property, and may order an appraisal. Appraisals are the step most likely to need extra days, especially outside the Lower Mainland.</li>
-<li><strong>Before subject removal</strong>You remove the financing condition only once the lender's approval is in hand and the conditions that matter are satisfied. If it isn't, we talk to your realtor about an extension before the deadline, not after.</li>
+<li><strong>Day one</strong>Contract, listing and dates come in. I confirm the plan and match the deal to the right lender. Then I send you a secure document link with a short, specific list. If you don't have a pre-approval, the credit-check authorization and the BCFSA Form 1A disclosure happen here too, in writing.</li>
+<li><strong>Days two to three</strong>The application goes to the lender. Commonly, the lender comes back within a couple of business days with an approval and a list of conditions. Sometimes that happens the same day. A complicated file or a busy week can take longer.</li>
+<li><strong>Days three to five</strong>Conditions get cleared. The lender confirms income, down payment and the property, and may order an appraisal. Appraisals are the step most likely to need extra days, especially outside the Lower Mainland.</li>
+<li><strong>Before subject removal</strong>You remove the financing condition only once the lender's approval is in hand. The conditions that matter must be satisfied too. If they aren't, we talk to your realtor about an extension before the deadline, not after.</li>
 </ol>
-<p>Between approval and completion, your lawyer or notary takes over the paperwork, the lender sends them instructions, and you bring the rest of the down payment and closing costs to that appointment. The <a href="/closing-costs-bc/">closing costs page</a> has the full list, and the <a href="/bc-property-transfer-tax-calculator/">property transfer tax calculator</a> gives you the biggest single number on it, including the first-time buyer exemption if you qualify.</p>
+<p>Between approval and completion, your lawyer or notary takes over the paperwork. The lender sends them instructions. You bring the rest of the down payment and closing costs to that appointment. The <a href="/closing-costs-bc/">closing costs page</a> has the full list. The <a href="/bc-property-transfer-tax-calculator/">property transfer tax calculator</a> gives you the biggest single number on it, including the first-time buyer exemption if you qualify.</p>
 
 <h2>The things that slow a file down</h2>
-<p>After ten years as a broker and five as an underwriter, I can tell you where the days get lost. It's rarely the rate and almost always the paperwork.</p>
+<p>After ten years as a broker and five as an underwriter, I can tell you where the days get lost. It's rarely the rate. It's almost always the paperwork.</p>
 <ul>
-<li><strong>Down payment history.</strong> Lenders want to see where the money has been, commonly for around 90 days. A big transfer with no trail, or a gift without a letter, costs days. Line it up now.</li>
-<li><strong>Income that isn't what the pre-approval assumed.</strong> A new job, a change from salary to contract, a bonus that was counted but can't be documented. Tell me today, not when the lender asks.</li>
-<li><strong>The property.</strong> Strata documents that raise questions, a suite the listing calls "unauthorized," a rural property with a well or septic. None of these are deal-breakers, but each one changes which lender I'd choose, and I'd rather choose right the first time.</li>
+<li><strong>Down payment history.</strong> Lenders want to see where the money has been, commonly for around 90 days. A big transfer with no trail costs days. So does a gift without a letter. Line it up now.</li>
+<li><strong>Income that isn't what the pre-approval assumed.</strong> Maybe a new job, a change from salary to contract, or a bonus that was counted but can't be documented. Tell me today, not when the lender asks.</li>
+<li><strong>The property.</strong> Strata documents that raise questions, a suite the listing calls "unauthorized," or a rural property with a well or septic. None of these are deal-breakers. But each one changes which lender I'd choose, and I'd rather choose right the first time.</li>
 <li><strong>The appraisal.</strong> If the lender wants one, it's the step neither of us controls. The earlier it's ordered, the better.</li>
-<li><strong>Silence.</strong> A lender's condition sitting in an inbox for two days is the most common delay there is. During a subject period I'll be in touch at every step, and I'd ask the same of you.</li>
+<li><strong>Silence.</strong> A lender's condition sitting in an inbox for two days is the most common delay there is. During a subject period I'll be in touch at every step. I'd ask the same of you.</li>
 </ul>
 
 <h2>What a rate hold does and doesn't do here</h2>
-<p>If you have a pre-approval, you probably have a rate held for a period, commonly 90 to 120 days. That's useful: if rates have gone up since, you keep the lower one, and at many lenders you still get a lower rate if they've fallen before closing, though the float-down terms vary and are worth confirming. What a rate hold doesn't do is approve the property. The lender still reviews the home, the price and the paperwork before it commits. The <a href="/mortgage-rate-hold/">rate hold page</a> explains the fine print, and the <a href="/mortgage-application-checklist/">application checklist</a> covers the six things that most often trip a file.</p>
+<p>If you have a pre-approval, you probably have a rate held for a period, commonly 90 to 120 days. That's useful. If rates have gone up since, you keep the lower one. At many lenders you also get the lower rate if rates have fallen before closing. The float-down terms vary, so confirm them. What a rate hold doesn't do is approve the property. The lender still reviews the home, the price and the paperwork before it commits. The <a href="/mortgage-rate-hold/">rate hold page</a> explains the fine print. The <a href="/mortgage-application-checklist/">application checklist</a> covers the six things that most often trip a file.</p>
 
-${callout("Already an accepted offer and no pre-approval?", "<p>It happens, and it's workable. Phone me rather than filling in the form, because the order of the next two days matters. The credit check and documents go first, the lender application goes same day where possible, and we'll talk to your realtor about the subject period together if it's tight.</p>")}
+${callout("Already an accepted offer and no pre-approval?", "<p>It happens, and it's workable. Phone me rather than filling in the form, because the order of the next two days matters. The credit check and documents go first. The lender application goes in the same day where possible. If the subject period is tight, we'll talk to your realtor about it together.</p>")}
 
 <h2>Book the longer call</h2>
-<p>A subject period deserves more than a 15-minute chat. This is the 45-minute first-client meeting: we go through the deal, your documents and the lender choice, and you leave knowing exactly what happens on each day until subject removal. The calendar only loads when you ask for it, so this page stays quick on a phone.</p>
+<p>A subject period deserves more than a 15-minute chat. This is the 45-minute first-client meeting. We go through the deal, your documents and the lender choice. You leave knowing exactly what happens each day until subject removal. The calendar only loads when you ask for it, so this page stays quick on a phone.</p>
 <div class="book-facade" data-nocount>
 <p><strong>45-minute file review</strong></p>
 <div id="book-frame-45" style="width:100%"></div>
@@ -86,7 +88,8 @@ ${callout("Already an accepted offer and no pre-approval?", "<p>It happens, and 
 </div>
 
 <h2>On fees, since you're about to spend a lot of money</h2>
-<p>On a mortgage placed with a mainstream (A) lender, the lender pays me and you pay nothing for the service, including everything above. Fees only come up on some B-lender and private files, and if that's ever the route, BC rules require me to disclose it in writing before you commit. The full explanation is on the page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>. If you'd rather start with the general form instead of the deadline one, the <a href="/apply/">application page</a> is the same six steps without the urgency, and the <a href="/contact/">contact page</a> has every other way to reach me.</p>
+<p>On a mortgage placed with a mainstream (A) lender, the lender pays me. You pay nothing for the service, including everything above. Fees only come up on some B-lender and private files. If that's ever the route, BC rules require me to disclose it in writing before you commit. The full explanation is on the page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+<p>Prefer the general form to the deadline one? The <a href="/apply/">application page</a> is the same six steps without the urgency. The <a href="/contact/">contact page</a> has every other way to reach me.</p>
 
 ${cta({ title: "Deadline in the next few days?", text: "Phone first, form second. " + SITE.phone + " goes straight to me." })}
 `;
