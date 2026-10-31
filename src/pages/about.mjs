@@ -82,6 +82,13 @@ export default {
   crumb: "About Joshua Resvick",
   nav: "/about-joshua-resvick/",
   body,
+  faqs: [
+    { q: "Is Joshua Resvick a licensed mortgage broker in BC?", a: "Yes. Joshua holds BC mortgage broker licence MB503619, and he works through Xeva Mortgage (Verico Xeva Mortgage Inc.), which holds BCFSA brokerage licence X300203. You can check both in the BCFSA public lookup for mortgage brokers, and he encourages you to do that with any broker you meet." },
+    { q: "Does it cost me anything to work with Joshua?", a: "On a mortgage from an A-lender, the lender pays the broker and you pay nothing. Fees only come up on some B-lender or private files, and then you get the amount in writing, on the BCFSA disclosure form, before you agree to anything. The page on how mortgage brokers get paid has the full picture." },
+    { q: "Where is Joshua's office, and do I have to come in?", a: "The office is at #106, 2626 Croydon Drive in Surrey. You do not have to visit. Most clients work with Joshua by phone, email and video call from anywhere in BC, and in-person meetings can be set up by appointment." },
+    { q: "Does Joshua only work with people who live in Surrey?", a: "No. He serves clients across British Columbia from his Surrey office. The city pages on this site cover local details such as property transfer tax and municipal rules, but the process is the same wherever you live in the province." },
+    { q: "What is the best way to get started?", a: "Book a free 15-minute call. You will talk to Joshua himself, get a plain picture of your options and leave with a next step. If you would rather write first, the contact page and the mortgage check both work too." }
+  ],
   schema: [{
     "@context": "https://schema.org", "@type": "Person", "@id": SITE.origin + "/about-joshua-resvick/#person", name: "Joshua Resvick", jobTitle: "Mortgage Broker", identifier: { "@type": "PropertyValue", propertyID: "BCFSA Mortgage Broker Licence", value: "MB503619" },
     url: SITE.origin + "/about-joshua-resvick/", email: SITE.email, telephone: "+1-778-882-5674",
