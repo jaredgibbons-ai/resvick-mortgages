@@ -44,7 +44,7 @@ ${cta({ title: "Not sure which number to start with?", text: "Book a 15-minute c
 <li><strong>Get a real pre-approval.</strong> Documents, not guesses.</li>
 <li><strong>Shop with a realtor.</strong> Offers usually carry a financing condition, and that's the window where your broker confirms the lender's final approval.</li>
 <li><strong>Complete the lender's checks.</strong> That normally includes an appraisal or property review and final document verification.</li>
-<li><strong>Prepare for completion.</strong> Your lawyer or notary collects the down payment, the transfer tax and the closing costs, registers the transfer and releases the keys.</li>
+<li><strong>Prepare for completion.</strong> Your lawyer or notary (see the <a href="/partners/">partners page</a> for people I know) collects the down payment, the transfer tax and the closing costs, registers the transfer and releases the keys.</li>
 </ol>
 
 <h2>Common first-buyer mistakes</h2>

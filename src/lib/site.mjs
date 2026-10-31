@@ -40,7 +40,7 @@ const NAV = [
     ["Penalties (IRD)", "/interest-rate-differential/"], ["Broker vs bank", "/mortgage-broker-vs-bank/"], ["News and rule changes", "/guides/"]] },
   { label: "About", href: "/about-joshua-resvick/", kids: [
     ["About Joshua", "/about-joshua-resvick/"], ["Aftercare program", "/mortgage-aftercare-program/"], ["Lender Comparison Report", "/lender-comparison-report/"],
-    ["How brokers get paid", "/how-mortgage-brokers-get-paid/"], ["Refer a friend", "/refer/"], ["Contact", "/contact/"]] }
+    ["How brokers get paid", "/how-mortgage-brokers-get-paid/"], ["Realtor, notary and lawyer partners", "/partners/"], ["Refer a friend", "/refer/"], ["Contact", "/contact/"]] }
 ];
 
 export function header(current) {
@@ -66,7 +66,7 @@ export function footer() {
 <p>Resvick Mortgages, Joshua Resvick, Mortgage Broker, Xeva Mortgage (Verico Xeva Mortgage Inc.), #106–2626 Croydon Drive, Surrey, BC · ${SITE.licence} · Broker Licence #${SITE.brokerLicence}</p>
 <p><a href="${SITE.phoneHref}">${SITE.phone}</a> · <a href="mailto:${SITE.email}">${SITE.email}</a></p>
 <p class="small">Joshua serves clients across British Columbia, online and by phone, from his Surrey office. Verify any BC mortgage broker's licence with <a href="https://www.bcfsa.ca/public-resources/mortgage-brokers/find-mortgage-broker" rel="noopener">BCFSA's Find a Mortgage Broker</a>.</p></div>
-<div><p class="ftr-h">Buyers</p><ul><li><a href="/first-time-home-buyer-bc/">First-time buyers</a></li><li><a href="/down-payment-guide-bc/">Down payment guide</a></li><li><a href="/mortgage-pre-approval-bc/">Pre-approval</a></li><li><a href="/closing-costs-bc/">Closing costs</a></li></ul></div>
+<div><p class="ftr-h">Buyers</p><ul><li><a href="/first-time-home-buyer-bc/">First-time buyers</a></li><li><a href="/down-payment-guide-bc/">Down payment guide</a></li><li><a href="/mortgage-pre-approval-bc/">Pre-approval</a></li><li><a href="/closing-costs-bc/">Closing costs</a></li><li><a href="/partners/">Realtor, notary and lawyer partners</a></li></ul></div>
 <div><p class="ftr-h">Homeowners</p><ul><li><a href="/mortgage-renewal-bc/">Mortgage renewal</a></li><li><a href="/refinance-mortgage-bc/">Refinancing</a></li><li><a href="/self-employed-mortgage-bc/">Self-employed</a></li><li><a href="/mortgage-aftercare-program/">Aftercare program</a></li></ul></div>
 <div><p class="ftr-h">Tools</p><ul><li><a href="/mortgage-calculators/">Calculators</a></li><li><a href="/bc-property-transfer-tax-calculator/">Property transfer tax</a></li><li><a href="/mortgage-check-up/">Mortgage check-up</a></li><li><a href="/apply/">Start your application</a></li><li><a href="/mortgage-rates-bc/">Rates</a></li><li><a href="/resources/">All guides</a></li><li><a href="/guides/">News and rule changes</a></li><li><a href="/contact/">Contact</a></li></ul></div>
 <div><p class="ftr-h">Who we help</p><ul><li><a href="/mortgages-for-first-responders/">First responders</a></li><li><a href="/mortgages-for-nurses-and-healthcare-workers/">Nurses and healthcare</a></li><li><a href="/mortgages-for-military-and-veterans/">Military and veterans</a></li><li><a href="/mortgage-for-contractors/">Contractors and trades</a></li><li><a href="/new-to-canada-mortgage/">New to Canada</a></li><li><a href="/mortgages-for-single-parents/">Single parents</a></li><li><a href="/mortgages-during-separation-and-divorce/">Separation and divorce</a></li><li><a href="/co-buying-a-home/">Co-buying</a></li><li><a href="/downsizing-and-your-mortgage/">Downsizing</a></li><li><a href="/investment-property-mortgages-bc/">Investors</a></li><li><a href="/condo-and-townhouse-mortgages/">Condos and townhouses</a></li><li><a href="/mobile-home-mortgages-bc/">Mobile and manufactured homes</a></li><li><a href="/farm-and-alr-mortgages-bc/">Farm and ALR</a></li></ul></div>
@@ -98,13 +98,29 @@ export function ratesStrip(file = "src/data/rates.json") {
 <p class="small">${(d.rows || []).some((r) => r.rate != null) ? "" : "Joshua posts confirmed rates here. Until then, a 15-minute call gets you today's numbers across a wide range of lenders. "}<a href="/mortgage-rates-bc/">How your rate is set</a></p></section>`;
 }
 
-export function reviews(file = "src/data/reviews.json") {
+export function reviews(opts = {}) {
+  const { file = "src/data/reviews.json", tag = "", limit = 0, heading = "What clients say" } = typeof opts === "string" ? { file: opts } : opts;
   let d = { items: [], link: "" };
   try { d = JSON.parse(fs.readFileSync(file, "utf8")); } catch {}
-  if (!d.items || !d.items.length) return "";
+  let items = d.items || [];
+  if (tag) items = items.filter((r) => (r.tags || []).includes(tag));
+  if (limit) items = items.slice(0, limit);
+  if (!items.length) return "";
   const stat = d.count && d.rating ? `<p class="small rev-stat">${esc(d.rating)} out of 5 on Google, from ${esc(d.count)} reviews${d.asOf ? ", as of " + esc(d.asOf) : ""}. Figures are Josh's own profile, updated by hand.</p>` : "";
-  return `<section class="reviews" data-nocount aria-labelledby="rev-h"><h2 id="rev-h">What clients say</h2>${stat}<div class="rev-grid">${d.items.map((r) => `<blockquote><p>${esc(r.text)}</p><footer>${esc(r.name)}${r.when ? ", " + esc(r.when) : ""}</footer></blockquote>`).join("")}</div>${d.link ? `<p class="small"><a href="${esc(d.link)}" rel="noopener">Read all reviews on Google</a> · <a href="/reviews">Leave a review</a></p>` : ""}</section>`;
+  const more = d.link ? `<p class="small"><a href="${esc(d.link)}" rel="noopener">Read all reviews on Google</a> · <a href="/reviews">Leave a review</a></p>` : "";
+  return `<section class="reviews" data-nocount aria-labelledby="rev-h"><h2 id="rev-h">${esc(heading)}</h2>${stat}<div class="rev-grid rev-${items.length}">${items.map((r) => `<blockquote><p>${esc(r.text)}</p><footer>${esc(r.name)}${r.when ? ", " + esc(r.when) : ""}</footer></blockquote>`).join("")}</div><p class="small rev-src">Quoted from Google reviews of Resvick Mortgages. Reviewers are shown by initials.</p>${more}</section>`;
 }
+
+// Where reviews appear automatically (all are purchase stories, so they only go on buyer, trust and contact pages).
+const REV_TAG = { "/about-joshua-resvick/": "", "/contact/": "", "/apply/": "", "/refer/": "realtor", "/partners/": "first", "/first-time-home-buyer-bc/": "first", "/mortgage-pre-approval-bc/": "buy", "/first-time-buyer-programs-bc/": "first", "/how-much-mortgage-can-i-afford/": "buy", "/down-payment-guide-bc/": "buy", "/accepted-offer/": "buy", "/mortgage-broker-vs-bank/": "buy", "/how-mortgage-brokers-get-paid/": "buy" };
+const REV_LIM = { "/contact/": 2, "/apply/": 2 };
+const revFor = (page) => {
+  if (page.reviews === false || page.slug === "/") return "";
+  const city = /^\/mortgage-broker-[a-z-]+\/$/.test(page.slug);
+  if (!city && !(page.slug in REV_TAG)) return "";
+  const tag = city ? "buy" : REV_TAG[page.slug];
+  return reviews({ tag, limit: REV_LIM[page.slug] || (tag ? 2 : 4), heading: "What clients say" });
+};
 
 export const callout = (title, html) => `<aside class="callout"><p class="callout-t">${esc(title)}</p>${html}</aside>`;
 
@@ -202,6 +218,7 @@ ${header(page.nav || "")}
 ${withToc(page)}
 ${page.faqs && page.faqs.length ? faq(page.faqs) : ""}
 </article>
+${revFor(page) ? `<div class="wrap">${revFor(page)}</div>` : ""}
 <div class="wrap">${cta(page.closing || { dark: true })}</div>
 </main>
 ${footer()}

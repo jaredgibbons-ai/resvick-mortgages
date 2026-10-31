@@ -8,7 +8,7 @@ for (const f of process.argv.slice(2)) {
   for (const raw of Array.isArray(mod) ? mod : [mod]) {
     const page = raw.series ? postPage(raw) : raw; const spec = SPECS[page.slug] || { title: raw.title, meta: raw.meta };
     const $ = cheerio.load(render({ ...page, title: spec.title, meta: spec.meta }));
-    const art = $("article.prose").clone(); art.find("script, style, form, details, .short, table, noscript, .cta-block").remove(); // tables and noscript fallbacks are not running prose
+    const art = $("article.prose").clone(); art.find("script, style, form, details, .short, table, noscript, .cta-block, .partner-grid, .reviews").remove(); // contact cards are listings, not prose; tables and noscript fallbacks are not running prose
     const t = art.text().replace(/\s+/g, " ");
     const sents = t.split(/[.!?]+\s/).filter((x) => x.split(" ").length > 2); const words = t.match(/[A-Za-z][A-Za-z'-]*/g) || [];
     const W = words.length, S = sents.length, Y = words.reduce((a, w) => a + syll(w), 0);

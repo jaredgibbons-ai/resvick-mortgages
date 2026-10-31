@@ -1,9 +1,42 @@
 {
-  "note": "Josh's own Google profile only. Never use the Invis / Resvick & Associates listing. link = the public reviews page; writeLink = the 'write a review' short link (drives the /reviews redirect); count/rating/asOf are typed by hand and shown as text only (no review schema is emitted, per Google's self-serving review rules). items = quotes Josh has permission to reproduce.",
+  "note": "Josh's own Google profile only. Never use the Invis / Resvick & Associates listing. link = the public reviews page; writeLink = the 'write a review' short link (drives the /reviews redirect); count/rating/asOf are typed by hand and shown as text only (no review schema is emitted, per Google's self-serving review rules). items = quotes Josh has permission to reproduce. Items are verbatim Google reviews from Josh's profile, shown by initials; two edits only: '!' changed to '.' or removed (site no-exclamation rule), and J.M.'s closing thank-you line dropped. Confirm each reviewer is fine with being quoted. tags drive where each quote appears.",
   "link": "",
   "writeLink": "",
   "count": null,
   "rating": null,
   "asOf": "",
-  "items": []
+  "items": [
+    {
+      "text": "I've worked with Josh on a number of transactions and he's become my go-to mortgage broker for my clients. I know he'll take great care of them, communicate well, and always do everything he can to find the best solution. It's hard to find people you can genuinely trust in this business, and Josh is one of them. Highly recommend.",
+      "name": "J.G., local REALTOR®",
+      "tags": [
+        "realtor",
+        "buy"
+      ]
+    },
+    {
+      "text": "We were referred to Josh through our realtor, and we're so glad to have been connected with him. He reached out right away (even on a Sunday) and began working with us immediately. As a first-time home buyer, I really appreciated how Josh made the entire process smooth and stress-free. He is professional, approachable, and consistently went above and beyond. I would highly recommend him to anyone looking to get a mortgage, and I'll be calling him again when it's time to renew mine.",
+      "name": "J.M., first-time buyer",
+      "tags": [
+        "first",
+        "buy",
+        "realtor"
+      ]
+    },
+    {
+      "text": "After working with a variety of brokers over the years, I worked with Josh to purchase a property and hands down the best experience. Josh was extremely well spoken, knowledgeable, and proactive throughout the whole process. I highly recommend reaching out to Josh if you are looking to make this side of purchasing a home a seamless process.",
+      "name": "R.H., property buyer",
+      "tags": [
+        "buy"
+      ]
+    },
+    {
+      "text": "Josh was super helpful in my home buying experience. His knowledge and way with people are top notch. I'd recommend to my family and friends in a heart beat.",
+      "name": "B.S., home buyer",
+      "tags": [
+        "buy",
+        "first"
+      ]
+    }
+  ]
 }

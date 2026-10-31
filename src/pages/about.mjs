@@ -46,7 +46,7 @@ ${short({ answer: "I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. 
 <li><strong>One conversation to start.</strong> A 15-minute call covers your goals, your numbers and your timeline. You don't need a stack of documents to have it.</li>
 <li><strong>A plan with dates.</strong> For a purchase, I work back from your offer or possession date. For a renewal, I work back from your maturity date. The deadlines drive the checklist.</li>
 <li><strong>Updates at each step.</strong> You'll hear from me when the application goes in and when the lender responds. You'll also hear when conditions arrive and when they're cleared. You should never have to chase me for news.</li>
-<li><strong>Talking to your realtor and lawyer.</strong> When you're buying, the people around you need the right dates and documents. I keep them in the loop so nothing stalls at the end.</li>
+<li><strong>Talking to your realtor and lawyer.</strong> When you're buying, the people around you need the right dates and documents. I keep them in the loop so nothing stalls at the end. If you need a realtor, notary or lawyer, see the <a href="/partners/">partners page</a>.</li>
 <li><strong>Safe document handling.</strong> Private financial documents don't travel by plain email or website forms. I send you a secure upload link when it's time.</li>
 </ol>
 <p>New buyers often ask what to do first. My usual answer is to talk to a broker before you start viewing homes. Knowing your real buying power and your real cash needs changes which homes you should look at. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> walks through the steps.</p>

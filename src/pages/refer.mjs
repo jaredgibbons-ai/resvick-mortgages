@@ -56,6 +56,8 @@ ${form}
 <li><strong>They're worried about payments.</strong> Early is everything. I'll explain the options plainly, with no pressure, and often the answer is simpler than they fear.</li>
 </ul>
 
+<p>Know someone who needs a realtor, notary or lawyer instead? The <a href="/partners/">partners page</a> lists the people I know in each role.</p>
+
 <h2>What they'll get</h2>
 <p>The same thing every client gets. A short first call to understand the goal and the numbers. An honest read on what's realistic, including hearing early if something in the plan won't work. A written side-by-side of real lender options before they decide anything. After funding comes the <a href="/mortgage-aftercare-program/">aftercare program</a>. That means an annual review, rate monitoring and a call about six months before renewal. So the next decision gets made with time to spare. I've been a broker for ten years, after five years as a mortgage underwriter. Over 1,000 mortgages in, the part I still like best is explaining things properly.</p>
 

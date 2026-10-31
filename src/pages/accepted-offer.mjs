@@ -60,7 +60,7 @@ ${form}
 <li><strong>Days three to five</strong>Conditions get cleared. The lender confirms income, down payment and the property, and may order an appraisal. Appraisals are the step most likely to need extra days, especially outside the Lower Mainland.</li>
 <li><strong>Before subject removal</strong>You remove the financing condition only once the lender's approval is in hand. The conditions that matter must be satisfied too. If they aren't, we talk to your realtor about an extension before the deadline, not after.</li>
 </ol>
-<p>Between approval and completion, your lawyer or notary takes over the paperwork. The lender sends them instructions. You bring the rest of the down payment and closing costs to that appointment. The <a href="/closing-costs-bc/">closing costs page</a> has the full list. The <a href="/bc-property-transfer-tax-calculator/">property transfer tax calculator</a> gives you the biggest single number on it, including the first-time buyer exemption if you qualify.</p>
+<p>Between approval and completion, your lawyer or notary takes over the paperwork. The lender sends them instructions. You bring the rest of the down payment and closing costs to that appointment. The <a href="/closing-costs-bc/">closing costs page</a> has the full list. The <a href="/bc-property-transfer-tax-calculator/">property transfer tax calculator</a> gives you the biggest single number on it, including the first-time buyer exemption if you qualify. Need a name? The <a href="/partners/">partners page</a> lists a realtor, two notaries and a law firm.</p>
 
 <h2>The things that slow a file down</h2>
 <p>After ten years as a broker and five as an underwriter, I can tell you where the days get lost. It's rarely the rate. It's almost always the paperwork.</p>

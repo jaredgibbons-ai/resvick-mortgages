@@ -87,7 +87,7 @@ ${short({ answer: "Book a free 15-minute call, phone 778.882.5674, or send a not
 
 <h2>Who I work with</h2>
 <p>I work with clients across all of British Columbia. Everything can be done online and by phone. So it doesn't matter where you live: Metro Vancouver, the Okanagan, the Island, up North or anywhere in between. My office is in Surrey, and you're welcome to meet there if it's convenient, but you never need to. Applications, documents and signatures can all be handled remotely.</p>
-<p>I also help with renewals on mortgages that were arranged somewhere else. If your mortgage is with a bank or another broker, you can still ask me what your options are before your maturity date. The <a href="/mortgage-aftercare-program/">aftercare program</a> page explains how ongoing support works for my clients.</p>
+<p>I also help with renewals on mortgages that were arranged somewhere else. If your mortgage is with a bank or another broker, you can still ask me what your options are before your maturity date. The <a href="/mortgage-aftercare-program/">aftercare program</a> page explains how ongoing support works for my clients. If you are buying and need a realtor, notary or lawyer, the <a href="/partners/">partners page</a> lists the people I know.</p>
 
 ${cta({ title: "Ready when you are", text: "Book the 15-minute call and bring your questions. If picking up the phone is easier, I'm at " + SITE.phone + "." })}
 `;
