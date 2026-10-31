@@ -59,8 +59,8 @@ ${short({ answer: "A trucker mortgage comes down to how you're paid. Company dri
 <p>Each of these is a fair deduction. Each one lowers your net income. An A lender usually starts from that net figure, because it is what you told the tax office you earned.</p>
 <p>There is a second effect. If you still owe on the truck, the loan or lease can also show up as a debt payment when a lender checks your debt ratios. Some lenders count it. Some treat a business-owned truck loan as a business cost already taken out of income, so they do not count it twice. Lenders vary here, so ask before you assume.</p>
 
-<h2>Depreciation add-backs: what some lenders consider</h2>
-<p>Depreciation on a tax return is called capital cost allowance, or CCA. It is a paper deduction. It lowers your taxable income, but no cash leaves your account that year.</p>
+<h2>Depreciation add-backs</h2>
+<p>Tax depreciation is called CCA. That stands for capital cost allowance. It is a paper deduction. It lowers your taxable income, but no cash leaves your account that year.</p>
 <p>The CRA sorts vehicles into classes with set rates. For example, it lists heavy freight trucks in Class 16, at 40 percent. That means a rating above 11,788 kg, bought after December 6, 1991 (Canada Revenue Agency, Classes of depreciable property, read October 2026). Your accountant knows which class your truck falls in.</p>
 <p>Because CCA is not a cash cost, some lenders add part or all of it back when they work out your qualifying income. Others do not. Policy differs by lender and by program, and many limit the add-back to certain years or amounts. A lender that adds it back can see a much stronger file for the same truck.</p>
 <p>That is why a broker matters on an owner operator mortgage. Joshua spent five years as an underwriter reading files like these. He works out the figure each type of lender might use before anything is sent. The <a href="/stated-income-mortgage/">stated income mortgage page</a> explains the other route, which some lenders offer at a higher cost when the tax return does not show the full picture.</p>
