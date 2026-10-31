@@ -40,8 +40,8 @@ ${short({ answer: "Salaried professionals are usually easy to approve. Partners,
 <p>Architects and land surveyors follow the same logic. Salaried staff are simple. Principals who take draws or dividends need tax returns and sometimes company statements.</p>
 <p>Financial advisors are different again. If your pay is mostly commission or trailing fees, a lender will want two years of tax returns and will average the income. A base salary with a commission top-up is read in pieces. Lenders vary, so the right lender matters.</p>
 
-<h2>Your own firm or professional corporation</h2>
-<p>Many licensed professionals practise through a corporation. In BC, a lawyer needs a law corporation permit to practise through a corporation. Voting shares are limited to practising lawyers (Law Society of BC, law corporation permit, 2026, read October 2026). Rules for other professions differ, so check with your regulator.</p>
+<h2>Your own firm or corporation</h2>
+<p>Many professionals practise through a corporation. In BC, a lawyer needs a law corporation permit to practise through a corporation. Voting shares are limited to practising lawyers (Law Society of BC, law corporation permit, 2026, read October 2026). Rules for other professions differ, so check with your regulator.</p>
 <p>For the mortgage, the key question is how you pay yourself. Here is how lenders commonly read each type.</p>
 <ul>
 <li><strong>Salary.</strong> You get a T4 from your own company. Lenders read this easily when the salary has been steady for two years. They may still ask for the company's financial statements to show the salary can continue.</li>
