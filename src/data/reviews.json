@@ -1,7 +1,7 @@
 {
   "note": "Josh's own Google profile only. Never use the Invis / Resvick & Associates listing. link = the public reviews page; writeLink = the 'write a review' short link (drives the /reviews redirect); count/rating/asOf are typed by hand and shown as text only (no review schema is emitted, per Google's self-serving review rules). items = quotes Josh has permission to reproduce. Items are verbatim Google reviews from Josh's profile, shown by initials; two edits only: '!' changed to '.' or removed (site no-exclamation rule), and J.M.'s closing thank-you line dropped. Confirm each reviewer is fine with being quoted. tags drive where each quote appears.",
-  "link": "",
-  "writeLink": "",
+  "link": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x2a7c5367f6d8f511:0xa494da3ddaf02716!12e1",
+  "writeLink": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x2a7c5367f6d8f511:0xa494da3ddaf02716!12e1?source=g.page.m.ia._&laa=nmx-review-solicitation-ia2",
   "count": null,
   "rating": null,
   "asOf": "",
