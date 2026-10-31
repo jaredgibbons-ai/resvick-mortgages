@@ -29,7 +29,7 @@ const GROUPS = [
   ["Property types", "Strata, manufactured homes and farmland each have their own lender rules.", [
     "/condo-and-townhouse-mortgages/", "/mobile-home-mortgages-bc/", "/farm-and-alr-mortgages-bc/"]],
   ["Investing", "Rental mortgages, how rent counts, and the strategies worth knowing before you use them.", [
-    "/investment-property-mortgages-bc/", "/refinance-rental-property/", "/converting-your-home-to-a-rental/", "/airbnb-and-short-term-rental-mortgages/", "/dscr-loans-canada/",
+    "/investment-property-mortgages-bc/", "/commercial-mortgages-bc/", "/refinance-rental-property/", "/converting-your-home-to-a-rental/", "/airbnb-and-short-term-rental-mortgages/", "/dscr-loans-canada/",
     "/brrrr-strategy-canada/", "/smith-manoeuvre/"]],
   ["Calculators and checks", "Run the numbers yourself. Every result shows up right away, and nothing you type is sent anywhere.", [
     "/mortgage-calculators/", "/bc-property-transfer-tax-calculator/", "/mortgage-penalty-calculator/", "/refinance-break-even/", "/home-equity-estimator/",

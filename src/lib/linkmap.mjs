@@ -52,6 +52,7 @@ export const SLUGS = `/
 /how-much-suite-income-will-a-lender-count/
 /interest-rate-differential/
 /investment-property-mortgages-bc/
+/commercial-mortgages-bc/
 /is-it-worth-refinancing/
 /lender-comparison-report/
 /missed-a-mortgage-payment/
@@ -75,6 +76,11 @@ export const SLUGS = `/
 /mortgage-broker-princeton/
 /mortgage-broker-whistler/
 /mortgage-broker-pitt-meadows/
+/mortgage-broker-kitimat/
+/mortgage-broker-terrace/
+/mortgage-broker-invermere/
+/mortgage-broker-keremeos/
+/mortgage-broker-quesnel/
 /mortgage-broker-white-rock/
 /mortgage-broker-north-vancouver/
 /mortgage-broker-mission/
