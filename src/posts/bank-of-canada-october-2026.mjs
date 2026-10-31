@@ -1,4 +1,5 @@
 import { cta, callout } from "../lib/site.mjs";
+import { bocDates } from "../lib/boc-dates.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
@@ -60,6 +61,7 @@ ${short({
 
 ${callout("How this series works", "<p>Each post covers one decision, on or near the day it happens. It quotes the Bank's own statement rather than a headline. Figures are dated. The evergreen guides linked above carry the rules, and this post carries the event. Clients in the aftercare program get the same note by email on decision day.</p>")}
 
+${bocDates()}
 ${cta({ title: "Want this applied to your own mortgage?", text: "A 15-minute call is enough to work out what October's decision means for your payment, your trigger rate or your renewal. It's free, and there's no obligation." })}
 `;
 

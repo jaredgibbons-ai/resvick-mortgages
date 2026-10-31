@@ -1,4 +1,5 @@
 import { cta, callout } from "../lib/site.mjs";
+import { bocDates } from "../lib/boc-dates.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
@@ -78,6 +79,7 @@ ${callout("A caution about 'what will rates do'", "<p>Choosing fixed or variable
 <h2>Timing a lock</h2>
 <p>Choosing fixed while you're still shopping? A rate hold keeps the rate available for a while as you decide. The page on <a href="/mortgage-rate-hold/">when to lock in</a> covers how holds work. A hold reserves a rate, not the right answer. You still need to pick the structure carefully.</p>
 
+${bocDates()}
 ${cta({ title: "Choose the risk you can carry", text: "In 15 minutes, Joshua can show you a fixed and a variable option side by side. That includes what each would cost to leave." })}
 `;
 

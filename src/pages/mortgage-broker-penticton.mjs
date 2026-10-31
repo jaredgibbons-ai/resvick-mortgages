@@ -46,7 +46,7 @@ ${ratesStrip()}
 ${callout("What a mortgage broker costs", "<p>For most Penticton purchases and renewals, an A lender pays Joshua and your cost is zero. Rural, rental-income and retirement-income files can sometimes need a B or private lender. Any fee that applies to you has to be shown in writing, on BCFSA's Form 1A, before you agree to it.</p>")}
 
 <h2>Buying, renewing and refinancing in the South Okanagan</h2>
-<p><strong>First-time buyers</strong> can use the same BC and federal programs as anyone else, including the property transfer tax exemption, the First Home Savings Account and the Home Buyers' Plan. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> shows the order to use them in.</p>
+<p><strong>First-time buyers</strong> can use the same BC and federal programs as anyone else. These include the property transfer tax exemption, the First Home Savings Account and the Home Buyers' Plan. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> shows the order to use them in.</p>
 <p><strong>Renewals</strong> reward early planning. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline, and the <a href="/mortgage-calculators/#renewal">renewal tool</a> inside the <a href="/mortgage-calculators/">mortgage calculators</a> tests staying, switching and refinancing with your figures.</p>
 <p><strong>Self-employed buyers</strong> are common in a region built on tourism, farms and trades. Their income is read from tax returns. The <a href="/self-employed-mortgage-bc/">self-employed hub</a> explains the routes. For how a rate is set, see the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 

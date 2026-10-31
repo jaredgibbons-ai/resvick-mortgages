@@ -1,4 +1,5 @@
 import { short } from "../lib/short.mjs";
+import { bocDates } from "../lib/boc-dates.mjs";
 import { cta, callout, ratesStrip } from "../lib/site.mjs";
 
 const body = `
@@ -91,6 +92,7 @@ ${callout("An illustration, not a quote", "<p>Take a $500,000 mortgage on a 25-y
 <h2>Compare your options side by side</h2>
 <p>The scenario tool on the <a href="/mortgage-calculators/#compare">calculators page</a> puts up to four options side by side. It covers payment, interest over the term and penalty exposure. Plug in rates you've been quoted. Or try a few to see how much a small difference really matters.</p>
 
+${bocDates()}
 ${cta({ title: "Get your comparison report", text: "A 15-minute call covers your goals and timeline. Then Joshua compares real lender options for your file and shows them to you in writing." })}
 `;
 

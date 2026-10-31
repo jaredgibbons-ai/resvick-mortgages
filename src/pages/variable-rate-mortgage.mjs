@@ -1,4 +1,5 @@
 import { cta, callout, ratesStrip } from "../lib/site.mjs";
+import { bocDates } from "../lib/boc-dates.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
@@ -68,6 +69,7 @@ ${callout("Variable and aftercare", "<p>A variable mortgage works best when some
 <p>He compares variable and fixed options across a wide range of lenders. He looks at the trigger rate, the conversion terms and the penalty on each. Then he puts them in writing in the <a href="/lender-comparison-report/">Lender Comparison Report</a>.</p>
 <p>When a mortgage goes to a mainstream (A) lender, the lender pays the broker. You pay nothing for the service. The wider rate picture is on the <a href="/mortgage-rates-bc/">mortgage rates in BC</a> page.</p>
 
+${bocDates()}
 ${cta({ title: "Check how a variable would behave for you", text: "Bring your numbers. Joshua will show you the payment at several rates, your trigger rate and the conversion terms before you decide.", href: "/contact/", label: "Contact Joshua" })}
 `;
 

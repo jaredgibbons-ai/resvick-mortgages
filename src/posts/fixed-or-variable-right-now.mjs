@@ -1,3 +1,4 @@
+import { bocDates } from "../lib/boc-dates.mjs";
 import { short } from "../lib/short.mjs";
 
 export default {
@@ -58,6 +59,7 @@ ${short({
 <p>Lean fixed if you'll stay put, need a predictable payment, and would lose sleep over the monthly number.</p>
 <p>Lean toward a shorter fixed term if you want a fixed payment but aren't sure about five years.</p>
 <p>None of those answers depends on a forecast. That's the point. You can come back to them at renewal, with the same framework and a different market.</p>
+${bocDates()}
 <p>Want the framework run on your own numbers, with your real quotes and your real plans? That's a 15-minute conversation, and it doesn't come with a prediction either. The <a href="/contact/">contact page</a> has the link.</p>
 `,
   faqs: [
