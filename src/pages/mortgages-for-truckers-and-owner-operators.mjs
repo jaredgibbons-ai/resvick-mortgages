@@ -132,6 +132,8 @@ ${short({ answer: "A trucker mortgage comes down to how you're paid. Company dri
 
 ${callout("Bring one thing to the call", "<p>Pull your last two years of T4s or tax returns and your latest settlement statement or pay stub. With those, Joshua can usually tell you in one call how a lender might read your income. You can send them from your phone.</p>")}
 
+<p>If your company buys a yard or shop, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> for owner-occupied premises.</p>
+
 ${cta({ title: "The road is your office. The call can be too.", text: "Book a 15-minute call from wherever you are. Joshua will read your income the way a lender does and tell you which type of lender fits. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;
 

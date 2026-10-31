@@ -79,6 +79,8 @@ ${short({ answer: "Joshua's office is in Surrey, so this is his home city. He wo
 
 ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-langley/">Langley</a> and <a href="/mortgage-broker-richmond/">Richmond</a>, plus White Rock, Delta and the rest of the South of Fraser area. The Google Business Profile for Resvick Mortgages lists this Surrey office. If Joshua has helped you, a review there helps the next Surrey family find him.</p>`)}
 
+<p>If you own a business in Surrey and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+
 ${cta({ title: "Buying, renewing or refinancing in Surrey?", text: "Book a 15-minute call, by phone or at the Surrey office. You'll leave with a clear picture and a next step." })}
 <p>For anything else, the <a href="/contact/">contact page</a> has the phone number, email and what to have ready.</p>
 `;

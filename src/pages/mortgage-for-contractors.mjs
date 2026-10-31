@@ -67,6 +67,8 @@ ${short({ answer: "Contractors and tradespeople can get a mortgage, but lenders 
 
 ${callout("Why the underwriting years matter for the trades", "<p>An underwriter looks at a contractor's file and asks three things. Is the income real? Will it continue? Has it been declared? Joshua answers those questions in the application itself. He lines up the bank statements, contracts and trade ticket beside the tax return. That way the lender reads your business the way you do.</p>")}
 
+<p>If your company buys a shop or yard, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> for owner-occupied premises.</p>
+
 ${cta({ title: "Your returns do not tell the whole story", text: "Book a 15-minute call. Joshua will tell you what each lender type would count and what it would cost. He'll tell you whether to apply now or plan the next tax year first. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;
 

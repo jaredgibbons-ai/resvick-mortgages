@@ -58,6 +58,8 @@ ${callout("What a broker costs in Prince George", "<p>The same as anywhere in BC
 <h2>Nearby</h2>
 <p>Joshua serves the Interior the same way. The <a href="/mortgage-broker-kamloops/">Kamloops page</a> covers rail, trades and contract income in the Thompson region. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the Okanagan, including recreational and acreage property. Current rates and how your rate gets set are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
+<p>If you own a business in Prince George and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+
 ${cta({ title: "Talk to a broker who serves Prince George", text: "Book a 15-minute call. Tell Joshua how you're paid and what you're looking at. You'll leave knowing how a lender will read your file and what to gather first." })}
 
 <p>Resvick Mortgages is listed on Google as a mortgage broker serving BC from Surrey. Did a search for a broker in Prince George bring you here? The <a href="/contact/">contact page</a> has the phone number, the email address and what to have ready.</p>

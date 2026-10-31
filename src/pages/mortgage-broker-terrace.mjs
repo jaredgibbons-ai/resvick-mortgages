@@ -15,7 +15,7 @@ ${short({
 ${ratesStrip()}
 
 <h2>A hub for work that happens elsewhere</h2>
-<p>The City's 2024 Housing Needs Report calls Terrace a service hub for large industrial projects in surrounding communities. The report counted about 12,600 people in 2021 and a median household income near $90,500 before tax. (City of Terrace, Housing Needs Report, December 2024, read October 2026).</p>
+<p>The City's 2024 Housing Needs Report calls Terrace a service hub for large industrial projects in surrounding communities. The report counted about 12,600 people in 2021. (City of Terrace, Housing Needs Report, December 2024, read October 2026).</p>
 <p>Three pieces of the local picture matter to a lender and to you:</p>
 <ul>
 <li><strong>Power line work.</strong> A groundbreaking on September 3, 2026 marked the start of the North Coast Transmission Line. The line is to run from Prince George to Terrace. The governments expect about 1,400 jobs at the peak of construction. The line is meant to power the Ksi Lisims LNG facility and mining in the Golden Triangle. (Energy Now, Construction begins on major B.C. transmission line, September 2026, read October 2026).</li>
@@ -23,6 +23,9 @@ ${ratesStrip()}
 <li><strong>A college campus.</strong> Coast Mountain College runs a Terrace campus with trades, nursing and university courses, and a student residence. (Coast Mountain College, Terrace campus, read October 2026).</li>
 </ul>
 <p>Do not assume every new job lands in Terrace. The first phase of the power line is a 165 km stretch near Prince George. The article does not say where crews will live. A job tied to the line may be a rotation, a camp or a contract with an out-of-town employer. Each one reads differently to a lender, so the details matter more than the headline.</p>
+
+<h2>Incomes in Terrace</h2>
+<p>The 2021 Census puts Terrace's median household income at $90,000 for 2020. About 12.1 percent of workers were self-employed, or 780 of 6,470. Health care was the largest industry with 1,165 workers. Retail had 805, construction 650 and educational services 605. (Statistics Canada, 2021 Census Profile, read October 2026). Health care and schools bring steady salaried files. Construction brings contract and project pay, which lenders read through your tax returns. Joshua can sort out which type your file is before he picks a lender.</p>
 
 <h2>How a lender reads project, contract and rotation pay</h2>
 <p>Terrace files often mix pay types. Here is how lenders commonly see them. Policies vary, so Joshua checks each one before he picks a lender.</p>
@@ -95,6 +98,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <h2>Close to Terrace</h2>
 <p>Terrace buyers often compare homes in other northern towns. The <a href="/mortgage-broker-prince-george/">Prince George page</a> covers the northern service centre, where resource, rotation and seasonal pay are read in a similar way.</p>
+
+<p>If a home near Terrace sits on First Nation land, it is financed differently from other land. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
 
 ${cta({ title: "Talk to a broker who serves Terrace", text: "Book a 15-minute call. Share your arrival date, how you are paid and the kind of home you want. You will leave knowing which lenders fit and what to line up before you move." })}
 `;

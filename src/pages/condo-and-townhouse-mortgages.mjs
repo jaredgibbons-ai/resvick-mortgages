@@ -35,6 +35,8 @@ ${short({
 <p>For a buyer, the report is the clearest picture of what the building will cost over the next thirty years. For a lender, it answers a narrower question. Is the contingency reserve fund roughly in line with the report's funding model? Or is the strata heading toward a special levy that owners will struggle to pay?</p>
 <p>Picture a building with an old roof, original plumbing and a reserve fund that wouldn't cover either. A lender may limit the loan-to-value, ask for a larger down payment, or decline. A missing report in a building that should have one is a flag in itself. After the deadlines above, it will be a compliance failure the lender can see in the Form B.</p>
 
+<p>Some strata homes sit on leased land. If your building is leasehold, the lease matters as much as the strata documents. See <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
+
 ${cta({ title: "Buying a strata unit and want the documents read like a lender would?", text: "Send Joshua the Form B, the minutes and the depreciation report before you remove subjects. He will tell you what an underwriter is likely to see, and whether anything in them changes the mortgage you can expect." })}
 
 <h2>Building insurance and the deductible problem</h2>

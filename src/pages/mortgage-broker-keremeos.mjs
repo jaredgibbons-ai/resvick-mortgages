@@ -25,6 +25,9 @@ ${ratesStrip()}
 </ol>
 <p>You do not have to live here to start. Joshua works by phone and video, so a pre-approval can be done from your current home. A realtor can show you the house, and you can sign from anywhere.</p>
 
+<h2>Incomes in Keremeos</h2>
+<p>Keremeos is a small village, so its Census counts are small. The 2021 Census puts the median household income at $53,200 for 2020. About 16.8 percent of workers were self-employed, or 90 of 535. Health care was the largest industry with 90 workers, then retail with 80, construction with 60 and manufacturing with 55. (Statistics Canada, 2021 Census Profile, read October 2026). A lower household income can still qualify, since lenders look at your debts and down payment as well. Farm and seasonal pay is read over a longer period, often two years, so bring your tax returns.</p>
+
 <h2>A small village in a farm valley</h2>
 <p>The 2021 Census counted 1,608 people in the Village, up from 1,502 in 2016. Private dwellings grew by 10.5%. Rural Area G, which wraps around the Village, grew by 164 people to 2,298. Cawston, in Area B, grew by 104 to 1,151. (Kelowna Capital News, Census finds steady growth in Keremeos, February 11, 2022, read October 2026).</p>
 <p>The mayor at the time said a new subdivision two blocks from his home sold as soon as the roofs went on. He also said fruit land was giving way to housing in places. (Kelowna Capital News, Census finds steady growth in Keremeos, February 11, 2022, read October 2026). That is the small-town pattern: not many homes, steady interest, and fewer choices than a city offers.</p>
@@ -81,6 +84,8 @@ ${ratesStrip()}
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Keremeos files, such as pad homes, new farm income or working orchards, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
+
+<p>If a home in the Similkameen sits on First Nation land or leased land, it is a different kind of file. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
 
 ${cta({ title: "Talk to a broker who serves Keremeos", text: "Book a 15-minute call. Share where you are moving from, how you are paid and the kind of home you want. You will leave knowing which lenders fit and what to line up before you move." })}
 `;

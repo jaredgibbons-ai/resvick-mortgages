@@ -40,7 +40,7 @@ ${ratesStrip()}
 <h2>Other Princeton paycheques</h2>
 <p>The mine is the biggest name, but not the only one. The lumber mill on Old Hedley Road was sold by Weyerhaeuser and now runs as Similkameen Forest Products, part of the Gorman Group. (Miller Wood Trade Publications, Gorman Group focuses on value recovery, read October 2026). Mill work is shift work too, and it is read much like mine work.</p>
 <p>Ranching and farm income is common in the valley. It is often seasonal, and part of it may be self-employed. Lenders usually want two years of tax returns before they count it in full. The <a href="/self-employed-mortgage-bc/">self-employed hub</a> explains the routes. The Town also has a large share of retirees. Their pension and registered income is generally counted from award letters and statements.</p>
-<p>The 2021 Census put Princeton's median household income at $64,500 for 2020, the lowest of the cities we cover. Mining was the largest industry, with 260 workers or 19.6 percent of the labour force. Manufacturing came second with 200 workers, and retail third with 165. Only 9.4 percent of workers were self-employed. (Statistics Canada, 2021 Census Profile, read October 2026). That is a town of wages from a few large employers. The median blends pensions, service wages and industrial pay. A mine worker's income can sit well above it, so the town median says little about what an industrial household can borrow.</p>
+<p>The 2021 Census put Princeton's median household income at $64,500 for 2020, one of the lowest of the places we cover. Mining was the largest industry, with 260 workers or 19.6 percent of the labour force. Manufacturing came second with 200 workers, and retail third with 165. Only 9.4 percent of workers were self-employed. (Statistics Canada, 2021 Census Profile, read October 2026). That is a town of wages from a few large employers. The median blends pensions, service wages and industrial pay. A mine worker's income can sit well above it, so the town median says little about what an industrial household can borrow.</p>
 
 <h2>What Princeton homes are, and what lenders ask</h2>
 <p>Princeton is a town of detached houses. About one home in six is a manufactured or mobile home, and there are almost no condos. (Statistics Canada 2021 Census, Princeton profile, as republished by Point2Homes, read October 2026). Each kind of home brings its own questions.</p>
@@ -86,6 +86,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <h2>Close to Princeton</h2>
 <p>Many Princeton buyers also price homes in the Okanagan. The <a href="/mortgage-broker-penticton/">Penticton page</a> covers the South Okanagan. The <a href="/mortgage-broker-kamloops/">Kamloops page</a> covers the Thompson region, where rail and mining pay are read in a similar way.</p>
+
+<p>If a home near Princeton sits on First Nation land or leased land, it is a different kind of file. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
 
 ${cta({ title: "Talk to a broker who serves Princeton", text: "Book a 15-minute call. Share your start date, how you are paid and the kind of home you want. You will leave knowing which lenders fit and what to line up before you move." })}
 `;

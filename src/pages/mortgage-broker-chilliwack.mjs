@@ -59,6 +59,8 @@ ${callout("What you pay", "<p>Most Chilliwack files go to an A lender, where the
 <h2>Nearby</h2>
 <p>Joshua serves the whole Fraser Valley the same way. The <a href="/mortgage-broker-abbotsford/">Abbotsford page</a> covers the next city west, including acreage and Agricultural Land Reserve property. The <a href="/mortgage-broker-langley/">Langley page</a> covers the Township and the City of Langley. Nearby communities do not all share one local government, so bylaws can differ. The City runs a fire hall in Rosedale, so Rosedale looks to sit inside the City (City of Chilliwack, Fire Hall Locations, read October 2026). Confirm any single lot with the City. Agassiz is where the District of Kent has its office (District of Kent, Public Notice - Zoning Bylaw Amendment 1752, Jul 4, 2025, read October 2026). Popkum and Bridal Falls sit in Electoral Area D of the regional district (Fraser Valley Regional District, Electoral Area D, last updated September 22 2026, read October 2026). Joshua serves all of them.</p>
 
+<p>Some manufactured home parks in the area sit on First Nation land. Listings for one park show leases running to 2072. Ask for the lease before you make an offer. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves Chilliwack", text: "Book a 15-minute call. Tell Joshua the property and what you're selling, if anything. You'll leave knowing which lenders fit and what to gather first." })}
 `;
 

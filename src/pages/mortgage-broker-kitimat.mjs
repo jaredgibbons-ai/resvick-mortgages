@@ -23,6 +23,9 @@ ${ratesStrip()}
 </ul>
 <p>A lender does not underwrite a megaproject. It underwrites you: your job, your pay and your debts. But these projects decide how long your job may last and how crowded the housing market feels, so they are worth understanding first.</p>
 
+<h2>Incomes in Kitimat</h2>
+<p>Kitimat's 2021 Census profile shows a median household income of $103,000 for 2020. Only 8.0 percent of workers were self-employed, or 340 of 4,265. Manufacturing was the largest industry with 820 workers, then construction with 635 and health care with 415. (Statistics Canada, 2021 Census Profile, read October 2026). That is a wage town, with industrial and project pay that can include shift premiums and overtime. Many lenders average that kind of pay over two years. Contract and camp work is read differently from a permanent job, so share your pay records at the start.</p>
+
 <h2>What the District's own housing report shows</h2>
 <p>Kitimat's Housing Needs Report 2024 gives a plain picture of who owns and who rents. It was dated December 2024. The numbers below come from the 2021 Census unless noted. (District of Kitimat, Housing Needs Report 2024, read October 2026).</p>
 <ul>
@@ -103,6 +106,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <h2>Other resource towns</h2>
 <p>Another northern town where resource pay shapes the file is Prince George. The <a href="/mortgage-broker-prince-george/">Prince George page</a> covers it.</p>
+
+<p>If a home near Kitimat sits on First Nation land, it is financed differently from other land. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
 
 ${cta({ title: "Talk to a broker who serves Kitimat", text: "Book a 15-minute call. Share how you are paid, when your contract ends and the kind of home you want. You will leave knowing which lenders fit and what to line up first." })}
 `;

@@ -28,6 +28,9 @@ ${ratesStrip()}
 </ul>
 <p>The common thread is timing. The earlier a file is reviewed, the more options it has.</p>
 
+<h2>Incomes in Quesnel</h2>
+<p>The 2021 Census puts Quesnel's median household income at $67,000 for 2020. About 10.9 percent of workers were self-employed, or 485 of 4,440 in the labour force. Manufacturing was the largest industry with 750 workers, followed by health care with 625 and retail with 610. (Statistics Canada, 2021 Census Profile, read October 2026). Manufacturing includes wood products, so many Quesnel files are mill wages, often with shift work and overtime. Lenders commonly average overtime over two years. If your mill shifts are cut back, tell Joshua early, since lenders look at your most recent pay.</p>
+
 <h2>Moving to Quesnel: buying a home before or after you arrive</h2>
 <p>Many people who search for buying a home in Quesnel do not live here yet. Some are leaving higher-priced cities. Some work remotely. Others are health care workers or tradespeople with a start date and a short window. Moving to Quesnel is a personal choice, and a lender cares about your job and credit, not the town's headlines.</p>
 <p>Try these steps in this order:</p>
@@ -49,7 +52,7 @@ ${ratesStrip()}
 <p>Barkerville Historic Town ran its main 2026 season from May 30 to September 13 (CKPG Today, May 28, 2026, read October 2026). Seasonal pay can be counted, but lenders vary. Some average two years of income. Some leave employment insurance out.</p>
 <h3>Loggers, truckers and contractors</h3>
 <p>Many people here work for themselves or own a truck. Lenders judge this pay from tax returns, usually over two years. The <a href="/self-employed-mortgage-bc/">self-employed hub</a> and the <a href="/mortgage-for-contractors/">contractor page</a> explain the add-backs and the options.</p>
-<p>For scale, an older census figure put the city's median household income at $60,651 in 2015, against $69,995 for BC (Wikipedia, Quesnel, read October 2026). That blends many pay types. It says little about what one household can borrow.</p>
+<p>The median blends many pay types. It says little about what one household can borrow.</p>
 
 <h2>What Quesnel homes are, and what lenders ask</h2>
 <p>The Housing Needs Assessment counts 4,766 dwellings in the city in 2021. About 62 of every 100 households owned their home, with 2,800 owners and 1,705 renters (North Cariboo Housing Needs Assessment, December 2024, read October 2026). It also notes a rental vacancy rate of 2.3% in October 2023, up from 1.3% a year earlier. Renters here still have limited choice.</p>
@@ -84,6 +87,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <h2>Close to Quesnel</h2>
 <p>Many Quesnel buyers also compare Prince George, which has a bigger market and more condos and townhouses. The <a href="/mortgage-broker-prince-george/">Prince George page</a> covers the northern service centre.</p>
+
+<p>If a home near Quesnel sits on First Nation land, it is financed differently from other land. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
 
 ${cta({ title: "Talk to a broker who serves Quesnel", text: "Book a 15-minute call. Share how you are paid, where you are moving from and the kind of home you want. You will leave knowing which lenders fit and what to line up first." })}
 `;

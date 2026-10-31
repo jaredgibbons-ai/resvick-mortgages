@@ -49,6 +49,8 @@ ${short({ answer: "A bridge loan lends you the equity from your old home, for da
 </table></div>
 <p>They are often used together. A buyer may need a deposit loan when the offer is accepted. Then a bridge covers the completion gap. If the old mortgage is at maturity, an open term on it avoids a penalty when the sale closes. Each of these has a cost. A broker's job is to find the mix that solves the timing with the least of it.</p>
 
+<p>Bridge loans also come up on commercial purchases. See our page on <a href="/commercial-mortgages-bc/">commercial mortgages</a>.</p>
+
 ${cta({ title: "Buying and selling in the same window?", text: "Book a 15-minute call before you write the offer. Joshua will map both completion dates, check whether your new lender can bridge, and show you what the gap would cost, so the timing is a plan rather than a scramble." })}
 
 <h2>The plan-B conversation</h2>

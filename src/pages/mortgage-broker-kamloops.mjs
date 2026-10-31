@@ -61,6 +61,8 @@ ${callout("What you pay", "<p>On a mortgage placed with an A lender, the lender 
 <h2>Nearby</h2>
 <p>Joshua serves the Interior and the North the same way he serves the coast. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the Okanagan, including recreational and acreage property. The <a href="/mortgage-broker-prince-george/">Prince George page</a> covers northern resource and shift income. Current rates, and how your rate is set, are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
+<p>Sun Rivers is a golf community on Tk'emlúps te Secwépemc land. The community's own pages say the Crown holds a 99-year head lease and buyers take a registered leasehold title (Sun Rivers community pages, read October 2026). Lenders vary on leasehold homes, so ask early. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/leasehold-mortgages-bc/">leasehold mortgages</a> and <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p><p>If you own a business in Kamloops and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+
 ${cta({ title: "Talk to a broker who serves Kamloops", text: "Book a 15-minute call. Tell Joshua how you're paid. You'll leave knowing how a lender will read it and what to gather first." })}
 
 <p>Resvick Mortgages is listed on Google as a mortgage broker serving British Columbia from Surrey. Did you search for a mortgage broker in Kamloops and land here? The <a href="/contact/">contact page</a> has the phone number, the email address and what to have ready for the first call.</p>

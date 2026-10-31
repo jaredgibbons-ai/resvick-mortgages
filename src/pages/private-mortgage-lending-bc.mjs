@@ -53,6 +53,8 @@ ${callout("A rule for private files", "<p>Don't sign a private mortgage until yo
 <p>Maybe a deadline is close, a foreclosure notice has arrived or a renewal was refused. The most useful thing you can do is call today, not next week. Private lending works fastest when the file is organized early. The cheaper options, where they exist, take longer to arrange.</p>
 <p><a href="/contact/">Contact Joshua</a> or phone directly. He'll tell you plainly whether private money is the right tool, what it costs in full and what the way out looks like.</p>
 
+<p>For a commercial property that a bank will not finance, private lending is one option. See <a href="/commercial-mortgages-bc/">commercial mortgages</a> for how commercial files work.</p>
+
 ${cta({ title: "Facing a deadline?", text: "Call or book a 15-minute conversation today. Joshua will tell you whether a private mortgage is the right tool, show you every cost in writing, and set the exit plan before anything is signed." })}
 `;
 

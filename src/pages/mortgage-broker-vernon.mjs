@@ -57,6 +57,8 @@ ${callout("What you pay", "<p>On most North Okanagan files the lender pays Joshu
 <h2>Nearby</h2>
 <p>The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the central Okanagan to the south. The <a href="/mortgage-broker-kamloops/">Kamloops page</a> covers rail, trades and shift income to the north and west. Ready to talk? The <a href="/contact/">contact page</a> shows how to reach Joshua.</p>
 
+<p>If a home you like sits on First Nation land or leased land, it is a different kind of file. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves the North Okanagan", text: "Book a 15-minute call. Share the address, the land and how you are paid. Joshua will tell you what a lender is likely to say." })}
 `;
 

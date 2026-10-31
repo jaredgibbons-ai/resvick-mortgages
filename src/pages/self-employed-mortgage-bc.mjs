@@ -68,6 +68,8 @@ ${callout("What a broker costs on a self-employed file", "<p>When a mortgage goe
 <p>Every client gets a written Lender Comparison Report before deciding. So the choice between an A lender, a B lender or waiting a year gets made with real numbers, not a hunch.</p>
 <p>A good first step is the <a href="/mortgage-calculators/#affordability">affordability calculator</a>. Use the income a lender is likely to count, not what you really earn. Then <a href="/contact/">book a 15-minute call</a> to find out which door fits your file today.</p>
 
+<p>If your business owns its premises, a <a href="/commercial-mortgages-bc/">commercial mortgage</a> may be a better fit than a home mortgage. Joshua also arranges commercial mortgages for owner-occupied buildings.</p>
+
 ${cta({ title: "Self-employed and not sure which lender fits?", text: "Book a 15-minute call. Joshua will tell you how an underwriter would read your returns. He'll also show which lenders can use your income and what each would cost." })}
 
 <h2>Who wrote this</h2>

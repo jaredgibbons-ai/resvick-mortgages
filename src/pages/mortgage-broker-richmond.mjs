@@ -60,6 +60,8 @@ ${ratesStrip()}
 
 ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-vancouver/">Vancouver</a> and <a href="/mortgage-broker-surrey/">Surrey</a>, where his office is. He serves Delta and the rest of Metro Vancouver too. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from a Richmond client helps the next buyer find him.</p>`)}
 
+<p>If you own a business in Richmond and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+
 ${cta({ title: "A first home near the Canada Line, or a move up in Steveston?", text: "Book a 15-minute call. You'll leave knowing what's realistic and what to do first." })}
 <p>First purchase? The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> is the place to start. For anything else, see the <a href="/contact/">contact page</a>.</p>
 `;

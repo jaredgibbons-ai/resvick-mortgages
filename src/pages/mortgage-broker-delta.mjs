@@ -55,6 +55,8 @@ ${callout("What you pay", "<p>Most Delta purchases and renewals go to A lenders,
 <h2>Nearby</h2>
 <p>North Delta borders Surrey, where Joshua's office is. The <a href="/mortgage-broker-surrey/">Surrey page</a> has the address and what to bring for an in-person meeting. Across the tunnel, the <a href="/mortgage-broker-richmond/">Richmond page</a> covers the other side of Highway 99.</p>
 
+<p>If you own a business in Delta and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+
 ${cta({ title: "Talk to a broker who serves Delta", text: "Book a 15-minute call. Tell Joshua which part of Delta and what kind of property. You'll leave knowing how a lender will read it and what to gather first." })}
 
 `;

@@ -18,6 +18,9 @@ ${ratesStrip()}
 <p>The District's housing report gives a clear picture. It counts 2,238 private dwellings and says 578 of them, about 26 percent, are not occupied by usual residents. About 71 percent of households own, and 29 percent rent. The median household income was about $84,000. Owners sat near $93,000, and renters near $53,200 (Housing Needs Report, November 25, 2024, read October 2026).</p>
 <p>Those numbers explain a lot. A good share of buyers do not live here full time. Local renters earn far less than owners, so many locals compete with buyers who have other sources of money. A lender sees that mix too, and it asks what the home is for before it looks at much else.</p>
 
+<h2>Incomes in Invermere</h2>
+<p>The 2021 Census puts Invermere's median household income at $84,000 for 2020. It also shows a high self-employed share. About 21.0 percent of workers were self-employed, or 425 of 2,025. Accommodation and food services was the largest industry with 305 workers, then retail with 255 and construction with 245. (Statistics Canada, 2021 Census Profile, read October 2026). A tourist economy means seasonal pay, owner-operators and second jobs. Lenders vary on how they count seasonal income. Most want two years of history, so keep your tax returns and notices of assessment together.</p>
+
 <h2>Buying a vacation home in Invermere: second homes and getaways</h2>
 <p>A second home is not treated like the home you live in. Lenders vary, but these points come up often:</p>
 <ul>

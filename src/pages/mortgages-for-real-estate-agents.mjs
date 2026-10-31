@@ -115,6 +115,8 @@ ${short({ answer: "Lenders usually average two years of your net commission inco
 
 ${callout("One request before the call", "<p>Pull your last two tax returns, your last two Notices of Assessment and your latest CRA balance. With those, Joshua can tell you in one conversation how a lender is likely to read your commission income.</p>")}
 
+<p>If you own your brokerage office or an investment building, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+
 ${cta({ title: "Commission income, read the way a lender reads it", text: "Book a 15-minute call around your showings. Joshua will go through your returns and tell you which lender is likely to read your income best. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;
 

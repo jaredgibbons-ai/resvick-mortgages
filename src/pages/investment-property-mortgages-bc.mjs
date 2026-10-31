@@ -57,6 +57,8 @@ ${tool}
 </ul>
 <p>Strategies are tools, not plans. A plan starts with your income, your cash, the property and the lender that will approve it. Only then do you ask which strategy fits.</p>
 
+<p>Buildings with commercial space, mixed use or five or more units are financed differently. See our page on <a href="/commercial-mortgages-bc/">commercial mortgages</a>.</p>
+
 ${cta({ title: "Planning a first rental, or a fifth?", text: "A 15-minute call is enough to work out the down payment, how your rent will count and which lender tier fits your portfolio. No documents needed for the first talk." })}
 
 <h2>Renewals and refinances for landlords</h2>

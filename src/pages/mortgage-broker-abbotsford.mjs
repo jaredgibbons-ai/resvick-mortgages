@@ -66,6 +66,8 @@ ${ratesStrip()}
 
 ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-langley/">Langley</a> and <a href="/mortgage-broker-surrey/">Surrey</a>, where his office is. He also serves Mission, Chilliwack and the rest of the Fraser Valley. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from an Abbotsford client helps the next family find him.</p>`)}
 
+<p>If you own a business in Abbotsford and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+
 ${cta({ title: "Buying a suite home, an acreage or a first townhouse in Abbotsford?", text: "Book a 15-minute call. You'll leave knowing what's realistic for the property you want, including what a lender will value." })}
 <p>For anything else, the <a href="/contact/">contact page</a> has the details.</p>
 `;

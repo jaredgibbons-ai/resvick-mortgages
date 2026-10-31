@@ -57,6 +57,8 @@ ${callout("The cost of using a broker", "<p>On a mortgage placed with an A lende
 <h2>Nearby</h2>
 <p>Joshua serves the whole Island. The <a href="/mortgage-broker-victoria/">Victoria page</a> covers the Capital Region, including government and military income. For the mainland side of a two-place life, see the <a href="/mortgage-broker-vancouver/">Vancouver page</a>. Current rates and how your rate gets set are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
+<p>If a home near Nanaimo sits on First Nation land, it is a different kind of file. We found no First Nation leasehold homes for sale in the city today, but plans exist for leased land on the Snuneymuxw te'tuxwtun lands (Snuneymuxw First Nation, 2026 member vote materials, read October 2026). Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
+
 ${cta({ title: "Talk to a broker who serves Nanaimo", text: "Book a 15-minute call. Buying on the Island while keeping a mainland job or home? Say so in your first message, and Joshua will plan the file around it." })}
 
 <p>Resvick Mortgages is listed on Google as a mortgage broker serving BC from Surrey. Found this page by searching for a broker in Nanaimo? The <a href="/contact/">contact page</a> has the phone number, the email address and what to have ready.</p>

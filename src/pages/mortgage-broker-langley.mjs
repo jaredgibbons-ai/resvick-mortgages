@@ -69,6 +69,8 @@ ${ratesStrip()}
 
 ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-surrey/">Surrey</a>, where his office is. He serves <a href="/mortgage-broker-abbotsford/">Abbotsford</a> and the rest of the Fraser Valley too. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from a Langley client helps the next one find him.</p>`)}
 
+<p>Manufactured homes on leased pads are only one kind of leasehold. See our pages on <a href="/leasehold-mortgages-bc/">leasehold mortgages</a> and <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> if the land under a home is leased.</p><p>If you own a business in Langley and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+
 ${cta({ title: "Buying in Willoughby, renewing in Walnut Grove, or financing an acreage?", text: "Book a 15-minute call. You'll leave knowing what's realistic for the property you want and what to do first." })}
 <p>Buying your first home? Start with the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a>. For anything else, use the <a href="/contact/">contact page</a>.</p>
 `;

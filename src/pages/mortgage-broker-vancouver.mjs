@@ -69,6 +69,8 @@ ${short({ answer: "Most Vancouver mortgages are condo or townhouse mortgages, so
 
 ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-burnaby/">Burnaby</a> and <a href="/mortgage-broker-richmond/">Richmond</a>, plus buyers across Metro Vancouver and the rest of BC. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. Reviews from Vancouver clients help the next buyer find the same help.</p>`)}
 
+<p>If you own a business in Vancouver and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+
 ${cta({ title: "Buying or renewing in Vancouver?", text: "Book a 15-minute call. You'll leave knowing what's realistic for the type of home you want and what to do first." })}
 <p>Questions that don't fit a form are welcome on the <a href="/contact/">contact page</a>.</p>
 `;
