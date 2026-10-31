@@ -72,6 +72,9 @@ export const SLUGS = `/
 /mortgage-broker-new-westminster/
 /mortgage-broker-port-moody/
 /mortgage-broker-port-coquitlam/
+/mortgage-broker-princeton/
+/mortgage-broker-whistler/
+/mortgage-broker-pitt-meadows/
 /mortgage-broker-white-rock/
 /mortgage-broker-north-vancouver/
 /mortgage-broker-mission/
