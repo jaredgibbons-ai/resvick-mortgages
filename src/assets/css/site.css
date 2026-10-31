@@ -267,3 +267,5 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 .partner h3{margin:0 0 6px;font:400 24px/1.2 var(--display);color:var(--navy)}
 .partner p{margin:.4em 0}.partner .p-line{margin:.15em 0}.partner .p-links{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:10px}
 .partner-note{background:var(--card);border-left:4px solid var(--navy);padding:14px 18px;border-radius:0 var(--r) var(--r) 0;font:400 16px/1.55 var(--ui);margin:1.2em 0}
+
+.h1-sub{display:block;margin-top:.18em;font:400 .56em/1.15 var(--display);opacity:.92}
