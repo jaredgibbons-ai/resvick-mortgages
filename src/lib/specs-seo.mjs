@@ -1,7 +1,7 @@
 // SEO pass (Jared, Oct 30): titles <= 60 chars, metas <= 155, primary keyword first, "BC"/"Surrey" where the
 // search is local, brand on the core pages. These override the §7 titles/metas; the originals stay in the fragments.
 export default {
-  "/": { title: "Mortgage Broker in Surrey, BC | Resvick Mortgages", meta: "Joshua Resvick, licensed mortgage broker in Surrey, serves all of BC: first-time buyers, renewals and refinancing. 1,000+ mortgages funded. Free call." },
+  "/": { title: "Mortgage Broker in Surrey, BC | Resvick Mortgages", meta: "Joshua Resvick, licensed mortgage broker in Surrey, serves all of BC: first-time buyers, renewals and refinancing. Free 15-minute call." },
   "/about-joshua-resvick/": { title: "Joshua Resvick | Mortgage Broker in Surrey, BC", meta: "Meet Joshua Resvick, BC mortgage broker with Xeva Mortgage: 10 years as a broker, 5 as an underwriter, 1,000+ mortgages funded. BCFSA licence MB503619." },
   "/contact/": { title: "Contact a Mortgage Broker in Surrey, BC | Resvick Mortgages", meta: "Book a free 15-minute call with Joshua Resvick, mortgage broker in Surrey, BC. Call 778.882.5674 or email joshua@resvickmortgages.com. All of BC, online." },
   "/mortgage-calculators/": { title: "BC Mortgage Calculators | Payment, Affordability & Penalty", meta: "Free BC mortgage calculators: payment, affordability, down payment, closing costs, CMHC premium, renewal, penalty and refinance. No email needed." },

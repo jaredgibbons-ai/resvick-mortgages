@@ -21,3 +21,6 @@ Static site for Joshua Resvick, BC mortgage broker (Xeva Mortgage / VERICO). Bui
 - Fee honesty: A-lender deals cost the borrower nothing; fees only on B/private files with BCFSA Form 1A disclosure.
 - Never mention "Resvick & Associates", "Invis" or DLC. Josh serves cities online from his Surrey office; never imply a branch.
 - Footer furniture on every page: brokerage line, BCFSA licence #X300203, broker licence MB503619, privacy link.
+
+## Exceptions
+- The home page (`/`) is deliberately short (about 600 words, exempt from the 1,000-word rule in `specs.mjs`). Jared's call: direct, easy to use, no fluff. It keeps 4 FAQs and the required links.

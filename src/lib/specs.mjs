@@ -3,6 +3,7 @@ import { SPECS_P1 } from "./specs-p1.mjs";
 // `provisional: true` marks pages whose title/meta are NOT in the prompt and need Jared/Josh approval.
 export const SPECS = {
   "/": {
+    exempt: true,
     title: "Resvick Mortgages | BC Mortgage Broker — Renewals & First-Time Buyers",
     meta: "Joshua Resvick is a BC mortgage broker with Xeva Mortgage. 1,000+ mortgages funded, an underwriter's eye, and a plan for your mortgage long after it funds.",
     links: ["/mortgage-rates-bc/", "/first-time-home-buyer-bc/", "/mortgage-renewal-bc/", "/refinance-mortgage-bc/", "/self-employed-mortgage-bc/", "/mortgage-aftercare-program/", "/lender-comparison-report/", "/mortgage-calculators/", "/about-joshua-resvick/"]
