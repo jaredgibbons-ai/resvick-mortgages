@@ -25,7 +25,7 @@ export const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
 const NAV = [
   { label: "Buy", href: "/first-time-home-buyer-bc/", kids: [
     ["First-time buyer guide", "/first-time-home-buyer-bc/"], ["Programs & grants", "/first-time-buyer-programs-bc/"], ["Pre-approval", "/mortgage-pre-approval-bc/"],
-    ["How much can I afford?", "/how-much-mortgage-can-i-afford/"], ["Down payment", "/down-payment-guide-bc/"], ["Closing costs", "/closing-costs-bc/"], ["Presales", "/presale-mortgages-bc/"], ["Foreign buyers", "/foreign-buyers-bc/"], ["Accepted an offer?", "/accepted-offer/"]] },
+    ["How much can I afford?", "/how-much-mortgage-can-i-afford/"], ["Down payment", "/down-payment-guide-bc/"], ["Closing costs", "/closing-costs-bc/"], ["Presales", "/presale-mortgages-bc/"], ["Foreign buyers", "/foreign-buyers-bc/"], ["Accepted an offer?", "/accepted-offer/"], ["Free document checklist", "/mortgage-document-checklist/"]] },
   { label: "Renew", href: "/mortgage-renewal-bc/", kids: [
     ["Renewal guide", "/mortgage-renewal-bc/"], ["Switch lenders", "/switch-mortgage-lenders-at-renewal/"], ["Stress-test exemption", "/stress-test-exemption-switching-lenders/"],
     ["Early renewal", "/early-mortgage-renewal/"], ["Your renewal letter", "/mortgage-renewal-letter-explained/"], ["Free renewal reminder", "/mortgage-renewal-reminder/"]] },

@@ -61,6 +61,7 @@ ${short({
 ${cta({ title: "Have a file you want checked before you apply?", text: "A 15-minute call is a good time to run through these six with your real situation. Joshua will tell you where the risks are." })}
 
 <h2>Documents by situation</h2>
+<p>Want this as a printable list with boxes to tick? Get the <a href="/mortgage-document-checklist/">free two-page document checklist</a>.</p>
 <p>The exact list depends on the lender. The lists below are a reliable starting point. Joshua will tell you which items your file needs, and he'll send a secure upload link for the sensitive ones. Please don't email financial documents.</p>
 <h3>If you are employed</h3>
 <ul>

@@ -3,7 +3,7 @@
 // On any failure it alerts Josh via env.ALERT_WEBHOOK_URL and returns 502 so the page shows the phone/email fallback. A silent lost lead is launch-blocking.
 const INTENTS = ["buyer", "renewal", "refinance", "investor", "self-employed", "distress", "other"];
 // Which page/flow produced the record. Unknown values are kept but marked "other".
-const FORMS = ["contact", "renewal-reminder", "equity-estimator", "apply", "accepted-offer", "refer", "quiz", "check-up", "callback"];
+const FORMS = ["contact", "renewal-reminder", "equity-estimator", "apply", "accepted-offer", "refer", "quiz", "check-up", "callback", "checklist"];
 const clean = (v, n = 2000) => String(v ?? "").slice(0, n).trim();
 // tool_inputs: only flat primitives, max 20 keys, sent only when the visitor ticks "include my estimate".
 const tools = (v) => { if (!v || typeof v !== "object" || Array.isArray(v)) return null; const o = {}; for (const [k, x] of Object.entries(v).slice(0, 20)) if (["number", "boolean"].includes(typeof x) || typeof x === "string") o[String(k).slice(0, 40)] = typeof x === "string" ? x.slice(0, 120) : x; return Object.keys(o).length ? o : null; };
@@ -34,7 +34,7 @@ export async function onRequestPost({ request, env }) {
     tool_inputs: tools(b.tool_inputs), extra: extra(b.extra)
   };
   // Readable copy for email/Sheet automations: the same record as plain text, so nobody has to read raw JSON.
-  const FORM_LABEL = { contact: "Contact form", "renewal-reminder": "Renewal reminder", "equity-estimator": "Home equity estimator", apply: "Application", "accepted-offer": "Accepted offer", refer: "Referral", quiz: "Quiz", "check-up": "Mortgage check-up", callback: "Call-back request", other: "Website form" };
+  const FORM_LABEL = { contact: "Contact form", "renewal-reminder": "Renewal reminder", "equity-estimator": "Home equity estimator", apply: "Application", "accepted-offer": "Accepted offer", refer: "Referral", quiz: "Quiz", "check-up": "Mortgage check-up", checklist: "Document checklist", callback: "Call-back request", other: "Website form" };
   const label = (k) => String(k).replace(/[_-]+/g, " ").replace(/^./, (c) => c.toUpperCase());
   const rows = (o) => o ? Object.entries(o).map(([k, x]) => "  " + label(k) + ": " + x) : [];
   lead.subject = "New website lead: " + (FORM_LABEL[lead.form] || FORM_LABEL.other) + " from " + lead.name;

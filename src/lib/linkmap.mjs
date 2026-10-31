@@ -63,6 +63,7 @@ export const SLUGS = `/
 /mortgage-after-consumer-proposal/
 /mortgage-aftercare-program/
 /mortgage-application-checklist/
+/mortgage-document-checklist/
 /mortgage-broker-abbotsford/
 /mortgage-broker-burnaby/
 /mortgage-broker-west-kelowna/
@@ -169,6 +170,7 @@ export const ANCHORS = ["payment","affordability","down-payment","closing-costs"
 
 export const isCanonical = (href) => {
   const [path, hash] = href.split("#");
+  if (/^\/assets\/downloads\/[a-z0-9-]+\.pdf$/.test(path)) return true; // lead-magnet PDFs in src/assets/downloads
   if (/^\/guides\/[a-z0-9-]+\/$/.test(path)) return true; // guide posts (§7.15) are dated content under /guides/
   if (!SLUGS.includes(path)) return false;
   if (hash && path === "/mortgage-calculators/") return ANCHORS.includes(hash);
