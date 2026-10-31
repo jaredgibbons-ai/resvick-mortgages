@@ -14,7 +14,7 @@ ${short({
 <p>Coquitlam sits at the centre of the Tri-Cities, with Port Moody and Port Coquitlam. Its housing has two clear halves.</p>
 <p>The first half follows the SkyTrain line that opened in December 2016. It runs through Port Moody to Coquitlam Central and Lafarge Lake-Douglas (Transport Canada). Along it, Burquitlam, Lougheed and the city centre have become tower neighbourhoods with a steady flow of presales.</p>
 <p>The second half is up the hill. Westwood Plateau, Burke Mountain, Ranch Park and Maillardville are family streets of houses and townhouses. Burke Mountain is still adding new subdivisions.</p>
-<p>Many Coquitlam buyers are families. It might be a first townhouse near a school, a move up to a house with a yard, or a parent helping an adult child into a first condo near the line.</p>
+<p>Many Coquitlam buyers are families. It might be a first townhouse near a school, or a move up to a house with a yard. Or it might be a parent helping an adult child into a first condo near the line.</p>
 <p>Joshua Resvick serves Coquitlam from his office in Surrey, by phone, video and secure document upload. There's no Coquitlam branch, and you never need to visit an office. Every step is done online, and your lawyer or notary handles the signing near you.</p>
 
 ${ratesStrip()}

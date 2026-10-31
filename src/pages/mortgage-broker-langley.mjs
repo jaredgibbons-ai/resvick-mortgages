@@ -1,49 +1,69 @@
 import { cta, callout, ratesStrip } from "../lib/site.mjs";
-import { cityServiceSchema, servesLine } from "../lib/city.mjs";
+import { cityServiceSchema } from "../lib/city.mjs";
+import { short } from "../lib/short.mjs";
 
 const slug = "/mortgage-broker-langley/";
 
 const body = `
+${short({
+  answer: "Joshua Resvick serves Langley online and by phone from his Surrey office. A Willoughby presale, a Brookswood house with a suite and a South Langley acreage are three different mortgages, and each needs the right lender.",
+  who: "Langley City and Township buyers, renewers and self-employed owners.",
+  next: "Buying an acreage? Book a 15-minute call before you write the offer."
+})}
 <h2>Two Langleys, and why the difference matters to a mortgage</h2>
-<p>Langley is two municipalities. The City of Langley is the compact downtown around Fraser Highway and the Langley Bypass, mostly condos, townhouses and older houses on small lots, and the future terminus of the Surrey Langley SkyTrain, which the province expects to open in late 2029 (Province of BC, May 2026). The Township of Langley surrounds it: Willoughby and Yorkson, where most of the new townhouse and condo construction is; Walnut Grove, Brookswood and Murrayville, with established family streets; Fort Langley on the river; and the rural south and east, where much of the land is in the Agricultural Land Reserve and the lots are acreages, hobby farms and equestrian properties.</p>
-<p>The split matters because the property types are so different. A Willoughby townhouse is a conventional insured or insurable mortgage. A Brookswood house with a suite raises the rental-income question. A five-acre property in South Langley raises questions about how much of the land a lender will value, whether the property is farm-classed, and whether a conventional lender will touch it at all. ${servesLine("Langley")}</p>
+<p>Langley is two municipalities.</p>
+<p>The City of Langley is the compact downtown around Fraser Highway and the Langley Bypass. It's mostly condos, townhouses and older houses on small lots. It's also the future end of the line for the Surrey Langley SkyTrain, which the province expects to open in late 2029 (Province of BC, May 2026).</p>
+<p>The Township of Langley surrounds it. Willoughby and Yorkson have most of the new townhouse and condo building. Walnut Grove, Brookswood and Murrayville have established family streets. Fort Langley sits on the river.</p>
+<p>Then there's the rural south and east. Much of that land is in the Agricultural Land Reserve, and the lots are acreages, hobby farms and horse properties.</p>
+<p>The split matters because the property types are so different. A Willoughby townhouse is a conventional insured or insurable mortgage. A Brookswood house with a suite raises the rental income question.</p>
+<p>A five-acre property in South Langley raises harder questions. How much of the land will a lender value? Is the property farm-classed? Will a conventional lender touch it at all?</p>
+<p>Joshua Resvick serves Langley from his office in Surrey, by phone, video and secure document upload. There's no Langley branch, and you never need to visit an office. Every step is done online, and your lawyer or notary handles the signing near you.</p>
 
 ${ratesStrip()}
 
 <h2>Willoughby, Yorkson and the new-construction file</h2>
-<p>A large part of Langley's buying activity is in newer townhouse and condo projects in Willoughby and along 200 Street. Three mortgage points come up repeatedly:</p>
+<p>A large part of Langley's buying happens in newer townhouse and condo projects. Most are in Willoughby and along 200 Street. Three mortgage points come up again and again.</p>
 <ul>
-<li><strong>Presales close later than you think.</strong> A presale is financed at completion. If the completion is two or three years out, the approval that matters is the one you can get then, at the rates and rules in force then. Joshua plans for the completion date and checks in as it approaches. The <a href="/presale-mortgages-bc/">presale guide</a> covers deposits, assignments and the completion approval.</li>
-<li><strong>New builds and the property transfer tax exemption.</strong> A newly built home can qualify for a property transfer tax exemption up to a price threshold, separate from the first-time buyer exemption. The <a href="/bc-property-transfer-tax-calculator/">property transfer tax calculator</a> applies both.</li>
-<li><strong>Strata fees count against you.</strong> Lenders add a share of the monthly strata fee to your housing costs. Two townhouses at the same price can produce different approvals because of it.</li>
+<li><strong>Presales close later than you think.</strong> A presale is financed at completion. If that's two or three years out, the approval that matters is the one you can get then, at that time's rates and rules. Joshua plans for the completion date and checks in as it gets closer. The <a href="/presale-mortgages-bc/">presale guide</a> covers deposits, assignments and the completion approval.</li>
+<li><strong>New builds and the property transfer tax exemption.</strong> A newly built home can qualify for a property transfer tax exemption up to a price threshold. It's separate from the first-time buyer exemption. The <a href="/bc-property-transfer-tax-calculator/">property transfer tax calculator</a> applies both.</li>
+<li><strong>Strata fees count against you.</strong> Lenders add a share of the monthly strata fee to your housing costs. So two townhouses at the same price can get different approvals.</li>
 </ul>
 
-<h2>Suites, coach houses and the rental-income question</h2>
-<p>Older Langley neighbourhoods such as Brookswood, Walnut Grove and parts of Murrayville have many houses with basement suites, and the Township also permits secondary dwellings on larger lots in some zones. Whether a lender counts the rent, and how much, depends on the lender and on whether the suite is permitted and documented. Lenders use two methods, adding a share of rent to your income or subtracting it from your housing cost, and the share varies. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> shows both methods with figures. For a house that would carry a new suite, the <a href="/secondary-suite-refinance/">secondary suite refinance page</a> explains the federal program that allows refinancing up to 90 percent of as-improved value for a legal suite.</p>
+<h2>Suites, coach houses and the rental income question</h2>
+<p>Older Langley neighbourhoods have many houses with basement suites. Think Brookswood, Walnut Grove and parts of Murrayville. The Township also allows secondary dwellings on larger lots in some zones.</p>
+<p>Whether a lender counts the rent, and how much, depends on the lender. It also depends on whether the suite is permitted and documented.</p>
+<p>Lenders use two methods. Some add a share of the rent to your income. Others subtract it from your housing cost. The share varies. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> shows both methods with figures.</p>
+<p>Want to add a new suite to a house? The <a href="/secondary-suite-refinance/">secondary suite refinance page</a> explains the federal program. It allows refinancing up to 90 percent of the as-improved value for a legal suite.</p>
 
 <h2>Acreage, ALR and rural Langley</h2>
-<p>South and east Langley include a great deal of land inside the Agricultural Land Reserve, and acreage financing is its own discipline. A few things to know before you fall in love with a property:</p>
+<p>South and east Langley include a lot of land inside the Agricultural Land Reserve. Acreage financing is its own skill. Here are a few things to know before you fall in love with a property.</p>
 <ul>
-<li><strong>Lenders value the house and a limited amount of land.</strong> Many conventional lenders lend against the residence plus a set number of acres, commonly a small number, and give little or no value to the rest of the land or to outbuildings, barns and arenas. On a larger parcel, that means the mortgage may be a smaller share of the price than you expect, so the down payment has to cover the gap.</li>
-<li><strong>Farm status changes the file.</strong> A property assessed as farm land, or with an active agricultural business, may fall outside standard residential lending and into agricultural or specialty products.</li>
-<li><strong>Wells, septic and access.</strong> Lenders and insurers ask about water, septic and road access on rural properties, and an appraiser will comment on them. Have the inspection and the well and septic reports before subject removal.</li>
-<li><strong>Short-term rental and secondary residences.</strong> The ALR and the Township have their own rules on additional residences on farm land. Do not assume a second home on the property can be rented out or counted as income.</li>
+<li><strong>Lenders value the house and a limited amount of land.</strong> Many conventional lenders lend against the house plus a set number of acres, often a small number. They give little or no value to the rest of the land, or to outbuildings, barns and arenas. On a larger parcel, the mortgage may be a smaller share of the price than you expect. Your down payment has to cover the gap.</li>
+<li><strong>Farm status changes the file.</strong> A property assessed as farm land, or with an active farm business, may fall outside standard home lending. It may need farm or specialty products instead.</li>
+<li><strong>Wells, septic and access.</strong> Lenders and insurers ask about water, septic and road access on rural properties. An appraiser will comment on them too. Have the inspection and the well and septic reports before subject removal.</li>
+<li><strong>Short-term rental and second homes on the land.</strong> The ALR and the Township have their own rules on extra homes on farm land. Don't assume a second home on the property can be rented out or counted as income.</li>
 </ul>
-<p>None of this makes an acreage unfinanceable. It means the lender has to be chosen for the property, and the down payment and timeline have to be planned around what that lender will value.</p>
+<p>None of this makes an acreage impossible to finance. It means the lender has to be chosen for the property. Your down payment and timeline have to be planned around what that lender will value.</p>
 
 <h2>Renewals in Langley</h2>
-<p>Many Langley homeowners bought or renewed on five-year fixed terms, and renewal letters arrive all year. A letter is one lender's opening offer. Since late 2024, a straight switch to a new lender at maturity, with no increase to the balance or amortization, usually does not require a new stress test. The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> covers the window, the switch and what to compare. If your renewal is a year or more away, the free renewal reminder will contact you six months and 120 days out.</p>
+<p>Many Langley homeowners bought or renewed on five-year fixed terms, and renewal letters arrive all year. A letter is one lender's opening offer.</p>
+<p>Since late 2024, a straight switch to a new lender at maturity usually doesn't need a new stress test. That's as long as the balance and amortization don't go up.</p>
+<p>The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> covers the window, the switch and what to compare. Is your renewal a year or more away? The free renewal reminder will contact you six months and 120 days out.</p>
 
 <h2>Self-employed and trades income</h2>
-<p>Langley has one of the region's larger concentrations of industrial and trades employment, in the Gloucester and Port Kells industrial areas and along the 200 Street corridor, and a lot of owner-operators, contractors and incorporated tradespeople. Lenders read business income in different ways, and the choice of lender can change what two years of returns support. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains add-backs, dividends, stated-income programs and when a fee can apply.</p>
+<p>Langley has one of the region's larger groups of industrial and trades workers. Many work in the Gloucester and Port Kells industrial areas and along the 200 Street corridor. There are a lot of owner-operators, contractors and incorporated tradespeople.</p>
+<p>Lenders read business income in different ways. The choice of lender can change what two years of tax returns support. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains add-backs, dividends, stated-income programs and when a fee can apply.</p>
 
 <h2>Working with Joshua from Langley</h2>
-<p>The process is the same as for any client. A 15-minute call sets the goals and the timeline; Joshua reads your file the way an underwriter does, which is what he did for five years before becoming a broker; you receive a written Lender Comparison Report of real options; and after funding, <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> keeps the mortgage under review with a renewal plan six months out. On a mortgage with a mainstream lender, the lender pays the broker and you pay nothing. Fees apply only on some B-lender and private files, with written disclosure first. The <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set and what to compare beyond it, and the <a href="/mortgage-calculators/">calculators</a> let you test a payment, affordability with a suite and your cash to close.</p>
+<p>The process is the same as for any client. A 15-minute call sets the goals and the timeline.</p>
+<p>Joshua reads your file the way an underwriter does. That's what he did for five years before becoming a broker. You get a written Lender Comparison Report of real options. After funding, <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> keeps the mortgage under review, with a renewal plan six months out.</p>
+<p>On a mortgage with a mainstream lender, the lender pays the broker and you pay nothing. Fees apply only on some B-lender and private files, with written disclosure first.</p>
+<p>The <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set and what to compare beyond it. The <a href="/mortgage-calculators/">calculators</a> let you test a payment, affordability with a suite and your cash to close.</p>
 
-${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-surrey/">Surrey</a>, where his office is, and <a href="/mortgage-broker-abbotsford/">Abbotsford</a> and the rest of the Fraser Valley. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area; a review from a Langley client helps the next one find him.</p>`)}
+${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-surrey/">Surrey</a>, where his office is. He serves <a href="/mortgage-broker-abbotsford/">Abbotsford</a> and the rest of the Fraser Valley too. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from a Langley client helps the next one find him.</p>`)}
 
-${cta({ title: "Buying in Willoughby, renewing in Walnut Grove, or financing an acreage?", text: "Book a 15-minute call. You will leave knowing what is realistic for the property you want and what to do first." })}
-<p>For the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a>, start there; for anything else, use the <a href="/contact/">contact page</a>.</p>
+${cta({ title: "Buying in Willoughby, renewing in Walnut Grove, or financing an acreage?", text: "Book a 15-minute call. You'll leave knowing what's realistic for the property you want and what to do first." })}
+<p>Buying your first home? Start with the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a>. For anything else, use the <a href="/contact/">contact page</a>.</p>
 `;
 
 export default {

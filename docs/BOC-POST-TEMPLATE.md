@@ -38,6 +38,7 @@ Copy the October 2026 post to `src/posts/bank-of-canada-<month>-<year>.mjs` and 
 
 ## 3. The sections, in order
 
+0. **The short-version box, first in the body.** The October post imports `short` from `../lib/short.mjs` and opens the body with `${short({ answer, who, next })}`. Answer: the decision and what it means, in two or three plain sentences. Who: variable-rate holders, renewers and fixed-rate shoppers. Next: one step with a link (usually the payment or renewal calculator).
 1. **What the Bank decided.** The numbers, the quoted reason, the inflation and growth picture, the forward-guidance sentence, the next dates. Four paragraphs. No opinion.
 2. **What happened to prime.** One paragraph. New prime, effective date, which bank's release you read. What it means for "prime minus" mortgages in one sentence.
 3. **If you hold a variable-rate mortgage.** Adjustable (payment changes) vs static-payment (amortization changes). One illustrative payment figure from the site engine (see §5). Trigger-rate reminder for static-payment holders if the rate rose; skip if it fell. One paragraph on converting to fixed, with no recommendation.
@@ -48,6 +49,8 @@ Copy the October 2026 post to `src/posts/bank-of-canada-<month>-<year>.mjs` and 
 8. **FAQs.** Five. Keep the structure of the October post; change the numbers and the next date.
 
 Length: 1,000 words minimum in the body; the October post is about 1,800. Run `node tools/check-page.mjs src/posts/<file>.mjs` and fix anything it flags (word count, missing links, an exclamation mark).
+
+Reading level: grade 8 target (see `docs/READABILITY-RULES.md`). The post must score grade 8.5 or lower, average 17 words or fewer per sentence, and have no sentence over 30 words. Run `node tools/readability.mjs src/posts/<file>.mjs` until it prints OK. Split long sentences rather than cutting facts; quoted Bank sentences stay verbatim, so keep the sentences around them short. End table cells with a period and put a citation's period after the closing parenthesis, or the checker reads two sentences as one.
 
 ## 4. The three audiences, every time
 

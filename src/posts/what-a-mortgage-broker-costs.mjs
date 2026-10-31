@@ -1,3 +1,5 @@
+import { short } from "../lib/short.mjs";
+
 export default {
   slug: "/guides/what-a-mortgage-broker-costs/",
   date: "2026-10-30",
@@ -9,41 +11,85 @@ export default {
   lede: "The most common first question on a call, answered with the exceptions included: who pays, when a fee can appear, what the disclosure forms say and how to read them.",
   links: ["/how-mortgage-brokers-get-paid/", "/mortgage-broker-vs-bank/", "/b-lender-mortgage-bc/", "/private-mortgage-lending-bc/", "/lender-comparison-report/", "/contact/"],
   body: `
+${short({
+  answer: "On a mortgage with a mainstream lender, the lender pays the broker and you pay nothing. Fees can apply on B-lender and private files. Any fee must be disclosed in writing on BCFSA forms before you commit.",
+  who: "Anyone wondering if using a broker will cost them money, or how a broker is paid.",
+  next: "Read <a href=\"/how-mortgage-brokers-get-paid/\">how brokers get paid</a>, then ask any broker to show you their lender comparison."
+})}
 <h2>The answer most people get, and the part they do not</h2>
-<p>If your mortgage is placed with a mainstream lender, a bank, a credit union or a monoline lender that lends on standard guidelines, the lender pays the brokerage when the mortgage funds and you pay nothing for the broker's work. That is the answer on the <a href="/how-mortgage-brokers-get-paid/">how brokers get paid</a> page, and it is the answer for the large majority of files Joshua Resvick arranges. It is also where most explanations stop, which leaves the two follow-up questions unanswered: where does that money come from if not from me, and when is the answer not nothing.</p>
-<p>This post takes those two questions seriously, because a borrower who understands the economics is a borrower who can tell a fair arrangement from an unfair one with any broker, not only this one.</p>
+<p>Here's the usual answer. Say your mortgage goes to a mainstream lender. That could be a bank, a credit union or a monoline lender that lends on standard guidelines. The lender pays the brokerage when the mortgage funds. You pay nothing for the broker's work.</p>
+<p>That's the answer on the <a href="/how-mortgage-brokers-get-paid/">how brokers get paid</a> page. It's the answer for the large majority of files Joshua Resvick arranges.</p>
+<p>It's also where most explanations stop. That leaves two follow-up questions. Where does that money come from, if not from me? And when is the answer not nothing?</p>
+<p>This post takes both questions seriously. A borrower who understands the money side can tell a fair deal from an unfair one with any broker, not just this one.</p>
 
 <h2>Where the lender's payment comes from</h2>
-<p>A lender needs borrowers, and acquiring them costs money whichever way it is done. A bank pays for branches, staff and advertising. A lender that accepts applications through brokers pays the brokerage a fee on funding instead. The payment is made from the lender's own revenue. It is not added to your rate as a separate line, it is not a charge on your balance and there is no invoice. If the mortgage does not fund, no fee is paid, which is why a broker has every reason to build a file that will actually be approved.</p>
-<p>Two details are worth knowing because they come up in the paperwork. First, the payment goes to the brokerage, not to the individual. Joshua works under Xeva Mortgage (Verico Xeva Mortgage Inc.), BCFSA Brokerage Licence #X300203, and the brokerage is the licensed party paid by the lender. Second, the arrangement is disclosed in writing. The BC Financial Services Authority requires the Form 1A, the Disclosure of Representation to Borrower, which explains who the broker acts for and how the brokerage may be paid, and the Form 4, which sets out the expected remuneration on your particular transaction as an amount or as a method of calculation. You will see both before you commit.</p>
+<p>A lender needs borrowers, and finding them costs money either way. A bank pays for branches, staff and advertising. A lender that takes applications through brokers pays the brokerage a fee on funding instead.</p>
+<p>The payment comes from the lender's own revenue. It isn't added to your rate as a separate line. It isn't a charge on your balance, and there's no invoice.</p>
+<p>If the mortgage doesn't fund, no fee is paid. So a broker has every reason to build a file that will really get approved.</p>
+<p>Two details are worth knowing, because they show up in the paperwork.</p>
+<p>First, the payment goes to the brokerage, not to the person. Joshua works under Xeva Mortgage (Verico Xeva Mortgage Inc.), BCFSA Brokerage Licence #X300203. The brokerage is the licensed party the lender pays.</p>
+<p>Second, the arrangement is disclosed in writing. The BC Financial Services Authority requires two forms. The Form 1A is the Disclosure of Representation to Borrower. It explains who the broker acts for and how the brokerage may be paid. The Form 4 sets out the expected pay on your own deal, as an amount or as a way of working it out. You'll see both before you commit.</p>
 
 <h2>Does lender pay mean lender bias</h2>
-<p>This is the sharper version of the cost question, and it deserves a straight answer. Lender compensation varies by lender and by product, so in theory a broker could steer a file toward whichever lender pays more. In practice several things work against that. The disclosure forms put the expected compensation in writing. A brokerage's own compliance rules apply. A broker's business depends on renewals and referrals, which do not survive a mortgage that was wrong for the borrower. And, most practically, the thing you can check is the comparison itself.</p>
-<p>That is the purpose of the written <a href="/lender-comparison-report/">Lender Comparison Report</a> every client receives: real lender options side by side, with rate, term, penalty method, prepayment privileges and portability. A comparison that shows its work is hard to tilt, and if one lender's offer is weaker, you can see why it was still presented. The useful question to ask any broker is not "are you paid by the lender" (they are) but "show me the options you compared and why you recommend this one."</p>
+<p>This is the sharper version of the cost question. It deserves a straight answer.</p>
+<p>Lender pay varies by lender and by product. So in theory, a broker could steer a file toward whichever lender pays more. In practice, several things work against that.</p>
+<ul>
+<li>The disclosure forms put the expected pay in writing.</li>
+<li>A brokerage's own compliance rules apply.</li>
+<li>A broker's business depends on renewals and referrals. Those don't survive a mortgage that was wrong for the borrower.</li>
+<li>Most practically, you can check the comparison itself.</li>
+</ul>
+<p>That's the purpose of the written <a href="/lender-comparison-report/">Lender Comparison Report</a> every client gets. It shows real lender options side by side, with rate, term, penalty method, prepayment options and portability.</p>
+<p>A comparison that shows its work is hard to tilt. If one lender's offer is weaker, you can see why it was still shown.</p>
+<p>So don't ask a broker if the lender pays them. It does. Ask them to show you the options they compared, and why they recommend this one.</p>
 
 <h2>When a borrower does pay</h2>
-<p>Fees to the borrower arise on files that mainstream lenders will not approve on standard guidelines. The common reasons are income that cannot be documented the way an A lender needs it, credit that is still being rebuilt, a recent bankruptcy or consumer proposal, a property type the main lenders avoid, or a timeline too short for a full underwrite. Those files are placed with <a href="/b-lender-mortgage-bc/">B lenders</a> or <a href="/private-mortgage-lending-bc/">private lenders</a>, and the economics there are different.</p>
-<p>Three kinds of cost can appear on these files, and they should be kept separate in your mind. A lender fee, charged by the B or private lender itself, is normal on these products and is set by the lender. A broker fee may apply because the lender pays less or nothing and the work is greater. Legal and appraisal costs apply as they would on any mortgage, and private lenders often require independent legal advice. All of these must be disclosed in writing before you commit, on the same BCFSA forms. No figures are printed on this site because the amounts depend on the lender and the file, and a number quoted in an article would be wrong for most readers.</p>
-<p>One rule of thumb does hold: if a broker tells you a fee applies on an A-lender mortgage, ask why. On a standard file placed with a mainstream lender, the lender pays, and a broker fee on top is unusual enough to need an explanation.</p>
+<p>Borrower fees come up on files that mainstream lenders won't approve on standard guidelines. Common reasons include:</p>
+<ul>
+<li>Income that can't be documented the way an A lender needs.</li>
+<li>Credit that's still being rebuilt.</li>
+<li>A recent bankruptcy or consumer proposal.</li>
+<li>A property type the main lenders avoid.</li>
+<li>A timeline too short for a full underwrite.</li>
+</ul>
+<p>Those files go to <a href="/b-lender-mortgage-bc/">B lenders</a> or <a href="/private-mortgage-lending-bc/">private lenders</a>. The money works differently there.</p>
+<p>Three kinds of cost can appear on these files. Keep them separate in your mind.</p>
+<p><strong>A lender fee.</strong> The B or private lender charges it. It's normal on these products, and the lender sets it.</p>
+<p><strong>A broker fee.</strong> It may apply because the lender pays less or nothing, and the work is greater.</p>
+<p><strong>Legal and appraisal costs.</strong> These apply as on any mortgage. Private lenders often require independent legal advice.</p>
+<p>All of these must be disclosed in writing before you commit, on the same BCFSA forms. This site prints no figures. The amounts depend on the lender and the file. A number quoted in an article would be wrong for most readers.</p>
+<p>One rule of thumb does hold. If a broker says a fee applies on an A-lender mortgage, ask why. On a standard file with a mainstream lender, the lender pays. A broker fee on top is unusual enough to need an explanation.</p>
 
 <h2>The costs that are not the broker's</h2>
-<p>People sometimes fold other closing costs into "what the broker costs," and it helps to separate them. Legal fees and disbursements are paid to your lawyer or notary. An appraisal, where the lender requires one, is paid to the appraiser, though some lenders cover it on some products and a broker will tell you which. Mortgage default insurance, where your down payment is under 20 percent, is a premium added to your mortgage and paid to the insurer, not to the broker. The property transfer tax goes to the Province. None of these change because you used a broker, and a broker's job includes telling you about all of them before you make an offer rather than after.</p>
+<p>People sometimes fold other closing costs into what the broker costs. It helps to pull them apart.</p>
+<ul>
+<li>Legal fees and disbursements are paid to your lawyer or notary.</li>
+<li>An appraisal, where the lender needs one, is paid to the appraiser. Some lenders cover it on some products, and a broker will tell you which.</li>
+<li>Mortgage default insurance applies when your down payment is under 20 percent. It's a premium added to your mortgage and paid to the insurer, not the broker.</li>
+<li>The property transfer tax goes to the Province.</li>
+</ul>
+<p>None of these change because you used a broker. Part of a broker's job is telling you about all of them before you make an offer, not after.</p>
 
 <h2>Is a broker worth it if the bank is free too</h2>
-<p>Your bank does not charge you a fee either, so the comparison is not free versus paid. It is one lender's products versus several lenders' products, and the full version is on the <a href="/mortgage-broker-vs-bank/">broker versus bank</a> page. The practical differences that matter at no cost to you: a broker can place the file where it fits rather than where you already bank, can compare penalty methods rather than only rates, and can tell you honestly when the bank's offer is the right one. Joshua's five years as an underwriter before ten years as a broker are relevant here, because reading a file the way a lender reads it is how a broker avoids the application that gets declined and the lender that is wrong for the borrower.</p>
-<p>None of that is an argument that every borrower needs a broker. A borrower with a straightforward file, a strong relationship with one bank and no interest in comparing may be well served by the branch. The point is only that the comparison itself costs nothing, so there is little reason not to see it before signing.</p>
+<p>Your bank doesn't charge you a fee either. So the choice isn't free versus paid. It's one lender's products versus several lenders' products. The full version is on the <a href="/mortgage-broker-vs-bank/">broker versus bank</a> page.</p>
+<p>Here are the practical differences, at no cost to you. A broker can place the file where it fits, not just where you already bank. They can compare penalty methods, not only rates. And they can tell you honestly when the bank's offer is the right one.</p>
+<p>Joshua spent five years as an underwriter before ten years as a broker. That matters here. Reading a file the way a lender reads it is how a broker avoids a declined application, and a lender that's wrong for the borrower.</p>
+<p>None of that means every borrower needs a broker. Maybe your file is simple, you're close with one bank, and you don't care to compare. The branch may serve you well. The point is only that the comparison costs nothing. So there's little reason not to see it before you sign.</p>
 
 <h2>Questions to ask any broker before you commit</h2>
 <ul>
 <li>Who pays you on this file, and will I see it in writing before I sign anything? The answer should name the Form 1A and the Form 4.</li>
 <li>Is this an A-lender, B-lender or private placement, and why? The category decides whether a fee is even possible.</li>
-<li>If there is a fee, what is it for, who receives it and when is it payable?</li>
-<li>Which lenders did you compare, and can I see the comparison? A written report answers this; a verbal "trust me" does not.</li>
-<li>What happens to your compensation if I choose the lender you did not recommend? The honest answer is that it varies and it is disclosed either way.</li>
+<li>If there's a fee, what's it for, who gets it and when is it due?</li>
+<li>Which lenders did you compare, and can I see the comparison? A written report answers this. A spoken "trust me" doesn't.</li>
+<li>What happens to your pay if I choose the lender you didn't recommend? The honest answer is that it varies, and it's disclosed either way.</li>
 </ul>
 
 <h2>The short version to keep</h2>
-<p>On a mortgage with a mainstream lender, the broker is paid by the lender and you pay nothing. Fees can apply on B-lender and private files, where lender fees are normal and a broker fee is possible, and both must be disclosed in writing before you commit. Everything else you pay at closing, lawyer, appraisal, insurance premium and transfer tax, is a cost of the mortgage, not of the broker. If you want to see how that plays out on your own file, the <a href="/contact/">contact page</a> has the booking link for a 15-minute call, which is also free.</p>
+<p>On a mortgage with a mainstream lender, the lender pays the broker and you pay nothing.</p>
+<p>Fees can apply on B-lender and private files. Lender fees are normal there, and a broker fee is possible. Both must be disclosed in writing before you commit.</p>
+<p>Everything else you pay at closing is a cost of the mortgage, not of the broker. That means the lawyer, the appraisal, the insurance premium and the transfer tax.</p>
+<p>Want to see how that plays out on your own file? The <a href="/contact/">contact page</a> has the booking link for a 15-minute call, which is also free.</p>
 `,
   faqs: [
     { q: "Is the broker's fee hidden in my interest rate?", a: "No. On an A-lender mortgage the lender pays the brokerage from its own revenue, and the rate you are offered is the rate the lender prices for your file. Lenders that accept broker applications price them alongside their other channels. Your written disclosure shows how the brokerage is paid so there is nothing to find in the rate." },
