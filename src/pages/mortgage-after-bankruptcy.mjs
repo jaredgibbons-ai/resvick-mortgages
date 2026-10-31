@@ -1,48 +1,66 @@
 import { cta, callout } from "../lib/site.mjs";
+import { short } from "../lib/short.mjs";
 
 const body = `
+${short({
+  answer: "Yes, you can get a mortgage after bankruptcy. Lenders count from your discharge date. A lenders commonly want about two years of clean history and new credit paid perfectly. B lenders will often look sooner.",
+  who: "People who have been discharged from bankruptcy, or are about to be, and want to know when buying is realistic again.",
+  next: "Pull your credit report, note your discharge date, and read <a href=\"/build-credit-for-a-mortgage/\">how to rebuild credit for a mortgage</a>."
+})}
 <h2>A bankruptcy is an event, not a sentence</h2>
-<p>Roughly speaking, a bankruptcy tells a lender two things: that at some point your debts became unmanageable, and that you dealt with them through a legal process rather than leaving creditors unpaid. The first is a risk signal. The second, read carefully, is not. Lenders have been approving mortgages for discharged bankrupts for decades, and the rules they use are well established, if rarely written down in one place.</p>
-<p>This page sets out those rules as lender norms rather than law, because that is what they are: expectations about time, re-established credit and explanation that most lenders share and each applies in its own way. It covers the insured and conventional paths, how the down payment changes, what the explanation letter needs to say, and the B and private routes that can hold a home while the file matures. It is written for people who have been discharged, or are about to be, and who want to know when homeownership is realistic again.</p>
+<p>A bankruptcy tells a lender two things. At some point your debts got out of hand. And you dealt with them through a legal process, instead of leaving creditors unpaid.</p>
+<p>The first is a risk signal. The second, read carefully, isn't. Lenders have approved mortgages for discharged bankrupts for decades. The rules are well established, even if they're rarely written down in one place.</p>
+<p>This page sets out those rules as lender norms, not law, because that's what they are. Most lenders share the same expectations about time, rebuilt credit and explanation. Each applies them its own way.</p>
+<p>It covers the insured and conventional paths, and how the down payment changes. It covers what the explanation letter should say. And it covers the B and private routes that can hold a home while your file matures. It's written for people who've been discharged, or soon will be, and want to know when owning a home is realistic again.</p>
 
 <h2>The standard re-establishment expectations</h2>
-<p>Three things appear on almost every lender's list for a borrower with a past bankruptcy.</p>
+<p>Three things show up on almost every lender's list after a bankruptcy.</p>
 <ol>
-<li><strong>Time since discharge.</strong> Lenders count from the discharge date, not the filing date. A lenders and the default insurers typically want to see a period of clean history after discharge before they will consider the file at standard pricing. Two years is the figure most often quoted in the industry, and some lenders want longer for an insured purchase. B lenders will often look at a file sooner.</li>
-<li><strong>Re-established credit.</strong> Lenders want to see new credit opened after the discharge and paid perfectly. The industry shorthand is the 2/2/2 rule: two accounts, open about two years, with limits around $2,000 or more. The page on <a href="/build-credit-for-a-mortgage/">building credit for a mortgage</a> explains how to meet it, including secured credit cards for borrowers who cannot yet get an ordinary one.</li>
-<li><strong>No new missed payments.</strong> A late payment after discharge is read as a continuation of the old pattern rather than a one-off, and it can reset the clock in a lender's eyes. Perfect payment history after the bankruptcy is the most important single factor.</li>
+<li><strong>Time since discharge.</strong> Lenders count from your discharge date, not your filing date. A lenders and the mortgage insurers typically want a stretch of clean history after discharge before offering standard pricing. Two years is the figure most often quoted in the industry. Some lenders want longer for an insured purchase. B lenders will often look at a file sooner.</li>
+<li><strong>Re-established credit.</strong> Lenders want to see new credit opened after discharge, and paid perfectly. The industry shorthand is the 2/2/2 rule: two accounts, open about two years, with limits around $2,000 or more. The page on <a href="/build-credit-for-a-mortgage/">building credit for a mortgage</a> explains how to meet it. That includes secured credit cards if you can't get a regular one yet.</li>
+<li><strong>No new missed payments.</strong> A late payment after discharge reads as the old pattern continuing, not a one-off. In a lender's eyes, it can reset the clock. A perfect payment record after bankruptcy matters more than anything else.</li>
 </ol>
-<p>These are norms, and Joshua will confirm the current policy of each lender for your file. The direction is consistent, though: the longer since discharge and the cleaner the new history, the more lenders are available and the better the price.</p>
+<p>These are norms, and Joshua will confirm each lender's current policy for your file. The direction is consistent, though. The longer since discharge and the cleaner your new history, the more lenders you can use and the better the price.</p>
 
 <h2>How long it stays on your report</h2>
-<p>Equifax Canada states that a first bankruptcy remains on a credit report for six years after the discharge date, or seven years after the filing date if there is no discharge, and that a second bankruptcy extends both to fourteen years after discharge (Equifax Canada, 2026). TransUnion's rules are similar. The important point is that you do not have to wait for the entry to disappear. Lenders approve mortgages with a bankruptcy still showing, provided the time and the re-established credit meet their expectations.</p>
+<p>Equifax Canada says a first bankruptcy stays on your credit report for six years after discharge. If there's no discharge, it's seven years after filing. A second bankruptcy stretches both to fourteen years after discharge (Equifax Canada, 2026). TransUnion's rules are similar.</p>
+<p>Here's the key point: you don't have to wait for it to disappear. Lenders approve mortgages with a bankruptcy still showing. They just need the time and the rebuilt credit to meet their expectations.</p>
 
 <h2>Insured and conventional paths</h2>
-<p>There are two routes, and the down payment decides which is open.</p>
+<p>There are two routes. Your down payment decides which one is open.</p>
 <h3>The insured route</h3>
-<p>A purchase with less than 20 percent down must be insured through CMHC or a private insurer, and the insurer sets its own standards for past bankruptcies on top of the lender's. In broad terms, the insurers expect the discharge to be some time behind you, credit to be re-established and no further defaults. Where the file meets both the insurer's and the lender's rules, you can buy with as little as 5 percent down at A-lender pricing. The exact combination of time and credit each insurer wants changes, and Joshua checks the current position when you apply rather than quoting a rule that may have moved.</p>
+<p>A purchase with less than 20 percent down must be insured through CMHC or a private insurer. The insurer sets its own standards for past bankruptcies, on top of the lender's.</p>
+<p>Broadly, insurers expect the discharge to be some time behind you, credit to be rebuilt and no new defaults. If your file meets both the insurer's and the lender's rules, you can buy with as little as 5 percent down at A-lender pricing.</p>
+<p>The exact mix of time and credit each insurer wants changes. Joshua checks the current position when you apply, instead of quoting a rule that may have moved.</p>
 <h3>The conventional route</h3>
-<p>With 20 percent or more down, no insurer is involved, and the lender's own policy governs. A lenders still apply their norms on time and credit. B lenders are more flexible and will often consider a file within a year or two of discharge, at a higher rate with a lender fee, for a short term. The <a href="/b-lender-mortgage-bc/">B lender page</a> explains that pricing and the plan back to A.</p>
+<p>With 20 percent or more down, no insurer is involved. The lender's own policy decides. A lenders still apply their norms on time and credit.</p>
+<p>B lenders are more flexible. They'll often consider a file within a year or two of discharge. Expect a higher rate, a lender fee and a short term. The <a href="/b-lender-mortgage-bc/">B lender page</a> explains that pricing and the plan back to an A lender.</p>
 
 <h2>Down payment: more helps, and its source matters</h2>
-<p>A larger down payment does two things for a post-bankruptcy file. It opens the conventional route, which removes the insurer's rules from the equation, and it reduces the lender's risk, which makes a B lender more willing and sometimes more generous on rate. Where the down payment comes from matters too. Lenders look for a documented history of savings, which itself demonstrates re-established financial habits. A gift from family is acceptable at most lenders with a gift letter. Borrowed down payments are harder to use on a post-bankruptcy file.</p>
+<p>A bigger down payment helps a post-bankruptcy file in two ways. It opens the conventional route, which takes the insurer's rules out of the picture. And it lowers the lender's risk, which makes a B lender more willing, and sometimes better on rate.</p>
+<p>Where the money comes from matters too. Lenders look for a documented savings history, which itself shows rebuilt habits. Most lenders accept a gift from family with a gift letter. Borrowed down payments are harder to use after a bankruptcy.</p>
 
 <h2>The application story</h2>
-<p>Most lenders ask for a letter of explanation with a post-bankruptcy application, and it is worth taking seriously. A good letter is short and factual. It states what caused the bankruptcy, such as a business failure, a divorce, a medical event or a job loss; when it was filed and discharged; what has changed since; and what has been done to rebuild. It does not apologize at length or argue. An underwriter reading it wants to see a cause that is over and a borrower who understands what happened.</p>
-<p>Joshua helps write this letter, because he has read many of them from the other side of the desk. The ones that work are the ones that make the rest of the file easy to believe.</p>
-${callout("Documents to gather", "<p>Alongside the standard items on the <a href=\"/mortgage-application-checklist/\">application checklist</a>, expect to provide your certificate of discharge, your trustee's statement of receipts and disbursements if asked, statements for every credit account opened since discharge, and the letter of explanation.</p>")}
+<p>Most lenders ask for a letter of explanation with a post-bankruptcy application. Take it seriously.</p>
+<p>A good letter is short and factual. It says what caused the bankruptcy, such as a business failure, a divorce, a medical event or a job loss. It gives the filing and discharge dates. Then it says what has changed since, and what you've done to rebuild.</p>
+<p>It doesn't apologize at length or argue. An underwriter wants to see a cause that's over, and a borrower who understands what happened.</p>
+<p>Joshua helps write this letter, because he's read many of them from the other side of the desk. The ones that work make the rest of the file easy to believe.</p>
+${callout("Documents to gather", "<p>Start with the standard items on the <a href=\"/mortgage-application-checklist/\">application checklist</a>. Then add your certificate of discharge and your trustee's statement of receipts and disbursements if asked. Include statements for every credit account opened since discharge, plus the letter of explanation.</p>")}
 
 <h2>B and private routes in the interim</h2>
-<p>If you want or need to buy before an A lender will consider the file, two interim routes exist. A B lender will often fund a purchase or a refinance within a year or two of discharge, provided credit has been re-established and the down payment is 20 percent or more. The rate is higher and a lender fee applies, but the terms are short and the exit to an A lender is planned from the start. A private lender will fund sooner still, against equity rather than credit, at a cost that makes sense only for a short period and only with an exit date.</p>
-<p>On either route, a broker fee can apply, and BC rules require that it be disclosed to you in writing under BCFSA Form 1A before you commit. On an A-lender mortgage the lender pays the broker and you pay nothing for the service. Joshua shows every cost before any decision.</p>
+<p>Want or need to buy before an A lender will look at the file? There are two interim routes.</p>
+<p>A B lender will often fund a purchase or refinance within a year or two of discharge. You need rebuilt credit and at least 20 percent down. The rate is higher and a lender fee applies. But the terms are short, and the move to an A lender is planned from the start.</p>
+<p>A private lender will fund sooner still, based on equity instead of credit. The cost only makes sense for a short time, with a set exit date.</p>
+<p>On either route, a broker fee can apply. BC rules require it to be disclosed to you in writing under BCFSA Form 1A before you commit. On an A-lender mortgage, the lender pays the broker and you pay nothing for the service. Joshua shows you every cost before you decide.</p>
 
 <h2>If you had a consumer proposal instead</h2>
-<p>A consumer proposal is a different legal process with a different reporting period and somewhat different lender treatment. If your situation was a proposal rather than a bankruptcy, the page on <a href="/mortgage-after-consumer-proposal/">getting a mortgage after a consumer proposal</a> is the one to read. For a general picture of how lenders weigh credit of all kinds, the page on <a href="/bad-credit-mortgage-bc/">bad credit mortgages</a> covers the full range.</p>
+<p>A consumer proposal is a different legal process. It has a different reporting period, and lenders treat it a little differently. If you had a proposal, not a bankruptcy, read the page on <a href="/mortgage-after-consumer-proposal/">getting a mortgage after a consumer proposal</a>. For a wider look at how lenders weigh credit, the page on <a href="/bad-credit-mortgage-bc/">bad credit mortgages</a> covers the full range.</p>
 
 <h2>Where to start</h2>
-<p>The first step is to look at your credit report together, confirm the discharge date, and count what has been re-established since. From that, Joshua can tell you which tier of lender would consider the file today, what it would cost, and what the timeline to A-lender pricing looks like. If the answer is "not yet", you leave with a plan and a date rather than a refusal. <a href="/contact/">Book a 15-minute call</a> whenever you are ready.</p>
+<p>Start by looking at your credit report together. Confirm the discharge date and count what's been rebuilt since.</p>
+<p>From there, Joshua can tell you which tier of lender would look at the file today, and what it would cost. He'll also map the timeline to A-lender pricing. If the answer is "not yet," you leave with a plan and a date, not a refusal. <a href="/contact/">Book a 15-minute call</a> whenever you're ready.</p>
 
-${cta({ title: "Discharged and rebuilding?", text: "Book a 15-minute call. Joshua will tell you how your file reads today, which lenders would consider it, and what to do over the next year to reach standard pricing." })}
+${cta({ title: "Discharged and rebuilding?", text: "Book a 15-minute call. Joshua will tell you how your file reads today and which lenders would consider it. Then he'll map out the next year." })}
 `;
 
 export default {

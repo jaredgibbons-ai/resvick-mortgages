@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import { SITE, ratesStrip, reviews, cta, callout } from "../lib/site.mjs";
+import { short } from "../lib/short.mjs";
 
 const photo = fs.existsSync("src/assets/img/josh-hero.webp")
   ? `<div class="arch"><img src="/assets/img/josh-hero-720.webp" srcset="/assets/img/josh-hero-720.webp 720w, /assets/img/josh-hero-1080.webp 1080w" sizes="(max-width: 720px) 86vw, 360px" width="720" height="1080" alt="Joshua Resvick, mortgage broker in Surrey, BC" fetchpriority="high"></div>`
@@ -11,9 +12,15 @@ const hero = `<div class="hero-copy"><h1>A BC mortgage broker who explains the p
 
 const body = `
 ${ratesStrip()}
+${short({
+  answer: "I'm a licensed BC mortgage broker. I compare lenders for you, explain every step in plain language, and keep managing your mortgage after it funds. On mainstream (A) lender mortgages, the lender pays me and you pay nothing.",
+  who: "First-time buyers, homeowners renewing or refinancing, self-employed borrowers and investors anywhere in BC.",
+  next: "Book a 15-minute call, or try the <a href=\"/mortgage-check/\">two-minute mortgage check</a> first."
+})}
 
 <h2>Who I help</h2>
-<p>Most people who call me are in one of five spots. Each one has its own rules, its own traps and its own best first move, so each one gets its own corner of this site. If you don't see yourself on the list, call anyway. I work on every kind of mortgage; the list is just where most conversations start.</p>
+<p>Most people who call me are in one of five spots. Each one has its own rules, its own traps and its own best first move. So each one gets its own corner of this site.</p>
+<p>Don't see yourself on the list? Call anyway. I work on every kind of mortgage. The list is just where most conversations start.</p>
 <div class="persona">
 <a href="/first-time-home-buyer-bc/"><strong>First-time buyers</strong><span>The programs, the down payment rules, the closing costs and the order to do things in, before you write an offer.</span></a>
 <a href="/mortgage-renewal-bc/"><strong>Renewing homeowners</strong><span>That letter from your lender is an offer, not a verdict. Here's what you can compare, and when.</span></a>
@@ -24,9 +31,12 @@ ${ratesStrip()}
 </div>
 
 <h2>What a mortgage broker does, and what it costs you</h2>
-<p>Here's the short version. A mortgage broker is a licensed professional who arranges your mortgage through lenders, instead of selling you one lender's product. In British Columbia, brokers are licensed and regulated by the BC Financial Services Authority (BCFSA). I work under Xeva Mortgage (Verico Xeva Mortgage Inc.), brokerage licence #X300203, and my own broker licence is MB503619, which you can look up in BCFSA's public lookup any time you like.</p>
-<p>Now the part people are usually too polite to ask about: the money. On a mortgage placed with a mainstream (A) lender, the lender pays me, and you pay nothing for the service. Fees only come up on certain B-lender and private-lender files, and when they do, BC rules say you see the disclosure in writing before you commit. I walk through the whole arrangement, including what to ask any broker, on my page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
-<p>Does being paid by the lender tilt the advice toward the lender? It shouldn't, and here's why. The value of a broker is having several lenders on the table at once. The value of a good broker is knowing which one actually suits your file, and that depends on a lot more than the posted rate: how the lender treats your income, what the prepayment privileges are, how the penalty gets calculated, whether you can port the mortgage, and how the lender behaves when something in your life changes. Those are the things I compare, and they're the things a single quote from a single lender can't show you.</p>
+<p>Here's the short version. A mortgage broker is a licensed pro who arranges your mortgage through lenders. I don't sell you one lender's product.</p>
+<p>In BC, brokers are licensed and regulated by the BC Financial Services Authority (BCFSA). I work under Xeva Mortgage (Verico Xeva Mortgage Inc.), brokerage licence #X300203. My own broker licence is MB503619. You can look it up in BCFSA's public lookup any time.</p>
+<p>Now the part people are too polite to ask about: the money. On a mortgage placed with a mainstream (A) lender, the lender pays me. You pay nothing for the service.</p>
+<p>Fees only come up on some B-lender and private-lender files. When they do, BC rules say you see the disclosure in writing before you commit. I walk through the whole setup, including what to ask any broker, on my page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+<p>Does being paid by the lender tilt the advice? It shouldn't, and here's why. A broker's value is having several lenders on the table at once. A good broker's value is knowing which one actually suits your file.</p>
+<p>That takes a lot more than the posted rate. How does the lender treat your income? What are the prepayment privileges? How is the penalty worked out? Can you port the mortgage? How does the lender act when your life changes? Those are the things I compare. A single quote from a single lender can't show you any of them.</p>
 
 <h2>How it works</h2>
 <ol class="steps">
@@ -35,35 +45,44 @@ ${ratesStrip()}
 <li><strong>Funding, then aftercare</strong>I manage the file to closing, and the relationship keeps going afterwards. See <a href="/mortgage-aftercare-program/">the aftercare program</a>.</li>
 </ol>
 
-${cta({ title: "Start with a conversation, not a form", text: "A 15-minute call is enough to map where you are and where you want to be. It's free, there's no obligation, and you're talking to the person who'll actually do the work." })}
+${cta({ title: "Start with a conversation, not a form", text: "A 15-minute call is enough to map where you are and where you want to be. It's free, there's no obligation, and you're talking to the person who'll do the work." })}
 
 <h2>An underwriter's view of your file</h2>
-<p>Before I was a broker, I spent five years as a mortgage underwriter, reading a high volume of files and deciding which ones got approved. That changes how I build an application. An underwriter reads a file looking for the reason it won't work: income that can't be documented the way the lender needs it, a debt that got forgotten, a credit entry that needs a letter, a down payment with no paper trail. So I look for those problems first, and fix them before the file ever reaches a lender's desk.</p>
-<p>I'd put it this way: I understand how deals actually get approved, not just how they get pitched. For you, that means fewer surprises late in the process, which is exactly when surprises cost the most. It also means I'll tell you honestly when a particular lender is the wrong fit, even if its rate looks great on paper. There's more about my background on the <a href="/about-joshua-resvick/">About page</a>.</p>
+<p>Before I was a broker, I spent five years as a mortgage underwriter. I read a high volume of files and decided which ones got approved. That changes how I build an application.</p>
+<p>An underwriter reads a file looking for the reason it won't work. Maybe it's income that can't be documented the way the lender needs. Maybe it's a forgotten debt, a credit entry that needs a letter or a down payment with no paper trail. So I look for those problems first. I fix them before your file ever reaches a lender's desk.</p>
+<p>Put simply, I understand how deals get approved, not just how they get pitched. For you, that means fewer surprises late in the process, which is exactly when surprises cost the most.</p>
+<p>It also means I'll tell you straight when a lender is the wrong fit, even if its rate looks great on paper. There's more about my background on the <a href="/about-joshua-resvick/">About page</a>.</p>
 
 <div class="band">
 <h2>The mortgage doesn't end at signing</h2>
-<p>Most mortgages get arranged once and then left alone until the renewal letter shows up. Resvick Aftercare, my aftercare program, is built for the years in between: an annual review against your goals, an eye on your renewal window, a plain-language note whenever the Bank of Canada announces a rate decision, and a call about six months before your mortgage matures so there's time to compare options. And if life changes, a new job, a growing family, a separation, a plan to rent the place out, that's a reason to call me, not a reason to wait for the next review.</p>
-<p><a href="/mortgage-aftercare-program/">See what the aftercare program includes</a>, or <a href="/mortgage-renewal-reminder/">sign up for a free renewal reminder</a> if your mortgage is arranged somewhere else. Yes, really, even if it's not with me.</p>
+<p>Most mortgages get set up once and left alone until the renewal letter shows up. Resvick Aftercare, my aftercare program, is built for the years in between.</p>
+<p>You get an annual review against your goals and an eye on your renewal window. You get a plain-language note whenever the Bank of Canada makes a rate decision. And you get a call about six months before your mortgage matures, so there's time to compare.</p>
+<p>If life changes, call me. A new job, a growing family, a separation or a plan to rent the place out are all reasons to talk, not to wait for the next review.</p>
+<p><a href="/mortgage-aftercare-program/">See what the aftercare program includes</a>, or <a href="/mortgage-renewal-reminder/">sign up for a free renewal reminder</a> if your mortgage is somewhere else. Yes, really, even if it's not with me.</p>
 </div>
 
 <h2>Why renewals matter right now</h2>
-<p>Research from the Bank of Canada (2025) found that roughly 60 percent of outstanding Canadian mortgages come up for renewal in 2025 and 2026, and that most of those borrowers face a higher payment. How much higher depends on what you've got. The Bank's analysis found bigger jumps for people coming off a five-year fixed rate, and smaller or even negative changes for some variable-rate borrowers. Your situation will be its own thing, which is why it pays to look at the numbers before you sign anything.</p>
-<p>The most useful thing to know is this: at renewal, you're free to compare. A renewal letter is one lender's offer. Under rules that took effect in late 2024, many borrowers can move an uninsured mortgage to a different federally regulated lender at maturity without taking a new stress test, as long as the balance and amortization don't increase. There are conditions, and credit unions and collateral charges complicate the picture, so the details are worth reading on the page about <a href="/stress-test-exemption-switching-lenders/">the stress-test exemption when switching lenders</a>. If you want the full process, start with the <a href="/mortgage-renewal-bc/">mortgage renewal guide</a>.</p>
-<p>One thing I'll underline. A mortgage that reaches its maturity date without a signed renewal usually rolls into an open term at a rate that's typically much higher than a negotiated one. That's not a penalty, it's just how the contract works, and it's entirely avoidable if you start early.</p>
+<p>Bank of Canada research (2025) found that roughly 60 percent of outstanding Canadian mortgages renew in 2025 and 2026. Most of those borrowers face a higher payment.</p>
+<p>How much higher depends on what you've got. The Bank found bigger jumps for people coming off a five-year fixed rate. Some variable-rate borrowers can expect smaller changes, or even a drop. Your situation is its own thing. That's why it pays to look at the numbers before you sign.</p>
+<p>The most useful thing to know is this: at renewal, you're free to compare. A renewal letter is one lender's offer.</p>
+<p>Rules that took effect in late 2024 help here. Many borrowers can now move an uninsured mortgage to a different federally regulated lender at maturity with no new stress test. The catch is that the balance and amortization can't go up.</p>
+<p>There are conditions, and credit unions and collateral charges complicate things. Read the details on the page about <a href="/stress-test-exemption-switching-lenders/">the stress-test exemption when switching lenders</a>. For the full process, start with the <a href="/mortgage-renewal-bc/">mortgage renewal guide</a>.</p>
+<p>One thing I'll underline. A mortgage that hits its maturity date with no signed renewal usually rolls into an open term. That rate is typically much higher than a negotiated one. It isn't a penalty, it's just how the contract works. And it's easy to avoid if you start early.</p>
 
 <h2>Tools you can use without giving anything up</h2>
-<p>Every calculator on this site shows you the full result right away, no email address required. They all run on one shared calculation engine, built from published rules and tested against independently calculated cases, and each one tells you what it does and doesn't cover. You can check a <a href="/mortgage-calculators/#payment">mortgage payment</a> with the CMHC premium included, see how much house your income might support with the <a href="/mortgage-calculators/#affordability">affordability calculator</a>, estimate your <a href="/mortgage-calculators/#penalty">prepayment penalty</a>, or work out the <a href="/bc-property-transfer-tax-calculator/">BC property transfer tax</a>, first-time buyers' exemption included. Browse them all on the <a href="/mortgage-calculators/">mortgage calculators</a> page.</p>
+<p>Every calculator on this site shows you the full result right away. No email address needed.</p>
+<p>They all run on one shared calculation engine, built from published rules. It's been tested against cases worked out independently. Each tool tells you what it does and doesn't cover.</p>
+<p>Check a <a href="/mortgage-calculators/#payment">mortgage payment</a> with the CMHC premium included. See how much home your income might support with the <a href="/mortgage-calculators/#affordability">affordability calculator</a>. Estimate your <a href="/mortgage-calculators/#penalty">prepayment penalty</a>. Or work out the <a href="/bc-property-transfer-tax-calculator/">BC property transfer tax</a>, with the first-time buyer exemption included. Browse them all on the <a href="/mortgage-calculators/">mortgage calculators</a> page.</p>
 
 <h2>From the educator</h2>
-<p>My approach is to teach you the process so you can make the decision yourself. If you're not sure where to start, these are good first reads:</p>
+<p>My approach is to teach you the process so you can make the call yourself. Not sure where to start? These are good first reads:</p>
 <ul>
-<li><a href="/first-time-buyer-programs-bc/">First-time buyer programs in BC</a>, and how the Home Buyers' Plan and the First Home Savings Account can be combined.</li>
+<li><a href="/first-time-buyer-programs-bc/">First-time buyer programs in BC</a>, and how to combine the Home Buyers' Plan and the FHSA.</li>
 <li><a href="/early-mortgage-renewal/">Early mortgage renewal</a>: when it helps, when it costs you, and how to tell the difference.</li>
 <li><a href="/mortgage-rates-bc/">How mortgage rates work in BC</a>, and why the lowest advertised rate is rarely the whole story.</li>
 </ul>
 ${reviews()}
-${callout("A note on rates", "<p>You won't find rates printed in the articles on this site, because a rate in an article is out of date the day after it's written. A quick call gets you the number that applies to your file, which is the only rate worth comparing anyway. What you qualify for depends on your down payment, your credit, the property and the lender.</p>")}
+${callout("A note on rates", "<p>You won't find rates printed in the articles here. A rate in an article is out of date the day after it's written. A quick call gets you the number for your own file, which is the only rate worth comparing. What you qualify for depends on your down payment, your credit, the property and the lender.</p>")}
 `;
 
 export default {

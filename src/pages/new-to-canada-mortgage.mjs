@@ -1,53 +1,65 @@
+import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
+${short({ answer: "You don't need years of Canadian credit. Canada's three mortgage insurers run newcomer programs for permanent residents and many work permit holders, with as little as 5 percent down and other proof in place of a Canadian credit history.", who: "Newcomers to BC with a job here and savings, whether you hold permanent residence or a work permit.", next: "Start gathering your foreign bank statements and transfer records, then check the <a href=\"/down-payment-guide-bc/\">down payment guide</a>." })}
+
 <h2>Your situation</h2>
-<p>You arrived in British Columbia recently, as a permanent resident or on a work permit. You have a job, savings, and a credit history that was excellent in the country you came from and invisible here. You have heard that a mortgage needs years of Canadian credit and a large down payment, and that newcomers rent for a decade before anyone will lend to them. That is not the rule. Canada's mortgage insurers run programs built for exactly your file, and this page explains who qualifies, what the insurers accept in place of a Canadian credit history, how much down payment is needed and how Joshua, a BC mortgage broker and former underwriter, builds the application so it is submitted right the first time.</p>
+<p>You arrived in British Columbia recently, as a permanent resident or on a work permit. You have a job and savings. Your credit history was excellent back home, but it's invisible here. You've heard a mortgage needs years of Canadian credit and a big down payment. You've heard newcomers rent for a decade before anyone will lend to them.</p>
+<p>That isn't the rule. Canada's mortgage insurers run programs built for exactly your file. This page explains who qualifies and what the insurers accept in place of a Canadian credit history. It covers how much down payment you need. And it shows how Joshua, a BC mortgage broker and former underwriter, builds the application so it's submitted right the first time.</p>
 
 <h2>Who qualifies</h2>
-<p>The three mortgage insurers in Canada, CMHC, Sagen and Canada Guaranty, each have a newcomer program, and the lenders that use them follow the insurer's rules. The following is drawn from CMHC's and Sagen's published program pages, read October 30, 2026; the details change from time to time and Joshua confirms the current terms on every file.</p>
+<p>Canada has three mortgage insurers: CMHC, Sagen and Canada Guaranty. Each has a newcomer program, and the lenders that use them follow the insurer's rules. What follows comes from CMHC's and Sagen's published program pages, read October 30, 2026. The details change from time to time, and Joshua confirms the current terms on every file.</p>
 <ul>
-<li><strong>Permanent residents</strong> have access to the insurers' full range of homeowner products, and CMHC states that no minimum period of residency is required.</li>
-<li><strong>Work permit holders and other non-permanent residents</strong> who are legally authorized to work in Canada are eligible for homeowner loans, provided the home has one to four units with at least one unit owner-occupied and the purchase is not prohibited under the federal Prohibition on the Purchase of Residential Property by Non-Canadians Act. That Act has exemptions, including for many work permit holders, and your lawyer confirms your position under it.</li>
+<li><strong>Permanent residents</strong> can use the insurers' full range of homeowner products. CMHC states that no minimum period of residency is required.</li>
+<li><strong>Work permit holders and other non-permanent residents</strong> who can legally work in Canada can get homeowner loans. The home must have one to four units, with at least one lived in by the owner. The purchase also can't be blocked by the federal Prohibition on the Purchase of Residential Property by Non-Canadians Act. That Act has exemptions, including for many work permit holders. Your lawyer confirms where you stand.</li>
 <li><strong>Minimum credit score:</strong> CMHC requires at least one borrower or guarantor to have a score of 600 or higher, where a Canadian score exists.</li>
-<li><strong>Not eligible</strong> under Sagen's program: foreign diplomats and politically appointed foreign individuals who do not pay Canadian income tax.</li>
+<li><strong>Not eligible</strong> under Sagen's program: foreign diplomats and politically appointed foreign individuals who don't pay Canadian income tax.</li>
 </ul>
 
 <h2>How much down payment</h2>
-<p>The insured minimums are the same as for anyone else buying in Canada. For a one- or two-unit home, the down payment is 5 percent of the first $500,000 of the price and 10 percent of the part above that, which allows financing up to 95 percent of the value. For three or four units, it is 10 percent. Insured purchases are available below the $1,500,000 price cap. The <a href="/down-payment-guide-bc/">down payment guide</a> has the tiers and the maths, and the <a href="/mortgage-calculators/#affordability">affordability calculator</a> shows what a given income and down payment support once the stress test is applied.</p>
-<p>The down payment can come from savings, the proceeds of selling a home elsewhere, or a non-repayable gift from a relative. Funds transferred from abroad are acceptable, and the proof is the part newcomers find hardest: lenders want to see where the money was before it arrived in Canada, which usually means statements from the originating account, the transfer record and the Canadian deposit. Start gathering those statements before you have found a home. Some lenders also want the funds in a Canadian account for a period before closing, and CMHC does not allow non-traditional borrowed down payments for non-permanent residents.</p>
+<p>The insured minimums are the same as for anyone buying in Canada. For a one- or two-unit home, you need 5 percent of the first $500,000 of the price. Then you need 10 percent of the part above that. This lets you finance up to 95 percent of the value. For three or four units, it's 10 percent. Insured purchases are available below the $1,500,000 price cap.</p>
+<p>The <a href="/down-payment-guide-bc/">down payment guide</a> has the tiers and the math. The <a href="/mortgage-calculators/#affordability">affordability calculator</a> shows what your income and down payment support after the stress test.</p>
+<p>The down payment can come from savings or from selling a home elsewhere. It can also be a gift from a relative that doesn't need paying back. Money sent from abroad is fine. Proving it is the part newcomers find hardest.</p>
+<p>Lenders want to see where the money was before it reached Canada. That usually means statements from the original account, the transfer record and the Canadian deposit. Start gathering those statements before you find a home. Some lenders also want the funds in a Canadian account for a while before closing. And CMHC doesn't allow a borrowed down payment for non-permanent residents.</p>
 
 <h2>What replaces a Canadian credit history</h2>
-<p>This is the heart of the programs. When a Canadian credit report is thin or absent, the insurers accept alternatives, and the lender chooses which it will take:</p>
+<p>This is the heart of the programs. When your Canadian credit report is thin or empty, the insurers accept other proof. The lender chooses which it will take:</p>
 <ul>
-<li><strong>An international credit report</strong> from a recognized bureau in your country of origin.</li>
-<li><strong>A reference letter from your bank at home</strong>, confirming your banking history.</li>
-<li><strong>Twelve months of payment history</strong> from documents such as rent receipts, utility bills, phone bills, insurance, childcare or regular savings deposits. Sagen's published list treats rent as one example among several, and at 90 percent loan-to-value or less, six months of statements from your primary account may be enough.</li>
+<li><strong>An international credit report</strong> from a recognized bureau in your home country.</li>
+<li><strong>A reference letter from your bank at home,</strong> confirming your banking history.</li>
+<li><strong>Twelve months of payment history.</strong> This can come from rent receipts, utility bills, phone bills, insurance, childcare or regular savings deposits. Sagen's published list treats rent as just one example. At 90 percent loan-to-value or less, six months of statements from your main account may be enough.</li>
 </ul>
-<p>Two things follow. First, start a Canadian credit file as soon as you arrive, because even a short history helps and some lenders prefer it. The <a href="/build-credit-for-a-mortgage/">credit building page</a> explains how, with a secured card and a small line of credit paid on time. Second, keep paying every bill from a Canadian account from the first month, because those statements may become your credit history.</p>
+<p>Two things follow. First, start a Canadian credit file as soon as you arrive. Even a short history helps, and some lenders prefer it. The <a href="/build-credit-for-a-mortgage/">credit building page</a> explains how, with a secured card and a small line of credit paid on time. Second, pay every bill from a Canadian account from the first month. Those statements may become your credit history.</p>
 
 <h2>Income</h2>
-<p>Lenders need Canadian employment income. A permanent job with a letter of employment and pay stubs is the strongest file; probation is accepted by some lenders and not others. A fixed-term contract is counted by many lenders when the employer is established. Self-employment income usually needs a Canadian history, which newcomers rarely have, so a newly arrived business owner is often better served by a B lender or by waiting a year. Income from abroad is generally not counted for a Canadian mortgage, though it can explain the source of savings. The <a href="/mortgage-application-checklist/">application checklist</a> covers the standard documents, and for a newcomer file add your permanent resident card or confirmation, or your work permit, and your SIN.</p>
+<p>Lenders need Canadian employment income. A permanent job with a letter of employment and pay stubs makes the strongest file. Some lenders accept probation and some don't. Many lenders count a fixed-term contract when the employer is established.</p>
+<p>Self-employment income usually needs a Canadian history, which newcomers rarely have. So a newly arrived business owner is often better off with a B lender, or waiting a year. Income from abroad generally doesn't count for a Canadian mortgage. It can still explain where your savings came from.</p>
+<p>The <a href="/mortgage-application-checklist/">application checklist</a> covers the standard documents. For a newcomer file, add your permanent resident card or confirmation, or your work permit, and your SIN.</p>
 
 <h2>If the file is short somewhere</h2>
-<p>A newcomer file that falls just short on income or credit has a common fix: a family member already established in Canada who co-signs or guarantees the mortgage. The <a href="/mortgage-with-a-cosigner/">co-signer page</a> explains the three roles, what the helper is agreeing to and how they are released later. A larger down payment is the other lever, since a purchase at 80 percent loan-to-value or less does not need insurance and opens up different lenders, including some that take a broader view of international income and credit.</p>
+<p>A newcomer file that falls just short on income or credit has a common fix. A family member already settled in Canada co-signs or guarantees the mortgage. The <a href="/mortgage-with-a-cosigner/">co-signer page</a> explains the three roles, what the helper agrees to and how they're released later.</p>
+<p>A bigger down payment is the other lever. A purchase at 80 percent loan-to-value or less doesn't need insurance. That opens up different lenders, including some that take a broader view of foreign income and credit.</p>
 
 <h2>Programs that reduce your cash to close</h2>
-<p>Newcomers who have not owned a home anywhere in the world are first-time buyers under most Canadian programs, and the savings are real. The First Home Savings Account is available to Canadian residents aged 18 and over who are first-time buyers and allows tax-deductible contributions that come out tax-free for a purchase. The Home Buyers' Plan lets you withdraw from an RRSP. In BC, the first-time buyers' property transfer tax exemption applies to permanent residents and Canadian citizens who have lived in BC for a qualifying period, among other conditions, so work permit holders should not assume it applies. The <a href="/first-time-buyer-programs-bc/">programs and stacking guide</a> explains each one and the order to use them in, and the <a href="/first-time-home-buyer-bc/">first-time home buyer hub</a> covers the whole process from pre-approval to possession.</p>
+<p>If you've never owned a home anywhere in the world, you're a first-time buyer under most Canadian programs. The savings are real.</p>
+<p>The First Home Savings Account is open to Canadian residents aged 18 and over who are first-time buyers. You put money in tax-deductible and take it out tax-free for a purchase. The Home Buyers' Plan lets you withdraw from an RRSP.</p>
+<p>In BC, the first-time buyers' property transfer tax exemption has its own rules. It applies to permanent residents and Canadian citizens who have lived in BC for a qualifying period, among other conditions. So work permit holders shouldn't assume it applies.</p>
+<p>The <a href="/first-time-buyer-programs-bc/">programs and stacking guide</a> explains each program and the order to use them in. The <a href="/first-time-home-buyer-bc/">first-time home buyer hub</a> covers the whole process, from pre-approval to possession.</p>
 
 <h2>Joshua's process for a newcomer file</h2>
 <ol>
-<li><strong>A 15-minute call</strong> about your status, your income, your savings and where they are.</li>
-<li><strong>A document plan.</strong> Newcomer files are won on paperwork: the foreign bank statements, the transfer records, the international credit report or bank letter, the employment letter. Joshua tells you exactly what to gather and in what form.</li>
-<li><strong>Lender selection.</strong> Lenders differ on probation, on which credit alternatives they accept and on foreign funds. The file goes to one whose policy fits, and you see the options in a written Lender Comparison Report.</li>
-<li><strong>A clean submission</strong>, with every unusual item explained before the lender asks.</li>
-<li><strong>Aftercare.</strong> After funding, the relationship continues, which matters for a newcomer whose income and credit will look very different at renewal.</li>
+<li><strong>A 15-minute call</strong> about your status, income, savings and where the money sits.</li>
+<li><strong>A document plan.</strong> Newcomer files are won on paperwork. That means foreign bank statements, transfer records, an international credit report or bank letter, and an employment letter. Joshua tells you exactly what to gather and in what form.</li>
+<li><strong>Lender selection.</strong> Lenders differ on probation, credit alternatives and foreign funds. Your file goes to one whose policy fits. You see the options in a written Lender Comparison Report.</li>
+<li><strong>A clean submission,</strong> with every unusual item explained before the lender asks.</li>
+<li><strong>Aftercare.</strong> The relationship continues after funding. That matters for a newcomer, whose income and credit will look very different at renewal.</li>
 </ol>
 
 <h2>What the service costs</h2>
-<p>On an insured newcomer mortgage placed with a mainstream A lender, the lender pays the broker and you pay nothing for the service. Fees arise only on certain B-lender and private files, and in BC they are disclosed in writing on BCFSA's Form 1A before you commit. Mortgage insurance itself carries a premium, which is added to the mortgage; the <a href="/mortgage-calculators/#cmhc">CMHC premium calculator</a> shows the amount.</p>
+<p>An insured newcomer mortgage usually goes to a mainstream A lender. On those, the lender pays the broker and you pay nothing for the service. Fees only come up on certain B-lender and private files. In BC, they're disclosed in writing on BCFSA's Form 1A before you commit. Mortgage insurance has its own premium, which is added to the mortgage. The <a href="/mortgage-calculators/#cmhc">CMHC premium calculator</a> shows the amount.</p>
 
-${callout("Languages", "<p>Joshua serves clients across BC in English. If you would prefer to bring a family member or friend to translate during the call, you are welcome to, and the written Lender Comparison Report gives you something to review in your own time.</p>")}
+${callout("Languages", "<p>Joshua serves clients across BC in English. You're welcome to bring a family member or friend to translate during the call. The written Lender Comparison Report also gives you something to review in your own time.</p>")}
 
 ${cta({ title: "New to Canada, ready to buy", text: "Book a 15-minute call. Joshua will confirm which program fits your status, what to gather for the down payment and credit history, and what you can afford once the stress test is applied. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;

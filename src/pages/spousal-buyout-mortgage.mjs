@@ -1,44 +1,67 @@
 import { cta, callout } from "../lib/site.mjs";
+import { short } from "../lib/short.mjs";
 
 const body = `
+${short({
+  answer: "A spousal buyout lets one partner keep the home by taking a new mortgage that pays off the joint one and pays the other partner their share. Because it's set up as a purchase, insured financing can go above the usual 80 percent refinance limit.",
+  who: "Separating couples in BC where one person wants to stay in the home and needs to know if they can carry it alone.",
+  next: "Have a confidential <a href=\"/contact/\">15-minute call</a> early, before the separation agreement is final."
+})}
 <h2>What a spousal buyout is</h2>
-<p>When a couple separates and one partner wants to keep the home, that partner needs to do two things: pay the other for their share of the equity, and take over the mortgage alone. A spousal buyout mortgage is the financing that does both at once. It is set up as a purchase between the two owners, not as a refinance, and that distinction is the reason the product exists.</p>
-<p>An ordinary refinance at a federally regulated lender is capped at 80 percent of the home's value. For a separating couple, that cap is often the problem: after paying out the existing mortgage and the departing partner's share, 80 percent of value is not enough. Because a buyout is treated as a purchase, mortgage default insurance is available, and the insurers' published policies allow financing above the refinance limit. Sagen's lender bulletin on its equity buyout policy, dated February 5, 2019 and still published on its site as of October 2026, allows the transaction on purchase terms up to 95 percent loan-to-value, requires that both parties be on title, and accepts an agreement of purchase and sale, a finalized separation agreement or a court order as the supporting document. The other insurers describe comparable programs, and Joshua confirms the current terms with the insurer on every file, because bulletins change.</p>
+<p>When a couple separates and one partner wants to keep the home, that partner has to do two things. They pay the other partner for their share of the equity. And they take over the mortgage alone.</p>
+<p>A spousal buyout mortgage does both at once. It's set up as a purchase between the two owners, not a refinance. That difference is the reason the product exists.</p>
+<p>A regular refinance at a federally regulated lender is capped at 80 percent of the home's value. For a separating couple, that cap is often the problem. After paying off the old mortgage and the departing partner's share, 80 percent isn't enough.</p>
+<p>A buyout is treated as a purchase, so mortgage default insurance is available. The insurers' published rules allow financing above the refinance limit.</p>
+<p>Sagen published a lender bulletin on its equity buyout policy dated February 5, 2019. It was still on Sagen's site as of October 2026. It allows the deal on purchase terms up to 95 percent loan-to-value. Both parties must be on title. It accepts a purchase agreement, a final separation agreement or a court order as the supporting document.</p>
+<p>The other insurers describe similar programs. Bulletins change, so Joshua confirms the current terms with the insurer on every file.</p>
 
 <h2>The separation agreement's role</h2>
-<p>The lender and the insurer want to see the terms of the buyout in writing, from a document with legal weight. In practice that means a finalized separation agreement, a court order, or a formal agreement of purchase and sale between the two of you. The document sets out the value being used, the share being paid to the departing partner, how any joint debts will be handled, and any support obligations. The lender uses it to confirm the price of the purchase, to confirm what the mortgage proceeds will be used for, and to confirm the income and obligations of the partner who is staying.</p>
-<p>A draft is often enough to start the application, but the funds will not advance until the document is final and signed. Family lawyers and mortgage brokers end up working in parallel on these files, and the timeline usually depends on how quickly the agreement is settled. If you are at the beginning of a separation and the home is the main asset, talking to a broker early tells you whether a buyout is financially realistic before you negotiate around it.</p>
+<p>The lender and the insurer want the buyout terms in writing, in a document with legal weight. That usually means a final separation agreement, a court order, or a formal purchase agreement between the two of you.</p>
+<p>The document sets out the value being used and the share paid to the departing partner. It covers how joint debts will be handled and any support payments. The lender uses it to confirm the price and what the money is for. It also uses it to confirm the income and payments of the partner who's staying.</p>
+<p>A draft is often enough to start the application. But the money won't be released until the document is final and signed. Family lawyers and brokers often work side by side on these files. The timeline usually depends on how fast the agreement gets settled.</p>
+<p>If you're early in a separation and the home is the main asset, talk to a broker early. You'll learn whether a buyout is realistic before you negotiate around it.</p>
 
-<h2>The equity calculation</h2>
-<p>The arithmetic has three inputs: what the home is worth, what is owed on it, and how the equity is being divided. Lenders use a current appraisal for the value, not the assessed value or a listing estimate. The existing mortgage balance comes from a payout statement. The division is whatever the agreement says. In BC, family property is generally divided equally unless the agreement or a court says otherwise, but the agreement can account for excluded property, contributions and debts, so the share paid out is not always half.</p>
-<p>A labelled illustration: a home appraises at $900,000 with a $500,000 mortgage, so the equity is $400,000. If the agreement divides it equally, the staying partner owes the departing partner $200,000. The new mortgage must pay out the $500,000 and fund the $200,000, so it needs to be $700,000, which is 77.8 percent of value, within an uninsured refinance limit. Change the mortgage to $600,000 and the new loan needs to be $750,000, or 83.3 percent, which is only possible with the insured buyout structure. These are example figures, not quotes, and the default insurance premium would be added to the loan in the second case.</p>
-<p>The <a href="/home-equity-estimator/">home equity estimator</a> shows the room under the standard 80 percent limit. For a buyout, the useful comparison is the required loan against that limit: if the loan fits, a conventional refinance may work; if it does not, the insured purchase route is the one to explore.</p>
+<h2>Working out the equity</h2>
+<p>The math has three parts: what the home is worth, what's owed on it, and how the equity is being split.</p>
+<p>Lenders use a current appraisal for the value. They don't use the assessed value or a listing estimate. The mortgage balance comes from a payout statement. The split is whatever the agreement says.</p>
+<p>In BC, family property is generally split equally unless the agreement or a court says otherwise. But the agreement can account for excluded property, contributions and debts. So the share paid out isn't always half.</p>
+<p>Here's an example with made-up numbers. A home appraises at $900,000 with a $500,000 mortgage. The equity is $400,000. If it's split equally, the staying partner owes the other $200,000.</p>
+<p>The new mortgage must pay off the $500,000 and fund the $200,000. So it needs to be $700,000. That's 77.8 percent of value, which fits under an uninsured refinance limit.</p>
+<p>Now change the old mortgage to $600,000. The new loan needs to be $750,000, or 83.3 percent. That's only possible with the insured buyout setup. In that case, the insurance premium would be added to the loan. These are example figures, not quotes.</p>
+<p>The <a href="/home-equity-estimator/">home equity estimator</a> shows your room under the standard 80 percent limit. For a buyout, compare the loan you need against that limit. If it fits, a regular refinance may work. If it doesn't, the insured purchase route is the one to explore.</p>
 
 <h2>How the staying partner qualifies</h2>
-<p>The partner keeping the home must qualify for the whole mortgage on their own income, credit and debts. The departing partner's income no longer counts, and the stress test applies: federally regulated lenders qualify you at the higher of the contract rate plus two percentage points and 5.25 percent. This is the step that most often decides whether a buyout is possible, and the <a href="/how-much-mortgage-can-i-afford/">affordability guide</a> explains how the ratios work.</p>
-<p>Support payments run in both directions on these files. Spousal or child support received can usually be counted as income if the agreement or order sets it out and there is a history or a clear start. Support paid is a monthly obligation that is added to your debts. Both must be documented in the agreement. If the staying partner's own income is not quite enough, a <a href="/mortgage-with-a-cosigner/">co-signer</a> is sometimes the answer, with the co-signer's own obligations and risks understood first. The <a href="/mortgage-application-checklist/">application checklist</a> lists the documents, and for a buyout the agreement, the appraisal and a payout statement join the usual set.</p>
+<p>The partner keeping the home must qualify for the whole mortgage alone. That means their own income, credit and debts. The departing partner's income no longer counts.</p>
+<p>The stress test applies too. Federally regulated lenders qualify you at the contract rate plus two points, or 5.25 percent, whichever is higher. This is the step that most often decides whether a buyout can happen. The <a href="/how-much-mortgage-can-i-afford/">affordability guide</a> explains how the ratios work.</p>
+<p>Support payments can go either way on these files. Spousal or child support you receive can usually count as income. It needs to be set out in the agreement or order, with a history of payments or a clear start date. Support you pay is a monthly cost that's added to your debts. Both have to be written into the agreement.</p>
+<p>If the staying partner's income falls a little short, a <a href="/mortgage-with-a-cosigner/">co-signer</a> is sometimes the answer. Make sure the co-signer understands their own duties and risks first.</p>
+<p>The <a href="/mortgage-application-checklist/">application checklist</a> lists the documents. For a buyout, add the agreement, the appraisal and a payout statement to the usual set.</p>
 
-${cta({ title: "A confidential conversation first", text: "Book a 15-minute call. Joshua will look at the numbers, tell you honestly whether keeping the home is realistic on your own income, and explain what the lender and insurer will need, before anything is signed." })}
+${cta({ title: "A confidential conversation first", text: "Book a 15-minute call. Joshua will look at the numbers and tell you honestly whether keeping the home is realistic on your income. He'll also explain what the lender and insurer will need, before anything is signed." })}
 
-<h2>Title and release of liability</h2>
-<p>A buyout is only complete when two things happen at the land title office and at the lender. The departing partner's name comes off the title, and the departing partner is released from the mortgage. The second does not happen automatically. If the existing mortgage simply stays in place with one person making the payments, the departing partner remains legally liable for it, which affects their ability to qualify for their own mortgage and leaves them exposed if payments are missed.</p>
-<p>The clean solution is the one this page describes: a new mortgage in the staying partner's name alone, which pays out the joint mortgage and funds the buyout. Some lenders will instead approve an assumption, where the staying partner takes over the existing mortgage and the lender releases the other party, which avoids a penalty on the existing term. Whether that is available depends on the lender and on the staying partner qualifying alone. Either way, the release should be in writing, and your lawyer should confirm it before the departing partner signs the transfer.</p>
+<h2>Title and release from the mortgage</h2>
+<p>A buyout is only done when two things happen, one at the land title office and one at the lender. The departing partner's name comes off the title. And the departing partner is released from the mortgage.</p>
+<p>The second one doesn't happen on its own. Say the old mortgage just stays in place with one person paying it. The departing partner is still legally on the hook. That hurts their chances of getting their own mortgage. It also leaves them exposed if payments are missed.</p>
+<p>The clean fix is the one this page describes. A new mortgage in the staying partner's name alone pays off the joint mortgage and funds the buyout.</p>
+<p>Some lenders will approve an assumption instead. The staying partner takes over the existing mortgage, and the lender releases the other person. That avoids a penalty on the current term. Whether it's offered depends on the lender, and on the staying partner qualifying alone.</p>
+<p>Either way, get the release in writing. Your lawyer should confirm it before the departing partner signs the transfer.</p>
 
 <h2>The timeline with lawyers</h2>
 <ol>
-<li><strong>Early conversation.</strong> A broker reviews the staying partner's income and the likely equity, and says whether a buyout is realistic. This can happen before the agreement is drafted.</li>
-<li><strong>Appraisal.</strong> An appraisal sets the value both sides will use. Agreeing on the appraiser avoids a dispute later.</li>
-<li><strong>Agreement.</strong> The family lawyers settle the separation agreement, including the buyout price, debts and support.</li>
-<li><strong>Application.</strong> The mortgage application goes to the lender and, if the loan exceeds 80 percent, to the insurer, with the agreement attached.</li>
-<li><strong>Approval and conditions.</strong> The lender confirms the purchase price, the use of proceeds and the staying partner's qualification.</li>
-<li><strong>Completion.</strong> The conveyancing lawyer or notary pays out the old mortgage, pays the departing partner, registers the new mortgage and the transfer, and confirms the release.</li>
+<li><strong>Early conversation.</strong> A broker reviews the staying partner's income and the likely equity. They tell you whether a buyout is realistic. This can happen before the agreement is drafted.</li>
+<li><strong>Appraisal.</strong> An appraisal sets the value both sides will use. Agreeing on the appraiser avoids a fight later.</li>
+<li><strong>Agreement.</strong> The family lawyers settle the separation agreement. It covers the buyout price, debts and support.</li>
+<li><strong>Application.</strong> The mortgage application goes to the lender with the agreement attached. If the loan is over 80 percent, it also goes to the insurer.</li>
+<li><strong>Approval and conditions.</strong> The lender confirms the price, what the money is for, and that the staying partner qualifies.</li>
+<li><strong>Completion.</strong> The lawyer or notary pays off the old mortgage and pays the departing partner. They register the new mortgage and the transfer, and confirm the release.</li>
 </ol>
-<p>The whole process commonly runs several weeks from a signed agreement, longer if the agreement itself is still being negotiated.</p>
+<p>The process often takes several weeks from a signed agreement. It takes longer if the agreement is still being worked out.</p>
 
 <h2>Related situations</h2>
-<p>The buyout is one of several mortgage questions a separation raises. What happens to a joint mortgage during the separation, how a renewal is handled while both names are still on title, whether to sell instead, and how to qualify for a new purchase with support in the picture are covered on the page about <a href="/mortgages-during-separation-and-divorce/">mortgages during separation and divorce</a>. The <a href="/refinance-mortgage-bc/">refinance hub</a> covers the conventional route if the loan fits under 80 percent. On any of these, <a href="/contact/">contact Joshua</a> directly. These conversations are confidential, and he has had many of them.</p>
+<p>The buyout is one of several mortgage questions a separation raises. What happens to a joint mortgage during the separation? How is a renewal handled while both names are on title? Should you sell instead? How do you qualify for a new purchase with support in the picture? The page on <a href="/mortgages-during-separation-and-divorce/">mortgages during separation and divorce</a> covers all of these.</p>
+<p>The <a href="/refinance-mortgage-bc/">refinance hub</a> covers the regular route if the loan fits under 80 percent. On any of this, <a href="/contact/">contact Joshua</a> directly. These talks are confidential, and he's had many of them.</p>
 
-${callout("Nothing here is legal advice", "<p>A separation agreement is a legal document with consequences beyond the mortgage. The financing described on this page depends on it, but a family lawyer should draft and review it. Joshua works alongside your lawyer, not instead of one.</p>")}
+${callout("Nothing here is legal advice", "<p>A separation agreement is a legal document with effects well beyond the mortgage. The financing on this page depends on it. A family lawyer should draft and review it. Joshua works alongside your lawyer, not instead of one.</p>")}
 `;
 
 export default {

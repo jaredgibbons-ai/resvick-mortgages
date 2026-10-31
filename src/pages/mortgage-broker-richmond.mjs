@@ -1,46 +1,64 @@
+import { short } from "../lib/short.mjs";
 import { cta, callout, ratesStrip } from "../lib/site.mjs";
 import { cityServiceSchema, servesLine } from "../lib/city.mjs";
 
 const slug = "/mortgage-broker-richmond/";
 
 const body = `
+${short({ answer: "Joshua serves Richmond buyers and homeowners online from his Surrey office. He works on a lot of newcomer files, move-ups to a detached home, and older houses with suites or renovation plans.", who: "Richmond first-time buyers, newcomers, families moving up and anyone renewing.", next: "Book a 15-minute call. New to Canada? Start with the <a href=\"/new-to-canada-mortgage/\">new to Canada mortgage page</a>." })}
 <h2>Richmond's housing, from the Canada Line to the dikes</h2>
-<p>Richmond is an island city on the Fraser delta, with a tower-and-townhouse core around the Canada Line stations at Brighouse, Lansdowne and Aberdeen, established detached neighbourhoods in Steveston, Broadmoor, Terra Nova and the east, and farmland inside the Agricultural Land Reserve across much of the south and east. Its buyers are a distinctive mix: newcomers to Canada buying a first home near family and transit, established families moving up to a detached house, and owners of older houses on large lots deciding whether to renovate, add a suite or sell.</p>
-<p>${servesLine("Richmond")}</p>
+<p>Richmond is an island city on the Fraser delta. Its core is towers and townhouses around the Canada Line stations at Brighouse, Lansdowne and Aberdeen. Older detached neighbourhoods sit in Steveston, Broadmoor, Terra Nova and the east. Much of the south and east is farmland in the Agricultural Land Reserve.</p>
+<p>The buyers here are a mix. Some are new to Canada and buying a first home near family and transit. Some are families moving up to a detached house. Others own an older house on a big lot. They're deciding whether to renovate, add a suite or sell.</p>
+<p>Joshua Resvick serves Richmond from his office in Surrey, by phone, video and secure document upload. There is no Richmond branch, and you never need to visit an office. Every step happens online, from the first call to the signed commitment. Your lawyer or notary handles the signing where you live.</p>
 
 ${ratesStrip()}
 
-<h2>Newcomer and recently arrived buyers</h2>
-<p>Richmond is one of the first places many newcomers to Canada settle, and a large share of its first purchases are newcomer files. Lenders and the mortgage insurers run specific programs: they set rules on your status and how long you have been in Canada, on how foreign credit history is treated, on how income from a new Canadian job or from abroad is documented, and on the down payment, which some programs allow to be smaller than you might expect and others require to be larger. The right lender for a newcomer file is often not the one with the lowest advertised rate. The <a href="/new-to-canada-mortgage/">new to Canada mortgage page</a> lays out the programs and the documents, and Joshua will tell you plainly which lenders fit your situation.</p>
+<h2>Buyers who are new to Canada</h2>
+<p>Many newcomers to Canada settle in Richmond first. A big share of first purchases here are newcomer files.</p>
+<p>Lenders and mortgage insurers run special programs for these buyers. The rules cover your status and how long you've been in Canada. They cover how lenders treat credit history from another country. They also cover how to prove income from a new Canadian job or from abroad.</p>
+<p>The down payment rules differ too. Some programs allow less than you might expect. Others ask for more.</p>
+<p>The right lender for a newcomer file often isn't the one with the lowest advertised rate. The <a href="/new-to-canada-mortgage/">new to Canada mortgage page</a> lays out the programs and the documents. Joshua will tell you plainly which lenders fit your situation.</p>
 
-<h2>The move-up purchase</h2>
-<p>Richmond families moving from a condo or townhouse into a detached home in Broadmoor, Terra Nova or Steveston are usually solving a timing problem. The sale and the purchase rarely complete on the same day. Porting the existing mortgage carries your rate and term to the new home, often with a blended increase for the larger amount; bridge financing covers the down payment between the two completion dates and requires a firm, subject-free sale. The <a href="/porting-your-mortgage/">porting guide</a> and the <a href="/bridge-financing/">bridge financing page</a> explain both, and the penalty to break the existing mortgage, if porting does not work, is worth knowing before you list.</p>
+<h2>Moving up to a bigger home</h2>
+<p>Lots of Richmond families move from a condo or townhouse into a house in Broadmoor, Terra Nova or Steveston. Most of the time, they're solving a timing problem. The sale and the purchase rarely close on the same day.</p>
+<p>There are two common fixes. <strong>Porting</strong> moves your current rate and term to the new home. If you need a bigger mortgage, the extra part is often blended in at today's rate. <strong>Bridge financing</strong> covers your down payment in the gap between the two closing dates. It needs a firm sale with no subjects.</p>
+<p>The <a href="/porting-your-mortgage/">porting guide</a> and the <a href="/bridge-financing/">bridge financing page</a> explain both. If porting won't work, find out your penalty for breaking the mortgage before you list.</p>
 
-<h2>Older houses, suites and renovation</h2>
-<p>Richmond has adopted zoning amendments that allow a single secondary suite within a single-family detached home, and an existing suite must be inspected and upgraded to meet the BC Building Code and the city's bylaws (City of Richmond, page updated May 2024). For a buyer, a permitted suite with a lease and bank deposits is far easier for a lender to count than an unpermitted one. Lenders either add a share of the rent to your income or subtract it from your housing costs, and the share varies. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> works through both methods.</p>
-<p>Many Richmond houses were built decades ago on large lots, and buyers often plan a renovation or a rebuild. A renovation financed at purchase can use a purchase plus improvements program, which lends against the as-improved value; a suite added later can use the federal secondary suite refinance program, which allows refinancing to 90 percent of as-improved value for a legal suite. The <a href="/purchase-plus-improvements/">purchase plus improvements page</a> and the <a href="/secondary-suite-refinance/">secondary suite refinance page</a> explain the conditions.</p>
+<h2>Older houses, suites and renovations</h2>
+<p>Richmond's zoning now allows one secondary suite inside a single-family house. An existing suite must be inspected and brought up to the BC Building Code and city bylaws (City of Richmond, page updated May 2024).</p>
+<p>For a buyer, a permitted suite with a lease and bank deposits is much easier for a lender to count. An unpermitted suite is a harder sell. Lenders either add part of the rent to your income or subtract it from your housing costs. The share varies by lender. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> works through both methods.</p>
+<p>Many Richmond houses are decades old and sit on large lots. Buyers often plan a renovation or a rebuild. There are two programs to know about.</p>
+<ul>
+<li><strong>Renovating right after you buy?</strong> A purchase plus improvements program lends against what the home will be worth once the work is done.</li>
+<li><strong>Adding a suite later?</strong> The federal secondary suite refinance program lets you borrow up to 90 percent of the finished value to build a legal suite.</li>
+</ul>
+<p>The <a href="/purchase-plus-improvements/">purchase plus improvements page</a> and the <a href="/secondary-suite-refinance/">secondary suite refinance page</a> explain the conditions.</p>
 
 <h2>Leasehold, floodplain and other Richmond specifics</h2>
 <ul>
-<li><strong>Leasehold strata.</strong> Some Richmond developments are leasehold rather than freehold. Fewer lenders finance leasehold, the remaining term of the lease matters, and the appraisal treats it differently. Confirm the tenure before you write an offer.</li>
-<li><strong>Floodplain and dikes.</strong> Richmond's land is low-lying and protected by a dike system. That does not stop lending, but insurers and appraisers note it, and flood insurance availability and cost are worth checking on a house with a basement or at grade.</li>
-<li><strong>Agricultural Land Reserve.</strong> Properties in the ALR, including homes on farm land in the east and south, are a different file: many conventional lenders value the house and a limited amount of land, farm status changes the products available, and the province's rules on additional residences apply.</li>
-<li><strong>Speculation and vacancy tax.</strong> Richmond is inside the taxable area for the provincial speculation and vacancy tax, which requires an annual declaration from every owner (Province of BC, list updated December 2025). A home you live in is not the target, but it matters if you are keeping a condo after buying a house.</li>
+<li><strong>Leasehold strata.</strong> Some Richmond buildings are leasehold, not freehold. Fewer lenders finance leasehold. The years left on the lease matter, and the appraisal treats it differently. Confirm the type of ownership before you write an offer.</li>
+<li><strong>Floodplain and dikes.</strong> Richmond is low-lying and protected by dikes. That doesn't stop lending. But insurers and appraisers take note. If a house has a basement or sits at ground level, check whether flood insurance is available and what it costs.</li>
+<li><strong>Agricultural Land Reserve.</strong> Homes on farmland in the east and south are a different kind of file. Many regular lenders count the house and only a small amount of land. Farm status changes which products you can get. Provincial rules on extra homes on the land also apply.</li>
+<li><strong>Speculation and vacancy tax.</strong> Richmond is inside the area covered by BC's speculation and vacancy tax. Every owner must file a yearly declaration (Province of BC, list updated December 2025). A home you live in isn't the target. It matters if you keep a condo after buying a house.</li>
 </ul>
 
-<h2>Renewals and switching</h2>
-<p>A renewal letter is one lender's opening offer. Since late 2024, a straight switch to another lender at maturity, with the balance and amortization unchanged, usually does not require a new stress test, and switch costs are often covered. The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> explains the window and the comparison, and the free renewal reminder contacts you six months and 120 days before maturity.</p>
+<h2>Renewals and switching lenders</h2>
+<p>A renewal letter is one lender's opening offer. Since late 2024, a straight switch to another lender at maturity usually doesn't need a new stress test. The balance and amortization have to stay the same. Switch costs are often covered.</p>
+<p>The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> explains the timing and how to compare. The free renewal reminder contacts you six months and 120 days before your term ends.</p>
 
 <h2>Self-employed and business income</h2>
-<p>Richmond's economy runs on the airport, the port and logistics, a large base of small businesses and importers, and professionals around the hospital and the city centre. Business income is workable, but lenders read it differently, and the choice of lender can change what the same two years of returns support. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> covers add-backs, dividends, stated-income programs and when a fee can apply. On a mortgage with a mainstream lender, the lender pays the broker and you pay nothing for the service.</p>
+<p>Richmond runs on the airport, the port and logistics. It has a big base of small businesses and importers. It also has professionals around the hospital and city centre.</p>
+<p>Business income works fine, but lenders read it differently. The same two years of tax returns can support different amounts at different lenders. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> covers add-backs, dividends, stated-income programs and when a fee can apply. With a mainstream lender, the lender pays the broker, and you pay nothing for the service.</p>
 
 <h2>Working with Joshua from Richmond</h2>
-<p>A 15-minute call sets the goals and dates. Joshua reads your file the way an underwriter does, which is what he did for five years before becoming a broker. You receive a written Lender Comparison Report of real options, and after funding, <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> keeps the mortgage under review with a renewal plan six months out. The <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set, and the <a href="/mortgage-calculators/">calculators</a> let you test a payment with the CMHC premium, affordability with a suite, closing costs including property transfer tax, and renewal scenarios. Results appear immediately with no email required.</p>
+<p>A 15-minute call sets your goals and dates. Joshua reads your file the way an underwriter does. That was his job for five years before he became a broker. You get a written Lender Comparison Report of real options.</p>
+<p>After funding, <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> keeps your mortgage under review. It includes a renewal plan six months out.</p>
+<p>The <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set. The <a href="/mortgage-calculators/">calculators</a> let you test a few things. You can check a payment with the CMHC premium, or affordability with a suite. You can total your closing costs, including property transfer tax, and run renewal scenarios. Results show up right away, with no email needed.</p>
 
-${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-vancouver/">Vancouver</a> and <a href="/mortgage-broker-surrey/">Surrey</a>, where his office is, as well as Delta and the rest of Metro Vancouver. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area; a review from a Richmond client helps the next buyer find him.</p>`)}
+${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-vancouver/">Vancouver</a> and <a href="/mortgage-broker-surrey/">Surrey</a>, where his office is. He serves Delta and the rest of Metro Vancouver too. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from a Richmond client helps the next buyer find him.</p>`)}
 
-${cta({ title: "A first home near the Canada Line, or a move up in Steveston?", text: "Book a 15-minute call. You will leave knowing what is realistic and what to do first." })}
-<p>First purchase? The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> is the place to start. Anything else, the <a href="/contact/">contact page</a>.</p>
+${cta({ title: "A first home near the Canada Line, or a move up in Steveston?", text: "Book a 15-minute call. You'll leave knowing what's realistic and what to do first." })}
+<p>First purchase? The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> is the place to start. For anything else, see the <a href="/contact/">contact page</a>.</p>
 `;
 
 export default {

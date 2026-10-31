@@ -1,42 +1,62 @@
 import { cta, callout } from "../lib/site.mjs";
+import { short } from "../lib/short.mjs";
 
 const body = `
+${short({
+  answer: "Yes. Lenders start counting from the day your proposal is completed. B lenders often look within about a year with 20 percent down. A lenders commonly want around two years of clean, rebuilt credit.",
+  who: "Anyone in a consumer proposal, just finished one, or wondering if an old one still blocks a mortgage.",
+  next: "Get your certificate of full performance, open two small credit accounts and pay them perfectly. Then <a href=\"/contact/\">book a call</a> to map the timeline."
+})}
 <h2>Proposal versus bankruptcy, in a lender's eyes</h2>
-<p>A consumer proposal is a legal arrangement, filed through a licensed insolvency trustee, in which you offer creditors a partial repayment over up to five years instead of declaring bankruptcy. You keep your assets, including a home, and creditors accept less than the full amount. Lenders know the difference between a proposal and a bankruptcy, and they read a proposal slightly more favourably, because it shows an effort to repay. It is still an insolvency event, though, and it is treated as one.</p>
-<p>What lenders want to know about a proposal is its status. There are three distinct positions: a proposal that is still being paid, a proposal that has just been completed, and a proposal that is several years behind you. The options are very different at each, and this page takes them in turn. It also explains how long a proposal stays on your credit report, which is shorter than many people fear, and why you do not need to wait for it to disappear.</p>
+<p>A consumer proposal is a legal deal filed through a licensed insolvency trustee. You offer creditors a partial repayment over up to five years, instead of declaring bankruptcy. You keep your assets, including a home. Creditors accept less than the full amount.</p>
+<p>Lenders know the difference between a proposal and a bankruptcy. They read a proposal a little more kindly, because it shows an effort to repay. It's still an insolvency event, though, and it's treated as one.</p>
+<p>What lenders want to know is the proposal's status. There are three very different positions. It's still being paid, it was just completed, or it's several years behind you. Your options change a lot at each stage, and this page takes them one by one.</p>
+<p>It also explains how long a proposal stays on your credit report. It's shorter than many people fear, and you don't have to wait for it to disappear.</p>
 
 <h2>How long a proposal stays on your report</h2>
-<p>Equifax Canada states that a consumer proposal is removed from your credit report three years after you have paid off all the debts included in it, or six years from the filing date, whichever comes first (Equifax Canada, 2026). The "six years" people worry about is the outer limit for a proposal that took the full five years to pay. A proposal paid off in two years, for example, comes off after five. Either way, lenders approve mortgages with the proposal still showing, so the reporting period is not the thing to plan around.</p>
+<p>Equifax Canada says a consumer proposal comes off your report three years after you pay off all the debts in it. Or six years from the filing date, whichever comes first (Equifax Canada, 2026).</p>
+<p>The "six years" people worry about is the outer limit, for a proposal that took the full five years to pay. A proposal paid off in two years comes off after five.</p>
+<p>Either way, lenders approve mortgages with the proposal still showing. So the reporting period isn't the thing to plan around.</p>
 
 <h2>Buying during a proposal</h2>
-<p>Getting a new mortgage while a proposal is still being paid is rare and difficult. A lenders and the default insurers generally will not consider it, because the borrower is, by definition, still in an insolvency process. A small number of B lenders and private lenders will look at a file in which the proposal is nearly complete and the borrower has a large down payment, and the usual condition is that the remaining proposal balance is paid off from the mortgage proceeds at closing, so that the proposal is completed on the same day the mortgage funds.</p>
-<p>That structure is most common on a refinance of a home you already own. If you entered the proposal while owning the home, and the home has gained equity, a refinance that pays out the proposal can be worth exploring, because completing the proposal early starts the credit recovery clock sooner. It is expensive money, though, and it only makes sense with a plan to move to a cheaper lender once the proposal is done and the credit has been rebuilt.</p>
+<p>Getting a new mortgage while you're still paying a proposal is rare and hard. A lenders and the mortgage insurers generally won't consider it. You're still in an insolvency process, by definition.</p>
+<p>A few B lenders and private lenders will look at a file where the proposal is nearly done and the down payment is large. The usual condition is that the rest of the proposal gets paid from the mortgage at closing. So the proposal is completed the same day the mortgage funds.</p>
+<p>That setup is most common on a refinance of a home you already own. Say you entered the proposal while owning the home, and the home has gained value. A refinance that pays out the proposal can be worth a look. Finishing early starts your credit recovery clock sooner.</p>
+<p>It's expensive money, though. It only makes sense with a plan to move to a cheaper lender once the proposal is done and your credit is rebuilt.</p>
 
 <h2>Just completed: the rebuild clock starts</h2>
-<p>The day you receive the certificate of full performance from your trustee is the day lenders start counting. From that point, the expectations are the same ones that apply after a bankruptcy, applied somewhat more gently: time since completion, re-established credit and no new missed payments. The industry shorthand for re-established credit is the 2/2/2 rule, which is two accounts, open about two years, with limits around $2,000 or more, paid perfectly. The page on <a href="/build-credit-for-a-mortgage/">building credit for a mortgage</a> turns that into a practical plan, including secured cards for borrowers who cannot yet get an ordinary one.</p>
-<p>Many people finish a proposal with no active credit at all, because every account was included in it. That is the first problem to fix. Without new accounts, there is no post-proposal history for a lender to read, and the clock effectively has not started. Opening two modest accounts in the first months after completion, and paying them on time without exception, is the most valuable thing you can do.</p>
+<p>Lenders start counting the day your trustee gives you the certificate of full performance. From then on, the expectations match the ones after a bankruptcy, applied a little more gently.</p>
+<p>They look at time since completion, rebuilt credit and no new missed payments. The industry shorthand for rebuilt credit is the 2/2/2 rule. That's two accounts, open about two years, with limits around $2,000 or more, paid perfectly.</p>
+<p>The page on <a href="/build-credit-for-a-mortgage/">building credit for a mortgage</a> turns that into a practical plan. It includes secured cards if you can't get a regular one yet.</p>
+<p>Many people finish a proposal with no active credit at all, because every account went into it. That's the first problem to fix. With no new accounts, there's no history for a lender to read, and the clock hasn't really started.</p>
+<p>The most valuable thing you can do is simple. Open two modest accounts in the first months after you finish. Then pay them on time, every time.</p>
 
 <h2>After completion: realistic lender tiers</h2>
-<p>With the proposal completed and credit re-established, the tiers open in sequence.</p>
+<p>Once the proposal is done and your credit is rebuilt, the lender tiers open up in order.</p>
 <ul>
-<li><strong>B lenders</strong> will often consider a purchase or refinance within a year or so of completion, with 20 percent or more down and two new accounts in good standing. The rate is higher than A pricing and a lender fee applies, for a short term. The <a href="/b-lender-mortgage-bc/">B lender page</a> explains the structure and the plan back to A.</li>
-<li><strong>A lenders and insurers</strong> typically want a longer clean period, commonly described in the industry as around two years after completion, with the 2/2/2 standard met. At that point, an insured purchase with as little as 5 percent down becomes possible, subject to each insurer's current policy.</li>
-<li><strong>Private lenders</strong> sit before both, lending against equity for borrowers who need to act before a B lender will, at a cost that only makes sense for a short period.</li>
+<li><strong>B lenders</strong> will often look at a purchase or refinance within about a year of completion. They want 20 percent or more down and two new accounts in good standing. The rate is higher than A pricing, a lender fee applies and the term is short. The <a href="/b-lender-mortgage-bc/">B lender page</a> explains the setup and the plan back to an A lender.</li>
+<li><strong>A lenders and insurers</strong> typically want a longer clean stretch. The industry commonly describes it as about two years after completion, with the 2/2/2 standard met. Then an insured purchase with as little as 5 percent down becomes possible, subject to each insurer's current policy.</li>
+<li><strong>Private lenders</strong> come before both. They lend against equity for people who need to act before a B lender will. The cost only makes sense for a short time.</li>
 </ul>
-<p>These are norms, not rules. Joshua confirms the current policy of each lender for your file, because the exact time each one wants moves with the market.</p>
-${callout("Documents for a post-proposal application", "<p>Your certificate of full performance from the trustee is the central document. Alongside it, expect to provide statements for every account opened since completion, a short letter of explanation covering the cause of the proposal and what has changed, and the standard items on the application checklist. Keep the certificate somewhere safe; lenders will ask for it for years.</p>")}
+<p>These are norms, not rules. Joshua confirms each lender's current policy for your file, because the time each one wants shifts with the market.</p>
+${callout("Documents for a post-proposal application", "<p>Your trustee's certificate of full performance is the central document. You'll also need statements for every account opened since completion. Add a short letter explaining the cause of the proposal and what has changed, plus the standard items on the application checklist. Keep the certificate somewhere safe. Lenders will ask for it for years.</p>")}
 
 <h2>The explanation letter</h2>
-<p>Lenders usually ask for a letter explaining the proposal. The most effective letters are short and specific: the cause, such as a business downturn, a divorce, a period of illness or a job loss; the dates filed and completed; and the steps taken since, such as the new accounts and the savings history. An underwriter is not looking for remorse. They are looking for a cause that has ended and a borrower who has managed money well since. Joshua helps draft the letter, because he has read many from the underwriting side and knows which ones move a file forward.</p>
+<p>Lenders usually ask for a letter explaining the proposal. The best letters are short and specific.</p>
+<p>They give the cause, such as a business downturn, a divorce, an illness or a job loss. They give the dates filed and completed. And they list what you've done since, like the new accounts and your savings history.</p>
+<p>An underwriter isn't looking for remorse. They want a cause that has ended, and a borrower who has handled money well since. Joshua helps draft the letter. He's read many of them from the underwriting side, and knows which ones move a file forward.</p>
 
 <h2>First-time buyers after a proposal</h2>
-<p>A proposal does not disqualify you from the first-time buyer programs. The First Home Savings Account, the Home Buyers' Plan, the BC property transfer tax exemption and the GST rebate all have their own eligibility rules, and none of them asks about past insolvency. If you are buying your first home after a proposal, the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> explains how to stack them, and the only extra work is on the lender side. For the broader picture of how lenders weigh credit of every kind, the page on <a href="/bad-credit-mortgage-bc/">bad credit mortgages</a> covers the full range, and the page on <a href="/mortgage-after-bankruptcy/">mortgages after bankruptcy</a> describes the closely related rules for that process.</p>
+<p>A proposal doesn't disqualify you from the first-time buyer programs. The FHSA, the Home Buyers' Plan, the BC transfer tax exemption and the GST rebate each have their own rules. None of them asks about past insolvency.</p>
+<p>If you're buying your first home after a proposal, the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> explains how to stack them. The only extra work is on the lender side.</p>
+<p>For a wider look at how lenders weigh credit, see the page on <a href="/bad-credit-mortgage-bc/">bad credit mortgages</a>. The page on <a href="/mortgage-after-bankruptcy/">mortgages after bankruptcy</a> covers the closely related rules for that process.</p>
 
 <h2>Fees, honestly</h2>
-<p>On a mortgage placed with an A lender, the lender pays the broker and you pay nothing for the service. If your file needs a B or private lender in the period after a proposal, a lender fee is normal and a broker fee can apply. BC rules require that any fee be disclosed to you in writing under BCFSA Form 1A before you commit, and Joshua puts every figure in front of you next to the cost of waiting, so that the decision is made with numbers rather than pressure.</p>
-<p>If you are in a proposal, have just completed one, or finished one years ago and are wondering whether a lender will say yes, <a href="/contact/">book a 15-minute call</a>. The first step is simply to look at the certificate date and the credit report together.</p>
+<p>On a mortgage with an A lender, the lender pays the broker. You pay nothing for the service.</p>
+<p>If your file needs a B or private lender after a proposal, a lender fee is normal, and a broker fee can apply. BC rules require any fee to be disclosed in writing under BCFSA Form 1A before you commit. Joshua puts every figure in front of you next to the cost of waiting. That way you decide with numbers, not pressure.</p>
+<p>Are you in a proposal, just finished one, or done years ago and wondering if a lender will say yes? <a href="/contact/">Book a 15-minute call</a>. The first step is just to look at the certificate date and your credit report together.</p>
 
-${cta({ title: "Finished a proposal and wondering what is possible?", text: "Book a 15-minute call. Joshua will tell you which tier of lender would consider your file today, what it would cost, and the steps to standard pricing." })}
+${cta({ title: "Finished a proposal and wondering what is possible?", text: "Book a 15-minute call. Joshua will tell you which lenders would look at your file today and what it would cost. Then he'll map the steps to standard pricing." })}
 `;
 
 export default {

@@ -1,3 +1,4 @@
+import { short } from "../lib/short.mjs";
 import { SITE, cta, callout } from "../lib/site.mjs";
 
 const toggle = (v, l) => `<label><input type="checkbox" name="x_need_${v}" value="on" id="need-${v}"><span>${l}</span></label>`;
@@ -34,33 +35,35 @@ ${toggle("buying", "Buying a home")}${toggle("renewing", "Renewing")}${toggle("r
 </div>`;
 
 const body = `
+${short({ answer: "If someone you know needs mortgage help, send them my way here. I'll mention your name, go at their pace and never charge them on an A-lender file. I don't pay for referrals. Just make sure they've agreed to hear from me first.", who: "Past clients, friends and colleagues who know someone buying, renewing or refinancing.", next: "Ask the person first, then fill in the short form below. Or send them the <a href=\"/contact/\">contact page</a>." })}
+
 <h2>How referrals work with me</h2>
-<p>Most of my clients come from other clients, and I'd like to keep it that way. If someone you know is buying, renewing, refinancing, or just confused about what a lender told them, you can send them my way here. I'll get in touch, mention your name so it's not a stranger calling, and take it at their pace. If they only want one question answered, that's a fine outcome. No pressure on them, and nothing expected of you.</p>
-<p>Two things I want to be clear about up front. First, I don't pay for referrals and I don't run contests or gift cards for them. A referral should be a recommendation, not a transaction, and the rules that govern mortgage brokers in BC are strict about anything that looks like an inducement. Second, there's never a charge to the person you refer for the service on a mainstream (A) lender file: the lender pays me and they pay nothing. Fees only arise on some B-lender and private files, with written disclosure first. The page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> explains the whole arrangement, and you're welcome to send it to them before they decide.</p>
+<p>Most of my clients come from other clients, and I'd like to keep it that way. Maybe someone you know is buying, renewing or refinancing. Or maybe a lender just confused them. You can send them my way here. I'll get in touch and mention your name, so it's not a stranger calling. Then I'll go at their pace. If they only want one question answered, that's a fine outcome. No pressure on them, and nothing expected of you.</p>
+<p>Two things I want to be clear about up front. First, I don't pay for referrals, and I don't run contests or gift cards. A referral should be a recommendation, not a transaction. BC's rules for mortgage brokers are also strict about anything that looks like an inducement. Second, the person you refer never pays for the service on a mainstream (A) lender file. The lender pays me, and they pay nothing. Fees only arise on some B-lender and private files, with written disclosure first. The page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> explains the whole arrangement. Feel free to send it to them before they decide.</p>
 
 ${form}
 
 <h2>Why I ask whether they've agreed</h2>
-<p>That required box isn't a formality. Canada's anti-spam law means I shouldn't email or text someone who hasn't agreed to hear from me, and a referral doesn't change that. More to the point, nobody enjoys a surprise call about their mortgage. So the way this works best is simple: you tell them about me, they say "sure, have him reach out," and then you fill in the form. If you'd rather not be the go-between, send them the link to the <a href="/contact/">contact page</a> instead and let them book a call themselves. Either route ends in the same conversation.</p>
+<p>That required box isn't a formality. Canada's anti-spam law means I shouldn't email or text someone who hasn't agreed to hear from me, and a referral doesn't change that. More to the point, nobody enjoys a surprise call about their mortgage. So here's what works best. You tell them about me. They say sure, have him reach out. Then you fill in the form. If you'd rather not be the go-between, send them the <a href="/contact/">contact page</a> instead. They can book a call themselves. Either route ends in the same conversation.</p>
 
 <h2>Who tends to benefit most</h2>
-<p>You don't need to diagnose their situation, but if you're wondering whether it's worth mentioning me, these are the moments where a second opinion most often changes the outcome:</p>
+<p>You don't need to diagnose their situation. But if you're wondering whether to mention me, these are the moments when a second opinion most often helps.</p>
 <ul>
-<li><strong>A renewal letter just arrived.</strong> The letter is one lender's opening offer, and since late 2024 many borrowers can switch lenders at maturity without re-doing the stress test. The <a href="/mortgage-renewal-bc/">renewal hub</a> explains the options, and the sooner they look, the more room there is.</li>
-<li><strong>They're saving for a first home and not sure what's realistic.</strong> Between the FHSA, the Home Buyers' Plan, the GST rebate and the BC property transfer tax exemption, there's more help than most people know, and the order matters. Start them at the <a href="/first-time-home-buyer-bc/">first-time buyer hub</a>.</li>
+<li><strong>A renewal letter just arrived.</strong> The letter is one lender's opening offer. Since late 2024, many borrowers can switch lenders at maturity without redoing the stress test. The <a href="/mortgage-renewal-bc/">renewal hub</a> explains the options. The sooner they look, the more room there is.</li>
+<li><strong>They're saving for a first home and not sure what's realistic.</strong> The FHSA, the Home Buyers' Plan, the GST rebate and the BC property transfer tax exemption add up to more help than most people know. And the order matters. Start them at the <a href="/first-time-home-buyer-bc/">first-time buyer hub</a>.</li>
 <li><strong>They're self-employed and a bank said no.</strong> That's usually about how the income was read, not whether it's enough. The <a href="/self-employed-mortgage-bc/">self-employed guide</a> covers the routes.</li>
-<li><strong>They want to use their equity</strong> for a renovation, a suite, a debt clean-up or an investment, and they're not sure whether breaking their mortgage makes sense. The <a href="/refinance-mortgage-bc/">refinance hub</a> starts with the break-even math, not a pitch.</li>
+<li><strong>They want to use their equity</strong> for a renovation, a suite, a debt clean-up or an investment. They're not sure if breaking their mortgage makes sense. The <a href="/refinance-mortgage-bc/">refinance hub</a> starts with the break-even math, not a pitch.</li>
 <li><strong>They're worried about payments.</strong> Early is everything. I'll explain the options plainly, with no pressure, and often the answer is simpler than they fear.</li>
 </ul>
 
 <h2>What they'll get</h2>
-<p>The same thing every client gets. A short first call to understand the goal and the numbers. An honest read on what's realistic, including hearing early if something in the plan won't work. A written side-by-side of real lender options before they decide anything. And after funding, the <a href="/mortgage-aftercare-program/">aftercare program</a>: an annual review, rate monitoring, and a call about six months before renewal so the next decision is made with time to spare. I've been a broker for ten years, after five years as a mortgage underwriter, and over 1,000 mortgages in, the part I still like best is explaining things properly.</p>
+<p>The same thing every client gets. A short first call to understand the goal and the numbers. An honest read on what's realistic, including hearing early if something in the plan won't work. A written side-by-side of real lender options before they decide anything. After funding comes the <a href="/mortgage-aftercare-program/">aftercare program</a>. That means an annual review, rate monitoring and a call about six months before renewal. So the next decision gets made with time to spare. I've been a broker for ten years, after five years as a mortgage underwriter. Over 1,000 mortgages in, the part I still like best is explaining things properly.</p>
 
-${callout("If you're referring a family member", "<p>Say so in the notes. Family referrals often come with a second question, like whether a gift toward a down payment works or how a co-signer arrangement affects the person helping. I'm happy to talk to both of you, together or separately, and I'll keep each person's details to themselves.</p>")}
+${callout("If you're referring a family member", "<p>Say so in the notes. Family referrals often come with a second question. Maybe it's whether a gift toward a down payment works. Or how co-signing affects the person helping. I'm happy to talk to you both, together or separately. I'll keep each person's details private.</p>")}
 
 <h2>A note on privacy</h2>
-<p>The details you send go to me and into my client system, nowhere else. I use your name only to introduce myself to the person you referred, and I use their contact details only to make that first contact. If they'd rather I didn't follow up, one message stops it. The <a href="/privacy/">privacy policy</a> has the full picture, and you can ask me to delete a referral at any time.</p>
-<p>If you've been a client, thank you for thinking of me. If you haven't been yet and you're referring someone anyway, that's a particular kind of trust, and I'll treat it that way.</p>
+<p>The details you send go to me and into my client system, nowhere else. I use your name only to introduce myself to the person you referred. I use their contact details only to make that first contact. If they'd rather I didn't follow up, one message stops it. The <a href="/privacy/">privacy policy</a> has the full picture. You can ask me to delete a referral at any time.</p>
+<p>If you've been a client, thank you for thinking of me. If you haven't been a client yet and you're referring someone anyway, that's a special kind of trust. I'll treat it that way.</p>
 
 ${cta({ title: "Rather talk it through first?", text: "If you're not sure whether their situation is something I can help with, book a call and ask. Fifteen minutes, no obligation, and you can tell them what I said." })}
 `;

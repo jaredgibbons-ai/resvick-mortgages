@@ -1,63 +1,74 @@
 import { cta, callout } from "../lib/site.mjs";
+import { short } from "../lib/short.mjs";
 
 const body = `
+${short({
+  answer: "A second mortgage is a loan on your home that sits behind your first one. It lets you borrow against your equity without breaking a good first mortgage. It costs more, so it should be short and come with a clear way out.",
+  who: "Homeowners who want to keep their first mortgage, or who can't get a <a href=\"/heloc-bc/\">HELOC</a> at a bank right now.",
+  next: "Check your room with the <a href=\"/home-equity-estimator/\">home equity estimator</a>, then ask for the total cost in dollars before you sign anything."
+})}
 <h2>How a second mortgage works</h2>
-<p>A second mortgage is a loan secured by your home that sits behind your existing mortgage in priority. The first lender keeps its position and its rate; the second lender registers its charge after it. If the property were ever sold under default, the first mortgage would be paid in full before the second lender saw anything, which is why second mortgages carry higher rates and shorter terms. The second lender is taking a real risk, and the price reflects it.</p>
-<p>Because the first mortgage is untouched, there is no prepayment penalty on it and no need to requalify for it. That is the whole point. A second mortgage lets you borrow against equity without breaking a mortgage that has a good rate or years left in its term. Most seconds run for one or two years, often with interest-only payments, and are meant to be repaid or refinanced into the first mortgage when the term ends or when the first mortgage renews.</p>
+<p>A second mortgage is a loan secured by your home. It ranks behind the mortgage you already have. Your first lender keeps its place in line and keeps its rate. The second lender registers its loan after it.</p>
+<p>Here's why that matters. If the home were ever sold because of default, the first lender gets paid in full first. The second lender only gets what's left. That's a real risk, so seconds come with higher rates and shorter terms.</p>
+<p>The upside is simple. Your first mortgage isn't touched. There's no penalty to break it, and you don't have to qualify for it again. That's the whole point of a second.</p>
+<p>Most seconds run for one or two years. Payments are often interest only. The plan is to pay the second off, or fold it into the first mortgage when that one renews.</p>
 
 <h2>Who uses them</h2>
-<p>Second mortgages are a tool for a specific gap, not a general-purpose product. The common situations are:</p>
+<p>A second mortgage fills a specific gap. It isn't an everyday product. Here are the usual reasons people use one.</p>
 <ul>
-<li><strong>A first mortgage worth keeping.</strong> If you have a low fixed rate with years left, a <a href="/cash-out-refinance-bc/">cash-out refinance</a> would trigger a large penalty and replace a good rate with today's rate on the whole balance. A second borrows only the new money at the higher rate and leaves the rest alone.</li>
-<li><strong>Debt that costs more than the second would.</strong> Consolidating credit cards and high-rate loans into a second mortgage can lower the total interest cost, provided the plan includes paying it off. The page on <a href="/refinance-to-pay-off-debt/">refinancing to pay off debt</a> covers the arithmetic and the habits question.</li>
-<li><strong>Quick equity.</strong> A second can fund faster than a full refinance, which matters for a deposit, a tax bill or a time-limited opportunity.</li>
-<li><strong>A file that does not fit a prime lender today.</strong> A borrower with a bruised credit history or income that is hard to document may not qualify for a <a href="/heloc-bc/">HELOC</a> at a bank but can obtain a second from an alternative or private lender, as a bridge to a better position.</li>
-<li><strong>Arrears.</strong> A homeowner who is <a href="/behind-on-mortgage-payments/">behind on mortgage payments</a> sometimes uses a short second to bring the first mortgage current and avoid foreclosure proceedings. This can work, but only with a credible exit, and it should be a last resort rather than a first one.</li>
+<li><strong>A first mortgage worth keeping.</strong> Say you have a low fixed rate with years left. A <a href="/cash-out-refinance-bc/">cash-out refinance</a> would mean a big penalty. It would also put today's rate on your whole balance. A second only charges the higher rate on the new money.</li>
+<li><strong>Debt that costs more than a second would.</strong> Rolling credit cards and costly loans into a second can cut your total interest. That only works if the plan includes paying it off. The page on <a href="/refinance-to-pay-off-debt/">refinancing to pay off debt</a> walks through the math and the habits side.</li>
+<li><strong>Money needed quickly.</strong> A second can fund faster than a full refinance. That helps with a deposit, a tax bill or a short window.</li>
+<li><strong>A file a bank won't take today.</strong> Maybe your credit took a hit, or your income is hard to prove. A bank may say no to a <a href="/heloc-bc/">HELOC</a>. An alternative or private lender may still lend on a second. Think of it as a bridge to a better spot.</li>
+<li><strong>Missed payments.</strong> If you're <a href="/behind-on-mortgage-payments/">behind on mortgage payments</a>, a short second can sometimes bring the first mortgage up to date. It can stop a foreclosure from starting. It only works with a real way out, though. Treat it as a last step, not a first one.</li>
 </ul>
 
-<h2>The anatomy of the cost</h2>
-<p>A second mortgage costs more than a first in two ways, and both need to be counted. No figures on this page are quotes; they describe the typical structure of the market so that you know what to ask about.</p>
-<p><strong>The rate.</strong> Second mortgage rates depend on the lender type, the combined loan-to-value after the second is added, the property, and your credit. An alternative lender's second on a strong file at a conservative loan-to-value sits well below a private lender's second on a weak file at a high loan-to-value. The rate is usually fixed for the short term and the payments are often interest only.</p>
-<p><strong>The fees.</strong> Private and many alternative seconds carry a lender fee, charged as a percentage of the loan, and a broker fee on the same basis. There are also legal fees for two sets of lawyers in some structures, an appraisal, and a discharge fee at the end. On a small loan over a short term, fees can rival the interest, so the effective annual cost is well above the quoted rate. Ask for the total cost of borrowing in dollars for the full term, and compare that figure, not the rate, against the alternatives.</p>
-<p>On broker fees specifically: on a mortgage placed with a prime lender, the lender pays the broker and you pay nothing. Fees arise only on B-lender and private files, which is where most seconds live, and BC rules require that any fee be disclosed to you in writing on a Form 1A before you commit. If anyone proposes a second without a written fee disclosure, stop.</p>
-<p>The <a href="/home-equity-estimator/">home equity estimator</a> shows the room you have under the lender limits. A second can sometimes go above the 80 percent combined ceiling that applies to federally regulated lenders, because the second lender is often not federally regulated, but the higher the combined loan-to-value, the higher the price.</p>
+<h2>What it really costs</h2>
+<p>A second costs more than a first in two ways. You need to count both. Nothing on this page is a quote. It just shows how the market usually works, so you know what to ask.</p>
+<p><strong>The rate.</strong> The rate depends on the type of lender and on how much you owe in total against the home. It also depends on the property and your credit. A strong file with plenty of equity gets a much better rate than a weak file with little equity. The rate is usually fixed for the short term. Payments are often interest only.</p>
+<p><strong>The fees.</strong> Private seconds, and many alternative ones, charge a lender fee. It's a percentage of the loan. There's usually a broker fee on the same basis. You may also pay for lawyers, an appraisal, and a discharge fee at the end.</p>
+<p>On a small loan over a short term, the fees can add up to as much as the interest. So the real yearly cost is well above the quoted rate. Ask for the total cost in dollars for the whole term. Compare that number, not the rate.</p>
+<p>A word on broker fees. When a mortgage goes to a mainstream (A) lender, the lender pays the broker. You pay nothing. Fees only come up on B-lender and private files, and that's where most seconds sit. BC rules say any fee must be shown to you in writing on a Form 1A before you commit. If someone offers a second with no written fee disclosure, stop there.</p>
+<p>The <a href="/home-equity-estimator/">home equity estimator</a> shows how much room you have. Federally regulated lenders cap your total borrowing at 80 percent of the home's value. A second can sometimes go higher, because the second lender often isn't federally regulated. The more you borrow against the home, though, the more it costs.</p>
 
 <h2>Second mortgage, HELOC or refinance</h2>
+<p>Here's how the three options compare.</p>
 <table>
 <thead><tr><th></th><th>Second mortgage</th><th>HELOC</th><th>Cash-out refinance</th></tr></thead>
 <tbody>
-<tr><td>First mortgage</td><td>Untouched</td><td>Untouched, if added alongside</td><td>Replaced, with a penalty inside a term</td></tr>
-<tr><td>Who qualifies</td><td>Wider range, including weaker files</td><td>Prime-lender standards, stress-tested</td><td>Prime-lender standards, stress-tested</td></tr>
-<tr><td>Cost</td><td>Highest rate, plus fees</td><td>Prime plus a spread, few fees</td><td>Mortgage rate, closing costs and penalty</td></tr>
-<tr><td>Term</td><td>Short, usually 1–2 years</td><td>Open, revolving</td><td>Full term and amortization</td></tr>
-<tr><td>Fits when</td><td>First mortgage must stay and a line is not available</td><td>You qualify at a prime lender and need flexibility</td><td>Large, long-held amount and the penalty is tolerable</td></tr>
+<tr><td>Your first mortgage.</td><td>Left alone.</td><td>Left alone, if added beside it.</td><td>Replaced, with a penalty during a term.</td></tr>
+<tr><td>Who qualifies.</td><td>A wider range, including weaker files.</td><td>Bank standards, with the stress test.</td><td>Bank standards, with the stress test.</td></tr>
+<tr><td>Cost.</td><td>Highest rate, plus fees.</td><td>Prime plus a margin, few fees.</td><td>Mortgage rate, closing costs and any penalty.</td></tr>
+<tr><td>Term.</td><td>Short, usually one to two years.</td><td>Open and reusable.</td><td>A full term and amortization.</td></tr>
+<tr><td>Best when.</td><td>The first must stay and a line isn't available.</td><td>You qualify at a bank and want flexibility.</td><td>The amount is large and the penalty is bearable.</td></tr>
 </tbody>
 </table>
-<p>If you qualify for a HELOC at a prime lender, a second mortgage is rarely the better choice. If you do not, or if the amount exceeds what a line can reach, a second is the realistic route, and the question becomes which lender and on what terms. The <a href="/refinance-mortgage-bc/">refinance hub</a> compares all three routes in more depth. Third mortgages exist as well, behind the second, at a price that reflects their position; they belong to the world of <a href="/private-mortgage-lending-bc/">private mortgage lending</a> and are discussed there.</p>
+<p>If you qualify for a HELOC at a bank, a second is rarely the better choice. If you don't, or you need more than a line can give, a second is the realistic route. Then the question is which lender and what terms. The <a href="/refinance-mortgage-bc/">refinance hub</a> compares all three in more depth.</p>
+<p>Third mortgages exist too. They sit behind the second, and their price shows it. They belong to the world of <a href="/private-mortgage-lending-bc/">private mortgage lending</a>, and that page covers them.</p>
 
-${cta({ title: "Get the real total cost before you decide", text: "Tell Joshua what the money is for and what your first mortgage looks like. He will show you the full cost of a second against a line and a refinance, in dollars over the term, and tell you which lenders would look at your file." })}
+${cta({ title: "Get the real total cost before you decide", text: "Tell Joshua what the money is for and what your first mortgage looks like. He'll show you the full cost of a second next to a line and a refinance, in dollars. He'll also tell you which lenders would look at your file." })}
 
-<h2>The exit plan</h2>
-<p>A second mortgage is a temporary structure, and the exit is as important as the entry. Before taking one, you should know how it ends. The usual exits are:</p>
+<h2>The way out</h2>
+<p>A second mortgage is a short-term fix. How it ends matters as much as how it starts. Before you take one, know your exit. These are the usual ones.</p>
 <ol>
-<li><strong>Roll it into the first mortgage at renewal.</strong> When the first mortgage matures, there is no penalty, and a refinance can combine both loans into one at a prime rate, provided you qualify and the combined balance fits under 80 percent of value. Timing the second's term to end at or just after the first mortgage's maturity is the cleanest plan.</li>
-<li><strong>Repay from a known event.</strong> A sale, an inheritance, a bonus, or the end of a business cycle. The event should be reasonably certain, not hoped for.</li>
-<li><strong>Refinance the second with a cheaper second.</strong> If your credit or income improves, an alternative lender may replace a private second at a lower cost while you wait for the first mortgage's renewal.</li>
-<li><strong>Sell.</strong> If none of the above is realistic, the honest answer may be that the home cannot carry the debt, and selling on your own schedule is better than selling on a lender's.</li>
+<li><strong>Fold it into the first mortgage at renewal.</strong> When your first mortgage matures, there's no penalty. A refinance can then join both loans into one at a bank rate. You'd need to qualify, and the total has to fit under 80 percent of the home's value. The cleanest plan times the second to end when the first one matures.</li>
+<li><strong>Pay it off from a known event.</strong> That might be a sale, an inheritance, a bonus, or a strong season in your business. It should be close to certain, not just hoped for.</li>
+<li><strong>Swap it for a cheaper second.</strong> If your credit or income gets better, an alternative lender may replace a private second for less. That can carry you to your first mortgage's renewal.</li>
+<li><strong>Sell.</strong> Sometimes none of the above is realistic. The honest answer may be that the home can't carry the debt. Selling on your own timeline beats selling on a lender's.</li>
 </ol>
-<p>A second mortgage without an exit tends to be renewed, with new fees each time, and the cost compounds. Joshua's approach to a second mortgage starts with the exit: what has to change, by when, and which lender is the target, written down at the start.</p>
+<p>A second with no way out tends to get renewed again and again. Each renewal brings new fees, and the cost keeps climbing. Joshua's approach to a second starts with the exit. What has to change? By when? Which lender is the target? Those answers get written down at the start.</p>
 
 <h2>Questions to ask any second-mortgage lender</h2>
 <ul>
-<li>What is the total cost of borrowing in dollars for the full term, including all fees?</li>
-<li>Are payments interest only, and what happens to the balance at the end of the term?</li>
-<li>What are the renewal fees if the loan has to be extended?</li>
-<li>What is the prepayment privilege, and is there a penalty for early payout?</li>
-<li>Is the first lender required to consent, and has that been confirmed?</li>
+<li>What's the total cost in dollars for the full term, with every fee included?</li>
+<li>Are the payments interest only? What happens to the balance at the end?</li>
+<li>What are the fees if the loan has to be renewed?</li>
+<li>Can I pay it off early? Is there a penalty?</li>
+<li>Does my first lender have to agree? Has that been checked?</li>
 </ul>
-<p>If you want those questions answered for your own situation, <a href="/contact/">contact Joshua</a> or book a call. There is no obligation, and the first conversation is about whether a second is the right tool at all.</p>
+<p>Want those answered for your own situation? <a href="/contact/">Contact Joshua</a> or book a call. There's no obligation. The first talk is about whether a second is even the right tool.</p>
 
-${callout("Rate is not the cost", "<p>A second mortgage with a lower quoted rate and higher fees can cost more over a one-year term than one with a higher rate and lower fees. Compare total dollars over the term, and insist on seeing the fee disclosure before anything else.</p>")}
+${callout("The rate isn't the cost", "<p>A second with a lower rate and higher fees can cost more over one year than one with a higher rate and lower fees. Compare total dollars over the term. Ask to see the fee disclosure before anything else.</p>")}
 `;
 
 export default {

@@ -1,13 +1,15 @@
+import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
+${short({ answer: "Your renewal letter is your lender's opening offer. It must arrive at least 21 days before your term ends, but the best time to compare is about 120 days out. Check the rate, term, payment, amortization and deadline.", who: "BC homeowners holding a renewal letter, or expecting one soon.", next: "Compare the letter against other lenders with the <a href=\"/mortgage-calculators/#renewal\">renewal calculator</a>, or book a 15-minute call." })}
 <h2>What the letter is, and what it is not</h2>
-<p>Your mortgage renewal letter, often called a renewal statement, is the document your lender sends before your term ends. It states your balance, your maturity date and the rates and terms the lender is offering to renew you into. It is not a contract until you sign it, and it is not the only offer available to you. Think of it as your lender's opening position in a negotiation that many borrowers do not realize they are in.</p>
-<p>This page walks through what each part of a typical letter means and what to check before you respond. Joshua Resvick is a BC mortgage broker with ten years as a broker and five years as an underwriter before that, so the questions below are the ones he asks when a client forwards a letter. Lenders format their letters differently, so use this as a guide to what to look for, not a description of any one lender's document.</p>
+<p>Your mortgage renewal letter is often called a renewal statement. Your lender sends it before your term ends. It states your balance, your maturity date and the rates and terms the lender is offering to renew you into. It is not a contract until you sign it, and it is not the only offer available to you. Think of it as your lender's opening position in a negotiation that many borrowers do not realize they are in.</p>
+<p>This page walks through what each part of a typical letter means and what to check before you respond. Joshua Resvick is a BC mortgage broker. He has ten years as a broker and five as an underwriter before that. The questions below are the ones he asks when a client forwards a letter. Lenders format their letters differently, so use this as a guide to what to look for, not a description of any one lender's document.</p>
 
 <h2>The two clocks: 21 days and 120 days</h2>
-<p>Two time periods govern a renewal, and they do not match. Lenders are required to send the renewal statement at least 21 days before your maturity date. Many send it earlier, but 21 days is the floor, and some letters arrive close to it. Three weeks is a short window in which to compare lenders, arrange an appraisal if one is needed, and have a lawyer or notary prepare a transfer.</p>
-<p>Your shopping window is longer. Most lenders will hold a rate for roughly 120 days, so the sensible time to start comparing is about four months before maturity, well before the letter appears. The page on <a href="/early-mortgage-renewal/">early mortgage renewal</a> explains how to use that window, and the <a href="/mortgage-renewal-bc/">mortgage renewal hub</a> sets out the full timeline.</p>
+<p>Two time periods govern a renewal, and they do not match. Lenders are required to send the renewal statement at least 21 days before your maturity date. Many send it earlier, but 21 days is the floor, and some letters arrive close to it. Three weeks is a short window. In that time you'd need to compare lenders and maybe arrange an appraisal. A lawyer or notary also has to prepare a transfer.</p>
+<p>Your shopping window is longer. Most lenders will hold a rate for roughly 120 days. So the sensible time to start comparing is about four months before maturity. That's well before the letter appears. The page on <a href="/early-mortgage-renewal/">early mortgage renewal</a> explains how to use that window, and the <a href="/mortgage-renewal-bc/">mortgage renewal hub</a> sets out the full timeline.</p>
 
 <h2>Anatomy of a typical renewal letter</h2>
 <p>Most letters include the following elements, though the order and wording vary.</p>
@@ -19,7 +21,7 @@ const body = `
 <li><strong>The deadline for responding and how.</strong> This tells you how to accept, usually by signing and returning the document or confirming online.</li>
 <li><strong>The default if you do nothing.</strong> A letter often explains what happens if the maturity date arrives unsigned. This is the clause to read twice.</li>
 </ul>
-<p>The default is the part that surprises people. A mortgage that reaches maturity without a signed renewal typically rolls into an open term at a rate that is usually much higher than a negotiated renewal. The page on <a href="/open-vs-closed-mortgage/">open versus closed mortgages</a> explains what an open term is and why lenders use it as the default.</p>
+<p>The default is the part that surprises people. A mortgage that reaches maturity without a signed renewal usually rolls into an open term. That rate is usually much higher than a negotiated renewal. The page on <a href="/open-vs-closed-mortgage/">open versus closed mortgages</a> explains what an open term is and why lenders use it as the default.</p>
 
 <h2>The three numbers to verify</h2>
 <ol>
@@ -34,7 +36,7 @@ ${cta({ title: "Have your letter? Send it over.", text: "Book a 15-minute call a
 <h2>Red flags to look for</h2>
 <ul>
 <li><strong>Rates quoted from the posted rate.</strong> If the letter refers to a discount off a posted or advertised rate, ask for the actual rate you would pay. The posted rate can also affect how an early-exit penalty is calculated later.</li>
-<li><strong>Collateral charge terms.</strong> Some renewals ask you to sign new security documents. If the letter involves re-registering your mortgage as a collateral charge, that can make a later transfer to another lender harder, because the charge usually has to be discharged and re-registered. Read the section on <a href="/switch-mortgage-lenders-at-renewal/">switching lenders at renewal</a> to see how this affects your options.</li>
+<li><strong>Collateral charge terms.</strong> Some renewals ask you to sign new security documents. Watch for any plan to re-register your mortgage as a collateral charge. That can make a later move to another lender harder. The charge usually has to be discharged and registered again. Read the section on <a href="/switch-mortgage-lenders-at-renewal/">switching lenders at renewal</a> to see how this affects your options.</li>
 <li><strong>Shrinking prepayment privileges.</strong> Compare the prepayment terms to your current mortgage. If the lump-sum or payment-increase limits are lower, that may not be obvious from the rate.</li>
 <li><strong>A very short deadline.</strong> A response date close to the maturity date leaves less time to compare. If you need more time, ask for it in writing.</li>
 <li><strong>Pressure to sign immediately.</strong> A renewal rarely needs a same-day decision. A letter that implies otherwise is worth a second look.</li>

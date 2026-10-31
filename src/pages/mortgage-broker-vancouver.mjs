@@ -1,58 +1,73 @@
+import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 import { cityServiceSchema, servesLine } from "../lib/city.mjs";
 
 const slug = "/mortgage-broker-vancouver/";
 
 const body = `
+${short({ answer: "Most Vancouver mortgages are condo or townhouse mortgages, so the building's paperwork matters as much as yours. Joshua serves the city online from his Surrey office and knows how lenders read strata files, suites and multiplexes.", who: "Vancouver first-time condo buyers, owners renewing, move-up buyers and self-employed or tech-income borrowers.", next: "Book a 15-minute call, or see what a payment looks like on the <a href=\"/mortgage-calculators/\">calculators</a> first." })}
 <h2>Mortgages in Vancouver are mostly condo and townhouse mortgages</h2>
-<p>Vancouver's housing stock shapes the mortgage conversation before anyone talks about rates. For most buyers, the first home in the city is a strata unit: a condo tower downtown or along the Cambie and Broadway corridors, a low-rise in Kitsilano or Mount Pleasant, or a townhouse on the east side. Detached houses exist in every neighbourhood, and since 2023 the city has allowed most former single-family lots to carry a secondary suite, a laneway house, a duplex or a multiplex, which is why so many Vancouver houses come with a rental unit attached. Each of those property types is read differently by a lender, and that is the first thing a Vancouver mortgage broker has to get right.</p>
-<p>${servesLine("Vancouver")}</p>
+<p>In Vancouver, the type of home shapes the mortgage talk before anyone mentions rates. For most buyers, the first home in the city is a strata unit. It might be a condo tower downtown or along Cambie and Broadway. It might be a low-rise in Kitsilano or Mount Pleasant, or a townhouse on the east side.</p>
+<p>Detached houses exist in every neighbourhood. Since 2023, the City has let most former single-family lots hold more homes. A lot can have a suite, a laneway house, a duplex or a multiplex. That's why so many Vancouver houses come with a rental unit attached.</p>
+<p>A lender reads each of those homes differently. Getting that right is the first job of a Vancouver mortgage broker.</p>
+<p>Joshua Resvick serves Vancouver from his office in Surrey, by phone, video and secure document upload. There is no Vancouver branch, and you never need to visit an office. Every step happens online, from the first call to the signed commitment. Your lawyer or notary handles the signing where you live.</p>
 
 <h2>How lenders read a Vancouver strata purchase</h2>
-<p>A condo mortgage is approved against two files: yours and the building's. Your file is income, credit, down payment and debts. The building's file is the strata documents: the depreciation report, the Form B, the bylaws, the contingency reserve fund, the minutes, and any special levies that are proposed or already approved. Lenders care about these because a building with a weak reserve fund, a pending levy or an ongoing legal dispute changes the risk of the mortgage, and a few lenders will not lend in certain buildings at all.</p>
-<p>Three Vancouver-specific points come up often:</p>
+<p>A condo mortgage gets approved on two files: yours and the building's. Your file is your income, credit, down payment and debts.</p>
+<p>The building's file is the strata paperwork. That includes the depreciation report, the Form B, the bylaws and the reserve fund. It also includes the minutes and any special levies, whether proposed or already approved.</p>
+<p>Lenders care because these change the risk. A thin reserve fund, a coming levy or a legal fight makes the loan riskier. A few lenders won't lend in certain buildings at all.</p>
+<p>Three Vancouver points come up often.</p>
 <ul>
-<li><strong>Strata fees count against you.</strong> Lenders add a portion of the monthly strata fee, commonly half, to your housing costs when they calculate your debt service ratios. A high-fee building reduces what you qualify for, which is why two units at the same price can produce different approvals.</li>
-<li><strong>Leasehold and co-op units are a smaller market.</strong> Parts of the city, including some land along the waterfront and around the university endowment lands, are leasehold rather than freehold. Fewer lenders finance leasehold, the remaining lease term matters, and co-operative housing is financed differently again. Know what you are buying before you write an offer.</li>
-<li><strong>Presale assignments and completions.</strong> Vancouver has a steady presale market. A presale purchase is financed at completion, not at signing, and the approval that matters is the one you get close to the completion date, which can be years after the deposit. The <a href="/presale-mortgages-bc/">presale mortgages guide</a> explains the timing and the deposit rules.</li>
+<li><strong>Strata fees count against you.</strong> Lenders add part of the monthly fee, commonly half, to your housing costs. A high-fee building lowers what you qualify for. That's why two units at the same price can get different approvals.</li>
+<li><strong>Leasehold and co-op units are a smaller market.</strong> Some land, including parts of the waterfront and the area near the university, is leasehold, not freehold. Fewer lenders finance leasehold, and the years left on the lease matter. Co-op housing is financed differently again. Know what you're buying before you write an offer.</li>
+<li><strong>Presales are financed at completion.</strong> Vancouver has a steady presale market. Your mortgage is approved near the completion date, not when you sign. That can be years after the deposit. The <a href="/presale-mortgages-bc/">presale mortgages guide</a> explains the timing and the deposit rules.</li>
 </ul>
 
 <h2>Houses with suites, laneways and multiplexes</h2>
-<p>A Vancouver house often comes with a basement suite or a laneway house, and buyers want to know how much of that rent a lender will count. The honest answer is that it depends on the lender. Some add a share of the rent to your income, some subtract it from your housing cost, and the share varies. CMHC's rules for an owner-occupied two-unit home set the ceiling. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> works through the two methods with an example.</p>
-<p>Multiplexes are newer. Since the City of Vancouver's 2023 zoning change, a former single-family lot in most neighbourhoods can be redeveloped into several units. Financing a multiplex purchase or build is not the same as financing a house: a lender wants to know whether the units are stratified, how many there are, whether you will live in one, and whether the rent is documented. Four units or fewer with the owner living in one is residential lending; more than that, or a purely investment holding, moves toward commercial or specialty products. This is worth a conversation before a purchase contract, not after.</p>
+<p>A Vancouver house often has a basement suite or a laneway house. Buyers want to know how much of that rent a lender will count. The honest answer is that it depends on the lender.</p>
+<p>Some add part of the rent to your income. Some subtract it from your housing costs. The share varies. CMHC's rules for an owner-occupied two-unit home set the upper limit. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> walks through both methods with an example.</p>
+<p>Multiplexes are newer. Since the City's 2023 zoning change, a single-family lot in most neighbourhoods can be rebuilt into several units.</p>
+<p>Financing a multiplex isn't the same as financing a house. A lender wants to know if the units are stratified and how many there are. It wants to know if you'll live in one and if the rent is documented.</p>
+<p>Four units or fewer, with you living in one, counts as residential lending. More than that, or a pure investment, moves toward commercial or specialty loans. Have this conversation before you sign a contract, not after.</p>
 
 <h2>Two Vancouver taxes that affect the plan</h2>
-<p>Vancouver homeowners file an Empty Homes Tax declaration every year. For the 2025 reference year the rate is 3 percent of assessed taxable value for a property that is deemed or declared empty, with a declaration deadline of February 3, 2026 (City of Vancouver). A home you live in is not the target, but if you are buying a second unit, keeping a condo while you travel, or holding a property between a purchase and a renovation, the declaration matters. Vancouver is also inside the area covered by the provincial speculation and vacancy tax, which has its own annual declaration (Province of BC, taxable areas list updated December 2025).</p>
-<p>Short-term rental plans need the same care. The provincial principal residence requirement limits short-term rentals to a host's own home plus one secondary suite or accessory unit on the same property in communities over 10,000 people, and Vancouver's own bylaws require a short-term rental business licence and treat any rental under 90 days as short-term (City of Vancouver, rules updated 2024 and 2025). If a purchase plan depends on nightly rental income, a lender will usually not count it, and the <a href="/airbnb-and-short-term-rental-mortgages/">short-term rental mortgage page</a> explains why.</p>
+<p>Vancouver homeowners file an Empty Homes Tax declaration every year. For the 2025 reference year, the tax is 3 percent of assessed value on a home that is empty or deemed empty. The declaration was due February 3, 2026 (City of Vancouver).</p>
+<p>A home you live in isn't the target. But it matters if you buy a second unit or keep a condo while you travel. It also matters if you hold a home between buying and renovating.</p>
+<p>Vancouver is also inside the area covered by BC's speculation and vacancy tax. That tax has its own yearly declaration (Province of BC, taxable areas list updated December 2025).</p>
+<p>Short-term rental plans need the same care. In BC towns over 10,000 people, the Province limits short-term rentals to the host's own home plus one suite or extra unit on the same property. Vancouver also requires a short-term rental business licence. It treats any rental under 90 days as short-term (City of Vancouver, rules updated 2024 and 2025).</p>
+<p>If your plan depends on nightly rental income, a lender usually won't count it. The <a href="/airbnb-and-short-term-rental-mortgages/">short-term rental mortgage page</a> explains why.</p>
 
 <h2>Who Joshua helps in Vancouver</h2>
-<p>The Vancouver files that cross his desk fall into a few groups, and each has its own page on this site:</p>
+<p>The Vancouver files on his desk fall into a few groups. Each has its own page on this site.</p>
 <ul>
-<li><strong>First-time buyers</strong> putting a smaller down payment on a first condo, stacking the FHSA and Home Buyers' Plan, and checking whether the purchase price sits under the first-time buyer property transfer tax threshold. Start with the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a>.</li>
-<li><strong>Renewing owners</strong> whose first five-year term is ending, who want to compare the renewal letter against a switch. The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> covers the timing and the stress-test exemption on straight switches.</li>
-<li><strong>Self-employed and tech-income borrowers</strong>, including people paid partly in stock, contractors on a series of agreements and incorporated professionals. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains how different lenders read that income.</li>
-<li><strong>Move-up buyers</strong> selling a condo to buy a house, who need the sale and the purchase to line up, often with bridge financing or a ported mortgage in between.</li>
+<li><strong>First-time buyers</strong> putting a smaller down payment on a first condo. They're stacking the FHSA and Home Buyers' Plan. They're checking whether the price sits under the first-time buyer threshold for property transfer tax. Start with the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a>.</li>
+<li><strong>Owners renewing</strong> as their first five-year term ends. They want to compare the renewal letter with a switch. The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> covers the timing and the stress-test exemption on straight switches.</li>
+<li><strong>Self-employed and tech-income borrowers.</strong> That includes people paid partly in stock, contractors on back-to-back agreements and incorporated professionals. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains how different lenders read that income.</li>
+<li><strong>Move-up buyers</strong> selling a condo to buy a house. They need the sale and purchase to line up. That often means bridge financing or a ported mortgage in between.</li>
 </ul>
 
 <h2>Rates, and what to compare beyond them</h2>
-<p>Vancouver buyers see more rate advertising than almost anyone in Canada, and the lowest number is rarely the whole story. The rate you qualify for depends on your down payment, the property type and whether the mortgage is insured, insurable or uninsured, which is why a condo with 10 percent down and a detached house with 35 percent down are priced differently at the same lender on the same day. The <a href="/mortgage-rates-vancouver/">Vancouver mortgage rates page</a> adds that local context, and the <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set in the first place. The penalty to leave, the prepayment privileges, and portability matter as much as the rate on a home you may sell within five years, which in Vancouver's condo market is common.</p>
+<p>Vancouver buyers see more rate ads than almost anyone in Canada. The lowest number is rarely the whole story.</p>
+<p>Your rate depends on your down payment and the property type. It also depends on whether the mortgage is insured, insurable or uninsured. So a condo with 10 percent down and a house with 35 percent down get different prices at the same lender on the same day.</p>
+<p>The <a href="/mortgage-rates-vancouver/">Vancouver mortgage rates page</a> adds that local context. The <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set in the first place.</p>
+<p>In Vancouver's condo market, selling within five years is common. If that might be you, the penalty to leave matters as much as the rate. So do prepayment privileges and portability.</p>
 
 <h2>What working together looks like</h2>
 <ol>
-<li><strong>A 15-minute call.</strong> Your goals, your numbers and your timeline, with an honest first read on what is realistic in the part of the city you are looking at.</li>
-<li><strong>A plan with dates.</strong> For a purchase, Joshua works backwards from your subject-removal and completion dates. For a renewal, from your maturity date.</li>
-<li><strong>A written Lender Comparison Report.</strong> Real lender options side by side: rate, term, penalty method, prepayment room and portability, so the choice is yours and informed.</li>
-<li><strong>Aftercare.</strong> After funding, <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> keeps the mortgage under review, with outreach about six months before your renewal.</li>
+<li><strong>A 15-minute call.</strong> Your goals, numbers and timeline. You get an honest first read on what's realistic in the part of the city you want.</li>
+<li><strong>A plan with dates.</strong> For a purchase, Joshua works back from your subject-removal and completion dates. For a renewal, he works back from your maturity date.</li>
+<li><strong>A written Lender Comparison Report.</strong> Real lender options side by side: rate, term, penalty method, prepayment room and portability. The choice is yours, and you make it with the facts in front of you.</li>
+<li><strong>Aftercare.</strong> After funding, <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> keeps your mortgage under review. You'll hear from Joshua about six months before your renewal.</li>
 </ol>
-<p>On a mortgage placed with a mainstream lender, the lender pays the broker and you pay nothing for the service. Fees arise only on some B-lender and private files, and BC rules require written disclosure before you commit. The <a href="/how-mortgage-brokers-get-paid/">page on how brokers are paid</a> explains it fully.</p>
+<p>With a mainstream lender, the lender pays the broker, and you pay nothing for the service. Fees come up only on some B-lender and private files. BC rules require written disclosure before you commit. The <a href="/how-mortgage-brokers-get-paid/">page on how brokers are paid</a> explains it fully.</p>
 
 <h2>Run the numbers before you view</h2>
-<p>The <a href="/mortgage-calculators/">calculators</a> are built for the questions Vancouver buyers ask first: what a payment looks like with the CMHC premium included, how much a given income can carry once strata fees are added, and what cash you need on completion once property transfer tax is included. Every result shows immediately, with no email required.</p>
+<p>The <a href="/mortgage-calculators/">calculators</a> answer the questions Vancouver buyers ask first. What's the payment with the CMHC premium included? How much can an income carry once strata fees are added? What cash do you need on completion, with property transfer tax? Every result shows right away, with no email needed.</p>
 
-${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-burnaby/">Burnaby</a> and <a href="/mortgage-broker-richmond/">Richmond</a>, and buyers across Metro Vancouver and the rest of BC. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area; reviews from Vancouver clients help the next buyer find the same help.</p>`)}
+${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-burnaby/">Burnaby</a> and <a href="/mortgage-broker-richmond/">Richmond</a>, plus buyers across Metro Vancouver and the rest of BC. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. Reviews from Vancouver clients help the next buyer find the same help.</p>`)}
 
-${cta({ title: "Buying or renewing in Vancouver?", text: "Book a 15-minute call. You will leave knowing what is realistic for the property type you want and what to do first." })}
-<p>Questions that do not fit a form are welcome on the <a href="/contact/">contact page</a>.</p>
+${cta({ title: "Buying or renewing in Vancouver?", text: "Book a 15-minute call. You'll leave knowing what's realistic for the type of home you want and what to do first." })}
+<p>Questions that don't fit a form are welcome on the <a href="/contact/">contact page</a>.</p>
 `;
 
 export default {

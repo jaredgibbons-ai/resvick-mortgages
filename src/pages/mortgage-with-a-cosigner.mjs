@@ -1,24 +1,26 @@
+import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
+${short({ answer: "A co-signer lends their income or credit to your mortgage and is fully on the hook if you can't pay. A guarantor is a backstop, and a co-borrower is a co-owner. A gift or a different lender is sometimes the better fix.", who: "BC buyers who are a little short on income or credit, and the parents or relatives thinking of helping.", next: "Read the three roles below, then compare a co-signer with a <a href=\"/gifted-down-payment/\">gifted down payment</a>." })}
 <h2>Why people ask about co-signers</h2>
-<p>A co-signer is someone who stands behind your mortgage so that a lender will approve it. The usual reasons are an income that is a little short of the ratios, a thin or damaged credit history, a recent move to Canada, or a parent who wants to help a grown child buy a first home. It is a generous thing to ask of someone, and it is also a serious thing to agree to. This page explains what the arrangement involves, how it differs from the other two ways a person can support a mortgage, what it can cost the helper, and what to try before you ask.</p>
+<p>A co-signer is someone who stands behind your mortgage so that a lender will approve it. There are a few usual reasons. Maybe your income is a little short of the lender's limits. Maybe your credit is thin or damaged, or you just moved to Canada. Or a parent wants to help a grown child buy a first home. It is a generous thing to ask of someone, and it is also a serious thing to agree to. This page explains what the arrangement involves. It compares it with the two other ways someone can back a mortgage. It covers what it can cost the helper, and what to try before you ask.</p>
 <p>One caution before the details. The words co-signer, guarantor and co-borrower are used loosely, and different lenders define them differently. The roles below describe how they commonly work in British Columbia, and the exact terms depend on the lender and on any mortgage insurer involved. Your broker confirms the version your lender uses before anyone signs.</p>
 
 <h2>The three roles compared</h2>
 <div class="table-wrap"><table>
-<thead><tr><th>Role</th><th>On title?</th><th>Liable for the mortgage?</th><th>Income counted?</th><th>How the person gets out</th></tr></thead>
+<thead><tr><th>Role</th><th>On title?</th><th>Liable for the mortgage?</th><th>Income counted?</th><th>How they get out</th></tr></thead>
 <tbody>
-<tr><th scope="row">Co-borrower</th><td>Yes, as an owner</td><td>Yes, fully, together with the other borrowers</td><td>Yes, along with their debts</td><td>Sale, or a refinance or lender-approved transfer where the remaining owner qualifies alone</td></tr>
-<tr><th scope="row">Co-signer</th><td>Depends on the lender; many lenders require it when income is used, some do not</td><td>Yes, fully, as a borrower</td><td>Usually yes, along with their debts</td><td>At renewal or refinance, if the borrower qualifies without them and the lender agrees</td></tr>
-<tr><th scope="row">Guarantor</th><td>No</td><td>Yes, if the borrower does not pay; the guarantee stands behind the debt</td><td>Varies; many lenders do not count a guarantor's income toward qualifying, some do</td><td>Lender release, usually at renewal or refinance</td></tr>
+<tr><th scope="row">Co-borrower</th><td>Yes, as an owner.</td><td>Yes, fully, together with the other borrowers.</td><td>Yes, along with their debts.</td><td>A sale. Or a refinance or lender-approved transfer, if the remaining owner qualifies alone.</td></tr>
+<tr><th scope="row">Co-signer</th><td>It depends on the lender. Many require it when their income is used. Some don't.</td><td>Yes, fully, as a borrower.</td><td>Usually yes, along with their debts.</td><td>At renewal or refinance, if the borrower qualifies alone and the lender agrees.</td></tr>
+<tr><th scope="row">Guarantor</th><td>No.</td><td>Yes, if the borrower doesn't pay. The guarantee stands behind the debt.</td><td>It varies. Many lenders don't count a guarantor's income. Some do.</td><td>A release from the lender, usually at renewal or refinance.</td></tr>
 </tbody></table></div>
 <p>The table shows a pattern. A co-borrower is an owner, so the home is partly theirs. A guarantor is a safety net, so the home is not theirs and the lender usually does not rely on their income to approve the loan. A co-signer sits between the two, and it is the role most affected by lender policy. Some lenders treat a co-signer as a borrower with no ownership. Others require them to go on title, which makes them a co-borrower in everything but name.</p>
 
 <h2>When each is used</h2>
 <ul>
 <li><strong>A co-borrower</strong> is common among couples, siblings or parents and children who intend to share ownership. It is the clearest arrangement because ownership and responsibility match.</li>
-<li><strong>A co-signer</strong> is used when one person has the intent to own and live in the home and another person's income or credit is needed to get the loan approved. Parents helping a first-time buyer are the typical example, and a family member already in Canada helping a newcomer with no Canadian credit history is another. The page on <a href="/new-to-canada-mortgage/">mortgages for newcomers</a> covers the newcomer side of that situation.</li>
+<li><strong>A co-signer</strong> is used when one person plans to own and live in the home. Another person's income or credit is needed to get the loan approved. Parents helping a first-time buyer are the typical example, and a family member already in Canada helping a newcomer with no Canadian credit history is another. The page on <a href="/new-to-canada-mortgage/">mortgages for newcomers</a> covers the newcomer side of that situation.</li>
 <li><strong>A guarantor</strong> is used when the borrower qualifies on income but the file needs extra strength, for example a weaker credit profile or a limited track record. CMHC's published rules, for example, set a minimum credit score of 600 for at least one borrower or guarantor on certain insured programs.</li>
 </ul>
 
@@ -26,9 +28,9 @@ const body = `
 <p>People say yes to a family member quickly, and the risks only show up later. These are the points worth reading aloud before anyone signs. This is general information and not legal, tax or financial advice for your family.</p>
 <ul>
 <li><strong>Full legal liability.</strong> The lender can pursue the co-signer for the entire balance if payments stop. They are not liable for half or for the share they imagined.</li>
-<li><strong>Their own credit and ratios.</strong> The mortgage shows on the co-signer's credit report and is counted among their debts. That can reduce what they can borrow for their own purposes, including a car, a line of credit or a purchase of their own, until they are removed. Lenders will count the full payment.</li>
+<li><strong>Their own credit and ratios.</strong> The mortgage shows on the co-signer's credit report and is counted among their debts. That can lower what they can borrow for themselves until they're removed. Think of a car, a line of credit or a home of their own. Lenders will count the full payment.</li>
 <li><strong>Control and consequences.</strong> If the borrower pays late, the co-signer's credit takes the damage too. The co-signer may have no say over how the home is used or whether it is sold.</li>
-<li><strong>Tax and title questions.</strong> If a co-signer is on title for a home they do not live in, the principal residence exemption generally does not apply to their share, so a later sale can have tax consequences for them. Putting a person on title can also trigger transfer costs and has implications for first-time buyer programs, whose conditions apply to each person on title. Some families use a bare trust to separate legal title from ownership, which has its own tax and land-title reporting consequences. Speak with a lawyer and an accountant before choosing any of these structures.</li>
+<li><strong>Tax and title questions.</strong> Say a co-signer is on title for a home they don't live in. The principal residence exemption generally doesn't apply to their share. So a later sale can have tax consequences for them. Putting a person on title can also trigger transfer costs and has implications for first-time buyer programs, whose conditions apply to each person on title. Some families use a bare trust to separate legal title from ownership, which has its own tax and land-title reporting consequences. Speak with a lawyer and an accountant before choosing any of these structures.</li>
 <li><strong>Life changes.</strong> Death, illness, separation or a falling out in the family can make a signed arrangement very difficult to unwind.</li>
 </ul>
 
@@ -39,7 +41,7 @@ const body = `
 <li><strong>Refinance.</strong> A refinance at any time can remove a person, under the same condition that the remaining borrower qualifies alone. A refinance carries a prepayment penalty if you break a fixed-term mortgage early, which you can estimate with the <a href="/mortgage-calculators/#penalty">penalty calculator</a>.</li>
 <li><strong>Sale.</strong> Selling the home pays off the mortgage and ends everyone's obligation.</li>
 </ol>
-<p>If the person is also on title, a lawyer prepares the transfer that takes them off, and costs can apply. The process resembles the title change in a separation, which is explained on the page about <a href="/spousal-buyout-mortgage/">spousal buyout mortgages</a>. A useful habit is to ask for a written plan: when the borrower expects to qualify alone, what has to be true for that to happen, and what the family will do if it does not.</p>
+<p>If the person is also on title, a lawyer prepares the transfer that takes them off, and costs can apply. The process resembles the title change in a separation, which is explained on the page about <a href="/spousal-buyout-mortgage/">spousal buyout mortgages</a>. A useful habit is a written plan. When does the borrower expect to qualify alone? What has to be true for that to happen? What will the family do if it doesn't?</p>
 
 <h2>Alternatives to try first</h2>
 <p>Asking someone to co-sign is often not the first or best tool. Before you do, consider these.</p>
@@ -60,7 +62,7 @@ const body = `
 </ul>
 <p>The <a href="/mortgage-application-checklist/">application checklist</a> lists what both people will need to provide. Co-signers go through the same document requirements as the borrower. If you are buying your first home with help, the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> places the choice among the other programs and supports.</p>
 
-${callout("Bring the co-signer to the call", "<p>The best conversations include everyone who will sign. Joshua can explain each role in plain terms (<a href=\"/contact/\">contact him</a> to arrange a time), show the effect on the co-signer's own ratios, and help the family decide whether a co-signer, a gift or a different lender is the better fit before anyone commits.</p>")}
+${callout("Bring the co-signer to the call", "<p>The best conversations include everyone who will sign. Joshua can explain each role in plain terms. <a href=\"/contact/\">Contact him</a> to set a time. He'll show the effect on the co-signer's own borrowing. Then he'll help the family decide what fits best before anyone commits: a co-signer, a gift or a different lender.</p>")}
 
 ${cta({ title: "Thinking about a co-signer?", text: "Book a 15-minute call and invite the person who would sign. They will hear the risks as clearly as the borrower hears the benefits, and everyone leaves with the same information." })}
 `;

@@ -1,32 +1,54 @@
 import { cta, callout, ratesStrip } from "../lib/site.mjs";
-import { cityServiceSchema, servesLine } from "../lib/city.mjs";
+import { cityServiceSchema } from "../lib/city.mjs";
+import { short } from "../lib/short.mjs";
 
 const slug = "/mortgage-broker-coquitlam/";
 
 const body = `
+${short({
+  answer: "Joshua Resvick serves Coquitlam online and by phone from his Surrey office. Most files here are family moves: a first townhouse, a move up the hill, or a presale near the SkyTrain line.",
+  who: "Tri-Cities families buying, moving up, buying a presale or coming up for renewal.",
+  next: "Moving up? Check your current penalty with the <a href=\"/mortgage-penalty-calculator/\">penalty calculator</a> before you list, then book a 15-minute call."
+})}
 <h2>The Tri-Cities family purchase</h2>
-<p>Coquitlam sits at the centre of the Tri-Cities with Port Moody and Port Coquitlam, and its housing has two clear halves. Along the SkyTrain line that opened in December 2016, running through Port Moody to Coquitlam Central and Lafarge Lake-Douglas (Transport Canada), Burquitlam, Lougheed and the city centre have become tower neighbourhoods with a constant presale pipeline. Up the hill, Westwood Plateau, Burke Mountain, Ranch Park and Maillardville are family streets of detached homes and townhouses, with Burke Mountain still adding new subdivisions. Most Coquitlam buyers Joshua works with are families: a first townhouse near a school, a move up to a house with a yard, or a parent helping an adult child into a first condo near the line.</p>
-<p>${servesLine("Coquitlam")}</p>
+<p>Coquitlam sits at the centre of the Tri-Cities, with Port Moody and Port Coquitlam. Its housing has two clear halves.</p>
+<p>The first half follows the SkyTrain line that opened in December 2016. It runs through Port Moody to Coquitlam Central and Lafarge Lake-Douglas (Transport Canada). Along it, Burquitlam, Lougheed and the city centre have become tower neighbourhoods with a steady flow of presales.</p>
+<p>The second half is up the hill. Westwood Plateau, Burke Mountain, Ranch Park and Maillardville are family streets of houses and townhouses. Burke Mountain is still adding new subdivisions.</p>
+<p>Many Coquitlam buyers are families. It might be a first townhouse near a school, a move up to a house with a yard, or a parent helping an adult child into a first condo near the line.</p>
+<p>Joshua Resvick serves Coquitlam from his office in Surrey, by phone, video and secure document upload. There's no Coquitlam branch, and you never need to visit an office. Every step is done online, and your lawyer or notary handles the signing near you.</p>
 
 ${ratesStrip()}
 
 <h2>Presales along the line</h2>
-<p>Burquitlam and the city centre carry a large share of the region's presale activity, and presales have a mortgage logic of their own. You sign today and pay deposits from your own funds over a schedule, but the mortgage is arranged at completion, which can be two to four years later. The approval that matters is the one you can get then, under the rates and rules of that year, against an appraised value that may differ from your contract price. Joshua plans a presale file for the completion date from the beginning and reviews it as the date approaches, so that a change in income, rates or family size does not arrive as a surprise. The <a href="/presale-mortgages-bc/">presale mortgages guide</a> covers deposits, assignments and what happens if the appraisal comes in low.</p>
+<p>Burquitlam and the city centre carry a big share of the region's presales. Presales follow their own mortgage logic.</p>
+<p>You sign today and pay deposits from your own money on a schedule. But the mortgage is set up at completion, which can be two to four years later.</p>
+<p>So the approval that counts is the one you can get then. It uses that year's rates and rules, and an appraised value that may differ from your contract price.</p>
+<p>That's why a presale file should be planned around the completion date from day one, and reviewed as the date gets closer. Then a change in income, rates or family size doesn't show up as a surprise. The <a href="/presale-mortgages-bc/">presale mortgages guide</a> covers deposits, assignments and what happens if the appraisal comes in low.</p>
 
 <h2>Townhouses and the first family home</h2>
-<p>For many Tri-Cities families the first purchase is a townhouse. Two things shape that approval. Strata fees count: lenders add a share of the monthly fee to your housing costs, so two townhouses at the same price can produce different approvals. And the first-time buyer property transfer tax exemption phases out above a price threshold, which in Coquitlam's townhouse market matters, so the <a href="/bc-property-transfer-tax-calculator/">property transfer tax calculator</a> is worth running before you write an offer. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> sets out the order of operations, from the pre-approval to the stacking of the FHSA and Home Buyers' Plan.</p>
+<p>For many Tri-Cities families, the first purchase is a townhouse. Two things shape that approval.</p>
+<p>First, strata fees count. Lenders add a share of the monthly fee to your housing costs. So two townhouses at the same price can get different approvals.</p>
+<p>Second, the first-time buyer transfer tax exemption phases out above a price threshold. In Coquitlam's townhouse market, that matters. Run the <a href="/bc-property-transfer-tax-calculator/">property transfer tax calculator</a> before you write an offer.</p>
+<p>The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> sets out the order of steps. It runs from the pre-approval to stacking the FHSA and Home Buyers' Plan.</p>
 
 <h2>Moving up the hill</h2>
-<p>Selling a townhouse to buy a house on Burke Mountain or Westwood Plateau is a timing problem before it is a rate problem. The sale and the purchase rarely complete on the same day, and the gap is covered by porting the existing mortgage, bridge financing or both. Porting carries your current rate and term to the new home, often with a blended increase for the extra amount; bridge financing covers the down payment between the two completion dates and requires a firm, subject-free sale. The <a href="/porting-your-mortgage/">porting guide</a> and the <a href="/bridge-financing/">bridge financing page</a> explain both. The penalty to break the existing mortgage, if porting does not work, is the number to know before listing, and the <a href="/mortgage-penalty-calculator/">penalty calculator</a> gives a range.</p>
+<p>Selling a townhouse to buy a house on Burke Mountain or Westwood Plateau is a timing problem before it's a rate problem. The sale and the purchase rarely close on the same day. Porting your mortgage, bridge financing or both can cover the gap.</p>
+<p>Porting takes your current rate and term to the new home. The extra amount is often blended in at a new rate.</p>
+<p>Bridge financing covers the down payment between the two closing dates. It needs a firm, subject-free sale. The <a href="/porting-your-mortgage/">porting guide</a> and the <a href="/bridge-financing/">bridge financing page</a> explain both.</p>
+<p>If porting doesn't work, you'll need to know the penalty to break your mortgage. Find out before you list. The <a href="/mortgage-penalty-calculator/">penalty calculator</a> gives you a range.</p>
 
 <h2>Suites on the plateau and in the older neighbourhoods</h2>
-<p>Houses on Westwood Plateau, in Ranch Park and in Maillardville often come with a basement suite, and the rent is part of many buyers' plans. Lenders either add a share of the rent to your income or subtract it from your housing cost, and the share varies by lender; a permitted suite with a lease and bank deposits is far easier to count. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> works through both methods with figures.</p>
+<p>Houses on Westwood Plateau, in Ranch Park and in Maillardville often come with a basement suite. The rent is part of many buyers' plans.</p>
+<p>Lenders either add a share of the rent to your income, or subtract it from your housing costs. The share varies by lender. A permitted suite with a lease and bank deposits is much easier to count. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> works through both methods with real figures.</p>
 
 <h2>Renewals in the Tri-Cities</h2>
-<p>A renewal letter is one lender's opening offer. Since late 2024, a straight switch to a different lender at maturity, with the balance and amortization unchanged, usually does not require a new stress test, and the costs of a switch are often covered. The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> covers the window, the comparison and the restructuring options, and the free renewal reminder contacts you six months and 120 days before maturity so there is time to compare.</p>
+<p>A renewal letter is one lender's opening offer. Since late 2024, a straight switch to another lender at maturity usually needs no new stress test. That's as long as the balance and amortization stay the same. Switch costs are often covered too.</p>
+<p>The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> covers the timing, the comparison and your restructuring options. The free renewal reminder contacts you six months and 120 days before maturity, so there's time to compare.</p>
 
 <h2>Income that needs explaining</h2>
-<p>Many Tri-Cities households run on a mix: a salary and a side business, a commission income, a contractor's invoices, or an incorporated professional's dividends. Lenders read these differently. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains add-backs, two-year averaging, stated-income programs and when a fee can apply. On a mortgage with a mainstream lender, the lender pays the broker and you pay nothing for the service; fees arise only on some B-lender and private files, with written disclosure first.</p>
+<p>Many Tri-Cities households run on a mix of income. It might be a salary plus a side business, commission, contractor invoices or an incorporated professional's dividends. Lenders read each of these differently.</p>
+<p>The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains add-backs, two-year averaging and stated-income programs. It also covers when a fee can apply.</p>
+<p>On a mortgage with a mainstream lender, the lender pays the broker and you pay nothing for the service. Fees only come up on some B-lender and private files, with written disclosure first.</p>
 
 <h2>How it works from Coquitlam</h2>
 <ol>
@@ -35,12 +57,13 @@ ${ratesStrip()}
 <li><strong>A written Lender Comparison Report</strong>: rate, term, penalty method, prepayment room and portability, side by side.</li>
 <li><strong><a href="/mortgage-aftercare-program/">Resvick Aftercare</a></strong> after funding, with annual reviews and renewal outreach six months out.</li>
 </ol>
-<p>The <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set, and why the lowest advertised rate is rarely the cheapest mortgage for a family likely to move again. The <a href="/mortgage-calculators/">calculators</a> cover payment, affordability with a suite, closing costs, renewal scenarios and sale proceeds, with every result shown immediately and no email required.</p>
+<p>The <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set. It also shows why the lowest advertised rate is rarely the cheapest mortgage for a family likely to move again.</p>
+<p>The <a href="/mortgage-calculators/">calculators</a> cover payment, affordability with a suite, closing costs, renewal options and sale proceeds. Every result shows right away, with no email needed.</p>
 
-${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-burnaby/">Burnaby</a> and <a href="/mortgage-broker-surrey/">Surrey</a>, Port Moody, Port Coquitlam, Anmore and Belcarra. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area; a review from a Coquitlam client helps the next family find him.</p>`)}
+${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-burnaby/">Burnaby</a>, <a href="/mortgage-broker-surrey/">Surrey</a>, Port Moody, Port Coquitlam, Anmore and Belcarra. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from a Coquitlam client helps the next family find him.</p>`)}
 
-${cta({ title: "Buying a townhouse near the line, or moving up to Burke Mountain?", text: "Book a 15-minute call. You will leave knowing what is realistic and what to do first." })}
-<p>Anything else, the <a href="/contact/">contact page</a> has the details.</p>
+${cta({ title: "Buying a townhouse near the line, or moving up to Burke Mountain?", text: "Book a 15-minute call. You'll leave knowing what's realistic and what to do first." })}
+<p>For anything else, the <a href="/contact/">contact page</a> has the details.</p>
 `;
 
 export default {

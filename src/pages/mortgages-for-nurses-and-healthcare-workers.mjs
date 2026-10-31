@@ -1,57 +1,66 @@
+import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
+${short({ answer: "Lenders count base pay in full. Overtime, premiums and casual shifts usually count on a two-year average. Lenders differ a lot here, so the right lender can matter more than the rate.", who: "Nurses, care aides, technologists, pharmacists and new physicians with casual lines, overtime or more than one employer.", next: "Pull two years of T4s from each employer and run the <a href=\"/mortgage-calculators/#affordability\">affordability calculator</a>." })}
+
 <h2>Your situation</h2>
-<p>You hold a casual line at one health authority, pick up shifts at a second site, and some months you earn more from overtime and premiums than from your scheduled hours. Your pay stubs are long and your T4s come from more than one employer. You might be a nurse, a care aide, a lab technologist, a respiratory therapist, a pharmacist or a physician in the early years of practice. When you asked about a mortgage, the first answer you got was a figure that ignored half of what you actually earn, because the software could not see a pattern in a schedule you know is as dependable as any salary. This page explains how lenders read healthcare income, which documents settle the question, and how Joshua, a former underwriter, builds the file so the right number is counted.</p>
+<p>You hold a casual line at one health authority and pick up shifts at a second site. Some months you earn more from overtime and premiums than from your scheduled hours. Your pay stubs are long, and your T4s come from more than one employer.</p>
+<p>You might be a nurse, a care aide, a lab technologist or a respiratory therapist. You might be a pharmacist, or a physician in the early years of practice. When you asked about a mortgage, the first answer ignored half of what you earn. The software couldn't see a pattern in a schedule you know is as steady as any salary.</p>
+<p>This page explains how lenders read healthcare income and which documents settle the question. It also shows how Joshua, a former underwriter, builds the file so the right number gets counted.</p>
 
 <h2>How lenders see healthcare income</h2>
-<p>Lenders sort healthcare workers into three groups, and the group you are in decides how much work the application takes.</p>
+<p>Lenders sort healthcare workers into three groups. Your group decides how much work the application takes.</p>
 <ul>
-<li><strong>Permanent full-time or part-time lines.</strong> Base pay on a collective agreement grid, counted in full. Overtime, shift premiums and weekend or night differentials are counted on a two-year average at most lenders, supported by T4s and a letter from the employer.</li>
-<li><strong>Casual and relief positions.</strong> This is where files go wrong. There are no guaranteed hours, so many lenders will not count casual income at all until it has a two-year history, and then they use the average. A casual nurse earning a full-time equivalent for three years is usually a clean file; a casual in the first year often is not, at an A lender.</li>
-<li><strong>Multiple employers and agency work.</strong> Income from two health authorities or a private clinic is added up, each with its own letter and T4s. Agency nursing paid as a contractor is self-employment income, which means tax returns rather than pay stubs, and a new agency arrangement may not count yet at an A lender. The <a href="/newly-self-employed-mortgage/">newly self-employed page</a> explains the options when the history is short.</li>
+<li><strong>Permanent full-time or part-time lines.</strong> Base pay on a collective agreement grid counts in full. Overtime, shift premiums and weekend or night differentials count on a two-year average at most lenders. You back them up with T4s and a letter from the employer.</li>
+<li><strong>Casual and relief positions.</strong> This is where files go wrong. There are no guaranteed hours. So many lenders won't count casual income at all until it has a two-year history, and then they use the average. A casual nurse earning full-time pay for three years is usually a clean file. A casual nurse in the first year often isn't, at an A lender.</li>
+<li><strong>Multiple employers and agency work.</strong> Income from two health authorities or a private clinic is added up, each with its own letter and T4s. Agency nursing paid as a contractor is self-employment income. That means tax returns, not pay stubs. A new agency setup may not count yet at an A lender. The <a href="/newly-self-employed-mortgage/">newly self-employed page</a> explains your options when the history is short.</li>
 </ul>
-<p>These are lender norms rather than published rules. Treatment of casual and multi-employer income varies more between lenders than almost any other part of underwriting, which is why the choice of lender can be worth more than a small difference in rate.</p>
+<p>These are lender norms, not published rules. Lenders differ on casual and multi-employer income more than on almost anything else. That's why the choice of lender can be worth more than a small difference in rate.</p>
 
 <h2>The documents that settle it</h2>
-<p>The general list is on the <a href="/mortgage-application-checklist/">mortgage application checklist</a>. For a healthcare file, these are the pieces that an underwriter looks for first:</p>
+<p>The general list is on the <a href="/mortgage-application-checklist/">mortgage application checklist</a>. For a healthcare file, these are the pieces an underwriter looks for first:</p>
 <ul>
-<li><strong>A letter of employment from each employer</strong>, stating position, start date, status (permanent, temporary, casual), base rate and, for permanent lines, guaranteed hours. For a casual position, a letter that confirms regular and ongoing shifts is far stronger than one that only confirms you are on the list.</li>
-<li><strong>T4s for the last two years from each employer</strong>, which establish the average that a lender will use for variable and casual pay.</li>
-<li><strong>Current pay stubs</strong> with year-to-date totals, to show that this year is tracking the average.</li>
-<li><strong>Notices of assessment</strong> for two years, confirming nothing is owing to CRA.</li>
-<li><strong>Your collective agreement grid</strong>, so a lender can see where your base rate sits and that increases are scheduled.</li>
-<li><strong>Proof of a new permanent line</strong>, if you have recently moved from casual to permanent. Some lenders will use the new guaranteed hours from the start date; others want to see a few pay periods.</li>
+<li><strong>A letter of employment from each employer.</strong> It states your position, start date and status (permanent, temporary or casual). It also states your base rate and, for permanent lines, your guaranteed hours. For a casual position, a letter confirming regular, ongoing shifts is far stronger than one saying you're on the list.</li>
+<li><strong>T4s for the last two years from each employer.</strong> These set the average a lender uses for variable and casual pay.</li>
+<li><strong>Current pay stubs</strong> with year-to-date totals. They show this year is tracking the average.</li>
+<li><strong>Notices of assessment</strong> for two years, confirming you owe nothing to CRA.</li>
+<li><strong>Your collective agreement grid.</strong> It shows where your base rate sits and that raises are scheduled.</li>
+<li><strong>Proof of a new permanent line,</strong> if you just moved from casual to permanent. Some lenders use the new guaranteed hours from the start date. Others want to see a few pay periods first.</li>
 </ul>
 
 <h2>Why bank software gets it wrong</h2>
-<p>A branch system usually asks for one employer, one salary and one job type. A healthcare worker with two employers, a casual designation and a year-to-date that includes a maternity leave top-up or a one-time retention payment does not fit the fields. The result is either a figure built on base pay alone or, worse, a decline because the status reads as unstable. A broker who understands health authority employment reads the same documents differently: a casual line with a three-year T4 history at a stable employer is reliable income, and a lender that agrees will count it. Joshua spent five years as an underwriter reading files like these, and that is the difference between a pre-approval that holds and one that collapses at the lender's desk.</p>
+<p>A branch system usually asks for one employer, one salary and one job type. Your file may have two employers and a casual status. Your year-to-date may include a maternity leave top-up or a one-time retention payment. None of that fits the fields.</p>
+<p>So you get a number built on base pay alone. Or worse, a decline, because your status reads as unstable. A broker who knows health authority jobs reads the same documents differently. A casual line with three years of T4s at a stable employer is reliable income. A lender that agrees will count it.</p>
+<p>Joshua spent five years as an underwriter reading files like these. That's the difference between a pre-approval that holds and one that falls apart at the lender's desk.</p>
 
 <h2>A worked example</h2>
-<p>Illustrative figures only. A registered nurse holds a 0.6 permanent line paying about $62,000 a year in base pay and has averaged $34,000 a year in casual shifts, overtime and premiums over the last two years. At a lender that counts only the base, the application is built on $62,000. At a lender that averages the variable pay, it is built on $96,000. Run both numbers through the <a href="/mortgage-calculators/#affordability">affordability calculator</a> and the difference in purchase price is the amount that depends purely on lender policy. Nothing about the nurse changed. The lender did.</p>
+<p>These figures are only an illustration. A registered nurse holds a 0.6 permanent line paying about $62,000 a year in base pay. Over the last two years, she has averaged $34,000 a year in casual shifts, overtime and premiums.</p>
+<p>At a lender that counts only base pay, the application is built on $62,000. At a lender that averages the variable pay, it's built on $96,000. Run both through the <a href="/mortgage-calculators/#affordability">affordability calculator</a>. The gap in purchase price comes down to lender policy alone. Nothing about the nurse changed. The lender did.</p>
 
 <h2>Joshua's process</h2>
 <ol>
-<li><strong>A 15-minute call</strong>, scheduled around your shifts, about your positions, your pay history and what you want to buy.</li>
-<li><strong>Income read first.</strong> Joshua works out what each lender type will count, and tells you honestly where the figure lands and what would move it, before you look at homes.</li>
-<li><strong>A real pre-approval.</strong> A <a href="/mortgage-pre-approval-bc/">pre-approval</a> that has actually been through your documents, not a rate quote. For a healthcare file, that distinction is the whole game.</li>
-<li><strong>The right lender</strong>, chosen for its policy on casual and multi-employer income, with options shown in a written Lender Comparison Report.</li>
-<li><strong>A clean submission and aftercare.</strong> Documents explained up front, and a relationship that continues after funding, so a move to a new line or a new region is handled before it becomes a problem.</li>
+<li><strong>A 15-minute call,</strong> booked around your shifts. You talk about your positions, your pay history and what you want to buy.</li>
+<li><strong>Income read first.</strong> Joshua works out what each type of lender will count. Before you look at homes, he tells you honestly where the number lands and what would move it.</li>
+<li><strong>A real pre-approval.</strong> A <a href="/mortgage-pre-approval-bc/">pre-approval</a> that has actually been through your documents, not a rate quote. For a healthcare file, that's the whole game.</li>
+<li><strong>The right lender.</strong> It's chosen for its policy on casual and multi-employer income. You see the options in a written Lender Comparison Report.</li>
+<li><strong>A clean submission and aftercare.</strong> Your documents are explained up front. The relationship continues after funding, so a move to a new line or region gets handled early.</li>
 </ol>
 
 <h2>The traps</h2>
 <ul>
-<li><strong>Going casual right before you apply.</strong> Dropping a permanent line for a casual position with higher hourly pay can lower what a lender counts, even if your take-home rises.</li>
-<li><strong>A leave during the application.</strong> Maternity, parental or medical leave changes what lenders use. Most will qualify you on your return-to-work income with a letter confirming the date and position, but tell your broker early.</li>
-<li><strong>Counting an unrepeatable year.</strong> A year inflated by pandemic-era overtime or a retention bonus is usually averaged down, and a lender may ask about it.</li>
-<li><strong>Student loans that were forgotten.</strong> Provincial and federal student loan payments count in your debt ratios whether or not they are in repayment. Interest-free does not mean payment-free in a lender's eyes.</li>
-<li><strong>Relying on one lender's answer.</strong> The spread between lenders on healthcare income is wide. One decline or one low number is not the market's verdict.</li>
+<li><strong>Going casual right before you apply.</strong> Casual work may pay more per hour. But dropping a permanent line can lower what a lender counts, even if your take-home goes up.</li>
+<li><strong>A leave during the application.</strong> Maternity, parental or medical leave changes what lenders use. Most will qualify you on your return-to-work income, with a letter confirming the date and position. Tell your broker early.</li>
+<li><strong>Counting a one-off year.</strong> A year boosted by pandemic-era overtime or a retention bonus is usually averaged down. A lender may ask about it.</li>
+<li><strong>Forgotten student loans.</strong> Provincial and federal student loan payments count in your debt ratios, in repayment or not. Interest-free doesn't mean payment-free to a lender.</li>
+<li><strong>Trusting one lender's answer.</strong> Lenders vary widely on healthcare income. One decline or one low number isn't the whole market's verdict.</li>
 </ul>
 
 <h2>What the service costs</h2>
-<p>On a mortgage placed with a mainstream A lender, which is where a healthcare file with documented income almost always lands, the lender pays the broker and you pay nothing. Fees arise only on certain B-lender and private files, disclosed in writing on BCFSA's Form 1A before you commit. If this is your first purchase, the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> explains the programs that can reduce your cash to close, including the first-time buyers' transfer tax exemption and the First Home Savings Account.</p>
+<p>A healthcare file with documented income almost always lands with a mainstream A lender. On those mortgages, the lender pays the broker and you pay nothing. Fees only come up on certain B-lender and private files. They're disclosed in writing on BCFSA's Form 1A before you commit.</p>
+<p>If this is your first purchase, read the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a>. It covers the programs that can cut your cash to close. These include the first-time buyers' transfer tax exemption and the First Home Savings Account.</p>
 
-${callout("One request before the call", "<p>Pull your last two T4s from each employer and your most recent pay stub. With those documents, Joshua can tell you in one conversation what a lender will count, which is the number everything else depends on.</p>")}
+${callout("One request before the call", "<p>Pull your last two T4s from each employer and your latest pay stub. With those, Joshua can tell you in one conversation what a lender will count. Everything else depends on that number.</p>")}
 
 ${cta({ title: "Casual line, real approval", text: "Book a 15-minute call around your schedule. Joshua will read your income the way a lender does and tell you which lender reads it best. Or <a href=\"/contact/\">contact him</a> by email." })}
 `;

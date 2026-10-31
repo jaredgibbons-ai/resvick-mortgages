@@ -1,3 +1,5 @@
+import { short } from "../lib/short.mjs";
+
 export default {
   slug: "/guides/fixed-or-variable-right-now/",
   date: "2026-10-30",
@@ -9,33 +11,54 @@ export default {
   lede: "The question arrives with a 'right now' attached, as if the answer were a market call. It is not. This post gives you the six questions that actually decide it, as of October 2026.",
   links: ["/fixed-vs-variable-mortgage/", "/variable-rate-mortgage/", "/interest-rate-differential/", "/mortgage-penalty-calculator/", "/mortgage-calculators/#compare", "/5-year-fixed-mortgage-rate/", "/3-year-fixed-mortgage-rate/", "/contact/"],
   body: `
-<h2>What this post will not do</h2>
-<p>It will not tell you where rates are going. Nobody reliably knows, including the professional forecasters whose job it is, and a broker who answers "fixed or variable" with a prediction is selling you confidence they do not have. The <a href="/fixed-vs-variable-mortgage/">fixed versus variable guide</a> explains how each product works and what the gap between them is pricing. This post is the decision itself, built around your situation rather than the market's, dated October 30, 2026, so that you can tell when it was written and judge whether anything about the framework has changed.</p>
+${short({
+  answer: "No one can tell you where rates are going. Pick fixed if you need a steady payment and will likely stay put. Lean variable if you can handle a higher payment and might leave early. A shorter fixed term sits in between.",
+  who: "Buyers and renewers stuck on fixed versus variable who want a way to decide that doesn't depend on a forecast.",
+  next: "Put your real quotes side by side in the <a href=\"/mortgage-calculators/#compare\">four-scenario comparison</a>."
+})}
+<h2>What this post won't do</h2>
+<p>It won't tell you where rates are going. Nobody reliably knows, including the forecasters paid to guess. A broker who answers "fixed or variable" with a prediction is selling you confidence they don't have.</p>
+<p>The <a href="/fixed-vs-variable-mortgage/">fixed versus variable guide</a> explains how each product works and what the gap between them is pricing. This post is about the decision itself. It's built around your situation, not the market's.</p>
+<p>It's dated October 30, 2026. That way you can tell when it was written, and judge whether anything about the framework has changed.</p>
 
-<h2>The reframe: which risk can you carry</h2>
-<p>A fixed rate gives you payment certainty for the term and exposes you to a potentially large penalty if you leave early, because fixed-rate penalties are the greater of three months' interest and the interest rate differential. A variable rate gives you a smaller, simpler penalty, usually three months' interest, and exposes you to changes in the cost of borrowing during the term. Neither is safer in the abstract. One is safer for a household that cannot absorb a payment increase; the other is safer for a household that might need to leave the mortgage early. The six questions below sort out which household you are.</p>
+<h2>The reframe: which risk can you carry?</h2>
+<p>A fixed rate gives you a steady payment for the term. The catch is a possibly large penalty if you leave early. Fixed-rate penalties are three months' interest or the interest rate differential, whichever is higher.</p>
+<p>A variable rate gives you a smaller, simpler penalty, usually three months' interest. The catch is that the cost of borrowing can change during the term.</p>
+<p>Neither one is safer in general. One is safer for a household that can't absorb a higher payment. The other is safer for a household that might need to leave the mortgage early. The six questions below sort out which household you are.</p>
 
-<h2>Question one: how likely are you to break this mortgage</h2>
-<p>Be honest about the next three to five years. A possible move for work, a growing family, a separation, a sale to upsize or downsize, a plan to refinance for a renovation or a rental: each is a reason you might end the term early. Most people who break a fixed mortgage did not expect to when they signed. If your answer is "quite possible," the penalty difference matters more than the rate difference, and the <a href="/interest-rate-differential/">IRD guide</a> shows how large a fixed-rate penalty can get. The <a href="/mortgage-penalty-calculator/">penalty calculator</a> lets you see the range for your balance. If your answer is "very unlikely," the penalty question fades and the next questions decide.</p>
+<h2>Question one: how likely are you to break this mortgage?</h2>
+<p>Be honest about the next three to five years. A move for work, a growing family, a separation, or a sale to size up or down are all reasons you might end the term early. So is a plan to refinance for a renovation or a rental.</p>
+<p>Most people who break a fixed mortgage didn't expect to when they signed. If your answer is "quite possible," the penalty gap matters more than the rate gap. The <a href="/interest-rate-differential/">IRD guide</a> shows how large a fixed-rate penalty can get. The <a href="/mortgage-penalty-calculator/">penalty calculator</a> shows the range for your balance.</p>
+<p>If your answer is "very unlikely," the penalty question fades. Then the next questions decide.</p>
 
-<h2>Question two: what would a higher payment do to your month</h2>
-<p>Take your variable-rate payment at today's rate and imagine it two percentage points higher. If that would be uncomfortable but manageable, variable is a candidate. If it would mean missed savings, drawn-down credit or real stress, the certainty of a fixed payment is worth paying for, whatever the market does. Note that some variable products keep the payment fixed and let the interest share change instead, which hides the increase until a trigger rate is reached; the <a href="/variable-rate-mortgage/">variable rate guide</a> explains that mechanism and why it is not the same as safety.</p>
+<h2>Question two: what would a higher payment do to your month?</h2>
+<p>Take your variable-rate payment at today's rate. Now picture it two points higher. If that would be uncomfortable but doable, variable is an option. If it would mean skipped savings, more credit card debt or real stress, a fixed payment is worth paying for, whatever the market does.</p>
+<p>Some variable products keep the payment fixed and let the interest share change instead. That hides the increase until a trigger rate is reached. The <a href="/variable-rate-mortgage/">variable rate guide</a> explains how that works, and why it isn't the same as safety.</p>
 
-<h2>Question three: what is the gap today, and what is it buying</h2>
-<p>Look at the fixed rate and the variable rate you have actually been quoted, not advertised figures. If the variable is lower, the gap is the premium the market is charging you for certainty. If the fixed is lower, which happens, the market is pricing cuts and the variable is asking you to pay for the chance of benefiting from them. Neither is a signal to act on; both are a price to weigh against your answers to questions one and two. The <a href="/mortgage-calculators/#compare">four-scenario comparison</a> puts the quoted rates side by side with the interest cost over the term and the penalty exposure, which is the honest way to see the trade.</p>
+<h2>Question three: what's the gap today, and what is it buying?</h2>
+<p>Look at the fixed and variable rates you've actually been quoted, not the advertised ones. If the variable is lower, the gap is what the market charges you for certainty.</p>
+<p>Sometimes the fixed is lower. That means the market is pricing in cuts, and the variable asks you to pay for a chance to benefit from them.</p>
+<p>Neither is a signal to act on. Both are a price to weigh against your answers to questions one and two. The <a href="/mortgage-calculators/#compare">four-scenario comparison</a> puts your quotes side by side, with the interest cost over the term and the penalty risk. That's the honest way to see the trade.</p>
 
-<h2>Question four: how long a term do you actually want</h2>
-<p>The fixed-versus-variable question hides a term question. A five-year fixed is the default in Canada, and the <a href="/5-year-fixed-mortgage-rate/">5-year fixed guide</a> explains when it fits. A shorter fixed term, covered on the <a href="/3-year-fixed-mortgage-rate/">3-year fixed guide</a>, buys certainty for less time and reduces the penalty exposure, which makes it a middle path for people who want a fixed payment but might move. A variable is usually a five-year term with a smaller penalty. Deciding the term first often makes the rate-type decision obvious.</p>
+<h2>Question four: how long a term do you really want?</h2>
+<p>The fixed-versus-variable question hides a term question. A five-year fixed is the default in Canada. The <a href="/5-year-fixed-mortgage-rate/">5-year fixed guide</a> explains when it fits.</p>
+<p>A shorter fixed term buys certainty for less time and lowers the penalty risk. The <a href="/3-year-fixed-mortgage-rate/">3-year fixed guide</a> covers it. That makes it a middle path for people who want a fixed payment but might move.</p>
+<p>A variable is usually a five-year term with a smaller penalty. Deciding the term first often makes the rate-type choice obvious.</p>
 
-<h2>Question five: do you have a conversion right, and would you use it</h2>
-<p>Most variable mortgages let you convert to a fixed rate during the term without penalty, usually at the lender's posted or discounted rate at the time. People choose variable intending to convert "if rates start rising." In practice, by the time the rise is obvious, fixed rates have already moved, so the conversion rarely captures the rate you remember. The right has value, but as insurance against a bad trend rather than as a way to time the market. If you would never actually pull the trigger, do not count it.</p>
+<h2>Question five: do you have a conversion right, and would you use it?</h2>
+<p>Most variable mortgages let you switch to a fixed rate during the term with no penalty. You usually get the lender's posted or discounted rate at the time. People pick variable planning to convert "if rates start rising."</p>
+<p>In practice, by the time a rise is obvious, fixed rates have already moved. So converting rarely gets you the rate you remember. The right has value, but as insurance against a bad trend, not as a way to time the market. If you'd never really pull the trigger, don't count it.</p>
 
-<h2>Question six: what does your renewal timeline look like</h2>
-<p>If you are renewing rather than buying, you have a remaining amortization and a payment history that the lender can see. A borrower coming off a low fixed rate into a higher one may feel the payment jump either way, and the question becomes whether a variable gives room for the payment to fall during the term or whether a fixed gives a number you can plan around. Many borrowers in that position split the difference with a shorter fixed term and a plan to reassess. The renewal pages on this site cover the timing.</p>
+<h2>Question six: what does your renewal timeline look like?</h2>
+<p>If you're renewing rather than buying, the lender can see your remaining amortization and payment history. Someone coming off a low fixed rate into a higher one may feel the payment jump either way.</p>
+<p>Then the question becomes which helps more. A variable gives room for the payment to fall during the term. A fixed gives a number you can plan around. Many people in that spot split the difference with a shorter fixed term and a plan to check again later. The renewal pages on this site cover the timing.</p>
 
 <h2>Putting it together</h2>
-<p>A household that might move, can absorb a higher payment, and would genuinely rather pay a simple penalty than a large one leans variable. A household that will stay put, needs the payment to be predictable, and would lose sleep over the monthly number leans fixed. A household that wants a fixed payment but is not sure about five years leans to a shorter fixed term. None of those answers depends on a forecast, which is the point. You can revisit them at renewal with the same framework and a different market.</p>
-<p>If you want the framework run on your own numbers, with the actual rates you have been quoted and your actual plans, that is a 15-minute conversation, and it does not come with a prediction either. The <a href="/contact/">contact page</a> has the link.</p>
+<p>Lean variable if your household might move, can absorb a higher payment, and would rather pay a simple penalty than a large one.</p>
+<p>Lean fixed if you'll stay put, need a predictable payment, and would lose sleep over the monthly number.</p>
+<p>Lean toward a shorter fixed term if you want a fixed payment but aren't sure about five years.</p>
+<p>None of those answers depends on a forecast. That's the point. You can come back to them at renewal, with the same framework and a different market.</p>
+<p>Want the framework run on your own numbers, with your real quotes and your real plans? That's a 15-minute conversation, and it doesn't come with a prediction either. The <a href="/contact/">contact page</a> has the link.</p>
 `,
   faqs: [
     { q: "Is variable always cheaper over the long run?", a: "It has often been, historically, but not always and not for every term, and it is not a rule. The gap can close or reverse, and the outcome depends on what rates do during your particular term, which nobody knows in advance. Decide on your tolerance for payment changes and your chance of breaking the mortgage, not on an average." },

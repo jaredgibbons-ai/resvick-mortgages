@@ -1,9 +1,12 @@
+import { short } from "../lib/short.mjs";
 import { TOOLS } from "../lib/tools.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
+${short({ answer: "A refinance pays off when the savings have covered its costs: the penalty, legal fees and appraisal. That point is the break-even. If it comes after you expect to sell, move or renew elsewhere, the refinance doesn't pay.", who: "Anyone weighing a lower rate or a new payment against a penalty to break their mortgage.", next: "Get your penalty in writing from your lender, then enter it in the calculator below." })}
+
 <h2>Find out when a refinance pays for itself</h2>
-<p>Every refinance has a price. If you break a mortgage early you pay a prepayment penalty, and almost every refinance adds legal fees, an appraisal and sometimes lender fees. In exchange you get a lower rate, a different payment or access to cash. The only honest way to judge it is to ask how long it takes the savings to repay the price. That length of time is the break-even point.</p>
+<p>Every refinance has a price. If you break a mortgage early, you pay a prepayment penalty. Almost every refinance also adds legal fees, an appraisal and sometimes lender fees. In exchange you get a lower rate, a different payment or access to cash. The only honest way to judge it is to ask how long it takes the savings to repay the price. That length of time is the break-even point.</p>
 <p>The calculator below finds it month by month. Enter your current mortgage, the new rate and what the refinance will cost. It shows whether you reach break-even inside the period you chose, and how far ahead or behind you are at each year.</p>
 <div class="tools">${TOOLS["refi-break-even"]()}</div>
 <p>Nothing you enter is sent anywhere, and no email address is needed. Get the penalty figure from your lender in writing first, since it is the largest single input. The <a href="/mortgage-penalty-calculator/">mortgage penalty calculator</a> can give you a planning range while you wait.</p>
@@ -13,26 +16,27 @@ const body = `
 <p>First, it counts only the payment. A lower rate also changes how much of each payment goes to principal, so you are paying down the balance faster than the payment difference suggests. Second, it ignores how the cost is paid. A penalty rolled into the new mortgage is borrowed money that earns interest for years, while a penalty paid in cash is gone on day one. Those two cases have the same sticker price and different results.</p>
 
 <h2>How the calculator measures it</h2>
-<p>For each month, the tool adds up three things for each path:</p>
+<p>For each month, the tool adds up three things on each path.</p>
 <ul>
 <li>the payments you have made so far;</li>
 <li>any cash you paid at the start for the penalty and fees; and</li>
 <li>the balance you still owe.</li>
 </ul>
-<p>That total is your position. On the path where you keep your mortgage, there is no cash cost. On the refinance path there is the cash cost, or a larger balance if you rolled it in. The break-even month is the first month in which the refinance position is equal to or better than the keep position. Because balance is part of the measure, a cheaper rate shows its value exactly as it arises, through lower interest, and a longer amortization cannot hide behind a lower payment.</p>
+<p>That total is your position. If you keep your mortgage, there's no cash cost. If you refinance, there's the cash cost, or a bigger balance if you rolled it in. The break-even month is the first month the refinance position equals or beats the keep position. Since the balance is part of the measure, a cheaper rate shows its value as it happens, through lower interest. And a longer amortization can't hide behind a lower payment.</p>
 
 <h2>A worked example</h2>
 <p>These figures are illustrative. The rates are chosen for the example and are not quotes. Type them in to see the same results.</p>
 <p>You owe $500,000 with 20 years of amortization left, at 5.50 percent. A lender offers 4.50 percent. The penalty to leave is $4,000 and the legal and appraisal costs are $1,500, all paid in cash.</p>
-<div class="table-wrap"><table><thead><tr><th>Month</th><th class="num">Position if you keep</th><th class="num">Position if you refinance</th><th class="num">Advantage of refinancing</th></tr></thead><tbody>
-<tr><td>12</td><td class="num">$526,839</td><td class="num">$527,471</td><td class="num">−$632</td></tr>
-<tr><td>24</td><td class="num">$552,885</td><td class="num">$548,720</td><td class="num">+$4,165</td></tr>
-<tr><td>36</td><td class="num">$578,094</td><td class="num">$569,215</td><td class="num">+$8,879</td></tr>
-<tr><td>60</td><td class="num">$625,809</td><td class="num">$607,802</td><td class="num">+$18,007</td></tr>
-</tbody></table></div>
-<p>The payment falls from $3,421.96 to $3,152.03, a saving of $269.93 a month, and the simple break-even is 21 months. The month-by-month method puts break-even at month 14, because the lower rate also cuts interest, which the payment difference alone understates. After five years the refinance is ahead by about $18,000, but only if you keep the new mortgage that long and the rates hold.</p>
+<p>Here's each path's position at four points. Position means payments made plus cash paid plus balance still owed, so lower is better.</p>
+<ul>
+<li><strong>Month 12:</strong> keep $526,839, refinance $527,471. Refinancing is behind by $632.</li>
+<li><strong>Month 24:</strong> keep $552,885, refinance $548,720. Refinancing is ahead by $4,165.</li>
+<li><strong>Month 36:</strong> keep $578,094, refinance $569,215. Refinancing is ahead by $8,879.</li>
+<li><strong>Month 60:</strong> keep $625,809, refinance $607,802. Refinancing is ahead by $18,007.</li>
+</ul>
+<p>The payment falls from $3,421.96 to $3,152.03. That saves $269.93 a month, and the simple break-even is 21 months. The month-by-month method puts break-even at month 14, because the lower rate also cuts interest, which the payment difference alone understates. After five years the refinance is ahead by about $18,000, but only if you keep the new mortgage that long and the rates hold.</p>
 <h3>The same offer when the costs are rolled in</h3>
-<p>If the same $5,500 is added to the new mortgage instead of being paid in cash, the new balance is $505,500, the payment is $3,186.70 and break-even moves to month 15. The advantage after five years is about $16,900 instead of $18,000. Rolling in avoids writing a cheque, and it costs a little over $1,000 more across five years, which is the interest on the borrowed fees.</p>
+<p>Now say the same $5,500 is added to the new mortgage instead of paid in cash. The new balance is $505,500 and the payment is $3,186.70. Break-even moves to month 15. The advantage after five years is about $16,900 instead of $18,000. Rolling in avoids writing a cheque, and it costs a little over $1,000 more across five years, which is the interest on the borrowed fees.</p>
 <h3>An offer that does not pay</h3>
 <p>Now take a smaller gap: 5.00 percent to 4.80 percent, with a $6,000 penalty and $1,500 of costs paid in cash. The payment drops by only $53.78 a month. After five years the refinance is still behind by about $2,800, and the simple break-even is 140 months, more than eleven years. Few people keep a five-year term that long without renewing at a different rate, so for practical purposes this one does not pay.</p>
 
@@ -50,11 +54,11 @@ const body = `
 
 <h2>Three traps in a refinance comparison</h2>
 <p><strong>Extending the amortization.</strong> Moving from 20 years left to a fresh 25 or 30 lowers the payment, and that can make a refinance look attractive in a short comparison. The saving arrives from borrowing for longer, and the extra years carry extra interest. Use the amortization box to model this, and compare the same horizon for both paths.</p>
-<p><strong>Comparing against the wrong alternative.</strong> A refinance competes with other ways of getting the same result, not only with doing nothing. Waiting for your renewal date removes the penalty entirely, switching lenders at renewal can capture a better rate with no break fee, and a blend-and-extend can lower your rate without the full penalty. The <a href="/blend-and-extend-mortgage/">blend and extend</a> page explains that third option, and the <a href="/switch-mortgage-lenders-at-renewal/">switching lenders at renewal</a> page covers the second.</p>
-<p><strong>Assuming rates hold.</strong> The calculator holds both rates steady for the period you choose. Real terms end, and the renewal rate on either path is unknown. The result tells you what the decision is worth if the world does not change, which is the cleanest way to compare and also the reason not to push the horizon too far.</p>
+<p><strong>Comparing against the wrong alternative.</strong> A refinance competes with other ways of getting the same result, not only with doing nothing. Waiting for your renewal date removes the penalty entirely. Switching lenders at renewal can get a better rate with no break fee. And a blend-and-extend can lower your rate without the full penalty. The <a href="/blend-and-extend-mortgage/">blend and extend</a> page explains that third option, and the <a href="/switch-mortgage-lenders-at-renewal/">switching lenders at renewal</a> page covers the second.</p>
+<p><strong>Assuming rates hold.</strong> The calculator holds both rates steady for the period you choose. Real terms end, and the renewal rate on either path is unknown. The result shows what the decision is worth if nothing changes. That's the cleanest way to compare. It's also why you shouldn't push the horizon too far.</p>
 
 <h2>The rule that settles most cases</h2>
-<p>If the break-even month falls after the date you expect to sell, renew with someone else or change your situation, the refinance does not pay. A break-even at month 14 on a mortgage you expect to keep for five years is comfortable. A break-even at month 50 on a mortgage you may leave in three years is not. The article <a href="/is-it-worth-refinancing/">is it worth refinancing</a> works through this test with three kinds of refinance, and the <a href="/refinance-mortgage-bc/">refinance hub</a> places it among the other reasons to refinance.</p>
+<p>Will you sell, renew elsewhere or see your situation change before the break-even month? Then the refinance doesn't pay. A break-even at month 14 on a mortgage you expect to keep for five years is comfortable. A break-even at month 50 on a mortgage you may leave in three years is not. The article <a href="/is-it-worth-refinancing/">is it worth refinancing</a> works through this test with three kinds of refinance, and the <a href="/refinance-mortgage-bc/">refinance hub</a> places it among the other reasons to refinance.</p>
 <p>When the refinance is about debt rather than rate, the arithmetic changes shape: the saving is in the interest on the debts you retire, not in a rate gap. The <a href="/refinance-to-pay-off-debt/">refinance to pay off debt</a> page and the <a href="/mortgage-calculators/#consolidation">debt consolidation calculator</a> handle that case. If your mortgage is close to maturity, the <a href="/early-mortgage-renewal/">early renewal guide</a> shows when an early renewal beats a full refinance.</p>
 
 ${callout("Break-even is a screen, not a verdict", "<p>A refinance also has to qualify. Lenders limit a refinance to a share of your home's value, and they test your income and credit again. A good break-even on paper still needs an approval. If the numbers look promising, <a href=\"/contact/\">contact Joshua</a> and he will check both sides.</p>")}
