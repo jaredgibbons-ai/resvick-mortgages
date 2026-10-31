@@ -306,8 +306,8 @@
       var r = score(def, state.answers);
       h += '<p class="qz-kicker">' + esc(def.title) + ': your result</p><div class="qz-score"><span class="qz-score-n">' + r.score + '</span><span class="qz-score-d">out of 100</span></div><h3 class="qz-band">' + esc(r.band.name) + "</h3><p>" + esc(r.band.text) + "</p>";
       h += numbersFor(id, state.nums, RM);
-      if (r.strengths.length) h += '<h4>Working for you</h4><ul class="qz-list">' + r.strengths.map(function (d) { return "<li>" + esc(d.label) + "</li>"; }).join("") + "</ul>";
-      if (r.work.length) h += '<h4>Worth working on</h4><ul class="qz-list qz-list-work">' + r.work.map(function (d) { return "<li>" + esc(d.label) + "</li>"; }).join("") + "</ul>";
+      if (r.strengths.length) h += '<h4>Working for you</h4><ul class="qz-list">' + r.strengths.map(function (d) { return "<li>" + esc(d.label) + (d.q ? '<span class="qz-ref">' + esc(d.q) + "</span>" : "") + "</li>"; }).join("") + "</ul>";
+      if (r.work.length) h += '<h4>Worth working on</h4><ul class="qz-list qz-list-work">' + r.work.map(function (d) { return "<li>" + esc(d.label) + (d.q ? '<span class="qz-ref">' + esc(d.q) + "</span>" : "") + "</li>"; }).join("") + "</ul>";
       var links = []; (def.steps || []).forEach(function (st) { var o = st.options && st.options[state.answers[st.id]]; if (o && o.link && links.indexOf(o.link[0]) < 0) { links.push(o.link[0]); h += '<p class="qz-handoff"><a href="' + esc(o.link[0]) + '">' + esc(o.link[1]) + '</a></p>'; } });
       h += '<p class="small">Scores are a way to organise a conversation, not a lender decision. Nothing you typed has been sent anywhere.</p>';
       h += '<div class="qz-unlock"><button type="button" class="btn" data-act="unlock">Get the written version, free</button><a class="btn btn-ghost" href="' + esc(book) + '" data-evt="book_call_click">Book a 15-minute call</a><button type="button" class="qz-link" data-act="restart">Start over</button></div>';
