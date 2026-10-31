@@ -84,6 +84,7 @@ export const SLUGS = `/
 /mortgage-broker-keremeos/
 /mortgage-broker-prince-rupert/
 /mortgage-broker-osoyoos-oliver/
+/mortgage-broker-fort-st-john/
 /mortgage-broker-quesnel/
 /mortgage-broker-white-rock/
 /mortgage-broker-north-vancouver/
