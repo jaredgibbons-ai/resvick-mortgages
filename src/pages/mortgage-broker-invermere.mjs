@@ -37,6 +37,16 @@ ${ratesStrip()}
 </ul>
 <p>The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> lists what to gather. A pre-approval before your trip means you can make an offer on your first visit.</p>
 
+<h2>Moving to Invermere: buying a home before or after you arrive</h2>
+<p>Many people who search for buying a home in Invermere do not live here yet. Some have a job offer or a remote-work plan. Others want to retire near the lake. Moving to Invermere brings a few mortgage questions that a local buyer never faces.</p>
+<ul>
+<li><strong>Get pre-approved before your first visit.</strong> Joshua works by phone and video, so you can do this from your kitchen table. See the <a href="/mortgage-pre-approval-bc/">pre-approval page</a> for what to gather. A clear budget lets you act when a home comes up.</li>
+<li><strong>Bring income papers from your province.</strong> Pay stubs, an employer letter and tax documents work in any province. If you will work remotely for an employer elsewhere, ask for a letter that says the job continues after the move.</li>
+<li><strong>Pick a closing date that fits the move.</strong> Match it to your start date, your move-out date and any probation. Invermere has no local vacancy count, so the town's report uses the province's 1.4 percent rental vacancy rate as a stand-in (Housing Needs Report, November 2024, read October 2026). Rentals may be hard to find, so plan your housing for the days between homes.</li>
+<li><strong>Plan for the home you leave.</strong> If it has not sold, you may need to carry two homes for a while. The <a href="/bridge-financing/">bridge financing page</a> explains the options.</li>
+</ul>
+<p>The valley's small size helps. A few phone calls can line up the lender, the lawyer and the home inspector. Ask your realtor to book a video walk-through when you cannot visit.</p>
+
 <h2>Short-term rentals: 253 listings and a permit system</h2>
 <p>The housing report counts 253 active short-term rental listings in November 2024. The report uses AirDNA data. Another page of it shows 259 for August 2024, so treat the number as about 250 (Housing Needs Report, November 2024, read October 2026). That is a lot of listings for a town of under 4,000 people.</p>
 <p>The District now regulates them. In early 2024 Council set a two-part system. An operator needs a business licence, and a Temporary Use Permit in single-family and low-density areas. Only one licence or permit is issued per owner. Each unit needs a noise monitoring system. The rules were set to start on May 1, 2024. (District of Invermere, STR Council direction, February 2, 2024, read October 2026). The housing report adds that the District does not require a principal residence.</p>
@@ -100,8 +110,8 @@ ${cta({ title: "Talk to a broker who serves Invermere", text: "Book a 15-minute 
 
 export default {
   slug: "/mortgage-broker-invermere/",
-  h1: "Mortgage broker serving Invermere and the Columbia Valley, BC",
-  lede: "Joshua Resvick, Xeva Mortgage, serves Invermere from his Surrey office by phone and video. Second homes, short-term rentals, suites and rural properties, read the way an underwriter reads them.",
+  h1: "Mortgage broker in Invermere, BC: buying a home or moving to the Valley",
+  lede: "Buying a home in Invermere, or moving to Invermere? Joshua Resvick, Xeva Mortgage, serves the Columbia Valley from his Surrey office by phone and video. Vacation homes, short-term rentals, suites and rural properties, read the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Invermere", "/mortgage-broker-invermere/"]],
   nav: "/about-joshua-resvick/",
   body,
@@ -111,6 +121,8 @@ export default {
     { q: "Can I rent my Invermere home by the night?", a: "Not always. The District uses a business licence plus a Temporary Use Permit in single-family and low-density areas. Stratas and titles can also say no. Ask for the licence, the permit and its end date before you rely on the income, and know that many lenders count it in a limited way." },
     { q: "I live in Alberta. Can I still buy in the Columbia Valley?", a: "Often yes. Income documents from another province read the same way, and a lawyer in BC can handle signing. The lender will count your main home's mortgage and taxes as debts. A pre-approval before your first trip lets you make an offer with a clear budget." },
     { q: "Can I add a suite to my Invermere home?", a: "Possibly. The District changed its suite rules in 2026, and the notice said size limits and the principal residency rule would be removed. Confirm the details for your lot with the District. A lender counts rent only when the suite is legal and the rent is documented." },
+    { q: "Can I buy a home in Invermere before I move there?", a: "Yes, often. Many people get pre-approved by phone or video, then make an offer when they visit or through a realtor. Lenders look at your income, credit and down payment, not where you live today. Ask for a closing date that fits your move and any probation." },
+    { q: "I am moving to Invermere. When should I get pre-approved?", a: "As soon as you know your income and budget, and before your first visit. A pre-approval shows your price range and holds a rate for a set time. Bring pay stubs, tax documents and down payment details. If the home you leave is unsold, tell Joshua early." },
     { q: "Do the foreign buyer taxes apply in Invermere?", a: "The province's additional property transfer tax and the speculation and vacancy tax do not list Invermere or the East Kootenay. The federal ban covers only certain census areas, and Joshua has not confirmed where each valley address falls. Check the address and your status with a lawyer before you commit." },
     { q: "How do lenders see tourism or seasonal income?", a: "Lenders vary. Many look for about two years in the same kind of work. Tips and commission are often averaged. Self-employed owners usually show two years of tax returns. Joshua matches the file to a lender before you apply so there are fewer surprises." }
   ]

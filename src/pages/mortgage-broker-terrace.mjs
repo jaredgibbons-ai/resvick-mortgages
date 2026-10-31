@@ -39,14 +39,21 @@ ${ratesStrip()}
 <h2>The rental squeeze, and buying while you relocate</h2>
 <p>Renting first is the easy plan, but Terrace has few rentals. The City's report estimated overall rental vacancy at 0.8% in July 2024. It also says the primary rental stock fell from 595 units in 2016 to 410 in 2023. (City of Terrace, Housing Needs Report, December 2024, read October 2026).</p>
 <p>The report adds that residents and service providers say rents are pushed up by workers who live in Terrace but work elsewhere. It estimates the city needs 793 more homes over five years. (City of Terrace, Housing Needs Report, December 2024, read October 2026).</p>
-<p>With so little to rent, some new arrivals decide to buy. Here is an order that tends to work:</p>
+<p>With so little to rent, some new arrivals decide to buy. If you are a first-time buyer, the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> sets out the programs and their order.</p>
+
+<h2>Moving to Terrace: buying a home before or after you arrive</h2>
+<p>Many people who search for buying a home in Terrace are not living here yet. They have a job offer, a start date and a short window to find a place. Moving to Terrace for work often means a hospital, college or project employer, and a rental market with little room.</p>
+<p>Here is an order that tends to work:</p>
 <ol>
-<li><strong>Get pre-approved before you move.</strong> Do it once you have a signed offer. The rate hold gives you time to look from a distance.</li>
-<li><strong>Tell your realtor your real start date.</strong> A longer closing can let probation end before funds move, if the seller can wait.</li>
+<li><strong>Get pre-approved before you visit.</strong> A pre-approval sets your price range and holds a rate for a set time. You can look at homes without a clock on your back. The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> shows what lenders ask for.</li>
+<li><strong>Bring your offer letter and pay stubs.</strong> A signed offer, your pay rate and your start date matter most. If you worked in the same trade before, add past stubs and T4s.</li>
+<li><strong>Ask about probation.</strong> Many lenders want it finished before they fund. Some will look sooner in certain cases. Policies vary, so raise it early.</li>
+<li><strong>Time your closing to your move.</strong> If the seller can wait, pick a date after you start work and after probation ends.</li>
+<li><strong>Plan for the home you leave.</strong> If you own a place elsewhere, the sale date matters. A <a href="/bridge-financing/">bridge loan</a> may cover a gap in some cases.</li>
 <li><strong>Set aside cash for more than the down payment.</strong> The <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs page</a> show the full list. Moving costs come on top.</li>
 <li><strong>Hold off on new debt.</strong> A truck loan before funding can change what you qualify for. The <a href="/car-loan-affecting-mortgage/">car loan page</a> shows how.</li>
 </ol>
-<p>If your closing date lands before your old home sells, read about <a href="/bridge-financing/">bridge financing</a>. If you are a first-time buyer, the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> sets out the programs and their order.</p>
+<p>You do not have to live in Terrace to start. Joshua works by phone and video, so a pre-approval can be done before you drive up Highway 16. Moving from another province changes little. Lenders ask for the same papers from a different employer and bank.</p>
 
 <h2>What Terrace homes are, and what lenders ask</h2>
 <p>The Housing Needs Report puts single detached homes at about 60% of occupied dwellings. Mobile homes are 7%, or 325 of 4,870. Nearly half of occupied homes were built in the 1960s and 1970s. About 70% of households own. (City of Terrace, Housing Needs Report, December 2024, read October 2026).</p>
@@ -94,8 +101,8 @@ ${cta({ title: "Talk to a broker who serves Terrace", text: "Book a 15-minute ca
 
 export default {
   slug: "/mortgage-broker-terrace/",
-  h1: "Mortgage broker serving Terrace, BC and the northwest",
-  lede: "Joshua Resvick, Xeva Mortgage, serves Terrace from his Surrey office by phone and video. Project and contract pay, a tight rental market, older homes and suites, explained the way an underwriter reads them.",
+  h1: "Mortgage broker in Terrace, BC: buying a home or moving to Terrace",
+  lede: "Buying a home in Terrace, or moving to Terrace for work? Joshua Resvick, Xeva Mortgage, serves Terrace from his Surrey office by phone and video. Project and contract pay, a tight rental market, older homes and suites, explained the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Terrace", "/mortgage-broker-terrace/"]],
   nav: "/about-joshua-resvick/",
   body,
@@ -103,6 +110,8 @@ export default {
   faqs: [
     { q: "I'm moving to Terrace for a contract job. Can I get a mortgage?", a: "Often yes, but lenders look at the contract closely. They check its length, whether it has renewed and how long you have worked in the trade. A permanent offer is simpler than a first contract. Joshua checks which lenders fit your pay type before you make an offer, so you know your options early." },
     { q: "Should I buy in Terrace before I arrive, since rentals are scarce?", a: "Not always, but rentals are tight. The City's 2024 report estimated overall vacancy at 0.8% in July 2024. A pre-approval before you move lets you shop with a clear budget. Keep your down payment, closing costs and employer letter ready, and talk to your realtor about a closing date that fits your start date." },
+    { q: "Can I buy a home in Terrace before I move there?", a: "Yes, you can start early. Joshua works by phone and video, so a pre-approval can be done before you visit. Lenders will want your offer letter, start date and pay stubs. Many want probation finished before funding, so ask your realtor about a closing date that follows your start." },
+    { q: "I am moving to Terrace for a new job. When should I get pre-approved?", a: "As soon as you have a signed offer letter. A pre-approval shows your price range and holds a rate for a set time. Bring the offer, your start date, recent pay stubs and down payment details. If you are on probation, tell Joshua early so he can plan around it." },
     { q: "How will a lender count overtime, camp pay or travel allowances?", a: "Base wage is usually counted once employment is confirmed. Overtime, premiums and bonuses are variable, so many lenders average them over two years. Allowances may or may not count. Policies vary by lender, and Joshua shows you the file with and without the extras." },
     { q: "Can I get a mortgage on a manufactured home in Terrace?", a: "Yes, in some cases, but the land decides. A manufactured home on land you own is a far easier file. A home on a rented pad has fewer lenders, shorter terms and age limits. Pad rent and park rules also affect the file. Joshua checks this before you make an offer." },
     { q: "Does a house built in the 1960s or 1970s cause problems with a lender?", a: "Not by itself. Lenders and insurers focus on the roof, wiring, plumbing and heating, and on the condition of the home. A good inspection helps. Ask your insurer about the home before you remove conditions, and speak to Joshua if the repairs need to be funded." },
