@@ -31,6 +31,7 @@ ${short({ answer: "Joshua's office is in Surrey, so this is his home city. He wo
 <li>The city charges suite utility and service fees.</li>
 <li>Coach houses and garden suites are separate. A suite isn't allowed inside them.</li>
 </ul>
+<p>Suites are common enough that the City now counts them. A July 2026 City report says its garbage and organics collection serves about 35,000 secondary suites, and each pays a per-suite fee (City of Surrey, Corporate Report R162, July 27, 2026, read October 2026). A suite on that list is not proof that it has a permit, so ask for the permit.</p>
 <p>Why does a lender care? The lender decides how much of the suite's rent to count, or whether to count it at all. A legal suite with a lease and bank deposits is far easier to count than an unpermitted one.</p>
 <p>Lenders use two methods. Some add part of the rent to your income. Others subtract it from your housing costs. The share varies by lender. On a Newton or Fleetwood house, the gap between a lender that counts half and one that counts more can decide whether you're approved.</p>
 <p>The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> shows the math. The <a href="/secondary-suite-refinance/">secondary suite refinance page</a> covers the federal program for financing a new suite.</p>

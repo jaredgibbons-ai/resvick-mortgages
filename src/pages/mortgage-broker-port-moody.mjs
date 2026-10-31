@@ -37,6 +37,7 @@ ${ratesStrip()}
 
 <h2>Moody Centre and the presale question</h2>
 <p>New construction is planned near the station. The Province's page on the Moody Centre transit-oriented development describes a proposal to redevelop a two-acre parcel near the station into hundreds of rental units. It says the master-planned area around the station would bring more than 3,000 new homes. It gives no construction timeline (BC Government, Moody Centre TOD, last updated July 17, 2026, read October 2026). So treat it as a plan, not a promise.</p>
+<p>The City also has a new Official Community Plan. Council adopted Port Moody 2050, Bylaw No. 3522, on April 28, 2026, and it replaces the 2014 plan. Its neighbourhood plan areas include Moody Centre Station, Moody Centre, Seaview, Inlet Centre and the Oceanfront District (City of Port Moody, Official Community Plan, read October 2026). If you read an older article that cites the 2014 plan, check whether it still applies.</p>
 <p>If you buy a presale in Port Moody, the mortgage comes after you sign, often a year or more later. Rates and rules can change in between. The <a href="/presale-mortgages-bc/">presale mortgage page</a> covers rate holds and what happens at completion. The appraisal at completion can also come in low, which the <a href="/guides/what-happens-if-the-appraisal-comes-in-low/">guide on low appraisals</a> explains.</p>
 
 <h2>Larger purchase prices and the insured limit</h2>

@@ -42,6 +42,13 @@ ${ratesStrip()}
 <h2>Second homes and recreational property</h2>
 <p>Many Sea-to-Sky purchases are not a main residence. The lending rules change when you will not live in the home full time.</p>
 <p>High-ratio default insurance is not available on a property you do not occupy. Plan on at least 20 percent down. Some lenders ask for more. A lender will also want to know how you intend to use the place. A weekend cabin, a long-term rental and a nightly-rental investment are each underwritten differently. The <a href="/investment-property-mortgages-bc/">investment property page</a> sets out how lenders count rent and what they ask for. If you already own a home, you may be able to use its equity. See the <a href="/refinance-mortgage-bc/">refinance guide</a> for the limits.</p>
+<p>Three rules differ between Squamish and Whistler, so do not assume they match.</p>
+<ul>
+<li><strong>Speculation and vacancy tax.</strong> Squamish is on the Province's list of taxable areas. Whistler is not. (Province of British Columbia, Taxable areas for the speculation and vacancy tax, updated December 8, 2025, read October 2026).</li>
+<li><strong>Federal ban on non-Canadian buyers.</strong> It applies inside census areas, and Squamish is in one. (Prohibition on the Purchase of Residential Property by Non-Canadians Regulations, SOR/2022-250, read October 2026). The ban is set to end on January 1, 2027, unless Ottawa extends it.</li>
+<li><strong>BC additional property transfer tax.</strong> The 20% tax applies only in named regions, and Squamish is not one. (Property Transfer Tax Regulation, B.C. Reg. 74/88, read October 2026).</li>
+</ul>
+<p>Our <a href="/foreign-buyers-bc/">foreign buyers page</a> has more. A lawyer should confirm the rules for your own purchase.</p>
 
 <h2>What Joshua does for Sea-to-Sky clients</h2>
 <ol>

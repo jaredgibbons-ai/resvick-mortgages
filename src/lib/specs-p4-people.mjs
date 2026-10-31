@@ -19,7 +19,7 @@ export default {
     title: "Mortgages for Military & Veterans in BC | Postings & Moves",
     meta: "Posted to BC or leaving the Forces? Relocation timelines, buying on a posting schedule and rate holds. Mortgage help for military members and veterans.",
     specTitle: "Mortgages for Military Members & Veterans in BC | Postings & Relocations",
-    specMeta: "Posted to BC or leaving the forces? Relocation timelines, BGRS basics and buying on a posting schedule — mortgage help for military members and veterans.",
+    specMeta: "Posted to BC or leaving the forces? Relocation timelines, SIRVA basics and buying on a posting schedule — mortgage help for military members and veterans.",
     links: ["/bridge-financing/", "/mortgage-pre-approval-bc/", "/first-time-home-buyer-bc/", "/mortgage-rate-hold/", "/mortgage-calculators/#affordability", "/contact/"]
   },
   "/mortgage-for-contractors/": {

@@ -16,7 +16,7 @@ ${short({ answer: "Military pay is some of the cleanest income a lender sees. Ba
 <p>Many lenders can count monthly disability benefits. They'll want proof of the amount and how long it lasts. Policies differ, though. Some lenders gross up non-taxable income and some don't. These are lender norms, not published rules. The right lender is the one whose policy fits your mix.</p>
 
 <h2>The relocation program and your mortgage</h2>
-<p>Postings are supported by the Canadian Armed Forces relocation program. A contracted relocation services provider runs it. The program covers certain costs of selling and buying on a posting, within its own rules. It isn't a mortgage product.</p>
+<p>Postings are supported by the Canadian Armed Forces relocation program. A contracted relocation services provider runs it. That provider is now SIRVA, which used to be called BGRS. (CFMWS, CAF Moving and Housing, read October 2026). A member whose move was authorized before January 6, 2026 may still deal with BGRS, so check your posting paperwork. The program covers certain costs of selling and buying on a posting, within its own rules. It isn't a mortgage product.</p>
 <p>Two points matter for financing. First, the program may pay back costs like legal fees or real estate commission. That doesn't change what a lender needs for your down payment. You still have to show it came from your own savings, the sale of your home, or a gift.</p>
 <p>Second, a posting often forces you to buy before the old home sells. That's where bridge financing comes in. This page only describes the program in general terms. The current policy, and what it covers for your move, comes from the relocation provider and your orderly room, not from a mortgage broker.</p>
 

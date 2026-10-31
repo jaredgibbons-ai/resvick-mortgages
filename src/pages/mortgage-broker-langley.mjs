@@ -38,6 +38,10 @@ ${ratesStrip()}
 <p>Lenders use two methods. Some add a share of the rent to your income. Others subtract it from your housing cost. The share varies. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> shows both methods with figures.</p>
 <p>Want to add a new suite to a house? The <a href="/secondary-suite-refinance/">secondary suite refinance page</a> explains the federal program. It allows refinancing up to 90 percent of the as-improved value for a legal suite.</p>
 
+<h2>Manufactured homes on leased pads</h2>
+<p>Langley has a real leasehold market, and it is not in condos or towers. It is in manufactured home parks. In these parks you buy the home and lease the pad it sits on. MLS® listings for homes in Cedar Creek Estates in Brookswood, which has about 100 homes, show the tenure as "leasehold not prepaid, non-strata." Other parks in the Township include Langley Grove Estates, Fernridge Park, Pioneer Park and Pineridge. Most of what we found is in the Township, not the City. (Realtor.ca MLS® listings, read October 2026).</p>
+<p>A lease you pay monthly, with no prepaid term, works differently from a home you own outright. Lenders vary a great deal on this kind of property. Some will not lend on it at all. Others want a larger down payment or a shorter amortization. The appraisal can also be harder, because there are fewer sales to compare. Joshua checks the park, the lease terms and the age of the home before you make an offer, so the financing condition is realistic. Our page on <a href="/mobile-home-mortgages-bc/">mobile and manufactured home mortgages</a> covers the basics.</p>
+
 <h2>Acreage, ALR and rural Langley</h2>
 <p>South and east Langley include a lot of land inside the Agricultural Land Reserve. Acreage financing is its own skill. Here are a few things to know before you fall in love with a property.</p>
 <ul>
