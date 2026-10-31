@@ -1,53 +1,87 @@
 import { callout } from "../lib/site.mjs";
+import { short } from "../lib/short.mjs";
 
 const body = `
+${short({ answer: "In BC, a lender has to go through the court to take or sell your home, and that takes months. Use that time. Call your lender this week and work through your options in order.", who: "Anyone who has missed a mortgage payment, or knows they're about to.", next: "Read the call script below, then call your lender. If you want a second opinion, <a href=\"/contact/\">contact Joshua</a>." })}
+
 <h2>First, the BC reality</h2>
-<p>If you are behind on your mortgage, the fear is usually of a specific picture: a letter, a locked door, thirty days. That picture comes from American television and from a few other provinces. It is not how British Columbia works. In BC, a lender that wants to take or sell a home has to go through the Supreme Court of British Columbia, and the court sets the pace. The process starts with a demand letter, moves to a petition, and then to an order that sets a redemption period, which the court's default rule puts at six months, during which you can still pay the arrears and keep the mortgage. Even after that, any sale has to be approved by the court at a second hearing. The whole sequence is measured in months, not weeks, and you can keep living in your home while it runs. The <a href="/mortgage-default-and-foreclosure-bc/">default and foreclosure in BC</a> page walks through each stage.</p>
-<p>That is not a reason to wait. It is a reason to stop panicking and start working the problem in order, because time is the one thing the BC process gives you, and every option on this page gets harder the longer the arrears grow. This page is the order to do things in: this week, this month, and the months after.</p>
+<p>If you're behind on your mortgage, you probably picture a letter, a locked door and thirty days. That picture comes from American TV and a few other provinces. It's not how BC works.</p>
+<p>In BC, a lender that wants to take or sell a home has to go through the Supreme Court of British Columbia. The court sets the pace. Here's the basic order:</p>
+<ol>
+<li>The lender sends a demand letter.</li>
+<li>It files a petition with the court.</li>
+<li>The court makes an order that sets a redemption period. The court's default is six months. During that time, you can still pay the arrears and keep the mortgage.</li>
+<li>Any sale needs the court's approval at a second hearing.</li>
+</ol>
+<p>The whole process takes months, not weeks. You can keep living in your home while it runs. The <a href="/mortgage-default-and-foreclosure-bc/">default and foreclosure in BC</a> page walks through each stage.</p>
+<p>That's not a reason to wait. It's a reason to stop panicking and start working the problem in order. Time is the one thing the BC process gives you. And every option on this page gets harder the longer the arrears grow. This page shows the order to do things in: this week, this month, and the months after.</p>
 
 <h2>This week: stop the bleeding and make one call</h2>
-<p>Three things matter in the first few days. The first is to open every letter from your lender and read it. A demand letter has a deadline in it, and the deadline is the single most important date you have. The second is to work out your real numbers: what is owed in arrears, what the regular payment is, what income is coming in, and what the shortfall per month actually is. Write it down. The third is to call your lender, before they call you, and before the next payment date if you know you will miss it.</p>
-<p>Federally regulated lenders are expected to help. The Financial Consumer Agency of Canada's Guideline on Existing Consumer Mortgage Loans in Exceptional Circumstances (published July 2023) tells banks and other federally regulated lenders to contact borrowers who are at risk, to offer relief measures, and for a limited period to waive the fees that come with those measures. The Canadian Mortgage Charter, introduced in the November 2023 Fall Economic Statement, lists the same expectations: temporary amortization extensions for those at risk, fees waived on relief, and the ability to make a lump-sum payment or sell the home without a prepayment penalty. The Charter is not legislation and does not create rights, and credit unions are provincially regulated and have their own policies, so what you can get depends on the lender. But the starting position is that a lender would rather restructure a mortgage than foreclose on one, because foreclosure is slow and expensive for them too.</p>
+<p>Three things matter in the first few days.</p>
+<ul>
+<li><strong>Open every letter from your lender and read it.</strong> A demand letter has a deadline in it. That deadline is the most important date you have.</li>
+<li><strong>Work out your real numbers.</strong> What do you owe in arrears? What's the regular payment? What income is coming in? What's the actual shortfall each month? Write it down.</li>
+<li><strong>Call your lender before they call you.</strong> If you know you'll miss the next payment, call before that date.</li>
+</ul>
+<p>Federally regulated lenders are expected to help. The Financial Consumer Agency of Canada published a guideline in July 2023. It's called the Guideline on Existing Consumer Mortgage Loans in Exceptional Circumstances. It tells banks and other federally regulated lenders to contact borrowers at risk and offer relief. For a limited time, they're also told to waive the fees that come with that relief.</p>
+<p>The Canadian Mortgage Charter came out in the November 2023 Fall Economic Statement. It lists the same expectations. Those include temporary amortization extensions for people at risk and waived fees on relief. They also include the ability to make a lump-sum payment or sell the home without a prepayment penalty.</p>
+<p>The Charter isn't a law, and it doesn't create rights. Credit unions are regulated by the Province and have their own policies. So what you can get depends on the lender. But the starting point is this. A lender would rather restructure a mortgage than foreclose on one. Foreclosure is slow and expensive for them too.</p>
 
 <h2>The call script: what to say to your lender</h2>
-<p>People put off this call because they do not know what to say. Say this, in roughly this order.</p>
+<p>People put off this call because they don't know what to say. Say this, in roughly this order.</p>
 <ol>
-<li><strong>State the facts plainly.</strong> "I am behind by two payments. My income dropped in August because of a layoff. I expect it to recover by January, and in the meantime I can pay about $1,400 a month toward the mortgage."</li>
-<li><strong>Ask for the hardship or financial-difficulty team.</strong> Most lenders have one, and the people on it have options the general line does not.</li>
-<li><strong>Ask what relief measures are available to you.</strong> Name them: a temporary payment reduction, a deferral, an amortization extension, or capitalizing the arrears into the balance. Ask what each one costs and how it affects your credit reporting. The FCAC guideline expects lenders to report agreed relief measures accurately, not as ordinary missed payments; ask your lender to confirm in writing how it will report before you accept.</li>
-<li><strong>Ask for everything in writing</strong> before you agree. A lender offering relief has to disclose the new balance, the total cost in dollars, the effect on your amortization and your new payment, and get your consent.</li>
-<li><strong>Write down the name of the person, the date and what was agreed.</strong> You may need it later.</li>
+<li><strong>State the facts plainly.</strong> For example: "I'm behind by two payments. My income dropped in August because of a layoff. I expect it to recover by January. In the meantime, I can pay about $1,400 a month toward the mortgage."</li>
+<li><strong>Ask for the hardship or financial-difficulty team.</strong> Most lenders have one. The people on it have options the general line doesn't.</li>
+<li><strong>Ask what relief is available to you.</strong> Name the options: a temporary payment cut, a deferral, a longer amortization, or adding the arrears to the balance. Ask what each one costs. Ask how each one affects your credit report. The FCAC guideline expects lenders to report agreed relief accurately, not as ordinary missed payments. Ask your lender to confirm in writing how it will report before you accept.</li>
+<li><strong>Get everything in writing before you agree.</strong> A lender offering relief has to tell you the new balance and the total cost in dollars. It has to show the effect on your amortization and your new payment. And it has to get your consent.</li>
+<li><strong>Write down who you spoke to, the date and what was agreed.</strong> You may need it later.</li>
 </ol>
-<p>If the lender has already sent the file to its lawyer, the call still matters, but it may go to the lawyer's office instead. Ask the same questions. Ask what it would take to reinstate the mortgage, which means paying the arrears and costs and carrying on, and get that figure in writing with a date.</p>
+<p>If the lender has already sent the file to its lawyer, the call still matters. It may just go to the lawyer's office instead. Ask the same questions. Ask what it would take to reinstate the mortgage. That means paying the arrears and costs and carrying on as before. Get that figure in writing, with a date.</p>
 
 <h2>This month: the options ladder</h2>
-<p>Work down this list from the top. Each rung is cheaper and less damaging than the one below it, and each one assumes the ones above it did not solve the problem.</p>
+<p>Work down this list from the top. Each step is cheaper and less damaging than the one below it. Each one assumes the steps above it didn't solve the problem.</p>
 <h3>1. A lender hardship arrangement</h3>
-<p>This is the lender's own relief: a temporary payment reduction, a deferral of one or more payments, an extension of the amortization to bring the payment down, or capitalization of the arrears so the account is current again at a slightly higher balance. These cost interest, and sometimes fees, but they keep the mortgage you have at the rate you have. The <a href="/mortgage-payment-deferral/">deferral and skip-a-payment</a> page explains what each one really costs.</p>
+<p>This is the lender's own relief. It might be a temporary payment cut or a deferral of one or more payments. It might be a longer amortization to bring the payment down. Or the lender might add the arrears to the balance, so the account is current again at a slightly higher balance.</p>
+<p>These cost interest, and sometimes fees. But they keep the mortgage you have, at the rate you have. The <a href="/mortgage-payment-deferral/">deferral and skip-a-payment</a> page explains what each one really costs.</p>
 <h3>2. A refinance or consolidation, if you still qualify</h3>
-<p>If the problem is that other debts, not the mortgage, are eating the budget, consolidating them into the mortgage can bring the monthly total down to something that works. This is a real option only while your credit and income still qualify, which is why acting early matters so much. Once payments are missed and reported, A lenders become hard to reach. The <a href="/refinance-to-pay-off-debt/">refinance to pay off debt</a> page explains the math and the catch.</p>
+<p>Maybe the problem isn't the mortgage. Maybe other debts are eating the budget. Rolling them into the mortgage can bring the monthly total down to something that works.</p>
+<p>This only works while your credit and income still qualify. That's why acting early matters so much. Once missed payments are reported, A lenders get hard to reach. The <a href="/refinance-to-pay-off-debt/">refinance to pay off debt</a> page explains the math and the catch.</p>
 <h3>3. A B lender or a private second mortgage as a bridge</h3>
-<p>When the first mortgage lender will not help and an A lender will not refinance, a <a href="/second-mortgage-bc/">second mortgage</a> from a B or private lender can pay the arrears and buy time, usually a year or two, to sell on your terms or to recover income and refinance properly. This is a last resort, not a plan. <a href="/private-mortgage-lending-bc/">Private mortgage lending</a> comes with higher rates, lender fees and broker fees, and in BC every fee has to be disclosed to you in writing before you commit, on BCFSA's Form 1A. A private second that you cannot service turns one problem into two. It is right only when there is a clear exit, such as a sale, a return to work, or a settlement.</p>
+<p>Sometimes the first mortgage lender won't help and an A lender won't refinance. A <a href="/second-mortgage-bc/">second mortgage</a> from a B or private lender can pay the arrears and buy time. That's usually a year or two. You use the time to sell on your terms, or to get your income back and refinance properly.</p>
+<p>This is a last resort, not a plan. <a href="/private-mortgage-lending-bc/">Private mortgage lending</a> comes with higher rates, lender fees and broker fees. In BC, every fee has to be disclosed to you in writing before you commit, on BCFSA's Form 1A.</p>
+<p>A private second you can't keep up with turns one problem into two. It's only right when there's a clear way out. That could be a sale, a return to work or a settlement.</p>
 <h3>4. Selling on your terms</h3>
-<p>If the numbers do not work and are not going to, selling the home yourself, with a realtor, at market value, before the court takes conduct of the sale, almost always leaves you with more money than a court-ordered sale does. It is not a failure. It is the option that protects your equity, and under the FCAC guideline a federally regulated lender should waive the prepayment penalty when a borrower in severe difficulty sells their principal residence.</p>
+<p>Sometimes the numbers don't work and aren't going to. Then selling the home yourself is usually the best move. You list with a realtor, at market value, before the court takes over the sale. That almost always leaves you with more money than a court-ordered sale.</p>
+<p>It's not a failure. It's the option that protects your equity. Under the FCAC guideline, a federally regulated lender should waive the prepayment penalty when a borrower in serious trouble sells their principal residence.</p>
 
 <h2>What not to do</h2>
 <ul>
-<li><strong>Do not ignore the letters.</strong> A foreclosure petition carries a deadline to respond, 21 days from the day you are served if you are representing yourself, and the proceeding continues whether or not you take part.</li>
-<li><strong>Do not use payday loans or high-interest credit to make a mortgage payment.</strong> It moves the problem to a lender who is far less patient and far more expensive, and it makes a refinance harder to qualify for.</li>
-<li><strong>Do not sign anything from an unlicensed "foreclosure consultant" or "we buy houses" operator without legal advice.</strong> Anyone arranging a mortgage in BC must be licensed by BCFSA, and you can check any licence in BCFSA's public lookup. Free legal help exists: the People's Law School and Access Pro Bono point to summary advice clinics, and non-profit credit counselling is available through organizations such as the Credit Counselling Society.</li>
-<li><strong>Do not stop paying property taxes or strata fees</strong> to free up cash for the mortgage. Unpaid taxes and strata fees are among the reasons a lender gives the court to shorten the redemption period.</li>
-<li><strong>Do not assume a renewal will fix it.</strong> If you are in arrears at maturity, the lender may decline to renew, which is its own problem. The <a href="/mortgage-renewal-denied/">renewal denied</a> page covers what happens then.</li>
+<li><strong>Don't ignore the letters.</strong> A foreclosure petition has a deadline to respond. It's 21 days from the day you're served, if you're representing yourself. The case goes ahead whether or not you take part.</li>
+<li><strong>Don't use payday loans or high-interest credit to make a mortgage payment.</strong> It moves the problem to a lender who's far less patient and far more expensive. It also makes a refinance harder to qualify for.</li>
+<li><strong>Don't sign anything from an unlicensed "foreclosure consultant" or "we buy houses" operator without legal advice.</strong> Anyone arranging a mortgage in BC must be licensed by BCFSA. You can check any licence in BCFSA's public lookup. Free legal help exists. The People's Law School and Access Pro Bono point to summary advice clinics. Non-profit credit counselling is available through groups such as the Credit Counselling Society.</li>
+<li><strong>Don't stop paying property taxes or strata fees</strong> to free up cash for the mortgage. Unpaid taxes and strata fees are reasons a lender gives the court to shorten the redemption period.</li>
+<li><strong>Don't assume a renewal will fix it.</strong> If you're in arrears at maturity, the lender may refuse to renew. That's its own problem. The <a href="/mortgage-renewal-denied/">renewal denied</a> page covers what happens then.</li>
 </ul>
 
 <h2>Timelines, honestly</h2>
-<p>There is no fixed number of missed payments that triggers foreclosure in BC, and anyone who gives you one is guessing. What the sources do say is that lenders commonly start court proceedings after about three months of missed payments, sometimes sooner, and that they must send a demand letter first. From there, a petition, a 21-day response window, a first hearing usually within about a month, an order nisi setting a redemption period that defaults to six months and can be shortened or extended, and then a sale that itself needs court approval. The People's Law School guide to foreclosure, reviewed for legal accuracy in April 2025, is the plain-language source for each of those stages, and the <a href="/missed-a-mortgage-payment/">missed a payment</a> page covers what happens in the first thirty days, before any of this begins.</p>
-<p>What that means in practice is that a household that acts in the first month usually has every option on the ladder. A household that acts after the petition is served still has most of them, but with less time and more cost. A household that waits for the sale hearing usually has one.</p>
+<p>There's no fixed number of missed payments that triggers foreclosure in BC. Anyone who gives you one is guessing.</p>
+<p>Here's what the sources do say. Lenders commonly start court action after about three months of missed payments, sometimes sooner. They must send a demand letter first. After that, the usual sequence is:</p>
+<ol>
+<li>A petition.</li>
+<li>A 21-day window to respond.</li>
+<li>A first hearing, usually within about a month.</li>
+<li>An order nisi that sets a redemption period. It defaults to six months and can be shortened or extended.</li>
+<li>A sale, which itself needs court approval.</li>
+</ol>
+<p>The People's Law School guide to foreclosure was reviewed for legal accuracy in April 2025. It's the plain-language source for each of those stages. The <a href="/missed-a-mortgage-payment/">missed a payment</a> page covers the first thirty days, before any of this starts.</p>
+<p>What does that mean in practice? A household that acts in the first month usually has every option on the ladder. A household that acts after the petition is served still has most of them, with less time and more cost. A household that waits for the sale hearing usually has one.</p>
 
-${callout("The fee question, answered first", "<p>On any mortgage placed with a mainstream A lender, the lender pays the broker and you pay nothing for the work. Fees arise only on B-lender and private files, which is exactly the kind of file a distressed situation can require. If that is where your file goes, you will see every fee in writing, on BCFSA's Form 1A, before you commit to anything, and Joshua will tell you plainly when a private solution is worse than selling.</p>")}
+${callout("The fee question, answered first", "<p>On any mortgage with a mainstream A lender, the lender pays the broker. You pay nothing for the work. Fees come up only on B-lender and private files. A tough situation can lead to exactly that kind of file. If yours goes there, you'll see every fee in writing, on BCFSA's Form 1A, before you commit to anything. And Joshua will tell you plainly when a private solution is worse than selling.</p>")}
 
-<h2>Where a broker fits, and where one does not</h2>
-<p>A mortgage broker cannot stop a foreclosure, cannot speak to the court for you, and cannot make a lender's hardship team say yes. What a broker can do is tell you quickly and honestly which rungs of the ladder are realistic for your file, run the numbers on a consolidation or a second mortgage so you can see whether it actually helps, and place the file with a lender that will consider it. Joshua has spent five years as an underwriter and ten as a broker, and the most useful thing he can offer in this situation is a straight answer. If the right answer is a sale, he will say so. If you want that conversation, <a href="/contact/">contact him</a> and say in the first line that you are behind on payments, so it is handled with the urgency it deserves.</p>
+<h2>Where a broker fits, and where one doesn't</h2>
+<p>A mortgage broker can't stop a foreclosure. A broker can't speak to the court for you or make a lender's hardship team say yes.</p>
+<p>Here's what a broker can do. A broker can tell you quickly and honestly which steps on the ladder are realistic for your file. A broker can run the numbers on a consolidation or a second mortgage, so you see if it actually helps. And a broker can place the file with a lender that will consider it.</p>
+<p>Joshua spent five years as an underwriter and ten as a broker. The most useful thing he can offer here is a straight answer. If the right answer is a sale, he'll say so. If you want that conversation, <a href="/contact/">contact him</a>. Say in the first line that you're behind on payments, so it's handled with the urgency it deserves.</p>
 `;
 
 export default {
