@@ -1,7 +1,7 @@
 export default {
   "trail-castlegar": {
-    str: "Trail: the City's zoning allows short-term rentals only in the R1 and R3 zones, and only where Council approved a site-specific rezoning. Bed and breakfasts in those zones must be inside the main detached home. Castlegar: a City business licence is required for short-term rentals under Bylaw No. 1337, with proof of ownership, a strata letter for multi-unit buildings and a local contact. The City says it has no local principal-residence rule. For Trail's licence rules, ask the City.",
-    suites: "Trail: the City changed its zoning in June 2024. In the R1 and R3 zones, lots of 280 square metres or less may have up to 3 principal units, and larger lots may have 4, and suites are allowed. Castlegar: the City's page says that as of July 2024 most residential lots can have up to 4 dwellings, with up to 3 on smaller lots. Check with each City before you rely on this.",
+    str: "Trail: the City's zoning allows short-term rentals only in the R1 and R3 zones. Council must also have approved a site-specific rezoning. Bed and breakfasts in those zones must be inside the main detached home. For Trail's licence rules, ask the City. Castlegar: a City business licence is required for short-term rentals. The bylaw is No. 1337. Owners need proof of ownership and a local contact. Multi-unit buildings also need a strata letter. The City says it has no local principal-residence rule.",
+    suites: "Trail: the City changed its zoning in June 2024. In the R1 and R3 zones, lots of 280 square metres or less may have up to 3 principal units. Larger lots may have 4. Suites are also allowed. Castlegar: the City's page says that as of July 2024, most residential lots can have up to 4 dwellings. Smaller lots can have up to 3. Check with each City before you rely on this.",
     employers: [
       "Trail: Teck Trail Operations, zinc and lead smelting and refining complex",
       "Castlegar: Mercer Celgar, kraft pulp mill",
@@ -16,7 +16,7 @@ export default {
       { n: "Castlegar: Blueberry", d: "Residential neighbourhood that joined the city in 2004, covered in the City's plan work." }
     ],
     land: "",
-    feature: "Each town leans on one big industrial employer, the Teck smelter in Trail and the Mercer Celgar pulp mill in Castlegar. The City of Castlegar calls Mercer Celgar its biggest employer, so local incomes track those operations.",
+    feature: "Each town leans on one big industrial employer. In Trail it is the Teck smelter. In Castlegar it is the Mercer Celgar pulp mill. The City of Castlegar calls Mercer Celgar its biggest employer, so local incomes track those operations.",
     src: [
       ["Trail Zoning Amendment Bylaw No. 2944", "https://trail.civicweb.net/FileStorage/C9768FC297724F1E9845E80EFECBC75A-Bylaw%202944.pdf"],
       ["Castlegar Business Licencing Bylaw No. 1337", "https://castlegar.ca/wp-content/uploads/2023/04/Bylaw-1337-Consolidated-Business-Licencing.pdf"],
@@ -71,7 +71,7 @@ export default {
 
   "quesnel": {
     str: "The City's February 2024 staff report said its zoning bylaw has no rules that directly regulate short-term rentals. The City's licence guide asks accommodation businesses, including bed and breakfasts and private property rentals, to get a business licence. A September 2025 draft plan update proposed short-term rental rules, but it was a proposal. Check with the City.",
-    suites: "Zoning Amendment Bylaw No. 1962 (small-scale multi-unit housing) was adopted on June 25, 2024. The City says owners of serviced lots that were limited to one home or a duplex can add up to four units without a rezoning. Suites, carriage houses and secondary dwellings count, and a secondary dwelling is capped at 90 square metres of floor area.",
+    suites: "The City adopted its small-scale multi-unit housing rules on June 25, 2024. The bylaw is No. 1962. Owners of serviced lots that were limited to one home or a duplex can add up to four units. They do not need a rezoning, the City says. Suites, carriage houses and secondary dwellings count. A secondary dwelling is capped at 90 square metres of floor area.",
     employers: [
       "West Fraser, lumber operations named in the City's economic strategy",
       "Cariboo Pulp and Paper, pulp mill named in the City's strategy",
@@ -87,8 +87,8 @@ export default {
       { n: "Carson", d: "Newer extension of the Johnston area with larger homes on cul-de-sacs and crescents." },
       { n: "Southern Gateway and South Quesnel", d: "Southern residential and entry area of the city, mostly detached houses." }
     ],
-    land: "Lhtako Dene Nation has reserves just south and east of Quesnel. Quesnel Indian Reserve No. 1 is on the east bank of the Fraser River, about 1 mile south of the city. The City's wildfire plan lists 665 hectares of Lhtako Dene land next to the city. Check the land status of any home near these reserves before you make an offer.",
-    feature: "Part of West Quesnel is in a designated Land Stability Area, which is mapped for slope hazard in the City's zoning bylaw. Ask the City about a lot's status before you buy.",
+    land: "Lhtako Dene Nation has reserves just south and east of Quesnel. Quesnel Indian Reserve No. 1 is on the east bank of the Fraser River. It is about 1 mile south of the city. The City's wildfire plan lists 665 hectares of Lhtako Dene land next to the city. Check the land status of any home near these reserves before you make an offer.",
+    feature: "Part of West Quesnel is in a designated Land Stability Area. The City's zoning bylaw maps it for slope hazard. Ask the City about a lot's status before you buy.",
     src: [
       ["City staff report on short-term rentals, Feb 2024", "https://quesnel.civicweb.net/FileStorage/ECB2EA49874A43048D8FD6A4BC1768EF-City%20Staff%20Report%20-%20Short%20Term%20Rentals%20Policy.pdf"],
       ["Zoning Amendment Bylaw No. 1962", "https://quesnel.civicweb.net/document/154416/"],
@@ -105,8 +105,8 @@ export default {
   },
 
   "terrace": {
-    str: "Terrace's zoning bylaw (No. 2069-2014, as changed in 2024) defines a short-term rental as paid stays in a home for under 30 days. It treats a bed and breakfast as a use run by the resident inside the main home. Check with the City before you rely on this, and ask about licensing.",
-    suites: "The City says a zoning change adopted on June 24, 2024 allows up to 4 dwelling units on most low-density residential lots. It replaced the old R1-A, R1 and R2 zones with a new R1 zone. Check with the City on your lot.",
+    str: "Terrace's zoning bylaw is No. 2069-2014, as changed in 2024. It defines a short-term rental as paid stays in a home for under 30 days. It treats a bed and breakfast as a use run by the resident inside the main home. Check with the City before you rely on this, and ask about licensing.",
+    suites: "The City says a zoning change adopted on June 24, 2024 allows up to 4 dwelling units. It covers most low-density residential lots. It replaced the old R1-A, R1 and R2 zones with a new R1 zone. Check with the City on your lot.",
     employers: [
       "Coast Mountain College, regional college with a Terrace presence",
       "Regional District of Kitimat-Stikine, administrative offices in Terrace"
@@ -119,7 +119,7 @@ export default {
       { n: "South Side and Keith Estates", d: "Established, growing area with a range of housing types, near the hospital." },
       { n: "Thornhill", d: "Unincorporated community across the Skeena River, outside city limits, in the regional district." }
     ],
-    land: "The City's community plan names Kitselas and Kitsumkalum First Nations as neighbouring communities. Nisga'a Lands, held under the Nisga'a Final Agreement, lie about 100 km northwest of Terrace. Check the land status of any property near them.",
+    land: "The City's community plan names Kitselas and Kitsumkalum First Nations as neighbouring communities. Nisga'a Lands lie about 100 km northwest of Terrace. They are held under the Nisga'a Final Agreement. Check the land status of any property near them.",
     feature: "The 2024 zoning change lets owners of most low-density lots add up to four units. Ask your broker how a lender would count rental income from a suite, since lenders vary.",
     src: [
       ["City of Terrace zoning page", "https://engage.terrace.ca/zoning"],
@@ -139,7 +139,7 @@ export default {
 
   "kitimat": {
     str: "",
-    suites: "Kitimat is delayed under the Province's small-scale multi-unit housing rules. A Province news release moved its deadline to December 31, 2030. Meanwhile, the District says secondary suites and detached accessory dwellings are allowed in many zones. In May 2025, Council rezoned 25 Mulberry Street properties to R2-A to allow suites and accessory dwellings.",
+    suites: "Kitimat is delayed under the Province's small-scale multi-unit housing rules. A Province news release moved the deadline to December 31, 2030. Meanwhile, the District says many zones allow secondary suites and detached accessory dwellings. In May 2025, Council rezoned 25 Mulberry Street properties to R2-A. That change allows suites and accessory dwellings.",
     employers: [
       "Rio Tinto BC Works, aluminum smelter the townsite was built for in the 1950s",
       "LNG Canada, liquefied natural gas export project",
@@ -151,7 +151,7 @@ export default {
       { n: "Nechako", d: "The first townsite neighbourhood, built in 1954, with detached homes and some multifamily buildings." },
       { n: "Kildala", d: "Townsite neighbourhood near the hospital, with detached homes and some multifamily buildings." },
       { n: "Strawberry Meadows", d: "Planned low-density area near Kildala, mostly single detached houses." },
-      { n: "Whitesail", d: "Townsite neighbourhood of mostly detached houses; District planning flags it for smaller homes and infill." },
+      { n: "Whitesail", d: "Townsite neighbourhood of mostly detached houses. District planning flags it for smaller homes and infill." },
       { n: "Cable Car", d: "Rural subdivision south of the townsite, about 2 units per hectare, detached houses on large lots." },
       { n: "City Centre", d: "Downtown core, flagged in District planning for more seniors and affordable housing." }
     ],
@@ -173,8 +173,8 @@ export default {
   },
 
   "prince-rupert": {
-    str: "The City's Trade and Licencing Bylaw No. 3532 was adopted on May 27, 2024. It requires a Trade Licence for short-term rentals and proof that the rental follows zoning first. A May 2024 City report says the City kept an existing ban on short-term rentals in homes that are not a principal dwelling, in residential zones. Zoning Bylaw No. 3462 treats a bed and breakfast as a short-term rental.",
-    suites: "In 2024 the City amended its zoning bylaw to allow up to 4 units in most restricted residential zones, including R1 and R2. The amendments had three readings on May 22, 2024, and the City's zoning consolidation dated June 24, 2024 shows them. The City's page says only the 3 to 4 unit rules apply, since no frequent transit meets the Province's threshold.",
+    str: "The City's Trade and Licencing Bylaw No. 3532 was adopted on May 27, 2024. It requires a Trade Licence for short-term rentals. It also requires proof that the rental follows zoning first. A May 2024 City report says the City kept an existing ban. The ban covers short-term rentals in homes that are not a principal dwelling, in residential zones. Zoning Bylaw No. 3462 treats a bed and breakfast as a short-term rental.",
+    suites: "In 2024 the City amended its zoning bylaw. It now allows up to 4 units in most restricted residential zones, including R1 and R2. The amendments had three readings on May 22, 2024. The City's zoning consolidation dated June 24, 2024 shows them. The City's page says only the 3 to 4 unit rules apply. No frequent transit meets the Province's threshold.",
     employers: [
       "Prince Rupert Port Authority, operator of the Port of Prince Rupert",
       "DP World Prince Rupert, operator of the Fairview Container Terminal",
@@ -208,7 +208,7 @@ export default {
 
   "fort-st-john": {
     str: "A 2024 City report said short-term commercial rentals are not currently permitted in residential zones. The City also said its zoning bylaw covers short-term rentals. Whether the City's business licence bylaw has an STR-specific rule was not confirmed, so check with the City.",
-    suites: "The City's housing legislation page says all low-density lots (zones R-1, R-1A, R-2, R-4 and R-4A) can have up to 4 units, made up of a main home plus suites or detached suites. The page says zoning changes were required by June 30, 2024. City documents say lots over 280 square metres must allow up to 4 units.",
+    suites: "The City's housing legislation page says all low-density lots can have up to 4 units. These are zones R-1, R-1A, R-2, R-4 and R-4A. The 4 units are a main home plus suites or detached suites. The page says zoning changes were required by June 30, 2024. City documents say lots over 280 square metres must allow up to 4 units.",
     employers: [
       "BC Hydro, builder of the Site C project on the Peace River near the city",
       "Oil and gas sector, named in a City study as the biggest regional influence",
