@@ -4,7 +4,6 @@ export default {
     suites: "Langford changed its zoning for small-scale multi-unit housing in 2024. The bylaw is No. 2183. The City's council report on it is dated June 2024. Lots of 280 square metres or less can have up to three homes. Larger lots can have up to four. Up to six are allowed near transit. Check with the City before you rely on it.",
     employers: [
       "Sooke School District No. 62, board office in Langford",
-      "City of Langford, local government"
     ],
     lenders: "",
     areas: [
@@ -37,7 +36,6 @@ export default {
     suites: "Nanaimo's council adopted its small-scale multi-unit housing zoning changes in June 2024. Most single-residential and duplex lots now allow three or four homes. There are exceptions for unserviced lots, some oversize lots and hazard lands.",
     employers: [
       "Vancouver Island University, main campus in Nanaimo",
-      "City of Nanaimo, local government"
     ],
     lenders: "Coastal Community Credit Union lists its main address in Nanaimo on its own contact page.",
     areas: [
@@ -70,7 +68,6 @@ export default {
     employers: [
       "19 Wing, CFB Comox, a Royal Canadian Air Force base in Comox",
       "North Island Hospital, Comox Valley campus in Courtenay, run by Island Health",
-      "City of Courtenay, local government"
     ],
     lenders: "",
     areas: [
@@ -103,7 +100,6 @@ export default {
     employers: [
       "Thompson Rivers University",
       "BC Lottery Corporation, with its head office in Kamloops",
-      "City of Kamloops, local government"
     ],
     lenders: "",
     areas: [
@@ -132,20 +128,13 @@ export default {
   },
 
   "kelowna": {
-    str: "Kelowna runs its own City licences under Zoning Bylaw No. 12375. A licence is needed for stays under 90 consecutive days. There are two classes. The Minor class is a secondary use, and the operator must live there at least 240 days a year. The Major class is a principal use. The City's page describes a change from June 1, 2026. Homes rezoned to a new short-term rental subzone can be rented without a principal-residence rule. Check the City's page.",
-    suites: "Kelowna changed Zoning Bylaw No. 12375 in 2024. This follows the Province's small-scale multi-unit housing rules. The City says this allows four to six homes on most residential properties. Six are allowed near frequent transit. Check the City's page for the rules on a given lot.",
-    employers: [
-      "KF Aerospace, based beside Kelowna International Airport",
-      "UBC Okanagan",
-      "City of Kelowna, local government"
-    ],
+    str: "Kelowna runs its own City licences under Zoning Bylaw No. 12375. A licence is needed for stays under 90 days. The Minor class is a side use, and the host must live there at least 240 days a year. The Major class is a main use. Since June 1, 2026, homes in a new short-term rental subzone can be rented without the main-home rule, the City's page says. Check the City's page.",
+    suites: "Kelowna changed Zoning Bylaw No. 12375 in 2024 to follow the Province's small-scale multi-unit housing rules. The City says most residential lots can now hold four to six homes. Six are allowed near frequent transit. Check the City's page for a given lot.",
+    employers: ["KF Aerospace, based beside Kelowna International Airport"],
     lenders: "Beem Credit Union's own financial statements say its head office is in Kelowna.",
-    areas: [
-      { n: "Downtown", d: "The urban centre. The City plans the most intense mix of uses here, with high-rise and mid-rise condos." },
-      { n: "Rutland", d: "Older detached housing. The City's plan calls for a new high-density urban centre." }
-    ],
-    land: "UBC Okanagan plans a leasehold neighbourhood of up to about 1,500 homes, according to UBC board papers. It is expected to be rental housing for students, faculty and staff on long-term leases. So it is not for-sale stock now. We did not confirm other leasehold areas.",
-    feature: "Statistics Canada's 2021 Census had the Kelowna metro area as the fastest-growing in Canada. This was for 2016 to 2021. The rate was 13.5 percent. New builds and infill are a large part of local files.",
+    areas: [],
+    land: "UBC Okanagan plans a leasehold neighbourhood of up to about 1,500 homes, per UBC board papers. It is expected to be rental housing for students, faculty and staff, so it is not for sale now. We did not confirm other leasehold areas.",
+    feature: "",
     src: [
       ["City of Kelowna short-term rentals", "https://www.kelowna.ca/business-services/permits-licences/short-term-rentals"],
       ["City of Kelowna news on housing and Bill 44 implementation", "https://www.kelowna.ca/our-community/news-events/news/record-city-kelowna-supports-ownership-housing-many-ways-proven-success"],
@@ -163,19 +152,11 @@ export default {
   "west-kelowna": {
     str: "West Kelowna requires a City business licence for short-term rentals. The operator must be a registered owner and live on the property. Only personally owned properties qualify. Corporate applications are not accepted. Proof of residency is needed with the application. The licence number and the provincial registration number must show in the listing.",
     suites: "West Kelowna's council adopted its small-scale multi-unit housing zoning changes in May 2024. They amend Zoning Bylaw No. 0320. The City says lots under 280 square metres can have up to three homes. Larger lots can have up to four. A secondary suite is capped at 100 square metres. It is also capped at 40 percent of the main home's floor area. The smaller cap applies.",
-    employers: [
-      "Westbank First Nation, which says more than 600 businesses operate on Westbank Lands",
-      "Gorman Bros. Lumber, West Kelowna mill"
-    ],
+    employers: ["Westbank First Nation, which says more than 600 businesses operate on Westbank Lands","Gorman Bros. Lumber, West Kelowna mill"],
     lenders: "",
-    areas: [
-      { n: "Westbank Centre", d: "The downtown urban centre, planned for mixed-use apartments and taller buildings." },
-      { n: "Boucherie Centre", d: "The second urban centre, along Boucherie Road, planned for mixed-use infill." },
-      { n: "Shannon Lake", d: "A neighbourhood centre in the City's plan, where growth is directed." },
-      { n: "Lakeview Heights", d: "A neighbourhood centre in the City's plan, above Okanagan Lake." }
-    ],
+    areas: [],
     land: "Westbank First Nation has governed itself since 2005. Buyers on Westbank Lands usually get a long-term sublease under a head lease, not fee simple title. Terms are typically 99 or 125 years. Mortgages are registered in the First Nation's own Lands Registry. Lender acceptance varies by development, so ask early.",
-    feature: "The City's plan directs growth to two urban centres and five neighbourhood centres. So suites, carriage houses and infill are the main new supply. On Westbank Lands, rental rules depend on the development. The developer's updates say Lakeridge Park does not allow stand-alone short-term rentals.",
+    feature: "",
     src: [
       ["City of West Kelowna short-term rental operator guidebook", "https://www.westkelownacity.ca/media/4capfz3j/str-operator-guidebook.pdf"],
       ["City of West Kelowna small-scale multi-unit housing", "https://www.westkelownacity.ca/building-business-development/housing-incentive-program/small-scale-multi-unit-housing/"],

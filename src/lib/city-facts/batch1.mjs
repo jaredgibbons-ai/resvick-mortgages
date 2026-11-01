@@ -1,21 +1,12 @@
 export default {
   "burnaby": {
-    str: "Burnaby requires a short-term rental business licence. The rule sits in Business Licence Bylaw 13809, Schedule G. Only homeowners can host, so tenants cannot, even with landlord permission. The City's page says rentals are not allowed in secondary suites. Hosts can rent part of the home for up to 90 nights a year. Up to 28 of those nights can be for the whole home.",
-    suites: "Burnaby Council adopted its small-scale multi-unit housing rules on June 10, 2024. It rezoned all R District lots. The City's page says eligible lots can have 3 to 6 units. The number depends on lot area and distance to a frequent-transit bus stop. Secondary suites count in that total. The City adopted a new Zoning Bylaw in June 2026. It is No. 14815. Check the City's site for current details.",
-    employers: [
-      "Simon Fraser University, Burnaby campus",
-      "BCIT, main campus on Willingdon Avenue",
-      "Burnaby School District 41, public schools",
-      "Burnaby Hospital, Fraser Health",
-      "Electronic Arts (EA Canada), game studio on Sanderson Way"
-    ],
+    str: "Burnaby requires a short-term rental licence under Business Licence Bylaw 13809, Schedule G. Only homeowners can host. Tenants cannot, even with landlord permission. The City says rentals are not allowed in secondary suites. Hosts can rent part of the home up to 90 nights a year, and the whole home up to 28 of those nights.",
+    suites: "Burnaby adopted its small-scale multi-unit housing rules on June 10, 2024. All R District lots were rezoned. The City says eligible lots can have 3 to 6 units, based on lot size and nearness to frequent bus service. Secondary suites count in that total. A new Zoning Bylaw, No. 14815, was adopted in June 2026, so check the City's site.",
+    employers: ["Simon Fraser University, Burnaby campus","BCIT, main campus on Willingdon Avenue"],
     lenders: "GVC Credit Union lists its administration office in Burnaby on its own contact page. It calls Burnaby its head office.",
-    areas: [
-      { n: "Metrotown", d: "The City's planning page describes residential growth here as mostly high-rise buildings." },
-      { n: "Brentwood, Lougheed and Edmonds", d: "The City's planning page describes new homes here as mostly apartments, from mid-rise to high-rise towers." }
-    ],
+    areas: [],
     land: "UniverCity, beside SFU on Burnaby Mountain, is on land that SFU still owns. Its site says development parcels are leased for 99 years. Homes there are sold on a prepaid 99-year lease.",
-    feature: "Homes at UniverCity are strata homes on a prepaid lease, not regular freehold title. Lenders vary on leasehold homes, so ask about the lease terms early.",
+    feature: "",
     src: [
       ["City of Burnaby, short-term rentals", "https://www.burnaby.ca/our-city/programs-and-policies/housing/short-term-rentals"],
       ["City of Burnaby, zoning bylaw rewrite and small-scale multi-unit housing", "https://www.burnaby.ca/our-city/projects/zoning-bylaw-rewrite"],
@@ -74,7 +65,6 @@ export default {
       "Vancouver International Airport (YVR), Vancouver Airport Authority",
       "Richmond Hospital, Vancouver Coastal Health",
       "Richmond School District 38, public schools",
-      "City of Richmond, municipal employer"
     ],
     lenders: "",
     areas: [
@@ -107,7 +97,6 @@ export default {
       "University of British Columbia, Point Grey campus",
       "Vancouver School Board, public schools",
       "Vancouver Fraser Port Authority, Port of Vancouver",
-      "City of Vancouver, municipal employer"
     ],
     lenders: "Vancity says in its own financial statements that its registered office is at 183 Terminal Avenue, Vancouver.",
     areas: [
@@ -175,7 +164,6 @@ export default {
     employers: [
       "School District 43 (Coquitlam), district office in Coquitlam",
       "Douglas College, David Lam campus on Pinetree Way",
-      "City of Coquitlam, municipal employer"
     ],
     lenders: "Sharons Credit Union lists its head office in Coquitlam in its 2025 annual report.",
     areas: [
@@ -203,7 +191,6 @@ export default {
     str: "Port Coquitlam requires a Short-Term Rental Accommodation business licence application. The bylaw is Business Bylaw 3725. The City's form says the rental address must be the owner's principal residence. That means home for at least 183 days in a calendar year. It also says rented bedrooms cannot have cooking facilities. The form provides for renting one or two bedrooms.",
     suites: "The City's page says most RS1 to RS4 lots can have 3 to 6 units without rezoning. Its progress report says bylaws were adopted in June 2024. The amending bylaw is No. 4374. Most lots can have up to four units. Lots within 400 metres of a prescribed bus stop can have up to six. A detached coach house can be up to 90 square metres. It cannot contain a secondary suite. The Province's 2024 release gave the Lougheed/Shaughnessy Block area an extension to December 31, 2025. Check the City for where that stands.",
     employers: [
-      "City of Port Coquitlam, municipal employer",
       "Fraser Health, including Foundry Tri-Cities and a planned urgent and primary care centre",
       "School District 43 (Coquitlam), schools in Port Coquitlam",
       "CPKC (Canadian Pacific Kansas City), Port Coquitlam rail yard"

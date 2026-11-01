@@ -2,19 +2,9 @@ export default {
   "trail-castlegar": {
     str: "Trail: the City's zoning allows short-term rentals only in the R1 and R3 zones. Council must also have approved a site-specific rezoning. Bed and breakfasts in those zones must be inside the main detached home. For Trail's licence rules, ask the City. Castlegar: a City business licence is required for short-term rentals. The bylaw is No. 1337. Owners need proof of ownership and a local contact. Multi-unit buildings also need a strata letter. The City says it has no local principal-residence rule.",
     suites: "Trail: the City changed its zoning in June 2024. In the R1 and R3 zones, lots of 280 square metres or less may have up to 3 principal units. Larger lots may have 4. Suites are also allowed. Castlegar: the City's page says that as of July 2024, most residential lots can have up to 4 dwellings. Smaller lots can have up to 3. Check with each City before you rely on this.",
-    employers: [
-      "Trail: Teck Trail Operations, zinc and lead smelting and refining complex",
-      "Castlegar: Mercer Celgar, kraft pulp mill",
-      "Castlegar: Selkirk College, regional college with its main campus in the city",
-      "Castlegar: Interfor and Kalesnikoff, forestry firms named in the City's 2025 annual report"
-    ],
+    employers: ["Trail: Teck Trail Operations, zinc and lead smelting and refining complex","Castlegar: Mercer Celgar, kraft pulp mill","Castlegar: Selkirk College, regional college with its main campus in the city"],
     lenders: "Kootenay Savings Credit Union says on its own site that its corporate offices are in Trail.",
-    areas: [
-      { n: "Trail: Downtown and the Gulch", d: "Mixed-use commercial core where the City's community plan draft encourages multiple-unit homes." },
-      { n: "Castlegar: Downtown", d: "Mixed-use core of the city, shown as a Downtown area in the City's plan." },
-      { n: "Castlegar: Kinnaird", d: "Former town that joined Castlegar in 1974, now part of the city." },
-      { n: "Castlegar: Blueberry", d: "Residential neighbourhood that joined the city in 2004, covered in the City's plan work." }
-    ],
+    areas: [],
     land: "",
     feature: "Each town leans on one big industrial employer. In Trail it is the Teck smelter. In Castlegar it is the Mercer Celgar pulp mill. The City of Castlegar calls Mercer Celgar its biggest employer, so local incomes track those operations.",
     src: [
@@ -144,7 +134,6 @@ export default {
       "Rio Tinto BC Works, aluminum smelter the townsite was built for in the 1950s",
       "LNG Canada, liquefied natural gas export project",
       "Haisla Nation, majority owner of Cedar LNG",
-      "District of Kitimat, municipal government"
     ],
     lenders: "",
     areas: [
@@ -178,7 +167,6 @@ export default {
     employers: [
       "Prince Rupert Port Authority, operator of the Port of Prince Rupert",
       "DP World Prince Rupert, operator of the Fairview Container Terminal",
-      "City of Prince Rupert, municipal employer"
     ],
     lenders: "Northern Savings Credit Union says on its own site that its head office is in Prince Rupert.",
     areas: [
@@ -212,7 +200,6 @@ export default {
     employers: [
       "BC Hydro, builder of the Site C project on the Peace River near the city",
       "Oil and gas sector, named in a City study as the biggest regional influence",
-      "City of Fort St. John, municipal government"
     ],
     lenders: "",
     areas: [

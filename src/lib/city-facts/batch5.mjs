@@ -2,20 +2,11 @@ export default {
   "penticton": {
     str: "The City's business licence bylaw says a short-term rental applicant must show the unit is their principal residence. The bylaw is No. 2026-01. The City's rental guide says a short-term rental is 90 days or less. It allows up to 8 guests. Only the principal resident may offer one.",
     suites: "Penticton is covered by the Province's small-scale multi-unit housing rules. The City adopted Zoning Bylaw No. 2024-22 in June 2024. It allows up to 4 units per lot in its urban small-scale zones. Three kinds of land are exempt from that density rule. They are rural areas, zones with lots of 0.4 hectares or more, and unserviced lots. Check with the City.",
-    employers: [
-      "Interior Health, Penticton Regional Hospital",
-      "School District 67 (Okanagan Skaha), schools across the city",
-      "Okanagan College, Penticton campus",
-      "City of Penticton, municipal government"
-    ],
+    employers: ["Interior Health, Penticton Regional Hospital","School District 67 (Okanagan Skaha), schools across the city","Okanagan College, Penticton campus"],
     lenders: "",
-    areas: [
-      { n: "Downtown", d: "The City's transportation plan names it a main infill area, with multi-family housing." },
-      { n: "Skaha Lake Road corridor", d: "The City's transportation plan calls it an infill corridor, with a focus on multi-family housing." },
-      { n: "Wiltse and Columbia Heights", d: "Hilltop residential neighbourhoods. The City's transportation plan lists them as growth areas." }
-    ],
+    areas: [],
     land: "Penticton Indian Band reserve land borders the city on the west side. Satikw Crossing is band land leased out for development. It covers over 140 acres near Highway 97 and the airport. The band's development company says the Skaha Hills homes are sold on 99-year leases.",
-    feature: "Some of Penticton's west side and Skaha-area growth land is leased band land, not fee simple. Check the land tenure on each property before you plan the mortgage.",
+    feature: "",
     src: [
       ["City of Penticton, Business Licence Bylaw report", "https://www.penticton.ca/sites/default/files/docs/city-hall/news/Public%20Notices/2026/Business%20Lic%20Bylaw-Report%20to%20Council%20(2026-01-20).pdf"],
       ["City of Penticton, short-term rental guide", "https://www.penticton.ca/sites/default/files/docs/business-and-building/Business%20Licences/LIC-Short-Term-Rental-Guide-Bulletin-26-08-23v3.2.pdf"],
@@ -35,22 +26,11 @@ export default {
   "osoyoos-oliver": {
     str: "Osoyoos needs a licence for a short-term rental. That is under Business Licence Bylaw No. 1400, adopted in October 2025. Osoyoos asks applicants for proof that the home meets the provincial principal residence rule. Oliver needs a Town business licence for a vacation rental. Oliver's zoning bylaw sets the rest. In low-density residential and rural zones, only the owner may run one. The owner must live on the parcel. Each parcel is limited to one.",
     suites: "Osoyoos is covered by the Province's small-scale multi-unit housing rules. Osoyoos adopted Zoning Bylaw No. 1395 in September 2024. It allows up to 3 units on RS1 lots under 280 square metres. It allows up to 4 on larger lots. Check with the Town before you rely on this. Oliver is also covered. Oliver adopted its zoning bylaw in June 2024. It allows up to 4 units on lots that were single-family or duplex. Oliver's secondary suite rules are in section 6.7.",
-    employers: [
-      "Town of Osoyoos, municipal government",
-      "Interior Health, South Okanagan General Hospital, Oliver",
-      "Town of Oliver, municipal government"
-    ],
+    employers: ["Interior Health, South Okanagan General Hospital, Oliver"],
     lenders: "",
-    areas: [
-      { n: "Osoyoos, downtown area", d: "Mostly low-density detached homes, with some multi-family pockets, says the Town's community plan." },
-      { n: "Osoyoos, Dividend Ridge", d: "Low-density detached homes in the golf course area, says the Town's community plan." },
-      { n: "Osoyoos, southeast Lakeshore Drive", d: "An infill area for tourist commercial and resort condos. The Town's community plan calls it Area A6." },
-      { n: "Oliver, Town Centre", d: "Mixed-use centre along Main Street and Kootenay Street, with shops, public buildings and some homes." },
-      { n: "Oliver, low-density residential areas", d: "Single homes, duplexes, secondary suites and carriage homes, says the Town's community plan." },
-      { n: "Oliver, Fairview", d: "Bench land west of town. The Town's community plan describes it as rural, acreage-style living." }
-    ],
+    areas: [],
     land: "Osoyoos has Osoyoos Indian Band land on the east side of the lake, says the Town's community plan. That land includes the Nk'Mip resort area. Oliver's own plan says Osoyoos Indian Reserve No. 1 adjoins Oliver's eastern boundary. Check the land tenure on any home near the reserve.",
-    feature: "Both towns sit in a farm and vineyard landscape. Oliver's community plan steers homes away from Agricultural Land Reserve land. Check Agricultural Land Reserve status on acreage and edge-of-town properties.",
+    feature: "",
     src: [
       ["Town of Osoyoos, Business Licence Bylaw No. 1400", "https://www.osoyoos.ca/sites/osoyoos.ca/files/2025-08/Business%20Licence%20Bylaw%20No.%201400.pdf"],
       ["Town of Osoyoos, Zoning Bylaw No. 1395 report", "https://osoyoos.civicweb.net/FileStorage/60CF93DAA04548E69614AE5C408A2F61-COTW%20Report%20-%20Parcel%20Coverage%20Meadowlark.pdf"],
@@ -73,7 +53,6 @@ export default {
     suites: "The Province's 3 to 4 unit rule covers towns over 5,000 people. Keremeos is well under that. The Village's own zoning amendment aims at up to 3 units on serviced RS1 lots. Those are one house or duplex, one secondary suite and one accessory dwelling. The bylaw is No. 851-10. On floodplain parcels, only one of the suite or the accessory dwelling is allowed. The amendment passed third reading in November 2025. A December 2025 report said adoption was deferred. Check with the Village for its status.",
     employers: [
       "Interior Health, South Similkameen Health Centre",
-      "Village of Keremeos, municipal government",
       "Lower Similkameen Community Services Society, community services and social housing"
     ],
     lenders: "",
@@ -102,7 +81,6 @@ export default {
     suites: "Princeton is below the 5,000 population line for the Province's 3 to 4 unit rule. The Town changed its zoning bylaw in 2022. A lot may have one carriage house or one secondary suite, but not both. Suites must be 32 to 125 square metres. They can be no more than 40 percent of the main home. The Town's rules do not require the owner to live on site. Check with the Town before you rely on this.",
     employers: [
       "Copper Mountain Mine (Hudbay Minerals), an open-pit copper mine about 20 kilometres south of town. Its site says about 715 direct jobs.",
-      "Town of Princeton, municipal government"
     ],
     lenders: "",
     areas: [],
@@ -127,7 +105,6 @@ export default {
     str: "The District's licensing bylaw says a short-term rental needs a District licence. The bylaw is No. 1647. A rental may run only where zoning allows it, or under a Temporary Use Permit. The same guest cannot stay more than 28 days in a row. The District was working on a replacement licence bylaw in late 2025. Check its page for the current rules.",
     suites: "Invermere is under the 5,000 population line for the Province's 3 to 4 unit rule. Zoning Bylaw No. 1145 allows one secondary suite per lot. A suite inside the main home can use up to 40 percent of the floor space. It can be up to 90 square metres. A suite in an accessory building can be up to 75 square metres. In October 2025 District staff were told to look at dropping the owner-must-live-there rule for suites. Check with the District for the current status.",
     employers: [
-      "District of Invermere, municipal government"
     ],
     lenders: "",
     areas: [
@@ -152,13 +129,9 @@ export default {
   },
 
   "revelstoke": {
-    str: "A short-term rental in Revelstoke needs a City business licence. The City's zoning bylaw also limits who can run one. The bylaw is No. 2299. It must be an accessory use in a single-family home that has a secondary suite. It is never allowed in a garden or carriage suite. A permanent resident must run it and live in the home or the suite. Some vacation-rental zones and comprehensive development zones have their own rules. Check with the City.",
-    suites: "Revelstoke is covered by the Province's small-scale multi-unit housing rules. The City's Bill 44 zoning amendment is No. 2380. It allows up to 4 units on an R1 lot. One example is a two-family home with a suite in each unit. It allows up to 3 units on lots of 280 square metres or less. A secondary suite can be up to 90 square metres, and up to 40 percent of the usable floor space. We did not confirm when it was adopted, so check with the City.",
-    employers: [
-      "Revelstoke Mountain Resort, year-round mountain resort on Mount Mackenzie",
-      "BC Hydro, Revelstoke Dam and powerhouse north of the city",
-      "City of Revelstoke, municipal government"
-    ],
+    str: "Revelstoke needs a City business licence for a short-term rental. The City's zoning limits who can run one. The zoning bylaw is No. 2299. The rental must be a side use of a single-family home that has a secondary suite. A permanent resident must live in the home or the suite. Rentals are never allowed in a garden or carriage suite. Some resort and special zones have their own rules. Check with the City.",
+    suites: "Revelstoke is covered by the Province's small-scale multi-unit housing rules. The City changed its zoning in Bylaw No. 2380. An R1 lot can have up to 4 units. A lot of 280 square metres or less can have up to 3. A secondary suite can be up to 90 square metres and up to 40 percent of the floor space. We did not confirm when the change was adopted, so check with the City.",
+    employers: ["Revelstoke Mountain Resort, year-round mountain resort on Mount Mackenzie"],
     lenders: "",
     areas: [],
     land: "",
@@ -182,7 +155,6 @@ export default {
     suites: "Fernie is covered by the Province's small-scale multi-unit housing rules. A zoning amendment, adopted in June 2024, created the RSS Residential Small-Scale zone. The amendment is No. 2517. It also merged the older residential zones. It follows the Province's standard of up to 4 units per lot. Lots of 280 square metres or less get up to 3. Check with the City before you rely on this.",
     employers: [
       "Elk Valley Resources, four steelmaking coal mines in the Elk Valley. Its fact sheet says about 780 jobs in Fernie.",
-      "City of Fernie, municipal government"
     ],
     lenders: "",
     areas: [],

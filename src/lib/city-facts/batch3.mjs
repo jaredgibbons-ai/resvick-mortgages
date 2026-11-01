@@ -89,7 +89,6 @@ export default {
     str: "Squamish requires a District business licence for a short-term rental. The licence number must appear in each listing. The main rule is in Amendment Bylaw No. 2695, 2019. The rental must be in the operator's principal home. It is not allowed in a secondary suite, accessory dwelling or caretaker unit. The District's page says the cap of 30 permits for non-principal-home rentals has been reached. Check the page for current rules.",
     suites: "The District's housing page shows Amendment Bylaw No. 3036, 2024 as adopted. It covers small-scale multi-unit housing. The District dates it to June 2024. It created a new R-1 zone in place of the old RS-1, RS-2 and RS-3 zones. Lots that allowed one home plus an accessory unit may now fit up to four principal homes. That depends on zoning and site.",
     employers: [
-      "District of Squamish, municipal government"
     ],
     lenders: "",
     areas: [
@@ -114,7 +113,6 @@ export default {
     suites: "Whistler adopted a zoning change for small-scale multi-unit housing in June 2024. The bylaw is No. 2440. It lets residential parcels hold 3 to 4 homes. Municipal documents count about 3,035 parcels in scope. The municipality says these homes are residential. They do not add nightly rental rights.",
     employers: [
       "Whistler Blackcomb (Vail Resorts), named by the municipality as the town's largest employer",
-      "Resort Municipality of Whistler, municipal government",
       "Whistler Housing Authority, municipal housing subsidiary"
     ],
     lenders: "",
