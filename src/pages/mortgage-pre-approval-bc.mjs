@@ -28,7 +28,7 @@ ${short({ answer: "A real pre-approval means a lender has checked your income, c
 ${cta({ title: "Want to know your real number before you shop?", text: "Book a 15-minute call. Joshua will tell you what documents to bring and how he would structure your pre-approval." })}
 
 <h2>Documents by employment type</h2>
-<p>The checklist depends on how you earn your income. These lists are a general guide, and a specific lender may ask for more. The <a href="/mortgage-application-checklist/">application checklist</a> goes into the six issues that most often sink applications. For a printable version with boxes to tick, get the <a href="/mortgage-document-checklist/">free document checklist</a>.</p>
+<p>The checklist depends on how you earn your income. These lists are a general guide, and a specific lender may ask for more. The <a href="/mortgage-application-checklist/">application checklist</a> goes into the six issues that most often sink applications. For a printable version with boxes to tick, get the <a href="/mortgage-document-checklist/">free document checklist</a>. To see the steps that follow, read <a href="/what-happens-after-you-apply/">what happens after you apply</a>.</p>
 <h3>Employed, salary or hourly</h3>
 <ul>
 <li>Government-issued photo ID.</li>

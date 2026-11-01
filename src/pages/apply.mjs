@@ -7,6 +7,7 @@ const choice = (key, q, opts, extra = "") => `<div class="choice${opts.length > 
 const form = `
 <div class="form-card wizard" data-nocount>
 <p class="small"><strong>Nothing sensitive is asked for here.</strong> No social insurance number, no date of birth, no account numbers, no documents. Those come later, through a secure link I send you, never through a web form.</p>
+<p class="small">Wondering what happens after you send it? Read <a href="/what-happens-after-you-apply/">the steps, one by one</a>.</p>
 <form data-lead="apply" data-steps data-save="rm-apply" data-success="Thanks. I have your application summary." novalidate>
 <div class="wiz-top"><span data-progress>Step 1 of 6</span><span class="wiz-bar"><i data-bar></i></span></div>
 <p class="small" data-restored hidden>Welcome back. I kept your answers from last time on this device. Use Start over if you'd rather begin fresh.</p>

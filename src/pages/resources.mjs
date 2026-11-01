@@ -7,7 +7,7 @@ import { esc, cta } from "../lib/site.mjs";
 const GROUPS = [
   ["Buying your first home", "Start here if you haven't owned before. Programs, down payment, closing costs and the order to do things in.", [
     "/first-time-home-buyer-bc/", "/first-time-buyer-programs-bc/", "/mortgage-pre-approval-bc/", "/how-much-mortgage-can-i-afford/", "/down-payment-guide-bc/",
-    "/buying-with-5-percent-down/", "/gifted-down-payment/", "/deposit-loan-and-borrowed-down-payment/", "/closing-costs-bc/", "/partners/", "/mortgage-application-checklist/", "/mortgage-document-checklist/",
+    "/buying-with-5-percent-down/", "/gifted-down-payment/", "/deposit-loan-and-borrowed-down-payment/", "/closing-costs-bc/", "/partners/", "/mortgage-application-checklist/", "/mortgage-document-checklist/", "/what-happens-after-you-apply/",
     "/co-buying-a-home/", "/mortgage-with-a-cosigner/", "/car-loan-affecting-mortgage/", "/presale-mortgages-bc/", "/purchase-plus-improvements/", "/rent-to-own-homes-bc/"]],
   ["Renewing your mortgage", "Your renewal letter is an offer, not a verdict. How to compare, when to start and how switching works.", [
     "/mortgage-renewal-bc/", "/mortgage-renewal-rates-bc/", "/switch-mortgage-lenders-at-renewal/", "/stress-test-exemption-switching-lenders/", "/early-mortgage-renewal/",

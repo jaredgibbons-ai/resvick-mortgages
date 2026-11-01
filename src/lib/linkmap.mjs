@@ -64,6 +64,8 @@ export const SLUGS = `/
 /mortgage-aftercare-program/
 /mortgage-application-checklist/
 /mortgage-document-checklist/
+/terms-of-use/
+/what-happens-after-you-apply/
 /mortgage-broker-abbotsford/
 /mortgage-broker-burnaby/
 /mortgage-broker-west-kelowna/

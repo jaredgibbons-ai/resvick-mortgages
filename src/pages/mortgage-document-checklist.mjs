@@ -70,6 +70,9 @@ ${form}
 <p>A renewal needs far less. Most lenders want your latest mortgage statement and your renewal letter. If you are switching to a new lender, expect a request for income proof and property tax paper, because the new lender must approve you from scratch. A refinance asks for the full set, and it usually adds an appraisal. The guides on <a href="/mortgage-renewal-bc/">mortgage renewal</a> and <a href="/refinance-mortgage-bc/">refinancing</a> explain how each one works.</p>
 <p>If you rent out part of your home, bring the lease and be ready to show how the suite is set up. The page on <a href="/how-much-suite-income-will-a-lender-count/">how much suite income a lender will count</a> explains why the legal status of the suite matters.</p>
 
+<h2>What happens next</h2>
+<p>Wondering what comes after the paperwork? The page on <a href="/what-happens-after-you-apply/">what happens after you apply</a> walks through each step, from the first call to the keys.</p>
+
 <h2>Keep your documents safe</h2>
 <p>Mortgage paper holds your most private details. Please do not email it, and do not put it in a web form. Joshua sends a secure upload link when he needs a document, and he asks only for what the lender requires.</p>
 <p>The form on this page asks for your name, your email and a few simple answers. It does not take attachments. Your details are used to reply to you and, if you tick the optional box, to send rate updates and tips. They are not sold. An unsubscribe link sits in every marketing email. The <a href="/privacy/">privacy policy</a> has the full detail.</p>
