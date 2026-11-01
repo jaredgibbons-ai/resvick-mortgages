@@ -66,7 +66,7 @@ def footer(page):
     c.setStrokeColor(RULE); c.setLineWidth(0.6); c.line(M, 66, W - M, 66)
     c.setFillColor(MUTED); c.setFont("Helvetica", 7.4)
     lines = [
-        "Resvick Mortgages, Joshua Resvick, Mortgage Broker, Xeva Mortgage, #106-2626 Croydon Drive, Surrey, BC",
+        "Resvick Mortgages, Joshua Resvick, Mortgage Broker, Xeva Mortgage, #106, 2626 Croydon Drive, Surrey, BC",
         "BCFSA Brokerage Licence #X300203  |  Broker Licence #MB503619",
         "778.882.5674  |  joshua@resvickmortgages.com  |  resvickmortgages.com  |  General information, not advice on your file. Lists vary by lender.",
     ]
