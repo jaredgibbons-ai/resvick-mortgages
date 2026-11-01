@@ -211,7 +211,7 @@ export default {
       { n: "Lakeview Heights", d: "A priority infill area with larger lots that suit carriage houses or multi-plexes." }
     ],
     mix: "The 2021 Census, in the City's interim housing report, shows about 83 percent of West Kelowna households owned their home. Single-detached houses were about 68 percent of homes.",
-    land: "Westbank First Nation has governed itself since 2005. Buyers on Westbank Lands usually get a long-term sublease under a head lease, not fee simple title. Terms are often 99 or 125 years. Mortgages are registered in the First Nation's own Lands Registry. Lender acceptance varies by development, so ask early.",
+    land: "Westbank First Nation has governed itself since 2005. Buyers on Westbank Lands often get a long-term sublease under a head lease, not fee simple title. Mortgages are registered in the First Nation's own Lands Registry. Lender acceptance varies by development, so ask early.",
     feature: "The City's plan sends most new homes to two urban centres and five neighbourhood centres. Infill, such as suites and carriage houses, is a main way new homes get added.",
     src: [
       ["City of West Kelowna short-term rental operator guidebook", "https://www.westkelownacity.ca/media/4capfz3j/str-operator-guidebook.pdf"],

@@ -222,7 +222,7 @@ export default {
 
   "fort-st-john": {
     str: "Fort St. John's zoning bylaw bans commercial temporary accommodation in residential zones. The City's 2024 housing report says short-term rentals are not allowed in residential areas. A bed and breakfast is allowed as part of a home business. It can have up to 3 guest rooms. No guest can stay more than 30 days. The City's licence page gives no short-term rental rule, so check with the City.",
-    suites: "The City's housing legislation page covers low-density lots. Those are zones R-1, R-1A, R-2, R-4 and R-4A. They can have up to 4 units. The 4 units are a main home plus suites or detached suites. The City's zoning bylaw shows Bylaw No. 2596 was adopted on June 24, 2024. The R-1 and R-2 tables now show 4 units on a parcel with municipal services. Check with the City on your lot.",
+    suites: "The City's housing legislation page covers low-density lots. Those are zones R-1, R-1A, R-2, R-4 and R-4A. They can have up to 4 units. The 4 units are a main home plus suites or detached suites. The R-1 and R-2 tables now show 4 units on a parcel with municipal services. Check with the City on your lot.",
     employers: [
       "Northern Health, runs Fort St. John Hospital and Peace Villa",
       "Northern Lights College, regional college with a Fort St. John campus",
