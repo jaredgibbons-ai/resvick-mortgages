@@ -69,3 +69,36 @@ Rules:
 - Run `cd /home/claude/site && node tools/long-sentences.mjs 20` and fix any line for your keys until none are listed for them. Run `node tools/lint-city-facts.mjs` and fix any flag for your keys. Do not run build.mjs.
 
 Report back in under 60 words: keys done, and anything you had to drop.
+
+---
+# THIRD TASK: verify what was missing, and fill thin pages (you may use WebSearch and WebFetch)
+
+Jared (the site owner) wants (a) every item that was "NOT VERIFIED" or doubtful checked against official sources, and (b) no thin city pages. Work only on the keys in your task, editing your own batchN.mjs in place.
+
+## How to research
+- WebFetch only works for URLs that appeared in a WebSearch result or that you were given. So run WebSearch first (use `allowed_domains` for the town's own site, gov.bc.ca, statcan.gc.ca, or the employer or lender's own site), then WebFetch the URL the search returned. If a fetch is refused, search again for a page that lists the same URL, or try a different official page. Never use curl or a mirror.
+- Official or primary sources only: the municipality, its bylaws and council reports, the Province, Statistics Canada, a First Nation's own site, an employer's or lender's own site, a regional health authority or school district. No real-estate sites, news, blogs, directories, or MLS.
+- A fact goes in only if the page you read states it. Quote nothing; write it in your own words.
+- The original Muse research for your batch is in /mnt/user-data/attachments/c6108ecc-be23-57da-85b3-b9412cbf34c5/ (the file named in the first task). Its consolidated "NOT VERIFIED" list at the end, and each key's `omitted` array in your file, are your to-do list.
+
+## Part A: verify
+For every NOT VERIFIED or doubtful item for your keys, try to confirm it from an official page. If confirmed, add it to the right field (with a source in `src`). If it cannot be confirmed, leave it out and keep a short note in `omitted`. Specific items to try, where they apply to your keys: bylaw numbers and adoption dates for short-term rental and small-scale multi-unit housing rules; the Trail small-scale multi-unit housing bylaw (Zoning Amendment Bylaw No. 2944, adopted June 24, 2024: confirm on trail.ca or its council minutes); Coquitlam, Langley City, Delta, Surrey, Terrace, Fort St. John, Kitimat, Prince George short-term rental rules; Keremeos Bylaw 851-10 status; Nanaimo's amending bylaw number; Revelstoke Bylaw 2380 adoption date; Invermere Bylaw 1647 adopted text; Saanich short-term rental status; Langley Township adoption date; Vernon lender head office (current page); Kamloops Sun Rivers lease terms from the Nation or its official sources; Comox's own rules (Comox is covered by the `courtenay` key).
+
+## Part B: fill thin pages
+Target for every key (use `node tools/facts-coverage.mjs`, which lists what is still missing):
+- `employers`: at least 4 named local employers or institutions, each from the town's own economic profile, official community plan, major-employers list, or the employer's own site. Hospitals, school districts, colleges and large private employers count. Do not list the municipality itself as an employer unless you need it to reach 4.
+- `areas`: at least 4 neighbourhoods, each with what housing it mostly has, from the official community plan, neighbourhood plans or the town's own pages. Restore any that were cut. Skip anything whose source does not state the housing type.
+- `mix` (NEW field, one to three short sentences): the town's housing mix from an official housing needs report, the town's OCP, or Statistics Canada (share of homes owned and rented, and the main home types). Name the source year in the sentence ("The 2021 Census shows..."). Write numbers as words plus "percent". Skip if you cannot find it.
+- `str`: the town's own short-term rental rule. If you have searched and the town truly has no local rule beyond the Province, say so in one sentence ("X has no short-term rental bylaw beyond the Province's, per its zoning page"), only if an official page supports that. Otherwise leave it empty and note it in `omitted`.
+- `land`: leased, treaty or reserve land that touches the town, with what it means for a mortgage (title is a lease or band land; lenders vary). Optional: leave empty if nothing exists.
+- `lenders`: only if a bank, credit union or trust company has its head office in town, shown on its own site or filings.
+- `feature`: one local fact that changes mortgage files (flood, ALR, leasehold, strata, one big employer, seasonal pay, etc.).
+- Add every page you used to `src` (official URLs only, no spaces or tracking parameters; percent-encoding is fine). Keep `src` to 6 entries or fewer per key.
+
+## Readability budget (strict)
+These pages already sit near the reading-grade limit. New text must be easier than the page, about grade 6 to 7: sentences of 12 words or fewer when you can, never more than 20, common words, one idea per sentence, no stacked clauses, bylaw numbers in their own short sentence (max 2 per key). Names of places, bylaws and organizations cannot be simplified, so use fewer of them per sentence.
+After editing, for EACH of your keys run `cd /home/claude/site && node tools/readability.mjs src/pages/mortgage-broker-<page>.mjs` (pages: use the key, except `courtenay` -> mortgage-broker-courtenay, `langley` -> mortgage-broker-langley, `osoyoos-oliver`, `trail-castlegar`, `north-vancouver` as-is). The printed `grade=` must be 8.5 or lower. If it is higher, simplify your own new text, or trim the least useful item, until it passes. Also run `node tools/long-sentences.mjs 20` and `node tools/lint-city-facts.mjs` and fix anything listed for your keys. If another batch file is mid-edit and fails to load, wait ten seconds and retry; do not touch other batch files.
+Style rules from the first two tasks still apply: no em dashes or en dashes, no "!", no percent signs (write "percent"), no dollar amounts, no hype, hedge rules ("check with the City"), never name a mortgage broker, no mortgage rates or home prices, and never the words "batch", "research", "Muse".
+
+## Report back (under 120 words)
+Per key: what you confirmed, what you added, and what is still missing and why. Include the final `grade=` for each page.

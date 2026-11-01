@@ -54,7 +54,11 @@ export const cityFacts = (k) => {
   h += `\n<h3>Suites and small multi-unit housing</h3><p>${esc(dot(d.suites))}</p>`;
   h += `\n<h3>Empty-home tax</h3><p>${esc(svtLine(k))}</p>`;
   if (d.employers && d.employers.length) h += `\n<h3>Who employs people in ${esc(name)}</h3><ul>${d.employers.map((e) => `\n<li>${esc(dot(e))}</li>`).join("")}</ul>`;
-  if (d.areas && d.areas.length) h += `\n<h3>Neighbourhoods and the homes in them</h3><ul>${d.areas.map((a) => `\n<li><strong>${esc(a.n)}.</strong> ${esc(dot(a.d))}</li>`).join("")}</ul>`;
+  if ((d.areas && d.areas.length) || d.mix) {
+    h += `\n<h3>Neighbourhoods and the homes in them</h3>`;
+    if (d.mix) h += `\n<p>${esc(dot(d.mix))}</p>`;
+    if (d.areas && d.areas.length) h += `<ul>${d.areas.map((a) => `\n<li><strong>${esc(a.n)}.</strong> ${esc(dot(a.d))}</li>`).join("")}</ul>`;
+  }
   if (d.land) h += `\n<h3>Leased, treaty and reserve land</h3><p>${esc(dot(d.land))}</p>`;
   if (d.lenders) h += `\n<h3>Lenders based in ${esc(name)}</h3><p>${esc(dot(d.lenders))} Joshua compares these with the banks and other lenders, since each one sets its own rules.</p>`;
   if (d.feature) h += `\n<h3>One thing that changes mortgage files here</h3><p>${esc(dot(d.feature))}</p>`;
