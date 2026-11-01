@@ -1,7 +1,7 @@
 export default {
   "burnaby": {
-    str: "Burnaby requires a short-term rental business licence (Business Licence Bylaw 13809, Schedule G). Only homeowners can host, so tenants cannot, even with landlord permission. The City's page says rentals are not allowed in secondary suites, and caps hosting at 90 nights a year for part of the home, with up to 28 of those nights for the whole home.",
-    suites: "Burnaby Council adopted its small-scale multi-unit housing rules on June 10, 2024, and rezoned all R District lots. The City's page says eligible lots can have 3 to 6 units, depending on lot area and distance to a frequent-transit bus stop, and secondary suites count in that total. The City adopted a new Zoning Bylaw (No. 14815) in June 2026, so check the City's site for current details.",
+    str: "Burnaby requires a short-term rental business licence. The rule sits in Business Licence Bylaw 13809, Schedule G. Only homeowners can host, so tenants cannot, even with landlord permission. The City's page says rentals are not allowed in secondary suites. Hosts can rent part of the home for up to 90 nights a year. Up to 28 of those nights can be for the whole home.",
+    suites: "Burnaby Council adopted its small-scale multi-unit housing rules on June 10, 2024. It rezoned all R District lots. The City's page says eligible lots can have 3 to 6 units. The number depends on lot area and distance to a frequent-transit bus stop. Secondary suites count in that total. The City adopted a new Zoning Bylaw in June 2026. It is No. 14815. Check the City's site for current details.",
     employers: [
       "Simon Fraser University, Burnaby campus",
       "BCIT, main campus on Willingdon Avenue",
@@ -9,12 +9,12 @@ export default {
       "Burnaby Hospital, Fraser Health",
       "Electronic Arts (EA Canada), game studio on Sanderson Way"
     ],
-    lenders: "GVC Credit Union lists its administration office in Burnaby on its own contact page and calls Burnaby its head office.",
+    lenders: "GVC Credit Union lists its administration office in Burnaby on its own contact page. It calls Burnaby its head office.",
     areas: [
       { n: "Metrotown", d: "The City's planning page describes residential growth here as mostly high-rise buildings." },
       { n: "Brentwood, Lougheed and Edmonds", d: "The City's planning page describes new homes here as mostly apartments, from mid-rise to high-rise towers." }
     ],
-    land: "UniverCity, beside SFU on Burnaby Mountain, is on land that SFU still owns. Its site says development parcels are leased for 99 years, and homes there are sold on a prepaid 99-year lease.",
+    land: "UniverCity, beside SFU on Burnaby Mountain, is on land that SFU still owns. Its site says development parcels are leased for 99 years. Homes there are sold on a prepaid 99-year lease.",
     feature: "Homes at UniverCity are strata homes on a prepaid lease, not regular freehold title. Lenders vary on leasehold homes, so ask about the lease terms early.",
     src: [
       ["City of Burnaby, short-term rentals", "https://www.burnaby.ca/our-city/programs-and-policies/housing/short-term-rentals"],
@@ -33,8 +33,8 @@ export default {
   },
 
   "new-westminster": {
-    str: "New Westminster does not have a stand-alone short-term rental licence. The City's page says short-term rental is only allowed through a Bed and Breakfast business licence. The operator must live on site, guests stay under 90 days, and landlord or strata permission is needed first. A bed and breakfast is not allowed in a laneway house or detached accessory dwelling.",
-    suites: "The City's guide says a house can have one secondary suite, and a lot can also have a laneway or carriage house. In June 2026, Council adopted changes allowing up to six infill units (suites, laneway homes, triplexes, quadplexes and similar) on most house and duplex lots, in new RGO-A (up to four units) and RGO-B (up to six units) zones. The City's page says Queensborough was left out of the first round of pre-zoning, so check the City before you rely on this (Amendment Bylaw 8578, 2026).",
+    str: "New Westminster does not have a stand-alone short-term rental licence. The City's page says short-term rental is only allowed with a Bed and Breakfast business licence. The operator must live on site. Guests must stay under 90 days. Landlord or strata permission is needed first. A bed and breakfast is not allowed in a laneway house or detached accessory dwelling.",
+    suites: "The City's guide says a house can have one secondary suite. A lot can also have a laneway or carriage house. In June 2026, Council adopted changes for most house and duplex lots. They allow up to six infill units, such as suites, laneway homes, triplexes, quadplexes and similar homes. The new zones are RGO-A, with up to four units, and RGO-B, with up to six units. The City's page says Queensborough was left out of the first round of pre-zoning. Check with the City before you rely on this. The amending bylaw is No. 8578, 2026.",
     employers: [
       "Royal Columbian Hospital, Fraser Health regional hospital",
       "Douglas College, campuses in New Westminster and Coquitlam",
@@ -47,10 +47,10 @@ export default {
       { n: "Queen's Park", d: "Mostly heritage detached houses. It is a Heritage Conservation Area, so exterior changes need a heritage permit." },
       { n: "Queensborough", d: "Detached houses on the eastern tip of Lulu Island, plus several townhome projects built from 2016 to 2020." },
       { n: "Connaught Heights", d: "Lower-density detached houses. The City's 2021 census findings show the lowest population density in the city." },
-      { n: "McBride Sapperton", d: "Includes the Brewery District, where the City notes many large new housing projects were finished from 2016 to 2020." }
+      { n: "McBride Sapperton", d: "Includes the Brewery District, where the City notes many large housing projects finished from 2016 to 2020." }
     ],
     land: "",
-    feature: "A single New Westminster lot can legally have both a secondary suite and a laneway or carriage house. If you want rental income counted, expect to show that each unit is authorized, since paying the City's suite utility charge does not make a suite legal.",
+    feature: "A single New Westminster lot can legally have both a secondary suite and a laneway or carriage house. To count rental income, expect to show that each unit is authorized. Paying the City's suite utility charge does not make a suite legal.",
     src: [
       ["City of New Westminster, short-term rentals and bed and breakfasts", "https://www.newwestcity.ca/business_licences/sb_expander_articles/6677.php"],
       ["City of New Westminster, development projects and infill housing", "https://www.newwestcity.ca/devprojects"],
@@ -68,8 +68,8 @@ export default {
   },
 
   "richmond": {
-    str: "Richmond requires a City licence to rent part of a home for under 90 consecutive days, either a Bed and Breakfast or a Boarding and Lodging licence (Business Licence Bylaw 7360). The City's page says you must live in the home, and renting a whole house or unit for under 90 days is not allowed. Under the Boarding and Lodging licence, rentals are also not allowed in a secondary suite, coach house or granny flat.",
-    suites: "Richmond adopted its small-scale multi-unit housing rules on June 24, 2024 (Amendment Bylaw 10573), pre-zoning almost 27,000 house and duplex lots. The City's page says lots can have a secondary suite and/or coach house, and pre-zoned lots can have 3 to 6 units, with up to 6 within 400 metres of a prescribed bus stop. The Province's 2024 release gave an extension for part of Steveston only.",
+    str: "Richmond requires a City licence to rent part of a home for under 90 consecutive days. The licence is either a Bed and Breakfast or a Boarding and Lodging licence. The rule sits in Business Licence Bylaw 7360. The City's page says you must live in the home. Renting a whole house or unit for under 90 days is not allowed. Under the Boarding and Lodging licence, rentals are also not allowed in a secondary suite, coach house or granny flat.",
+    suites: "Richmond adopted its small-scale multi-unit housing rules on June 24, 2024. The bylaw is Amendment Bylaw 10573. It pre-zoned almost 27,000 house and duplex lots. The City's page says lots can have a secondary suite, a coach house, or both. Pre-zoned lots can have 3 to 6 units. Up to 6 units are allowed within 400 metres of a prescribed bus stop. The Province's 2024 release gave an extension for part of Steveston only.",
     employers: [
       "Vancouver International Airport (YVR), Vancouver Airport Authority",
       "Richmond Hospital, Vancouver Coastal Health",
@@ -78,11 +78,11 @@ export default {
     ],
     lenders: "",
     areas: [
-      { n: "City Centre", d: "The City's area plan provides for townhouses plus mid-rise and high-rise apartments, with dense mixed-use zones." },
-      { n: "Steveston", d: "A village and waterfront area plan, whose policies mention single-family homes along the waterfront." },
-      { n: "Broadmoor", d: "The City plans sub-areas here, and its plan allows townhouses within 800 metres of the Broadmoor shopping centre." }
+      { n: "City Centre", d: "The City's area plan allows townhouses, plus mid-rise and high-rise apartments, in dense mixed-use zones." },
+      { n: "Steveston", d: "A village and waterfront area plan. Its policies mention single-family homes along the waterfront." },
+      { n: "Broadmoor", d: "The City plans sub-areas here. Its plan allows townhouses within 800 metres of the Broadmoor shopping centre." }
     ],
-    land: "A Province of BC document lists Sea Island Indian Reserve No. 3, a Musqueam reserve of about 6.5 hectares, on the northwest corner of Sea Island. Reserve land follows different tenure rules than regular titled land, so ask a lender early if a property is on it.",
+    land: "A Province of BC document lists Sea Island Indian Reserve No. 3. It is a Musqueam reserve of about 6.5 hectares. It sits on the northwest corner of Sea Island. Reserve land follows different tenure rules than regular titled land. If a property is on it, ask a lender early.",
     feature: "The City says Richmond sits about 1 metre above sea level and is protected by 49 km of dikes. Flood risk and flood insurance are worth checking for each address.",
     src: [
       ["City of Richmond, residential rentals and short-term rental bylaws", "https://richmond.ca/city-hall/bylaws/property/residentalregs/residentialrentals.htm?PageMode=HTML"],
@@ -100,8 +100,8 @@ export default {
   },
 
   "vancouver": {
-    str: "Vancouver requires a City short-term rental business licence for stays under 90 consecutive days (Licence By-law 4450). The City's page says each person can hold only one licence, and strata or landlord approval is needed before you apply. The zoning by-law allows short-term rental only in a lawful dwelling unit, secondary suite, laneway house or lock-off unit that is the operator's principal residence.",
-    suites: "Most former single-family (RS) lots are now zoned R1-1 (Amending By-law 13817, enacted October 17, 2023). The City's schedule says an R1-1 lot can have a multiplex of up to 6 units, or up to 8 rental units. A detached house can have one secondary suite plus a laneway house, but a suite cannot be strata titled and an unpermitted suite is not a legal unit.",
+    str: "Vancouver requires a City short-term rental business licence for stays under 90 consecutive days. The rule sits in Licence By-law 4450. The City's page says each person can hold only one licence. Strata or landlord approval is needed before you apply. The zoning by-law allows short-term rental only in the operator's principal residence. That home must be a lawful dwelling unit, secondary suite, laneway house or lock-off unit.",
+    suites: "Most former single-family (RS) lots are now zoned R1-1. This came from Amending By-law 13817, enacted October 17, 2023. The City's schedule says an R1-1 lot can have a multiplex of up to 6 units. Up to 8 rental units are also allowed. A detached house can have one secondary suite plus a laneway house. A suite cannot be strata titled. An unpermitted suite is not a legal unit.",
     employers: [
       "Vancouver Coastal Health, regional health authority",
       "University of British Columbia, Point Grey campus",
@@ -116,8 +116,8 @@ export default {
       { n: "Kerrisdale", d: "City census data shows single-detached houses are the largest share of homes, about half." },
       { n: "Killarney", d: "The City describes it as mostly single-family homes, with some multi-family housing." }
     ],
-    land: "UBC campus neighbourhoods sit on prepaid 99-year leases, per UBC planning. In False Creek South, about 1,800 homes are on leased City-owned land, and most leases end between 2036 and 2046. The Province says Heather Lands homes are planned as 99-year strata leases on land owned by the Musqueam, Squamish and Tsleil-Waututh Nations, while Sen̓áḵw on Squamish reserve land is rental housing.",
-    feature: "A City survey found that most Vancouver homes are apartments or condos, so many files involve a strata building. Leasehold pockets such as UBC and False Creek South need the lease terms checked with a lender early.",
+    land: "UBC campus neighbourhoods sit on prepaid 99-year leases, per UBC planning. In False Creek South, about 1,800 homes are on leased City-owned land. Most of those leases end between 2036 and 2046. The Province says Heather Lands homes are planned as 99-year strata leases. That land is owned by the Musqueam, Squamish and Tsleil-Waututh Nations. Sen̓áḵw is on Squamish reserve land and is rental housing.",
+    feature: "A City survey found that most Vancouver homes are apartments or condos, so many files involve a strata building. Leasehold pockets such as UBC and False Creek South need early checks. Ask a lender about the lease terms.",
     src: [
       ["City of Vancouver, short-term rentals", "https://vancouver.ca/doing-business/short-term-rentals.aspx"],
       ["City of Vancouver, Amending By-law 13817 (R1-1 multiplex zoning)", "https://bylaws.vancouver.ca/consolidated/13817.pdf"],
@@ -134,8 +134,8 @@ export default {
   },
 
   "north-vancouver": {
-    str: "City of North Vancouver: a business licence has been required since October 1, 2024 (Bylaw 8640). Only individuals can hold it, they must live in the home at least 183 days per licensing period, and renting the whole home is capped at 182 days. District of North Vancouver: a District licence is required, and tenants and strata owners need written permission. The District's April 2025 council package says rentals are for the operator's principal residence only, but it showed the bylaws still at final readings, so check the District's page.",
-    suites: "City: Council adopted new rules on December 8, 2025 (Bylaw 9137) for single-family lots, allowing 3 units on lots of 280 square metres or less and 4 to 6 units on larger lots, depending on the Official Community Plan area. District: a detached lot can have a house, a secondary suite and a coach house, up to three units, and the suite must be inside the main house. The District's page said Council was due to adopt a zoning rewrite on July 20, 2026, and its zoning guide does not list multiplexes on detached lots, so check where it stands.",
+    str: "City of North Vancouver: a business licence has been required since October 1, 2024. The City's bylaw is No. 8640. Only individuals can hold the licence. They must live in the home at least 183 days per licensing period. The City caps renting the whole home at 182 days. District of North Vancouver: a District licence is required. Tenants and strata owners need written permission. The District's April 2025 council package says rentals are for the operator's principal residence only. It showed the bylaws still at final readings, so check the District's page.",
+    suites: "City of North Vancouver: Council adopted new small-scale multi-unit housing rules on December 8, 2025. The bylaw is No. 9137. It covers single-family lots. Lots of 280 square metres or less can have 3 units. Larger lots can have 4 to 6 units, depending on the Official Community Plan area. District of North Vancouver: a detached lot can have a house, a secondary suite and a coach house. That is up to three units. The suite must be inside the main house. The District's page said Council was due to adopt a zoning rewrite on July 20, 2026. Its zoning guide does not list multiplexes on detached lots. Check where it stands.",
     employers: [
       "Seaspan Vancouver Shipyards, City waterfront shipyard",
       "Lions Gate Hospital, Vancouver Coastal Health, City",
@@ -152,8 +152,8 @@ export default {
       { n: "Edgemont (District)", d: "One of six village centres in the District's plan, surrounded mostly by detached houses." },
       { n: "Deep Cove (District)", d: "A waterfront village centre in the District's plan, surrounded mostly by detached houses." }
     ],
-    land: "In the District, Tsleil-Waututh Nation reserve land has almost 1,300 condominiums and townhouses built since the early 1990s by Takaya Developments, which the Nation mostly owns. The Nation says owners in Raven Woods and Seymour Village buy on long-term leases. Squamish Nation's Capilano Indian Reserve No. 5 also has International Plaza, a rental complex of 471 homes.",
-    feature: "The Tsleil-Waututh Nation's land registry says mortgages on its reserve lands are registered through the Nation's own Lands Office under its Land Code, and BC Land Title Office forms are not accepted. Ask your lender early if a home is in Raven Woods or Seymour Village.",
+    land: "In the District, Tsleil-Waututh Nation reserve land has almost 1,300 condominiums and townhouses. Takaya Developments built them since the early 1990s. The Nation mostly owns Takaya. The Nation says owners in Raven Woods and Seymour Village buy on long-term leases. Squamish Nation's Capilano Indian Reserve No. 5 also has International Plaza. It is a rental complex of 471 homes.",
+    feature: "The Tsleil-Waututh Nation's land registry says mortgages on its reserve lands are registered through the Nation's own Lands Office. This is done under its Land Code. BC Land Title Office forms are not accepted. Ask your lender early if a home is in Raven Woods or Seymour Village.",
     src: [
       ["City of North Vancouver, short-term rental FAQ", "https://www.cnv.org/-/media/City-of-North-Vancouver/Documents/Business-Licences/Short-Term-Rentals/STR-Frequently-Asked-Questions-City-of-North-Vancouver.pdf"],
       ["District of North Vancouver, short-term rental council package", "https://app.dnv.org/OpenDocument/Default.aspx?docNum=6506926"],
@@ -171,7 +171,7 @@ export default {
 
   "coquitlam": {
     str: "",
-    suites: "Coquitlam Council adopted its small-scale multi-unit housing rules in June 2025 (Bylaw 5449), and the City says it is not exempt. Its page says lots of 280 square metres or smaller can have up to 3 units, and larger lots under 4,050 square metres (1 acre) can have up to 4. Allowed forms include duplexes, triplexes, fourplexes, secondary suites, carriage houses and garden cottages.",
+    suites: "Coquitlam Council adopted its small-scale multi-unit housing rules in June 2025. The bylaw is No. 5449. The City says it is not exempt. Its page says lots of 280 square metres or smaller can have up to 3 units. Larger lots under 4,050 square metres (1 acre) can have up to 4. Allowed forms include duplexes, triplexes, fourplexes, secondary suites, carriage houses and garden cottages.",
     employers: [
       "School District 43 (Coquitlam), district office in Coquitlam",
       "Douglas College, David Lam campus on Pinetree Way",
@@ -183,8 +183,8 @@ export default {
       { n: "Burquitlam-Lougheed", d: "City planning near the SkyTrain stations proposes townhouses and medium- and high-density apartments beside existing single-family areas." },
       { n: "Maillardville", d: "Planned for attached homes. The City's report describes single-family houses with townhouses on nearby lots." }
     ],
-    land: "Kwikwetlem First Nation's slakəyánc (Coquitlam Indian Reserve 1) is about 6.5 acres in Coquitlam, where the Coquitlam River meets the Fraser. Homes on reserve land follow different title rules, so ask a lender early.",
-    feature: "The City says no Coquitlam bus stop meets the Province's frequent-service rule right now, so the six-unit tier does not apply. That means a lot's unit count stops at four, which matters if rental units are part of the plan.",
+    land: "Kwikwetlem First Nation's slakəyánc (Coquitlam Indian Reserve 1) is about 6.5 acres in Coquitlam. It sits where the Coquitlam River meets the Fraser. Homes on reserve land follow different title rules, so ask a lender early.",
+    feature: "The City says no Coquitlam bus stop meets the Province's frequent-service rule right now. So the six-unit tier does not apply. A lot's unit count stops at four. That matters if rental units are part of the plan.",
     src: [
       ["City of Coquitlam, small-scale multi-unit housing", "https://www.coquitlam.ca/1361/Small-Scale-Multi-Unit-Housing-in-Coquit"],
       ["City of Coquitlam, SSMUH zoning notice", "https://coquitlam.ca/DocumentCenter/View/15010/ZA-SSM-Public-Notice"],
@@ -200,8 +200,8 @@ export default {
   },
 
   "port-coquitlam": {
-    str: "Port Coquitlam requires a Short-Term Rental Accommodation business licence application (Business Bylaw 3725). The City's form says the rental address must be the owner's principal residence, defined as home for at least 183 days in a calendar year. It also says rented bedrooms cannot have cooking facilities, and the form provides for renting one or two bedrooms.",
-    suites: "The City's page says most RS1 to RS4 lots can have 3 to 6 units without rezoning, and its progress report says bylaws were adopted in June 2024 (Amendment Bylaw 4374), with up to four units on most lots and up to six within 400 metres of a prescribed bus stop. A detached coach house can be up to 90 square metres and cannot contain a secondary suite. The Province's 2024 release gave the Lougheed/Shaughnessy Block area an extension to December 31, 2025, so check the City for where that stands.",
+    str: "Port Coquitlam requires a Short-Term Rental Accommodation business licence application. The bylaw is Business Bylaw 3725. The City's form says the rental address must be the owner's principal residence. That means home for at least 183 days in a calendar year. It also says rented bedrooms cannot have cooking facilities. The form provides for renting one or two bedrooms.",
+    suites: "The City's page says most RS1 to RS4 lots can have 3 to 6 units without rezoning. Its progress report says bylaws were adopted in June 2024. The amending bylaw is No. 4374. Most lots can have up to four units. Lots within 400 metres of a prescribed bus stop can have up to six. A detached coach house can be up to 90 square metres. It cannot contain a secondary suite. The Province's 2024 release gave the Lougheed/Shaughnessy Block area an extension to December 31, 2025. Check the City for where that stands.",
     employers: [
       "City of Port Coquitlam, municipal employer",
       "Fraser Health, including Foundry Tri-Cities and a planned urgent and primary care centre",
@@ -213,8 +213,8 @@ export default {
       { n: "Downtown", d: "The City's plan allows apartments above ground-floor office and retail uses." },
       { n: "Dominion Riverfront", d: "The City's plan names it as one of the new residential neighbourhoods." }
     ],
-    land: "Kwikwetlem First Nation's Coquitlam Indian Reserve 2 is about 200 acres off Pitt River Road in Port Coquitlam, per the Nation's own site. The Nation, through KFN Enterprises, is developing it, and the Nation and the City signed a service agreement for the first stage. Homes on reserve land can follow different mortgage rules than titled land, so ask a lender early.",
-    feature: "Industry is a big part of the city. The City's plan sets aside almost 400 hectares in four industrial areas, so check what is near any address you are looking at.",
+    land: "Kwikwetlem First Nation's Coquitlam Indian Reserve 2 is about 200 acres off Pitt River Road in Port Coquitlam. That comes from the Nation's own site. The Nation is developing it through KFN Enterprises. The Nation and the City signed a service agreement for the first stage. Homes on reserve land can follow different mortgage rules than titled land, so ask a lender early.",
+    feature: "Industry is a big part of the city. The City's plan sets aside almost 400 hectares in four industrial areas. Check what is near any address you are looking at.",
     src: [
       ["City of Port Coquitlam, short-term rental business licence application", "http://www.portcoquitlam.ca/media/file/business-licence-application-short-term-rental-accomodation"],
       ["City of Port Coquitlam, small-scale multi-unit housing", "https://www.portcoquitlam.ca/business-development/property-development-building/small-scale-multi-unit-housing"],

@@ -96,7 +96,7 @@ export default {
       { n: "Garibaldi Highlands", d: "Bench neighbourhood of detached homes on R-1 lots. A 2025 District report says it is the one neighbourhood with no commercial node." }
     ],
     land: "The District's official community plan maps show Squamish Nation reserve lands within and beside the community. We did not confirm any for-sale leasehold homes. If a property may be on reserve land, confirm its land status early.",
-    feature: "Lots once zoned for one home plus a suite can now hold up to four principal homes in the R-1 zone. This depends on site conditions. That changes what a standard lot may be used for. Confirm zoning with the District.",
+    feature: "Lots once zoned for one home plus a suite can now hold up to four homes in the R-1 zone. This depends on site conditions. That changes what a standard lot may be used for. Confirm zoning with the District.",
     src: [
       ["District of Squamish, Short-term rentals", "https://squamish.ca/home-and-property/bylaws-and-guidelines/short-term-rentals/"],
       ["District of Squamish, Housing action", "https://squamish.ca/projects-plans-and-initiatives/projects-and-initiatives/housing/housing-action/"],
