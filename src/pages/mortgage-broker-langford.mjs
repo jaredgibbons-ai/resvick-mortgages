@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-langford/#service", name: "Resvick Mortgages, serving Langford and the Westshore", url: SITE.origin + "/mortgage-broker-langford/", areaServed: [{ "@type": "City", name: "Langford", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Colwood", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Westshore, Capital Regional District" }] };
 
@@ -66,6 +67,7 @@ ${callout("What a broker costs here", "<p>Most Westshore purchases and renewals 
 
 <p class="more-links"><strong>More for Langford buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-military-and-veterans/">military and veterans</a>, <a href="/mortgages-for-government-and-city-employees/">government and city employees</a> and <a href="/mortgages-for-first-responders/">first responders</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
+${cityFacts("langford")}
 ${nearbyCallout("langford", callout)}
 
 ${cta({ title: "Talk to a broker who serves the Westshore", text: "Book a 15-minute call. Tell Joshua which home you are looking at and how you are paid. You will leave with a plan and a list of what to gather." })}

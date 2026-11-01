@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-maple-ridge/#service", name: "Resvick Mortgages, serving Maple Ridge", url: SITE.origin + "/mortgage-broker-maple-ridge/", areaServed: [{ "@type": "City", name: "Maple Ridge", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Pitt Meadows", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -60,6 +61,7 @@ ${callout("What you pay", "<p>When a Maple Ridge file fits an A lender, which mo
 
 <p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Maple Ridge file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
+${cityFacts("maple-ridge")}
 ${nearbyCallout("maple-ridge", callout)}
 
 ${cta({ title: "Talk to a broker who serves Maple Ridge", text: "Book a 15-minute call. Tell Joshua what you're buying and how you're paid. You'll leave knowing how a lender will read it and what to gather first." })}

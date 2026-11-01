@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-quesnel/#service", name: "Resvick Mortgages, serving Quesnel", url: SITE.origin + "/mortgage-broker-quesnel/", areaServed: [{ "@type": "City", name: "Quesnel", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Cariboo Regional District" }] };
 
@@ -95,6 +96,7 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <p class="more-links"><strong>More for Quesnel buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>, <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a> and <a href="/mortgage-for-contractors/">contractors and trades</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
+${cityFacts("quesnel")}
 ${nearbyCallout("quesnel", callout)}
 
 ${cta({ title: "Talk to a broker who serves Quesnel", text: "Book a 15-minute call. Share how you are paid, where you are moving from and the kind of home you want. You will leave knowing which lenders fit and what to line up first." })}

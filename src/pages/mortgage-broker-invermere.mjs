@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-invermere/#service", name: "Resvick Mortgages, serving Invermere", url: SITE.origin + "/mortgage-broker-invermere/", areaServed: [{ "@type": "City", name: "Invermere", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of East Kootenay" }] };
 
@@ -115,6 +116,7 @@ ${callout("Who pays for what", "<p>When a Columbia Valley file suits an A lender
 
 <p>Another mountain market sits to the south. The <a href="/mortgage-broker-fernie/">Fernie page</a> covers mine pay, resort pay and second homes in the Elk Valley.</p>
 
+${cityFacts("invermere")}
 ${nearbyCallout("invermere", callout)}
 
 ${cta({ title: "Talk to a broker who serves Invermere", text: "Book a 15-minute call. Tell Joshua how you plan to use the home and how you earn. You will leave knowing how a lender may read the file and what to gather first." })}

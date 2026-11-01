@@ -2,6 +2,7 @@ import { cta, callout, ratesStrip } from "../lib/site.mjs";
 import { cityServiceSchema } from "../lib/city.mjs";
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const slug = "/mortgage-broker-burnaby/";
 
@@ -65,6 +66,7 @@ ${censusTable("burnaby")}
 <p>The <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set, and why the lowest number is rarely the cheapest mortgage.</p>
 <p>The <a href="/mortgage-calculators/">calculators</a> let you test a payment with strata fees and the CMHC premium. You can see how a suite changes affordability, and estimate the cash you need on completion. Every result shows right away, with no email needed.</p>
 
+${cityFacts("burnaby")}
 ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-vancouver/">Vancouver</a>, <a href="/mortgage-broker-coquitlam/">Coquitlam</a> and the Tri-Cities. He serves New Westminster and the rest of Metro Vancouver too. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from a Burnaby client helps the next buyer find him.</p>`)}
 
 <p>UniverCity at SFU is leasehold. SFU Community Trust says it prepares sites for developers on a prepaid, 99-year leasehold basis (SFU Community Trust, UniverCity for developers, read October 2026). Lenders vary on leasehold, so ask early. See <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p><p>If you own a business in Burnaby and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>

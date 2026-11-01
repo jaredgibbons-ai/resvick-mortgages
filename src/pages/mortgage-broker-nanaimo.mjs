@@ -2,6 +2,7 @@ import { short } from "../lib/short.mjs";
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-nanaimo/#service", name: "Resvick Mortgages, serving Nanaimo", url: SITE.origin + "/mortgage-broker-nanaimo/", areaServed: [{ "@type": "City", name: "Nanaimo", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Central Vancouver Island" }] };
 
@@ -64,6 +65,7 @@ ${callout("The cost of using a broker", "<p>On a mortgage placed with an A lende
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-government-and-city-employees/">government and city employees</a>. To plan a Nanaimo purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
+${cityFacts("nanaimo")}
 ${nearbyCallout("nanaimo", callout)}
 
 ${cta({ title: "Talk to a broker who serves Nanaimo", text: "Book a 15-minute call. Buying on the Island while keeping a mainland job or home? Say so in your first message, and Joshua will plan the file around it." })}

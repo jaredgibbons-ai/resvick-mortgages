@@ -2,6 +2,7 @@ import { short } from "../lib/short.mjs";
 import { SITE, cta, callout } from "../lib/site.mjs";
 import { cityServiceSchema } from "../lib/city.mjs";
 import { censusTable } from "../lib/city-census.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const slug = "/mortgage-broker-surrey/";
 
@@ -79,6 +80,7 @@ ${censusTable("surrey")}
 <h2>Calculators</h2>
 <p>The <a href="/mortgage-calculators/">calculators</a> let you test a few things. You can check a payment with the CMHC premium. You can see how a suite changes what you can afford under both lender methods. You can estimate closing costs, including property transfer tax, and compare renewal options. Results show up right away, with no email needed.</p>
 
+${cityFacts("surrey")}
 ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-langley/">Langley</a> and <a href="/mortgage-broker-richmond/">Richmond</a>, plus White Rock, Delta and the rest of the South of Fraser area. The Google Business Profile for Resvick Mortgages lists this Surrey office. If Joshua has helped you, a review there helps the next Surrey family find him.</p>`)}
 
 <p>If you own a business in Surrey and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>

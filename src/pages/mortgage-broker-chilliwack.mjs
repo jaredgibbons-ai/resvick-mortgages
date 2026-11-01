@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-chilliwack/#service", name: "Resvick Mortgages, serving Chilliwack", url: SITE.origin + "/mortgage-broker-chilliwack/", areaServed: [{ "@type": "City", name: "Chilliwack", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Fraser Valley Regional District" }] };
 
@@ -66,6 +67,7 @@ ${callout("What you pay", "<p>Most Chilliwack files go to an A lender, where the
 
 <p class="more-links"><strong>More for Chilliwack buyers.</strong> Pages that may fit your situation: <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
+${cityFacts("chilliwack")}
 ${nearbyCallout("chilliwack", callout)}
 
 ${cta({ title: "Talk to a broker who serves Chilliwack", text: "Book a 15-minute call. Tell Joshua the property and what you're selling, if anything. You'll leave knowing which lenders fit and what to gather first." })}

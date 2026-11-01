@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-mission/#service", name: "Resvick Mortgages, serving Mission", url: SITE.origin + "/mortgage-broker-mission/", areaServed: [{ "@type": "City", name: "Mission", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Fraser Valley" }] };
 
@@ -63,6 +64,7 @@ ${callout("What you pay", "<p>Most Mission files go to an A lender. The lender p
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. To plan a Mission purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
+${cityFacts("mission")}
 ${nearbyCallout("mission", callout)}
 
 ${cta({ title: "Talk to a broker who serves Mission", text: "Book a 15-minute call. Tell Joshua where you're moving from and what you're buying. You'll leave knowing the steps and what to gather first." })}

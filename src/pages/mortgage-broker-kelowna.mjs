@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-kelowna/#service", name: "Resvick Mortgages, serving Kelowna", url: SITE.origin + "/mortgage-broker-kelowna/", areaServed: [{ "@type": "City", name: "Kelowna", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Central Okanagan" }] };
 
@@ -72,6 +73,7 @@ ${callout("No fee on A-lender mortgages", "<p>When your mortgage is placed with 
 
 <p>Buyers who look east of the Okanagan also read about <a href="/mortgage-broker-trail-castlegar/">Trail and Castlegar</a>, where smelter and mill wages meet lower prices.</p>
 
+${cityFacts("kelowna")}
 ${nearbyCallout("kelowna", callout)}
 
 ${cta({ title: "Talk to a broker who serves Kelowna", text: "Book a 15-minute call. Bring the property type you have in mind, even if it's only an idea. You'll leave knowing whether it fits a mainstream lender." })}

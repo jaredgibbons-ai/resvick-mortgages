@@ -8,6 +8,7 @@ const NAME = {
   saanich: "Saanich", squamish: "Squamish", surrey: "Surrey", terrace: "Terrace", "trail-castlegar": "Trail and Castlegar", vancouver: "Vancouver", vernon: "Vernon",
   victoria: "Victoria", "west-kelowna": "West Kelowna", whistler: "Whistler", "white-rock": "White Rock",
 };
+export const CITY_NAME = NAME;
 const NEAR = {
   abbotsford: ["langley", "mission", "chilliwack"], burnaby: ["vancouver", "new-westminster", "coquitlam", "richmond"],
   chilliwack: ["abbotsford", "mission"], coquitlam: ["port-coquitlam", "port-moody", "burnaby", "maple-ridge"],

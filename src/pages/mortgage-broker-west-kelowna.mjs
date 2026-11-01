@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-west-kelowna/#service", name: "Resvick Mortgages, serving West Kelowna", url: SITE.origin + "/mortgage-broker-west-kelowna/", areaServed: [{ "@type": "City", name: "West Kelowna", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Peachland", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -63,6 +64,7 @@ ${callout("Who pays for the broker", "<p>On most West Kelowna files, the lender 
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. To plan a West Kelowna purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
+${cityFacts("west-kelowna")}
 ${nearbyCallout("west-kelowna", callout)}
 
 ${cta({ title: "Talk to a broker who serves West Kelowna", text: "Book a 15-minute call. Say which neighbourhood you like and what the title is. You'll leave knowing which lenders fit and what to gather first." })}

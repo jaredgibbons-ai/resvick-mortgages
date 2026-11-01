@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const place = (name) => ({ "@type": "City", name, containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } });
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-vernon/#service", name: "Resvick Mortgages, serving Vernon and the North Okanagan", url: SITE.origin + "/mortgage-broker-vernon/", areaServed: [place("Vernon"), place("Coldstream"), { "@type": "AdministrativeArea", name: "Regional District of North Okanagan" }] };
@@ -64,6 +65,7 @@ ${callout("What you pay", "<p>On most North Okanagan files the lender pays Joshu
 
 <p class="more-links"><strong>More for Vernon buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
+${cityFacts("vernon")}
 ${nearbyCallout("vernon", callout)}
 
 ${cta({ title: "Talk to a broker who serves the North Okanagan", text: "Book a 15-minute call. Share the address, the land and how you are paid. Joshua will tell you what a lender is likely to say." })}

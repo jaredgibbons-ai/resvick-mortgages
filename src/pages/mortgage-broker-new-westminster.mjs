@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-new-westminster/#service", name: "Resvick Mortgages, serving New Westminster", url: SITE.origin + "/mortgage-broker-new-westminster/", areaServed: [{ "@type": "City", name: "New Westminster", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -57,6 +58,7 @@ ${callout("What it costs you", "<p>For most New Westminster purchases and renewa
 
 <p class="more-links"><strong>More for New Westminster buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgages-for-government-and-city-employees/">government and city employees</a> and <a href="/mortgages-for-first-responders/">first responders</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
+${cityFacts("new-westminster")}
 ${nearbyCallout("new-westminster", callout)}
 
 ${cta({ title: "Talk to a broker who serves New Westminster", text: "Book a 15-minute call. Say what you are buying and how you are paid. You will leave knowing how a lender will read it and what to gather first." })}

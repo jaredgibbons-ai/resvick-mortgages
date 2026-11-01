@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-whistler/#service", name: "Resvick Mortgages, serving Whistler", url: SITE.origin + "/mortgage-broker-whistler/", areaServed: [{ "@type": "City", name: "Whistler", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -113,6 +114,7 @@ ${callout("Who pays for what", "<p>When a Whistler file suits an A lender, that 
 
 <p>For another resort market in the Interior, see <a href="/mortgage-broker-revelstoke/">Revelstoke</a>, where some homes carry resale price caps.</p>
 
+${cityFacts("whistler")}
 ${nearbyCallout("whistler", callout)}
 
 ${cta({ title: "Talk to a broker who serves Whistler", text: "Book a 15-minute call. Tell Joshua the building, the zoning and how you earn. You will leave knowing how a lender may read the file and what to gather first." })}

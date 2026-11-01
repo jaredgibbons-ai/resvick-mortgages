@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-keremeos/#service", name: "Resvick Mortgages, serving Keremeos", url: SITE.origin + "/mortgage-broker-keremeos/", areaServed: [{ "@type": "City", name: "Keremeos", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Okanagan-Similkameen" }] };
 
@@ -94,6 +95,7 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <p>The next towns south and east are Oliver and Osoyoos. Our <a href="/mortgage-broker-osoyoos-oliver/">Osoyoos and Oliver page</a> compares their zoning, rentals and leasehold homes.</p>
 
+${cityFacts("keremeos")}
 ${nearbyCallout("keremeos", callout)}
 
 ${cta({ title: "Talk to a broker who serves Keremeos", text: "Book a 15-minute call. Share where you are moving from, how you are paid and the kind of home you want. You will leave knowing which lenders fit and what to line up before you move." })}

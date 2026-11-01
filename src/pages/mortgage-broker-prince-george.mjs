@@ -2,6 +2,7 @@ import { short } from "../lib/short.mjs";
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-prince-george/#service", name: "Resvick Mortgages, serving Prince George", url: SITE.origin + "/mortgage-broker-prince-george/", areaServed: [{ "@type": "City", name: "Prince George", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Northern British Columbia" }] };
 
@@ -67,6 +68,7 @@ ${callout("What a broker costs in Prince George", "<p>The same as anywhere in BC
 
 <p>Buyers who work in the Peace often compare notes with Prince George. See our <a href="/mortgage-broker-fort-st-john/">Fort St. John page</a> for energy pay, manufactured homes and acreage in that region.</p>
 
+${cityFacts("prince-george")}
 ${nearbyCallout("prince-george", callout)}
 
 ${cta({ title: "Talk to a broker who serves Prince George", text: "Book a 15-minute call. Tell Joshua how you're paid and what you're looking at. You'll leave knowing how a lender will read your file and what to gather first." })}

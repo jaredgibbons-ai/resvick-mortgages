@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-squamish/#service", name: "Resvick Mortgages, serving Squamish and Whistler", url: SITE.origin + "/mortgage-broker-squamish/", areaServed: [{ "@type": "City", name: "Squamish", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Whistler", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -73,6 +74,7 @@ ${callout("What you pay", "<p>On most Squamish and Whistler files, an A lender p
 
 <p class="more-links"><strong>More for Squamish buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-tech-workers/">tech workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
+${cityFacts("squamish")}
 ${nearbyCallout("squamish", callout)}
 
 ${cta({ title: "Talk to a broker who serves Squamish and Whistler", text: "Book a 15-minute call. Tell Joshua how you are paid and how you plan to use the property. You will leave knowing how a lender will read it and what to gather first." })}

@@ -2,6 +2,7 @@ import { cta, callout, ratesStrip } from "../lib/site.mjs";
 import { cityServiceSchema } from "../lib/city.mjs";
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const slug = "/mortgage-broker-langley/";
 
@@ -69,6 +70,7 @@ ${censusTable("langley")}
 <p>On a mortgage with a mainstream lender, the lender pays the broker and you pay nothing. Fees apply only on some B-lender and private files, with written disclosure first.</p>
 <p>The <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set and what to compare beyond it. The <a href="/mortgage-calculators/">calculators</a> let you test a payment, affordability with a suite and your cash to close.</p>
 
+${cityFacts("langley")}
 ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-surrey/">Surrey</a>, where his office is. He serves <a href="/mortgage-broker-abbotsford/">Abbotsford</a> and the rest of the Fraser Valley too. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from a Langley client helps the next one find him.</p>`)}
 
 <p>Manufactured homes on leased pads are only one kind of leasehold. See our pages on <a href="/leasehold-mortgages-bc/">leasehold mortgages</a> and <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> if the land under a home is leased.</p><p>If you own a business in Langley and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>

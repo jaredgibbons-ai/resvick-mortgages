@@ -2,6 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout, ratesStrip } from "../lib/site.mjs";
 import { cityServiceSchema, servesLine } from "../lib/city.mjs";
 import { censusTable } from "../lib/city-census.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const slug = "/mortgage-broker-richmond/";
 
@@ -60,6 +61,7 @@ ${censusTable("richmond")}
 <p>After funding, <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> keeps your mortgage under review. It includes a renewal plan six months out.</p>
 <p>The <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set. The <a href="/mortgage-calculators/">calculators</a> let you test a few things. You can check a payment with the CMHC premium, or affordability with a suite. You can total your closing costs, including property transfer tax, and run renewal scenarios. Results show up right away, with no email needed.</p>
 
+${cityFacts("richmond")}
 ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-vancouver/">Vancouver</a> and <a href="/mortgage-broker-surrey/">Surrey</a>, where his office is. He serves Delta and the rest of Metro Vancouver too. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from a Richmond client helps the next buyer find him.</p>`)}
 
 <p>If you own a business in Richmond and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>

@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-terrace/#service", name: "Resvick Mortgages, serving Terrace", url: SITE.origin + "/mortgage-broker-terrace/", areaServed: [{ "@type": "City", name: "Terrace", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Kitimat-Stikine" }] };
 
@@ -108,6 +109,7 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <p>If you are comparing the coast, Joshua also serves <a href="/mortgage-broker-prince-rupert/">Prince Rupert</a> and Port Edward, where port work and older homes shape the files.</p>
 
+${cityFacts("terrace")}
 ${nearbyCallout("terrace", callout)}
 
 ${cta({ title: "Talk to a broker who serves Terrace", text: "Book a 15-minute call. Share your arrival date, how you are paid and the kind of home you want. You will leave knowing which lenders fit and what to line up before you move." })}

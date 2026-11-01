@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-port-moody/#service", name: "Resvick Mortgages, serving Port Moody", url: SITE.origin + "/mortgage-broker-port-moody/", areaServed: [{ "@type": "City", name: "Port Moody", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -71,6 +72,7 @@ ${callout("The cost to you", "<p>On most Port Moody purchases and renewals, the 
 
 <p class="more-links"><strong>More for Port Moody buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-tech-workers/">tech workers</a>, <a href="/mortgages-for-lawyers-accountants-and-engineers/">lawyers, accountants and engineers</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
+${cityFacts("port-moody")}
 ${nearbyCallout("port-moody", callout)}
 
 ${cta({ title: "Talk to a broker who serves Port Moody", text: "Book a 15-minute call. Tell Joshua which building or street you are looking at. You will leave knowing what a lender will check and what to gather." })}

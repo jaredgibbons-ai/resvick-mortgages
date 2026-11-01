@@ -2,6 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 import { cityServiceSchema, servesLine } from "../lib/city.mjs";
 import { censusTable } from "../lib/city-census.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const slug = "/mortgage-broker-vancouver/";
 
@@ -69,6 +70,7 @@ ${censusTable("vancouver")}
 <h2>Run the numbers before you view</h2>
 <p>The <a href="/mortgage-calculators/">calculators</a> answer the questions Vancouver buyers ask first. What's the payment with the CMHC premium included? How much can an income carry once strata fees are added? What cash do you need on completion, with property transfer tax? Every result shows right away, with no email needed.</p>
 
+${cityFacts("vancouver")}
 ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-burnaby/">Burnaby</a> and <a href="/mortgage-broker-richmond/">Richmond</a>, plus buyers across Metro Vancouver and the rest of BC. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. Reviews from Vancouver clients help the next buyer find the same help.</p>`)}
 
 <p>If you own a business in Vancouver and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>

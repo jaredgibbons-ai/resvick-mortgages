@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-fernie/#service", name: "Resvick Mortgages, serving Fernie", url: SITE.origin + "/mortgage-broker-fernie/", areaServed: [{ "@type": "City", name: "Fernie", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Sparwood" }, { "@type": "City", name: "Elkford" }, { "@type": "AdministrativeArea", name: "Regional District of East Kootenay" }] };
 
@@ -73,6 +74,7 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>. To plan a Fernie purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
+${cityFacts("fernie")}
 ${nearbyCallout("fernie", callout)}
 
 ${cta({ title: "Talk to a broker who serves Fernie", text: "Book a 15-minute call. Share how you are paid, whether the home is a full-time or second home, and where you are moving from. You will leave knowing which lenders fit and what to line up first." })}

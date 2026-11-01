@@ -1,6 +1,5 @@
 // 2021 Census figures (median household income for 2020, self-employed share of workers, three largest industries).
 // Source on every page: Statistics Canada, 2021 Census Profile, read October 2026. Figures match the prose on each city page.
-// Princeton is missing on purpose until its figures are confirmed.
 const R = (area, median, self, ind) => ({ area, median, self, ind });
 const CENSUS = {
   abbotsford: [R("Abbotsford", "$90,000", "17.0%", "Retail, health care, construction")],
@@ -30,6 +29,7 @@ const CENSUS = {
   "port-moody": [R("Port Moody", "$115,000", "16.2%", "Professional services, health care, retail")],
   "prince-george": [R("Prince George", "$88,000", "9.8%", "Health care, retail, construction")],
   "prince-rupert": [R("Prince Rupert", "$95,000", "11.5%", "Transportation and warehousing, retail, health care")],
+  princeton: [R("Princeton", "$64,500", "9.4%", "Mining, manufacturing, retail")],
   quesnel: [R("Quesnel", "$67,000", "10.9%", "Manufacturing, health care, retail")],
   revelstoke: [R("Revelstoke", "$96,000", "14.9%", "Accommodation and food services; retail; health care")],
   richmond: [R("Richmond", "$79,000", "17.5%", "Retail, professional services, health care")],

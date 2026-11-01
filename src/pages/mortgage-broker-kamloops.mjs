@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-kamloops/#service", name: "Resvick Mortgages, serving Kamloops", url: SITE.origin + "/mortgage-broker-kamloops/", areaServed: [{ "@type": "City", name: "Kamloops", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Thompson-Nicola" }] };
 
@@ -70,6 +71,7 @@ ${callout("What you pay", "<p>On a mortgage placed with an A lender, the lender 
 
 <p>Rail crews also work out of Revelstoke. Our <a href="/mortgage-broker-revelstoke/">Revelstoke page</a> explains how rail, hydro and resort pay are read.</p>
 
+${cityFacts("kamloops")}
 ${nearbyCallout("kamloops", callout)}
 
 ${cta({ title: "Talk to a broker who serves Kamloops", text: "Book a 15-minute call. Tell Joshua how you're paid. You'll leave knowing how a lender will read it and what to gather first." })}

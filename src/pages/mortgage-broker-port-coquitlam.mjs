@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-port-coquitlam/#service", name: "Resvick Mortgages, serving Port Coquitlam", url: SITE.origin + "/mortgage-broker-port-coquitlam/", areaServed: [{ "@type": "City", name: "Port Coquitlam", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -61,6 +62,7 @@ ${callout("What it costs you", "<p>For most Port Coquitlam files, the A lender p
 
 <p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Port Coquitlam file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
+${cityFacts("port-coquitlam")}
 ${nearbyCallout("port-coquitlam", callout)}
 
 ${cta({ title: "Talk to a broker who serves Port Coquitlam", text: "Book a 15-minute call. Tell Joshua how you are paid and which home you are weighing. You will leave knowing what a lender will ask for first." })}

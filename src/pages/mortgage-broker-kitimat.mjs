@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-kitimat/#service", name: "Resvick Mortgages, serving Kitimat", url: SITE.origin + "/mortgage-broker-kitimat/", areaServed: [{ "@type": "City", name: "Kitimat", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Kitimat-Stikine" }] };
 
@@ -116,6 +117,7 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <p>Many Kitimat buyers also look west. Our <a href="/mortgage-broker-prince-rupert/">Prince Rupert page</a> covers port wages, muskeg lots and the City's four-unit zoning.</p>
 
+${cityFacts("kitimat")}
 ${nearbyCallout("kitimat", callout)}
 
 ${cta({ title: "Talk to a broker who serves Kitimat", text: "Book a 15-minute call. Share how you are paid, when your contract ends and the kind of home you want. You will leave knowing which lenders fit and what to line up first." })}

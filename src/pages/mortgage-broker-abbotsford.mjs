@@ -2,6 +2,7 @@ import { cta, callout, ratesStrip } from "../lib/site.mjs";
 import { cityServiceSchema } from "../lib/city.mjs";
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const slug = "/mortgage-broker-abbotsford/";
 
@@ -66,6 +67,7 @@ ${censusTable("abbotsford")}
 <p>The <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set. It also shows why an acreage or suite home is priced differently from a townhouse at the same lender.</p>
 <p>The <a href="/mortgage-calculators/">calculators</a> cover payment, affordability with a suite, closing costs and renewal options. Every result shows right away, with no email needed.</p>
 
+${cityFacts("abbotsford")}
 ${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-langley/">Langley</a> and <a href="/mortgage-broker-surrey/">Surrey</a>, where his office is. He also serves Mission, Chilliwack and the rest of the Fraser Valley. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from an Abbotsford client helps the next family find him.</p>`)}
 
 <p>Farm families and small business owners here sometimes want to buy a shop, a packing building or a small commercial unit. Joshua can arrange that kind of file too, and our <a href="/commercial-mortgages-bc/">commercial mortgage page</a> sets out the down payment, the income tests and the costs.</p>

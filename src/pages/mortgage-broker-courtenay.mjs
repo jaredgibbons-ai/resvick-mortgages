@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const place = (name) => ({ "@type": "City", name, containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } });
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-courtenay/#service", name: "Resvick Mortgages, serving the Comox Valley", url: SITE.origin + "/mortgage-broker-courtenay/", areaServed: [place("Courtenay"), place("Comox"), place("Cumberland")] };
@@ -62,6 +63,7 @@ ${callout("What you pay", "<p>For most Comox Valley purchases and renewals, the 
 
 <p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-military-and-veterans/">military and veterans</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Courtenay and Comox file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
+${cityFacts("courtenay")}
 ${nearbyCallout("courtenay", callout)}
 
 ${cta({ title: "Talk to a broker who serves the Comox Valley", text: "Book a 15-minute call. Tell Joshua whether you are moving, retiring, posted or buying a getaway. You will leave with a clear next step." })}

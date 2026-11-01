@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
+import { cityFacts } from "../lib/city-facts.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-penticton/#service", name: "Resvick Mortgages, serving Penticton", url: SITE.origin + "/mortgage-broker-penticton/", areaServed: [{ "@type": "City", name: "Penticton", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Summerland", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Okanagan-Similkameen" }] };
 
@@ -65,6 +66,7 @@ ${callout("What a mortgage broker costs", "<p>For most Penticton purchases and r
 
 <p>South of Penticton, the <a href="/mortgage-broker-osoyoos-oliver/">Osoyoos and Oliver page</a> covers wine country, band leasehold homes and local short-term rental rules.</p>
 
+${cityFacts("penticton")}
 ${nearbyCallout("penticton", callout)}
 
 ${cta({ title: "Talk to a broker who serves Penticton", text: "Book a 15-minute call. Describe the property and where the money comes from. You'll leave knowing which kind of lender fits and what to gather first." })}
