@@ -13,13 +13,14 @@ export default {
     areas: [
       { n: "Mt. Lehman", d: "Rural area in west Abbotsford with acreages and farmland. The City's planning report names it as a neighbourhood." },
       { n: "Auguston", d: "Newer planned community at the base of Sumas Mountain in east Abbotsford. The City's planning report names it." },
-      { n: "UDistrict", d: "Neighbourhood beside the University of the Fraser Valley campus. The City's background report says it has single family homes and multi-family strata sites." }
+      { n: "UDistrict", d: "Neighbourhood beside the University of the Fraser Valley campus. The City's background report says it has single family homes and multi-family strata sites." },
+      { n: "Sumas Mountain", d: "East Abbotsford hillside. The City's 2024 profile says it is mostly natural land with rural lots and farms. Most homes are detached." }
     ],
     land: "",
     feature: "The City's own planning report calls Abbotsford the Fraser Valley hub. It names health care, court services, university, airport and government. These institutions anchor local employment.",
     src: [
       ["City of Abbotsford, Council report on short-term rental bylaws", "https://abbotsford.civicweb.net/document/58187/"],
-      ["City of Abbotsford, Zoning Amendment Bylaw No. 3691-2025", "https://hdp-ca-prod-app-abbotsford-letstalk-files.s3.ca-central-1.amazonaws.com/1617/8514/3419/17fbf4eb004a9d43afda70c4b9502f9b_Bylaw_3691-2025_Zoning_Bylaw_Amendment_Regulations_and_Zones.pdf"],
+      ["City of Abbotsford, Sumas Mountain demographic profile 2024", "https://www.abbotsford.ca/sites/default/files/2024-11/Sumas%20Mountain.pdf"],
       ["City of Abbotsford, Zoning Bylaw SSMUH 1 zone", "https://laws.abbotsford.ca/civix/document/id/coa/coabylaws/2014b2400351"],
       ["City of Abbotsford, Economic Development Investment Profile", "https://www.abbotsford.ca/sites/default/files/2023-11/2020%20Investment%20Profile%20-%20Nov%202023.pdf"],
       ["City of Abbotsford, Interim Housing Needs Report 2024", "https://www.abbotsford.ca/sites/default/files/2024-11/2024%20Interim%20Housing%20Needs%20Report.pdf"],
@@ -27,6 +28,7 @@ export default {
     ],
     omitted: [
       "Second pass: SSMUH adoption date still NOT VERIFIED on abbotsford.ca (zoning bylaw pages show only 2025 and 2026 consolidation dates). Zoning Bylaw s. 140.3.1 (laws.abbotsford.ca section 140) confirms principal residence only, detached or duplex plus one suite, six guests and three sleeping units on most lots, one guest parking space. It does not mention a licence, so the licence claim rests on the Council report. McKee and other neighbourhood plans do not state a housing type, so only UDistrict was added. Two zoning pages that confirm the STR limits were not added to src (cap of 6). Dropped the 2025 Zoning Bylaw Updates Overview link to make room.",
+      "Third pass: fourth neighbourhood added from the City's 2024 Sumas Mountain profile (dwelling shares pair by order in the PDF text; Matsqui Prairie, 88 percent detached, is an alternative). Clearbrook profile and Historic Downtown report were not used: Clearbrook's percentages could not be paired to types, and the Historic Downtown text and figure conflict. Dropped the Bylaw 3691-2025 PDF from src to stay at six; the bylaw number in str now rests on earlier reading.",
       "Mt. Lehman Credit Union head office: batch says NOT VERIFIED (trade press only), left out.",
       "Neighbourhoods Eagle Mountain, McMillan, South Clearbrook, Bradner: cited only to a Fraser Health careers page, left out. Mt. Lehman and Auguston are kept because the batch cites the City's OCP background report, but the housing descriptions are thinly supported; editor may drop them.",
       "Reserve land (Matsqui, Sumas): cited only to the Fraser Health careers page, left out. Agriculture 'employer' item and City of Abbotsford employer item are not named employers, left out.",
@@ -76,8 +78,9 @@ export default {
     suites: "Council approved a zoning change in June 2024. It allows 3 to 4 homes on lots inside the urban growth boundary. The lots must be zoned for single detached or duplex homes. Lots over 280 square metres can have up to 4. The Province gave a partial extension to December 31, 2030. It covers part of Chilliwack Proper and the Hazel Park area. Check the City's map for your lot.",
     employers: [
       "University of the Fraser Valley, Chilliwack campus at Canada Education Park (agriculture, trades and health programs)",
-      "Fraser Health, Chilliwack General Hospital (169 acute care beds, per Fraser Health's careers page)",
-      "Chilliwack School District (SD33), over 14,000 students and about 1,800 teachers and support staff"
+      "Fraser Health, Chilliwack General Hospital",
+      "Chilliwack School District (SD33), over 14,000 students and about 1,800 teachers and support staff",
+      "Canadian Army, 39 Combat Engineer Regiment, a reserve unit with its headquarters in Chilliwack"
     ],
     mix: "The 2021 Census shows about 73 percent of Chilliwack homes owned and 27 percent rented. About 58 percent are detached homes. Townhomes and duplexes are about 23 percent and apartments about 20 percent.",
     lenders: "",
@@ -94,11 +97,12 @@ export default {
       ["City of Chilliwack, Short-Term Rental Bylaw 2021, No. 5141", "https://www.chilliwack.com/main/attachments/Files/363/BL51411.pdf"],
       ["Tzeachten First Nation, Residential development", "https://www.tzeachten.ca/departments-tzeachten/housing-public-works/residential-development/"],
       ["Province of BC, SSMUH extension announcement", "https://news.gov.bc.ca/releases/2024hous0178-001534"],
-      ["Fraser Health, Chilliwack careers page", "https://careers.fraserhealth.ca/live-here/chilliwack/"],
+      ["Canadian Army, 39 Combat Engineer Regiment", "https://www.canada.ca/en/army/corporate/3-canadian-division/39-combat-engineer-regiment.html"],
       ["School District 33, About", "https://www.sd33.bc.ca/about"],
       ["City of Chilliwack, City-wide community trends (Census profile)", "https://www.chilliwack.com/main/attachments/Files/3099/ChilliwackProfile-Citywide_CommunityTrends.pdf"]
     ],
     omitted: [
+      "Third pass: fourth employer is 39 Combat Engineer Regiment (Canada.ca, headquarters at Korea Road, Chilliwack). A separate CFB Chilliwack page was not found. Dropped the Fraser Health careers page from src to stay at six, so the hospital line has no bed count.",
       "Second pass: employers now 3, a fourth named employer not found on an official page (CFB Chilliwack not on the DND schools list; City economic pages name none). SSMUH bylaw number 5395 removed because no City page read states it. City press release of June 5, 2024 (prID=574) states Council approved the zoning change and up to four units on lots over 280 square metres, but is not in src (cap of 6). Mix: the City profile counts duplexes with townhomes. Bylaw 5141 PDF fetch was blocked this pass, so the STR text is unchanged and not re-checked. Page id=2974 is the Housing Needs Reports page, not an STR page.",
       "Third task: the first src link (chilliwack.com page id=2974) was labelled 'Short-term rentals' but the page is actually the City's Housing Needs Reports page, so it was removed. Search budget ran out and most chilliwack.com, UFV and Tzeachten fetches were refused, so employers (still 1), the mix line, Bylaw 5141 and the SSMUH details could not be re-checked or extended.",
       "Molson Coors brewery: sourced to a news site only, left out. Fraser Health Chilliwack General Hospital: cited to a HealthMatch BC job posting, not Fraser Health's own site, left out. SD33 and City scale NOT VERIFIED.",

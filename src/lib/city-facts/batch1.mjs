@@ -249,6 +249,7 @@ export default {
       ["City of Port Coquitlam, Official Community Plan", "https://www.portcoquitlam.ca/sites/default/files/2024-10/3838%20-%20Official%20Community%20Plan.pdf"]
     ],
     omitted: [
+      "Third pass: 4th neighbourhood still missing. The OCP says Lincoln Park and Mary Hill grew from the 1950s, and Riverwood and Citadel Heights in the 1980s and 90s, but gives no housing type. Oxford Heights, Glenwood and Birchland Manor are not in the OCP text read.",
       "Lenders: none listed in the batch.",
       "Third task: only three neighbourhoods have a housing type stated on an official page (Downtown, Northside, Dominion Riverfront; all from the OCP). Citadel, Mary Hill, Riverwood, Glenwood and Oxford Heights are named in the OCP only as established areas with no housing type, so a fourth area is still missing. Mix is the 2016 Census (2022 City report); the 2024 executive summary shows the same 77/23 tenure beside 2021 household counts but does not label the census year.",
       "Mary Hill, Citadel, Riverwood, Glenwood and Oxford Heights housing types: NOT VERIFIED. Dominion Triangle left out (the OCP calls it a commercial and industrial growth area, so a housing description would not match).",

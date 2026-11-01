@@ -159,6 +159,7 @@ export default {
       "Haisla Nation, majority owner of Cedar LNG",
       "Northern Health, runs Kitimat General Hospital and Health Centre"
     ],
+    mix: "The District's Housing Action Plan uses 2011 data. It shows about 77 percent of homes owned and 23 percent rented. Detached houses were by far the most common type.",
     lenders: "",
     areas: [
       { n: "Nechako", d: "The first townsite neighbourhood, built in 1954, with detached homes and some multifamily buildings." },
@@ -174,10 +175,12 @@ export default {
       ["Province of BC news release on SSMUH extensions", "https://news.gov.bc.ca/releases/2024hous0178-001534"],
       ["District of Kitimat housing update, 2025", "https://docs.kitimat.ca/docs/hapna-implementation-update-2025.pdf"],
       ["District of Kitimat Official Community Plan", "https://www.kitimat.ca/en/business-and-development/resources/Documents/Official-Community-Plan.pdf"],
+      ["Province of BC, District of Kitimat Housing Action Plan", "https://www2.gov.bc.ca/assets/gov/housing-and-tenancy/tools-for-government/publications/kitimat_hap_final.pdf"],
       ["Haisla Nation", "http://haisla.ca/"],
       ["Northern Health, Kitimat General Hospital", "https://www.northernhealth.ca/find-a-facility/hospitals/kitimat-general-hospital-and-health-centre"]
     ],
     omitted: [
+      "Third pass: mix now filled from the Housing Action Plan on gov.bc.ca (2011 data, so old). The 2024 Interim Housing Needs Report and 2025 fact sheet were blocked on S3 and kitimat.ca; invest.kitimat.ca/housing-profile charts still show Loading. Refresh mix if the newer report is read. STR still empty: no official page states a rule.",
       "STR: council's February 2025 vote is a Province-layer matter and came from a newspaper. The District business licence page and secondary suite page do not mention short-term rentals, and no zoning definition was found, so str stays empty. Mix: the District data page showed 2021 Census charts with no numbers loaded; the fact sheet would not open. mix is empty.",
       "Lenders: none headquartered in Kitimat verified.",
       "Northern Health / Kitimat General Hospital now confirmed on Northern Health's own site and added.",
