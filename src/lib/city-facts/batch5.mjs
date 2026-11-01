@@ -33,8 +33,8 @@ export default {
   },
 
   "osoyoos-oliver": {
-    str: "Osoyoos: a short-term rental needs a licence under Business Licence Bylaw No. 1400, adopted in October 2025. The Town's page lists a $750 licence fee, and the application asks for proof that the home meets the provincial principal residence rule. Oliver: a vacation rental needs a Town business licence under Zoning Bylaw No. 1423. In low-density residential and rural zones, only the owner may run one, they must live on the parcel, and each parcel is limited to one.",
-    suites: "Osoyoos is covered by the Province's small-scale housing rules. Its Zoning Bylaw No. 1395, adopted in September 2024, allows up to 3 units on RS1 lots under 280 square metres and up to 4 on larger lots. The Town has said it asked the Province for more time, so check with the Town before you rely on this. Oliver is also covered. Its zoning bylaw, adopted in June 2024, allows up to 4 units on lots that were single-family or duplex, and its secondary suite rules are in section 6.7.",
+    str: "Osoyoos: a short-term rental needs a licence under Business Licence Bylaw No. 1400, adopted in October 2025. The application asks for proof that the home meets the provincial principal residence rule. Oliver: a vacation rental needs a Town business licence under Zoning Bylaw No. 1423. In low-density residential and rural zones, only the owner may run one, they must live on the parcel, and each parcel is limited to one.",
+    suites: "Osoyoos is covered by the Province's small-scale housing rules. Its Zoning Bylaw No. 1395, adopted in September 2024, allows up to 3 units on RS1 lots under 280 square metres and up to 4 on larger lots. Check with the Town before you rely on this. Oliver is also covered. Its zoning bylaw, adopted in June 2024, allows up to 4 units on lots that were single-family or duplex, and its secondary suite rules are in section 6.7.",
     employers: [
       "Town of Osoyoos, municipal government",
       "Interior Health, South Okanagan General Hospital, Oliver",
@@ -127,7 +127,6 @@ export default {
     str: "The District's licensing bylaw (No. 1647) says a short-term rental needs a District licence. A rental may run only where zoning permits it or under a Temporary Use Permit, and the same guest cannot stay more than 28 days in a row. The District was working on a replacement licence bylaw in late 2025, so check its page for the current rules.",
     suites: "Invermere is under the 5,000 population line for the Province's 3 to 4 unit rule. Zoning Bylaw No. 1145 allows one secondary suite per lot, either inside the main home (up to 40 percent of the floor space, to 90 square metres) or in an accessory building (up to 75 square metres). In October 2025 District staff were told to look at dropping the owner-must-live-there rule for suites, so check with the District for the current status.",
     employers: [
-      "Panorama Mountain Resort, ski resort in the Columbia Valley just west of Invermere",
       "District of Invermere, municipal government"
     ],
     lenders: "",
@@ -154,7 +153,7 @@ export default {
 
   "revelstoke": {
     str: "A short-term rental needs a City business licence. The City's zoning bylaw (No. 2299) also limits who can run one. It must be an accessory use in a single-family home that has a secondary suite, never in a garden or carriage suite, and run by a permanent resident living in the home or the suite. Some vacation-rental zones and comprehensive development zones have their own rules, so check with the City.",
-    suites: "Revelstoke is covered by the Province's small-scale housing rules. The City's Bill 44 zoning amendment (No. 2380) allows up to 4 units on an R1 lot, such as a two-family home with a suite in each unit, and up to 3 on lots of 280 square metres or less. A secondary suite can be up to 90 square metres and 40 percent of the usable floor space, and the research did not confirm the adoption date, so check with the City.",
+    suites: "Revelstoke is covered by the Province's small-scale housing rules. The City's Bill 44 zoning amendment (No. 2380) allows up to 4 units on an R1 lot, such as a two-family home with a suite in each unit, and up to 3 on lots of 280 square metres or less. A secondary suite can be up to 90 square metres and 40 percent of the usable floor space. We did not confirm when it was adopted, so check with the City.",
     employers: [
       "Revelstoke Mountain Resort, year-round mountain resort on Mount Mackenzie",
       "BC Hydro, Revelstoke Dam and powerhouse north of the city",

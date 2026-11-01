@@ -26,9 +26,9 @@ function strLead(k) {
   const yes = pl.filter((x) => x[1]).map((x) => x[0]);
   const no = pl.filter((x) => !x[1]).map((x) => x[0]);
   let t = "";
-  if (yes.length) t += `The Province's principal-residence rule applies in ${list(yes)}. It limits short-term rentals to the host's main home, plus one suite or accessory unit on the same property. `;
-  if (no.length) t += `${list(no)} ${no.length > 1 || /^the /i.test(no[0]) ? "are" : "is"} on the Province's exempt list for that rule, but a town can still set its own. `;
-  t += "Every host in BC also needs a provincial registration number on the listing.";
+  if (yes.length) t += `The Province's principal-residence rule applies in ${list(yes)}. It limits short-term rentals to the host's main home, plus one suite or accessory unit. `;
+  if (no.length) t += `${list(no)} ${no.length > 1 || /^the /i.test(no[0]) ? "are" : "is"} on the Province's exempt list for that rule, but a town can still set its own rules. `;
+  t += "Every host in BC also needs a provincial registration number.";
   return t;
 }
 
@@ -37,7 +37,7 @@ function svtLine(k) {
   const yes = pl.filter((x) => x[2]).map((x) => x[0]);
   const no = pl.filter((x) => !x[2]).map((x) => x[0]);
   let t = "";
-  if (yes.length) t += `${list(yes)} ${yes.length > 1 ? "are" : "is"} on the Province's list of taxable areas for the Speculation and Vacancy Tax, so owners make a yearly declaration. Owners who live in the home as their main residence are generally exempt. `;
+  if (yes.length) t += `${list(yes)} ${yes.length > 1 ? "are" : "is"} on the Province's list of taxable areas for the tax. Owners make a yearly declaration. Owners who live in the home as their main residence are generally exempt. `;
   if (no.length) t += `${list(no)} ${no.length > 1 ? "are" : "is"} not on that list. `;
   return t.trim();
 }
@@ -55,9 +55,9 @@ export const cityFacts = (k) => {
   if (d.employers && d.employers.length) h += `<h3>Who employs people in ${esc(name)}</h3><ul>${d.employers.map((e) => `<li>${esc(e)}</li>`).join("")}</ul>`;
   if (d.areas && d.areas.length) h += `<h3>Neighbourhoods and the homes in them</h3><ul>${d.areas.map((a) => `<li><strong>${esc(a.n)}.</strong> ${esc(dot(a.d))}</li>`).join("")}</ul>`;
   if (d.land) h += `<h3>Leased, treaty and reserve land</h3><p>${esc(dot(d.land))}</p>`;
-  if (d.lenders) h += `<h3>Lenders with a head office in ${esc(name)}</h3><p>${esc(dot(d.lenders))} Joshua compares these with the banks and other lenders, since each one sets its own rules.</p>`;
+  if (d.lenders) h += `<h3>Lenders based in ${esc(name)}</h3><p>${esc(dot(d.lenders))} Joshua compares these with the banks and other lenders, since each one sets its own rules.</p>`;
   if (d.feature) h += `<h3>One thing that changes mortgage files here</h3><p>${esc(dot(d.feature))}</p>`;
   const src = (d.src || []).concat([["Province of BC: short-term rental rule", PROV_STR_URL], ["Province of BC: Speculation and Vacancy Tax areas", PROV_SVT_URL]]);
-  h += `<p class="small">Where we read this: ${src.map((s) => `<a href="${esc(s[1])}" rel="noopener">${esc(s[0])}</a>`).join("; ")}.</p>`;
+  h += `<h3>Where we read this</h3><ul class="small">${src.map((s) => `<li><a href="${esc(s[1])}" rel="noopener">${esc(s[0])}</a></li>`).join("")}</ul>`;
   return h;
 };

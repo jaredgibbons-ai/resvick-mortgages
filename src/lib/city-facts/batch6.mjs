@@ -1,10 +1,9 @@
 export default {
   "trail-castlegar": {
-    str: "Trail: the City's zoning allows short-term rentals only in the R1 and R3 zones, and only where Council approved a site-specific rezoning. Bed and breakfasts in those zones must be inside the main detached home. Castlegar: a City business licence is required for short-term rentals under Bylaw No. 1337, with proof of ownership, a strata letter for multi-unit buildings and a local contact. The City says it has no local principal-residence rule. Trail: the batch did not confirm a licence rule, so ask the City.",
-    suites: "Trail: the City changed its zoning in June 2024. In the R1 and R3 zones, lots of 280 square metres or less may have up to 3 principal units, and larger lots may have 4 or more, and suites are allowed. Castlegar: the City's page says that as of July 2024 most residential lots can have up to 4 dwellings, with up to 3 on smaller lots. Check with each City before you rely on this.",
+    str: "Trail: the City's zoning allows short-term rentals only in the R1 and R3 zones, and only where Council approved a site-specific rezoning. Bed and breakfasts in those zones must be inside the main detached home. Castlegar: a City business licence is required for short-term rentals under Bylaw No. 1337, with proof of ownership, a strata letter for multi-unit buildings and a local contact. The City says it has no local principal-residence rule. For Trail's licence rules, ask the City.",
+    suites: "Trail: the City changed its zoning in June 2024. In the R1 and R3 zones, lots of 280 square metres or less may have up to 3 principal units, and larger lots may have 4, and suites are allowed. Castlegar: the City's page says that as of July 2024 most residential lots can have up to 4 dwellings, with up to 3 on smaller lots. Check with each City before you rely on this.",
     employers: [
       "Trail: Teck Trail Operations, zinc and lead smelting and refining complex",
-      "Trail: Kootenay Savings Credit Union, corporate offices in Trail",
       "Castlegar: Mercer Celgar, kraft pulp mill",
       "Castlegar: Selkirk College, regional college with its main campus in the city",
       "Castlegar: Interfor and Kalesnikoff, forestry firms named in the City's 2025 annual report"
@@ -114,7 +113,7 @@ export default {
     ],
     lenders: "",
     areas: [
-      { n: "The Bench", d: "Newer subdivisions, where about 85% of homes are single or semi-detached." },
+      { n: "The Bench", d: "Newer subdivisions, where about 85 percent of homes are single or semi-detached." },
       { n: "The Horseshoe", d: "Established walkable area next to downtown with a mix of housing types." },
       { n: "Downtown", d: "Mix of low and moderate density housing close to services." },
       { n: "South Side and Keith Estates", d: "Established, growing area with a range of housing types, near the hospital." },
@@ -149,8 +148,8 @@ export default {
     ],
     lenders: "",
     areas: [
-      { n: "Nechako", d: "First townsite neighbourhood, built in 1954, with 1,400 homes, 376 of them multifamily." },
-      { n: "Kildala", d: "Townsite neighbourhood with 1,181 homes, 245 of them multifamily, near the hospital." },
+      { n: "Nechako", d: "The first townsite neighbourhood, built in 1954, with detached homes and some multifamily buildings." },
+      { n: "Kildala", d: "Townsite neighbourhood near the hospital, with detached homes and some multifamily buildings." },
       { n: "Strawberry Meadows", d: "Planned low-density area near Kildala, mostly single detached houses." },
       { n: "Whitesail", d: "Townsite neighbourhood of mostly detached houses; District planning flags it for smaller homes and infill." },
       { n: "Cable Car", d: "Rural subdivision south of the townsite, about 2 units per hectare, detached houses on large lots." },

@@ -34,7 +34,7 @@ export default {
 
   "nanaimo": {
     str: "Nanaimo requires a City business licence for short-term rentals (Business Licence Bylaw No. 7318). The City also has its own rules that pre-date the Province's. The rental must be in the operator's home, suite or carriage house, with limits of four adult guests and two guest bedrooms. The City's guide counts a home as your primary residence if you live there at least 8 months a year. Check the City's page before you rely on it.",
-    suites: "Nanaimo's council adopted its small-scale multi-unit housing zoning changes in June 2024. Most single-residential and duplex lots now allow three or four homes, with exceptions for unserviced lots, some oversize lots and hazard lands. The amending bylaw number is not given here, so check the City's page.",
+    suites: "Nanaimo's council adopted its small-scale multi-unit housing zoning changes in June 2024. Most single-residential and duplex lots now allow three or four homes, with exceptions for unserviced lots, some oversize lots and hazard lands.",
     employers: [
       "Vancouver Island University, main campus in Nanaimo",
       "City of Nanaimo, local government"
@@ -65,7 +65,7 @@ export default {
   },
 
   "courtenay": {
-    str: "This is about Courtenay. The City requires a business licence for short-term rentals (Business Licence Bylaw No. 3133, 2025), and its rules were adopted in May 2025. Only the owner may run one, the owner must live on the property, and only one rental is allowed per property. Stays must be under 90 consecutive days. Comox is a separate town, so check its own page for any rules.",
+    str: "In Courtenay, the City requires a business licence for short-term rentals (Business Licence Bylaw No. 3133, 2025), and its rules were adopted in May 2025. Only the owner may run one, the owner must live on the property, and only one rental is allowed per property. Stays must be under 90 consecutive days. Comox is a separate town, so check its own page for any rules.",
     suites: "In Courtenay, Zoning Amendment Bylaw No. 3135 was adopted in June 2024. It created one zone that replaced 16 residential zones and rezoned 5,649 properties to allow up to four homes per lot. The City's page says a lot can have one secondary suite and one detached accessory unit within that total. This does not cover Comox, so check the Town of Comox for its own rules.",
     employers: [
       "19 Wing, CFB Comox, in Comox, Royal Canadian Air Force base",
@@ -80,7 +80,7 @@ export default {
       { n: "East Courtenay", d: "The city's main growth area, with newer detached subdivisions and townhomes near the hospital." },
       { n: "Crown Isle", d: "A planned golf community with detached homes, patio homes and condominiums." }
     ],
-    land: "K'ómoks First Nation members voted in March 2025 to ratify a treaty. No homes for sale on leased K'ómoks land were confirmed in this research. If a home sits on First Nation land, ask the lender early how it treats that tenure.",
+    land: "K'ómoks First Nation members voted in March 2025 to ratify a treaty. We did not find homes for sale on leased K'ómoks land. If a home sits on First Nation land, ask the lender early how it treats that tenure.",
     feature: "The City says an unauthorized secondary suite should not be rented out until its building permit is finalized. That matters when a buyer plans to count suite rent as income.",
     src: [
       ["City of Courtenay short-term rentals", "http://www.courtenay.ca/services/bylaws/find-bylaw/short-term-rentals"],
@@ -132,7 +132,7 @@ export default {
   },
 
   "kelowna": {
-    str: "Kelowna is exempt from the Province's short-term rental rule and runs its own City licences under Zoning Bylaw No. 12375. A licence is needed for stays under 90 consecutive days, in a Minor class (secondary use, operator must live there at least 240 days a year) or a Major class (principal use). The City's page says that since June 1, 2026, homes rezoned to a new short-term rental subzone can be rented without a principal-residence rule, so check the City's page.",
+    str: "Kelowna runs its own City licences under Zoning Bylaw No. 12375. A licence is needed for stays under 90 consecutive days, in a Minor class (secondary use, operator must live there at least 240 days a year) or a Major class (principal use). The City's page says that since June 1, 2026, homes rezoned to a new short-term rental subzone can be rented without a principal-residence rule, so check the City's page.",
     suites: "Kelowna changed Zoning Bylaw No. 12375 in 2024 to follow the Province's small-scale multi-unit housing rules. The City says this allows four to six homes on most residential properties, with six allowed near frequent transit. Check the City's page for the rules on a given lot.",
     employers: [
       "KF Aerospace, based beside Kelowna International Airport",
@@ -144,7 +144,7 @@ export default {
       { n: "Downtown", d: "The urban centre, where the City plans the most intense mix of uses, with high-rise and mid-rise condos." },
       { n: "Rutland", d: "Older detached housing, with the City's plan calling for a new high-density urban centre." }
     ],
-    land: "UBC Okanagan plans a leasehold neighbourhood of up to about 1,500 homes, according to UBC board papers. It is expected to be rental housing for students, faculty and staff on long-term leases, so it is not for-sale stock now. No other leasehold areas in Kelowna were confirmed from official sources.",
+    land: "UBC Okanagan plans a leasehold neighbourhood of up to about 1,500 homes, according to UBC board papers. It is expected to be rental housing for students, faculty and staff on long-term leases, so it is not for-sale stock now. We did not confirm other leasehold areas.",
     feature: "Statistics Canada's 2021 Census had the Kelowna metro area as the fastest-growing in Canada from 2016 to 2021, at 13.5 per cent. New builds and infill are a large part of local files.",
     src: [
       ["City of Kelowna short-term rentals", "https://www.kelowna.ca/business-services/permits-licences/short-term-rentals"],
@@ -191,13 +191,13 @@ export default {
   },
 
   "vernon": {
-    str: "Vernon requires a City business licence for short-term rentals (Business Licence Bylaw No. 5884), and the rental fees were added in July 2025. The City says its rules are in line with the Province's, and no stricter Vernon rule was found. Check with the City before you rely on it.",
-    suites: "Vernon adopted a new Zoning Bylaw No. 6000 in June 2024 to carry out the Province's small-scale multi-unit housing rules. The City says secondary suites and accessory dwelling units are allowed city-wide. Suites and accessory units count as homes toward a site's density. The maximum number of homes per lot was not confirmed, so check the City.",
+    str: "Vernon requires a City business licence for short-term rentals (Business Licence Bylaw No. 5884). The City says its rules line up with the Province's. Check with the City before you rely on this.",
+    suites: "Vernon adopted a new Zoning Bylaw No. 6000 in June 2024 to carry out the Province's small-scale multi-unit housing rules. The City says secondary suites and accessory dwelling units are allowed city-wide. Suites and accessory units count as homes toward a site's density. Ask the City how many homes a given lot can hold.",
     employers: [
       "Tolko Industries, forest products company with head office in Vernon",
       "Kal Tire, administrative office in Vernon"
     ],
-    lenders: "VantageOne Credit Union's own annual report, from 2015, gives a Vernon head office address.",
+    lenders: "",
     areas: [
       { n: "Downtown", d: "One of two urban centres in the City's plan, where apartments and mixed-use projects are directed." },
       { n: "East Hill", d: "An established post-war area with small older detached homes built from 1945 to 1958." },

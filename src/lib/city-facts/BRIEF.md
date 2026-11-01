@@ -52,3 +52,20 @@ After writing, run `cd /home/claude/site && node -e "import('./src/lib/city-fact
 
 ## Report back (under 150 words)
 List: keys written, the three biggest things you left out, and any conflict or doubt the editor should know. Do not paste the data back. Do not git commit or edit any other file.
+
+---
+# SECOND TASK: readability rewrite (you are editing an existing batchN.mjs)
+
+The facts were fine, but the pages that use them now read above grade 8.5. Rewrite the TEXT fields (str, suites, land, feature, lenders, and area `d` strings, and employer descriptors) in your batch file so they read at about grade 7.
+
+Rules:
+- Keep every fact, number, date and hedge ("check with the City") that is there. Add no new facts. Do not touch `src` or `omitted` or keys.
+- Every sentence 20 words or fewer. Average about 13. Split long sentences into two or three short ones. Give each sentence its own subject.
+- One idea per sentence. No stacked lists of conditions in one sentence: turn them into 2 to 4 short sentences.
+- Take bylaw numbers out of the middle of sentences. Put them in their own short sentence ("The bylaw is No. 3036.") or drop them if the sentence is already about the same rule. Keep at most 2 per town.
+- Prefer short, common words ("lets" for "permits", "about" for "approximately", "use" for "utilize"). Avoid "SSMUH" and "RMOW" jargon; say "small-scale multi-unit housing" once, then "the new rules".
+- Where a field covers two places (City / Township, Courtenay / Comox, Trail / Castlegar, Osoyoos / Oliver, North Vancouver City / District), start each place's sentences with the place name, one place after the other.
+- Still no em dashes, en dashes, "!", percent signs (write "percent"), dollar amounts, or the words batch/research.
+- Run `cd /home/claude/site && node tools/long-sentences.mjs 20` and fix any line for your keys until none are listed for them. Run `node tools/lint-city-facts.mjs` and fix any flag for your keys. Do not run build.mjs.
+
+Report back in under 60 words: keys done, and anything you had to drop.
