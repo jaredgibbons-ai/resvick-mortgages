@@ -1,7 +1,7 @@
 export default {
   "trail-castlegar": {
     str: "Trail: the City's zoning allows short-term rentals only in the R1 and R3 zones. Council must also approve a rezoning for the home. A rental can have two sleeping rooms. A City business licence must be shown in the home. Bed and breakfasts in those zones must be inside the main detached home. Castlegar: a City business licence is required for short-term rentals. The bylaw is No. 1337. Owners need proof of ownership and a local contact. Multi-unit buildings also need a strata letter. The City says it has no local principal-residence rule.",
-    suites: "Trail: the City changed its zoning in June 2024. In the R3 zone, lots of 280 square metres or less can have up to 3 principal units. Larger R3 lots can have at least 4. Suites are also covered. Castlegar: the City's new Zoning Bylaw No. 1428 took effect in July 2024. Most lots over 280 square metres can have up to 4 dwellings. Smaller lots can have up to 3. Check with each City before you rely on this.",
+    suites: "Trail: Council adopted Zoning Amendment Bylaw No. 2944 on June 24, 2024. In the R3 zone, lots of 280 square metres or less can have up to 3 principal units. Larger R3 lots can have at least 4. Suites are also covered. Castlegar: the City's new Zoning Bylaw No. 1428 took effect in July 2024. Most lots over 280 square metres can have up to 4 dwellings. Smaller lots can have up to 3. Check with each City before you rely on this.",
     employers: ["Trail: Teck Trail Operations, zinc and lead smelting and refining complex","Trail: Kootenay Boundary Regional Hospital, run by Interior Health","Castlegar: Mercer Celgar, kraft pulp mill","Castlegar: Selkirk College, regional college with a campus in the city","Castlegar: Kalesnikoff Saw Mill, named in the City's housing report"],
     lenders: "Kootenay Savings Credit Union says on its own site that its corporate offices are in Trail.",
     areas: [
@@ -21,7 +21,8 @@ export default {
       ["Castlegar Zoning Bylaw No. 1428, consolidated", "https://castlegar.ca/wp-content/uploads/2024/07/Consolidated.Branded.Bylaw_.1428-Zoning-Bylaw.pdf"],
       ["Castlegar business licence page", "https://castlegar.ca/planning-building-business/business-resources/apply-for-a-business-licence/"],
       ["Castlegar interim housing needs report", "https://castlegar.ca/wp-content/uploads/2024/12/2024-Castlegar-Interim-Housing-Needs-Report.pdf"],
-      ["Interior Health, Kootenay Boundary Regional Hospital", "https://www.interiorhealth.ca/locations/kootenay-boundary-regional-hospital"]
+      ["Interior Health, Kootenay Boundary Regional Hospital", "https://www.interiorhealth.ca/locations/kootenay-boundary-regional-hospital"],
+      ["City of Trail, Council minutes of June 24, 2024", "https://trail.civicweb.net/document/98074/"]
     ],
     omitted: [
       "Trail Zoning Amendment Bylaw No. 2944 (adopted June 24, 2024): NOT CONFIRMED. The trail.ca zoning bylaw carries 'Bylaw 2944' margin marks beside the amenity-area definition and the secondary-suite section, so the bylaw exists. No page I could open shows its adoption date; the civicweb PDF and council minutes were blocked or not found. Number left out per brief. The 'June 2024' wording comes from the original research only.",
@@ -114,7 +115,7 @@ export default {
 
   "terrace": {
     str: "Terrace's zoning bylaw is No. 2069-2014, as changed in 2024. It defines a short-term rental as paid stays in a home for under 30 days. It treats a bed and breakfast as a use run by the resident inside the main home. The City's 2023 zoning text says a bed and breakfast can have up to 4 guest rooms. It also says every home business needs a City licence. Check with the City before you rely on this.",
-    suites: "The City says a zoning change adopted on June 24, 2024 allows up to 4 dwelling units. It covers most low-density residential lots. It replaced the old R1-A, R1 and R2 zones with a new R1 zone. Check with the City on your lot.",
+    suites: "The City says a zoning change adopted on June 24, 2024 allows up to 4 dwelling units. It covers most low-density residential lots. It replaced the old R1-A, R1 and R2 zones with a new R1 zone. The bylaw is No. 2305-2024. Check with the City on your lot.",
     employers: [
       "Northern Health, runs Ksyen Regional Hospital in Terrace",
       "School District 82, listed in the City's 2016 community profile",
@@ -138,7 +139,8 @@ export default {
       ["Terrace Housing Needs Report, December 2024", "https://www.terrace.ca/sites/default/files/docs/business-development/Terrace-Housing-Needs-Report-with-Appendices-Dec2024.pdf"],
       ["Terrace Official Community Plan, consolidated", "https://terrace.ca/sites/default/files/docs/city-hall/bylaws/2142-18_official_community_plan_consolidated_to_2153-18.pdf"],
       ["Northern Health, Ksyen Regional Hospital", "https://www.northernhealth.ca/find-a-facility/hospitals/mills-memorial-hospital"],
-      ["Terrace community profile, 2016", "https://www.terrace.ca/sites/default/files/docs/terrace_investment_ready_community_profile_sept_2016_updated.pdf"]
+      ["Terrace community profile, 2016", "https://www.terrace.ca/sites/default/files/docs/terrace_investment_ready_community_profile_sept_2016_updated.pdf"],
+      ["City of Terrace, Zoning Bylaw amendment list", "https://www.terrace.ca/media/3766"]
     ],
     omitted: [
       "SSMUH amending bylaw number still NOT VERIFIED: the City page and December 2024 housing report give June 2024 (adopted June 24, first reading June 10) with no number, the posted PDF title is blank, and the consolidated zoning bylaw page was blocked. Left out.",
@@ -151,7 +153,7 @@ export default {
   },
 
   "kitimat": {
-    str: "",
+    str: "Kitimat's municipal code has a bed and breakfast rule but no short-term rental section in the part we read. A bed and breakfast must be in a zone that allows it. The owner must live in the home, and it needs a business licence. The District's 2024 housing report counted 7 licensed short-term rentals. Check with the District before you count on rental income.",
     suites: "Kitimat is delayed under the Province's small-scale multi-unit housing rules. A Province news release moved the deadline to December 31, 2030. Meanwhile, the District says many zones allow secondary suites and detached accessory dwellings. In May 2025, Council rezoned 25 Mulberry Street properties to R2-A. That change allows suites and accessory dwellings.",
     employers: [
       "Rio Tinto BC Works, aluminum smelter the townsite was built for in the 1950s",
@@ -159,7 +161,7 @@ export default {
       "Haisla Nation, majority owner of Cedar LNG",
       "Northern Health, runs Kitimat General Hospital and Health Centre"
     ],
-    mix: "The District's Housing Action Plan uses 2011 data. It shows about 77 percent of homes owned and 23 percent rented. Detached houses were by far the most common type.",
+    mix: "The 2021 Census, in the District's 2024 housing needs report, shows about 76 percent of households own and 24 percent rent. Single-detached houses are about 65 percent of homes. Apartments under five storeys are about 12 percent. Semi-detached homes are about 11 percent and row houses about 9 percent.",
     lenders: "",
     areas: [
       { n: "Nechako", d: "The first townsite neighbourhood, built in 1954, with detached homes and some multifamily buildings." },
@@ -177,7 +179,9 @@ export default {
       ["District of Kitimat Official Community Plan", "https://www.kitimat.ca/en/business-and-development/resources/Documents/Official-Community-Plan.pdf"],
       ["Province of BC, District of Kitimat Housing Action Plan", "https://www2.gov.bc.ca/assets/gov/housing-and-tenancy/tools-for-government/publications/kitimat_hap_final.pdf"],
       ["Haisla Nation", "http://haisla.ca/"],
-      ["Northern Health, Kitimat General Hospital", "https://www.northernhealth.ca/find-a-facility/hospitals/kitimat-general-hospital-and-health-centre"]
+      ["Northern Health, Kitimat General Hospital", "https://www.northernhealth.ca/find-a-facility/hospitals/kitimat-general-hospital-and-health-centre"],
+      ["District of Kitimat, Interim Housing Needs Report (2024)", "https://hdp-ca-prod-app-kitimat-getinvolved-files.s3.ca-central-1.amazonaws.com/5017/3638/0894/InterimHousingNeedsReport.pdf"],
+      ["District of Kitimat, Municipal Code Part 9", "https://www.kitimat.ca/en/municipal-hall/resources/Documents/Kitimat-Municipal-Code/Part-9/Consolidated_PART-9-2025-03-17.pdf"]
     ],
     omitted: [
       "Third pass: mix now filled from the Housing Action Plan on gov.bc.ca (2011 data, so old). The 2024 Interim Housing Needs Report and 2025 fact sheet were blocked on S3 and kitimat.ca; invest.kitimat.ca/housing-profile charts still show Loading. Refresh mix if the newer report is read. STR still empty: no official page states a rule.",

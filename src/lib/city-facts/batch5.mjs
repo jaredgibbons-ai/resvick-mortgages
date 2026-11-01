@@ -84,8 +84,8 @@ export default {
   },
 
   "keremeos": {
-    str: "The Village's business licence page does not mention short-term rentals. It says home businesses must follow the zoning bylaw's home occupation rules. Check with the Village before you count on rental income.",
-    suites: "The Province's 3 to 4 unit rule covers towns over 5,000 people. Keremeos is well under that. The Village's Zoning Bylaw No. 851 allows secondary suites and carriage houses on some lots. A zoning amendment, No. 851-10, aims at up to 3 units on serviced RS1 lots. It passed third reading in November 2025. A December 2025 report said adoption was deferred. We could not confirm the final status, so check with the Village.",
+    str: "The Village's zoning bylaw has a bed and breakfast rule in section 7.8. It allows up to 4 bedrooms and 8 guests. Only people who live in the home may run it, and they must be present during a stay. The Village's pages do not mention short-term rentals. Check with the Village before you count on rental income.",
+    suites: "The Province's 3 to 4 unit rule covers towns over 5,000 people. Keremeos is well under that. The Village's Zoning Bylaw No. 851 allows secondary suites and carriage houses on some lots. Zoning Amendment Bylaw No. 851-10 sets up to 3 homes on serviced RS1 lots. The Village says Council adopted it on December 1, 2025. Check with the Village before you rely on this.",
     employers: [
       "Interior Health, South Similkameen Health Centre",
       "School District 53 (Okanagan Similkameen), which runs Similkameen Elementary Secondary School in Keremeos",
@@ -108,7 +108,9 @@ export default {
       ["Village of Keremeos, business licence page", "https://www.keremeos.ca/business-licence-and-inter-community-business-licence"],
       ["Village of Keremeos, 2017 business recruitment and resident attraction strategy", "https://www.keremeos.ca/files/documents/2017-05-15-FINALBusinessRecruitmentResidentAttractionStrategy-17041WITHEDITS21.pdf"],
       ["RDOS, Electoral Area G community profile", "https://www.rdos.bc.ca/assets/PLANNING/AreaG/OCPProject/CommunityProfile2020.pdf"],
-      ["Similkameen Elementary Secondary School, School District 53", "https://sess.sd53.bc.ca/"]
+      ["Similkameen Elementary Secondary School, School District 53", "https://sess.sd53.bc.ca/"],
+      ["Village of Keremeos, Council highlights (December 2025)", "https://keremeos.civicweb.net/document/12657/"],
+      ["Village of Keremeos, Zoning Bylaw No. 851 consolidated", "https://keremeos.civicweb.net/document/15676/"]
     ],
     omitted: [
       "Bylaw 851-10 final status still NOT CONFIRMED. The Village's civicweb files (consolidated zoning bylaw 'revised June 10, 2026', Aug 2026 agenda) are blocked to automated reads. The Village's planning page lists only Zoning Bylaw 851 and OCP Bylaw 850, with no amendment list. Editor should check the consolidated bylaw on keremeos.civicweb.net by hand.",
@@ -133,9 +135,14 @@ export default {
       "AIM Roads (ACCIONA Infrastructure Maintenance), road and bridge upkeep, listed in the Town's business directory"
     ],
     lenders: "",
-    areas: [],
-    mix: "The Town's community page lists apartments, condos, seniors housing, standard lots and estate lots of one to two acres.",
-    land: "",
+    areas: [
+      {"n": "Allison Flats", "d": "A flood-hit area along the Tulameen River. The Town's 2024 housing report says residents there lived in mobile homes, houses and apartments."},
+      {"n": "Town Centre", "d": "The Town's 2023 community plan points denser homes here, such as townhouses, row houses and apartments."},
+      {"n": "Northwest, southwest and southeast sectors", "d": "The community plan sets low density residential here: houses, two-family homes and manufactured homes."},
+      {"n": "Rural lots", "d": "The plan allows single-family houses and accessory dwellings on large rural lots, with or without town water and sewer."}
+    ],
+    mix: "The Town's 2024 housing needs report says single-family homes are about 82 percent of the housing stock. That uses the 2021 Census. The Town's community page lists apartments, condos, seniors housing, standard lots and estate lots of one to two acres.",
+    land: "The Town's 2024 housing report says three survey respondents lived on Chuchuwayha 2. It calls this Upper Similkameen Indian Band land. Title on reserve land is not like regular title. Lenders vary, so ask early.",
     feature: "Mining made up about 20 percent of Princeton's labour force in the 2021 Census. Manufacturing was second. When most jobs sit with a few employers, a lender may ask more about job type and stability. Lenders vary.",
     src: [
       ["Copper Mountain Mine, FAQ", "https://hudbaycoppermountain.com/faq/"],
@@ -143,7 +150,9 @@ export default {
       ["Town of Princeton, about Princeton", "https://www.princeton.ca/p/about-princeton"],
       ["Town of Princeton, business directory", "https://princeton.ca/p/business-directory/1000"],
       ["Interior Health, Princeton General Hospital", "https://www.interiorhealth.ca/locations/princeton-general-hospital"],
-      ["Statistics Canada, 2021 Census Profile, Princeton", "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&DGUIDlist=2021A00055907024"]
+      ["Statistics Canada, 2021 Census Profile, Princeton", "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&DGUIDlist=2021A00055907024"],
+      ["Town of Princeton, Housing Needs Report 2024", "https://princeton.civicweb.net/document/64350/174.PHNR.28.11.2024_compressed.pdf?handle=72A4A071A59444E2ACFAE795BB59FEF9"],
+      ["Town of Princeton, Official Community Plan Bylaw 1044 agenda", "https://princeton.civicweb.net/document/58632/Regular%20Agenda%20-%2001%20Nov%202023.pdf?handle=2C792B6B93B6447587A417C84E12D209"]
     ],
     omitted: [
       "STR: the Town's business licence page and FAQ do not mention short-term rentals, and no STR bylaw was found. str says only that. The Town's zoning bylaw (civicweb) is blocked to automated reads, so any zoning rule on rentals is unchecked.",
@@ -242,7 +251,7 @@ export default {
 
   "fernie": {
     str: "A short-term rental in Fernie needs a City licence. The licence is under Business Licensing and Regulation Bylaw No. 2028. The City raised its licence fees in August 2025. In residential zones, a rental is allowed only in the owner's legal principal residence. Condo and hotel rentals are allowed only in specially zoned developments, such as Silver Rock and parts of Pinnacle Ridge. No rentals are allowed in carriage houses, garage suites, secondary suites or garden homes.",
-    suites: "Fernie is covered by the Province's small-scale multi-unit housing rules. A zoning amendment, adopted in June 2024, created the RSS Residential Small-Scale zone. The amendment is No. 2517. It also merged the older residential zones. It follows the Province's standard of up to 4 units per lot. Lots of 280 square metres or less get up to 3. Check with the City before you rely on this.",
+    suites: "Fernie is covered by the Province's small-scale multi-unit housing rules. The City's Zoning Bylaw No. 1750 has an RSS Residential Small-Scale zone for them. It follows the Province's standard of up to 4 units per lot. Lots of 280 square metres or less get up to 3. In 2025 the City changed its community plan to match the zoning. Check with the City before you rely on this.",
     employers: [
       "Elk Valley Resources, four steelmaking coal mines in the Elk Valley. Its fact sheet says about 780 jobs in Fernie.",
       "Fernie Alpine Resort, a ski resort on Ski Hill Road",
@@ -254,17 +263,22 @@ export default {
       { n: "Silver Rock", d: "The City's rental page names it as a specially zoned condo and hotel development." },
       { n: "Pinnacle Ridge", d: "The City's rental page says parts of it are specially zoned for condo and hotel rentals." },
       { n: "West Fernie", d: "The City's zoning bylaw has a West Fernie zone for single-detached homes and duplexes." },
-      { n: "Riverside", d: "The City's zoning bylaw has a Riverside zone for attached multi-family homes and condo hotels." }
+      { n: "Riverside", d: "The City's zoning bylaw has a Riverside zone for attached multi-family homes and condo hotels." },
+      {"n": "Annex", "d": "The City's plan describes single family and lower density multi-family homes. It encourages townhouses here."},
+      {"n": "Ridgemont", "d": "A mostly single-family area built mainly in the 1970s, east of the historic downtown."}
     ],
     land: "",
     feature: "Mining is Fernie's largest industry in the 2021 Census. Elk Valley Resources says it sustains about 780 jobs in the city. When income depends on one employer group, a lender may ask more about job stability. Lenders vary.",
+    mix: "The City's 2025 housing needs report uses the 2021 Census. It says single detached homes are more than half of Fernie's homes. The Census counted 1,620 of them.",
     src: [
       ["City of Fernie, short-term rental page", "https://letstalk.fernie.ca/str"],
       ["City of Fernie, zoning amendment (small-scale zone)", "https://fernie.civicweb.net/document/173397/"],
       ["Elk Valley Resources, what we do", "https://www.glencore.ca/en/evr/what-we-do"],
       ["City of Fernie, consolidated zoning bylaw (draft changes)", "https://www.fernie.ca/assets/City~Hall/Departments/Planning~and~Development~Services/docs/Zoning%20Bylaw%20Redline%20Showing%20Draft%20Height%20and%20Grading%20Changes.pdf"],
       ["Elk Valley Hospital, Interior Health", "https://www.interiorhealth.ca/locations/elk-valley-hospital"],
-      ["School District 5, Fernie", "https://www.sd5.bc.ca/internationaled/city-of-fernie"]
+      ["School District 5, Fernie", "https://www.sd5.bc.ca/internationaled/city-of-fernie"],
+      ["City of Fernie, OCP amendment Bylaw 2540 (2025)", "https://fernie.civicweb.net/FileStorage/45FCAA79E3C34CB18668F1870937686E-Official%20Community%20Plan%20Bylaw%20No.%202231,%20Amendment%20.pdf"],
+      ["City of Fernie, Official Community Plan", "https://fernie.civicweb.net/document/74957/"]
     ],
     omitted: [
       "Second pass: employers filled from the resort's own site, Interior Health and the School District 5 site. Fernie Secondary School has about 400 students per that page. Areas: only Silver Rock and Pinnacle Ridge, from the City's rental page. The OCP PDF link on letstalk.fernie.ca and civicweb files could not be read, and the Annex dike news item gives about 900 homes but no housing type. Mix not filled: the Housing Needs Report 2020 (civicweb) and the Statistics Canada profile would not open, and the 2024 Annual Municipal Report page has no housing figures.",

@@ -1,7 +1,7 @@
 export default {
   "abbotsford": {
-    str: "Abbotsford requires a City business licence to run a short-term rental. A June 2025 Council report lists licence conditions. They are proof of principal residence, a fire safety plan and a parking plan. The report is PDS 124-2025. The City's zoning lets a host rent only the principal home. That home can be a detached house or duplex plus one accessory unit. The zoning change is Bylaw No. 3691-2025. Check with the City that these rules are in force before you rely on them.",
-    suites: "Abbotsford's zoning bylaw has a small-scale multi-unit housing zone, called SSMUH 1. It allows up to 3 homes on lots of 280 square metres or less. Larger lots can have up to 4 homes. Secondary suites, garden suites and coach houses are also allowed. The City folded these rules into a 2025 zoning update. We did not confirm when the City first adopted them. Check with the City.",
+    str: "Abbotsford requires a City business licence to run a short-term rental. The rule is section 11.30 of Business Licence Bylaw No. 1551-2006. A rental must follow section 140 of the Zoning Bylaw. Before the licence is issued, the host must give proof of principal residence. The host must also give a fire safety plan and a parking plan. Check with the City that these rules are in force before you rely on them.",
+    suites: "Abbotsford's zoning bylaw has a small-scale multi-unit housing zone, called SSMUH 1. It allows up to 3 homes on lots of 280 square metres or less. Larger lots can have up to 4 homes. Secondary suites, garden suites and coach houses are also allowed. The City folded these rules into a 2025 zoning update. The City says Council adopted the zoning changes in June 2024. Check with the City.",
     employers: [
       "Fraser Health, Abbotsford Regional Hospital and Cancer Centre",
       "University of the Fraser Valley, main campus in Abbotsford",
@@ -24,7 +24,9 @@ export default {
       ["City of Abbotsford, Zoning Bylaw SSMUH 1 zone", "https://laws.abbotsford.ca/civix/document/id/coa/coabylaws/2014b2400351"],
       ["City of Abbotsford, Economic Development Investment Profile", "https://www.abbotsford.ca/sites/default/files/2023-11/2020%20Investment%20Profile%20-%20Nov%202023.pdf"],
       ["City of Abbotsford, Interim Housing Needs Report 2024", "https://www.abbotsford.ca/sites/default/files/2024-11/2024%20Interim%20Housing%20Needs%20Report.pdf"],
-      ["City of Abbotsford, UDistrict Neighbourhood Plan background report", "https://www.abbotsford.ca/sites/default/files/2021-02/Udistrict%20background%20research%20report.pdf"]
+      ["City of Abbotsford, UDistrict Neighbourhood Plan background report", "https://www.abbotsford.ca/sites/default/files/2021-02/Udistrict%20background%20research%20report.pdf"],
+      ["City of Abbotsford, Business Licence Bylaw 1551-2006", "https://laws.abbotsford.ca/civix/document/id/coa/coabylaws/2006b1551bylaw"],
+      ["City of Abbotsford, housing progress blog", "https://www.abbotsford.ca/council/your-council-community/blog/making-progress-housing-abbotsford"]
     ],
     omitted: [
       "Second pass: SSMUH adoption date still NOT VERIFIED on abbotsford.ca (zoning bylaw pages show only 2025 and 2026 consolidation dates). Zoning Bylaw s. 140.3.1 (laws.abbotsford.ca section 140) confirms principal residence only, detached or duplex plus one suite, six guests and three sleeping units on most lots, one guest parking space. It does not mention a licence, so the licence claim rests on the Council report. McKee and other neighbourhood plans do not state a housing type, so only UDistrict was added. Two zoning pages that confirm the STR limits were not added to src (cap of 6). Dropped the 2025 Zoning Bylaw Updates Overview link to make room.",
@@ -38,7 +40,7 @@ export default {
 
   "mission": {
     str: "Mission requires a City business licence for a short-term rental. A City declaration form goes with the application. Two bylaws apply. They are Zoning Bylaw 5949-2020 and Business Licence Bylaw 3964-2007. The licence must be posted at the property. It ends each December 31. Check the City's page for the current status.",
-    suites: "Mission's page says the new rules cover lots inside the Urban Growth Boundary. The lot needs municipal water and sewer. Lots under 280 square metres can have up to 3 homes. Larger lots can have up to 4. Forms include suites, coach homes, duplexes, triplexes, fourplexes and townhomes. The City updated its zoning bylaw for this in 2024. A staff report to Council on these rules is dated June 3, 2024. We did not confirm the adoption date or the bylaw number.",
+    suites: "Mission's page says the new rules cover lots inside the Urban Growth Boundary. The lot needs municipal water and sewer. Lots under 280 square metres can have up to 3 homes. Larger lots can have up to 4. Forms include suites, coach homes, duplexes, triplexes, fourplexes and townhomes. The City updated its zoning bylaw for this in 2024. Council adopted the change on July 17, 2024. The bylaw is Zoning Amending Bylaw 6299-2024.",
     employers: [
       "Fraser Health, Mission Memorial Hospital (50 beds)",
       "Mission Public Schools (School District 75)",
@@ -63,7 +65,8 @@ export default {
       ["City of Mission, Homelessness and Housing Needs Report", "https://www.mission.ca/media/file/housing-needs-report-2025pdf"],
       ["City of Mission, Community profile 2022", "https://www.mission.ca/media/file/2022-community-profile"],
       ["City of Mission, Cedar Valley Local Area Plan", "https://www.mission.ca/media/file/cedar-valley-local-area-planpdf"],
-      ["City of Mission, draft Official Community Plan Bylaw 6350-2025", "https://www.mission.ca/media/file/attachment-draft-ocp-bylaw-public-engagement"]
+      ["City of Mission, draft Official Community Plan Bylaw 6350-2025", "https://www.mission.ca/media/file/attachment-draft-ocp-bylaw-public-engagement"],
+      ["City of Mission, Special Council minutes of July 17, 2024", "https://pub-mission.escribemeetings.com/filestream.ashx?DocumentId=16214"]
     ],
     omitted: [
       "Third task: employers now come from the City's 2022 community profile (lists School District 75, Mission Memorial Hospital, Corrections Canada, BC Frozen Foods, no counts). Cedar Valley (72.5 percent detached, from the Cedar Valley Local Area Plan), Downtown, Silverdale and Stave Heights come from the Cedar Valley plan and the draft OCP Bylaw 6350-2025 (unadopted draft). Stave Heights page: https://www.mission.ca/council-government/plans-strategies/stave-heights-neighbourhood-plan (not in src, cap of 6).",
@@ -75,7 +78,7 @@ export default {
 
   "chilliwack": {
     str: "Chilliwack requires a City business licence for rentals of 28 days or less. The application asks for proof that the rental is on the same lot as the principal home. The City's Short-Term Rental Bylaw caps a rental at 3 sleeping units. The bylaw is No. 5141. It also limits whole-home rentals to times the operator is away. Read it before you plan on rental income.",
-    suites: "Council approved a zoning change in June 2024. It allows 3 to 4 homes on lots inside the urban growth boundary. The lots must be zoned for single detached or duplex homes. Lots over 280 square metres can have up to 4. The Province gave a partial extension to December 31, 2030. It covers part of Chilliwack Proper and the Hazel Park area. Check the City's map for your lot.",
+    suites: "Council approved a zoning change in June 2024. The bylaw is No. 5395, which passed its readings on June 4, 2024. It allows 3 to 4 homes on lots inside the urban growth boundary. The lots must be zoned for single detached or duplex homes. Lots over 280 square metres can have up to 4. The Province gave a partial extension to December 31, 2030. It covers part of Chilliwack Proper and the Hazel Park area. Check the City's map for your lot.",
     employers: [
       "University of the Fraser Valley, Chilliwack campus at Canada Education Park (agriculture, trades and health programs)",
       "Fraser Health, Chilliwack General Hospital",
@@ -99,7 +102,8 @@ export default {
       ["Province of BC, SSMUH extension announcement", "https://news.gov.bc.ca/releases/2024hous0178-001534"],
       ["Canadian Army, 39 Combat Engineer Regiment", "https://www.canada.ca/en/army/corporate/3-canadian-division/39-combat-engineer-regiment.html"],
       ["School District 33, About", "https://www.sd33.bc.ca/about"],
-      ["City of Chilliwack, City-wide community trends (Census profile)", "https://www.chilliwack.com/main/attachments/Files/3099/ChilliwackProfile-Citywide_CommunityTrends.pdf"]
+      ["City of Chilliwack, City-wide community trends (Census profile)", "https://www.chilliwack.com/main/attachments/Files/3099/ChilliwackProfile-Citywide_CommunityTrends.pdf"],
+      ["City of Chilliwack, Council meeting of June 4, 2024", "https://pub-chilliwack.escribemeetings.com/Meeting?Id=bd0f4e53-f1e4-45ca-b077-9e8d2e6a0a78"]
     ],
     omitted: [
       "Third pass: fourth employer is 39 Combat Engineer Regiment (Canada.ca, headquarters at Korea Road, Chilliwack). A separate CFB Chilliwack page was not found. Dropped the Fraser Health careers page from src to stay at six, so the hospital line has no bed count.",
@@ -193,7 +197,9 @@ export default {
     lenders: "",
     areas: [
       { n: "Rockland", d: "Historic area of ground-level homes, with large lots and estates. Many homes are long-time rentals." },
-      { n: "Downtown", d: "The City's plan supports smaller homes, rowhouses, townhouses and homes on the upper floors of heritage buildings." }
+      { n: "Downtown", d: "The City's plan supports smaller homes, rowhouses, townhouses and homes on the upper floors of heritage buildings." },
+      {"n": "Gonzales", "d": "Mostly detached houses. The 2002 neighbourhood plan aims to keep detached homes the main type."},
+      {"n": "Victoria West", "d": "The City's plan describes an eclectic mix of job areas, apartments and older streets with many housing forms."}
     ],
     mix: "The City's 2020 housing needs report uses the 2016 Census. It shows about 61 percent of households rented. Apartments were about 68 percent of homes. Single-detached houses were about 14 percent.",
     land: "",
@@ -204,7 +210,9 @@ export default {
       ["City of Victoria, Zoning Bylaw 2018 Schedule P", "https://www.victoria.ca/media/1207"],
       ["City of Victoria, Downtown Core Area Plan, introduction", "https://www.victoria.ca/media/file/dcap-introductionpdf"],
       ["Greater Victoria School District, About us", "https://www.sd61.bc.ca/our-district/about-us/"],
-      ["City of Victoria, Rockland neighbourhood directions", "https://www.victoria.ca/media/file/rockland-neighbourhood-directions-extract-official-community-plan"]
+      ["City of Victoria, Rockland neighbourhood directions", "https://www.victoria.ca/media/file/rockland-neighbourhood-directions-extract-official-community-plan"],
+      ["City of Victoria, council report on Gonzales", "https://pub-victoria.escribemeetings.com/filestream.ashx?DocumentId=96951"],
+      ["City of Victoria, council report on Victoria West", "https://pub-victoria.escribemeetings.com/filestream.ashx?DocumentId=58784"]
     ],
     omitted: [
       "Third task: employers now come from the City's OCP economy section (Royal Jubilee Hospital named as anchor, Victoria is the provincial capital), the SD61 About us page (45 schools, about 20,000 students, based in Victoria) and the Greater Victoria Harbour Authority newsroom page https://gvha.ca/about-gvha/newsroom/victoria-and-esquimalt-harbours-contribute-2-9-billion-to-regional-economy-annually/ (not in src, cap of 6). Island Health page for the hospital: https://www.islandhealth.ca/locations/hospitals-health-centre-locations/royal-jubilee-hospital-rjh. Seaspan Victoria Shipyards (800 employees per Seaspan) left out because its dock is the Esquimalt Graving Dock. UVic and Camosun are in Saanich.",
