@@ -45,6 +45,7 @@ export default {
       "University of Northern British Columbia, post-secondary school",
       "College of New Caledonia, post-secondary school"
     ],
+    mix: "The City's December 2024 housing needs report uses the 2021 Census. It shows about 68 percent of households own and 32 percent rent. About 58 percent of homes are single-detached houses. Row houses are about 6 percent.",
     lenders: "",
     areas: [
       { n: "The Crescents", d: "Older neighbourhood just west of downtown, mostly detached houses, including heritage homes." },
@@ -57,7 +58,7 @@ export default {
     land: "Lheidli T'enneh First Nation has four reserves in and next to the city. The main one, Fort George No. 2, is northeast of the city on both sides of the Fraser River. Homes on reserve land are on band land, not fee simple, so ask a lender early.",
     feature: "Prince George sits where the Fraser and Nechako rivers meet. The City's consolidated bylaw from October 2025 deals with river flood hazard in low-lying parts of the city. Ask about a specific address before you make an offer.",
     src: [
-      ["Prince George Zoning Amendment Bylaw No. 9466", "https://www.princegeorge.ca/sites/default/files/2024-04/BL9466_Original_1.pdf"],
+      ["Prince George Housing Needs Report, December 2024", "https://www.princegeorge.ca/sites/default/files/2024-12/City%20of%20Prince%20George%20Housing%20Needs%20Report%20-%20Dec%202024%20IHNR%20Update.pdf"],
       ["City of Prince George housing legislation page", "http://www.princegeorge.ca/media/4364"],
       ["City of Prince George planning document", "https://www.princegeorge.ca/media/5259"],
       ["Prince George consolidated bylaw, October 2025", "https://www.princegeorge.ca/sites/default/files/2025-10/BL9525_CONSOLIDATED_2025-10-20_1.pdf"],
@@ -83,6 +84,7 @@ export default {
       "C&C Wood Products, lumber mill named in the City's strategy",
       "North Cariboo Community Campus, College of New Caledonia and UNBC"
     ],
+    mix: "A December 2024 housing needs report covers the North Cariboo. It uses the 2021 Census. It shows about 62 percent of Quesnel households own and 38 percent rent.",
     lenders: "",
     areas: [
       { n: "West Quesnel", d: "Residential area west of the Fraser River, mostly detached houses, partly in a Land Stability Area." },
@@ -97,7 +99,8 @@ export default {
       ["City staff report on short-term rentals, Feb 2024", "https://quesnel.civicweb.net/FileStorage/ECB2EA49874A43048D8FD6A4BC1768EF-City%20Staff%20Report%20-%20Short%20Term%20Rentals%20Policy.pdf"],
       ["Zoning Amendment Bylaw No. 1962", "https://quesnel.civicweb.net/document/154416/"],
       ["City page on adding units to your property", "https://www.quesnel.ca/building-development/housing-initiatives/add-residential-units-your-property"],
-      ["Quesnel Zoning Bylaw No. 1880, consolidated", "https://www.quesnel.ca/media/file/zoning-bylaw-1880-consolidated-updated-oct-28-2024"]
+      ["Quesnel Zoning Bylaw No. 1880, consolidated", "https://www.quesnel.ca/media/file/zoning-bylaw-1880-consolidated-updated-oct-28-2024"],
+      ["North Cariboo Interim Housing Needs Assessment, December 2024", "https://www.quesnel.ca/media/file/north-cariboo-interim-housing-needs-assessment"]
     ],
     omitted: [
       "Lenders: none headquartered in Quesnel verified. Integris history left out per brief.",
@@ -190,8 +193,10 @@ export default {
       "Prince Rupert Port Authority, operator of the Port of Prince Rupert",
       "DP World Prince Rupert, operator of the Fairview Container Terminal",
       "Coast Mountain College, regional college with a Prince Rupert campus",
-      "Northern Savings Credit Union, head office in Prince Rupert"
+      "Northern Savings Credit Union, head office in Prince Rupert",
+      "Northern Health, runs Prince Rupert Regional Hospital"
     ],
+    mix: "The City's housing needs report uses the 2021 Census. It shows about 62 percent of households own and 38 percent rent. About 56 percent of homes are single-detached houses.",
     lenders: "Northern Savings Credit Union says on its own site that its head office is in Prince Rupert.",
     areas: [
       { n: "Downtown District", d: "Commercial core that also allows homes, including live-work studios and multi-family housing." },
@@ -207,7 +212,8 @@ export default {
       ["City report on short-term rentals, May 2024", "https://www.princerupert.ca/media/1282"],
       ["City report on small-scale multi-unit housing", "https://www.princerupert.ca/media/1308"],
       ["Northern Savings Credit Union", "https://www.northsave.com/"],
-      ["Coast Mountain College, Terrace campus page listing campuses", "https://www.coastmountaincollege.ca/about-cmtn/news-media/news/tour-the-terrace-campus"]
+      ["Prince Rupert Housing Needs Report, 2022", "https://www.princerupert.ca/sites/7/files/2023-06/221128_Final_PR_HNR.pdf"],
+      ["Northern Health, Prince Rupert Regional Hospital", "https://www.northernhealth.ca/find-a-facility/hospitals/prince-rupert-regional-hospital"]
     ],
     omitted: [
       "Bylaw numbers: used only 3532 and 3462 (max two). SSMUH amending bylaws (3536, 3539) described without numbers.",

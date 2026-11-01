@@ -5,12 +5,15 @@ export default {
     employers: [
       "Fraser Health, Abbotsford Regional Hospital and Cancer Centre",
       "University of the Fraser Valley, main campus in Abbotsford",
-      "Abbotsford School District (SD34), public schools"
+      "Abbotsford School District (SD34), public schools",
+      "Cascade Aerospace, aircraft maintenance and design, listed in the City's investment profile"
     ],
+    mix: "A City housing report uses the 2016 Census. It shows about 70 percent of homes owned and 30 percent rented. The City says single detached homes are the most common type.",
     lenders: "",
     areas: [
       { n: "Mt. Lehman", d: "Rural area in west Abbotsford with acreages and farmland. The City's planning report names it as a neighbourhood." },
-      { n: "Auguston", d: "Newer planned community at the base of Sumas Mountain in east Abbotsford. The City's planning report names it." }
+      { n: "Auguston", d: "Newer planned community at the base of Sumas Mountain in east Abbotsford. The City's planning report names it." },
+      { n: "UDistrict", d: "Neighbourhood beside the University of the Fraser Valley campus. The City's background report says it has single family homes and multi-family strata sites." }
     ],
     land: "",
     feature: "The City's own planning report calls Abbotsford the Fraser Valley hub. It names health care, court services, university, airport and government. These institutions anchor local employment.",
@@ -18,9 +21,12 @@ export default {
       ["City of Abbotsford, Council report on short-term rental bylaws", "https://abbotsford.civicweb.net/document/58187/"],
       ["City of Abbotsford, Zoning Amendment Bylaw No. 3691-2025", "https://hdp-ca-prod-app-abbotsford-letstalk-files.s3.ca-central-1.amazonaws.com/1617/8514/3419/17fbf4eb004a9d43afda70c4b9502f9b_Bylaw_3691-2025_Zoning_Bylaw_Amendment_Regulations_and_Zones.pdf"],
       ["City of Abbotsford, Zoning Bylaw SSMUH 1 zone", "https://laws.abbotsford.ca/civix/document/id/coa/coabylaws/2014b2400351"],
-      ["City of Abbotsford, Zoning Bylaw Updates Overview 2025", "https://www.abbotsford.ca/sites/default/files/2026-01/Zoning%20Bylaw%20Updates%20Overview%202025.pdf"]
+      ["City of Abbotsford, Economic Development Investment Profile", "https://www.abbotsford.ca/sites/default/files/2023-11/2020%20Investment%20Profile%20-%20Nov%202023.pdf"],
+      ["City of Abbotsford, Interim Housing Needs Report 2024", "https://www.abbotsford.ca/sites/default/files/2024-11/2024%20Interim%20Housing%20Needs%20Report.pdf"],
+      ["City of Abbotsford, UDistrict Neighbourhood Plan background report", "https://www.abbotsford.ca/sites/default/files/2021-02/Udistrict%20background%20research%20report.pdf"]
     ],
     omitted: [
+      "Second pass: SSMUH adoption date still NOT VERIFIED on abbotsford.ca (zoning bylaw pages show only 2025 and 2026 consolidation dates). Zoning Bylaw s. 140.3.1 (laws.abbotsford.ca section 140) confirms principal residence only, detached or duplex plus one suite, six guests and three sleeping units on most lots, one guest parking space. It does not mention a licence, so the licence claim rests on the Council report. McKee and other neighbourhood plans do not state a housing type, so only UDistrict was added. Two zoning pages that confirm the STR limits were not added to src (cap of 6). Dropped the 2025 Zoning Bylaw Updates Overview link to make room.",
       "Mt. Lehman Credit Union head office: batch says NOT VERIFIED (trade press only), left out.",
       "Neighbourhoods Eagle Mountain, McMillan, South Clearbrook, Bradner: cited only to a Fraser Health careers page, left out. Mt. Lehman and Auguston are kept because the batch cites the City's OCP background report, but the housing descriptions are thinly supported; editor may drop them.",
       "Reserve land (Matsqui, Sumas): cited only to the Fraser Health careers page, left out. Agriculture 'employer' item and City of Abbotsford employer item are not named employers, left out.",
@@ -29,7 +35,7 @@ export default {
   },
 
   "mission": {
-    str: "Mission requires a City business licence for a short-term rental. A City declaration form goes with the application. Two bylaws apply. They are Zoning Bylaw 5949-2020 and Business Licence Bylaw 3964-2007. The licence must be posted at the property. It ends each December 31. A May 2025 City notice proposed swapping bed-and-breakfast rules for short-term rental rules. Check the City's page for the current status.",
+    str: "Mission requires a City business licence for a short-term rental. A City declaration form goes with the application. Two bylaws apply. They are Zoning Bylaw 5949-2020 and Business Licence Bylaw 3964-2007. The licence must be posted at the property. It ends each December 31. Check the City's page for the current status.",
     suites: "Mission's page says the new rules cover lots inside the Urban Growth Boundary. The lot needs municipal water and sewer. Lots under 280 square metres can have up to 3 homes. Larger lots can have up to 4. Forms include suites, coach homes, duplexes, triplexes, fourplexes and townhomes. The City updated its zoning bylaw for this in 2024. A staff report to Council on these rules is dated June 3, 2024. We did not confirm the adoption date or the bylaw number.",
     employers: [
       "Fraser Health, Mission Memorial Hospital (50 beds)",
@@ -38,6 +44,7 @@ export default {
       "BC Frozen Foods, on the City's list of large employers",
       "University of the Fraser Valley, Mission location at Heritage Park Centre"
     ],
+    mix: "The 2021 Census shows about 65 percent of Mission homes are single detached. Low-rise apartments are about 8 percent.",
     lenders: "",
     areas: [
       { n: "Cedar Valley", d: "Mostly detached homes, about 72 percent per the City's local area plan. Townhomes and row houses are few." },
@@ -51,13 +58,14 @@ export default {
     src: [
       ["City of Mission, Small-Scale Multi-Unit Housing", "https://www.mission.ca/planning/small-scale-multi-unit-housing-ssmuh"],
       ["City of Mission, Short-term rental declaration", "https://www.mission.ca/media/file/short-term-rental-declaration"],
-      ["City of Mission, Rezoning bylaws notice, May 2025", "https://www.mission.ca/media/file/notice-rezoning-bylaws-may-5-2025"],
+      ["City of Mission, Homelessness and Housing Needs Report", "https://www.mission.ca/media/file/housing-needs-report-2025pdf"],
       ["City of Mission, Community profile 2022", "https://www.mission.ca/media/file/2022-community-profile"],
       ["City of Mission, Cedar Valley Local Area Plan", "https://www.mission.ca/media/file/cedar-valley-local-area-planpdf"],
       ["City of Mission, draft Official Community Plan Bylaw 6350-2025", "https://www.mission.ca/media/file/attachment-draft-ocp-bylaw-public-engagement"]
     ],
     omitted: [
       "Third task: employers now come from the City's 2022 community profile (lists School District 75, Mission Memorial Hospital, Corrections Canada, BC Frozen Foods, no counts). Cedar Valley (72.5 percent detached, from the Cedar Valley Local Area Plan), Downtown, Silverdale and Stave Heights come from the Cedar Valley plan and the draft OCP Bylaw 6350-2025 (unadopted draft). Stave Heights page: https://www.mission.ca/council-government/plans-strategies/stave-heights-neighbourhood-plan (not in src, cap of 6).",
+      "Second pass: SSMUH adoption date and bylaw number still not stated on the City SSMUH or housing pages. No owner/renter share found in the Housing Needs Report text read. Dropped the May 2025 rezoning notice link and sentence to stay at 6 sources.",
       "Hatzic: draft OCP only names it as a rural centre location, no housing type, left out. Mix: the Cedar Valley plan says about 65 percent of Mission homes are single detached but gives no census year, so no mix line. No official owner/renter share found.",
       "Exact date of the 2024 SSMUH update NOT VERIFIED (City page gives no bylaw number or adoption date; only a June 3, 2024 staff report title). Bylaw 6341-2025-5949(181) omitted (max 2 numbers, and only advanced, not adopted). Reserve land: none known, left empty. Lenders: none confirmed."
     ]
@@ -65,10 +73,13 @@ export default {
 
   "chilliwack": {
     str: "Chilliwack requires a City business licence for rentals of 28 days or less. The application asks for proof that the rental is on the same lot as the principal home. The City's Short-Term Rental Bylaw caps a rental at 3 sleeping units. The bylaw is No. 5141. It also limits whole-home rentals to times the operator is away. Read it before you plan on rental income.",
-    suites: "Council approved a zoning change in June 2024. The bylaw is No. 5395. It allows 3 to 4 homes on lots inside the urban growth boundary. The lots must be zoned for single detached or duplex homes. Lots over 280 square metres can have up to 4. The Province gave a partial extension to December 31, 2030. It covers part of Chilliwack Proper and the Hazel Park area. Check the City's map for your lot.",
+    suites: "Council approved a zoning change in June 2024. It allows 3 to 4 homes on lots inside the urban growth boundary. The lots must be zoned for single detached or duplex homes. Lots over 280 square metres can have up to 4. The Province gave a partial extension to December 31, 2030. It covers part of Chilliwack Proper and the Hazel Park area. Check the City's map for your lot.",
     employers: [
-      "University of the Fraser Valley, Chilliwack campus at Canada Education Park (agriculture, trades and health programs)"
+      "University of the Fraser Valley, Chilliwack campus at Canada Education Park (agriculture, trades and health programs)",
+      "Fraser Health, Chilliwack General Hospital (169 acute care beds, per Fraser Health's careers page)",
+      "Chilliwack School District (SD33), over 14,000 students and about 1,800 teachers and support staff"
     ],
+    mix: "The 2021 Census shows about 73 percent of Chilliwack homes owned and 27 percent rented. About 58 percent are detached homes. Townhomes and duplexes are about 23 percent and apartments about 20 percent.",
     lenders: "",
     areas: [
       { n: "Chilliwack Proper", d: "Older urban core around downtown. The City's plan calls for smaller-lot detached homes, duplexes, coach houses, rowhouses and some townhouses and low-rise apartments." },
@@ -82,9 +93,13 @@ export default {
     src: [
       ["City of Chilliwack, Short-Term Rental Bylaw 2021, No. 5141", "https://www.chilliwack.com/main/attachments/Files/363/BL51411.pdf"],
       ["Tzeachten First Nation, Residential development", "https://www.tzeachten.ca/departments-tzeachten/housing-public-works/residential-development/"],
-      ["Province of BC, SSMUH extension announcement", "https://news.gov.bc.ca/releases/2024hous0178-001534"]
+      ["Province of BC, SSMUH extension announcement", "https://news.gov.bc.ca/releases/2024hous0178-001534"],
+      ["Fraser Health, Chilliwack careers page", "https://careers.fraserhealth.ca/live-here/chilliwack/"],
+      ["School District 33, About", "https://www.sd33.bc.ca/about"],
+      ["City of Chilliwack, City-wide community trends (Census profile)", "https://www.chilliwack.com/main/attachments/Files/3099/ChilliwackProfile-Citywide_CommunityTrends.pdf"]
     ],
     omitted: [
+      "Second pass: employers now 3, a fourth named employer not found on an official page (CFB Chilliwack not on the DND schools list; City economic pages name none). SSMUH bylaw number 5395 removed because no City page read states it. City press release of June 5, 2024 (prID=574) states Council approved the zoning change and up to four units on lots over 280 square metres, but is not in src (cap of 6). Mix: the City profile counts duplexes with townhomes. Bylaw 5141 PDF fetch was blocked this pass, so the STR text is unchanged and not re-checked. Page id=2974 is the Housing Needs Reports page, not an STR page.",
       "Third task: the first src link (chilliwack.com page id=2974) was labelled 'Short-term rentals' but the page is actually the City's Housing Needs Reports page, so it was removed. Search budget ran out and most chilliwack.com, UFV and Tzeachten fetches were refused, so employers (still 1), the mix line, Bylaw 5141 and the SSMUH details could not be re-checked or extended.",
       "Molson Coors brewery: sourced to a news site only, left out. Fraser Health Chilliwack General Hospital: cited to a HealthMatch BC job posting, not Fraser Health's own site, left out. SD33 and City scale NOT VERIFIED.",
       "Agriculture and food processing 'employer' item is a sector, not a named employer, left out. Lenders: none confirmed.",
@@ -129,7 +144,7 @@ export default {
 
   "whistler": {
     str: "The Resort Municipality of Whistler requires a Tourist Accommodation business licence. It applies to anyone who markets, manages or provides paid stays for tourists. That includes self-managed rentals. The municipality says it has required this since 2017. The bylaw is No. 2142, and it was amended in 2024. Only properties whose zoning lists tourist accommodation or temporary accommodation may be rented to tourists. The municipality says homes with residential zoning cannot be marketed to tourists for any length of time. It says it can act on an illegal ad alone, with no proof of a stay.",
-    suites: "Whistler adopted a zoning change for small-scale multi-unit housing in June 2024. The bylaw is No. 2440. It lets residential parcels hold 3 to 4 homes. Municipal documents count about 3,035 parcels in scope. The municipality says these homes are residential. They do not add nightly rental rights.",
+    suites: "Whistler adopted a zoning change for small-scale multi-unit housing in June 2024. The bylaw is No. 2440. It lets residential parcels hold 3 to 4 homes. The municipality says these homes are residential. They do not add nightly rental rights.",
     employers: [
       "Whistler Blackcomb (Vail Resorts), named by the municipality as the town's largest employer",
       "Whistler Housing Authority, municipal housing subsidiary",
@@ -144,16 +159,18 @@ export default {
       { n: "Whistler Creek", d: "Creekside area near the ski base with older multi-family homes and visitor lodging." }
     ],
     land: "",
-    feature: "The municipality counts 1,033 employee-restricted rental homes. It counts 1,191 employee-restricted homes for sale. Those homes come with eligibility and resale limits. Ask early whether a home is restricted.",
+    mix: "The municipality's monitoring page estimates 2,183 market homes were owned by residents in 2021. It counts homes by a Whistler tax mailing address. It gives no share of owner-absent homes.",
+    feature: "The municipality's housing page, updated April 28, 2026, counts 1,033 employee-restricted rental homes. It counts 1,191 employee-restricted homes for sale. Those homes come with eligibility and resale limits. Ask early whether a home is restricted.",
     src: [
       ["Resort Municipality of Whistler, Short-term rental rules", "https://www.whistler.ca/business-development/land-use-and-development/provincial-legislation/how-b-c-s-new-short-term-rental-rules-affect-whistler/"],
       ["Resort Municipality of Whistler, Tourist Accommodation Regulation Bylaw", "https://www.whistler.ca/municipal-services/bylaws-and-regulations/frequently-requested-bylaws/tourist-accommodation-regulation-bylaw/"],
-      ["Resort Municipality of Whistler, Council report, September 2025", "https://hdp-ca-prod-app-whistler-engage-files.s3.ca-central-1.amazonaws.com/1117/5985/1111/05-1_2025-09-16_Council-Report_First-and-Second.pdf"],
+      ["Resort Municipality of Whistler, Local home ownership monitoring", "https://performance.whistler.ca/community-monitoring/local-home-ownership/"],
       ["Resort Municipality of Whistler, Housing", "https://www.whistler.ca/property-housing/housing/"],
       ["Resort Municipality of Whistler, Official Community Plan, Intensive Residential", "https://www.whistler.ca/ocp/intensive-residential/"],
       ["Resort Municipality of Whistler, Official Community Plan, Whistler Creek", "https://www.whistler.ca/ocp/whistler-creek/"]
     ],
     omitted: [
+      "Fourth task: conflict settled by page date. The housing page (updated April 28, 2026) states 1,033 rental and 1,191 ownership employee-restricted units; used. The housing facts page (updated July 11, 2025, https://www.whistler.ca/property-housing/housing/housing-facts/) lists 1,258 employee rental, 1,191 ownership, 375 WHA rental, 987 WHA ownership; the monitoring page says 2,213 employee-restricted units in 2021. None mixed. Mix: no official owner/renter or seasonal share found (Statistics Canada pages failed); only the resident-owned 2,183 market homes in 2021 is stated. The council report (about 3,035 parcels) was dropped from src to fit the 6-source cap, with the parcel sentence.",
       "Third task: Tourist Accommodation Regulation Bylaw No. 2142, 2017 confirmed on the municipality's bylaw page (amendment is No. 2457, 2024, not used, max 2 numbers). Employers VCH and the municipality itself are not backed by a named page in src (cap of 6): VCH page https://www.vch.ca/en/location/whistler-health-care-centre gives the address; municipality listed only to reach four. Function Junction comes from https://www.whistler.ca/ocp/commercial-and-light-industrial/. Feature numbers (1,033 and 1,191) replace the older 375 and 1,001 figures, which came from a July 2025 committee package no longer in src and which differ. No mix line: no official owner/renter share found. The Province's exemption for Whistler left out as the site prints it.",
       "Whistler Village (cited to the STR page, which does not clearly describe the neighbourhood), and Alpine Meadows, Spring Creek, Bayshore / Millar's Pond (OCP names them but housing descriptions not clearly supported), left out. Cheakamus Crossing 'built for 2010 Olympics' left out as not in its cited source.",
       "SSMUH date conflict: one OCP amendment recites June 25, 2024, two RMOW documents say June 11, 2024. Only 'June 2024' used. Census industry item, SD48 and Vancouver Coastal Health left out. Lenders: none confirmed. Land: none known. 75% employee housing target left out as not clearly in its source."
@@ -173,11 +190,12 @@ export default {
     areas: [
       { n: "Rockland", d: "Historic area of ground-level homes, with large lots and estates. Many homes are long-time rentals." }
     ],
+    mix: "The City's 2020 housing needs report uses the 2016 Census. It shows about 61 percent of households rented. Apartments were about 68 percent of homes. Single-detached houses were about 14 percent.",
     land: "",
     feature: "Many Victoria residential lots can hold a houseplex of 3 to 6 homes under Schedule P. Check a lot's zoning with the City before you assume a property can only be one home.",
     src: [
       ["City of Victoria, Short-term rentals", "https://www.victoria.ca/building-business/business-licensing/short-term-rentals"],
-      ["City of Victoria, Short-Term Rental Regulation Bylaw", "https://pub-victoria.escribemeetings.com/filestream.ashx?DocumentId=55357"],
+      ["City of Victoria, Capital Regional District Housing Needs Assessment, October 2020", "https://www.victoria.ca/media/file/crd-housing-needs-report-victoria-2020"],
       ["City of Victoria, Zoning Bylaw 2018 Schedule P", "https://www.victoria.ca/media/1207"],
       ["City of Victoria, Official Community Plan, economy section", "https://www.victoria.ca/media/file/ocpsection14"],
       ["Greater Victoria School District, About us", "https://www.sd61.bc.ca/our-district/about-us/"],
@@ -185,6 +203,7 @@ export default {
     ],
     omitted: [
       "Third task: employers now come from the City's OCP economy section (Royal Jubilee Hospital named as anchor, Victoria is the provincial capital), the SD61 About us page (45 schools, about 20,000 students, based in Victoria) and the Greater Victoria Harbour Authority newsroom page https://gvha.ca/about-gvha/newsroom/victoria-and-esquimalt-harbours-contribute-2-9-billion-to-regional-economy-annually/ (not in src, cap of 6). Island Health page for the hospital: https://www.islandhealth.ca/locations/hospitals-health-centre-locations/royal-jubilee-hospital-rjh. Seaspan Victoria Shipyards (800 employees per Seaspan) left out because its dock is the Esquimalt Graving Dock. UVic and Camosun are in Saanich.",
+      "Fourth task: mix comes from the City-hosted CRD Housing Needs Assessment (October 2020), 2016 Census: renters 27,720 of 45,765 households, apartments 50 plus 18 percent, single-detached 14 percent. No 2021 Census figure found: Statistics Canada pages failed and the 2024 interim report has no tenure data. To make room under the 6-source cap, the bylaw copy https://pub-victoria.escribemeetings.com/filestream.ashx?DocumentId=55357 was dropped from src; the bylaw number 18-036 in str rests on it. The City's STR page could not be re-read (fetch blocked). Fernwood, North Park and Hillside-Quadra: the City's engagement page (https://engage.victoria.ca/fernwood-north-park-hillside-quadra) states no housing type, so no new neighbourhoods added.",
       "Neighbourhoods: only Rockland confirmed (City OCP extract). The James Bay, Fairfield, Fernwood, Burnside, Jubilee, North Park and Hillside-Quadra extracts either errored or give no housing type; the full 43 MB OCP PDF was blocked. Three more neighbourhoods still missing. Mix: the OCP section 13 says apartments are about 63 percent of homes and renters about 60 percent, but that is 2006 Census data, so no mix line. Statistics Canada profile fetch failed.",
       "Songhees Nation land: New Songhees Reserve No. 1A adjoins Esquimalt and View Royal, not Victoria, and in-city leasehold condos NOT VERIFIED, so land left empty. Lenders: none confirmed (First West, Coast Capital not re-verified).",
       "Claim that Victoria 'did not need an extension' left out as an inference. 'Stable salaried borrower base' left out as an inference. Bylaw numbers 23-099, 25-051, 24-059 and STR fee/dates left out to stay within the 2 number cap."

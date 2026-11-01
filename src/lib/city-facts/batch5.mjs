@@ -88,28 +88,34 @@ export default {
     suites: "The Province's 3 to 4 unit rule covers towns over 5,000 people. Keremeos is well under that. The Village's Zoning Bylaw No. 851 allows secondary suites and carriage houses on some lots. A zoning amendment, No. 851-10, aims at up to 3 units on serviced RS1 lots. It passed third reading in November 2025. A December 2025 report said adoption was deferred. We could not confirm the final status, so check with the Village.",
     employers: [
       "Interior Health, South Similkameen Health Centre",
-      "Similkameen Elementary Secondary School, in Keremeos",
+      "School District 53 (Okanagan Similkameen), which runs Similkameen Elementary Secondary School in Keremeos",
       "Lower Similkameen Community Services Society, community services and social housing",
-      "Village of Keremeos, municipal government"
+      "Upper Similkameen Indian Band, which the RDOS area profile calls one of the largest employers in the area"
     ],
     lenders: "",
-    areas: [],
+    areas: [
+      { n: "Rural Keremeos, outside the Village", d: "The RDOS area profile says this is mostly farmland, with much of it in the Agricultural Land Reserve." },
+      { n: "Hedley", d: "The RDOS area profile says it is a former mining town. It is now mostly an affordable retirement community with low-density homes." },
+      { n: "Olalla", d: "The RDOS area profile calls it an affordable bedroom community for Penticton and Keremeos. Most land is low-density residential." },
+      { n: "Highway 3 mobile home parks", d: "The RDOS area profile says mobile home parks sit mainly along Highway 3. Across the area, about 60 percent of homes are single-detached and 34 percent are mobile homes." }
+    ],
     mix: "The Village's 2017 business recruitment plan says single-detached homes are the usual type. It says the Village lacks affordable multi-family and small-lot homes.",
-    land: "",
+    land: "The Lower Similkameen Indian Band has several reserves in the Keremeos area. The RDOS area profile lists Chopaka, Ashnola and Narcisse's Farm among them. Title on reserve land is not like regular title. Lenders vary, so ask early.",
     feature: "The Village's zoning bylaw marks some parcels as floodplain. On those parcels, only one of a secondary suite or an accessory dwelling is allowed. Floodplain status can affect value and insurance, so check it early.",
     src: [
       ["Village of Keremeos, zoning bylaw and amendment", "https://keremeos.civicweb.net/document/12331/"],
       ["Village of Keremeos, Bylaw 851-10 adoption report", "https://keremeos.civicweb.net/document/12332/"],
       ["Village of Keremeos, business licence page", "https://www.keremeos.ca/business-licence-and-inter-community-business-licence"],
       ["Village of Keremeos, 2017 business recruitment and resident attraction strategy", "https://www.keremeos.ca/files/documents/2017-05-15-FINALBusinessRecruitmentResidentAttractionStrategy-17041WITHEDITS21.pdf"],
-      ["Village of Keremeos, area opportunities guide", "https://www.keremeos.ca/keremeos-area-opportunities-guide"],
-      ["Interior Health, South Similkameen Health Centre", "https://www.interiorhealth.ca/locations/south-similkameen-health-centre"]
+      ["RDOS, Electoral Area G community profile", "https://www.rdos.bc.ca/assets/PLANNING/AreaG/OCPProject/CommunityProfile2020.pdf"],
+      ["Similkameen Elementary Secondary School, School District 53", "https://sess.sd53.bc.ca/"]
     ],
     omitted: [
       "Bylaw 851-10 final status still NOT CONFIRMED. The Village's civicweb files (consolidated zoning bylaw 'revised June 10, 2026', Aug 2026 agenda) are blocked to automated reads. The Village's planning page lists only Zoning Bylaw 851 and OCP Bylaw 850, with no amendment list. Editor should check the consolidated bylaw on keremeos.civicweb.net by hand.",
       "STR: the Village's business licence page (Business Regulation Bylaw No. 757, general licence) and accommodations page do not mention short-term rentals. No STR bylaw found, so str only says that. Bylaw 757 number left out.",
-      "Neighbourhoods: the Village's 2017 recruitment plan names no neighbourhoods, only places on 7th Avenue and the river. The OCP (Bylaw 850) could not be opened. areas stays empty.",
-      "Land: the Lower Similkameen Indian Band reserve lands page would not open, so land stays empty. 'None known' is not a verified fact.",
+      "Areas come from the RDOS Electoral Area G profile (2020), not the Village OCP (civicweb is blocked). Area G does not cover Cawston (Area B). The RDOS Cawston page gives only 2006 Census data, so Cawston left out. Rural Keremeos has no housing-type breakdown on its own, so the area-wide shares are quoted.",
+      "Land: the band's own site (lsib.net) is an under-construction page. Reserve names and the 14,095 hectare total come from the RDOS Area G profile, which does not say which are near the Village. Wording on reserve title is general and hedged.",
+      "Employers: no Similkameen fruit grower or packing house is named on the Village pages read. Upper Similkameen Indian Band comes from the RDOS profile. Interior Health page dropped from src to stay at six; health centre rests on the 2017 plan.",
       "Employers: the 2017 plan names the Healthcare Centre and K-12 education but no private employers. Agriculture and band administration still NOT VERIFIED. The school name comes from a photo caption on the Village's guide page. Village is listed only to reach four.",
       "mix: 2017 plan is old. Census and the 2024 RDOS housing needs report (which covers Keremeos) could not be opened (Statistics Canada and the RDOS PDF blocked), so no owner and renter shares.",
       "Lender: Cascadia branch only, no head office in town, left out.",
@@ -124,7 +130,7 @@ export default {
       "Copper Mountain Mine (Hudbay Minerals), an open-pit copper mine about 20 kilometres south of town. Its site says about 715 direct jobs.",
       "Interior Health, Princeton General Hospital, a Level 1 community hospital",
       "School District 58 (Nicola-Similkameen), two elementary schools and one high school",
-      "Town of Princeton, which also runs Princeton Regional Airport"
+      "AIM Roads (ACCIONA Infrastructure Maintenance), road and bridge upkeep, listed in the Town's business directory"
     ],
     lenders: "",
     areas: [],
@@ -135,7 +141,7 @@ export default {
       ["Copper Mountain Mine, FAQ", "https://hudbaycoppermountain.com/faq/"],
       ["Town of Princeton, zoning amendment bylaw", "https://princeton.civicweb.net/document/50357"],
       ["Town of Princeton, about Princeton", "https://www.princeton.ca/p/about-princeton"],
-      ["Town of Princeton, Official Community Plan", "https://princeton.ca/p/ocp"],
+      ["Town of Princeton, business directory", "https://princeton.ca/p/business-directory/1000"],
       ["Interior Health, Princeton General Hospital", "https://www.interiorhealth.ca/locations/princeton-general-hospital"],
       ["Statistics Canada, 2021 Census Profile, Princeton", "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&DGUIDlist=2021A00055907024"]
     ],
@@ -146,7 +152,8 @@ export default {
       "mix: the Town's about page has no counts or shares, so it is described only by type. Statistics Canada and housing needs report pages could not be opened (blocked).",
       "Copper Mountain 715 jobs figure rests on the earlier read of the mine's FAQ (page could not be fetched again). Payroll and 'rising to 830' left out.",
       "Similkameen Forest Products (Gorman Group) left out: sourced to a Province news release.",
-      "School District 58 line uses the Town's about page (two elementary schools and one high school). The Town is listed only to reach four.",
+      "School District 58 line uses the Town's about page (two elementary schools and one high school). The Town was replaced by AIM Roads, which is named in the Town's business directory (employee counts not given; page read only to the K entries). Copper Mountain Mine is also in that directory, about 20 km southeast.",
+      "Neighbourhoods and land: after a second pass, none of the Town pages, the OCP page, the growth scenario page, or the RDOS Area H page name neighbourhoods with housing types. The OCP and zoning bylaw files on civicweb are blocked (robots). The Upper Similkameen Indian Band site (usib.ca) names no reserve land near town. areas and land stay empty.",
       "Valley First branch is not a head office, left out. Land: 'none known' is not a verified fact, left empty.",
       "Census median income and self-employment figures left out as not needed."
     ]
