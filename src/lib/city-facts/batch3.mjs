@@ -1,7 +1,7 @@
 export default {
   "abbotsford": {
-    str: "Abbotsford requires a City business licence to run a short-term rental. A June 2025 Council report (PDS 124-2025) lists licence conditions: proof of principal residence, a fire safety plan and a parking plan. The City's zoning, as amended by Bylaw No. 3691-2025, allows a rental only in the host's principal home, a detached house or duplex plus one accessory unit. Check with the City that these rules are in force before you rely on them.",
-    suites: "Under the City's zoning bylaw, the SSMUH 1 zone allows up to 3 homes on lots of 280 square metres or less and up to 4 homes on larger lots. Secondary suites, garden suites and coach houses are also allowed. The City folded these rules into a 2025 zoning update. We did not confirm when the City first adopted it, so check with the City.",
+    str: "Abbotsford requires a City business licence to run a short-term rental. A June 2025 Council report lists licence conditions. They are proof of principal residence, a fire safety plan and a parking plan. The report is PDS 124-2025. The City's zoning lets a host rent only the principal home. That home can be a detached house or duplex plus one accessory unit. The zoning change is Bylaw No. 3691-2025. Check with the City that these rules are in force before you rely on them.",
+    suites: "Abbotsford's zoning bylaw has a small-scale multi-unit housing zone, called SSMUH 1. It allows up to 3 homes on lots of 280 square metres or less. Larger lots can have up to 4 homes. Secondary suites, garden suites and coach houses are also allowed. The City folded these rules into a 2025 zoning update. We did not confirm when the City first adopted them. Check with the City.",
     employers: [
       "Fraser Health, Abbotsford Regional Hospital and Cancer Centre",
       "University of the Fraser Valley, main campus in Abbotsford",
@@ -9,11 +9,11 @@ export default {
     ],
     lenders: "",
     areas: [
-      { n: "Mt. Lehman", d: "Rural area in west Abbotsford with acreages and farmland, named as a neighbourhood in the City's planning report." },
-      { n: "Auguston", d: "Newer planned community at the base of Sumas Mountain in east Abbotsford, named in the City's planning report." }
+      { n: "Mt. Lehman", d: "Rural area in west Abbotsford with acreages and farmland. The City's planning report names it as a neighbourhood." },
+      { n: "Auguston", d: "Newer planned community at the base of Sumas Mountain in east Abbotsford. The City's planning report names it." }
     ],
     land: "",
-    feature: "The City's own planning report calls Abbotsford the Fraser Valley hub for health care, court services, university, airport and government. These institutions anchor local employment.",
+    feature: "The City's own planning report calls Abbotsford the Fraser Valley hub. It names health care, court services, university, airport and government. These institutions anchor local employment.",
     src: [
       ["City of Abbotsford, Council report on short-term rental bylaws", "https://abbotsford.civicweb.net/document/58187/"],
       ["City of Abbotsford, Zoning Amendment Bylaw No. 3691-2025", "https://hdp-ca-prod-app-abbotsford-letstalk-files.s3.ca-central-1.amazonaws.com/1617/8514/3419/17fbf4eb004a9d43afda70c4b9502f9b_Bylaw_3691-2025_Zoning_Bylaw_Amendment_Regulations_and_Zones.pdf"],
@@ -29,19 +29,19 @@ export default {
   },
 
   "mission": {
-    str: "Mission requires a City business licence for a short-term rental, and a City declaration form goes with the application. The rules sit in Zoning Bylaw 5949-2020 and Business Licence Bylaw 3964-2007, and the licence must be posted at the property and ends each December 31. A May 2025 City notice proposed swapping bed-and-breakfast rules for short-term rental rules, so check the City's page for the current status.",
-    suites: "Mission's page says lots inside the Urban Growth Boundary with municipal water and sewer can have up to 3 homes if under 280 square metres and up to 4 if over. Forms include suites, coach homes, duplexes, triplexes, fourplexes and townhomes. The City updated Zoning Bylaw 5949-2020 for this in 2024, We did not confirm the month.",
+    str: "Mission requires a City business licence for a short-term rental. A City declaration form goes with the application. Two bylaws apply. They are Zoning Bylaw 5949-2020 and Business Licence Bylaw 3964-2007. The licence must be posted at the property. It ends each December 31. A May 2025 City notice proposed swapping bed-and-breakfast rules for short-term rental rules. Check the City's page for the current status.",
+    suites: "Mission's page says the new rules cover lots inside the Urban Growth Boundary. The lot needs municipal water and sewer. Lots under 280 square metres can have up to 3 homes. Larger lots can have up to 4. Forms include suites, coach homes, duplexes, triplexes, fourplexes and townhomes. The City updated its zoning bylaw for this in 2024. We did not confirm the month.",
     employers: [
       "Fraser Health, Mission Memorial Hospital (50 beds)",
       "University of the Fraser Valley, Mission location at Heritage Park Centre"
     ],
     lenders: "",
     areas: [
-      { n: "Stave Falls", d: "Northwest Mission area that the City's OCP update work names a Rural Centre." },
-      { n: "Silverdale", d: "West Mission area that the OCP update names a Community Node, with a possible future transit-oriented area on the Lougheed Highway." }
+      { n: "Stave Falls", d: "Northwest Mission area. The City's official community plan update work names it a Rural Centre." },
+      { n: "Silverdale", d: "West Mission area. The plan update names it a Community Node. A transit-oriented area on the Lougheed Highway is possible later." }
     ],
     land: "",
-    feature: "The City's page says its multi-unit rules apply inside the Urban Growth Boundary on lots with municipal water and sewer. Land outside that line is not covered, so check servicing and zoning early.",
+    feature: "The City's page says its multi-unit rules apply inside the Urban Growth Boundary. They apply on lots with municipal water and sewer. Land outside that line is not covered. Check servicing and zoning early.",
     src: [
       ["City of Mission, Small-Scale Multi-Unit Housing", "https://www.mission.ca/planning/small-scale-multi-unit-housing-ssmuh"],
       ["City of Mission, Business licence", "https://www.mission.ca/business-licence"],
@@ -56,21 +56,21 @@ export default {
   },
 
   "chilliwack": {
-    str: "Chilliwack requires a City business licence for rentals of 28 days or less, and the application asks for proof that the rental is on the same lot as the principal home. Short-Term Rental Bylaw 2021, No. 5141 caps a rental at 3 sleeping units. It also limits whole-home rentals to times the operator is away, so read it before you plan on rental income.",
-    suites: "Council approved Zoning Amendment Bylaw 2024, No. 5395 in June 2024. It allows 3 to 4 homes on lots inside the urban growth boundary that are zoned for single detached or duplex homes, with up to 4 on lots over 280 square metres. The Province gave a partial extension to December 31, 2030 for part of Chilliwack Proper and the Hazel Park area, so check the City's map for your lot.",
+    str: "Chilliwack requires a City business licence for rentals of 28 days or less. The application asks for proof that the rental is on the same lot as the principal home. The City's Short-Term Rental Bylaw caps a rental at 3 sleeping units. The bylaw is No. 5141. It also limits whole-home rentals to times the operator is away. Read it before you plan on rental income.",
+    suites: "Council approved a zoning change in June 2024. The bylaw is No. 5395. It allows 3 to 4 homes on lots inside the urban growth boundary. The lots must be zoned for single detached or duplex homes. Lots over 280 square metres can have up to 4. The Province gave a partial extension to December 31, 2030. It covers part of Chilliwack Proper and the Hazel Park area. Check the City's map for your lot.",
     employers: [
       "University of the Fraser Valley, Chilliwack campus at Canada Education Park (agriculture, trades and health programs)"
     ],
     lenders: "",
     areas: [
-      { n: "Chilliwack Proper", d: "Older urban core around downtown; the City's plan calls for smaller-lot detached homes, duplexes, coach houses, rowhouses and some townhouses and low-rise apartments." },
-      { n: "Fairfield Island", d: "North of downtown across Hope Slough, covered by the same City neighbourhood plan as Chilliwack Proper." },
-      { n: "Sardis", d: "Suburban south side with mostly detached homes and some townhome and apartment areas; the City's plan notes farmland reserve on its west and east edges." },
-      { n: "Vedder", d: "Southern part of the Sardis area along the Vedder River, covered by the City's Sardis plan, with detached homes and townhomes." },
-      { n: "Yarrow", d: "Rural community that the City's OCP expects to see limited growth, with its own neighbourhood plan adopted in June 2022." }
+      { n: "Chilliwack Proper", d: "Older urban core around downtown. The City's plan calls for smaller-lot detached homes, duplexes, coach houses, rowhouses and some townhouses and low-rise apartments." },
+      { n: "Fairfield Island", d: "North of downtown across Hope Slough. The same City neighbourhood plan covers it and Chilliwack Proper." },
+      { n: "Sardis", d: "Suburban south side with mostly detached homes and some townhome and apartment areas. The City's plan notes farmland reserve on its west and east edges." },
+      { n: "Vedder", d: "Southern part of the Sardis area along the Vedder River. The City's Sardis plan covers it. It has detached homes and townhomes." },
+      { n: "Yarrow", d: "Rural community. The City's official community plan expects limited growth there. Its own neighbourhood plan was adopted in June 2022." }
     ],
-    land: "Ch'íyáqtel (Tzeachten) First Nation lands in Sardis have several leasehold home developments, including Avonlea, Stoney Creek Ranch, Halcyon Meadows and Promontory Lake Estates, according to the Nation's site. The leases listed run 94 to 99 years with end dates from 2083 to 2103, and at least one is described as fully prepaid. Lease years left and prepaid status matter on these homes, so ask for the lease terms early, since lenders vary.",
-    feature: "Chilliwack's urban neighbourhoods sit inside a ring of Agricultural Land Reserve farmland, and the City's plans note it on the edges of Sardis. Farmland status can matter for properties at the city's edges.",
+    land: "Ch'íyáqtel (Tzeachten) First Nation lands in Sardis have several leasehold home developments. The Nation's site lists Avonlea, Stoney Creek Ranch, Halcyon Meadows and Promontory Lake Estates. The leases listed run 94 to 99 years. End dates range from 2083 to 2103. At least one is described as fully prepaid. Lease years left and prepaid status matter on these homes. Ask for the lease terms early, since lenders vary.",
+    feature: "Chilliwack's urban neighbourhoods sit inside a ring of Agricultural Land Reserve farmland. The City's plans note it on the edges of Sardis. Farmland status can matter for properties at the city's edges.",
     src: [
       ["City of Chilliwack, Short-term rentals", "https://www.chilliwack.com/main/page.cfm?id=2974"],
       ["City of Chilliwack, Short-Term Rental Bylaw 2021, No. 5141", "https://www.chilliwack.com/main/attachments/Files/363/BL51411.pdf"],
@@ -86,17 +86,17 @@ export default {
   },
 
   "squamish": {
-    str: "Squamish requires a District business licence for a short-term rental, and the licence number must appear in each listing. Under Amendment Bylaw No. 2695, 2019 the rental must be in the operator's principal home, and it is not allowed in a secondary suite, accessory dwelling or caretaker unit. The District's page says its cap of 30 permits for non-principal-home rentals has been reached, so check the page for current rules.",
-    suites: "Squamish's Amendment Bylaw (Small-Scale Multi-Unit Housing) No. 3036, 2024 is shown as adopted on the District's housing page, and the District dates it to June 2024. It created a new R-1 zone in place of the old RS-1, RS-2 and RS-3 zones. Lots that allowed one home plus an accessory unit may now fit up to four principal homes, depending on zoning and site.",
+    str: "Squamish requires a District business licence for a short-term rental. The licence number must appear in each listing. The main rule is in Amendment Bylaw No. 2695, 2019. The rental must be in the operator's principal home. It is not allowed in a secondary suite, accessory dwelling or caretaker unit. The District's page says the cap of 30 permits for non-principal-home rentals has been reached. Check the page for current rules.",
+    suites: "The District's housing page shows Amendment Bylaw No. 3036, 2024 as adopted. It covers small-scale multi-unit housing. The District dates it to June 2024. It created a new R-1 zone in place of the old RS-1, RS-2 and RS-3 zones. Lots that allowed one home plus an accessory unit may now fit up to four principal homes. That depends on zoning and site.",
     employers: [
       "District of Squamish, municipal government"
     ],
     lenders: "",
     areas: [
-      { n: "Garibaldi Highlands", d: "Bench neighbourhood of detached homes on R-1 lots, and the one neighbourhood with no commercial node, per a 2025 District report." }
+      { n: "Garibaldi Highlands", d: "Bench neighbourhood of detached homes on R-1 lots. A 2025 District report says it is the one neighbourhood with no commercial node." }
     ],
-    land: "The District's OCP maps show Squamish Nation reserve lands within and beside the community. We did not confirm any for-sale leasehold homes. If a property may be on reserve land, confirm its land status early.",
-    feature: "Lots once zoned for one home plus a suite can now carry up to four principal homes under the R-1 zone, depending on site conditions. That changes what a standard lot may be used for, so confirm zoning with the District.",
+    land: "The District's official community plan maps show Squamish Nation reserve lands within and beside the community. We did not confirm any for-sale leasehold homes. If a property may be on reserve land, confirm its land status early.",
+    feature: "Lots once zoned for one home plus a suite can now hold up to four principal homes in the R-1 zone. This depends on site conditions. That changes what a standard lot may be used for. Confirm zoning with the District.",
     src: [
       ["District of Squamish, Short-term rentals", "https://squamish.ca/home-and-property/bylaws-and-guidelines/short-term-rentals/"],
       ["District of Squamish, Housing action", "https://squamish.ca/projects-plans-and-initiatives/projects-and-initiatives/housing/housing-action/"],
@@ -110,20 +110,20 @@ export default {
   },
 
   "whistler": {
-    str: "Whistler requires a Tourist Accommodation business licence from the Resort Municipality of Whistler (RMOW) to market, manage or provide paid stays for tourists, including self-managed rentals, and the RMOW says it has done so since 2017. Only properties whose zoning lists tourist accommodation or temporary accommodation may be rented to tourists. The RMOW says homes with residential zoning cannot be marketed to tourists for any length of time.",
-    suites: "Whistler adopted Zoning Amendment Bylaw (Small-Scale Multi-Unit Housing) No. 2440 in June 2024. It lets residential parcels hold 3 to 4 homes, and RMOW documents count about 3,035 parcels in scope. The RMOW says these homes are residential and do not add nightly rental rights.",
+    str: "The Resort Municipality of Whistler requires a Tourist Accommodation business licence. It applies to anyone who markets, manages or provides paid stays for tourists. That includes self-managed rentals. The municipality says it has required this since 2017. Only properties whose zoning lists tourist accommodation or temporary accommodation may be rented to tourists. The municipality says homes with residential zoning cannot be marketed to tourists for any length of time.",
+    suites: "Whistler adopted a zoning change for small-scale multi-unit housing in June 2024. The bylaw is No. 2440. It lets residential parcels hold 3 to 4 homes. Municipal documents count about 3,035 parcels in scope. The municipality says these homes are residential. They do not add nightly rental rights.",
     employers: [
-      "Whistler Blackcomb (Vail Resorts), named by the RMOW as the town's largest employer",
+      "Whistler Blackcomb (Vail Resorts), named by the municipality as the town's largest employer",
       "Resort Municipality of Whistler, municipal government",
       "Whistler Housing Authority, municipal housing subsidiary"
     ],
     lenders: "",
     areas: [
-      { n: "Cheakamus Crossing", d: "Employee-housing neighbourhood; a current RMOW and Whistler Housing Authority project at 1600 Mount Fee Road has 100 apartments and 20 townhouses." },
-      { n: "Function Junction", d: "Service-commercial and light-industrial district that the OCP also allows to have some residential use and employee housing." }
+      { n: "Cheakamus Crossing", d: "Employee-housing neighbourhood. A current municipal project with the Whistler Housing Authority at 1600 Mount Fee Road has 100 apartments and 20 townhouses." },
+      { n: "Function Junction", d: "Service-commercial and light-industrial district. The official community plan also allows some residential use and employee housing there." }
     ],
     land: "",
-    feature: "The Whistler Housing Authority owns 375 rental homes and manages 1,001 employee-restricted homes for purchase, according to the RMOW. Those homes come with eligibility and resale limits, so ask early whether a home is restricted.",
+    feature: "The Whistler Housing Authority owns 375 rental homes. It manages 1,001 employee-restricted homes for purchase, according to the municipality. Those homes come with eligibility and resale limits. Ask early whether a home is restricted.",
     src: [
       ["Resort Municipality of Whistler, Short-term rental rules", "https://www.whistler.ca/business-development/land-use-and-development/provincial-legislation/how-b-c-s-new-short-term-rental-rules-affect-whistler/"],
       ["Resort Municipality of Whistler, Housing committee package, July 2025", "https://www.whistler.ca/wp-content/uploads/HASC-Meeting-Package-2025-07-14.pdf"],
@@ -138,8 +138,8 @@ export default {
   },
 
   "victoria": {
-    str: "Victoria requires a Short-Term Rental Business Licence for stays under 30 nights, renewed each year, under Short-Term Rental Regulation Bylaw No. 18-036. The City's page says a rental is allowed only in the operator's principal home and cannot be an entire self-contained unit, so suites and garden suites do not qualify. While the operator is home, up to two bedrooms may be rented, and while away the whole unit may be rented for up to 160 nights a year.",
-    suites: "Victoria's Zoning Bylaw 2018, No. 18-072 has a Schedule P for missing middle housing, added in December 2023 and amended in October 2025. It allows a houseplex of 3 to 6 homes on a residential lot, and a corner townhouse lot may hold up to 12 homes. Check the City's page for the rules that apply to a specific lot.",
+    str: "Victoria requires a Short-Term Rental Business Licence for stays under 30 nights. It is renewed each year. The rules are in Short-Term Rental Regulation Bylaw No. 18-036. The City's page says a rental is allowed only in the operator's principal home. It cannot be an entire self-contained unit. Suites and garden suites do not qualify. While the operator is home, up to two bedrooms may be rented. While away, the whole unit may be rented for up to 160 nights a year.",
+    suites: "Victoria's zoning bylaw has a Schedule P for missing middle housing. The bylaw is No. 18-072. The schedule was added in December 2023 and amended in October 2025. It allows a houseplex of 3 to 6 homes on a residential lot. A corner townhouse lot may hold up to 12 homes. Check the City's page for the rules that apply to a specific lot.",
     employers: [],
     lenders: "",
     areas: [],
@@ -159,18 +159,18 @@ export default {
   },
 
   "saanich": {
-    str: "Saanich's zoning bylaw does not allow short-term rentals under 30 days in any zone, and the District issues no licence for them. A bed and breakfast in a primary home is the allowed option. The District's page, updated July 2026, says Council asked staff to draft new rules, expected in early 2027, so check the District's page for the current status.",
-    suites: "Zoning amendments (Bylaws No. 10013 and No. 10014, 2024) took effect in June 2024. They allow 3 to 6 homes per lot inside the Urban Containment Boundary, depending on lot size and location, and projects of 5 or more homes need a Form and Character Development Permit. Outside the boundary only one secondary suite is allowed, and the District removed the owner-occupancy rule for secondary suites and garden suites.",
+    str: "Saanich's zoning bylaw does not allow short-term rentals under 30 days in any zone. The District issues no licence for them. A bed and breakfast in a primary home is the allowed option. The District's page was updated in July 2026. It says Council asked staff to draft new rules, expected in early 2027. Check the District's page for the current status.",
+    suites: "Saanich's zoning changes took effect in June 2024. They are Bylaws No. 10013 and No. 10014. They allow 3 to 6 homes per lot inside the Urban Containment Boundary. The number depends on lot size and location. Projects of 5 or more homes need a Form and Character Development Permit. Outside the boundary only one secondary suite is allowed. The District removed the owner-occupancy rule for secondary suites and garden suites.",
     employers: [
       "University of Victoria, main campus shared between Saanich and Oak Bay",
       "Camosun College, Lansdowne and Interurban campuses"
     ],
     lenders: "",
     areas: [
-      { n: "Rural Saanich", d: "Land outside the Urban Containment Boundary, where the District's page allows only one secondary suite per property." }
+      { n: "Rural Saanich", d: "Land outside the Urban Containment Boundary. The District's page allows only one secondary suite per property there." }
     ],
     land: "",
-    feature: "Inside the Urban Containment Boundary a lot may hold 3 to 6 homes, while land outside it is limited to one secondary suite. The District's page makes that boundary line the first zoning check on a Saanich property.",
+    feature: "Inside the Urban Containment Boundary a lot may hold 3 to 6 homes. Land outside it is limited to one secondary suite. The District's page makes that boundary line the first zoning check on a Saanich property.",
     src: [
       ["District of Saanich, Short-term rentals", "https://www.saanich.ca/EN/main/business/business-licences/short-term-rentals.html"],
       ["District of Saanich, Small-scale multi-unit housing", "https://www.saanich.ca/EN/main/local-government/development-applications/ssmuh.html"],

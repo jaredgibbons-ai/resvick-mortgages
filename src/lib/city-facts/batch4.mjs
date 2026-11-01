@@ -1,22 +1,22 @@
 export default {
   "langford": {
     str: "",
-    suites: "Langford changed its zoning for small-scale multi-unit housing in 2024 through Bylaw No. 2183. The City's council report on it is dated June 2024. The bylaw allows up to three homes on lots of 280 square metres or less and up to four on larger lots, and up to six near transit. Check with the City before you rely on it.",
+    suites: "Langford changed its zoning for small-scale multi-unit housing in 2024. The bylaw is No. 2183. The City's council report on it is dated June 2024. Lots of 280 square metres or less can have up to three homes. Larger lots can have up to four. Up to six are allowed near transit. Check with the City before you rely on it.",
     employers: [
       "Sooke School District No. 62, board office in Langford",
       "City of Langford, local government"
     ],
     lenders: "",
     areas: [
-      { n: "City Centre", d: "The downtown area, where the City plans its tallest buildings and mixed-use apartments and condos." },
+      { n: "City Centre", d: "The downtown area. The City plans its tallest buildings and mixed-use apartments and condos here." },
       { n: "Westhills", d: "A large planned community with detached homes, townhomes and condominiums." },
-      { n: "Bear Mountain", d: "A golf resort community of detached homes and townhomes around the resort courses." },
+      { n: "Bear Mountain", d: "A golf resort community. It has detached homes and townhomes around the resort courses." },
       { n: "South Langford and Goldstream Meadows", d: "Established suburban areas that are mostly detached homes." },
       { n: "Langford Lake and Glen Lake", d: "Lakeside residential areas that are mostly detached homes." },
       { n: "North Langford and Millstream", d: "Suburban detached homes and townhomes along the Millstream Road shopping area." }
     ],
     land: "",
-    feature: "Statistics Canada's 2021 Census listed Langford as the fastest-growing municipality in BC. That means many local files involve newer homes or new construction.",
+    feature: "Statistics Canada's 2021 Census listed Langford as the fastest-growing municipality in BC. Many local files involve newer homes or new construction.",
     src: [
       ["Langford Bylaw No. 2183 (small-scale multi-unit housing)", "https://langford.ca/wp-content/uploads/2024/05/Bylaw-2183-1.pdf"],
       ["City of Langford planning and zoning", "https://langford.ca/home/planning-and-zoning/"],
@@ -33,8 +33,8 @@ export default {
   },
 
   "nanaimo": {
-    str: "Nanaimo requires a City business licence for short-term rentals (Business Licence Bylaw No. 7318). The City also has its own rules that pre-date the Province's. The rental must be in the operator's home, suite or carriage house, with limits of four adult guests and two guest bedrooms. The City's guide counts a home as your primary residence if you live there at least 8 months a year. Check the City's page before you rely on it.",
-    suites: "Nanaimo's council adopted its small-scale multi-unit housing zoning changes in June 2024. Most single-residential and duplex lots now allow three or four homes, with exceptions for unserviced lots, some oversize lots and hazard lands.",
+    str: "Nanaimo requires a City business licence for short-term rentals. The rule is in Business Licence Bylaw No. 7318. The City has its own rules that pre-date the Province's. The rental must be in the operator's home, suite or carriage house. The limits are four adult guests and two guest bedrooms. The City's guide counts a home as your primary residence if you live there at least 8 months a year. Check the City's page before you rely on it.",
+    suites: "Nanaimo's council adopted its small-scale multi-unit housing zoning changes in June 2024. Most single-residential and duplex lots now allow three or four homes. There are exceptions for unserviced lots, some oversize lots and hazard lands.",
     employers: [
       "Vancouver Island University, main campus in Nanaimo",
       "City of Nanaimo, local government"
@@ -47,7 +47,7 @@ export default {
       { n: "North Nanaimo", d: "Family subdivisions of detached homes and townhomes, including Rutherford and Linley Valley." }
     ],
     land: "",
-    feature: "Nanaimo has three provincially designated transit-oriented areas, at the Woodgrove, Country Club and Vancouver Island University bus exchanges (Bylaw No. 7382, June 2024). The City says taller, denser buildings are pre-zoned there, so expect more condo and apartment files near those exchanges.",
+    feature: "Nanaimo has three provincially designated transit-oriented areas. They are at the Woodgrove, Country Club and Vancouver Island University bus exchanges. The bylaw is No. 7382, from June 2024. The City says taller, denser buildings are pre-zoned there. Expect more condo and apartment files near those exchanges.",
     src: [
       ["City of Nanaimo short-term rentals", "https://www.nanaimo.ca/doing-business/business-licences/short-term-rentals"],
       ["City of Nanaimo news release on SSMUH and transit-oriented areas", "http://www.nanaimo.ca/NewsReleases/NR240618SmallScaleMultiUnitHousingAndTransitOrientedAreasRegulationsAdopted.html"],
@@ -65,10 +65,10 @@ export default {
   },
 
   "courtenay": {
-    str: "In Courtenay, the City requires a business licence for short-term rentals (Business Licence Bylaw No. 3133, 2025), and its rules were adopted in May 2025. Only the owner may run one, the owner must live on the property, and only one rental is allowed per property. Stays must be under 90 consecutive days. Comox is a separate town, so check its own page for any rules.",
-    suites: "In Courtenay, Zoning Amendment Bylaw No. 3135 was adopted in June 2024. It created one zone that replaced 16 residential zones and rezoned 5,649 properties to allow up to four homes per lot. The City's page says a lot can have one secondary suite and one detached accessory unit within that total. This does not cover Comox, so check the Town of Comox for its own rules.",
+    str: "In Courtenay, the City requires a business licence for short-term rentals. The rules are in Business Licence Bylaw No. 3133, 2025. The City adopted them in May 2025. Only the owner may run a rental. The owner must live on the property. Only one rental is allowed per property. Stays must be under 90 consecutive days. Comox is a separate town, so check its own page for any rules.",
+    suites: "In Courtenay, the City adopted Zoning Amendment Bylaw No. 3135 in June 2024. It created one zone that replaced 16 residential zones. It rezoned 5,649 properties to allow up to four homes per lot. The City's page says a lot can have one secondary suite and one detached accessory unit within that total. This does not cover Comox. Check the Town of Comox for its own rules.",
     employers: [
-      "19 Wing, CFB Comox, in Comox, Royal Canadian Air Force base",
+      "19 Wing, CFB Comox, a Royal Canadian Air Force base in Comox",
       "North Island Hospital, Comox Valley campus in Courtenay, run by Island Health",
       "City of Courtenay, local government"
     ],
@@ -77,10 +77,10 @@ export default {
       { n: "Downtown Courtenay", d: "A walkable mixed-use core with older buildings, shops and services." },
       { n: "Old Orchard", d: "One of the older residential areas next to downtown, with older detached homes." },
       { n: "West Courtenay", d: "An established area west of the Puntledge River, mostly older detached homes." },
-      { n: "East Courtenay", d: "The city's main growth area, with newer detached subdivisions and townhomes near the hospital." },
+      { n: "East Courtenay", d: "The city's main growth area. It has newer detached subdivisions and townhomes near the hospital." },
       { n: "Crown Isle", d: "A planned golf community with detached homes, patio homes and condominiums." }
     ],
-    land: "K'ómoks First Nation members voted in March 2025 to ratify a treaty. We did not find homes for sale on leased K'ómoks land. If a home sits on First Nation land, ask the lender early how it treats that tenure.",
+    land: "K'ómoks First Nation members voted in March 2025 to ratify a treaty. We did not find homes for sale on leased K'ómoks land. If a home sits on First Nation land, ask the lender early how it treats that type of land title.",
     feature: "The City says an unauthorized secondary suite should not be rented out until its building permit is finalized. That matters when a buyer plans to count suite rent as income.",
     src: [
       ["City of Courtenay short-term rentals", "http://www.courtenay.ca/services/bylaws/find-bylaw/short-term-rentals"],
@@ -98,24 +98,24 @@ export default {
   },
 
   "kamloops": {
-    str: "Kamloops requires a City business licence for short-term rentals under 30 days (Business Licence and Regulation Bylaw No. 9-60, amended in 2025). The City also asks for a signed good neighbour agreement, and strata approval if the home is in a strata. Only single detached homes, with or without a suite, and duplexes qualify, and the licence number must show on listings.",
-    suites: "Kamloops updated Zoning Bylaw No. 55 in June 2024 for the Province's small-scale multi-unit housing rules. The City says its R1, R2 and R3 zones now typically allow four homes per lot. Check the City's page for the zone that applies to a given lot.",
+    str: "Kamloops requires a City business licence for short-term rentals under 30 days. The rule is in Business Licence and Regulation Bylaw No. 9-60, amended in 2025. The City also asks for a signed good neighbour agreement. If the home is in a strata, it asks for strata approval. Single detached homes, with or without a suite, and duplexes qualify. The licence number must show on listings.",
+    suites: "Kamloops updated Zoning Bylaw No. 55 in June 2024. This followed the Province's small-scale multi-unit housing rules. The City says its R1, R2 and R3 zones now typically allow four homes per lot. Check the City's page for the zone that applies to a given lot.",
     employers: [
       "Thompson Rivers University",
-      "BC Lottery Corporation, head office in Kamloops",
+      "BC Lottery Corporation, with its head office in Kamloops",
       "City of Kamloops, local government"
     ],
     lenders: "",
     areas: [
       { n: "Aberdeen", d: "A newer hillside area in the southwest, mostly detached homes with some townhomes." },
       { n: "Juniper Ridge", d: "A newer hillside area east of downtown, with detached homes and townhomes." },
-      { n: "Sahali", d: "An established family area beside the university, mostly detached homes with some condos." },
+      { n: "Sahali", d: "An established family area beside the university. It is mostly detached homes with some condos." },
       { n: "Brocklehurst and Westsyde", d: "Older valley neighbourhoods on the North Shore side, mostly detached homes on larger lots." },
-      { n: "Valleyview", d: "An established area of detached homes with some townhomes and apartments near the highway." },
+      { n: "Valleyview", d: "An established area of detached homes. It has some townhomes and apartments near the highway." },
       { n: "Barnhartvale, Dallas and Knutsford", d: "Rural acreage areas at the edges of the city." }
     ],
-    land: "Sun Rivers is a planned golf community on Tk'emlúps te Secwépemc land. The community's own sites say buyers hold leasehold title under a 99-year head lease, not fee simple, and pay property taxes to the Nation. Ask the lender early whether it accepts this tenure.",
-    feature: "Thompson Rivers University's own site reports 29,619 students for 2023/24, with 15,311 on campus. Student renting is part of the local market for suite and rental files.",
+    land: "Sun Rivers is a planned golf community on Tk'emlúps te Secwépemc land. The community's own sites say buyers hold leasehold title under a 99-year head lease, not fee simple. Buyers also pay property taxes to the Nation. Ask the lender early whether it accepts this kind of title.",
+    feature: "Thompson Rivers University's own site reports 29,619 students for 2023/24. Of those, 15,311 were on campus. Student renting is part of the local market for suite and rental files.",
     src: [
       ["City of Kamloops short-term rental accommodations", "https://www.kamloops.ca/business-development/business-licensing/short-term-rental-accommodations"],
       ["City of Kamloops report on zoning and subdivision bylaws", "https://kamloops.civicweb.net/document/197757/REP_Subdivision%20BL%20v1_REP%20Revised%203.pdf"],
@@ -132,8 +132,8 @@ export default {
   },
 
   "kelowna": {
-    str: "Kelowna runs its own City licences under Zoning Bylaw No. 12375. A licence is needed for stays under 90 consecutive days, in a Minor class (secondary use, operator must live there at least 240 days a year) or a Major class (principal use). The City's page says that since June 1, 2026, homes rezoned to a new short-term rental subzone can be rented without a principal-residence rule, so check the City's page.",
-    suites: "Kelowna changed Zoning Bylaw No. 12375 in 2024 to follow the Province's small-scale multi-unit housing rules. The City says this allows four to six homes on most residential properties, with six allowed near frequent transit. Check the City's page for the rules on a given lot.",
+    str: "Kelowna runs its own City licences under Zoning Bylaw No. 12375. A licence is needed for stays under 90 consecutive days. There are two classes. The Minor class is a secondary use, and the operator must live there at least 240 days a year. The Major class is a principal use. The City's page describes a change from June 1, 2026. Homes rezoned to a new short-term rental subzone can be rented without a principal-residence rule. Check the City's page.",
+    suites: "Kelowna changed Zoning Bylaw No. 12375 in 2024. This follows the Province's small-scale multi-unit housing rules. The City says this allows four to six homes on most residential properties. Six are allowed near frequent transit. Check the City's page for the rules on a given lot.",
     employers: [
       "KF Aerospace, based beside Kelowna International Airport",
       "UBC Okanagan",
@@ -141,11 +141,11 @@ export default {
     ],
     lenders: "Beem Credit Union's own financial statements say its head office is in Kelowna.",
     areas: [
-      { n: "Downtown", d: "The urban centre, where the City plans the most intense mix of uses, with high-rise and mid-rise condos." },
-      { n: "Rutland", d: "Older detached housing, with the City's plan calling for a new high-density urban centre." }
+      { n: "Downtown", d: "The urban centre. The City plans the most intense mix of uses here, with high-rise and mid-rise condos." },
+      { n: "Rutland", d: "Older detached housing. The City's plan calls for a new high-density urban centre." }
     ],
-    land: "UBC Okanagan plans a leasehold neighbourhood of up to about 1,500 homes, according to UBC board papers. It is expected to be rental housing for students, faculty and staff on long-term leases, so it is not for-sale stock now. We did not confirm other leasehold areas.",
-    feature: "Statistics Canada's 2021 Census had the Kelowna metro area as the fastest-growing in Canada from 2016 to 2021, at 13.5 per cent. New builds and infill are a large part of local files.",
+    land: "UBC Okanagan plans a leasehold neighbourhood of up to about 1,500 homes, according to UBC board papers. It is expected to be rental housing for students, faculty and staff on long-term leases. So it is not for-sale stock now. We did not confirm other leasehold areas.",
+    feature: "Statistics Canada's 2021 Census had the Kelowna metro area as the fastest-growing in Canada. This was for 2016 to 2021. The rate was 13.5 percent. New builds and infill are a large part of local files.",
     src: [
       ["City of Kelowna short-term rentals", "https://www.kelowna.ca/business-services/permits-licences/short-term-rentals"],
       ["City of Kelowna news on housing and Bill 44 implementation", "https://www.kelowna.ca/our-community/news-events/news/record-city-kelowna-supports-ownership-housing-many-ways-proven-success"],
@@ -161,10 +161,10 @@ export default {
   },
 
   "west-kelowna": {
-    str: "West Kelowna requires a City business licence for short-term rentals. The operator must be a registered owner and live on the property. Only personally owned properties qualify, so corporate applications are not accepted, and proof of residency is needed with the application. The licence number and the provincial registration number must show in the listing.",
-    suites: "West Kelowna's council adopted its small-scale multi-unit housing zoning changes in May 2024, amending Zoning Bylaw No. 0320. The City says lots under 280 square metres can have up to three homes and larger lots up to four. A secondary suite is capped at 100 square metres or 40 per cent of the main home's floor area, whichever is less.",
+    str: "West Kelowna requires a City business licence for short-term rentals. The operator must be a registered owner and live on the property. Only personally owned properties qualify. Corporate applications are not accepted. Proof of residency is needed with the application. The licence number and the provincial registration number must show in the listing.",
+    suites: "West Kelowna's council adopted its small-scale multi-unit housing zoning changes in May 2024. They amend Zoning Bylaw No. 0320. The City says lots under 280 square metres can have up to three homes. Larger lots can have up to four. A secondary suite is capped at 100 square metres. It is also capped at 40 percent of the main home's floor area. The smaller cap applies.",
     employers: [
-      "Westbank First Nation, says more than 600 businesses operate on Westbank Lands",
+      "Westbank First Nation, which says more than 600 businesses operate on Westbank Lands",
       "Gorman Bros. Lumber, West Kelowna mill"
     ],
     lenders: "",
@@ -174,8 +174,8 @@ export default {
       { n: "Shannon Lake", d: "A neighbourhood centre in the City's plan, where growth is directed." },
       { n: "Lakeview Heights", d: "A neighbourhood centre in the City's plan, above Okanagan Lake." }
     ],
-    land: "Westbank First Nation has governed itself since 2005. Buyers on Westbank Lands usually get a long-term sublease, typically 99 or 125 years, under a head lease, not fee simple title. Mortgages are registered in the First Nation's own Lands Registry, and lender acceptance varies by development, so ask early.",
-    feature: "The City's plan directs growth to two urban centres and five neighbourhood centres, so suites, carriage houses and infill are the main new supply. On Westbank Lands, rental rules depend on the development, and the developer's updates say Lakeridge Park does not allow stand-alone short-term rentals.",
+    land: "Westbank First Nation has governed itself since 2005. Buyers on Westbank Lands usually get a long-term sublease under a head lease, not fee simple title. Terms are typically 99 or 125 years. Mortgages are registered in the First Nation's own Lands Registry. Lender acceptance varies by development, so ask early.",
+    feature: "The City's plan directs growth to two urban centres and five neighbourhood centres. So suites, carriage houses and infill are the main new supply. On Westbank Lands, rental rules depend on the development. The developer's updates say Lakeridge Park does not allow stand-alone short-term rentals.",
     src: [
       ["City of West Kelowna short-term rental operator guidebook", "https://www.westkelownacity.ca/media/4capfz3j/str-operator-guidebook.pdf"],
       ["City of West Kelowna small-scale multi-unit housing", "https://www.westkelownacity.ca/building-business-development/housing-incentive-program/small-scale-multi-unit-housing/"],
@@ -191,20 +191,20 @@ export default {
   },
 
   "vernon": {
-    str: "Vernon requires a City business licence for short-term rentals (Business Licence Bylaw No. 5884). The City says its rules line up with the Province's. Check with the City before you rely on this.",
-    suites: "Vernon adopted a new Zoning Bylaw No. 6000 in June 2024 to carry out the Province's small-scale multi-unit housing rules. The City says secondary suites and accessory dwelling units are allowed city-wide. Suites and accessory units count as homes toward a site's density. Ask the City how many homes a given lot can hold.",
+    str: "Vernon requires a City business licence for short-term rentals. The rule is in Business Licence Bylaw No. 5884. The City says its rules line up with the Province's. Check with the City before you rely on this.",
+    suites: "Vernon adopted a new zoning bylaw in June 2024. It is Zoning Bylaw No. 6000. It carries out the Province's small-scale multi-unit housing rules. The City says secondary suites and accessory dwelling units are allowed city-wide. Suites and accessory units count as homes toward a site's density. Ask the City how many homes a given lot can hold.",
     employers: [
-      "Tolko Industries, forest products company with head office in Vernon",
+      "Tolko Industries, a forest products company with its head office in Vernon",
       "Kal Tire, administrative office in Vernon"
     ],
     lenders: "",
     areas: [
       { n: "Downtown", d: "One of two urban centres in the City's plan, where apartments and mixed-use projects are directed." },
       { n: "East Hill", d: "An established post-war area with small older detached homes built from 1945 to 1958." },
-      { n: "Alexis Park", d: "A village centre with existing multi-family housing, planned for modest infill like townhomes." }
+      { n: "Alexis Park", d: "A village centre with existing multi-family housing. The plan calls for modest infill like townhomes." }
     ],
     land: "",
-    feature: "The City says about two-thirds of Vernon renters rely on the secondary rental market, such as suites in houses. Suite legality and permits can matter on rental-property files.",
+    feature: "The City says about two-thirds of Vernon renters rely on the secondary rental market. This means things like suites in houses. Suite legality and permits can matter on rental-property files.",
     src: [
       ["City of Vernon Fees and Charges Bylaw No. 3909", "https://www.vernon.ca/sites/default/files/docs/bylaws/fees_and_charges_bylaw_3909_consolidated.pdf"],
       ["City of Vernon submission to UBCM", "https://www.ubcm.ca/sites/default/files/2025-12/Vernon.pdf"],
