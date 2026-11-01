@@ -160,26 +160,36 @@ export default {
   },
 
   "invermere": {
-    str: "The District's licensing bylaw says a short-term rental needs a District licence. The bylaw is No. 1647. A rental may run only where zoning allows it, or under a Temporary Use Permit. The same guest cannot stay more than 28 days in a row. The District was working on a replacement licence bylaw in late 2025. Check its page for the current rules.",
+    str: "A short-term rental in Invermere needs a District licence. The licensing bylaw is No. 1683, adopted in December 2025. A rental may run only where zoning allows it, or under a Temporary Use Permit. A permit lasts up to three years. The same guest cannot stay more than 28 days in a row. Check with the District for the current rules.",
+    mix: "The 2021 Census shows about 71 percent of Invermere households own their home. About 29 percent rent. Single-detached homes are about 64 percent of homes. Townhouse-style homes are about 20 percent, and small apartment buildings about 16 percent.",
     suites: "Invermere is under the 5,000 population line for the Province's 3 to 4 unit rule. Zoning Bylaw No. 1145 allows one secondary suite per lot. A suite inside the main home can use up to 40 percent of the floor space. It can be up to 90 square metres. A suite in an accessory building can be up to 75 square metres. In October 2025 District staff were told to look at dropping the owner-must-live-there rule for suites. Check with the District for the current status.",
     employers: [
+      "Invermere & District Hospital, a community hospital run by Interior Health, with an emergency department open 24 hours",
+      "Rocky Mountain School District 6, which runs David Thompson Secondary and the elementary schools in Invermere",
+      "Panorama Mountain Resort, which calls itself one of the largest employers in the Kootenay region",
+      "District of Invermere, the local government"
     ],
     lenders: "",
     areas: [
-      { n: "Westside", d: "District referral papers describe it as a rural-residential and small-holdings area on Johnson Road, west of the District." }
+      { n: "Westside", d: "District referral papers describe it as a rural-residential and small-holdings area on Johnson Road, west of the District. The regional plan says homes there are limited to small nodes along the lake." },
+      { n: "Windermere townsite", d: "The regional plan describes small urban-sized parcels in the original townsite and at Calberley Beach, just outside the District." },
+      { n: "Windermere Bench and Dell Road", d: "The regional plan describes small holdings on the Bench and Dell Road." },
+      { n: "Lyttle Lake", d: "The regional plan describes mainly small holdings and homes, with some land zoned for multi-family and resort use that is not built." }
     ],
     land: "",
     feature: "Short-term rental income in Invermere depends on a District licence and on zoning. Check both before you count that income in a mortgage plan.",
     src: [
-      ["District of Invermere, Business Licencing Bylaw No. 1647", "https://invermere.net/wp-content/uploads/2023/12/bylaw-1647-business-licencing-bylaw-1st-2nd-reading.pdf"],
+      ["District of Invermere, Business Licencing Bylaw No. 1683", "https://invermere.net/wp-content/uploads/2026/01/bylaw-1683-business-licencing-2025.pdf"],
+      ["District of Invermere, Interim Housing Needs Report (November 2024)", "https://invermere.net/wp-content/uploads/2025/09/invermere-interim-housing-needs-report.pdf"],
+      ["Regional District of East Kootenay, Lake Windermere Official Community Plan", "https://www.rdek.bc.ca/web/planningbylaws/Lake_Windermere_OCP_bl2929/Bylaw_2929_Lake_Windermere_OCP_January_9__2026.pdf"],
+      ["Panorama Mountain Resort, employment", "https://www.panoramaresort.com/be-part-of-panorama/employment-at-panorama"],
       ["District of Invermere, Committee of the Whole minutes, 14 October 2025", "https://invermere.civicweb.net/document/59035/Committee%20of%20the%20Whole%20-%2014%20Oct%202025%20-%20Minutes.pdf?handle=F23F5F3FC3E948FC9D9F2C984FF29B75"],
       ["District of Invermere, secondary suite rules (Zoning Bylaw 1145)", "https://invermere.civicweb.net/filepro/document/54000/Letter.pdf"]
     ],
     omitted: [
-      "Still thin: this session could not open the District's short-term rental page, Athalmer Neighbourhood Plan page, 2026 budget booklet or civicweb files (blocked to automated reads), and the search tool ran out of budget. Nothing new was verified for Invermere.",
-      "Bylaw 1647 adopted text NOT CONFIRMED: the PDF in src is the first and second reading version. The District's home page lists a separate STR application and an STR page (invermere.net/short-term-rentals) that should be checked by hand.",
-      "Leads for the editor, not verified: the District has an Athalmer Neighbourhood Plan page (invermere.net/athalmer-neighbourhood-plan); the District's housing page says the Columbia Valley Housing Need and Demand Assessment was done in 2013 and that Family Dynamix Association is a not-for-profit based in Invermere; the OCP page says the OCP update began in 2014 with a 2015 update.",
-      "Bylaw 1683 (replacement licence bylaw) and Zoning Amendment 1686 adoption NOT VERIFIED, so those numbers were left out. The $500 renewal fee is tied to the unadopted bylaw, left out.",
+      "Second pass: Bylaw 1683 read on the District site (adopted December 9, 2025); str rewritten. The District STR page says rentals are authorized through Temporary Use Permits up to three years, and names no bylaw. Zoning Amendment 1686 and the licence fee left out. Bylaw 1647 dropped as superseded in the text, not in the source.",
+      "Areas: Athalmer Neighbourhood Plan page names no housing types, so Athalmer is left out. Wilmer and Fairmont Hot Springs appear in the regional plan with no housing information. The Windermere areas are outside the District but inside the Lake Windermere plan.",
+      "Employers: the Interior Health hospital page and the School District 6 school directory (sd6.bc.ca/our-district/school-directory) were read but not added to src because of the six-source limit. Columbia Valley Credit Union has its head office in Golden (cvcu.bc.ca/contact-us), so it is neither an Invermere lender nor listed. Panorama is cited from its own employment page.",
       "Suite size rules are cited to a civicweb file named 'Letter.pdf', which may be a referral letter quoting the bylaw.",
       "Shuswap Band (Kenpesq't) employer and reserve land claims are sourced to fesbc.ca, not an official source, so land is empty and the employer is left out. SKIP partnership left out.",
       "Interior Health hospital NOT VERIFIED. Lenders NOT VERIFIED. Other neighbourhoods NOT VERIFIED. Panorama employer line cites a District agenda about the hotel tax program, so it stays out.",
@@ -190,19 +200,28 @@ export default {
   "revelstoke": {
     str: "Revelstoke needs a City business licence for a short-term rental. The City's 2025 guide cites Zoning Bylaw No. 2406. In its standard zones, a rental can have up to 4 sleeping units and 8 guests. It needs a resident operator with 24 hour property management. A whole-home rental needs 24 hour management. Garden and carriage suites cannot be rented. Some zones have their own rules. Check with the City.",
     suites: "Revelstoke is covered by the Province's small-scale multi-unit housing rules. The City changed its zoning in Bylaw No. 2380. An R1 lot can have up to 4 units. A lot of 280 square metres or less can have up to 3. A secondary suite can be up to 90 square metres and up to 40 percent of the floor space. We did not confirm when the change was adopted. The City's rental guide cites a newer zoning bylaw, so check with the City.",
-    employers: ["Revelstoke Mountain Resort, a ski and summer mountain resort on Mount Mackenzie"],
+    employers: [
+      "Revelstoke Mountain Resort, a ski and summer mountain resort on Mount Mackenzie",
+      "CPKC Rail, which the City says employs about 300 local people",
+      "Queen Victoria Hospital, a community hospital run by Interior Health, with an emergency department open 24 hours",
+      "School District 19, with one high school and three elementary schools"
+    ],
+    mix: "The 2021 Census shows about 75 percent of Revelstoke households own their home. About 25 percent rent. Single-detached houses are about 77 percent of homes. Small apartment buildings are about 10 percent.",
     lenders: "",
     areas: [],
     land: "",
     feature: "Accommodation and food services is Revelstoke's largest job sector in the 2021 Census. If a purchase counts on rental income, check the City's licence and operator rules first.",
     src: [
-      ["City of Revelstoke, Short-Term Rental and B&B Operator Guidebook (2025)", "https://www.revelstoke.ca/DocumentCenter/View/11892/2025-09-25-Short-Term-Rental-and-BB-Operator-Guidebook-PDF-?bidId="],
-      ["City of Revelstoke, Business Licensing", "https://www.revelstoke.ca/2054/Business-Licensing"],
+      ["City of Revelstoke, Short-Term Rental and B&B Regulations Factsheet (April 2025)", "https://revelstoke.ca/DocumentCenter/View/11877/2025-04-14-BB-and-STR-Factsheet-PDF?bidId="],
+      ["City of Revelstoke, Housing Needs Report (November 2024)", "https://revelstoke.ca/DocumentCenter/View/10817/2024-11-27---Revelstoke-HNR-FINAL"],
+      ["Choose Revelstoke, transport sector", "https://chooserevelstoke.ca/economic-development/sectors/transport/"],
       ["City of Revelstoke, Zoning Amendment Bylaw No. 2380 (Bill 44)", "https://revelstoke.civicweb.net/FileStorage/51B831DA04834DFABE72509C50EB6C41-2380%20-%20Zoning%20Amendment%20Bylaw%20Bill%2044%20for%20EDAS%20sub.pdf"],
-      ["Revelstoke Mountain Resort", "https://www.revelstokemountainresort.com/"]
+      ["Queen Victoria Hospital, Interior Health", "https://www.interiorhealth.ca/locations/queen-victoria-hospital"]
     ],
     omitted: [
-      "CONFLICT: the earlier text used Zoning Bylaw No. 2299 s. 5.19 (Amendment 2295: STR only as accessory use to a single-family home with a suite, permanent resident living on site). The City's September 2025 STR guidebook cites Zoning Bylaw No. 2406 (s. 6.6.6) and says standard zones (MU-1, MU-3, R-LD6) allow STRs with a resident operator plus 24 hour management, or whole-home rentals with 24 hour management, max 4 sleeping units and 8 occupants. The permanent-resident-present rule now applies to MU-2 and 59 listed properties. Zoning Bylaw 2406 appears to replace 2299, so str was rewritten from the guidebook. Editor should confirm 2406 against the zoning bylaw. The guidebook is read through a summary, not the original layout.",
+      "Second pass: Zoning Bylaw No. 2406 s. 6.6.6 confirmed on the City's April 2025 STR factsheet (same rules as the guidebook), so str stands. Mix is from the City's November 2024 Housing Needs Report (Census 2021). Employers added from Choose Revelstoke (CPKC), Interior Health and the School District 19 site (sd19.bc.ca/our-district/), the last not in src because of the six-source limit; Revelstoke Mountain Resort page also dropped from src for the same reason.",
+      "Areas still empty: the Housing Needs Report, Housing Baseline Report and OCP Implementation Strategy name no neighbourhood with a housing type. The OCP itself (civicweb) is blocked to automated reads.",
+      "(Earlier note) CONFLICT: the earlier text used Zoning Bylaw No. 2299 s. 5.19 (Amendment 2295: STR only as accessory use to a single-family home with a suite, permanent resident living on site). The City's September 2025 STR guidebook cites Zoning Bylaw No. 2406 (s. 6.6.6) and says standard zones (MU-1, MU-3, R-LD6) allow STRs with a resident operator plus 24 hour management, or whole-home rentals with 24 hour management, max 4 sleeping units and 8 occupants. The permanent-resident-present rule now applies to MU-2 and 59 listed properties. Zoning Bylaw 2406 appears to replace 2299, so str was rewritten from the guidebook. Editor should confirm 2406 against the zoning bylaw. The guidebook is read through a summary, not the original layout.",
       "Because 2406 may have replaced 2299, the SSMUH text (Bylaw 2380 amending 2299) may now sit inside 2406. Bylaw 2380 adoption date NOT CONFIRMED (City public notices page and business pages do not mention it). Hedged in suites.",
       "Dropped: Bylaw 1503 and licence fees ($500 plus per-bedroom amount, dollar amounts left out), the 120 day caps in CD 4 and CD 7, and the guidebook's inconsistent fine amounts.",
       "Employers: the City's economic development page lists no employers; chooserevelstoke.ca could not be opened. Resort page confirms winter lifts and summer coaster, bike park and skywalk, and says it is a Northland Properties company. BC Hydro dam, Gorman Group mills and CPKC NOT VERIFIED (blocked or not official).",
@@ -216,19 +235,28 @@ export default {
     str: "A short-term rental in Fernie needs a City licence. The licence is under Business Licensing and Regulation Bylaw No. 2028. The City raised its licence fees in August 2025. In residential zones, a rental is allowed only in the owner's legal principal residence. Condo and hotel rentals are allowed only in specially zoned developments, such as Silver Rock and parts of Pinnacle Ridge. No rentals are allowed in carriage houses, garage suites, secondary suites or garden homes.",
     suites: "Fernie is covered by the Province's small-scale multi-unit housing rules. A zoning amendment, adopted in June 2024, created the RSS Residential Small-Scale zone. The amendment is No. 2517. It also merged the older residential zones. It follows the Province's standard of up to 4 units per lot. Lots of 280 square metres or less get up to 3. Check with the City before you rely on this.",
     employers: [
-      "Elk Valley Resources, four steelmaking coal mines in the Elk Valley. Its fact sheet says about 780 jobs in Fernie."
+      "Elk Valley Resources, four steelmaking coal mines in the Elk Valley. Its fact sheet says about 780 jobs in Fernie.",
+      "Fernie Alpine Resort, a ski resort on Ski Hill Road",
+      "Elk Valley Hospital, a community hospital in Fernie run by Interior Health, with an emergency department open 24 hours",
+      "School District 5 Southeast Kootenay, which runs Fernie Secondary School"
     ],
     lenders: "",
-    areas: [],
+    areas: [
+      { n: "Silver Rock", d: "The City's rental page names it as a specially zoned condo and hotel development." },
+      { n: "Pinnacle Ridge", d: "The City's rental page says parts of it are specially zoned for condo and hotel rentals." }
+    ],
     land: "",
     feature: "Mining is Fernie's largest industry in the 2021 Census. Elk Valley Resources says it sustains about 780 jobs in the city. When income depends on one employer group, a lender may ask more about job stability. Lenders vary.",
     src: [
       ["City of Fernie, short-term rental page", "https://letstalk.fernie.ca/str"],
       ["City of Fernie, zoning amendment (small-scale zone)", "https://fernie.civicweb.net/document/173397/"],
-      ["Elk Valley Resources, what we do", "https://www.glencore.ca/en/evr/what-we-do"]
+      ["Elk Valley Resources, what we do", "https://www.glencore.ca/en/evr/what-we-do"],
+      ["Fernie Alpine Resort", "https://skifernie.com/blog/opening-day-december-10th/"],
+      ["Elk Valley Hospital, Interior Health", "https://www.interiorhealth.ca/locations/elk-valley-hospital"],
+      ["School District 5, Fernie", "https://www.sd5.bc.ca/internationaled/city-of-fernie"]
     ],
     omitted: [
-      "Still thin: no new Fernie pages could be opened this session besides the City's STR page (the search tool ran out of budget; the City's home page, civicweb and the EVR page are not reachable). Employers, neighbourhoods and mix not filled.",
+      "Second pass: employers filled from the resort's own site, Interior Health and the School District 5 site. Fernie Secondary School has about 400 students per that page. Areas: only Silver Rock and Pinnacle Ridge, from the City's rental page. The OCP PDF link on letstalk.fernie.ca and civicweb files could not be read, and the Annex dike news item gives about 900 homes but no housing type. Mix not filled: the Housing Needs Report 2020 (civicweb) and the Statistics Canada profile would not open, and the 2024 Annual Municipal Report page has no housing figures.",
       "Confirmed on the City's STR page: Business Licensing and Regulation Bylaw No. 2028, Amendment Bylaw No. 2529 adopted at the August 26, 2025 council meeting, new fee levels for primary-residence and condo or hotel STRs (dollar amounts left out), the condo and hotel examples (Silver Rock, parts of Pinnacle Ridge), and the ban in carriage houses, garage suites, secondary suites and garden homes. The page names no zones or zoning bylaw number, so the old 'C-1, C-HWY and CD-2' list was dropped. Bylaw 2529 number left out to stay within two numbers.",
       "Fernie Alpine Resort and its operator NOT VERIFIED (job-board evidence only), left out.",
       "Lenders NOT VERIFIED. Neighbourhood names came from a real-estate source only, left out. Land 'none known' is not a verified fact, left empty.",
