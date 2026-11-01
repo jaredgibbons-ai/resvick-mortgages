@@ -1,26 +1,38 @@
 export default {
   "trail-castlegar": {
-    str: "Trail: the City's zoning allows short-term rentals only in the R1 and R3 zones. Council must also have approved a site-specific rezoning. Bed and breakfasts in those zones must be inside the main detached home. For Trail's licence rules, ask the City. Castlegar: a City business licence is required for short-term rentals. The bylaw is No. 1337. Owners need proof of ownership and a local contact. Multi-unit buildings also need a strata letter. The City says it has no local principal-residence rule.",
-    suites: "Trail: the City changed its zoning in June 2024. In the R1 and R3 zones, lots of 280 square metres or less may have up to 3 principal units. Larger lots may have 4. Suites are also allowed. Castlegar: the City's page says that as of July 2024, most residential lots can have up to 4 dwellings. Smaller lots can have up to 3. Check with each City before you rely on this.",
-    employers: ["Trail: Teck Trail Operations, zinc and lead smelting and refining complex","Castlegar: Mercer Celgar, kraft pulp mill","Castlegar: Selkirk College, regional college with its main campus in the city"],
+    str: "Trail: the City's zoning allows short-term rentals only in the R1 and R3 zones. Council must also approve a rezoning for the home. A rental can have two sleeping rooms. A City business licence must be shown in the home. Bed and breakfasts in those zones must be inside the main detached home. Castlegar: a City business licence is required for short-term rentals. The bylaw is No. 1337. Owners need proof of ownership and a local contact. Multi-unit buildings also need a strata letter. The City says it has no local principal-residence rule.",
+    suites: "Trail: the City changed its zoning in June 2024. In the R3 zone, lots of 280 square metres or less can have up to 3 principal units. Larger R3 lots can have at least 4. Suites are also covered. Castlegar: the City's new Zoning Bylaw No. 1428 took effect in July 2024. Most lots over 280 square metres can have up to 4 dwellings. Smaller lots can have up to 3. Check with each City before you rely on this.",
+    employers: ["Trail: Teck Trail Operations, zinc and lead smelting and refining complex","Trail: Kootenay Boundary Regional Hospital, run by Interior Health","Castlegar: Mercer Celgar, kraft pulp mill","Castlegar: Selkirk College, regional college with a campus in the city","Castlegar: Kalesnikoff Saw Mill, named in the City's housing report"],
     lenders: "Kootenay Savings Credit Union says on its own site that its corporate offices are in Trail.",
-    areas: [],
+    areas: [
+      { n: "West Trail", d: "Mostly small single-family homes on small lots, with some duplexes and multi-family homes." },
+      { n: "East Trail", d: "A mix of single-family, duplex and multi-family homes. The City's plan says the stock is aging." },
+      { n: "Glenmerry", d: "Mainly single-family homes, with multi-family housing along Highway Drive." },
+      { n: "Castlegar North End", d: "Older single-family homes and some multi-family. The City's plan favours more multi-unit and mixed-use housing." },
+      { n: "Castlegar South End", d: "Mostly detached homes in the Twin Rivers, Emerald Green and Grandview Heights subdivisions." },
+      { n: "Castlegar Blueberry", d: "Low-density homes where septic systems are allowed in place of sewer hookups." }
+    ],
+    mix: "Castlegar: the City's housing report uses the 2021 Census. It shows owners at 76 percent of households and renters at 24 percent. About 68 percent of homes are single-detached.",
     land: "",
     feature: "Each town leans on one big industrial employer. In Trail it is the Teck smelter. In Castlegar it is the Mercer Celgar pulp mill. The City of Castlegar calls Mercer Celgar its biggest employer, so local incomes track those operations.",
     src: [
-      ["Trail Zoning Amendment Bylaw No. 2944", "https://trail.civicweb.net/FileStorage/C9768FC297724F1E9845E80EFECBC75A-Bylaw%202944.pdf"],
-      ["Castlegar Business Licencing Bylaw No. 1337", "https://castlegar.ca/wp-content/uploads/2023/04/Bylaw-1337-Consolidated-Business-Licencing.pdf"],
+      ["Trail Zoning Bylaw (consolidated)", "https://trail.ca/wp-content/uploads/2026/06/Zoning-Bylaw.pdf"],
+      ["Trail Official Community Plan", "https://trail.ca/wp-content/uploads/2026/06/Official-Community-Plan.pdf"],
+      ["Castlegar Zoning Bylaw No. 1428, consolidated", "https://castlegar.ca/wp-content/uploads/2024/07/Consolidated.Branded.Bylaw_.1428-Zoning-Bylaw.pdf"],
       ["Castlegar business licence page", "https://castlegar.ca/planning-building-business/business-resources/apply-for-a-business-licence/"],
-      ["Castlegar accessory dwellings page", "https://castlegar.ca/planning-building-business/housing-resources/accessory-dwellings/"]
+      ["Castlegar interim housing needs report", "https://castlegar.ca/wp-content/uploads/2024/12/2024-Castlegar-Interim-Housing-Needs-Report.pdf"],
+      ["Interior Health, Kootenay Boundary Regional Hospital", "https://www.interiorhealth.ca/locations/kootenay-boundary-regional-hospital"]
     ],
     omitted: [
-      "Trail SSMUH bylaw number (No. 2944 appears in the batch but the brief says leave Trail's number out); Trail STR bylaw number also left out.",
-      "Trail: whether a business licence is needed for an STR is NOT VERIFIED.",
-      "Castlegar: SSMUH amendment bylaw number and exact adoption date NOT VERIFIED.",
-      "Trail neighbourhoods East Trail, West Trail, Glenmerry, Tadanac, Sunningdale and Shavers Bench: cited to a health-program rack card (THEP), not an official municipal source. Left out.",
-      "Trail employers Interior Health (cited to the same rack card) and Selkirk College Trail (cited only through a theatre mention in the OCP) left out. City of Trail listed as employer left out as generic.",
-      "Castlegar lenders: no head office verified. Heritage Credit Union and StellerVista merger history left out per brief. Castlegar Ootischenia, Woodland Park and Raspberry left out to keep the list short; 'predominantly detached' claims for Castlegar areas not clearly in the cited plans.",
-      "Land: batch says none known for both towns, so land is empty."
+      "Trail Zoning Amendment Bylaw No. 2944 (adopted June 24, 2024): NOT CONFIRMED. The trail.ca zoning bylaw carries 'Bylaw 2944' margin marks beside the amenity-area definition and the secondary-suite section, so the bylaw exists. No page I could open shows its adoption date; the civicweb PDF and council minutes were blocked or not found. Number left out per brief. The 'June 2024' wording comes from the original research only.",
+      "Trail R1: the zoning text I read shows the 280 square metre and 3 or 4 unit rule in R3 only, so the R1 claim was dropped. Editor should check R1 with the City.",
+      "Trail STR: the zoning bylaw says STRs are allowed only in R1 and R3 after rezoning to R1A or R3A, with two sleeping rooms and a licence displayed. The business licence bylaw itself was blocked, so no licence class or fee is stated.",
+      "Castlegar SSMUH: the City page says only 'as of July 2024', and the zoning bylaw cover says effective July 2024 (a council date of July 15, 2024 shows on the planning page, not tied to the bylaw). No separate amending bylaw found; the rule sits in the new Zoning Bylaw No. 1428. Bylaw 1435 (March 2025) is an unrelated later amendment.",
+      "Trail mix: no census tenure figures found on an official page I could open. Only a 1996 figure sits in the old OCP, left out as stale.",
+      "Trail and Castlegar areas come from older official community plans (Trail Bylaw 2471 plan; Castlegar Bylaw 1150 from 2011, now replaced by Bylaw 1427). Descriptions may be dated. Trail Sunningdale, Miral Heights, Waneta, Castlegar Sherbiko Hill and 24th Street also appear in the plans but were cut to keep six.",
+      "Employers: Interior Health hospital confirmed on Interior Health's own site. Selkirk College Castlegar campus confirmed on selkirk.ca (the page lists no Trail campus). Kalesnikoff is in the City's housing report interview list (not a separate employer page). School District 20 is named in the Trail plan but left out.",
+      "Castlegar lenders: no head office verified. Heritage Credit Union and StellerVista merger history left out per brief.",
+      "Land: none known for both towns, so land is empty."
     ]
   },
 
