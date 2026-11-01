@@ -235,7 +235,8 @@ export default {
     areas: [
       { n: "Downtown", d: "The City's plan allows apartments above ground-floor office and retail uses." },
       { n: "Northside", d: "The City's plan names it, with Downtown, as a centre with concentrations of apartment buildings." },
-      { n: "Dominion Riverfront", d: "A new residential neighbourhood. The City's guidelines describe a mix of townhouses and low-rise apartments." }
+      { n: "Dominion Riverfront", d: "A new residential neighbourhood. The City's guidelines describe a mix of townhouses and low-rise apartments." },
+      { n: "Dominion Triangle", d: "Mostly industrial and large shops. The City's plan lets apartments be considered only beside industrial jobs." }
     ],
     mix: "The City's 2022 housing needs report uses the 2016 Census. It shows 77 percent of households owned and 23 percent rented. Single-detached houses were 47 percent of homes, and row houses were 16 percent.",
     land: "Kwikwetlem First Nation's Coquitlam Indian Reserve 2 is about 200 acres off Pitt River Road in Port Coquitlam. That comes from the Nation's own site. The Nation is developing it through KFN Enterprises. The Nation and the City signed a service agreement for the first stage. Homes on reserve land can follow different mortgage rules than titled land, so ask a lender early.",
