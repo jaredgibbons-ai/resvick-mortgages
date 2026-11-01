@@ -50,7 +50,9 @@ export default {
     lenders: "",
     areas: [
       { n: "Departure Bay", d: "Mostly older single-family homes, says the City's 2006 plan, with some duplexes and apartments." },
-      { n: "Old City", d: "Single-family homes on the upper slopes, many of them older, with some suites, per the City's plan." }
+      { n: "Old City", d: "Single-family homes on the upper slopes, many of them older, with some suites, per the City's plan." },
+      { n: "Sandstone", d: "Planned new area at Nanaimo's south edge. The City's plan calls for apartments, townhomes and small-lot detached homes." },
+      { n: "Downtown", d: "Mixed core. The City's 2002 plan allows high-rises, mid-rise apartments, townhomes and homes above shops." }
     ],
     mix: "The 2021 Census, in the City's 2024 interim housing report, shows about 67 percent of Nanaimo households owned their home. Single-detached houses were about 66 percent of homes.",
     land: "",
@@ -59,11 +61,12 @@ export default {
       ["City of Nanaimo short-term rentals", "https://www.nanaimo.ca/doing-business/business-licences/short-term-rentals"],
       ["City of Nanaimo, Departure Bay Neighbourhood Plan", "https://www.nanaimo.ca/docs/property-development/community-planning-and-zoning/departurebay-neighbourhoodplan6895d83a1b316d6b9fc9ff0f001037d2.pdf"],
       ["City of Nanaimo, Old City Neighbourhood Concept Plan", "https://www.nanaimo.ca/docs/property-development/community-planning-and-zoning/old-city-neighbourhood-area-plan.pdf"],
-      ["City of Nanaimo education opportunities", "https://www.nanaimo.ca/doing-business/economic-development/community/education-opportunities"],
-      ["Harmac Pacific, about us", "https://harmacpacific.com/about-us/"],
+      ["City of Nanaimo, Sandstone Master Plan", "https://www.nanaimo.ca/docs/city-plan-documents/city-plan/appendix-f---sandstone-master-plan.pdf"],
+      ["City of Nanaimo, Downtown Plan", "https://www.nanaimo.ca/docs/city-plan-documents/city-plan/appendix-b---nanaimo-downtown-plan.pdf"],
       ["City of Nanaimo interim housing needs report, 2024", "https://www.nanaimo.ca/docs/property-development/community-planning/housing/atta_report_interimhousingneedsreport2024_rpt_c241216.pdf"]
     ],
     omitted: [
+      "Sixth pass: Sandstone and Downtown added from the City's Sandstone Master Plan and Downtown Plan. To fit the 6-source cap, two employer sources were dropped from src and should be restored if a plan is dropped: https://www.nanaimo.ca/doing-business/economic-development/community/education-opportunities and https://harmacpacific.com/about-us/. Harewood, South End, Newcastle plans would not load (fetch blocked); the Hammond Bay plan loaded but states no housing type.",
       "Fifth pass: swapped out the June 2024 news release (SSMUH date and bylaw 4500.223) and the CCCU annual report (lender line, head office at 220-59 Wharf Street) to fit the Departure Bay and Old City plans under the 6-source cap. Restore either by dropping a plan. Hammond Bay, Harewood, South End, Chase River and Brechin plans or reports state no housing type (Chase River plan only gives 1999 zoning and rural character), so only 2 areas. SSMUH amending bylaw number is now settled as 4500.223: both the City's June 18, 2024 news release and its June 17, 2024 council summary give it. The 4500.233 on the SSMUH permit page looks like a typo. The Transit-Oriented Areas bylaw (No. 7382) was dropped from the text to stay at two bylaw numbers.",
       "Coastal Community Credit Union: the contact page only says 'General Mailing Address'. The 2024 annual report back cover says 'Head Office' at 220-59 Wharf Street, so the lender line now says head office. 'Largest Island credit union' claim left out.",
       "Fourth task: City plan index https://www.nanaimo.ca/property-development/land-use-bylaws/neighbourhood-and-area-plans lists seven plans (Chase River, Departure Bay, Harewood, Newcastle + Brechin, Old City, Rocky Point/Hammond Bay/Stephenson Point, South End). The Harewood, Rocky Point/Hammond Bay and South End PDFs were blocked (fetch permission not granted), so no housing types were read. Areas stay empty: the 6-source cap is full, and only two plans (below) are verified.",

@@ -192,7 +192,8 @@ export default {
     ],
     lenders: "",
     areas: [
-      { n: "Rockland", d: "Historic area of ground-level homes, with large lots and estates. Many homes are long-time rentals." }
+      { n: "Rockland", d: "Historic area of ground-level homes, with large lots and estates. Many homes are long-time rentals." },
+      { n: "Downtown", d: "The City's plan supports smaller homes, rowhouses, townhouses and homes on the upper floors of heritage buildings." }
     ],
     mix: "The City's 2020 housing needs report uses the 2016 Census. It shows about 61 percent of households rented. Apartments were about 68 percent of homes. Single-detached houses were about 14 percent.",
     land: "",
@@ -201,13 +202,14 @@ export default {
       ["City of Victoria, Short-term rentals", "https://www.victoria.ca/building-business/business-licensing/short-term-rentals"],
       ["City of Victoria, Capital Regional District Housing Needs Assessment, October 2020", "https://www.victoria.ca/media/file/crd-housing-needs-report-victoria-2020"],
       ["City of Victoria, Zoning Bylaw 2018 Schedule P", "https://www.victoria.ca/media/1207"],
-      ["City of Victoria, Official Community Plan, economy section", "https://www.victoria.ca/media/file/ocpsection14"],
+      ["City of Victoria, Downtown Core Area Plan, introduction", "https://www.victoria.ca/media/file/dcap-introductionpdf"],
       ["Greater Victoria School District, About us", "https://www.sd61.bc.ca/our-district/about-us/"],
       ["City of Victoria, Rockland neighbourhood directions", "https://www.victoria.ca/media/file/rockland-neighbourhood-directions-extract-official-community-plan"]
     ],
     omitted: [
       "Third task: employers now come from the City's OCP economy section (Royal Jubilee Hospital named as anchor, Victoria is the provincial capital), the SD61 About us page (45 schools, about 20,000 students, based in Victoria) and the Greater Victoria Harbour Authority newsroom page https://gvha.ca/about-gvha/newsroom/victoria-and-esquimalt-harbours-contribute-2-9-billion-to-regional-economy-annually/ (not in src, cap of 6). Island Health page for the hospital: https://www.islandhealth.ca/locations/hospitals-health-centre-locations/royal-jubilee-hospital-rjh. Seaspan Victoria Shipyards (800 employees per Seaspan) left out because its dock is the Esquimalt Graving Dock. UVic and Camosun are in Saanich.",
       "Fourth task: mix comes from the City-hosted CRD Housing Needs Assessment (October 2020), 2016 Census: renters 27,720 of 45,765 households, apartments 50 plus 18 percent, single-detached 14 percent. No 2021 Census figure found: Statistics Canada pages failed and the 2024 interim report has no tenure data. To make room under the 6-source cap, the bylaw copy https://pub-victoria.escribemeetings.com/filestream.ashx?DocumentId=55357 was dropped from src; the bylaw number 18-036 in str rests on it. The City's STR page could not be re-read (fetch blocked). Fernwood, North Park and Hillside-Quadra: the City's engagement page (https://engage.victoria.ca/fernwood-north-park-hillside-quadra) states no housing type, so no new neighbourhoods added.",
+      "Fifth pass: Downtown added from the Downtown Core Area Plan introduction (smaller homes, rowhouses, townhouses, upper-floor heritage conversions). To fit the 6-source cap the OCP economy section https://www.victoria.ca/media/file/ocpsection14 was dropped from src; it backs the employer line for Island Health and the provincial government. Tried and no housing type stated: Neighbourhood Plans page, Places and Spaces engage page, OCP sections 3, 13 and 14, 2015 OCP annual review, housing strategy reports, 2024 interim housing needs report, Fernwood/North Park/Hillside-Quadra engage pages (plan PDFs would not load), Heritage Conservation pages, Victoria West page. Still only 2 areas.",
       "Neighbourhoods: only Rockland confirmed (City OCP extract). The James Bay, Fairfield, Fernwood, Burnside, Jubilee, North Park and Hillside-Quadra extracts either errored or give no housing type; the full 43 MB OCP PDF was blocked. Three more neighbourhoods still missing. Mix: the OCP section 13 says apartments are about 63 percent of homes and renters about 60 percent, but that is 2006 Census data, so no mix line. Statistics Canada profile fetch failed.",
       "Songhees Nation land: New Songhees Reserve No. 1A adjoins Esquimalt and View Royal, not Victoria, and in-city leasehold condos NOT VERIFIED, so land left empty. Lenders: none confirmed (First West, Coast Capital not re-verified).",
       "Claim that Victoria 'did not need an extension' left out as an inference. 'Stable salaried borrower base' left out as an inference. Bylaw numbers 23-099, 25-051, 24-059 and STR fee/dates left out to stay within the 2 number cap."

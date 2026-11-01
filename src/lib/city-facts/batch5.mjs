@@ -155,7 +155,8 @@ export default {
       "School District 58 line uses the Town's about page (two elementary schools and one high school). The Town was replaced by AIM Roads, which is named in the Town's business directory (employee counts not given; page read only to the K entries). Copper Mountain Mine is also in that directory, about 20 km southeast.",
       "Neighbourhoods and land: after a second pass, none of the Town pages, the OCP page, the growth scenario page, or the RDOS Area H page name neighbourhoods with housing types. The OCP and zoning bylaw files on civicweb are blocked (robots). The Upper Similkameen Indian Band site (usib.ca) names no reserve land near town. areas and land stay empty.",
       "Valley First branch is not a head office, left out. Land: 'none known' is not a verified fact, left empty.",
-      "Census median income and self-employment figures left out as not needed."
+      "Census median income and self-employment figures left out as not needed.",
+      "Third pass on areas: princeton.ca OCP page, OCP review page and RDOS Rural Princeton bylaw review and Area H report name Tulameen, Eastgate and Passayton but state no housing type; the OCP PDF and draft Housing Needs Report are on civicweb (blocked). areas stays empty."
     ]
   },
 
@@ -208,7 +209,12 @@ export default {
     ],
     mix: "The 2021 Census shows about 75 percent of Revelstoke households own their home. About 25 percent rent. Single-detached houses are about 77 percent of homes. Small apartment buildings are about 10 percent.",
     lenders: "",
-    areas: [],
+    areas: [
+      { n: "Johnson Heights", d: "The City plans a large mixed-use area here. Its housing plan asks for purpose-built rental homes." },
+      { n: "Big Eddy", d: "The City's plan says new sewer lines should allow more infill homes here." },
+      { n: "Downtown", d: "The City's housing plan would trade extra building density for payments to an affordable housing fund." },
+      { n: "Victoria Road corridor", d: "The City's plan expects this route to shift to mixed-use or denser homes." }
+    ],
     land: "",
     feature: "Accommodation and food services is Revelstoke's largest job sector in the 2021 Census. If a purchase counts on rental income, check the City's licence and operator rules first.",
     src: [
@@ -216,7 +222,9 @@ export default {
       ["City of Revelstoke, Housing Needs Report (November 2024)", "https://revelstoke.ca/DocumentCenter/View/10817/2024-11-27---Revelstoke-HNR-FINAL"],
       ["Choose Revelstoke, transport sector", "https://chooserevelstoke.ca/economic-development/sectors/transport/"],
       ["City of Revelstoke, Zoning Amendment Bylaw No. 2380 (Bill 44)", "https://revelstoke.civicweb.net/FileStorage/51B831DA04834DFABE72509C50EB6C41-2380%20-%20Zoning%20Amendment%20Bylaw%20Bill%2044%20for%20EDAS%20sub.pdf"],
-      ["Queen Victoria Hospital, Interior Health", "https://www.interiorhealth.ca/locations/queen-victoria-hospital"]
+      ["Queen Victoria Hospital, Interior Health", "https://www.interiorhealth.ca/locations/queen-victoria-hospital"],
+      ["City of Revelstoke, OCP Implementation Strategy (2022)", "https://revelstoke.ca/DocumentCenter/View/8994/2022-05-28-OCP-Implementation-Strategy-FINAL"],
+      ["City of Revelstoke, Housing Action Plan (2022)", "https://revelstoke.ca/DocumentCenter/View/9004/2022-08-25-Revelstoke-Housing-Action-Plan-Screen-PDF?bidId="]
     ],
     omitted: [
       "Second pass: Zoning Bylaw No. 2406 s. 6.6.6 confirmed on the City's April 2025 STR factsheet (same rules as the guidebook), so str stands. Mix is from the City's November 2024 Housing Needs Report (Census 2021). Employers added from Choose Revelstoke (CPKC), Interior Health and the School District 19 site (sd19.bc.ca/our-district/), the last not in src because of the six-source limit; Revelstoke Mountain Resort page also dropped from src for the same reason.",
@@ -227,7 +235,8 @@ export default {
       "Employers: the City's economic development page lists no employers; chooserevelstoke.ca could not be opened. Resort page confirms winter lifts and summer coaster, bike park and skywalk, and says it is a Northland Properties company. BC Hydro dam, Gorman Group mills and CPKC NOT VERIFIED (blocked or not official).",
       "Lender: Cascadia has its head office in Summerland, so no in-town lender.",
       "Neighbourhoods NOT VERIFIED. Land 'none known' is not a verified fact, left empty. 'Strata-hotel product at the mountain base' has no official source, left out.",
-      "Old src entries for Bylaw 2305 and Amendment 2295 removed as superseded."
+      "Old src entries for Bylaw 2305 and Amendment 2295 removed as superseded.",
+      "Third pass on areas: the City's 2018 housing update, 2022 Housing Action Plan, OCP map 10 and zoning map name no neighbourhood with a housing type (the Action Plan only mentions Johnson Heights as a site for purpose-built rental, a goal not a current mix). OCP text on civicweb is blocked. areas stays empty."
     ]
   },
 
@@ -243,7 +252,9 @@ export default {
     lenders: "",
     areas: [
       { n: "Silver Rock", d: "The City's rental page names it as a specially zoned condo and hotel development." },
-      { n: "Pinnacle Ridge", d: "The City's rental page says parts of it are specially zoned for condo and hotel rentals." }
+      { n: "Pinnacle Ridge", d: "The City's rental page says parts of it are specially zoned for condo and hotel rentals." },
+      { n: "West Fernie", d: "The City's zoning bylaw has a West Fernie zone for single-detached homes and duplexes." },
+      { n: "Riverside", d: "The City's zoning bylaw has a Riverside zone for attached multi-family homes and condo hotels." }
     ],
     land: "",
     feature: "Mining is Fernie's largest industry in the 2021 Census. Elk Valley Resources says it sustains about 780 jobs in the city. When income depends on one employer group, a lender may ask more about job stability. Lenders vary.",
@@ -251,7 +262,7 @@ export default {
       ["City of Fernie, short-term rental page", "https://letstalk.fernie.ca/str"],
       ["City of Fernie, zoning amendment (small-scale zone)", "https://fernie.civicweb.net/document/173397/"],
       ["Elk Valley Resources, what we do", "https://www.glencore.ca/en/evr/what-we-do"],
-      ["Fernie Alpine Resort", "https://skifernie.com/blog/opening-day-december-10th/"],
+      ["City of Fernie, consolidated zoning bylaw (draft changes)", "https://www.fernie.ca/assets/City~Hall/Departments/Planning~and~Development~Services/docs/Zoning%20Bylaw%20Redline%20Showing%20Draft%20Height%20and%20Grading%20Changes.pdf"],
       ["Elk Valley Hospital, Interior Health", "https://www.interiorhealth.ca/locations/elk-valley-hospital"],
       ["School District 5, Fernie", "https://www.sd5.bc.ca/internationaled/city-of-fernie"]
     ],
@@ -261,7 +272,9 @@ export default {
       "Fernie Alpine Resort and its operator NOT VERIFIED (job-board evidence only), left out.",
       "Lenders NOT VERIFIED. Neighbourhood names came from a real-estate source only, left out. Land 'none known' is not a verified fact, left empty.",
       "Zoning Bylaw 1750 number left out. The 4 and 3 unit figures come from the provincial regulation, so they are worded as following the Province's standard. The June 11, 2024 adoption day for Amendment 2517 is not re-confirmed, so only 'June 2024' is used.",
-      "Median household income left out."
+      "Median household income left out.",
+      "Third pass: West Fernie (R-WF) and Riverside (R3-R) areas come from the City's zoning bylaw copy that shows draft height and grading changes; zone purposes only, so confirm current zoning with the City. Fernie Alpine Resort source (skifernie.com blog) swapped out to keep src at 6; the resort line has no City source now.",
+      "mix still empty: the 2025 Housing Needs Report and 2020 report are on letstalk.fernie.ca and civicweb (blocked), the City pages carry no figures, and the Statistics Canada profile pages would not open."
     ]
   }
 };
