@@ -37,10 +37,10 @@ export default {
   },
 
   "prince-george": {
-    str: "",
+    str: "Prince George has a licence bylaw, No. 9040. It has a licence class called accommodation. That class covers buildings with more than two suites or rooms offered for short-term rental. Bed and breakfast is a separate licence class. The City's licence page does not explain how it treats a rental in one home. Ask the City.",
     suites: "The City adopted Zoning Amendment Bylaw No. 9466 on June 12, 2024. On most lots under 280 square metres it allows up to 3 units. On lots from 280 to 4,050 square metres it allows up to 4. The City's page says no frequent-transit routes meet the Province's threshold, so the 6-unit tier does not apply. Check with the City on your lot.",
     employers: [
-      "Northern Health, runs the University Hospital of Northern BC",
+      "Northern Health, runs the University Hospital of Northern BC, the largest acute care hospital in the region",
       "Canfor, forest products firm named in the City's workforce study for job postings",
       "University of Northern British Columbia, post-secondary school",
       "College of New Caledonia, post-secondary school"
@@ -60,10 +60,12 @@ export default {
       ["Prince George Zoning Amendment Bylaw No. 9466", "https://www.princegeorge.ca/sites/default/files/2024-04/BL9466_Original_1.pdf"],
       ["City of Prince George housing legislation page", "http://www.princegeorge.ca/media/4364"],
       ["City of Prince George planning document", "https://www.princegeorge.ca/media/5259"],
-      ["Prince George consolidated bylaw, October 2025", "https://www.princegeorge.ca/sites/default/files/2025-10/BL9525_CONSOLIDATED_2025-10-20_1.pdf"]
+      ["Prince George consolidated bylaw, October 2025", "https://www.princegeorge.ca/sites/default/files/2025-10/BL9525_CONSOLIDATED_2025-10-20_1.pdf"],
+      ["Business Regulation and Licensing Bylaw No. 9040", "https://www.princegeorge.ca/sites/default/files/2023-04/BL9040_ADOPTED.PDF"],
+      ["Northern Health, University Hospital of Northern BC", "https://www.northernhealth.ca/find-a-facility/hospitals/university-hospital-northern-british-columbia-uhnbc"]
     ],
     omitted: [
-      "STR: batch only verified general business licensing. An STR-specific rule is NOT VERIFIED, so str is empty.",
+      "STR: Bylaw 9040 (2020) has an accommodation licence class and a bed and breakfast class, now used for str. The City business licence page does not mention short-term rentals, and no zoning definition of short-term rental was found (search budget ran out). A 2024 council vote about asking the Province for an exemption is Province layer and was left out. Mix: no official census page opened, so mix is empty.",
       "Lenders: Integris and Spruce skipped per brief (merger and division claims).",
       "Flood: the batch says lenders and insurers price flood hazard into properties and names 'Bowl' neighbourhoods. I kept only what the bylaw is said to show (river flood hazard in low-lying areas) and dropped the pricing claim and the Bowl label. Editor should confirm the bylaw wording.",
       "Employers: City workforce study also lists health care as the strongest demand sector; left out as not a named employer. 'Senior governments' entry left out as generic.",
@@ -102,17 +104,21 @@ export default {
       "Quesnel River Pulp ownership note (sale to Atlas Holdings, Millar Western) left out as unsourced detail; employer list rests partly on a 2018 City strategy, so mills may have changed. Editor may want to date-check.",
       "Quesnel land: the batch does not say reserve housing is leasehold or band land, so I did not say it.",
       "The 'material factor for lenders and insurers' claim for the Land Stability Area was left out; only the zoning mapping is stated.",
-      "The Lhtako Dene second source (BCAFN) not used."
+      "The Lhtako Dene second source (BCAFN) not used.",
+      "Part B check: no official housing mix page could be opened (fetches blocked, search budget used up), so mix is empty. Quesnel STR and SSMUH text were not re-checked."
     ]
   },
 
   "terrace": {
-    str: "Terrace's zoning bylaw is No. 2069-2014, as changed in 2024. It defines a short-term rental as paid stays in a home for under 30 days. It treats a bed and breakfast as a use run by the resident inside the main home. Check with the City before you rely on this, and ask about licensing.",
+    str: "Terrace's zoning bylaw is No. 2069-2014, as changed in 2024. It defines a short-term rental as paid stays in a home for under 30 days. It treats a bed and breakfast as a use run by the resident inside the main home. The City's 2023 zoning text says a bed and breakfast can have up to 4 guest rooms. It also says every home business needs a City licence. Check with the City before you rely on this.",
     suites: "The City says a zoning change adopted on June 24, 2024 allows up to 4 dwelling units. It covers most low-density residential lots. It replaced the old R1-A, R1 and R2 zones with a new R1 zone. Check with the City on your lot.",
     employers: [
-      "Coast Mountain College, regional college with a Terrace presence",
-      "Regional District of Kitimat-Stikine, administrative offices in Terrace"
+      "Northern Health, runs Ksyen Regional Hospital in Terrace",
+      "School District 82, listed in the City's 2016 community profile",
+      "Coast Mountain College, regional college with a Terrace campus",
+      "Bear Creek Contracting, construction firm in the City's 2016 community profile"
     ],
+    mix: "The 2021 Census, in the City's December 2024 housing report, shows about 70 percent of homes are owned and 30 percent rented. About 60 percent of homes are single-detached. Mobile homes are about 7 percent.",
     lenders: "",
     areas: [
       { n: "The Bench", d: "Newer subdivisions, where about 85 percent of homes are single or semi-detached." },
@@ -124,14 +130,16 @@ export default {
     land: "The City's community plan names Kitselas and Kitsumkalum First Nations as neighbouring communities. Nisga'a Lands lie about 100 km northwest of Terrace. They are held under the Nisga'a Final Agreement. Check the land status of any property near them.",
     feature: "The 2024 zoning change lets owners of most low-density lots add up to four units. Ask your broker how a lender would count rental income from a suite, since lenders vary.",
     src: [
-      ["City of Terrace zoning page", "https://engage.terrace.ca/zoning"],
-      ["Terrace zoning amendment (SSMUH)", "https://www.terrace.ca/sites/default/files/docs/business-development/planning-document/Zoning%20Amendment%20(Zoning%20Bylaws%20and%20SSMUH)%20Bylaw%20No.%20%20%20%20-%202024.pdf"],
-      ["City of Terrace complete communities page", "https://engage.terrace.ca/completecommunities/news_feed/current-completeness-levels"],
-      ["Terrace Official Community Plan, consolidated", "https://terrace.ca/sites/default/files/docs/city-hall/bylaws/2142-18_official_community_plan_consolidated_to_2153-18.pdf"]
+      ["City of Terrace zoning change page", "https://engage.terrace.ca/zoning/news_feed/zoning-bylaw-amendment-passed"],
+      ["Terrace Zoning Bylaw No. 2069-2014, 2023 consolidation", "https://www.terrace.ca/sites/default/files/2023-04/2069-14%20Zoning%20Bylaw%20-%20MARCH%202023%20CONSOLIDATION.pdf"],
+      ["Terrace Housing Needs Report, December 2024", "https://www.terrace.ca/sites/default/files/docs/business-development/Terrace-Housing-Needs-Report-with-Appendices-Dec2024.pdf"],
+      ["Terrace Official Community Plan, consolidated", "https://terrace.ca/sites/default/files/docs/city-hall/bylaws/2142-18_official_community_plan_consolidated_to_2153-18.pdf"],
+      ["Northern Health, Ksyen Regional Hospital", "https://www.northernhealth.ca/find-a-facility/hospitals/mills-memorial-hospital"],
+      ["Terrace community profile, 2016", "https://www.terrace.ca/sites/default/files/docs/terrace_investment_ready_community_profile_sept_2016_updated.pdf"]
     ],
     omitted: [
-      "SSMUH amending bylaw number NOT VERIFIED (posted PDF leaves it blank; Bylaw 2305-2024 is tied to the B&B definition only). Left out.",
-      "STR-specific licence class under Business Licence Bylaw No. 2112-2016 NOT VERIFIED. Left out.",
+      "SSMUH amending bylaw number still NOT VERIFIED: the City page and December 2024 housing report give June 2024 (adopted June 24, first reading June 10) with no number, the posted PDF title is blank, and the consolidated zoning bylaw page was blocked. Left out.",
+      "STR-specific licence class: Business Licence Bylaw No. 2112-2016 (consolidation) has no short-term rental, vacation rental or B&B class. The City licence page only points to the provincial registry. The 2023 zoning text (before the 2024 change) says all home occupations need a licence and has a Vacation Accommodation use of up to six sleeping units; zone-by-zone permissions not read. Regional District of Kitimat-Stikine dropped from employers as generic. Employer sizes in the 2016 profile come from 2015 City data, so the list may be dated.",
       "Northern Health / Mills Memorial, City of Terrace and 'biggest employer groups': cited to a provincial health recruitment job board, not the employer's site or the town's list. Left out, including the 51,000 catchment feature.",
       "Lenders: none headquartered in Terrace verified. Northern Savings is headquartered in Prince Rupert (see that key).",
       "Nisga'a housing claim (Nisga'a Lisims Government rules, not fee simple) was cited to a forest practices audit, which does not fit the claim. Kept only location and treaty.",
@@ -146,6 +154,7 @@ export default {
       "Rio Tinto BC Works, aluminum smelter the townsite was built for in the 1950s",
       "LNG Canada, liquefied natural gas export project",
       "Haisla Nation, majority owner of Cedar LNG",
+      "Northern Health, runs Kitimat General Hospital and Health Centre"
     ],
     lenders: "",
     areas: [
@@ -162,12 +171,13 @@ export default {
       ["Province of BC news release on SSMUH extensions", "https://news.gov.bc.ca/releases/2024hous0178-001534"],
       ["District of Kitimat housing update, 2025", "https://docs.kitimat.ca/docs/hapna-implementation-update-2025.pdf"],
       ["District of Kitimat Official Community Plan", "https://www.kitimat.ca/en/business-and-development/resources/Documents/Official-Community-Plan.pdf"],
-      ["Haisla Nation", "http://haisla.ca/"]
+      ["Haisla Nation", "http://haisla.ca/"],
+      ["Northern Health, Kitimat General Hospital", "https://www.northernhealth.ca/find-a-facility/hospitals/kitimat-general-hospital-and-health-centre"]
     ],
     omitted: [
-      "STR: council's February 2025 vote is a Province-layer matter and came from a newspaper; whether a District licence is needed for STRs is NOT VERIFIED. str is empty.",
+      "STR: council's February 2025 vote is a Province-layer matter and came from a newspaper. The District business licence page and secondary suite page do not mention short-term rentals, and no zoning definition was found, so str stays empty. Mix: the District data page showed 2021 Census charts with no numbers loaded; the fact sheet would not open. mix is empty.",
       "Lenders: none headquartered in Kitimat verified.",
-      "Northern Health / Kitimat General Hospital left out as an employer: cited to a living guide, not the employer's site.",
+      "Northern Health / Kitimat General Hospital now confirmed on Northern Health's own site and added.",
       "The claim that megaproject cycles swing housing demand sharply in a town of about 10,000 is not stated in the cited housing update as I could read it from the batch. Left out; feature uses only the employer facts.",
       "Dwelling counts for Nechako and Kildala come from the OCP and may be dated."
     ]
@@ -179,6 +189,8 @@ export default {
     employers: [
       "Prince Rupert Port Authority, operator of the Port of Prince Rupert",
       "DP World Prince Rupert, operator of the Fairview Container Terminal",
+      "Coast Mountain College, regional college with a Prince Rupert campus",
+      "Northern Savings Credit Union, head office in Prince Rupert"
     ],
     lenders: "Northern Savings Credit Union says on its own site that its head office is in Prince Rupert.",
     areas: [
@@ -194,7 +206,8 @@ export default {
       ["Prince Rupert Trade and Licencing Bylaw No. 3532", "https://www.princerupert.ca/media/1378"],
       ["City report on short-term rentals, May 2024", "https://www.princerupert.ca/media/1282"],
       ["City report on small-scale multi-unit housing", "https://www.princerupert.ca/media/1308"],
-      ["Northern Savings Credit Union", "https://www.northsave.com/"]
+      ["Northern Savings Credit Union", "https://www.northsave.com/"],
+      ["Coast Mountain College, Terrace campus page listing campuses", "https://www.coastmountaincollege.ca/about-cmtn/news-media/news/tour-the-terrace-campus"]
     ],
     omitted: [
       "Bylaw numbers: used only 3532 and 3462 (max two). SSMUH amending bylaws (3536, 3539) described without numbers.",
@@ -202,17 +215,21 @@ export default {
       "Canfisco (cited to a CBSA page) and other port terminals (regional investment profile) left out: not the town's list or employer's site.",
       "Metlakatla Aboriginal title, port-lands and equity-partner claims left out; the cited PDF URL has spaces and the claims go beyond housing. Land text keeps only the reserve-land point.",
       "Province-rule restatement (provincial rule also applies) left out per brief.",
-      "Land and employer text for Metlakatla not in src; its URL contains spaces."
+      "Land and employer text for Metlakatla not in src; its URL contains spaces.",
+      "Part B: Northern Health Prince Rupert hospital page could not be fetched (not in the allowed fetch set), so it is not listed as an employer. No official housing mix page opened, so mix is empty. The Coast Mountain College campus is listed on the page cited; the employer count for Northern Savings Credit Union was not read."
     ]
   },
 
   "fort-st-john": {
-    str: "A 2024 City report said short-term commercial rentals are not currently permitted in residential zones. The City also said its zoning bylaw covers short-term rentals. Whether the City's business licence bylaw has an STR-specific rule was not confirmed, so check with the City.",
-    suites: "The City's housing legislation page says all low-density lots can have up to 4 units. These are zones R-1, R-1A, R-2, R-4 and R-4A. The 4 units are a main home plus suites or detached suites. The page says zoning changes were required by June 30, 2024. City documents say lots over 280 square metres must allow up to 4 units.",
+    str: "Fort St. John's zoning bylaw bans commercial temporary accommodation in residential zones. The City's 2024 housing report says short-term rentals are not allowed in residential areas. A bed and breakfast is allowed as part of a home business. It can have up to 3 guest rooms. No guest can stay more than 30 days. The City's licence page gives no short-term rental rule, so check with the City.",
+    suites: "The City's housing legislation page covers low-density lots. Those are zones R-1, R-1A, R-2, R-4 and R-4A. They can have up to 4 units. The 4 units are a main home plus suites or detached suites. The City's zoning bylaw shows Bylaw No. 2596 was adopted on June 24, 2024. The R-1 and R-2 tables now show 4 units on a parcel with municipal services. Check with the City on your lot.",
     employers: [
-      "BC Hydro, builder of the Site C project on the Peace River near the city",
-      "Oil and gas sector, named in a City study as the biggest regional influence",
+      "Northern Health, runs Fort St. John Hospital and Peace Villa",
+      "Northern Lights College, regional college with a Fort St. John campus",
+      "School District 60 Peace River North, about 6,000 students",
+      "BC Hydro, builder of the Site C project on the Peace River near the city"
     ],
+    mix: "The City's November 2024 housing report uses the 2021 Census. It shows about 58 percent of households own and 42 percent rent. About half of homes are single-detached. Low-rise apartments are about 19 percent.",
     lenders: "",
     areas: [
       { n: "Downtown Core", d: "Core area where the community plan favours mixed-use and apartment or condo housing." },
@@ -224,14 +241,16 @@ export default {
     feature: "The City's community plan includes a housing needs report calling for 1,031 new homes in five years. It ties local jobs to the Site C project and the Montney gas play.",
     src: [
       ["City page on provincial housing legislation", "https://www.fortstjohn.ca/business-building-and-development/housing/provincial-housing-legislation"],
-      ["City report on short-term rentals and zoning", "https://fortstjohn.civicweb.net/FileStorage/6A2DE371269447FB87B5A8B01AD7BAD2-AB.pdf"],
+      ["Fort St. John Zoning Bylaw No. 2470, consolidated", "https://www.fortstjohn.ca/media/file/zoning-bylaw"],
+      ["Fort St. John Housing Needs Report, 2024 update", "https://www.fortstjohn.ca/media/file/housing-needs-assessment"],
       ["City of Fort St. John Official Community Plan", "https://fortstjohn.civicweb.net/FileStorage/535870D1115141E48A396E990371F8FD-City%20of%20Fort%20St.%20John%20Official%20Community%20Plan%20B.pdf"],
-      ["Doig River First Nation history page", "https://doigriverfn.com/danewajich/english/places/montney_timeline.php"]
+      ["Doig River First Nation history page", "https://doigriverfn.com/danewajich/english/places/montney_timeline.php"],
+      ["Northern Lights College, Fort St. John", "https://www.nlc.bc.ca/campus/fort-st-john/"]
     ],
     omitted: [
-      "Amending bylaw numbers for SSMUH NOT VERIFIED. STR licence rule under Business Licence Bylaw No. 2563 NOT VERIFIED. No bylaw numbers used.",
+      "SSMUH: the zoning bylaw consolidation marks the R-1 and R-2 four-unit density with Bylaw No. 2596, 2024 (listed June 24, 2024). The list says it changed many sections but does not name its purpose, and no council page was opened, so call it likely but check. STR licence rule under Business Licence Bylaw No. 2563 still NOT VERIFIED; the City licence page is silent. The earlier 280 square metre claim was dropped because the R-1 table shows no such threshold. The Fort St. John Hospital and School District 60 pages (northernhealth.ca, int.prn.bc.ca/about) were read but are not in src because of the six-link cap. Site C status still not checked.",
       "Lenders: North Peace Savings skipped per brief. Lake View is in Dawson Creek.",
-      "Northern Lights College (cited to another municipality's document) and Northern Health (cited to a BC Hydro release) left out as employers.",
+      "Northern Lights College and Northern Health now confirmed on their own sites and added. Oil and gas sector dropped as not a named employer.",
       "Opt-out of the provincial rule is Province layer; left out.",
       "Site C is described by a 2015 BC Hydro release; construction status in 2026 not checked, so the employer line says only that BC Hydro built the project."
     ]
