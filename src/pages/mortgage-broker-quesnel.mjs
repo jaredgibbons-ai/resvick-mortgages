@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-quesnel/#service", name: "Resvick Mortgages, serving Quesnel", url: SITE.origin + "/mortgage-broker-quesnel/", areaServed: [{ "@type": "City", name: "Quesnel", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Cariboo Regional District" }] };
 
@@ -30,6 +32,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Quesnel</h2>
 <p>The 2021 Census puts Quesnel's median household income at $67,000 for 2020. About 10.9 percent of workers were self-employed, or 485 of 4,440 in the labour force. Manufacturing was the largest industry with 750 workers, followed by health care with 625 and retail with 610. (Statistics Canada, 2021 Census Profile, read October 2026). Manufacturing includes wood products, so many Quesnel files are mill wages, often with shift work and overtime. Lenders commonly average overtime over two years. If your mill shifts are cut back, tell Joshua early, since lenders look at your most recent pay.</p>
+${censusTable("quesnel")}
 
 <h2>Moving to Quesnel: buying a home before or after you arrive</h2>
 <p>Many people who search for buying a home in Quesnel do not live here yet. Some are leaving higher-priced cities. Some work remotely. Others are health care workers or tradespeople with a start date and a short window. Moving to Quesnel is a personal choice, and a lender cares about your job and credit, not the town's headlines.</p>
@@ -91,6 +94,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 <p>If a home near Quesnel sits on First Nation land, it is financed differently from other land. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
 
 <p class="more-links"><strong>More for Quesnel buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>, <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a> and <a href="/mortgage-for-contractors/">contractors and trades</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
+${nearbyCallout("quesnel", callout)}
 
 ${cta({ title: "Talk to a broker who serves Quesnel", text: "Book a 15-minute call. Share how you are paid, where you are moving from and the kind of home you want. You will leave knowing which lenders fit and what to line up first." })}
 `;

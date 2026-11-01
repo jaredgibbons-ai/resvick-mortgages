@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-white-rock/#service", name: "Resvick Mortgages, serving White Rock", url: SITE.origin + "/mortgage-broker-white-rock/", areaServed: [{ "@type": "City", name: "White Rock", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Metro Vancouver" }] };
 
@@ -28,6 +30,7 @@ ${ratesStrip()}
 
 <h2>Incomes in White Rock</h2>
 <p>White Rock stands out in the 2021 Census. About 24.4 percent of its workers were self-employed, nearly one in four and among the highest shares of the cities we cover. The median household income was $73,000 for 2020. Health care, retail and professional services were the biggest industries. (Statistics Canada, 2021 Census Profile, read October 2026). A small household income can sit next to large home equity, especially for owners who have lived here for years. Lenders look at income and equity together, and the rules differ for a purchase and a refinance. Joshua can walk through both.</p>
+${censusTable("white-rock")}
 
 <h2>Presale towers and new construction</h2>
 <p>White Rock also has newer towers and presale projects. A presale means you sign now and complete in the future, sometimes years later. The mortgage you line up today isn't the mortgage you close.</p>
@@ -70,6 +73,8 @@ ${callout("What you pay", "<p>Most White Rock files go to an A lender. There the
 <p>White Rock sits inside Surrey, so the <a href="/mortgage-broker-surrey/">Surrey page</a> covers the office and the neighbourhoods around it, including South Surrey. Joshua also serves <a href="/mortgage-broker-langley/">Langley</a>, where many downsizers sell before they move to the coast.</p>
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-doctors-and-dentists/">doctors and dentists</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-lawyers-accountants-and-engineers/">lawyers, accountants and engineers</a>. To plan a White Rock purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
+${nearbyCallout("white-rock", callout)}
 
 ${cta({ title: "Talk to a broker who serves White Rock", text: "Book a 15-minute call. Tell Joshua whether you're buying a unit, selling a house or planning a renewal. You'll leave knowing what to gather first." })}
 

@@ -1,6 +1,7 @@
 import { cta, callout, ratesStrip } from "../lib/site.mjs";
 import { cityServiceSchema } from "../lib/city.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
 
 const slug = "/mortgage-broker-langley/";
 
@@ -23,6 +24,7 @@ ${ratesStrip()}
 
 <h2>Incomes in the two Langleys</h2>
 <p>The City and the Township of Langley are counted separately in the 2021 Census, and the numbers differ. In the City, the median household income was $77,000 for 2020 and 12.7 percent of workers were self-employed. In the Township, the median was $108,000 and 17.8 percent were self-employed. In both, construction was the largest industry, followed by retail and health care. (Statistics Canada, 2021 Census Profile, read October 2026). The gap reflects the housing: the Township has more detached homes, acreages and larger households. Joshua asks which side of the boundary you are buying on, because the rules and the typical file differ.</p>
+${censusTable("langley")}
 
 <h2>Willoughby, Yorkson and the new-construction file</h2>
 <p>A large part of Langley's buying happens in newer townhouse and condo projects. Most are in Willoughby and along 200 Street. Three mortgage points come up again and again.</p>

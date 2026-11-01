@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-chilliwack/#service", name: "Resvick Mortgages, serving Chilliwack", url: SITE.origin + "/mortgage-broker-chilliwack/", areaServed: [{ "@type": "City", name: "Chilliwack", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Fraser Valley Regional District" }] };
 
@@ -22,6 +24,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Chilliwack</h2>
 <p>Chilliwack's median household income was $85,000 for 2020, and 17.8 percent of workers were self-employed. Construction, retail and health care were nearly tied as the three largest industries. (Statistics Canada, 2021 Census Profile, read October 2026). That is a high self-employed share for a city of this size. Many buyers here run a trade, a farm service or a small business. If this is you, two full years of tax returns and notices of assessment are the usual starting point.</p>
+${censusTable("chilliwack")}
 
 <h2>Farmland is most of the city</h2>
 <p>The City of Chilliwack says agriculture accounts for 67 percent of its land base (City of Chilliwack, Agricultural Planning, read October 2026). That's why so many Chilliwack properties are acreages, hobby farms or houses on large lots next to working fields.</p>
@@ -62,6 +65,8 @@ ${callout("What you pay", "<p>Most Chilliwack files go to an A lender, where the
 <p>Some manufactured home parks in the area sit on First Nation land. Listings for one park show leases running to 2072. Ask for the lease before you make an offer. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
 
 <p class="more-links"><strong>More for Chilliwack buyers.</strong> Pages that may fit your situation: <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
+${nearbyCallout("chilliwack", callout)}
 
 ${cta({ title: "Talk to a broker who serves Chilliwack", text: "Book a 15-minute call. Tell Joshua the property and what you're selling, if anything. You'll leave knowing which lenders fit and what to gather first." })}
 `;

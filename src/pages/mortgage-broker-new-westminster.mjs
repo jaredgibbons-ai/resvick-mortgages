@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-new-westminster/#service", name: "Resvick Mortgages, serving New Westminster", url: SITE.origin + "/mortgage-broker-new-westminster/", areaServed: [{ "@type": "City", name: "New Westminster", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -27,6 +29,7 @@ ${ratesStrip()}
 
 <h2>Incomes in New Westminster</h2>
 <p>New Westminster's median household income was $82,000 for 2020. About 12.0 percent of workers were self-employed, a low share for the region. The largest industries were health care, professional services and retail. (Statistics Canada, 2021 Census Profile, read October 2026). With health care at the top, many local files are hospital and clinic wages, often with shift pay or part-time hours. Lenders vary on how they count shift premiums and casual hours, so bring your last two pay stubs and your most recent tax slip.</p>
+${censusTable("new-westminster")}
 
 <h2>Suites, laneway homes and infill in New Westminster</h2>
 <p>A legal suite can help you qualify, and an unauthorized one can sink a deal. The City's rules are specific, so read them before you count on any rent.</p>
@@ -53,6 +56,8 @@ ${callout("What it costs you", "<p>For most New Westminster purchases and renewa
 <p>New Westminster sits between Burnaby and Surrey, and many buyers compare all three. The <a href="/mortgage-broker-burnaby/">Burnaby page</a> covers the strata and SkyTrain side of that search. The <a href="/mortgage-broker-surrey/">Surrey page</a> has the office address and what to bring to an in-person meeting. Joshua works the same way in each place, with the same lenders and the same written comparison.</p>
 
 <p class="more-links"><strong>More for New Westminster buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgages-for-government-and-city-employees/">government and city employees</a> and <a href="/mortgages-for-first-responders/">first responders</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
+${nearbyCallout("new-westminster", callout)}
 
 ${cta({ title: "Talk to a broker who serves New Westminster", text: "Book a 15-minute call. Say what you are buying and how you are paid. You will leave knowing how a lender will read it and what to gather first." })}
 `;

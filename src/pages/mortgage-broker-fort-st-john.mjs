@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-fort-st-john/#service", name: "Resvick Mortgages, serving Fort St. John", url: SITE.origin + "/mortgage-broker-fort-st-john/", areaServed: [{ "@type": "City", name: "Fort St. John", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Taylor" }, { "@type": "AdministrativeArea", name: "Peace River Regional District" }] };
 
@@ -32,6 +34,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Fort St. John</h2>
 <p>Fort St. John's median household income was $102,000 for 2020. About 9.5 percent of workers were self-employed, or 1,195 of 12,600 in the labour force. Construction was the biggest industry with about 1,580 workers, close to retail at about 1,505. Mining, quarrying, and oil and gas extraction came third at about 1,350. (Statistics Canada, 2021 Census Profile, read October 2026). Oil and gas is a big employer here, and the census is from 2021, so it does not show the job losses described below. Most files are wage files, and many include shift work, rotations or contract pay. A lender will want to see how long that pay has lasted and how steady it is. A mine or camp worker on a rotation should read the page on <a href="/mortgages-for-camp-mine-and-shift-workers/">mortgages for camp, mine and shift workers</a>.</p>
+${censusTable("fort-st-john")}
 
 <h2>What homes cost: assessments and market prices</h2>
 <p>BC Assessment's typical single-family value for 2026 was $352,000 in Fort St. John, up 2 percent. Taylor was $257,000, up 17 percent. The typical strata unit in Fort St. John was $185,000 (BC Assessment, North Central BC 2026 Property Assessments Announced, January 2, 2026, read October 2026). The City quotes a different measure, a market median single-family price of $402,500 from the northern real estate board for the third quarter of 2025 (City of Fort St. John, Move Here, read October 2026). Assessed values and sale prices are not the same thing, so do not mix them in one budget.</p>
@@ -71,6 +74,8 @@ ${ratesStrip()}
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Fort St. John files, such as pad homes, new self-employed income or recent job changes, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-government-and-city-employees/">government and city employees</a>. To plan a Fort St. John purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
+${nearbyCallout("fort-st-john", callout)}
 
 ${cta({ title: "Talk to a broker who serves Fort St. John", text: "Book a 15-minute call. Share how you are paid, the kind of home you want and where you are moving from. You will leave knowing which lenders fit and what to line up first." })}
 `;

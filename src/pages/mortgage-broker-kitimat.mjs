@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-kitimat/#service", name: "Resvick Mortgages, serving Kitimat", url: SITE.origin + "/mortgage-broker-kitimat/", areaServed: [{ "@type": "City", name: "Kitimat", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Kitimat-Stikine" }] };
 
@@ -25,6 +27,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Kitimat</h2>
 <p>Kitimat's 2021 Census profile shows a median household income of $103,000 for 2020. Only 8.0 percent of workers were self-employed, or 340 of 4,265. Manufacturing was the largest industry with 820 workers, then construction with 635 and health care with 415. (Statistics Canada, 2021 Census Profile, read October 2026). That is a wage town, with industrial and project pay that can include shift premiums and overtime. Many lenders average that kind of pay over two years. Contract and camp work is read differently from a permanent job, so share your pay records at the start.</p>
+${censusTable("kitimat")}
 
 <h2>What the District's own housing report shows</h2>
 <p>Kitimat's Housing Needs Report 2024 gives a plain picture of who owns and who rents. It was dated December 2024. The numbers below come from the 2021 Census unless noted. (District of Kitimat, Housing Needs Report 2024, read October 2026).</p>
@@ -112,6 +115,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>, <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a> and <a href="/mortgage-for-contractors/">contractors and trades</a>. To plan a Kitimat purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
 <p>Many Kitimat buyers also look west. Our <a href="/mortgage-broker-prince-rupert/">Prince Rupert page</a> covers port wages, muskeg lots and the City's four-unit zoning.</p>
+
+${nearbyCallout("kitimat", callout)}
 
 ${cta({ title: "Talk to a broker who serves Kitimat", text: "Book a 15-minute call. Share how you are paid, when your contract ends and the kind of home you want. You will leave knowing which lenders fit and what to line up first." })}
 `;

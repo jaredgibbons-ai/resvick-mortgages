@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-trail-castlegar/#service", name: "Resvick Mortgages, serving Trail and Castlegar", url: SITE.origin + "/mortgage-broker-trail-castlegar/", areaServed: [{ "@type": "City", name: "Trail", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Castlegar", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Rossland" }, { "@type": "AdministrativeArea", name: "Regional District of Kootenay Boundary" }] };
 
@@ -33,6 +35,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Trail and Castlegar</h2>
 <p>The census counts the two cities separately, and the numbers differ. In Trail, the median household income was $68,000 for 2020, and 11.3 percent of workers were self-employed (395 of 3,500). Health care was the largest industry with about 560 workers, then retail with about 530 and manufacturing with about 415. In Castlegar, the median was $81,000, and 12.0 percent were self-employed (480 of 4,000). Health care led with about 610 workers, then retail with about 510 and manufacturing with about 485. (Statistics Canada, 2021 Census Profile, read October 2026). The gap of $13,000 in the medians is worth knowing if you are comparing prices between the two. Both cities lean on wages from hospitals, stores and plants, so most files are salaried. For those, lenders usually want a recent pay stub, a job letter and your tax slips. Manufacturing pay can include shift premiums or overtime, which a lender may average over two years.</p>
+${censusTable("trail-castlegar")}
 
 <h2>Moving to the West Kootenay</h2>
 <p>Plenty of Trail and Castlegar buyers are still living elsewhere when they start looking. Some are starting at the smelter, the mill or the college. Others are leaving the Lower Mainland or Calgary for a slower pace. Here is a way to line things up:</p>
@@ -83,6 +86,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 <p>Buyers here also look east and west. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the closest large Okanagan city, and the <a href="/mortgage-broker-penticton/">Penticton page</a> covers the South Okanagan.</p>
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. To plan a purchase, start with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
+${nearbyCallout("trail-castlegar", callout)}
 
 ${cta({ title: "Talk to a broker who serves Trail and Castlegar", text: "Book a 15-minute call. Share how you are paid, the kind of home you want and where you are moving from. You will leave knowing which lenders fit and what to line up first." })}
 `;

@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-invermere/#service", name: "Resvick Mortgages, serving Invermere", url: SITE.origin + "/mortgage-broker-invermere/", areaServed: [{ "@type": "City", name: "Invermere", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of East Kootenay" }] };
 
@@ -20,6 +22,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Invermere</h2>
 <p>The 2021 Census puts Invermere's median household income at $84,000 for 2020. It also shows a high self-employed share. About 21.0 percent of workers were self-employed, or 425 of 2,025. Accommodation and food services was the largest industry with 305 workers, then retail with 255 and construction with 245. (Statistics Canada, 2021 Census Profile, read October 2026). A tourist economy means seasonal pay, owner-operators and second jobs. Lenders vary on how they count seasonal income. Most want two years of history, so keep your tax returns and notices of assessment together.</p>
+${censusTable("invermere")}
 
 <h2>Buying a vacation home in Invermere: second homes and getaways</h2>
 <p>A second home is not treated like the home you live in. Lenders vary, but these points come up often:</p>
@@ -111,6 +114,8 @@ ${callout("Who pays for what", "<p>When a Columbia Valley file suits an A lender
 <p class="more-links"><strong>More for Invermere buyers.</strong> Pages that may fit your situation: <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/self-employed-mortgage-bc/">self-employed mortgages</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
 <p>Another mountain market sits to the south. The <a href="/mortgage-broker-fernie/">Fernie page</a> covers mine pay, resort pay and second homes in the Elk Valley.</p>
+
+${nearbyCallout("invermere", callout)}
 
 ${cta({ title: "Talk to a broker who serves Invermere", text: "Book a 15-minute call. Tell Joshua how you plan to use the home and how you earn. You will leave knowing how a lender may read the file and what to gather first." })}
 `;

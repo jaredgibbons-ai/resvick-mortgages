@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-kelowna/#service", name: "Resvick Mortgages, serving Kelowna", url: SITE.origin + "/mortgage-broker-kelowna/", areaServed: [{ "@type": "City", name: "Kelowna", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Central Okanagan" }] };
 
@@ -35,6 +37,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Kelowna</h2>
 <p>Kelowna's median household income was $82,000 for 2020. About 18.7 percent of workers were self-employed, close to one in five. Health care, retail and construction were the three largest industries. (Statistics Canada, 2021 Census Profile, read October 2026). A high self-employed share means business-owner files are normal here, not unusual. Lenders still want a clear record of your income, usually two years of tax returns. Our page on the <a href="/self-employed-mortgage-bc/">self-employed mortgage</a> explains how it works.</p>
+${censusTable("kelowna")}
 
 <h2>Income in the Okanagan</h2>
 <p>Kelowna's economy has a lot of salaried work, at the hospital, the university, the school district and the airport. It also has a large base of self-employed people. Think tradespeople, tourism and hospitality operators, farm businesses, realtors and consultants.</p>
@@ -68,6 +71,8 @@ ${callout("No fee on A-lender mortgages", "<p>When your mortgage is placed with 
 <p class="more-links"><strong>More for Kelowna buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-tech-workers/">tech workers</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgage-for-contractors/">contractors and trades</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
 <p>Buyers who look east of the Okanagan also read about <a href="/mortgage-broker-trail-castlegar/">Trail and Castlegar</a>, where smelter and mill wages meet lower prices.</p>
+
+${nearbyCallout("kelowna", callout)}
 
 ${cta({ title: "Talk to a broker who serves Kelowna", text: "Book a 15-minute call. Bring the property type you have in mind, even if it's only an idea. You'll leave knowing whether it fits a mainstream lender." })}
 

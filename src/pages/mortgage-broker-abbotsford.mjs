@@ -1,6 +1,7 @@
 import { cta, callout, ratesStrip } from "../lib/site.mjs";
 import { cityServiceSchema } from "../lib/city.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
 
 const slug = "/mortgage-broker-abbotsford/";
 
@@ -21,6 +22,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Abbotsford</h2>
 <p>Abbotsford's median household income was $90,000 for 2020. About 17.0 percent of workers were self-employed. Retail, health care and construction were the three largest industries, and they sat close together: retail had about 9,230 workers, health care 9,165 and construction 8,485. Of Abbotsford's 81,080 workers, 13,805 were self-employed. (Statistics Canada, 2021 Census Profile, read October 2026). The Census list does not show the farm work that surrounds the city. Farm income, if you have it, is its own kind of file, and lenders often want to see tax returns for more than one year. Our page on <a href="/farm-and-alr-mortgages-bc/">farm and ALR mortgages</a> covers the details.</p>
+${censusTable("abbotsford")}
 
 <h2>Farm and acreage financing</h2>
 <p>To a lender, an acreage isn't just a big house on a big lot. It's a different kind of file. Know these rules before you fall for a property:</p>

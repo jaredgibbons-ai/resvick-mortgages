@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-north-vancouver/#service", name: "Resvick Mortgages, serving North Vancouver", url: SITE.origin + "/mortgage-broker-north-vancouver/", areaServed: [{ "@type": "City", name: "North Vancouver", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "West Vancouver", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -21,6 +23,7 @@ ${ratesStrip()}
 
 <h2>Incomes in the two North Vancouvers</h2>
 <p>The City and the District of North Vancouver are counted separately in the 2021 Census. The District had the highest median household income of any area on this site at $123,000 for 2020, and 22.2 percent of its workers were self-employed. The City's median was $86,000, with 17.4 percent self-employed. Professional services led in both, followed by health care and retail. (Statistics Canada, 2021 Census Profile, read October 2026). A high household income can still fall short of what a North Shore detached home costs. Lenders also look at your down payment source and your debts. Joshua checks the numbers with you before you make an offer.</p>
+${censusTable("north-vancouver")}
 
 <h2>When the price is above the insured limit</h2>
 <p>An insured mortgage allows less than 20 percent down. It is only available when the home is priced at $1.5 million or less. Above that, the minimum down payment is 20 percent of the full price. Below it, the minimum is 5 percent on the first $500,000 and 10 percent on the part from $500,000 to $1.5 million.</p>
@@ -70,6 +73,8 @@ ${callout("What you pay", "<p>Most North Shore files go to an A lender, where th
 <p>Joshua serves the whole Lower Mainland the same way. The <a href="/mortgage-broker-vancouver/">Vancouver page</a> covers the city across the inlet. The <a href="/mortgage-broker-burnaby/">Burnaby page</a> covers the neighbouring city to the east and the Tri-Cities beyond it.</p>
 
 <p class="more-links"><strong>More for North Vancouver buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-lawyers-accountants-and-engineers/">lawyers, accountants and engineers</a>, <a href="/mortgages-for-tech-workers/">tech workers</a> and <a href="/mortgages-for-government-and-city-employees/">government and city employees</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
+${nearbyCallout("north-vancouver", callout)}
 
 ${cta({ title: "Talk to a broker who serves North Vancouver", text: "Book a 15-minute call. Tell Joshua the property, the price range and how you're paid. You'll leave knowing what a lender will ask for first." })}
 `;

@@ -1,5 +1,7 @@
 import { short } from "../lib/short.mjs";
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-prince-george/#service", name: "Resvick Mortgages, serving Prince George", url: SITE.origin + "/mortgage-broker-prince-george/", areaServed: [{ "@type": "City", name: "Prince George", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Northern British Columbia" }] };
 
@@ -21,6 +23,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Prince George</h2>
 <p>Prince George had a median household income of $88,000 for 2020. Only 9.8 percent of workers were self-employed, the lowest share among the larger cities we cover. Health care was the biggest industry, then retail and construction. (Statistics Canada, 2021 Census Profile, read October 2026). Most files here are wage files. That is good news for the paperwork, since employer letters and pay stubs are easy for a lender to check. Where a mill or industrial job is involved, a lender may ask about layoffs or recalls, so be ready to explain your work history.</p>
+${censusTable("prince-george")}
 
 <h2>Resource, shift and rotation income</h2>
 <ul>
@@ -63,6 +66,8 @@ ${callout("What a broker costs in Prince George", "<p>The same as anywhere in BC
 <p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>, <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Prince George file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
 <p>Buyers who work in the Peace often compare notes with Prince George. See our <a href="/mortgage-broker-fort-st-john/">Fort St. John page</a> for energy pay, manufactured homes and acreage in that region.</p>
+
+${nearbyCallout("prince-george", callout)}
 
 ${cta({ title: "Talk to a broker who serves Prince George", text: "Book a 15-minute call. Tell Joshua how you're paid and what you're looking at. You'll leave knowing how a lender will read your file and what to gather first." })}
 

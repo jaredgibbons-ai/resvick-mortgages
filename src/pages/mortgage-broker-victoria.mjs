@@ -1,5 +1,7 @@
 import { short } from "../lib/short.mjs";
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const city = "Victoria";
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-victoria/#service", name: "Resvick Mortgages, serving Victoria", url: SITE.origin + "/mortgage-broker-victoria/", areaServed: [{ "@type": "City", name: "Victoria", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Greater Victoria" }] };
@@ -21,6 +23,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Victoria</h2>
 <p>Victoria's median household income was $67,500 for 2020, one of the lower figures among the cities we cover. About 15.7 percent of workers were self-employed. Health care was the largest industry, then public administration, then professional services. (Statistics Canada, 2021 Census Profile, read October 2026). Government is a major employer in the capital. A permanent public sector job is often easy for a lender to confirm, and a probation period is a common question. Our page on <a href="/mortgages-for-government-and-city-employees/">government and city employee mortgages</a> covers it.</p>
+${censusTable("victoria")}
 
 <h2>Property types that need a careful file</h2>
 <h3>Character and heritage homes</h3>
@@ -71,6 +74,8 @@ ${callout("What it costs you", "<p>On a mortgage placed with an A lender, the le
 <p>Joshua serves the whole Island and the Lower Mainland the same way. Up-Island? The <a href="/mortgage-broker-nanaimo/">Nanaimo page</a> covers ferry-commuter purchases and the mid-Island market. Comparing Victoria with the mainland, or moving between them? See the <a href="/mortgage-broker-vancouver/">Vancouver page</a>. Current rates and how they're set are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-government-and-city-employees/">government and city employees</a>, <a href="/mortgages-for-military-and-veterans/">military and veterans</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. To plan a Victoria purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
+${nearbyCallout("victoria", callout)}
 
 ${cta({ title: "Talk to a broker who serves Victoria", text: "Book a 15-minute call. You'll leave with a clear picture of what you qualify for, what it'll cost and what to do next, whether or not you end up working with Joshua." })}
 

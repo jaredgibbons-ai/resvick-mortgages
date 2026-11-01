@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-osoyoos-oliver/#service", name: "Resvick Mortgages, serving Osoyoos and Oliver", url: SITE.origin + "/mortgage-broker-osoyoos-oliver/", areaServed: [{ "@type": "City", name: "Osoyoos", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Oliver", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Okanagan-Similkameen" }] };
 
@@ -26,6 +28,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Osoyoos and Oliver</h2>
 <p>The census counts the two towns separately. In Osoyoos, the median household income was $66,000 for 2020. About 17.3 percent of workers were self-employed (370 of 2,135). Retail was the largest industry at about 285 workers. Accommodation and food services had about 270 and health care about 240. In Oliver, the median was $68,500, and 11.8 percent were self-employed (260 of 2,200). Health care led at about 295 workers. Retail had about 265 and accommodation and food services about 260. (Statistics Canada, 2021 Census Profile, read October 2026). Osoyoos has the higher self-employed share. Many owners run a vineyard service, a trade or a tourism business, and those files need two years of tax returns. The lower medians fit towns with many retirees. Pension and savings income can qualify, but lenders vary in how they count it. Seasonal pay is also common, and lenders usually look at a full year of earnings.</p>
+${censusTable("osoyoos-oliver")}
 
 <h2>What the two towns look like</h2>
 <p>Osoyoos is mostly houses. In 2021 about 60 percent of its homes were single-detached, 19 percent were low-rise apartments and 5 percent were manufactured or mobile homes. Eighty-one percent of households owned their home (Town of Osoyoos, Housing Needs Assessment 2024, February 2025, read October 2026). The report says the town needs 303 new homes over five years.</p>
@@ -80,6 +83,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 <p>Buyers here also compare nearby towns. The <a href="/mortgage-broker-penticton/">Penticton page</a> covers the next large town north, and the <a href="/mortgage-broker-keremeos/">Keremeos page</a> covers the Similkameen to the west.</p>
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. To plan a South Okanagan purchase, start with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
+${nearbyCallout("osoyoos-oliver", callout)}
 
 ${cta({ title: "Talk to a broker who serves Osoyoos and Oliver", text: "Book a 15-minute call. Share where you are moving from, how you are paid and the kind of home you want. You will leave knowing which lenders fit and what to line up before you move." })}
 `;

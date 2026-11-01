@@ -1,6 +1,7 @@
 import { cta, callout, ratesStrip } from "../lib/site.mjs";
 import { cityServiceSchema } from "../lib/city.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
 
 const slug = "/mortgage-broker-coquitlam/";
 
@@ -21,6 +22,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Coquitlam</h2>
 <p>Coquitlam's median household income was $92,000 for 2020. About 16.4 percent of workers were self-employed. Retail had about 9,385 workers, professional services 9,155 and health care 8,740, which made them the three largest industries. Of 81,265 workers in the labour force, 13,350 were self-employed. (Statistics Canada, 2021 Census Profile, read October 2026). Those numbers describe a city of both salaried workers and small business owners. If part of your pay is a bonus or commission, many lenders average it over two years. The exact method depends on the lender.</p>
+${censusTable("coquitlam")}
 
 <h2>Presales along the line</h2>
 <p>Burquitlam and the city centre carry a big share of the region's presales. Presales follow their own mortgage logic.</p>

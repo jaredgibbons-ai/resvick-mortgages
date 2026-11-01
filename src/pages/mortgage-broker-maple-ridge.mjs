@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-maple-ridge/#service", name: "Resvick Mortgages, serving Maple Ridge", url: SITE.origin + "/mortgage-broker-maple-ridge/", areaServed: [{ "@type": "City", name: "Maple Ridge", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Pitt Meadows", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -24,6 +26,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Maple Ridge</h2>
 <p>Maple Ridge's median household income was $105,000 for 2020, and 15.5 percent of workers were self-employed. Construction was the largest industry, ahead of retail and health care. (Statistics Canada, 2021 Census Profile, read October 2026). Construction work can mean contract jobs or a one-person company, with income that moves through the year. A lender will look at two years of tax returns for that kind of file. The longer you have been doing the same work, the easier the file is to place.</p>
+${censusTable("maple-ridge")}
 
 <h2>Suites in Maple Ridge: what the City says and what lenders ask</h2>
 <p>A legal suite can help you qualify. An illegal one can cause problems. So check the rules before you count on the rent.</p>
@@ -56,6 +59,8 @@ ${callout("What you pay", "<p>When a Maple Ridge file fits an A lender, which mo
 <p>The <a href="/mortgage-broker-coquitlam/">Coquitlam page</a> covers the Tri-Cities side of the commute. The <a href="/mortgage-broker-langley/">Langley page</a> covers the other side of the Golden Ears Bridge, including acreage. To start, use the <a href="/contact/">contact page</a>, which has the phone number, the email and what to have ready.</p>
 
 <p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Maple Ridge file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
+${nearbyCallout("maple-ridge", callout)}
 
 ${cta({ title: "Talk to a broker who serves Maple Ridge", text: "Book a 15-minute call. Tell Joshua what you're buying and how you're paid. You'll leave knowing how a lender will read it and what to gather first." })}
 `;

@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const place = (name) => ({ "@type": "City", name, containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } });
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-courtenay/#service", name: "Resvick Mortgages, serving the Comox Valley", url: SITE.origin + "/mortgage-broker-courtenay/", areaServed: [place("Courtenay"), place("Comox"), place("Cumberland")] };
@@ -31,6 +33,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Courtenay and Comox</h2>
 <p>The Census counts the City of Courtenay and the Town of Comox separately. In Courtenay, the median household income was $72,000 for 2020 and 16.5 percent of workers were self-employed. Retail, health care, and accommodation and food service were the largest industries. In Comox, the median was $83,000 and 17.5 percent were self-employed, with health care, retail and public administration at the top. (Statistics Canada, 2021 Census Profile, read October 2026). Visitor work in Courtenay can mean tips and seasonal hours. Lenders vary on how they count those, and they usually look at two years of earnings.</p>
+${censusTable("courtenay")}
 
 <h2>Suites and secondary homes in Courtenay</h2>
 <p>A legal suite can help a file. An unpermitted one can sink it, so confirm the status before you rely on the rent.</p>
@@ -58,6 +61,8 @@ ${callout("What you pay", "<p>For most Comox Valley purchases and renewals, the 
 <p>South of the Valley, the <a href="/mortgage-broker-nanaimo/">Nanaimo page</a> covers the central Island and the ferry commute. Farther down, the <a href="/mortgage-broker-victoria/">Victoria page</a> covers government income and the capital region. To begin, use the <a href="/contact/">contact page</a>.</p>
 
 <p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-military-and-veterans/">military and veterans</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Courtenay and Comox file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
+${nearbyCallout("courtenay", callout)}
 
 ${cta({ title: "Talk to a broker who serves the Comox Valley", text: "Book a 15-minute call. Tell Joshua whether you are moving, retiring, posted or buying a getaway. You will leave with a clear next step." })}
 `;

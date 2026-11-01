@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const place = (name) => ({ "@type": "City", name, containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } });
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-vernon/#service", name: "Resvick Mortgages, serving Vernon and the North Okanagan", url: SITE.origin + "/mortgage-broker-vernon/", areaServed: [place("Vernon"), place("Coldstream"), { "@type": "AdministrativeArea", name: "Regional District of North Okanagan" }] };
@@ -24,6 +26,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Vernon</h2>
 <p>Vernon's median household income was $73,500 for 2020, and 15.8 percent of workers were self-employed. Retail led the industries, then health care and construction. (Statistics Canada, 2021 Census Profile, read October 2026). Retail and service jobs often pay hourly, with changing hours. A lender typically looks at your average over a longer period. If you have a second job, bring the pay records for it too, since some lenders will count it after a track record.</p>
+${censusTable("vernon")}
 
 <h2>Farmland and the ALR around Vernon</h2>
 <p>Orchards, hay fields and hobby farms surround the city. Much of that land sits inside the Agricultural Land Reserve, and the Province sets housing rules there. They apply on top of any municipal bylaw.</p>
@@ -60,6 +63,8 @@ ${callout("What you pay", "<p>On most North Okanagan files the lender pays Joshu
 <p>If a home you like sits on First Nation land or leased land, it is a different kind of file. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
 
 <p class="more-links"><strong>More for Vernon buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
+${nearbyCallout("vernon", callout)}
 
 ${cta({ title: "Talk to a broker who serves the North Okanagan", text: "Book a 15-minute call. Share the address, the land and how you are paid. Joshua will tell you what a lender is likely to say." })}
 `;

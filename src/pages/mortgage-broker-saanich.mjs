@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-saanich/#service", name: "Resvick Mortgages, serving Saanich", url: SITE.origin + "/mortgage-broker-saanich/", areaServed: [{ "@type": "City", name: "Saanich", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Saanich Peninsula" }] };
 
@@ -21,6 +23,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Saanich</h2>
 <p>Saanich's median household income was $93,000 for 2020, and 17.1 percent of workers were self-employed. Health care was the largest industry, then public administration and retail. (Statistics Canada, 2021 Census Profile, read October 2026). The mix of hospital, government and retail jobs means many files have steady wages. A second group is retired homeowners living on pensions and savings. Lenders can count pension income, and some also count a portion of investment income. The rules differ by lender, so ask early.</p>
+${censusTable("saanich")}
 
 <h2>Suites and garden suites in Saanich</h2>
 <p>Saanich lists secondary suites as a permitted accessory use in its single-family, duplex and agricultural zones. There can be one suite per main dwelling. It must be inside the main home, and it cannot sit on its own title. A suite needs an occupancy permit from Building Inspections and one extra on-site parking space. Boarding is not allowed in a suite. (District of Saanich, Secondary Suites page, read October 2026.)</p>
@@ -58,6 +61,8 @@ ${callout("What you pay in Saanich", "<p>For most Saanich files the lender is an
 <p>For heritage homes and downtown condos, see the <a href="/mortgage-broker-victoria/">Victoria page</a>. For a bigger move up the Island, see the <a href="/mortgage-broker-nanaimo/">Nanaimo page</a>. Joshua also works with buyers in Central Saanich, North Saanich and Sidney the same way.</p>
 
 <p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-government-and-city-employees/">government and city employees</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Saanich file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
+${nearbyCallout("saanich", callout)}
 
 ${cta({ title: "Talk to a broker who serves Saanich", text: "Book a 15-minute call. Tell Joshua the property, the plan and how you are paid. You will leave knowing what a lender will ask for first." })}
 `;

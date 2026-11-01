@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-langford/#service", name: "Resvick Mortgages, serving Langford and the Westshore", url: SITE.origin + "/mortgage-broker-langford/", areaServed: [{ "@type": "City", name: "Langford", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Colwood", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Westshore, Capital Regional District" }] };
 
@@ -29,6 +31,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Langford</h2>
 <p>Langford's median household income was $93,000 for 2020. About 13.1 percent of workers were self-employed. Public administration was the largest industry, narrowly ahead of health care and retail. (Statistics Canada, 2021 Census Profile, read October 2026). Public administration covers federal, provincial and local government jobs, which tend to bring pay that is steady and easy to document. Lenders vary on how they treat a posting or a new employer, so share your start date and employer details at the beginning of the file.</p>
+${censusTable("langford")}
 
 <h2>Suites, garden suites and small-scale housing</h2>
 <p>The Province now requires cities to allow more homes on lots that used to hold one house. Under Bill 44, local governments had to update their zoning bylaws by June 30, 2024, unless they received an extension. A second round of changes under Bill 25 carries a deadline of June 30, 2026, again except where a local government applied for an extension. The Province sets a floor of three units on lots of 280 square metres or less, and four on larger lots. Some larger lots near frequent bus service can have up to six. (Province of BC, Small-scale, multi-unit housing, last updated January 20, 2026, read October 2026.)</p>
@@ -62,6 +65,8 @@ ${callout("What a broker costs here", "<p>Most Westshore purchases and renewals 
 <p>Joshua also serves <a href="/mortgage-broker-victoria/">Victoria</a>, where heritage homes and condos dominate, and <a href="/mortgage-broker-nanaimo/">Nanaimo</a>, a drive up the Island. Many Westshore buyers compare all three before they decide.</p>
 
 <p class="more-links"><strong>More for Langford buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-military-and-veterans/">military and veterans</a>, <a href="/mortgages-for-government-and-city-employees/">government and city employees</a> and <a href="/mortgages-for-first-responders/">first responders</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
+${nearbyCallout("langford", callout)}
 
 ${cta({ title: "Talk to a broker who serves the Westshore", text: "Book a 15-minute call. Tell Joshua which home you are looking at and how you are paid. You will leave with a plan and a list of what to gather." })}
 `;

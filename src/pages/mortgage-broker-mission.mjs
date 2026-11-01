@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-mission/#service", name: "Resvick Mortgages, serving Mission", url: SITE.origin + "/mortgage-broker-mission/", areaServed: [{ "@type": "City", name: "Mission", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Fraser Valley" }] };
 
@@ -21,6 +23,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Mission</h2>
 <p>Mission's median household income was $98,000 for 2020, and 16.5 percent of workers were self-employed. Construction was the biggest industry, then retail and health care. (Statistics Canada, 2021 Census Profile, read October 2026). A construction-led city means many buyers have trades pay or run their own crew. Others commute west on the train or the highway for wages from a bigger employer. Each group gets read differently, so tell Joshua how you are paid and for how long.</p>
+${censusTable("mission")}
 
 <h2>Silverdale, Cedar Valley and new construction</h2>
 <p>Silverdale and Cedar Valley are two of Mission's longtime localities, and new building has reached Silverdale in particular. A large master-planned community at Silverdale broke ground in late 2020, starting with a townhouse phase (Business in Vancouver, December 2020, read October 2026).</p>
@@ -59,6 +62,8 @@ ${callout("What you pay", "<p>Most Mission files go to an A lender. The lender p
 <p>The <a href="/mortgage-broker-abbotsford/">Abbotsford page</a> covers the other side of the river, including acreage and farm land. The <a href="/mortgage-broker-langley/">Langley page</a> covers the next market west. To start, use the <a href="/contact/">contact page</a> for the phone number, the email and what to have ready.</p>
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. To plan a Mission purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
+${nearbyCallout("mission", callout)}
 
 ${cta({ title: "Talk to a broker who serves Mission", text: "Book a 15-minute call. Tell Joshua where you're moving from and what you're buying. You'll leave knowing the steps and what to gather first." })}
 `;

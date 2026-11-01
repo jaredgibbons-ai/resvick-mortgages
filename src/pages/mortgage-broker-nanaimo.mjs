@@ -1,5 +1,7 @@
 import { short } from "../lib/short.mjs";
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-nanaimo/#service", name: "Resvick Mortgages, serving Nanaimo", url: SITE.origin + "/mortgage-broker-nanaimo/", areaServed: [{ "@type": "City", name: "Nanaimo", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Central Vancouver Island" }] };
 
@@ -23,6 +25,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Nanaimo</h2>
 <p>Nanaimo's median household income was $75,500 for 2020, and 16.3 percent of workers were self-employed. Health care, retail and construction were the three largest industries. (Statistics Canada, 2021 Census Profile, read October 2026). The median is lower than in most of the Lower Mainland. Some buyers close that gap with equity from a sale on the mainland, or with a spouse's income earned across the water. Lenders ask for proof of both. Joshua helps you collect the paperwork so the file is complete.</p>
+${censusTable("nanaimo")}
 
 <h2>Nanaimo housing and suites</h2>
 <p>Nanaimo has older character streets near the harbour. It has settled subdivisions in the north and south ends. It also has newer townhouses and condos, plus rural lots at the edges.</p>
@@ -60,6 +63,8 @@ ${callout("The cost of using a broker", "<p>On a mortgage placed with an A lende
 <p>If a home near Nanaimo sits on First Nation land, it is a different kind of file. We found no First Nation leasehold homes for sale in the city today, but plans exist for leased land on the Snuneymuxw te'tuxwtun lands (Snuneymuxw First Nation, 2026 member vote materials, read October 2026). Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-government-and-city-employees/">government and city employees</a>. To plan a Nanaimo purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
+${nearbyCallout("nanaimo", callout)}
 
 ${cta({ title: "Talk to a broker who serves Nanaimo", text: "Book a 15-minute call. Buying on the Island while keeping a mainland job or home? Say so in your first message, and Joshua will plan the file around it." })}
 

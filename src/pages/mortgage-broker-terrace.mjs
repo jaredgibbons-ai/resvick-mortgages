@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-terrace/#service", name: "Resvick Mortgages, serving Terrace", url: SITE.origin + "/mortgage-broker-terrace/", areaServed: [{ "@type": "City", name: "Terrace", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Kitimat-Stikine" }] };
 
@@ -26,6 +28,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Terrace</h2>
 <p>The 2021 Census puts Terrace's median household income at $90,000 for 2020. About 12.1 percent of workers were self-employed, or 780 of 6,470. Health care was the largest industry with 1,165 workers. Retail had 805, construction 650 and educational services 605. (Statistics Canada, 2021 Census Profile, read October 2026). Health care and schools bring steady salaried files. Construction brings contract and project pay, which lenders read through your tax returns. Joshua can sort out which type your file is before he picks a lender.</p>
+${censusTable("terrace")}
 
 <h2>How a lender reads project, contract and rotation pay</h2>
 <p>Terrace files often mix pay types. Here is how lenders commonly see them. Policies vary, so Joshua checks each one before he picks a lender.</p>
@@ -104,6 +107,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 <p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>, <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Terrace file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
 <p>If you are comparing the coast, Joshua also serves <a href="/mortgage-broker-prince-rupert/">Prince Rupert</a> and Port Edward, where port work and older homes shape the files.</p>
+
+${nearbyCallout("terrace", callout)}
 
 ${cta({ title: "Talk to a broker who serves Terrace", text: "Book a 15-minute call. Share your arrival date, how you are paid and the kind of home you want. You will leave knowing which lenders fit and what to line up before you move." })}
 `;

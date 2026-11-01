@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-whistler/#service", name: "Resvick Mortgages, serving Whistler", url: SITE.origin + "/mortgage-broker-whistler/", areaServed: [{ "@type": "City", name: "Whistler", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -24,6 +26,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Whistler</h2>
 <p>The 2021 Census put Whistler's median household income, before tax, at $99,000 for 2020. About 21.5 percent of workers were self-employed. Accommodation and food service was the largest industry by far, with 2,650 workers or 27.5 percent of the labour force. Construction came second with 985 workers, then retail with 880. (Statistics Canada, 2021 Census Profile, read October 2026). A town built on visitors means seasonal pay, tips and second jobs are common. Lenders vary on how they count tips and seasonal work, and many ask for two years of history. Bring your tax slips and pay records for each job.</p>
+${censusTable("whistler")}
 
 <h2>How lenders read resort income</h2>
 <p>Whistler runs on seasons. Winter and summer bring different jobs, different hours and different pay. Whistler Blackcomb is based here and owned by Vail Resorts. It reported about 1,700 employees on July 31, 2025 (Whistler Blackcomb, FY25 annual report, read October 2026). Hotels, restaurants and tour companies add many more jobs. Statistics Canada puts the median after-tax household income in Whistler at $86,000 for 2020 (Statistics Canada, 2021 Census, Focus on Geography Series for Whistler, read October 2026).</p>
@@ -109,6 +112,8 @@ ${callout("Who pays for what", "<p>When a Whistler file suits an A lender, that 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/self-employed-mortgage-bc/">self-employed mortgages</a> and <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>. To plan a Whistler purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
 <p>For another resort market in the Interior, see <a href="/mortgage-broker-revelstoke/">Revelstoke</a>, where some homes carry resale price caps.</p>
+
+${nearbyCallout("whistler", callout)}
 
 ${cta({ title: "Talk to a broker who serves Whistler", text: "Book a 15-minute call. Tell Joshua the building, the zoning and how you earn. You will leave knowing how a lender may read the file and what to gather first." })}
 `;

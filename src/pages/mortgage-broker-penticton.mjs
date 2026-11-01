@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-penticton/#service", name: "Resvick Mortgages, serving Penticton", url: SITE.origin + "/mortgage-broker-penticton/", areaServed: [{ "@type": "City", name: "Penticton", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Summerland", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Okanagan-Similkameen" }] };
 
@@ -21,6 +23,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Penticton</h2>
 <p>Penticton's median household income was $68,000 for 2020. About 17.5 percent of workers were self-employed. Health care was the largest industry, followed by retail and construction. (Statistics Canada, 2021 Census Profile, read October 2026). The lower median fits a city with many retirees. Pension and savings income can qualify, but lenders vary in how they count it. If you are selling a home elsewhere, the sale proceeds also matter for the down payment. Joshua will tell you which documents each lender expects.</p>
+${censusTable("penticton")}
 
 <h2>Renting a Penticton home by the night</h2>
 <p>Penticton has had many vacation rentals, and the rules have tightened. Check them before an offer, not after.</p>
@@ -61,6 +64,8 @@ ${callout("What a mortgage broker costs", "<p>For most Penticton purchases and r
 <p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/self-employed-mortgage-bc/">self-employed mortgages</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Penticton file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
 <p>South of Penticton, the <a href="/mortgage-broker-osoyoos-oliver/">Osoyoos and Oliver page</a> covers wine country, band leasehold homes and local short-term rental rules.</p>
+
+${nearbyCallout("penticton", callout)}
 
 ${cta({ title: "Talk to a broker who serves Penticton", text: "Book a 15-minute call. Describe the property and where the money comes from. You'll leave knowing which kind of lender fits and what to gather first." })}
 `;

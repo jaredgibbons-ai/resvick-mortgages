@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-fernie/#service", name: "Resvick Mortgages, serving Fernie", url: SITE.origin + "/mortgage-broker-fernie/", areaServed: [{ "@type": "City", name: "Fernie", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Sparwood" }, { "@type": "City", name: "Elkford" }, { "@type": "AdministrativeArea", name: "Regional District of East Kootenay" }] };
 
@@ -27,6 +29,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Fernie</h2>
 <p>Fernie's median household income was $107,000 for 2020. About 15.7 percent of workers were self-employed, or 575 of 3,665 in the labour force. Mining, quarrying, and oil and gas extraction was the largest industry with about 620 workers. Accommodation and food services followed with about 500, then retail with about 415. (Statistics Canada, 2021 Census Profile, read October 2026). That is the mix of a mine town and a resort town. Mine pay often includes shift premiums, overtime or bonuses, and resort pay can swing by season. Lenders usually average variable pay over about two years, and they look at your yearly totals, not your best month. The self-employed share is high, so business-owner files are common. Many owners run a trade, a shop or a rental business. The census is from 2021, so it does not show later changes at the mines.</p>
+${censusTable("fernie")}
 
 <h2>What homes cost, and how Fernie compares</h2>
 <p>BC Assessment's typical single-family value for 2026 was $911,000 in Fernie, up 6 percent. Sparwood was $457,000, Elkford $406,000 and Cranbrook $517,000 (BC Assessment, Southern Interior 2026 Property Assessments Announced, January 2, 2026, read October 2026). Fernie costs about double the other two Elk Valley towns, which is why mine workers often compare all three. The release gives no condo value for Fernie. These are assessed values, not sale prices, and they change each year.</p>
@@ -69,6 +72,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 <p>Buyers who like a mountain town also look at the <a href="/mortgage-broker-whistler/">Whistler page</a> and the <a href="/mortgage-broker-invermere/">Invermere page</a>, which covers another East Kootenay market.</p>
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>. To plan a Fernie purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
+${nearbyCallout("fernie", callout)}
 
 ${cta({ title: "Talk to a broker who serves Fernie", text: "Book a 15-minute call. Share how you are paid, whether the home is a full-time or second home, and where you are moving from. You will leave knowing which lenders fit and what to line up first." })}
 `;

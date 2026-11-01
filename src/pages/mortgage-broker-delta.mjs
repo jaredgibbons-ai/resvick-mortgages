@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-delta/#service", name: "Resvick Mortgages, serving Delta", url: SITE.origin + "/mortgage-broker-delta/", areaServed: [{ "@type": "City", name: "Delta", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Metro Vancouver" }] };
 
@@ -22,6 +24,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Delta</h2>
 <p>The 2021 Census puts Delta's median household income at $108,000 for 2020, with 15.8 percent of workers self-employed. Retail, health care, and transportation and warehousing were the top three industries, and construction came a close fourth. (Statistics Canada, 2021 Census Profile, read October 2026). Transport and warehousing matters in a city beside a port and an airport. Overtime and shift pay are common in that work. Lenders usually average that pay over two years instead of counting the best month.</p>
+${censusTable("delta")}
 
 <h2>Ladner and the farmland</h2>
 <p>South of the Fraser, Ladner is surrounded by flat, fertile land. The Agricultural Land Reserve keeps most of it in farming. That shapes what you can build, what you can use the land for, and how a lender sees it.</p>
@@ -58,6 +61,8 @@ ${callout("What you pay", "<p>Most Delta purchases and renewals go to A lenders,
 <p>If you own a business in Delta and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. To plan a Delta purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
+${nearbyCallout("delta", callout)}
 
 ${cta({ title: "Talk to a broker who serves Delta", text: "Book a 15-minute call. Tell Joshua which part of Delta and what kind of property. You'll leave knowing how a lender will read it and what to gather first." })}
 

@@ -1,6 +1,7 @@
 import { short } from "../lib/short.mjs";
 import { cta, callout, ratesStrip } from "../lib/site.mjs";
 import { cityServiceSchema, servesLine } from "../lib/city.mjs";
+import { censusTable } from "../lib/city-census.mjs";
 
 const slug = "/mortgage-broker-richmond/";
 
@@ -15,6 +16,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Richmond</h2>
 <p>Richmond's median household income was $79,000 for 2020, and 17.5 percent of workers were self-employed. Retail was the biggest industry, then professional services and health care. (Statistics Canada, 2021 Census Profile, read October 2026). Many Richmond buyers pool money from family members or from the sale of another property to reach their down payment. Lenders ask where each part of the down payment came from, and Joshua helps you gather that proof early.</p>
+${censusTable("richmond")}
 
 <h2>Buyers who are new to Canada</h2>
 <p>Many newcomers to Canada settle in Richmond first. A big share of first purchases here are newcomer files.</p>

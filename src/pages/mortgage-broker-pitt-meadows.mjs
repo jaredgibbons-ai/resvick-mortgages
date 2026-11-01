@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-pitt-meadows/#service", name: "Resvick Mortgages, serving Pitt Meadows", url: SITE.origin + "/mortgage-broker-pitt-meadows/", areaServed: [{ "@type": "City", name: "Pitt Meadows", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -21,6 +23,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Pitt Meadows</h2>
 <p>Pitt Meadows' own Census profile shows a median household income of $104,000 for 2020. About 14.5 percent of workers were self-employed, or 1,550 of 10,655 in the labour force. Health care was the largest industry with 1,275 workers, then construction with 1,140 and retail with 1,120. (Statistics Canada, 2021 Census Profile, read October 2026). Wages from hospitals and stores sit next to trades pay and small companies. Lenders read each differently, so Joshua asks how you are paid and for how long before he chooses where to apply.</p>
+${censusTable("pitt-meadows")}
 
 <h2>Homes in town and homes on the land</h2>
 <h3>The town stock</h3>
@@ -82,6 +85,8 @@ ${callout("Paying for the service", "<p>If your Pitt Meadows file suits a bank o
 <p>Joshua Resvick holds a mortgage broker licence through Xeva Mortgage. Before that, he worked as an underwriter, so he knows what a lender looks for when it reads a file. He has helped fund more than 1,000 mortgages. He works with Pitt Meadows clients from an office in Surrey, with calls, video and secure uploads. He has no office in Pitt Meadows.</p>
 
 <p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/farm-and-alr-mortgages-bc/">farm and ALR mortgages</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Pitt Meadows file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
+${nearbyCallout("pitt-meadows", callout)}
 
 ${cta({ title: "Talk to a broker who serves Pitt Meadows", text: "Book a 15-minute call. Share the address or area, and say whether the lot is in the ALR. You will leave knowing what a lender will ask and what to gather first." })}
 `;

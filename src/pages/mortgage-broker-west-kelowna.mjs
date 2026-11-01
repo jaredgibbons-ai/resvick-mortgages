@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-west-kelowna/#service", name: "Resvick Mortgages, serving West Kelowna", url: SITE.origin + "/mortgage-broker-west-kelowna/", areaServed: [{ "@type": "City", name: "West Kelowna", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Peachland", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -23,6 +25,7 @@ ${ratesStrip()}
 
 <h2>Incomes in West Kelowna</h2>
 <p>West Kelowna's median household income was $99,000 for 2020, and 19.4 percent of workers were self-employed. Health care, retail and construction were the three largest industries. (Statistics Canada, 2021 Census Profile, read October 2026). The self-employed share is the highest of the Okanagan cities we cover. Many owners run a trade, a vineyard service or a small company. If you work for yourself, expect the lender to ask for your business tax returns along with your personal ones.</p>
+${censusTable("west-kelowna")}
 
 <h2>Hillside lots, wildfire areas and renovation plans</h2>
 <p>Much of West Kelowna climbs a hill. The City's secondary suite bulletin says a development permit may be needed in Hillside, Sensitive Terrestrial Ecosystem, Aquatic or Wildfire areas, on top of the building permit. (City of West Kelowna, Secondary Suite Information Bulletin, revised April 2025, read October 2026.)</p>
@@ -59,6 +62,8 @@ ${callout("Who pays for the broker", "<p>On most West Kelowna files, the lender 
 <p>Many buyers cross the lake to compare. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the city on the other side, including carriage houses and recreational property. The <a href="/mortgage-broker-kamloops/">Kamloops page</a> covers trades, rail and shift income farther north. Joshua serves the whole Okanagan, including Lake Country, in the same way.</p>
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. To plan a West Kelowna purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
+${nearbyCallout("west-kelowna", callout)}
 
 ${cta({ title: "Talk to a broker who serves West Kelowna", text: "Book a 15-minute call. Say which neighbourhood you like and what the title is. You'll leave knowing which lenders fit and what to gather first." })}
 `;

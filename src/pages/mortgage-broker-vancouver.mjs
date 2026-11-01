@@ -1,6 +1,7 @@
 import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 import { cityServiceSchema, servesLine } from "../lib/city.mjs";
+import { censusTable } from "../lib/city-census.mjs";
 
 const slug = "/mortgage-broker-vancouver/";
 
@@ -14,6 +15,7 @@ ${short({ answer: "Most Vancouver mortgages are condo or townhouse mortgages, so
 
 <h2>Incomes in Vancouver</h2>
 <p>The 2021 Census puts Vancouver's median household income at $82,000 for 2020. About 17.7 percent of the city's workers were self-employed, which is one of the higher shares in Metro Vancouver. The three biggest industries were professional, scientific and technical services, health care, and retail. (Statistics Canada, 2021 Census Profile, read October 2026). Consultants, designers and small business owners are a large part of the city. If you work for yourself, lenders usually ask for two years of tax returns and notices of assessment. Our page on the <a href="/self-employed-mortgage-bc/">self-employed mortgage</a> shows how that income is counted.</p>
+${censusTable("vancouver")}
 
 <h2>How lenders read a Vancouver strata purchase</h2>
 <p>A condo mortgage gets approved on two files: yours and the building's. Your file is your income, credit, down payment and debts.</p>

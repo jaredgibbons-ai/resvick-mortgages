@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-squamish/#service", name: "Resvick Mortgages, serving Squamish and Whistler", url: SITE.origin + "/mortgage-broker-squamish/", areaServed: [{ "@type": "City", name: "Squamish", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Whistler", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -25,6 +27,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Squamish</h2>
 <p>Squamish's median household income was $111,000 for 2020, one of the higher figures among the cities we cover. About 20.7 percent of workers were self-employed. Professional services, construction and retail were almost level as the three largest industries. (Statistics Canada, 2021 Census Profile, read October 2026). A high self-employed share fits a town of contractors, remote workers and outdoor businesses. Lenders will want two years of tax returns, and some will also want to see your business is stable. Joshua can tell you early if your income reads well.</p>
+${censusTable("squamish")}
 
 <h2>Suites, coach houses and short-term rentals in Squamish</h2>
 <p>Rent can help you qualify, but only if the unit is legal and the use is allowed. Squamish has clear rules on both points.</p>
@@ -69,6 +72,8 @@ ${callout("What you pay", "<p>On most Squamish and Whistler files, an A lender p
 <p>Squamish is the gateway to the corridor. If you also look at homes on the North Shore, the <a href="/mortgage-broker-north-vancouver/">North Vancouver page</a> covers that market. The <a href="/mortgage-broker-vancouver/">Vancouver page</a> covers the city at the other end of the highway. The process is the same in each place.</p>
 
 <p class="more-links"><strong>More for Squamish buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-tech-workers/">tech workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
+${nearbyCallout("squamish", callout)}
 
 ${cta({ title: "Talk to a broker who serves Squamish and Whistler", text: "Book a 15-minute call. Tell Joshua how you are paid and how you plan to use the property. You will leave knowing how a lender will read it and what to gather first." })}
 `;

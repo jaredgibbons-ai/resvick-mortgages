@@ -1,6 +1,7 @@
 import { short } from "../lib/short.mjs";
 import { SITE, cta, callout } from "../lib/site.mjs";
 import { cityServiceSchema } from "../lib/city.mjs";
+import { censusTable } from "../lib/city-census.mjs";
 
 const slug = "/mortgage-broker-surrey/";
 
@@ -20,6 +21,7 @@ ${short({ answer: "Joshua's office is in Surrey, so this is his home city. He wo
 
 <h2>Incomes in Surrey</h2>
 <p>Surrey's median household income was $98,000 for 2020. About 15.0 percent of Surrey's workers were self-employed, or 46,125 of 308,190 in the labour force. Retail, health care and construction were the three largest industries, and construction alone had about 30,500 workers. (Statistics Canada, 2021 Census Profile, read October 2026). That mix explains why so many Surrey files include trades pay, commissions or a small company. Lenders vary in how they read that income, so Joshua checks it before he picks one.</p>
+${censusTable("surrey")}
 
 <h2>The suite question, Surrey version</h2>
 <p>Surrey is known for basement suites, and the city's rules matter to your mortgage. Here's what the City of Surrey says (page updated October 2026).</p>

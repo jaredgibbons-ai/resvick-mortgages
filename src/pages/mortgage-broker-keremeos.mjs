@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-keremeos/#service", name: "Resvick Mortgages, serving Keremeos", url: SITE.origin + "/mortgage-broker-keremeos/", areaServed: [{ "@type": "City", name: "Keremeos", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Okanagan-Similkameen" }] };
 
@@ -27,6 +29,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Keremeos</h2>
 <p>Keremeos is a small village, so its Census counts are small. The 2021 Census puts the median household income at $53,200 for 2020. About 16.8 percent of workers were self-employed, or 90 of 535. Health care was the largest industry with 90 workers, then retail with 80, construction with 60 and manufacturing with 55. (Statistics Canada, 2021 Census Profile, read October 2026). A lower household income can still qualify, since lenders look at your debts and down payment as well. Farm and seasonal pay is read over a longer period, often two years, so bring your tax returns.</p>
+${censusTable("keremeos")}
 
 <h2>A small village in a farm valley</h2>
 <p>The 2021 Census counted 1,608 people in the Village, up from 1,502 in 2016. Private dwellings grew by 10.5%. Rural Area G, which wraps around the Village, grew by 164 people to 2,298. Cawston, in Area B, grew by 104 to 1,151. (Kelowna Capital News, Census finds steady growth in Keremeos, February 11, 2022, read October 2026).</p>
@@ -90,6 +93,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/farm-and-alr-mortgages-bc/">farm and ALR mortgages</a>. To plan a Keremeos purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
 <p>The next towns south and east are Oliver and Osoyoos. Our <a href="/mortgage-broker-osoyoos-oliver/">Osoyoos and Oliver page</a> compares their zoning, rentals and leasehold homes.</p>
+
+${nearbyCallout("keremeos", callout)}
 
 ${cta({ title: "Talk to a broker who serves Keremeos", text: "Book a 15-minute call. Share where you are moving from, how you are paid and the kind of home you want. You will leave knowing which lenders fit and what to line up before you move." })}
 `;

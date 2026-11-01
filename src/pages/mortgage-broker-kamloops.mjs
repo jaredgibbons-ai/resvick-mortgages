@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-kamloops/#service", name: "Resvick Mortgages, serving Kamloops", url: SITE.origin + "/mortgage-broker-kamloops/", areaServed: [{ "@type": "City", name: "Kamloops", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Thompson-Nicola" }] };
 
@@ -34,6 +36,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Kamloops</h2>
 <p>Kamloops had a median household income of $88,000 for 2020. About 12.0 percent of workers were self-employed, a lower share than in most cities we cover. Health care was the biggest industry, followed by retail and construction. (Statistics Canada, 2021 Census Profile, read October 2026). The low self-employed share points to a wage economy built on hospitals, stores and trades employers. Salaried files are the most common. For these, lenders usually want a recent pay stub, a job letter and your tax slip.</p>
+${censusTable("kamloops")}
 
 <h2>Kamloops housing and what lenders notice</h2>
 <p>Kamloops housing ranges from established neighbourhoods on both sides of the river to newer subdivisions. There are townhouses and a growing supply of condos too. Detached homes with basement suites are common.</p>
@@ -66,6 +69,8 @@ ${callout("What you pay", "<p>On a mortgage placed with an A lender, the lender 
 <p class="more-links"><strong>More for Kamloops files.</strong> Hospitals, stores and trades employers lead the local jobs, and rail and trucking pay is common too. Pages that may match your work include <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a> and <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>. To plan your purchase, begin with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> if you want to know who pays Joshua.</p>
 
 <p>Rail crews also work out of Revelstoke. Our <a href="/mortgage-broker-revelstoke/">Revelstoke page</a> explains how rail, hydro and resort pay are read.</p>
+
+${nearbyCallout("kamloops", callout)}
 
 ${cta({ title: "Talk to a broker who serves Kamloops", text: "Book a 15-minute call. Tell Joshua how you're paid. You'll leave knowing how a lender will read it and what to gather first." })}
 

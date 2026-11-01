@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-revelstoke/#service", name: "Resvick Mortgages, serving Revelstoke", url: SITE.origin + "/mortgage-broker-revelstoke/", areaServed: [{ "@type": "City", name: "Revelstoke", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Columbia-Shuswap Regional District" }] };
 
@@ -27,6 +29,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Revelstoke</h2>
 <p>Revelstoke's median household income was $96,000 for 2020. About 14.9 percent of workers were self-employed, or 745 of 5,010 in the labour force. Accommodation and food services was the largest industry by a wide margin, with about 910 workers. Retail and health care were level at about 485 each, and construction was close behind at about 480. (Statistics Canada, 2021 Census Profile, read October 2026). Resort work often comes with changing hours, seasonal layoffs and tips. A lender wants to see steady income over time, so expect to show two years of tax slips and pay records. Owners of small businesses make up a large part of the workforce too. The census is from 2021, so it does not show later job changes, such as the railway moves described below.</p>
+${censusTable("revelstoke")}
 
 <h2>What homes cost</h2>
 <p>BC Assessment's typical single-family value for 2026 was $881,000 in Revelstoke, up 2 percent. The release gives no condo or townhouse value for the city (BC Assessment, Southern Interior 2026 Property Assessments Announced, January 2, 2026, read October 2026). That is an assessed value, not a sale price. The City's housing report said ownership costs rose about 182 percent from 2017 to 2023. Median household income rose about 28 percent from 2016 to 2021 (City of Revelstoke, 2024 Housing Needs Report, November 27, 2024, read October 2026). The 2025 living wage is $27.80 an hour. The City ties it mainly to housing costs (City of Revelstoke, Living Wage release, November 18, 2025, read October 2026).</p>
@@ -67,6 +70,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 <p>Buyers here also compare other towns. The <a href="/mortgage-broker-kamloops/">Kamloops page</a> and the <a href="/mortgage-broker-kelowna/">Kelowna page</a> cover the two nearest large cities. The <a href="/mortgage-broker-whistler/">Whistler page</a> covers another resort market.</p>
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-tech-workers/">tech workers</a> and <a href="/mortgages-for-first-responders/">first responders</a>. To plan a Revelstoke purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+
+${nearbyCallout("revelstoke", callout)}
 
 ${cta({ title: "Talk to a broker who serves Revelstoke", text: "Book a 15-minute call. Share how you are paid, the kind of home you want and where you are moving from. You will leave knowing which lenders fit and what to line up first." })}
 `;

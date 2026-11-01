@@ -1,5 +1,7 @@
 import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
+import { censusTable } from "../lib/city-census.mjs";
+import { nearbyCallout } from "../lib/nearby.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-port-coquitlam/#service", name: "Resvick Mortgages, serving Port Coquitlam", url: SITE.origin + "/mortgage-broker-port-coquitlam/", areaServed: [{ "@type": "City", name: "Port Coquitlam", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
@@ -22,6 +24,7 @@ ${ratesStrip()}
 
 <h2>Incomes in Port Coquitlam</h2>
 <p>Port Coquitlam's median household income was $102,000 for 2020, and 13.5 percent of workers were self-employed. Health care was the largest industry, followed by retail and construction. (Statistics Canada, 2021 Census Profile, read October 2026). That is a lower self-employed share than in most Metro Vancouver cities. Most files here are wage files, with a smaller group in the trades who run their own shop. A steady hourly job is usually quick for a lender to read. A trades business takes a little longer.</p>
+${censusTable("port-coquitlam")}
 
 <h2>Suites and coach houses in Port Coquitlam: check the zone first</h2>
 <p>Rent from a legal suite can help you qualify. Rent from an illegal one usually cannot be counted. So the first question on any PoCo house with a basement unit is whether the suite is allowed at all.</p>
@@ -57,6 +60,8 @@ ${callout("What it costs you", "<p>For most Port Coquitlam files, the A lender p
 <p>Many PoCo buyers also look across the border in Coquitlam, where the housing mix and the suite rules differ. The <a href="/mortgage-broker-coquitlam/">Coquitlam page</a> covers that side. Across the Pitt River, the <a href="/mortgage-broker-maple-ridge/">Maple Ridge page</a> covers acreage and newer subdivisions. The <a href="/contact/">contact page</a> has the number and email for a first call.</p>
 
 <p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Port Coquitlam file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
+
+${nearbyCallout("port-coquitlam", callout)}
 
 ${cta({ title: "Talk to a broker who serves Port Coquitlam", text: "Book a 15-minute call. Tell Joshua how you are paid and which home you are weighing. You will leave knowing what a lender will ask for first." })}
 `;
