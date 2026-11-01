@@ -40,28 +40,31 @@ export default {
 
   "nanaimo": {
     str: "Nanaimo requires a City business licence for short-term rentals. The rule is in Business Licence Bylaw No. 7318. The City has its own rules that pre-date the Province's. The rental must be in the operator's home, suite or carriage house. The limits are four adult guests and two guest bedrooms. The City's guide counts a home as your primary residence if you live there at least 8 months a year. Check the City's page before you rely on it.",
-    suites: "Nanaimo's council adopted its small-scale multi-unit housing zoning changes on June 17, 2024. The amending bylaw is No. 4500.223. Most single-residential and duplex lots now allow three or four homes. There are exceptions for unserviced lots, some oversize lots and hazard lands.",
+    suites: "Nanaimo's council adopted its small-scale multi-unit housing zoning changes on June 17, 2024. Most single-residential and duplex lots now allow three or four homes. There are exceptions for unserviced lots, some oversize lots and hazard lands.",
     employers: [
       "Vancouver Island University, main campus in Nanaimo",
       "School District No. 68 (Nanaimo-Ladysmith), which the City says employs about 2,200 staff",
       "Harmac Pacific pulp mill in Nanaimo, which says it employs more than 350 people",
       "Pacific Biological Station, a federal fisheries science centre, which the City says employs about 180 people"
     ],
-    lenders: "Coastal Community Credit Union lists its head office in Nanaimo in its 2024 annual report.",
-    areas: [],
+    lenders: "",
+    areas: [
+      { n: "Departure Bay", d: "Mostly older single-family homes, says the City's 2006 plan, with some duplexes and apartments." },
+      { n: "Old City", d: "Single-family homes on the upper slopes, many of them older, with some suites, per the City's plan." }
+    ],
     mix: "The 2021 Census, in the City's 2024 interim housing report, shows about 67 percent of Nanaimo households owned their home. Single-detached houses were about 66 percent of homes.",
     land: "",
     feature: "Nanaimo has three provincially designated transit-oriented areas. They are at the Woodgrove, Country Club and Vancouver Island University bus exchanges. The City says taller, denser buildings are pre-zoned there. Expect more condo and apartment files near those exchanges.",
     src: [
       ["City of Nanaimo short-term rentals", "https://www.nanaimo.ca/doing-business/business-licences/short-term-rentals"],
-      ["City of Nanaimo news release on small-scale multi-unit housing and transit-oriented areas", "http://www.nanaimo.ca/NewsReleases/NR240618SmallScaleMultiUnitHousingAndTransitOrientedAreasRegulationsAdopted.html"],
-      ["Coastal Community Credit Union 2024 annual report", "https://cccu.ca/wp-content/uploads/2026/06/2024_CCCU_Annual_Report.pdf"],
+      ["City of Nanaimo, Departure Bay Neighbourhood Plan", "https://www.nanaimo.ca/docs/property-development/community-planning-and-zoning/departurebay-neighbourhoodplan6895d83a1b316d6b9fc9ff0f001037d2.pdf"],
+      ["City of Nanaimo, Old City Neighbourhood Concept Plan", "https://www.nanaimo.ca/docs/property-development/community-planning-and-zoning/old-city-neighbourhood-area-plan.pdf"],
       ["City of Nanaimo education opportunities", "https://www.nanaimo.ca/doing-business/economic-development/community/education-opportunities"],
       ["Harmac Pacific, about us", "https://harmacpacific.com/about-us/"],
       ["City of Nanaimo interim housing needs report, 2024", "https://www.nanaimo.ca/docs/property-development/community-planning/housing/atta_report_interimhousingneedsreport2024_rpt_c241216.pdf"]
     ],
     omitted: [
-      "SSMUH amending bylaw number is now settled as 4500.223: both the City's June 18, 2024 news release and its June 17, 2024 council summary give it. The 4500.233 on the SSMUH permit page looks like a typo. The Transit-Oriented Areas bylaw (No. 7382) was dropped from the text to stay at two bylaw numbers.",
+      "Fifth pass: swapped out the June 2024 news release (SSMUH date and bylaw 4500.223) and the CCCU annual report (lender line, head office at 220-59 Wharf Street) to fit the Departure Bay and Old City plans under the 6-source cap. Restore either by dropping a plan. Hammond Bay, Harewood, South End, Chase River and Brechin plans or reports state no housing type (Chase River plan only gives 1999 zoning and rural character), so only 2 areas. SSMUH amending bylaw number is now settled as 4500.223: both the City's June 18, 2024 news release and its June 17, 2024 council summary give it. The 4500.233 on the SSMUH permit page looks like a typo. The Transit-Oriented Areas bylaw (No. 7382) was dropped from the text to stay at two bylaw numbers.",
       "Coastal Community Credit Union: the contact page only says 'General Mailing Address'. The 2024 annual report back cover says 'Head Office' at 220-59 Wharf Street, so the lender line now says head office. 'Largest Island credit union' claim left out.",
       "Fourth task: City plan index https://www.nanaimo.ca/property-development/land-use-bylaws/neighbourhood-and-area-plans lists seven plans (Chase River, Departure Bay, Harewood, Newcastle + Brechin, Old City, Rocky Point/Hammond Bay/Stephenson Point, South End). The Harewood, Rocky Point/Hammond Bay and South End PDFs were blocked (fetch permission not granted), so no housing types were read. Areas stay empty: the 6-source cap is full, and only two plans (below) are verified.",
       "Neighbourhoods: the City's plan index page could not be read. The Old City plan (single-family and duplex areas with suites, plus fourplexes and low-rise apartments in some sub areas) and the Departure Bay plan (primarily older single-family homes, about 63 percent detached per its census data) were read and are usable if the source cap is relaxed: https://www.nanaimo.ca/docs/property-development/community-planning-and-zoning/old-city-neighbourhood-area-plan.pdf and https://www.nanaimo.ca/docs/property-development/community-planning-and-zoning/departurebay-neighbourhoodplan6895d83a1b316d6b9fc9ff0f001037d2.pdf. Harewood, North Nanaimo, Hammond Bay and South End descriptions could not be verified and were removed.",
