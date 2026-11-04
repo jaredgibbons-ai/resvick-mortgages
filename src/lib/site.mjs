@@ -69,8 +69,8 @@ export function footer() {
   return `<footer class="site-footer" data-nocount>
 <div class="ftr-in">
 <div><p class="ftr-brand">Resvick Mortgages</p>
-<p>Resvick Mortgages, Joshua Resvick, Mortgage Broker, Xeva Mortgage, #106, 2626 Croydon Drive, Surrey, BC · ${SITE.licence} · Broker Licence #${SITE.brokerLicence}</p>
-<p><a href="${SITE.phoneHref}">${SITE.phone}</a> · <a href="mailto:${SITE.email}">${SITE.email}</a> · <a href="${SITE.whatsappHref}" data-evt="whatsapp_click" rel="noopener">WhatsApp</a></p>
+<address class="ftr-addr"><span>Resvick Mortgages, Joshua Resvick, Mortgage Broker, Xeva Mortgage, #106, 2626 Croydon Drive, Surrey, BC</span><span>${SITE.licence}</span><span>Broker Licence #${SITE.brokerLicence}</span></address>
+<ul class="ftr-contact"><li><a href="${SITE.phoneHref}">${SITE.phone}</a></li><li><a href="mailto:${SITE.email}">${SITE.email}</a></li><li><a href="${SITE.whatsappHref}" data-evt="whatsapp_click" rel="noopener">WhatsApp</a></li></ul>
 <p class="small">Joshua serves clients across British Columbia, online and by phone, from his Surrey office. Verify any BC mortgage broker's licence with <a href="https://www.bcfsa.ca/public-resources/mortgage-brokers/find-mortgage-broker" rel="noopener">BCFSA's Find a Mortgage Broker</a>.</p></div>
 <div><p class="ftr-h">Buyers</p><ul><li><a href="/first-time-home-buyer-bc/">First-time buyers</a></li><li><a href="/down-payment-guide-bc/">Down payment guide</a></li><li><a href="/mortgage-pre-approval-bc/">Pre-approval</a></li><li><a href="/closing-costs-bc/">Closing costs</a></li><li><a href="/partners/">Realtor, notary and lawyer partners</a></li></ul></div>
 <div><p class="ftr-h">Homeowners</p><ul><li><a href="/mortgage-renewal-bc/">Mortgage renewal</a></li><li><a href="/refinance-mortgage-bc/">Refinancing</a></li><li><a href="/self-employed-mortgage-bc/">Self-employed</a></li><li><a href="/mortgage-aftercare-program/">Aftercare program</a></li></ul></div>
@@ -78,15 +78,19 @@ export function footer() {
 <div><p class="ftr-h">Who we help</p><ul><li><a href="/mortgages-for-first-responders/">First responders</a></li><li><a href="/mortgages-for-nurses-and-healthcare-workers/">Nurses and healthcare</a></li><li><a href="/mortgages-for-military-and-veterans/">Military and veterans</a></li><li><a href="/mortgage-for-contractors/">Contractors and trades</a></li><li><a href="/mortgages-for-doctors-and-dentists/">Doctors and dentists</a></li><li><a href="/mortgages-for-real-estate-agents/">Real estate agents</a></li><li><a href="/mortgages-for-lawyers-accountants-and-engineers/">Lawyers, accountants, engineers</a></li><li><a href="/mortgages-for-government-and-city-employees/">Government and city staff</a></li><li><a href="/mortgages-for-teachers-and-school-staff/">Teachers and school staff</a></li><li><a href="/mortgages-for-tech-workers/">Tech workers</a></li><li><a href="/mortgages-for-truckers-and-owner-operators/">Truckers and owner-operators</a></li><li><a href="/mortgages-for-camp-mine-and-shift-workers/">Camp, mine and shift workers</a></li><li><a href="/new-to-canada-mortgage/">New to Canada</a></li><li><a href="/mortgages-for-single-parents/">Single parents</a></li><li><a href="/mortgages-during-separation-and-divorce/">Separation and divorce</a></li><li><a href="/co-buying-a-home/">Co-buying</a></li><li><a href="/downsizing-and-your-mortgage/">Downsizing</a></li><li><a href="/investment-property-mortgages-bc/">Investors</a></li><li><a href="/commercial-mortgages-bc/">Commercial</a></li><li><a href="/condo-and-townhouse-mortgages/">Condos and townhouses</a></li><li><a href="/mobile-home-mortgages-bc/">Mobile and manufactured homes</a></li><li><a href="/leasehold-mortgages-bc/">Leased land</a></li><li><a href="/first-nations-land-mortgages-bc/">First Nations land</a></li><li><a href="/farm-and-alr-mortgages-bc/">Farm and ALR</a></li></ul></div>
 <div><p class="ftr-h">Cities served</p><ul class="ftr-cities"><li><a href="/mortgage-broker-surrey/">Surrey</a></li><li><a href="/mortgage-broker-white-rock/">White Rock</a></li><li><a href="/mortgage-broker-delta/">Delta</a></li><li><a href="/mortgage-broker-langley/">Langley</a></li><li><a href="/mortgage-broker-richmond/">Richmond</a></li><li><a href="/mortgage-broker-vancouver/">Vancouver</a></li><li><a href="/mortgage-broker-north-vancouver/">North Vancouver</a></li><li><a href="/mortgage-broker-burnaby/">Burnaby</a></li><li><a href="/mortgage-broker-new-westminster/">New Westminster</a></li><li><a href="/mortgage-broker-coquitlam/">Coquitlam</a></li><li><a href="/mortgage-broker-port-coquitlam/">Port Coquitlam</a></li><li><a href="/mortgage-broker-port-moody/">Port Moody</a></li><li><a href="/mortgage-broker-maple-ridge/">Maple Ridge</a></li><li><a href="/mortgage-broker-pitt-meadows/">Pitt Meadows</a></li><li><a href="/mortgage-broker-mission/">Mission</a></li><li><a href="/mortgage-broker-abbotsford/">Abbotsford</a></li><li><a href="/mortgage-broker-chilliwack/">Chilliwack</a></li><li><a href="/mortgage-broker-squamish/">Squamish</a></li><li><a href="/mortgage-broker-whistler/">Whistler</a></li><li><a href="/mortgage-broker-victoria/">Victoria</a></li><li><a href="/mortgage-broker-langford/">Langford</a></li><li><a href="/mortgage-broker-saanich/">Saanich</a></li><li><a href="/mortgage-broker-nanaimo/">Nanaimo</a></li><li><a href="/mortgage-broker-courtenay/">Courtenay</a></li><li><a href="/mortgage-broker-kelowna/">Kelowna</a></li><li><a href="/mortgage-broker-west-kelowna/">West Kelowna</a></li><li><a href="/mortgage-broker-penticton/">Penticton</a></li><li><a href="/mortgage-broker-keremeos/">Keremeos</a></li><li><a href="/mortgage-broker-princeton/">Princeton</a></li><li><a href="/mortgage-broker-vernon/">Vernon</a></li><li><a href="/mortgage-broker-invermere/">Invermere</a></li><li><a href="/mortgage-broker-kamloops/">Kamloops</a></li><li><a href="/mortgage-broker-quesnel/">Quesnel</a></li><li><a href="/mortgage-broker-prince-george/">Prince George</a></li><li><a href="/mortgage-broker-terrace/">Terrace</a></li><li><a href="/mortgage-broker-kitimat/">Kitimat</a></li><li><a href="/mortgage-broker-prince-rupert/">Prince Rupert</a></li><li><a href="/mortgage-broker-fort-st-john/">Fort St. John</a></li><li><a href="/mortgage-broker-trail-castlegar/">Trail and Castlegar</a></li><li><a href="/mortgage-broker-fernie/">Fernie</a></li><li><a href="/mortgage-broker-osoyoos-oliver/">Osoyoos and Oliver</a></li><li><a href="/mortgage-broker-revelstoke/">Revelstoke</a></li></ul></div>
 </div>
-<div class="ftr-legal"><p>© ${new Date().getFullYear()} Resvick Mortgages. Mortgage information on this site is general education, not advice on your file; every approval is subject to lender and insurer underwriting. <a href="/privacy/">Privacy policy</a> · <a href="/terms-of-use/">Terms of use</a>${SITE.ga4 ? ' · <button type="button" class="linklike" data-cookie-settings>Cookie settings</button>' : ""}</p></div>
+<div class="ftr-legal"><p>© ${new Date().getFullYear()} Resvick Mortgages. Mortgage information on this site is general education, not advice on your file; every approval is subject to lender and insurer underwriting. </p><p class="ftr-links"><a href="/privacy/">Privacy policy</a> <a href="/terms-of-use/">Terms of use</a>${SITE.ga4 ? ' <button type="button" class="linklike" data-cookie-settings>Cookie settings</button>' : ""}</p></div>
 </footer>`;
 }
 
-export const proofStrip = () => `<ul class="proof" data-nocount aria-label="At a glance"><li><strong>1,000+</strong> mortgages funded</li><li><strong>Xeva Mortgage</strong> brokerage</li><li><strong>BC-wide</strong>, online</li><li>An <strong>underwriter's</strong> eye</li></ul>`;
+export const proofStrip = () => `<ul class="proof" data-nocount aria-label="At a glance"><li><strong>1,000+</strong><span>mortgages funded</span></li><li><strong>Xeva Mortgage</strong><span>brokerage</span></li><li><strong>BC-wide</strong><span>online and by phone</span></li><li><strong>Former underwriter</strong><span>five years at a lender</span></li></ul>`;
 
 export const cta = (o = {}) => `<aside class="cta-block${o.dark ? " cta-dark" : ""}" data-cta>
 <div><h2>${esc(o.title || "Talk it through with Joshua")}</h2><p>${o.text || "A 15-minute call is enough to map your goals, your numbers and your next step. No obligation, and you deal directly with the broker who will do the work."}</p></div>
-<a class="btn${o.dark ? " btn-light" : ""}" href="${o.href || SITE.book}" data-evt="book_call_click">${esc(o.label || "Book a 15-minute call")}</a></aside>`;
+<a class="btn" href="${o.href || SITE.book}" data-evt="book_call_click">${esc(o.label || "Book a 15-minute call")}</a></aside>`;
+const ctaClose = (o = {}) => `<aside class="cta-block" data-cta>
+<p class="close-who" data-nocount><img src="/assets/img/josh-face-360.webp" width="76" height="76" alt="" loading="lazy"><span><b>Joshua Resvick</b>Mortgage broker, Surrey, BC</span></p>
+<h2>${esc(o.title || "Talk it through with Joshua")}</h2><p>${o.text || "A 15-minute call is enough to map your goals, your numbers and your next step. No obligation, and you deal directly with the broker who will do the work."}</p>
+<a class="btn" href="${o.href || SITE.book}" data-evt="book_call_click">${esc(o.label || "Book a 15-minute call")}</a></aside>`;
 
 export const faq = (items) => `<section class="faq" aria-labelledby="faq-h"><h2 id="faq-h">Frequently asked questions</h2>${items.map((f) => `<details><summary>${esc(f.q)}</summary><div><p>${f.a}</p></div></details>`).join("")}</section>`;
 
@@ -104,7 +108,6 @@ export function ratesStrip(file = "src/data/rates.json") {
 <p class="small">${(d.rows || []).some((r) => r.rate != null) ? "" : "Joshua posts confirmed rates here. Until then, a 15-minute call gets you today's numbers across a wide range of lenders. "}<a href="/mortgage-rates-bc/">How your rate is set</a></p></section>`;
 }
 
-const STARS5 = `<div class="rev-stars" role="img" aria-label="5 out of 5 stars"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"/></svg><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"/></svg></div>`;
 export function reviews(opts = {}) {
   const { file = "src/data/reviews.json", tag = "", limit = 0, heading = "What clients say" } = typeof opts === "string" ? { file: opts } : opts;
   let d = { items: [], link: "" };
@@ -115,7 +118,7 @@ export function reviews(opts = {}) {
   if (!items.length) return "";
   const stat = d.count && d.rating ? `<p class="small rev-stat">${esc(d.rating)} out of 5 on Google, from ${esc(d.count)} reviews${d.asOf ? ", as of " + esc(d.asOf) : ""}. Figures are Josh's own profile, updated by hand.</p>` : "";
   const more = d.link ? `<p class="small"><a href="${esc(d.link)}" rel="noopener">Read all reviews on Google</a> · ${d.writeLink ? `<a href="${esc(d.writeLink)}" rel="noopener" target="_blank">Leave a review</a>` : ""}</p>` : "";
-  return `<section class="reviews" data-nocount aria-labelledby="rev-h"><h2 id="rev-h">${esc(heading)}</h2>${stat}<div class="rev-grid rev-${items.length}">${items.map((r) => `<blockquote><p>${esc(r.text)}</p>${STARS5}<footer>${esc(r.name)}${r.when ? ", " + esc(r.when) : ""}</footer></blockquote>`).join("")}</div><p class="small rev-src">Quoted from Google reviews of Resvick Mortgages. Reviewers are shown by initials.</p>${more}</section>`;
+  return `<section class="reviews" data-nocount aria-labelledby="rev-h"><h2 id="rev-h">${esc(heading)}</h2>${stat}<div class="rev-grid rev-${items.length}">${items.map((r) => `<blockquote><p>${esc(r.text)}</p><footer>${esc(r.name)}${r.when ? ", " + esc(r.when) : ""}</footer></blockquote>`).join("")}</div><p class="small rev-src">Quoted from Google reviews of Resvick Mortgages. Reviewers are shown by initials.</p>${more}</section>`;
 }
 
 // Where reviews appear automatically (all are purchase stories, so they only go on buyer, trust and contact pages).
@@ -151,20 +154,14 @@ export function businessSchema() {
 }
 
 
-const IC = {
-  cal: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg>',
-  doc: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3.5h7l4 4V20a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4.5a1 1 0 0 1 1-1z"/><path d="M14 3.5V8h4M9 12h6M9 16h6"/></svg>',
-  quiz: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="4" width="14" height="17" rx="2.5"/><path d="M9 4V3h6v1M9 10l1.2 1.2L12.5 9M9 16l1.2 1.2 2.3-2.2M14.5 11h2M14.5 16h2"/></svg>',
-  arrow: '<svg class="act-ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>'
-};
-/** Three big buttons for the top of the home page. */
-export const actionCards = () => `<div class="act-cards" data-nocount>
-<a class="act act-main" href="${SITE.book}" data-evt="book_call_click"><span class="act-ic">${IC.cal}</span><span><b>Book a call</b><small>Pick a time that works for you.</small></span>${IC.arrow}</a>
-<a class="act" href="/apply/" data-evt="apply_click"><span class="act-ic">${IC.doc}</span><span><b>Apply online</b><small>A secure form. You can stop and come back.</small></span>${IC.arrow}</a>
-<a class="act" href="/mortgage-check/" data-evt="checkup_click"><span class="act-ic">${IC.quiz}</span><span><b>Take a quiz</b><small>Buying, renewing, equity and more.</small></span>${IC.arrow}</a>
+/** Home hero: one main button, one outline button, one text link. */
+export const actionCards = () => `<div class="acts" data-nocount>
+<a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a call</a>
+<a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Apply online</a>
+<a class="tlink" href="/mortgage-check/" data-evt="checkup_click">Take the quiz</a>
 </div>`;
 const NO_QUICK = new Set(["/apply/", "/accepted-offer/", "/refer/", "/privacy/", "/terms-of-use/", "/mortgage-check/", "/purchase-readiness-check/", "/renewal-check/", "/equity-check/", "/investor-check/", "/self-employed-check/", "/lender-match/", "/thank-you/", "/404.html"]);
-const quickRow = (slug) => NO_QUICK.has(slug) ? "" : `<div class="wrap" data-nocount><nav class="quick" aria-label="Quick actions"><a href="${SITE.book}" data-evt="book_call_click">${IC.cal}Book a call</a><a href="/apply/" data-evt="apply_click">${IC.doc}Apply online</a><a href="/mortgage-check/" data-evt="checkup_click">${IC.quiz}Take a quiz</a></nav></div>`;
+const heroSide = (slug) => NO_QUICK.has(slug) ? "" : `<aside class="hero-side" data-nocount aria-label="Next steps"><a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a call</a><a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Apply online</a><p class="side-alt">Not sure yet? <a href="/mortgage-check/" data-evt="checkup_click">Take the two-minute quiz</a>, or call <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p></aside>`;
 
 /** Add ids to h2s and build a "jump to" list for long pages. Returns the new body. */
 /** One slim prompt about a third of the way down long pages: apply or book. Skipped on tool, quiz, form and short pages. */
@@ -177,15 +174,16 @@ function withNudge(page, html) {
   return html.slice(0, at) + nudge() + "\n" + html.slice(at);
 }
 function withTop(page) {
-  const html = withNudge(page, withToc(page));
-  if (page.slug !== "/resources/") return html;
+  const t = withToc(page);
+  const html = withNudge(page, t.body);
+  if (page.slug !== "/resources/") return { html, toc: t.toc };
   const blk = latestGuides(4, "Latest guides");
   const i = html.indexOf("</aside>");
-  return i >= 0 ? html.slice(0, i + 8) + "\n" + blk + html.slice(i + 8) : blk + html;
+  return { html: i >= 0 ? html.slice(0, i + 8) + "\n" + blk + html.slice(i + 8) : blk + html, toc: t.toc };
 }
 function withToc(page) {
   const body = page.body || "";
-  if (page.home || NO_QUICK.has(page.slug)) return body;
+  if (page.home || NO_QUICK.has(page.slug)) return { body, toc: "" };
   const used = new Set((body.match(/\sid="([^"]+)"/g) || []).map((x) => x.slice(5, -1)));
   const items = [];
   const out = body.replace(/<h2(\s[^>]*)?>([\s\S]*?)<\/h2>/g, (m, attrs = "", inner) => {
@@ -196,23 +194,32 @@ function withToc(page) {
     if (text) items.push([id, text]);
     return have ? m : `<h2${attrs} id="${id}">${inner}</h2>`;
   });
-  if (items.length < 5) return out;
+  if (items.length < 5) return { body: out, toc: "" };
   if (page.faqs && page.faqs.length) items.push(["faq-h", "Frequently asked questions"]);
-  const toc = `<nav class="toc" aria-label="Jump to a section" data-nocount><details><summary>Jump to a section</summary><ol>${items.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join("")}</ol></details></nav>`;
-  const k = out.indexOf("</aside>");
-  return k > -1 && k < 3000 ? out.slice(0, k + 8) + toc + out.slice(k + 8) : toc + out;
+  const toc = `<nav class="toc" aria-label="On this page" data-nocount><details><summary>On this page</summary><p class="toc-t">On this page</p><ol>${items.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join("")}</ol></details></nav><script>(function(){var d=document.querySelector(".toc details");if(d&&matchMedia("(min-width:1100px)").matches){d.open=true;d.classList.add("pinned")}})()</script>`;
+  return { body: out, toc };
 }
 
 
 /** Short "call me back" form at the foot of every content page. Name and phone only; posts to /api/lead as form "callback". */
-const callbackBlock = (page) => (page.home || NO_QUICK.has(page.slug) || page.forms) ? "" : `<div class="wrap" data-nocount><aside class="callback" aria-labelledby="cb-h"><div class="cb-copy"><h2 id="cb-h">Prefer a call back?</h2><p>Leave your name and number. Joshua will phone you at the time you pick.</p></div>
+const hasCallback = (page) => !(page.home || NO_QUICK.has(page.slug) || page.forms);
+const callbackInner = () => `<aside class="callback" data-nocount aria-labelledby="cb-h"><div class="cb-copy"><h2 id="cb-h">Prefer a call back?</h2><p>Leave your name and number. Joshua will phone you at the time you pick.</p></div>
 <form data-lead="callback" novalidate data-success="Thank you. Joshua will call you back."><div class="cb-row"><div class="fld"><label for="cb-name">Your name</label><input id="cb-name" name="name" type="text" autocomplete="name" required></div><div class="fld"><label for="cb-phone">Phone</label><input id="cb-phone" name="phone" type="tel" autocomplete="tel" required></div><div class="fld"><label for="cb-when">Best time</label><select id="cb-when" name="x_best_time"><option>Morning</option><option>Afternoon</option><option>Evening</option><option>Any time</option></select></div></div>
 <div class="hp" aria-hidden="true"><label for="cb-web">Leave this field empty</label><input id="cb-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
 <p class="small">By sending this you agree that Joshua Resvick may phone you about your request. See the <a href="/privacy/">privacy policy</a>.</p>
-<div class="cb-go"><button class="btn" type="submit" data-evt="callback_submit">Request a call back</button><p class="form-msg" role="status"></p></div></form><p class="cb-alt">Or <a href="${SITE.whatsappHref}" data-evt="whatsapp_click" rel="noopener">message Joshua on WhatsApp</a>.</p></aside></div>`;
+<div class="cb-go"><button class="btn" type="submit" data-evt="callback_submit">Request a call back</button><p class="form-msg" role="status"></p></div></form><p class="cb-alt">Or <a href="${SITE.whatsappHref}" data-evt="whatsapp_click" rel="noopener">message Joshua on WhatsApp</a>.</p></aside>`;
+
+
+/** One closing band: the booking prompt and the call-back form together. Pages with their own form skip the call-back half. */
+function closeBlock(page) {
+  const cta = page.closing === false ? "" : ctaClose(page.closing || {});
+  const cb = hasCallback(page) ? callbackInner() : "";
+  if (!cta && !cb) return "";
+  return `<section class="close" data-nocount><div class="wrap close-in${cta && cb ? " two" : ""}">${cta}${cb}</div></section>`;
+}
 
 /** Sticky bottom bar on phones. */
-const stickyBar = (slug) => NO_QUICK.has(slug) ? "" : `<div class="sticky-cta" data-nocount><a class="sc-main" href="${SITE.book}" data-evt="book_call_click">${IC.cal}Book a call</a><a href="/apply/" data-evt="apply_click">${IC.doc}Get pre-approved</a></div>`;
+const stickyBar = (slug) => NO_QUICK.has(slug) ? "" : `<div class="sticky-cta" data-nocount><a class="sc-main" href="${SITE.book}" data-evt="book_call_click">Book a call</a><a href="/apply/" data-evt="apply_click">Get pre-approved</a></div>`;
 
 
 // ---- Internal linking: related guides, page clusters, latest guides (data comes from build.mjs via setLinkData) ----
@@ -277,7 +284,8 @@ export function render(page) {
   if (page.slug === "/") schemas.push(businessSchema());
   if (page.faqs && page.faqs.length) schemas.push({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: page.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/<[^>]+>/g, "") } })) });
   const hero = page.hero || `<div class="hero-copy"><h1>${page.h1}</h1>${page.lede ? `<p class="lede">${page.lede}</p>` : ""}</div>`;
-  const scripts = (page.calc ? `<script src="/assets/js/engine.js" defer></script><script src="/assets/js/calc-ui.js" defer></script>` : page.quiz ? `<script src="/assets/js/engine.js" defer></script>` : "") + (page.quiz ? `<script src="/assets/js/quiz.js" defer></script>` : "") + ((page.forms || callbackBlock(page)) ? `<script src="/assets/js/forms.js" defer></script>` : "") + (SITE.ga4 ? `<script src="/assets/js/consent.js" defer data-ga="${SITE.ga4}"></script>` : "");
+  const top = withTop(page);
+  const scripts = (page.calc ? `<script src="/assets/js/engine.js" defer></script><script src="/assets/js/calc-ui.js" defer></script>` : page.quiz ? `<script src="/assets/js/engine.js" defer></script>` : "") + (page.quiz ? `<script src="/assets/js/quiz.js" defer></script>` : "") + ((page.forms || hasCallback(page)) ? `<script src="/assets/js/forms.js" defer></script>` : "") + (SITE.ga4 ? `<script src="/assets/js/consent.js" defer data-ga="${SITE.ga4}"></script>` : "");
   return `<!doctype html>
 <html lang="${page.lang || "en-CA"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(page.title)}</title>
@@ -286,28 +294,31 @@ export function render(page) {
 ${page.noindex ? '<meta name="robots" content="noindex,follow">' : ""}
 ${page.alternate ? `<link rel="alternate" hreflang="en-CA" href="${SITE.origin}${page.alternate}"><link rel="alternate" hreflang="${page.lang || "en-CA"}" href="${url}">` : ""}
 <meta property="og:locale" content="en_CA"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(page.title)}"><meta name="twitter:description" content="${esc(page.meta)}"><meta property="og:type" content="website"><meta property="og:site_name" content="Resvick Mortgages"><meta property="og:title" content="${esc(page.title)}"><meta property="og:description" content="${esc(page.meta)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${SITE.origin}/assets/img/og-default.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#253551">
+<meta name="theme-color" content="#1E5246">
 
 ${process.env.STAGING ? '<meta name="robots" content="noindex,nofollow">' : ""}
-<link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/newsreader-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/newsreader-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/assets/favicon-48.png" sizes="48x48" type="image/png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/css/site.css">
 ${schemas.map(ld).join("\n")}
 </head><body${page.home ? ' class="is-home"' : ""}>
 ${header(page.nav || "")}
 <main id="main">
-<section class="hero${page.home ? " hero-home" : ""}"><div class="wrap hero-in">${hero}</div>${page.home ? "" : quickRow(page.slug)}</section>
+<section class="hero${page.home ? " hero-home" : ""}">${page.home ? `<div class="hero-in">${hero}</div>` : `<div class="wrap"><div class="hero-in${hero.includes("hero-portrait") || NO_QUICK.has(page.slug) ? " solo" : ""}">${hero}${hero.includes("hero-portrait") ? "" : heroSide(page.slug)}</div></div>`}</section>
 <div class="wrap">${proofStrip()}${page.slug === "/" ? "" : breadcrumbs(trail)}</div>
-<article class="wrap prose">
-${withTop(page)}
+<div class="wrap page${top.toc ? " has-rail" : ""}">
+${top.toc ? `<aside class="rail">${top.toc}</aside>` : ""}
+<article class="prose">
+${top.html}
 ${relatedHtml(page)}
 ${page.slug === "/" ? latestGuides(3, "From the guides") : ""}
 ${page.faqs && page.faqs.length ? faq(page.faqs) : ""}
 </article>
+</div>
 ${revFor(page) ? `<div class="wrap">${revFor(page)}</div>` : ""}
-${page.closing === false ? "" : `<div class="wrap">${cta(page.closing || { dark: true })}</div>`}
-${callbackBlock(page)}
+${closeBlock(page)}
 </main>
 ${footer()}
 ${stickyBar(page.slug)}

@@ -3,8 +3,8 @@ import { SITE, cta } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const photo = fs.existsSync("src/assets/img/josh-about.webp")
-  ? `<div class="arch"><img src="/assets/img/josh-about-720.webp" srcset="/assets/img/josh-about-720.webp 720w, /assets/img/josh-about-1080.webp 1080w" sizes="(max-width: 720px) 86vw, 360px" width="720" height="1080" alt="Joshua Resvick, mortgage broker at Xeva Mortgage" fetchpriority="high"></div>`
-  : `<div class="arch" aria-hidden="true"></div>`;
+  ? `<figure class="hero-portrait"><img src="/assets/img/josh-about-720.webp" srcset="/assets/img/josh-about-720.webp 720w, /assets/img/josh-about-1080.webp 1080w" sizes="(max-width: 900px) 70vw, 340px" width="720" height="1080" alt="Joshua Resvick, mortgage broker at Xeva Mortgage" fetchpriority="high"></figure>`
+  : "";
 
 const hero = `<div class="hero-copy"><h1>Joshua Resvick, mortgage broker in Surrey, BC</h1>
 <p class="lede">Ten years as a mortgage broker, five years as an underwriter before that, and over 1,000 mortgages funded. I teach you the process, then I stick around after it funds.</p>

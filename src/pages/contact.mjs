@@ -3,7 +3,7 @@ import { short } from "../lib/short.mjs";
 
 import fs from "node:fs";
 const photo = fs.existsSync("src/assets/img/josh-contact.webp")
-  ? `<div class="arch"><img src="/assets/img/josh-contact-720.webp" srcset="/assets/img/josh-contact-720.webp 720w, /assets/img/josh-contact-1080.webp 1080w" sizes="(max-width: 720px) 86vw, 360px" width="720" height="1080" alt="Joshua Resvick at his desk" fetchpriority="high"></div>`
+  ? `<figure class="hero-portrait"><img src="/assets/img/josh-contact-720.webp" srcset="/assets/img/josh-contact-720.webp 720w, /assets/img/josh-contact-1080.webp 1080w" sizes="(max-width: 900px) 70vw, 340px" width="720" height="1080" alt="Joshua Resvick at his desk" fetchpriority="high"></figure>`
   : "";
 const hero = `<div class="hero-copy"><h1>Contact a mortgage broker in Surrey, BC</h1>
 <p class="lede">The fastest way to start is a 15-minute call with me. Pick a time, phone, or send a message. Either way, you're dealing with me directly.</p></div>${photo}`;

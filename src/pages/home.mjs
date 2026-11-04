@@ -2,18 +2,17 @@ import fs from "node:fs";
 import { SITE, ratesStrip, reviews, actionCards } from "../lib/site.mjs";
 
 const photo = fs.existsSync("src/assets/img/josh-hero.webp")
-  ? `<div class="arch"><img src="/assets/img/josh-hero-720.webp" srcset="/assets/img/josh-hero-720.webp 720w, /assets/img/josh-hero-1080.webp 1080w" sizes="(max-width: 720px) 86vw, 360px" width="720" height="1080" alt="Joshua Resvick, mortgage broker in Surrey, BC" fetchpriority="high"></div>`
-  : `<div class="arch" aria-hidden="true"></div>`;
+  ? `<figure class="hero-photo"><img src="/assets/img/josh-hero-720.webp" srcset="/assets/img/josh-hero-720.webp 720w, /assets/img/josh-hero-1080.webp 1080w" sizes="(max-width: 900px) 100vw, 43vw" width="720" height="1080" alt="Joshua Resvick, mortgage broker in Surrey, BC" fetchpriority="high"></figure>`
+  : "";
 
 const hero = `<div class="hero-copy"><h1>Josh Resvick<span class="h1-sub">Your BC mortgage broker</span></h1>
 <p class="lede">I compare lenders for you, explain every step in plain English and stay with you after closing. On most mortgages, the lender pays me and you pay nothing.</p>
 ${actionCards()}<p class="hero-phone">Prefer to talk? Call <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p></div>${photo}`;
 
 const body = `
-${reviews()}
 ${ratesStrip()}
 <h2>What do you need help with?</h2>
-<div class="persona">
+<div class="index">
 <a href="/first-time-home-buyer-bc/"><strong>Buying my first home</strong><span>Programs, down payment and the order to do things in.</span></a>
 <a href="/mortgage-renewal-bc/"><strong>Renewing my mortgage</strong><span>Your renewal letter is an offer. Compare before you sign.</span></a>
 <a href="/refinance-mortgage-bc/"><strong>Refinancing or using equity</strong><span>Check the math first, then decide.</span></a>
@@ -36,6 +35,8 @@ ${ratesStrip()}
 
 <h2>Why me</h2>
 <p>I spent five years as a mortgage underwriter before I became a broker. So I read your file the way a lender will, and fix the problems before it gets sent. That means fewer surprises late in the process. More on the <a href="/about-joshua-resvick/">About page</a>.</p>
+
+${reviews()}
 
 <div class="band">
 <h2>Is your renewal coming up?</h2>
