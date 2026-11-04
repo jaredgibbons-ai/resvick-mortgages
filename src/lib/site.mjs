@@ -46,6 +46,15 @@ const NAV = [
     ["How brokers get paid", "/how-mortgage-brokers-get-paid/"], ["Realtor, notary and lawyer partners", "/partners/"], ["Refer a friend", "/refer/"], ["Contact", "/contact/"]] }
 ];
 
+/** Which top-level nav item to mark current: a page that is listed in a menu marks that menu; city pages sit under Situations ("Cities served"); the Apply page is a button, not a menu item. Otherwise the page's own `nav` hint. */
+export function navCurrent(page) {
+  if (page.slug === "/apply/") return "";
+  const hit = NAV.find((n) => n.href === page.slug || n.kids.some(([, h]) => h === page.slug));
+  if (hit) return hit.href;
+  if (/^\/mortgage-broker-[a-z-]+\/$/.test(page.slug)) return NAV.find((n) => n.label === "Situations").href;
+  return page.nav || "";
+}
+
 export function header(current) {
   const items = NAV.map((n) => {
     const kids = n.kids.map(([t, h]) => `<li><a href="${h}">${esc(t)}</a></li>`).join("");
@@ -56,7 +65,7 @@ export function header(current) {
 <div class="hdr-in">
 <a class="brand" href="/"><span class="brand-name">Resvick Mortgages</span><span class="brand-sub">Xeva Mortgage</span></a>
 <nav class="nav" aria-label="Primary"><ul>${items}</ul></nav>
-<div class="hdr-cta"><a class="hdr-phone" href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a><a class="btn btn-ghost btn-sm" href="/apply/" data-evt="apply_click">Apply</a><a class="btn btn-ghost btn-sm" href="/mortgage-check-up/" data-evt="checkup_click">Check-Up</a><a class="btn btn-sm" href="${SITE.book}" data-evt="book_call_click">Book a Call</a></div>
+<div class="hdr-cta"><a class="hdr-phone" href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a><a class="btn btn-ghost btn-sm" href="/apply/" data-evt="apply_click">Apply</a><a class="btn btn-ghost btn-sm" href="/mortgage-check-up/" data-evt="checkup_click">Check-up</a><a class="btn btn-sm" href="${SITE.book}" data-evt="book_call_click">Book a call</a></div>
 <details class="mnav"><summary aria-label="Menu"><span></span></summary><div class="mnav-panel"><ul>${NAV.map((n) => `<li><a href="${n.href}">${esc(n.label)}</a></li>`).join("")}</ul>
 <div class="mnav-actions"><a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a 15-minute call</a><a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Start your application</a><a class="btn btn-ghost" href="/mortgage-check-up/" data-evt="checkup_click">Mortgage check-up</a></div><a class="mnav-phone" href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a></div></details>
 </div></header>`;
@@ -303,7 +312,7 @@ ${process.env.STAGING ? '<meta name="robots" content="noindex,nofollow">' : ""}
 <link rel="stylesheet" href="/assets/css/site.css">
 ${schemas.map(ld).join("\n")}
 </head><body${page.home ? ' class="is-home"' : ""}>
-${header(page.nav || "")}
+${header(navCurrent(page))}
 <main id="main">
 <section class="hero${page.home ? " hero-home" : ""}">${page.home ? `<div class="hero-in">${hero}</div>` : `<div class="wrap"><div class="hero-in${hero.includes("hero-portrait") || NO_QUICK.has(page.slug) ? " solo" : ""}">${hero}${hero.includes("hero-portrait") ? "" : heroSide(page.slug)}</div></div>`}</section>
 <div class="wrap">${proofStrip()}${page.slug === "/" ? "" : breadcrumbs(trail)}</div>
