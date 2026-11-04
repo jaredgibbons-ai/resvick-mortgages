@@ -158,7 +158,7 @@ export function businessSchema() {
 export const actionCards = () => `<div class="acts" data-nocount>
 <a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a call</a>
 <a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Apply online</a>
-<a class="tlink" href="/mortgage-check/" data-evt="checkup_click">Take the quiz</a>
+<a class="btn btn-ghost" href="/mortgage-check/" data-evt="checkup_click">Take the quiz</a>
 </div>`;
 const NO_QUICK = new Set(["/apply/", "/accepted-offer/", "/refer/", "/privacy/", "/terms-of-use/", "/mortgage-check/", "/purchase-readiness-check/", "/renewal-check/", "/equity-check/", "/investor-check/", "/self-employed-check/", "/lender-match/", "/thank-you/", "/404.html"]);
 const heroSide = (slug) => NO_QUICK.has(slug) ? "" : `<aside class="hero-side" data-nocount aria-label="Next steps"><a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a call</a><a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Apply online</a><p class="side-alt">Not sure yet? <a href="/mortgage-check/" data-evt="checkup_click">Take the two-minute quiz</a>, or call <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p></aside>`;
@@ -297,9 +297,8 @@ ${page.alternate ? `<link rel="alternate" hreflang="en-CA" href="${SITE.origin}$
 <meta name="theme-color" content="#1E5246">
 
 ${process.env.STAGING ? '<meta name="robots" content="noindex,nofollow">' : ""}
-<link rel="preload" href="/assets/fonts/newsreader-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/newsreader-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/figtree-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/assets/favicon-48.png" sizes="48x48" type="image/png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/css/site.css">
 ${schemas.map(ld).join("\n")}

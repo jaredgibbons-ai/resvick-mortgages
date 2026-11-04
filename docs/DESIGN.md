@@ -12,14 +12,14 @@ Subject: a Surrey mortgage broker who used to be an underwriter and teaches in p
 - Rule `#C5CEC6` (green grey) for lines. Muted text `#4F5F59`.
 
 ## Type
-- Newsreader (reading serif, built for screens) for headings and body: the "letter".
-- Figtree for navigation, buttons, forms, tables, labels and figures: the "form".
+- Plus Jakarta Sans (rounded, friendly sans) for everything; weight 800 for headings.
+- Buttons are solid, rounded and have a pressed-key edge so they read as buttons.
 - Sentence case everywhere. No tracked capitals, no monospace, no arrows.
-- Scale: body 19px/1.62, h1 clamp 34 to 56px at 600, h2 clamp 28 to 36px, h3 23px, UI 15 to 16px.
+- Scale: body 18px/1.65, h1 clamp 30 to 46px at 800, h2 clamp 26 to 33px, UI 15 to 16.5px.
 
 ## Composition
 - Header: wordmark left, plain text nav on one baseline, one filled button. No pills.
-- Home hero: the name "Josh Resvick" set large, the photo bleeds off the right edge at full hero height, one primary button, one outline button, one text link. No icon cards.
+- Home hero: the name "Josh Resvick" set large, the photo bleeds off the right edge at full hero height, one filled button and two outline buttons. No icon cards.
 - Inner hero: the H1 on paper with a thick spruce rule above it; a narrow "next step" column on the right (book, apply, phone). No full-width coloured slab.
 - Pages with five or more sections get a left rail on desktop: the "on this page" list (always open) with a quiet contact block. The article column stays at 68 characters.
 - Summary sheet (the short answer at the top of each page) is a statement: rows with dotted leaders between label and value, the key line marked in highlighter. The same leader style is used for calculator results.
