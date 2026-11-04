@@ -3,13 +3,13 @@
 Subject: a Surrey mortgage broker who used to be an underwriter and teaches in plain English. The site is a set of letters (the guides) and forms (the tools). The look borrows from the paperwork of a mortgage file, not from software.
 
 ## Colour
-- Paper `#F6F7F3` page. A cool, slightly green white, not cream.
-- Ink `#142B26` text and headings. Deep spruce, used instead of black.
-- Spruce `#1E5246` buttons, hero photo field, the closing band, footer base.
-- Sage `#E3E9E2` quiet panels (summary sheet, notes).
+- Paper `#F5F6F8` page. A cool white with a blue cast, not cream.
+- Ink `#17223A` text and headings. Deep navy, used instead of black.
+- Navy `#253551` (the original brand blue, token name `--spruce`) buttons, hero photo field, the closing band, footer base.
+- Mist `#E4E9F1` quiet panels (summary sheet, notes).
 - Marker `#F0D24B` the underwriter's highlighter. Only for state: current nav item, link hover and focus, the key line in a summary sheet. Never for decoration.
 - Pen `#A52F1D` the red pen. Warnings and urgent notes only.
-- Rule `#C5CEC6` (green grey) for lines. Muted text `#4F5F59`.
+- Rule `#C9D0DB` (blue grey) for lines. Muted text `#4F5B6D`.
 
 ## Type
 - Plus Jakarta Sans (rounded, friendly sans) for everything; weight 800 for headings.
