@@ -1,6 +1,7 @@
 // Canonical link map — generated from §16 of the build prompt (v2). The ONLY URLs internal links may use.
 export const SLUGS = `/
 /resources/
+/bc-mortgage-broker-service-areas/
 /mortgage-check/
 /purchase-readiness-check/
 /renewal-check/

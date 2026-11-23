@@ -53,7 +53,7 @@ export default {
   slug: "/mortgage-renewal-rates-bc/",
   h1: "Mortgage renewal rates in BC: what switchers actually get",
   lede: "Your renewal letter is one offer. How renewal rates differ for switchers, what a lower rate is worth on your own mortgage, and when to start.",
-  crumbs: [["Home", "/"], ["Renewals", "/mortgage-renewal-bc/"], ["Renewal rates", "/mortgage-renewal-rates-bc/"]],
+  crumbs: [["Home", "/"], ["Mortgage renewal", "/mortgage-renewal-bc/"], ["Renewal rates", "/mortgage-renewal-rates-bc/"]],
   nav: "/mortgage-renewal-bc/", calc: true, body,
   faqs: [
     { q: "Are renewal rates lower if I switch lenders?", a: "Often a different lender will offer a better rate than the letter you were sent, because lenders compete for new customers. It is not guaranteed, and the best offer depends on your balance, property and credit. That is why it is worth comparing before you sign." },

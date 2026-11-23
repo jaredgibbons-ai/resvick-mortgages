@@ -89,7 +89,7 @@ export default {
   slug: "/mortgage-stress-test-canada/",
   h1: "The mortgage stress test in Canada: how it works, who it applies to and how to qualify for more",
   lede: "The stress test checks that you could pay a higher rate. A plain explanation with a worked example, who is covered, when it does not apply and what you can change.",
-  crumbs: [["Home", "/"], ["Rates and how mortgages work", "/mortgage-rates-bc/"], ["The mortgage stress test", "/mortgage-stress-test-canada/"]],
+  crumbs: [["Home", "/"], ["Rates", "/mortgage-rates-bc/"], ["The mortgage stress test", "/mortgage-stress-test-canada/"]],
   nav: "/resources/",
   body,
   faqs: [

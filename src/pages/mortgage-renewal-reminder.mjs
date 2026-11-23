@@ -64,7 +64,7 @@ export default {
   slug: "/mortgage-renewal-reminder/",
   h1: "Free mortgage renewal reminder: never get auto-renewed again",
   lede: "Tell us your maturity month and year. You receive two emails, six months and 120 days out, when your options are widest. Free, no obligation, unsubscribe anytime.",
-  crumb: "Mortgage renewal reminder", nav: "/mortgage-renewal-bc/", forms: true, body,
+  crumbs: [["Home", "/"], ["Mortgage renewal", "/mortgage-renewal-bc/"], ["Mortgage renewal reminder", "/mortgage-renewal-reminder/"]], nav: "/mortgage-renewal-bc/", forms: true, body,
   faqs: [
     { q: "Is the renewal reminder really free?", a: "Yes. It costs nothing, carries no obligation and does not require you to be a client. You receive two emails, six months and 120 days before your maturity date, and each has an unsubscribe link. Joshua may invite you to book a call, but you decide whether to." },
     { q: "Does my mortgage need to be arranged by Joshua?", a: "No. The reminder works whatever lender holds your mortgage, whether a bank, a credit union or another broker. You only need your maturity month and year. If you would like help comparing options later, you can book a call at any point." },

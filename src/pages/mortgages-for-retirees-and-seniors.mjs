@@ -73,7 +73,7 @@ export default {
   slug: "/mortgages-for-retirees-and-seniors/",
   h1: "Mortgages for retirees and seniors in BC: income, renewals and borrowing after you stop working",
   lede: "How lenders count pensions, CPP, OAS, RRIF and investment income, what the stress test means in retirement, and your options for renewals, downsizing and equity.",
-  crumbs: [["Home", "/"], ["Mortgages for your situation", "/resources/#your-situation"], ["Retirees and seniors", "/mortgages-for-retirees-and-seniors/"]],
+  crumbs: [["Home", "/"], ["Resources", "/resources/"], ["Retirees and seniors", "/mortgages-for-retirees-and-seniors/"]],
   nav: "/resources/#your-situation",
   body,
   faqs: [

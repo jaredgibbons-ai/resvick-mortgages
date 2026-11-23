@@ -77,7 +77,7 @@ export default {
   slug: "/how-much-mortgage-can-i-afford/",
   h1: "How much mortgage can I afford in BC?",
   lede: "Lenders run your income, debts and the stress test through two ratios. Here is the real math behind the answer, and how to raise your number.",
-  crumbs: [["Home", "/"], ["First-time home buyers", "/first-time-home-buyer-bc/"], ["How much mortgage can I afford?", "/how-much-mortgage-can-i-afford/"]],
+  crumbs: [["Home", "/"], ["First-time buyers", "/first-time-home-buyer-bc/"], ["How much mortgage can I afford?", "/how-much-mortgage-can-i-afford/"]],
   nav: "/first-time-home-buyer-bc/", calc: true, body,
   faqs: [
     { q: "How do lenders calculate how much I can borrow?", a: `They test your gross income against two ratios, GDS at 39% and TDS at 44% for insured mortgages, using the qualifying rate, which is the greater of your contract rate plus 2% or 5.25%. The lower result sets your limit, and lender policy on income and debts adjusts it further.` },

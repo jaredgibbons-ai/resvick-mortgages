@@ -76,7 +76,7 @@ export default {
   slug: "/second-home-and-vacation-property-mortgages-bc/",
   h1: "Second home and vacation property mortgages in BC: down payment, rules and what lenders ask",
   lede: "Buying a cottage, a recreation property or a second home in BC? How lenders count two homes, how much to put down and when access or rental use changes the answer.",
-  crumbs: [["Home", "/"], ["Property types", "/resources/#property-types"], ["Second homes and vacation property", "/second-home-and-vacation-property-mortgages-bc/"]],
+  crumbs: [["Home", "/"], ["Resources", "/resources/"], ["Second homes and vacation property", "/second-home-and-vacation-property-mortgages-bc/"]],
   nav: "/first-time-home-buyer-bc/",
   body,
   faqs: [
