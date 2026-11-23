@@ -105,7 +105,7 @@ ${callout("The one-line version", "<p>Know your income documents, your debts and
 `;
 
 export default {
-  slug: "/mortgage-application-checklist/",
+  slug: "/mortgage-application-checklist/", printable: "document-checklist", print: true,
   h1: "Mortgage application checklist: the six things that kill applications",
   lede: "Most applications fail on paperwork, ratios and surprises, not on price. Here are the six problems that sink files, and how to check each one first.",
   crumb: "Application checklist", nav: "/first-time-home-buyer-bc/", body,

@@ -75,7 +75,7 @@ ${cta({ title: "Turn the numbers into a plan", text: "Bring your savings and you
 `;
 
 export default {
-  slug: "/down-payment-guide-bc/",
+  slug: "/down-payment-guide-bc/", printable: "down-payment-sources",
   h1: "Down payment in BC: minimums, rules and where it can come from",
   lede: "The 5%, 10% and 20% tiers, the $1.5 million insured cap, what premiums cost and what lenders need to see, with the math done for you.",
   crumbs: [["Home", "/"], ["First-time buyers", "/first-time-home-buyer-bc/"], ["Down payment guide", "/down-payment-guide-bc/"]],

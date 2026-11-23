@@ -69,7 +69,7 @@ ${cta({ title: "Plan your whole cash picture", text: "Bring your price range to 
 `;
 
 export default {
-  slug: "/closing-costs-bc/",
+  slug: "/closing-costs-bc/", printable: "closing-costs-worksheet",
   h1: "Closing costs in BC: your total cash to buy",
   lede: "The down payment is only part of it. Every closing cost on a BC purchase explained, with a calculator that adds up the cash you need on completion day.",
   crumbs: [["Home", "/"], ["First-time buyers", "/first-time-home-buyer-bc/"], ["Closing costs", "/closing-costs-bc/"]],

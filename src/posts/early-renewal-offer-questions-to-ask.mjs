@@ -1,7 +1,7 @@
 import { short } from "../lib/short.mjs";
 
 export default {
-  slug: "/guides/early-renewal-offer-questions-to-ask/",
+  slug: "/guides/early-renewal-offer-questions-to-ask/", printable: "mortgage-renewal-checklist",
   date: "2026-11-23",
   series: "questions",
   title: "Early Renewal Offer? 7 Questions to Ask Before You Sign",

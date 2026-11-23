@@ -87,7 +87,7 @@ ${callout("What it costs", "<p>The checklist is free, and so is the 15-minute ca
 `;
 
 export default {
-  slug: "/mortgage-document-checklist/",
+  slug: "/mortgage-document-checklist/", print: true,
   h1: "Free mortgage document checklist for BC buyers and renewals",
   lede: "A printable two-page checklist of what lenders usually ask for. Pick your situation, tick each box and walk into your pre-approval with the paper ready.",
   crumb: "Document checklist", nav: "/first-time-home-buyer-bc/", forms: true, body,

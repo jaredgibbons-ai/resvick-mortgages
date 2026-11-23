@@ -1,7 +1,7 @@
 import { short } from "../lib/short.mjs";
 
 export default {
-  slug: "/guides/where-can-my-down-payment-come-from/",
+  slug: "/guides/where-can-my-down-payment-come-from/", printable: "down-payment-sources",
   date: "2026-11-23",
   series: "questions",
   title: "Where Can Your Down Payment Come From in BC?",

@@ -85,7 +85,7 @@ ${callout("Use the date on your agreement", "<p>Several of these programs depend
 `;
 
 export default {
-  slug: "/first-time-buyer-programs-bc/",
+  slug: "/first-time-buyer-programs-bc/", printable: "first-time-buyer-game-plan",
   h1: "BC first-time buyer programs, stacked in the right order",
   lede: "FHSA, Home Buyers' Plan, GST rebate and the BC transfer tax exemption: what each does, who qualifies, and how to use them together.",
   crumbs: [["Home", "/"], ["First-time buyers", "/first-time-home-buyer-bc/"], ["Programs and stacking", "/first-time-buyer-programs-bc/"]],

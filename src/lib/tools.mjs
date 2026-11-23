@@ -8,12 +8,29 @@ const row3 = (...a) => `<div class="row3">${a.join("")}</div>`;
 const FREQS = [["monthly", "Monthly"], ["semimonthly", "Semi-monthly"], ["biweekly", "Bi-weekly"], ["weekly", "Weekly"], ["accbiweekly", "Accelerated bi-weekly"], ["accweekly", "Accelerated weekly"]];
 const AMORT = [["25", "25 years"], ["30", "30 years (first-time buyers and new builds, insured)"], ["20", "20 years"], ["15", "15 years"], ["35", "35 years (uninsured)"]];
 
+// Which intent a calculator's "email me my results" lead carries. Tools with their own lead form (check-up, equity) and the quiz get none.
+const CALC_INTENT = { payment: "buyer", affordability: "buyer", downpayment: "buyer", closing: "buyer", cmhc: "buyer", ptt: "buyer",
+  renewal: "renewal", penalty: "renewal", prepayment: "renewal", compare: "renewal",
+  consolidation: "refinance", offset: "refinance", readvanceable: "refinance", refibe: "refinance", saleproceeds: "other", suitechecker: "investor" };
+// Shown under a result once there is one (calc-ui.js fills result_text and tool_inputs, then unhides it).
+const toolMail = (id, calc, title) => CALC_INTENT[calc] ? `<form class="tool-mail" data-lead="calc-results" data-stay novalidate hidden>
+<input type="hidden" name="intent" value="${CALC_INTENT[calc]}"><input type="hidden" name="x_tool" value="${title}"><input type="hidden" name="result_text" value=""><input type="hidden" name="tool_inputs" value=""><input type="hidden" name="include_estimate" value="on">
+<p class="tm-ask"><strong>Want a second look at these numbers?</strong> Send them to me and I'll email you back with a copy of your results and anything that stands out.</p>
+<div class="dl-row"><div class="fld"><label for="${id}-tm-name">Your name</label><input id="${id}-tm-name" name="name" type="text" autocomplete="name" required></div>
+<div class="fld"><label for="${id}-tm-email">Email</label><input id="${id}-tm-email" name="email" type="email" autocomplete="email" required></div>
+<div class="dl-go"><button class="btn btn-ghost" type="submit">Email me my results</button></div></div>
+<div class="hp" aria-hidden="true"><label for="${id}-tm-web">Leave this field empty</label><input id="${id}-tm-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+<p class="small">Your numbers stay in your browser unless you press the button. By sending this you agree that Joshua Resvick may contact you about your numbers. See the <a href="/privacy/">privacy policy</a>.</p>
+<p class="form-msg" role="status" aria-live="polite"></p>
+<div class="done" data-done hidden><p><strong>Sent. I'll look over your numbers and email you back.</strong></p><p class="small">Want to talk it through sooner? <a href="${SITE.book}" data-evt="book_call_click">Book a 15-minute call</a> or phone <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p></div>
+</form>` : "";
+
 function tool(id, calc, title, blurb, fields, honest, btn = "Calculate") {
   // Field ids must be unique on the page (several tools share names like "rate" and "balance"); labels follow.
   fields = fields.replace(/\b(id|for)="([^"]+)"/g, (m, a, v) => `${a}="${id}-${v}"`);
   return `<section class="tool" id="${id}" aria-labelledby="${id}-h"><h3 id="${id}-h">${title}</h3><p class="small">${blurb}</p>
 <form data-calc="${calc}" novalidate>${fields}<div><button class="btn" type="submit">${btn}</button></div></form>
-<div class="out" role="status" aria-live="polite" hidden></div><p class="honest">${honest}</p></section>`;
+<div class="out" role="status" aria-live="polite" hidden></div>${toolMail(id, calc, title)}<p class="honest">${honest}</p></section>`;
 }
 
 export const TOOLS = {

@@ -76,7 +76,7 @@ ${callout("Illustrative figures", "<p>The payment and interest examples on this 
 `;
 
 export default {
-  slug: "/mortgage-renewal-bc/",
+  slug: "/mortgage-renewal-bc/", printable: "mortgage-renewal-checklist",
   h1: "Mortgage renewal in BC: don't just sign the letter",
   lede: "Your lender's renewal letter is an opening offer. Here are your real options, the timeline that matters and what to check before your maturity date.",
   crumb: "Mortgage renewal", nav: "/mortgage-renewal-bc/", calc: true, body,

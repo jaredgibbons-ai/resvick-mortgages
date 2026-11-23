@@ -1,5 +1,13 @@
 // Shared site constants + components. Every fact here comes from the build prompt's §2 (verified; invent nothing).
 import fs from "node:fs";
+import crypto from "node:crypto";
+// Cache-busting: every CSS and JS link carries a short hash of the file, so a change reaches visitors on their next page
+// view instead of after the browser's cached copy expires. Unchanged files keep their hash and stay cached.
+const VERS = new Map();
+export function asset(url) {
+  if (!VERS.has(url)) { let v = ""; try { v = crypto.createHash("sha256").update(fs.readFileSync("src" + url)).digest("hex").slice(0, 10); } catch {} VERS.set(url, v); }
+  const v = VERS.get(url); return v ? url + "?v=" + v : url;
+}
 import { CITY_NAME } from "./nearby.mjs";
 
 export const SITE = {
@@ -106,6 +114,7 @@ const CLOSE_COPY = {
   refi: ["Thinking of refinancing? Check the math first.", "I'll run your numbers, including what it costs to leave your current mortgage, and tell you if it's worth it."],
   situation: ["Let's look at your situation.", "Tell me what's going on. I'll read your file the way a lender will, then tell you what's realistic and what to fix first."],
   tool: ["Got your number? Let's check it against real lenders.", "A calculator gives you a rough answer. A 15-minute call gets you real options."],
+  home: ["Let's talk it through.", "One 15-minute call is enough to see where you stand and what to do next. No obligation, and you'll be talking to me, the person who does the work."],
   other: ["Want this run on your numbers?", "Book a 15-minute call and I'll work through your own figures with you. No obligation."]
 };
 const T_CITY = /^\/mortgage-broker-(?!vs-bank)[a-z-]+\/$/;
@@ -129,7 +138,7 @@ export const CITIES_HUB = "/bc-mortgage-broker-service-areas/";
 function closeCopy(page) {
   const t = closeType(page.slug);
   if (t === "city") { const c = cityOf(page.slug); return [`Buying or renewing in ${c}? I can do it from here.`, "I work from my Surrey office by phone and video, so you never have to drive in. One 15-minute call is enough to start."]; }
-  return CLOSE_COPY[t];
+  return page.slug === "/" ? CLOSE_COPY.home : CLOSE_COPY[t];
 }
 const ctaClose = (o = {}, page = { slug: "" }) => { const [dt, dx] = closeCopy(page); return `<aside class="cta-block" data-cta>
 <p class="close-who" data-nocount><img src="/assets/img/josh-face-360.webp" width="76" height="76" alt="Joshua Resvick, mortgage broker" loading="lazy"><span><b>Joshua Resvick</b>Mortgage broker, Surrey, BC</span></p>
@@ -250,7 +259,7 @@ function withToc(page) {
 
 
 /** Short "call me back" form at the foot of every content page. Name and phone only; posts to /api/lead as form "callback". */
-const hasCallback = (page) => !(page.home || NO_QUICK.has(page.slug) || page.forms);
+const hasCallback = (page) => !(NO_QUICK.has(page.slug) || page.forms);
 const callbackInner = () => `<aside class="callback" data-nocount aria-labelledby="cb-h"><div class="cb-copy"><h2 id="cb-h">Rather get a call?</h2><p>Leave your name and number, and tell me when's best. I'll phone you then.</p></div>
 <form data-lead="callback" novalidate data-success="Thank you. I'll call you back."><div class="cb-row"><div class="fld"><label for="cb-name">Your name</label><input id="cb-name" name="name" type="text" autocomplete="name" required></div><div class="fld"><label for="cb-phone">Phone</label><input id="cb-phone" name="phone" type="tel" autocomplete="tel" required></div><div class="fld"><label for="cb-when">Best time</label><select id="cb-when" name="x_best_time"><option>Morning</option><option>Afternoon</option><option>Evening</option><option>Any time</option></select></div></div>
 <div class="hp" aria-hidden="true"><label for="cb-web">Leave this field empty</label><input id="cb-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
@@ -265,6 +274,41 @@ function closeBlock(page) {
   if (!cta && !cb) return "";
   return `<section class="close" data-nocount><div class="wrap close-in${cta && cb ? " two" : ""}">${cta}${cb}</div></section>`;
 }
+
+/** Free printables. Files are built by tools/make-printables.py (the document checklist by tools/make-checklist-pdf.py).
+ *  Keys must match PRINTABLES in functions/api/lead.js, which emails the visitor the same link. */
+export const PRINTABLES = {
+  "first-time-buyer-game-plan": { title: "First-time buyer game plan", file: "/assets/downloads/resvick-first-time-buyer-game-plan.pdf", pages: "2 pages",
+    blurb: "Every step from opening an FHSA to getting your keys, the four first-time buyer programs side by side, and space to work out the cash you need." },
+  "closing-costs-worksheet": { title: "Closing costs worksheet", file: "/assets/downloads/resvick-closing-costs-worksheet.pdf", pages: "1 page",
+    blurb: "A fill-in sheet for every cost on completion day, with the BC transfer tax rules and a quick table of what it comes to at common prices." },
+  "mortgage-renewal-checklist": { title: "Mortgage renewal checklist", file: "/assets/downloads/resvick-mortgage-renewal-checklist.pdf", pages: "1 page",
+    blurb: "Your key dates, the seven questions to ask before you sign, and what to weigh if you might sell in the next year or two." },
+  "down-payment-sources": { title: "Down payment sources sheet", file: "/assets/downloads/resvick-down-payment-sources.pdf", pages: "1 page",
+    blurb: "Every source lenders accept, the proof each one needs, and a tracker for where your down payment sits today." },
+  "document-checklist": { title: "Mortgage document checklist", file: "/assets/downloads/resvick-mortgage-document-checklist.pdf", pages: "2 pages",
+    blurb: "The documents a BC lender usually asks for, by situation, with a box to tick for each one." }
+};
+export function printableCard(key) {
+  const d = PRINTABLES[key]; if (!d) return "";
+  return `<aside class="dl-card" data-nocount aria-label="${esc(d.title)}, free printable">
+<div class="dl-top"><div><p class="dl-title">Free printable: ${esc(d.title)}</p><p>${d.blurb} ${d.pages}, prints on letter paper.</p></div>
+<a class="btn" href="${d.file}" download data-evt="printable_download">Download the PDF</a></div>
+<form class="dl-mail" data-lead="download" data-stay novalidate>
+<input type="hidden" name="printable" value="${key}"><input type="hidden" name="intent" value="${/renewal/.test(key) ? "renewal" : "buyer"}">
+<p class="dl-ask">Want it in your inbox too? I'll email you the link.</p>
+<div class="dl-row"><div class="fld"><label for="dl-${key}-name">Your name</label><input id="dl-${key}-name" name="name" type="text" autocomplete="name" required></div>
+<div class="fld"><label for="dl-${key}-email">Email</label><input id="dl-${key}-email" name="email" type="email" autocomplete="email" required></div>
+<div class="dl-go"><button class="btn btn-ghost" type="submit">Email me the PDF</button></div></div>
+<div class="hp" aria-hidden="true"><label for="dl-${key}-web">Leave this field empty</label><input id="dl-${key}-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+<label class="chk"><input type="checkbox" name="consent_marketing"><span>Also email me Bank of Canada rate updates and mortgage tips. Optional, unsubscribe any time.</span></label>
+<p class="small">By sending this you agree that Joshua Resvick may contact you about your request. See the <a href="/privacy/">privacy policy</a>.</p>
+<p class="form-msg" role="status" aria-live="polite"></p>
+<div class="done" data-done hidden><p><strong>Sent. Check your inbox for the link.</strong></p><p class="small">Nothing there in a few minutes? Check your spam folder, or use the download button above.</p></div>
+</form></aside>`;
+}
+/** "Print this page" button for guides and checklists (handled in print.js). */
+const printRow = (page) => page.print ? `<p class="print-page" data-nocount><button type="button" class="btn btn-ghost btn-sm" data-print-page>Print this ${page.slug.startsWith("/guides/") ? "guide" : "page"}</button> <span class="small">Prints the article without the menus and forms.</span></p>` : "";
 
 /** Sticky bottom bar on phones. */
 const stickyBar = (slug) => NO_QUICK.has(slug) ? "" : `<div class="sticky-cta" data-nocount><a class="sc-main" href="${SITE.book}" data-evt="book_call_click">Book a call</a><a href="/apply/" data-evt="apply_click">${closeType(slug) === "buy" || slug === "/" ? "Get pre-approved" : "Start my application"}</a></div>`;
@@ -370,7 +414,7 @@ export function render(page) {
   if (page.faqs && page.faqs.length) schemas.push({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: page.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/<[^>]+>/g, "") } })) });
   const hero = page.hero || `<div class="hero-copy"><h1>${page.h1}</h1>${page.lede ? `<p class="lede">${page.lede}</p>` : ""}</div>`;
   const top = withTop(page);
-  const scripts = (page.calc ? `<script src="/assets/js/engine.js" defer></script><script src="/assets/js/calc-ui.js" defer></script>` : page.quiz ? `<script src="/assets/js/engine.js" defer></script>` : "") + (page.quiz ? `<script src="/assets/js/quiz.js" defer></script>` : "") + ((page.forms || hasCallback(page)) ? `<script src="/assets/js/forms.js" defer></script>` : "") + (SITE.turnstileKey && (page.forms || page.quiz || hasCallback(page)) ? `<script src="/assets/js/guard.js" defer data-key="${SITE.turnstileKey}"></script>` : "") + (SITE.ga4 ? `<script src="/assets/js/consent.js" defer data-ga="${SITE.ga4}"></script>` : "");
+  const scripts = (page.calc ? `<script src="${asset("/assets/js/engine.js")}" defer></script><script src="${asset("/assets/js/calc-ui.js")}" defer></script>` : page.quiz ? `<script src="${asset("/assets/js/engine.js")}" defer></script>` : "") + (page.quiz ? `<script src="${asset("/assets/js/quiz.js")}" defer></script>` : "") + ((page.forms || page.calc || page.printable || hasCallback(page)) ? `<script src="${asset("/assets/js/forms.js")}" defer></script>` : "") + (page.print ? `<script src="${asset("/assets/js/print.js")}" defer></script>` : "") + (SITE.turnstileKey && (page.forms || page.quiz || page.calc || page.printable || hasCallback(page)) ? `<script src="${asset("/assets/js/guard.js")}" defer data-key="${SITE.turnstileKey}"></script>` : "") + (SITE.ga4 ? `<script src="${asset("/assets/js/consent.js")}" defer data-ga="${SITE.ga4}"></script>` : "");
   return `<!doctype html>
 <html lang="${page.lang || "en-CA"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(page.title)}</title>
@@ -385,7 +429,7 @@ ${process.env.STAGING ? '<meta name="robots" content="noindex,nofollow">' : ""}
 <link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/assets/favicon-48.png" sizes="48x48" type="image/png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="stylesheet" href="${asset("/assets/css/site.css")}">
 ${schemas.map(ld).join("\n")}
 </head><body${page.home ? ' class="is-home"' : ""}>
 ${header(navCurrent(page))}
@@ -396,6 +440,8 @@ ${header(navCurrent(page))}
 ${top.toc ? `<aside class="rail">${top.toc}</aside>` : ""}
 <article class="prose">
 ${top.html}
+${page.printable ? printableCard(page.printable) : ""}
+${printRow(page)}
 ${relatedHtml(page)}
 ${page.slug === "/" ? latestGuides(3, "From the guides") : ""}
 ${page.faqs && page.faqs.length ? faq(page.faqs) : ""}
@@ -408,7 +454,7 @@ ${footer()}
 ${stickyBar(page.slug)}
 ${cookieNotice()}
 ${scripts}
-<script src="/assets/js/track.js" defer></script>
-${(page.scripts || []).map((s) => `<script src="${s}" defer></script>`).join("")}
+<script src="${asset("/assets/js/track.js")}" defer></script>
+${(page.scripts || []).map((s) => `<script src="${asset(s)}" defer></script>`).join("")}
 </body></html>`;
 }

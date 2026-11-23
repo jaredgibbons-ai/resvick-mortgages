@@ -1,6 +1,6 @@
 import { short } from "../lib/short.mjs";
 import { SPECS } from "../lib/specs.mjs";
-import { esc, cta } from "../lib/site.mjs";
+import { esc, cta, PRINTABLES } from "../lib/site.mjs";
 
 // Resource library: every guide on the site, grouped by situation. Summaries come from each page's own meta description,
 // so they stay in sync automatically. A slug listed here that has no spec yet is skipped, not broken.
@@ -49,7 +49,7 @@ const label = (slug) => esc((SPECS[slug].h1 || SPECS[slug].title).split(" | ")[0
 const groupId = (name) => name.toLowerCase().replace(/[^a-z]+/g, "-").replace(/^-|-$/g, "");
 const groups = GROUPS.map(([name, blurb, slugs]) => [name, blurb, slugs.filter((s) => SPECS[s])]).filter(([, , s]) => s.length);
 
-const jump = `<nav class="res-jump" aria-label="Jump to a topic" data-nocount><ul>${groups.map(([n]) => `<li><a href="#${groupId(n)}">${esc(n)}</a><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">. </span></li>`).join("\n")}</ul></nav>`;
+const jump = `<nav class="res-jump" aria-label="Jump to a topic" data-nocount><ul><li><a href="#free-printables">Free printables</a><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">. </span></li>${groups.map(([n]) => `<li><a href="#${groupId(n)}">${esc(n)}</a><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">. </span></li>`).join("\n")}</ul></nav>`;
 const sections = groups.map(([name, blurb, slugs]) => `<h2 id="${groupId(name)}">${esc(name)}</h2>
 <p>${esc(blurb)}</p>
 <ul class="res-list">${slugs.map((s) => `<li><a href="${s}">${label(s)}</a><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">. </span><span>${esc(SPECS[s].meta)}</span></li>`).join("\n")}</ul>`).join("\n");
@@ -61,6 +61,9 @@ ${short({ answer: "Every guide, calculator and check on this site is listed here
 <p>This page lists every guide on the site in one place. It's sorted by what's going on in your life, not by jargon. Find the heading that sounds like you. Skim the one-line summaries and open whatever fits.</p>
 <p>Joshua Resvick writes every guide to explain, not to sell. Each one starts with a short version box. You get the answer in ten seconds, and read the detail only if you want it.</p>
 ${jump}
+<h2 id="free-printables">Free printables</h2>
+<p>Five one- and two-page sheets you can print, fill in and bring to a call. Each one is a free download with no form to fill in. They print on letter paper.</p>
+<ul class="res-list">${Object.values(PRINTABLES).map((d) => `<li><a href="${d.file}" download data-evt="printable_download">${esc(d.title)} (PDF, ${d.pages})</a><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">. </span><span>${esc(d.blurb)}</span></li>`).join("\n")}</ul>
 ${sections}
 <h2>Dated news and rule changes</h2>
 <p>The guides above are kept current and carry no dates on purpose. When something changes, it gets its own dated post in <a href="/guides/">Guides</a>. That might be a Bank of Canada decision or a new federal rule. Then the guide that carries the rule gets updated.</p>

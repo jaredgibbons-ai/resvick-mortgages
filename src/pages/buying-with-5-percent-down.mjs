@@ -60,7 +60,7 @@ ${callout("The $500,000 line", "<p>The 5 percent rate applies to the first $500,
 `;
 
 export default {
-  slug: "/buying-with-5-percent-down/",
+  slug: "/buying-with-5-percent-down/", printable: "first-time-buyer-game-plan",
   h1: "Can I buy a house with 5% down in BC?",
   lede: "Yes, with these rules: the first $500,000 at 5%, mortgage insurance, the stress test and a price below $1.5 million. Here is what it costs.",
   crumbs: [["Home", "/"], ["First-time buyers", "/first-time-home-buyer-bc/"], ["Buying with 5% down", "/buying-with-5-percent-down/"]],

@@ -63,7 +63,7 @@ ${callout("Example figures", "<p>The balances, rates and savings above are sampl
 `;
 
 export default {
-  slug: "/switch-mortgage-lenders-at-renewal/",
+  slug: "/switch-mortgage-lenders-at-renewal/", printable: "mortgage-renewal-checklist",
   h1: "Switching mortgage lenders at renewal: costs, steps and savings",
   lede: "A switch at maturity is a transfer, not a new purchase. No penalty, costs often covered by the new lender, and since 2024 you may not need to re-pass the stress test.",
   crumbs: [["Home", "/"], ["Mortgage renewal", "/mortgage-renewal-bc/"], ["Switch lenders at renewal", "/switch-mortgage-lenders-at-renewal/"]], nav: "/mortgage-renewal-bc/", body,

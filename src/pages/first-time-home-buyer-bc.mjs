@@ -69,7 +69,7 @@ ${cta({ title: "Planning your first purchase? I'll read your file the way a lend
 `;
 
 export default {
-  slug: "/first-time-home-buyer-bc/",
+  slug: "/first-time-home-buyer-bc/", printable: "first-time-buyer-game-plan",
   h1: "First-time home buyer mortgages in BC",
   lede: "How the federal programs, the BC transfer tax exemption and the mortgage rules fit together, what you'll need in cash, and the order to do things in.",
   crumb: "First-time home buyers", nav: "/first-time-home-buyer-bc/", body,

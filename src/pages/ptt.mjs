@@ -67,7 +67,7 @@ ${cta({ title: "Planning the cash you will need to close?", text: "Book a 15-min
 `;
 
 export default {
-  slug: "/bc-property-transfer-tax-calculator/",
+  slug: "/bc-property-transfer-tax-calculator/", printable: "closing-costs-worksheet",
   h1: "BC property transfer tax calculator",
   lede: "Work out the tax on your purchase, with the first-time buyers' and newly built home exemptions built in, and see the rules behind the number.",
   crumbs: [["Home", "/"], ["Calculators", "/mortgage-calculators/"], ["BC property transfer tax calculator", "/bc-property-transfer-tax-calculator/"]],

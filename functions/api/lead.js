@@ -9,7 +9,16 @@
 // If no primary channel succeeds it returns 502 so the page shows the phone/email fallback. A silent lost lead is launch-blocking.
 const INTENTS = ["buyer", "renewal", "refinance", "investor", "self-employed", "distress", "other"];
 // Which page/flow produced the record. Unknown values are kept but marked "other".
-const FORMS = ["contact", "renewal-reminder", "equity-estimator", "apply", "accepted-offer", "refer", "quiz", "check-up", "callback", "checklist"];
+const FORMS = ["contact", "renewal-reminder", "equity-estimator", "apply", "accepted-offer", "refer", "quiz", "check-up", "callback", "checklist", "download", "calc-results"];
+// Free printables. A "download" lead names one of these keys; the visitor gets the matching link by email. Only these fixed
+// titles and links are ever sent to a visitor's address, so the form cannot be used to mail arbitrary text to a stranger.
+export const PRINTABLES = {
+  "first-time-buyer-game-plan": ["First-time buyer game plan", "/assets/downloads/resvick-first-time-buyer-game-plan.pdf"],
+  "closing-costs-worksheet": ["Closing costs worksheet", "/assets/downloads/resvick-closing-costs-worksheet.pdf"],
+  "mortgage-renewal-checklist": ["Mortgage renewal checklist", "/assets/downloads/resvick-mortgage-renewal-checklist.pdf"],
+  "down-payment-sources": ["Down payment sources sheet", "/assets/downloads/resvick-down-payment-sources.pdf"],
+  "document-checklist": ["Mortgage document checklist", "/assets/downloads/resvick-mortgage-document-checklist.pdf"]
+};
 const clean = (v, n = 2000) => String(v ?? "").slice(0, n).trim();
 // tool_inputs: only flat primitives, max 20 keys, sent only when the visitor ticks "include my estimate".
 const tools = (v) => { if (!v || typeof v !== "object" || Array.isArray(v)) return null; const o = {}; for (const [k, x] of Object.entries(v).slice(0, 20)) if (["number", "boolean"].includes(typeof x) || typeof x === "string") o[String(k).slice(0, 40)] = typeof x === "string" ? x.slice(0, 120) : x; return Object.keys(o).length ? o : null; };
@@ -85,10 +94,13 @@ export async function onRequestPost({ request, env }) {
     current_lender: clean(b.current_lender, 120), consent_enquiry: b.consent_enquiry === true, consent_reminders: b.consent_reminders === true, consent_marketing: b.consent_marketing === true,
     consent_referee: b.consent_referee === true,
     consent_recorded_at: new Date().toISOString(), form: FORMS.includes(form) ? form : "other", form_raw: form,
-    tool_inputs: tools(b.tool_inputs), extra: extra(b.extra)
+    tool_inputs: tools(b.tool_inputs), extra: extra(b.extra),
+    // What a calculator showed the visitor, as plain text. Only ever sent to Josh, never to the visitor's address.
+    result_text: form === "calc-results" ? clean(b.result_text, 3000) : "",
+    printable: form === "download" && Object.prototype.hasOwnProperty.call(PRINTABLES, clean(b.printable, 60)) ? clean(b.printable, 60) : ""
   };
   // Readable copy for email/Sheet automations: the same record as plain text, so nobody has to read raw JSON.
-  const FORM_LABEL = { contact: "Contact form", "renewal-reminder": "Renewal reminder", "equity-estimator": "Home equity estimator", apply: "Application", "accepted-offer": "Accepted offer", refer: "Referral", quiz: "Quiz", "check-up": "Mortgage check-up", checklist: "Document checklist", callback: "Call-back request", other: "Website form" };
+  const FORM_LABEL = { contact: "Contact form", "renewal-reminder": "Renewal reminder", "equity-estimator": "Home equity estimator", apply: "Application", "accepted-offer": "Accepted offer", refer: "Referral", quiz: "Quiz", "check-up": "Mortgage check-up", checklist: "Document checklist", callback: "Call-back request", download: "Free printable", "calc-results": "Calculator results", other: "Website form" };
   const label = (k) => String(k).replace(/[_-]+/g, " ").replace(/^./, (c) => c.toUpperCase());
   const rows = (o) => o ? Object.entries(o).map(([k, x]) => "  " + label(k) + ": " + x) : [];
   lead.subject = "New website lead: " + (FORM_LABEL[lead.form] || FORM_LABEL.other) + " from " + lead.name;
@@ -98,7 +110,9 @@ export async function onRequestPost({ request, env }) {
     "Looking for: " + lead.intent, lead.timeline && "Timeline: " + lead.timeline, lead.current_lender && "Current lender: " + lead.current_lender,
     lead.message && "Message: " + lead.message,
     lead.extra && "Answers:\n" + rows(lead.extra).join("\n"),
+    lead.printable && "Printable: " + PRINTABLES[lead.printable][0],
     lead.tool_inputs && "Estimate inputs (shared by the visitor):\n" + rows(lead.tool_inputs).join("\n"),
+    lead.result_text && "What the calculator showed them:\n" + lead.result_text,
     "Consent: enquiry " + (lead.consent_enquiry ? "yes" : "no") + ", reminders " + (lead.consent_reminders ? "yes" : "no") + ", marketing " + (lead.consent_marketing ? "yes" : "no") + (lead.consent_referee ? ", referee agreed yes" : ""),
     "Received: " + lead.consent_recorded_at
   ].filter(Boolean).join("\n");
@@ -117,6 +131,16 @@ export async function onRequestPost({ request, env }) {
     const note = "Lead delivery problem (" + (delivered ? "delivered through another channel" : "NOT delivered") + "):\n" + failures.join("\n") + "\n\n" + lead.summary;
     if (env.ALERT_WEBHOOK_URL) { try { await fetch(env.ALERT_WEBHOOK_URL, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ alert: "Lead delivery failed", error: failures.join("; "), delivered, lead, summary: note }) }); } catch {} }
     else if (env.RESEND_API_KEY && env.LEAD_EMAIL_TO && failures.some((f) => !f.startsWith("Email"))) { try { await sendEmail(env, { to: env.LEAD_EMAIL_TO, subject: "Website lead delivery problem", text: note }); } catch {} }
+  }
+  // Printable requested: email the visitor the link. Best effort only. The page already shows the download button,
+  // so a failed send never fails the lead.
+  if (delivered && lead.printable && env.RESEND_API_KEY && EMAIL_OK.test(lead.email)) {
+    const [title, path] = PRINTABLES[lead.printable];
+    const first = lead.name.split(/\s+/)[0].replace(/[^\p{L}'-]/gu, "").slice(0, 40) || "there";
+    try {
+      await sendEmail(env, { to: lead.email, replyTo: env.LEAD_EMAIL_TO || "joshua@resvickmortgages.com", subject: "Your " + title + " from Resvick Mortgages",
+        text: "Hi " + first + ",\n\nHere's your " + title + ":\nhttps://www.resvickmortgages.com" + path + "\n\nIt prints on letter paper. If you'd like me to look over your numbers, reply to this email or book a free 15-minute call:\nhttps://cal.com/resvickmortgages/mortgage-advice\n\nJoshua Resvick\nMortgage Broker, Xeva Mortgage\n778.882.5674\n\nYou're getting this because you asked for this download on resvickmortgages.com." });
+    } catch {}
   }
   return delivered ? new Response("ok", { status: 200 }) : new Response("Delivery failed", { status: 502 });
 }
