@@ -55,7 +55,7 @@ ${ratesStrip()}
 <p>A variable rate is a fair choice for many households. Some situations call for caution.</p>
 <ul>
 <li><strong>A tight budget.</strong> If a payment jump of a few hundred dollars a month would force changes you can't make, a fixed rate's certainty may be worth its price.</li>
-<li><strong>Little room past the stress test.</strong> Lenders qualify you at a higher rate than you pay. Still, a household with very little margin may find a moving payment uncomfortable.</li>
+<li><strong>Little room past the <a href="/mortgage-stress-test-canada/">stress test</a>.</strong> Lenders qualify you at a higher rate than you pay. Still, a household with very little margin may find a moving payment uncomfortable.</li>
 <li><strong>A small cushion.</strong> Without savings to absorb surprises, rate risk adds to other risks. A job loss or higher payments on other debt are two examples.</li>
 <li><strong>A static-payment mortgage with a low trigger rate.</strong> If the trigger rate is close to the current rate, a small rise could stop your principal from going down.</li>
 <li><strong>A preference for a plan over a bet.</strong> If rate announcements will cost you sleep, that's a real cost.</li>

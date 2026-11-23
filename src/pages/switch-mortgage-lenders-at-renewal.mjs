@@ -3,7 +3,7 @@ import { short } from "../lib/short.mjs";
 
 const body = `
 ${short({
-  answer: "Moving your mortgage to a new lender at maturity is a transfer, not a fresh start. There's no penalty, the new lender often covers some or all of the costs, and since late 2024 you may not need to re-pass the stress test. Borrowing more turns it into a refinance.",
+  answer: "Moving your mortgage to a new lender at maturity is a transfer, not a fresh start. There's no penalty, the new lender often covers some or all of the costs, and since late 2024 you may not need to re-pass the <a href='/mortgage-stress-test-canada/'>stress test</a>. Borrowing more turns it into a refinance.",
   who: "Homeowners whose term ends in the next few months and who want a better rate or better terms than their renewal letter.",
   next: "Start about 120 days before maturity. Compare offers in the <a href=\"/mortgage-calculators/#renewal\">renewal calculator</a>, then <a href=\"/contact/\">book a 15-minute call</a>."
 })}

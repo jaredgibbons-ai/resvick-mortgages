@@ -8,13 +8,13 @@ const GROUPS = [
   ["Buying your first home", "Start here if you haven't owned before. Programs, down payment, closing costs and the order to do things in.", [
     "/first-time-home-buyer-bc/", "/first-time-buyer-programs-bc/", "/mortgage-pre-approval-bc/", "/how-much-mortgage-can-i-afford/", "/down-payment-guide-bc/",
     "/buying-with-5-percent-down/", "/gifted-down-payment/", "/deposit-loan-and-borrowed-down-payment/", "/closing-costs-bc/", "/partners/", "/mortgage-application-checklist/", "/mortgage-document-checklist/", "/what-happens-after-you-apply/",
-    "/co-buying-a-home/", "/mortgage-with-a-cosigner/", "/car-loan-affecting-mortgage/", "/presale-mortgages-bc/", "/purchase-plus-improvements/", "/rent-to-own-homes-bc/"]],
+    "/co-buying-a-home/", "/mortgage-with-a-cosigner/", "/car-loan-affecting-mortgage/", "/student-loans-and-your-mortgage/", "/presale-mortgages-bc/", "/purchase-plus-improvements/", "/rent-to-own-homes-bc/"]],
   ["Renewing your mortgage", "Your renewal letter is an offer, not a verdict. How to compare, when to start and how switching works.", [
     "/mortgage-renewal-bc/", "/mortgage-renewal-rates-bc/", "/switch-mortgage-lenders-at-renewal/", "/stress-test-exemption-switching-lenders/", "/early-mortgage-renewal/",
     "/mortgage-renewal-letter-explained/", "/mortgage-renewal-denied/", "/renewing-mortgage-without-a-job/", "/rental-property-mortgage-renewal/", "/mortgage-renewal-reminder/"]],
   ["Rates and how your mortgage works", "What sets your rate, how terms compare, and the fine print that decides what leaving early costs.", [
     "/mortgage-rates-bc/", "/fixed-vs-variable-mortgage/", "/5-year-fixed-mortgage-rate/", "/3-year-fixed-mortgage-rate/", "/variable-rate-mortgage/", "/open-vs-closed-mortgage/",
-    "/interest-rate-differential/", "/prepayment-privileges-and-penalties/", "/blend-and-extend-mortgage/", "/collateral-charge-mortgage/", "/mortgage-rate-hold/", "/porting-your-mortgage/"]],
+    "/mortgage-stress-test-canada/", "/mortgage-glossary/", "/interest-rate-differential/", "/prepayment-privileges-and-penalties/", "/blend-and-extend-mortgage/", "/collateral-charge-mortgage/", "/mortgage-rate-hold/", "/porting-your-mortgage/"]],
   ["Refinancing and using your equity", "Cash-out, debt consolidation, lines of credit and suites. Run the break-even math before anything else.", [
     "/refinance-mortgage-bc/", "/is-it-worth-refinancing/", "/refinance-to-pay-off-debt/", "/cash-out-refinance-bc/", "/heloc-bc/", "/second-mortgage-bc/", "/readvanceable-mortgage/",
     "/secondary-suite-refinance/", "/how-much-suite-income-will-a-lender-count/", "/bridge-financing/", "/spousal-buyout-mortgage/", "/reverse-mortgage-bc/", "/downsizing-and-your-mortgage/"]],
@@ -26,9 +26,9 @@ const GROUPS = [
   ["Your situation", "Your job, your household or your stage of life can change how a lender reads your file.", [
     "/mortgages-for-first-responders/", "/mortgages-for-nurses-and-healthcare-workers/", "/mortgages-for-military-and-veterans/", "/new-to-canada-mortgage/", "/foreign-buyers-bc/",
     "/mortgages-during-separation-and-divorce/", "/mortgages-for-single-parents/",
-    "/mortgages-for-doctors-and-dentists/", "/mortgages-for-real-estate-agents/", "/mortgages-for-lawyers-accountants-and-engineers/", "/mortgages-for-government-and-city-employees/", "/mortgages-for-teachers-and-school-staff/", "/mortgages-for-tech-workers/", "/mortgages-for-truckers-and-owner-operators/", "/mortgages-for-camp-mine-and-shift-workers/"]],
+    "/mortgages-for-doctors-and-dentists/", "/mortgages-for-real-estate-agents/", "/mortgages-for-lawyers-accountants-and-engineers/", "/mortgages-for-government-and-city-employees/", "/mortgages-for-teachers-and-school-staff/", "/mortgages-for-retirees-and-seniors/", "/mortgages-for-tech-workers/", "/mortgages-for-truckers-and-owner-operators/", "/mortgages-for-camp-mine-and-shift-workers/"]],
   ["Property types", "Strata, manufactured homes and farmland each have their own lender rules.", [
-    "/condo-and-townhouse-mortgages/", "/mobile-home-mortgages-bc/", "/leasehold-mortgages-bc/", "/first-nations-land-mortgages-bc/", "/farm-and-alr-mortgages-bc/"]],
+    "/condo-and-townhouse-mortgages/", "/mobile-home-mortgages-bc/", "/leasehold-mortgages-bc/", "/first-nations-land-mortgages-bc/", "/farm-and-alr-mortgages-bc/", "/construction-and-self-build-mortgages-bc/", "/second-home-and-vacation-property-mortgages-bc/"]],
   ["Investing", "Rental mortgages, how rent counts, and the strategies worth knowing before you use them.", [
     "/investment-property-mortgages-bc/", "/commercial-mortgages-bc/", "/refinance-rental-property/", "/converting-your-home-to-a-rental/", "/airbnb-and-short-term-rental-mortgages/", "/dscr-loans-canada/",
     "/brrrr-strategy-canada/", "/smith-manoeuvre/"]],

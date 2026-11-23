@@ -110,6 +110,12 @@ export const SLUGS = `/
 /mortgage-broker-victoria/
 /mortgage-broker-vs-bank/
 /mortgage-faq/
+/construction-and-self-build-mortgages-bc/
+/second-home-and-vacation-property-mortgages-bc/
+/mortgages-for-retirees-and-seniors/
+/student-loans-and-your-mortgage/
+/mortgage-stress-test-canada/
+/mortgage-glossary/
 /mortgage-calculators/
 /mortgage-default-and-foreclosure-bc/
 /mortgage-for-contractors/
