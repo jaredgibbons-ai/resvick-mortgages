@@ -57,6 +57,7 @@ ${TOOLS.affordability()}
 
 ${callout("A rule of thumb, not a rule", "<p>Every lender calculates the payment, treats leases and nearly finished loans, and rounds ratios in its own way. The figures here use the standard 39 and 44 percent limits and the stress-test rate. They are for illustration only. A real answer needs your real file.</p>")}
 
+<p>A car loan isn't the only payment lenders count. The guide to <a href="/student-loans-and-your-mortgage/">student loans and your mortgage</a> covers the other one many first-time buyers carry.</p>
 ${cta({ title: "Planning to buy a car and a home?", text: "Run your figures through the affordability calculator, then book a 15-minute call. Joshua will show you how the car changes your approval before you sign for either." })}
 `;
 

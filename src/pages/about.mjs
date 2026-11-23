@@ -72,6 +72,7 @@ ${short({ answer: "I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. 
 <p>The office is #106, 2626 Croydon Drive, Surrey, BC V3Z 0S8. You can phone ${SITE.phone} or email <a href="mailto:${SITE.email}">${SITE.email}</a>. You can also use the <a href="/contact/">contact page</a>, which explains what to have ready for your first call.</p>
 <p>Wondering how the money side works? The page on <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> answers it plainly. On A-lender mortgages, the lender pays the broker and you pay nothing. Fees come up only on some B-lender and private files, with written disclosure first.</p>
 
+<p>Got a question before you book? Try the <a href="/mortgage-faq/">mortgage FAQ</a>. Know someone who could use a hand with their mortgage? You can <a href="/refer/">refer a friend</a>, and I'll go at their pace.</p>
 ${cta({ title: "Talk to the person who'll do the work", text: "Book a 15-minute call. You'll leave with a clear picture of your options and a concrete next step, whether or not we end up working together." })}
 `;
 

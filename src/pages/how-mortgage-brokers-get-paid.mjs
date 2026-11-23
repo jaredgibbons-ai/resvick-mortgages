@@ -35,6 +35,7 @@ ${short({
 <p>The exception is costs someone else charges, like an appraisal or legal fees. If you ever see an upfront fee the broker keeps whether or not your mortgage funds, start asking questions.</p>
 <p>The rule is easy to remember. Whenever a fee to you is part of the plan, you should see it in writing before you commit. It should show an amount, or how the amount is worked out. Joshua tells you plainly on the first call if a file looks like it's heading that way.</p>
 
+<p>More questions about working with a broker? The <a href="/mortgage-faq/">mortgage FAQ</a> has straight answers.</p>
 ${cta({ title: "Ask the question on a call", text: "Want to know exactly what a mortgage would cost you, in every sense? Ask Joshua on a 15-minute call. He will tell you plainly." })}
 
 <h2>Why free does not mean biased</h2>

@@ -70,6 +70,7 @@ ${callout("What a broker costs on a self-employed file", "<p>When a mortgage goe
 
 <p>If your business owns its premises, a <a href="/commercial-mortgages-bc/">commercial mortgage</a> may be a better fit than a home mortgage. Joshua also arranges commercial mortgages for owner-occupied buildings.</p>
 
+<p>Paid by commission as a realtor? See <a href="/mortgages-for-real-estate-agents/">mortgages for real estate agents</a>. The <a href="/mortgage-document-checklist/">mortgage document checklist</a> lists what self-employed borrowers usually need to gather.</p>
 ${cta({ title: "Self-employed and not sure which lender fits?", text: "Book a 15-minute call. Joshua will tell you how an underwriter would read your returns. He'll also show which lenders can use your income and what each would cost." })}
 
 <h2>Who's behind this page</h2>

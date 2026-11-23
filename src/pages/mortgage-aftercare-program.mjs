@@ -35,6 +35,7 @@ ${short({
 </ol>
 <p>Want a sense of your equity before the conversation? The <a href="/home-equity-estimator/">home equity estimator</a> gives you a starting point. It's an estimate, and the review tests it against your real numbers.</p>
 
+<p>Know someone who could use the same help? You can <a href="/refer/">refer a friend</a>. I'll mention your name and go at their pace.</p>
 ${cta({ title: "Start with the first conversation", text: "Aftercare begins when your mortgage is arranged. If you are not yet a client, a 15-minute call is where it starts." })}
 
 <h2>The renewal runway</h2>

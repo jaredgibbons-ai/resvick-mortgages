@@ -65,6 +65,7 @@ ${cta({ title: "Not sure which number to start with?", text: "Book a 15-minute c
 
 ${callout("The rule worth remembering", "<p>Federal programs help you save and borrow. The provincial exemption reduces a tax. None of them lowers the price of the home, and each one has its own conditions. Check each one separately before you write an offer, not after.</p>")}
 
+<p>Still paying a student loan? Read <a href="/student-loans-and-your-mortgage/">how student loans affect your mortgage</a>. Not sure you're ready to start? The two-minute <a href="/purchase-readiness-check/">purchase readiness check</a> tells you what to work on first.</p>
 ${cta({ title: "Planning your first purchase? I'll read your file the way a lender will.", text: "Book a 15-minute call, or start with the affordability calculator. Either way, you'll leave with a number and a next step." })}
 `;
 

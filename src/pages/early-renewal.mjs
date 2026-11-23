@@ -43,6 +43,7 @@ ${cta({ title: "Thinking of renewing before maturity?", text: "Joshua can price 
 
 ${callout("The one case where waiting is risky", "<p>If your mortgage reaches maturity without a signed renewal, it can roll into an open term at a much higher rate. Starting early is not about renewing early. It is about never being forced to decide in the last 21 days.</p>")}
 
+<p>Got your renewal letter already? <a href="/mortgage-renewal-letter-explained/">Your renewal letter, explained</a> walks through each line. The two-minute <a href="/renewal-check/">renewal check</a> shows whether you're ready to compare.</p>
 ${cta({ title: "Map your renewal timeline", text: "Tell Joshua your maturity date and he will tell you when your window opens, what to ask, and whether renewing early is worth considering.", href: "/contact/", label: "Contact Joshua" })}
 `;
 

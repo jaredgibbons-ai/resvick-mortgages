@@ -42,6 +42,7 @@ ${short({ answer: "BRRRR means buy, renovate, rent, refinance, repeat. In Canada
 <p>That is not a failure. It is the Canadian version. You recovered a bit more than half your cash. The property is rented, and you own it with 20 percent equity.</p>
 <p>The example shows two things. The strategy returns cash only when the value added comfortably exceeds the cash spent. And the 80 percent cap, not the appraisal, is usually the binding limit. Say the appraisal had come in at $800,000. The refinance would have released $80,000 before costs. A plan built on recovering everything would have stalled. Run the <a href="/refinance-break-even/">refinance break-even calculator</a> and the <a href="/mortgage-calculators/#payment">payment calculator</a> on the refinanced balance before you buy. Treat the result as the deal's real test.</p>
 
+<p>Before you start, take the two-minute <a href="/investor-check/">investor check</a>. It shows how ready you are to buy a rental.</p>
 ${cta({ title: "Checking a BRRRR deal before you commit?", text: "Bring the purchase price, the renovation budget, the expected rent and your own income. Joshua will show you what a lender would actually refinance and whether the cash comes back out." })}
 
 <h2>Repeat: portfolios hit limits</h2>

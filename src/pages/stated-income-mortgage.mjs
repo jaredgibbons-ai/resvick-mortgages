@@ -60,6 +60,7 @@ ${callout("Run the numbers at the income a lender will count", "<p>Use the <a hr
 <p>Sometimes the stated figure can't be supported at all. Then the honest option may be a <a href="/private-mortgage-lending-bc/">private mortgage</a> for a year while the paperwork catches up. That page explains it, with its full cost.</p>
 <p>If your tax return undersells your business, <a href="/contact/">book a 15-minute call</a>. Joshua will tell you whether a stated income file is likely to pass the test. He'll also tell you what it would cost and how long you should plan to stay in it.</p>
 
+<p>Realtors on commission often start here. <a href="/mortgages-for-real-estate-agents/">Mortgages for real estate agents</a> explains how lenders read that income.</p>
 ${cta({ title: "Does your NOA undersell you?", text: "A 15-minute call is enough to find out whether a stated income lender would accept your figure. You'll also see what it would cost next to waiting for your tax returns to catch up." })}
 `;
 

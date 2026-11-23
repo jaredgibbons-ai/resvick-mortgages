@@ -21,6 +21,7 @@ ${short({ answer: "Lenders test you at a higher rate than you'll pay, then cap h
 <p>The payment used in the ratios is not the payment you will make. Lenders calculate it at the qualifying rate, which is the greater of your contract rate plus 2 percentage points or 5.25 percent. A 4.50 percent mortgage is tested at 6.50 percent. A 3.00 percent mortgage is tested at 5.25 percent, because the floor applies. The test is meant to check that you could still manage if rates rose, and it is the single biggest reason people qualify for less than they expect.</p>
 <p>This is also why a lower advertised rate does not always raise your qualifying amount as much as you hope. If your contract rate is below 3.25 percent, the qualifying rate is the same 5.25 percent, so a lower rate helps your payment but not your approval.</p>
 
+<p>Paying off a student loan? The guide to <a href="/student-loans-and-your-mortgage/">student loans and your mortgage</a> shows how lenders count that payment. Want a quick read on where you stand overall? Try the two-minute <a href="/purchase-readiness-check/">purchase readiness check</a>.</p>
 ${cta({ title: "Run it against your real documents", text: "The calculator uses what you type. A call with Joshua checks it against how lenders would actually count your income and debts.", href: "/contact/", label: "Contact Joshua" })}
 
 <h2>What counts as a debt</h2>

@@ -37,6 +37,7 @@ ${short({ answer: "Most mainstream lenders won't count Airbnb income. And since 
 <p>The same thinking applies more widely. When a lender or insurer counts rent to approve a mortgage, it's counting long-term rent. It expects long-term use.</p>
 <p>Switching a unit to short-term rental after funding doesn't usually breach the mortgage on its own. But it does change your insurance needs and your tax picture. In most larger BC communities, it also changes whether the use is legal. And it won't help you at the next renewal or refinance.</p>
 
+<p>Weighing a nightly rental against a long-term one? The two-minute <a href="/investor-check/">investor check</a> helps you see where you stand.</p>
 ${cta({ title: "Planning to buy a property with rental income in mind?", text: "Tell Joshua the property, the community and how you plan to use it. He'll say which lenders would count the income, how, and whether the plan works without it." })}
 
 <h2>Financing routes that are still open</h2>

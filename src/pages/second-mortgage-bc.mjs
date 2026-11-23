@@ -46,6 +46,7 @@ ${short({
 <p>If you qualify for a HELOC at a bank, a second is rarely the better choice. If you don't, or you need more than a line can give, a second is the realistic route. Then the question is which lender and what terms. The <a href="/refinance-mortgage-bc/">refinance hub</a> compares all three in more depth.</p>
 <p>Third mortgages exist too. They sit behind the second, and their price shows it. They belong to the world of <a href="/private-mortgage-lending-bc/">private mortgage lending</a>, and that page covers them.</p>
 
+<p>Not sure a second mortgage is the right tool? The two-minute <a href="/equity-check/">equity check</a> compares your options.</p>
 ${cta({ title: "Get the real total cost before you decide", text: "Tell Joshua what the money is for and what your first mortgage looks like. He'll show you the full cost of a second next to a line and a refinance, in dollars. He'll also tell you which lenders would look at your file." })}
 
 <h2>The way out</h2>

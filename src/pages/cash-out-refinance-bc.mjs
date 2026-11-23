@@ -25,6 +25,7 @@ ${short({ answer: "A cash-out refinance swaps your mortgage for a bigger one and
 <p>A few points are worth knowing. Interest on money borrowed to earn income from a business or property is generally deductible in Canada. The Canada Revenue Agency looks at how the borrowed funds are actually used. So mixing personal and investment use can reduce the deductible share. This is general information, not tax advice, and an accountant should confirm how it applies to you.</p>
 <p>For strategies that build on this idea, see the pages on the <a href="/smith-manoeuvre/">Smith Manoeuvre</a> and on <a href="/dscr-loans-canada/">debt service coverage ratio loans</a>. The <a href="/investment-property-mortgages-bc/">investment property mortgage hub</a> covers the lending side. Read the risk sections before the return sections.</p>
 
+<p>Before you pull money out, take the two-minute <a href="/equity-check/">equity check</a>. It asks whether you can, and whether you should.</p>
 ${cta({ title: "Get an equity estimate with a plan attached", text: "Tell Joshua what the money is for and how much you think you need. He will check it against the 80 percent ceiling, your qualification and the cost of breaking your current mortgage, and tell you which route fits." })}
 
 <h2>The suite-build path</h2>

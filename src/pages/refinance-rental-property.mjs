@@ -33,6 +33,7 @@ ${short({ answer: "You can usually refinance a rental up to 80 percent of its va
 </ul>
 <p>A rental with less than about two years of documented rent is often discounted. Lenders may use a capped percentage or the appraiser's estimate of market rent instead. The <a href="/mortgage-application-checklist/">application checklist</a> shows the general document list.</p>
 
+<p>Planning your next property? The two-minute <a href="/investor-check/">investor check</a> gives you a quick read on where you stand.</p>
 ${cta({ title: "Check what your rental can support", text: "Share your property value, balance, rent and the other properties you hold. Joshua will tell you which lenders fit, what ceiling to expect and what the lender will want to see." })}
 
 <h2>Refinance, re-amortize, or sell</h2>

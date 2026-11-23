@@ -206,12 +206,15 @@ export function personRef() {
 
 export function businessSchema() {
   return {
-    "@context": "https://schema.org", "@type": ["MortgageBroker", "FinancialService"], "@id": SITE.origin + "/#business",
+    "@context": "https://schema.org", "@type": "FinancialService", "@id": SITE.origin + "/#business", // FinancialService is the schema.org LocalBusiness type for a broker; "MortgageBroker" is not a schema.org type
     name: SITE.name, url: SITE.origin + "/", image: SITE.origin + "/assets/img/og-default.jpg", logo: SITE.origin + "/assets/apple-touch-icon.png", telephone: "+1-778-882-5674", email: SITE.email,
     identifier: [{ "@type": "PropertyValue", propertyID: "BCFSA mortgage broker licence", value: SITE.brokerLicence }, { "@type": "PropertyValue", propertyID: "BCFSA brokerage licence", value: "X300203" }],
     address: { "@type": "PostalAddress", streetAddress: "#106, 2626 Croydon Drive", addressLocality: "Surrey", addressRegion: "BC", postalCode: "V3Z 0S8", addressCountry: "CA" },
     areaServed: { "@type": "AdministrativeArea", name: "British Columbia" },
-    sameAs: [SITE.social.instagram],
+    // Google Maps listing (Josh's own profile, the same place ID as the review links), so search engines tie the site to the map pin.
+    hasMap: "https://www.google.com/maps?cid=11859343677974390550",
+    sameAs: [SITE.social.instagram, "https://www.google.com/maps?cid=11859343677974390550"], // Josh's personal LinkedIn sits on the Person entity
+    knowsLanguage: "en",
     founder: personRef(), employee: { "@id": PERSON_ID },
     parentOrganization: { "@type": "Organization", name: "Xeva Mortgage" }
   };

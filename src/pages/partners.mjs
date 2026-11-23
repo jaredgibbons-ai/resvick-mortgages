@@ -122,6 +122,7 @@ ${callout("Good to know", "<p>The people below are independent businesses. They 
 <p>I am glad to hear from realtors, notaries and lawyers who put clients first. If you have a client who needs a mortgage plan, the <a href="/refer/">referral page</a> explains how I handle that. I go at the client's pace. I keep you in the loop when the client wants that. And I will not contact anyone who has not agreed to hear from me.</p>
 <p>If you would like your practice listed here, send me a note through the <a href="/contact/">contact page</a>. I add people I have worked with, or whom a client I trust has used and recommends.</p>
 
+<p>Are you a realtor buying your own home? See <a href="/mortgages-for-real-estate-agents/">mortgages for real estate agents</a>.</p>
 ${cta({ title: "Need the mortgage piece first?", text: "A 15-minute call is enough to map your goals, your numbers and your next step. Then the rest of the team is easier to line up." })}
 `;
 

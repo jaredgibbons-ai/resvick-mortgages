@@ -38,6 +38,7 @@ ${short({ answer: "Your renewal letter is your lender's first offer, not your on
 <p>A separate Finance Canada measure took effect December 16, 2024. It covers low-ratio insured switches and allows up to $3,000 to be added for costs.</p>
 <p>Credit unions, collateral charges and any increase in the balance change the picture. The new lender still checks your credit, income and property. Read the full explanation in the <a href="/stress-test-exemption-switching-lenders/">guide to the stress-test exemption for switching lenders</a>.</p>
 
+<p>Not sure where you stand? The two-minute <a href="/renewal-check/">renewal check</a> tells you whether you're ready to compare before you sign.</p>
 ${cta({ title: "Four months out? That's the moment.", text: "Book a 15-minute call. Bring your renewal letter or maturity date. Joshua will show you your options before the clock runs down." })}
 
 <h2>What switching costs, and who pays</h2>

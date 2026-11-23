@@ -25,6 +25,7 @@ ${short({ answer: "A real pre-approval means a lender has checked your income, c
 <p>A pre-approval is conditional. The property still has to be approved. That usually means an appraisal or other review. It confirms the home is worth what you agreed to pay and fits the lender's rules. After your offer is accepted, new conditions can still come up. Strata documents, a title issue, an unregistered suite or a heating system the lender won't accept can all do it.</p>
 <p>It also depends on your file staying the same. The lender reviews your file again before funding. So changes between pre-approval and closing can change the answer. Think of a new car loan, a job change, a big unexplained deposit or a missed payment. The pre-approval protects you from the problems that exist today. It can't protect you from problems created later. So the practical advice is to keep your finances steady until you have the keys.</p>
 
+<p>Not sure you're ready to apply? The two-minute <a href="/purchase-readiness-check/">purchase readiness check</a> tells you what to work on first.</p>
 ${cta({ title: "Want to know your real number before you shop?", text: "Book a 15-minute call. Joshua will tell you what documents to bring and how he would structure your pre-approval." })}
 
 <h2>Documents by employment type</h2>

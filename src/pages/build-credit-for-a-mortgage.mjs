@@ -56,6 +56,7 @@ ${callout("Take the readiness quiz", "<p>The <a href=\"/mortgage-calculators/#qu
 <p>The page on <a href="/bad-credit-mortgage-bc/">bad credit mortgages</a> explains what each credit range allows. It also shows where the B and private lines fall. On an A-lender mortgage the lender pays the broker and you pay nothing. On B or private files, any fee is disclosed in writing under BCFSA Form 1A before you commit.</p>
 <p>Whichever route fits, the first step is a look at your report together. <a href="/contact/">Book a 15-minute call</a> and Joshua will tell you how far you are from mortgage-ready. He'll also tell you what to do in which order.</p>
 
+<p>Paying a student loan on time helps your credit, but the payment still counts against your approval. <a href="/student-loans-and-your-mortgage/">Student loans and your mortgage</a> explains both sides.</p>
 ${cta({ title: "Want a plan with a date on it?", text: "Take the readiness quiz, then book a 15-minute call. Joshua will read your report the way an underwriter does and set out the steps, month by month, to a mortgage-ready file." })}
 `;
 

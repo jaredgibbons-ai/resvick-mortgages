@@ -29,6 +29,7 @@ ${short({ answer: "A bank can only offer its own mortgages. A broker can compare
 <h2>Cost</h2>
 <p>On a mortgage placed with an A lender, the lender pays the broker, and you pay nothing for the broker's service. Fees to the borrower arise only on some B-lender and private files, and they are disclosed in writing before you commit. The details, including what BC rules prohibit, are on the page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>. So cost usually isn't a reason to pick the bank over a broker.</p>
 
+<p>Still weighing it up? The <a href="/mortgage-faq/">mortgage FAQ</a> covers the other questions people ask before they choose.</p>
 ${cta({ title: "See what the market would offer you", text: "A 15-minute call is enough to tell whether a broker's comparison could change your decision, whatever you decide afterwards." })}
 
 <h2>When a bank is a perfectly good answer</h2>

@@ -59,6 +59,7 @@ ${tool}
 
 <p>Buildings with commercial space, mixed use or five or more units are financed differently. See our page on <a href="/commercial-mortgages-bc/">commercial mortgages</a>.</p>
 
+<p>Thinking about your first rental? The two-minute <a href="/investor-check/">investor check</a> shows how ready you are.</p>
 ${cta({ title: "Planning a first rental, or a fifth?", text: "A 15-minute call is enough to work out the down payment, how your rent will count and which lender tier fits your portfolio. No documents needed for the first talk." })}
 
 <h2>Renewals and refinances for landlords</h2>

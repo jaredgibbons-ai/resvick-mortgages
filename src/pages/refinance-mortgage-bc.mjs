@@ -52,6 +52,7 @@ ${short({ answer: "A refinance changes your balance, amortization or both, so it
 <li><strong>The qualification is thin.</strong> If your income or credit means only a B lender will approve the file, the higher rate and any fees may wipe out the benefit. Sometimes that's still the right trade, but make it with the numbers in front of you.</li>
 </ul>
 
+<p>Not sure a refinance makes sense for you? The two-minute <a href="/equity-check/">equity check</a> gives you a quick read.</p>
 ${cta({ title: "Run the break-even check first", text: "Bring your balance, rate, term and the amount you are thinking of borrowing. Joshua will price the penalty and tell you whether a refinance, a switch at maturity or doing nothing comes out ahead." })}
 
 <h2>Where to go from here</h2>

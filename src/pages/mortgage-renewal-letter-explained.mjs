@@ -30,6 +30,7 @@ ${short({ answer: "Your renewal letter is your lender's opening offer. It must a
 </ol>
 <p>Here is an illustrative case. Suppose your letter offers a five-year fixed rate of 4.99 percent on a $450,000 balance with 22 years of amortization remaining. The monthly payment is $2,798.26. If another lender offered 4.49 percent on the same balance and amortization, the payment would be $2,675.50, which is $122.76 less each month. Over five years the interest would be about $10,667 lower. These figures are illustrative, not quotes, but they show why a single comparison can be worth more than the time it takes.</p>
 
+<p>Want a quick read on your own renewal? The two-minute <a href="/renewal-check/">renewal check</a> tells you what to do next.</p>
 ${cta({ title: "Have your letter? Send it over.", text: "Book a 15-minute call and bring your renewal letter. Joshua will explain every line and show you what the alternatives look like." })}
 
 <h2>Red flags to look for</h2>

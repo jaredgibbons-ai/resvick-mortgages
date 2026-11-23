@@ -93,6 +93,7 @@ ${callout("Already an accepted offer and no pre-approval?", "<p>It happens, and 
 <p>On a mortgage placed with a mainstream (A) lender, the lender pays me. You pay nothing for the service, including everything above. Fees only come up on some B-lender and private files. If that's ever the route, BC rules require me to disclose it in writing before you commit. The full explanation is on the page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 <p>Prefer the general form to the deadline one? The <a href="/apply/">application page</a> is the same six steps without the urgency. The <a href="/contact/">contact page</a> has every other way to reach me.</p>
 
+<p>Gathering your paperwork? The <a href="/mortgage-document-checklist/">mortgage document checklist</a> lists what lenders usually ask for.</p>
 ${cta({ title: "Deadline in the next few days?", text: "Phone first, form second. " + SITE.phone + " goes straight to me." })}
 `;
 

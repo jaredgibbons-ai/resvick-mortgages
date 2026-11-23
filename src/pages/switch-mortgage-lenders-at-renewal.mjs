@@ -41,6 +41,7 @@ ${short({
 <p>The monthly payment drops from $2,798.26 to $2,675.50. Over five years, interest falls from about $103,650 to about $92,984. That's about $10,667 less. The balance at the end of the term is also about $3,301 lower.</p>
 <p>Even if you paid the full high-end switching cost of $3,465, you'd still be roughly $7,202 ahead on interest. These numbers are examples, not quotes. Check your own in the <a href="/mortgage-calculators/#renewal">renewal calculator</a>. See the <a href="/mortgage-renewal-rates-bc/">renewal rates guide</a> for how switch pricing works.</p>
 
+<p>Before you switch, make sure you understand <a href="/mortgage-renewal-letter-explained/">your renewal letter</a>. The two-minute <a href="/renewal-check/">renewal check</a> shows whether you're ready to compare.</p>
 ${cta({ title: "Find out if your switch qualifies", text: "Book a 15-minute call. Joshua will review your maturity date, balance and mortgage type. He'll tell you whether a straight switch is available and what it could save." })}
 
 <h2>A warning about collateral charges and credit unions</h2>
