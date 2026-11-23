@@ -1,5 +1,13 @@
 // Shared site constants + components. Every fact here comes from the build prompt's §2 (verified; invent nothing).
 import fs from "node:fs";
+import crypto from "node:crypto";
+// Cache-busting: every CSS and JS link carries a short hash of the file, so a change reaches visitors on their next page
+// view instead of after the browser's cached copy expires. Unchanged files keep their hash and stay cached.
+const VERS = new Map();
+export function asset(url) {
+  if (!VERS.has(url)) { let v = ""; try { v = crypto.createHash("sha256").update(fs.readFileSync("src" + url)).digest("hex").slice(0, 10); } catch {} VERS.set(url, v); }
+  const v = VERS.get(url); return v ? url + "?v=" + v : url;
+}
 import { CITY_NAME } from "./nearby.mjs";
 
 export const SITE = {
@@ -379,7 +387,7 @@ export function render(page) {
   if (page.faqs && page.faqs.length) schemas.push({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: page.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/<[^>]+>/g, "") } })) });
   const hero = page.hero || `<div class="hero-copy"><h1>${page.h1}</h1>${page.lede ? `<p class="lede">${page.lede}</p>` : ""}</div>`;
   const top = withTop(page);
-  const scripts = (page.calc ? `<script src="/assets/js/engine.js" defer></script><script src="/assets/js/calc-ui.js" defer></script>` : page.quiz ? `<script src="/assets/js/engine.js" defer></script>` : "") + (page.quiz ? `<script src="/assets/js/quiz.js" defer></script>` : "") + ((page.forms || page.calc || page.printable || hasCallback(page)) ? `<script src="/assets/js/forms.js" defer></script>` : "") + (page.print ? `<script src="/assets/js/print.js" defer></script>` : "") + (SITE.turnstileKey && (page.forms || page.quiz || page.calc || page.printable || hasCallback(page)) ? `<script src="/assets/js/guard.js" defer data-key="${SITE.turnstileKey}"></script>` : "") + (SITE.ga4 ? `<script src="/assets/js/consent.js" defer data-ga="${SITE.ga4}"></script>` : "");
+  const scripts = (page.calc ? `<script src="${asset("/assets/js/engine.js")}" defer></script><script src="${asset("/assets/js/calc-ui.js")}" defer></script>` : page.quiz ? `<script src="${asset("/assets/js/engine.js")}" defer></script>` : "") + (page.quiz ? `<script src="${asset("/assets/js/quiz.js")}" defer></script>` : "") + ((page.forms || page.calc || page.printable || hasCallback(page)) ? `<script src="${asset("/assets/js/forms.js")}" defer></script>` : "") + (page.print ? `<script src="${asset("/assets/js/print.js")}" defer></script>` : "") + (SITE.turnstileKey && (page.forms || page.quiz || page.calc || page.printable || hasCallback(page)) ? `<script src="${asset("/assets/js/guard.js")}" defer data-key="${SITE.turnstileKey}"></script>` : "") + (SITE.ga4 ? `<script src="${asset("/assets/js/consent.js")}" defer data-ga="${SITE.ga4}"></script>` : "");
   return `<!doctype html>
 <html lang="${page.lang || "en-CA"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(page.title)}</title>
@@ -394,7 +402,7 @@ ${process.env.STAGING ? '<meta name="robots" content="noindex,nofollow">' : ""}
 <link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/assets/favicon-48.png" sizes="48x48" type="image/png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="stylesheet" href="${asset("/assets/css/site.css")}">
 ${schemas.map(ld).join("\n")}
 </head><body${page.home ? ' class="is-home"' : ""}>
 ${header(navCurrent(page))}
@@ -419,7 +427,7 @@ ${footer()}
 ${stickyBar(page.slug)}
 ${cookieNotice()}
 ${scripts}
-<script src="/assets/js/track.js" defer></script>
-${(page.scripts || []).map((s) => `<script src="${s}" defer></script>`).join("")}
+<script src="${asset("/assets/js/track.js")}" defer></script>
+${(page.scripts || []).map((s) => `<script src="${asset(s)}" defer></script>`).join("")}
 </body></html>`;
 }
