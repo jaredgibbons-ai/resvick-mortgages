@@ -6,11 +6,12 @@ Accounts stay in Josh's or Xeva's name; Jared and the builder get access, never 
 - [ ] Google review link and "write a review" short link → `src/data/reviews.json` (`link`, `writeLink`, `count`, `rating`, `asOf`). `/reviews` redirects to `writeLink`; until then it goes to /contact/.
 - [ ] GA4 measurement ID (created under Josh's Google account) → set `GA4_ID` in the Cloudflare Pages build environment. The cookie banner, footer "Cookie settings" link and GA load only when it is set. Test: GA must not fire until Accept is clicked. Events are already fired by `forms.js` and `calc-ui.js`: `book_call_click`, `phone_click`, `form_submit`, `quiz_complete`, `reminder_signup`, `calculator_complete`, `estimator_submit`, `apply_click` (header Apply), `checkup_click` (header Check-Up). The last two fire automatically from `data-evt` attributes via `track.js`; the check-up form sends `form: "check-up"` with intent `renewal`. Parameters carry page, tool and intent only.
 - [ ] CRM webhook URL and alert email → Cloudflare Pages environment variables `CRM_WEBHOOK_URL` and `ALERT_WEBHOOK_URL` (see docs/LEAD-SETUP.md for the simpler email route with Resend, the KV backup and Turnstile). Without a delivery channel `/api/lead` returns 502 and the form shows the phone number, so no lead is silently lost.
+  - Decided Nov 23, 2026: all leads go to joshua@resvickmortgages.com (`LEAD_EMAIL_TO`). Still needed: the sending route (Resend with the domain verified, or a Zapier email step) and where his email is hosted.
 - [ ] Registrar login for resvickmortgages.com (or a DNS delegation to Cloudflare).
 - [ ] Confirm the office neighbourhood line on /mortgage-broker-surrey/ ("Grandview Heights area of South Surrey") and in-person meetings by appointment.
 - [ ] The "Josh to confirm" lists in docs/PHASE2-NOTES.md through PHASE4-NOTES.md (30-minute read; see docs/BRAND-NOTES.md for what is already settled).
 - [ ] Privacy policy and terms of use: legal review of /privacy/ and /terms-of-use/ before launch.
-- [ ] SMS: can 778.882.5674 receive texts? If not, remove the sms links on the contact and thank-you pages and `SITE.smsHref`.
+- [x] SMS: 778.882.5674 is Josh's cell, so text links stay (Jared, Nov 23, 2026).
 - [ ] Retargeting pixel IDs and the consent decision (the cookie banner covers GA only until then).
 
 ## 2. Cloudflare Pages
