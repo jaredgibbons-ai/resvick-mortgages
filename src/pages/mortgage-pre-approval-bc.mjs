@@ -66,7 +66,7 @@ export default {
   slug: "/mortgage-pre-approval-bc/",
   h1: "Mortgage pre-approval in BC: a real one, not a rate guess",
   lede: "A real pre-approval means your income, credit and down payment were actually checked. Here is what that includes, what it protects you from, and what it does not.",
-  crumbs: [["Home", "/"], ["First-time home buyers", "/first-time-home-buyer-bc/"], ["Mortgage pre-approval", "/mortgage-pre-approval-bc/"]],
+  crumbs: [["Home", "/"], ["First-time buyers", "/first-time-home-buyer-bc/"], ["Mortgage pre-approval", "/mortgage-pre-approval-bc/"]],
   nav: "/first-time-home-buyer-bc/", body,
   faqs: [
     { q: "What is the difference between pre-approval and pre-qualification?", a: `A pre-qualification is an estimate from numbers you provide, and nothing is checked. A pre-approval means a lender has reviewed your income documents, credit and down payment and has agreed, subject to the property, to lend a stated amount. Only the second is something you can rely on when making an offer.` },

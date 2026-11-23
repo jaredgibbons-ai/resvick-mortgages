@@ -88,7 +88,7 @@ export default {
   slug: "/construction-and-self-build-mortgages-bc/",
   h1: "Construction and self-build mortgages in BC: how draws, down payments and inspections work",
   lede: "A construction mortgage pays out in stages while your home is built. Here is how draws, inspections, down payments and owner-builder rules work in BC.",
-  crumbs: [["Home", "/"], ["Buying", "/first-time-home-buyer-bc/"], ["Construction and self-build mortgages", "/construction-and-self-build-mortgages-bc/"]],
+  crumbs: [["Home", "/"], ["First-time buyers", "/first-time-home-buyer-bc/"], ["Construction and self-build mortgages", "/construction-and-self-build-mortgages-bc/"]],
   nav: "/first-time-home-buyer-bc/",
   body,
   faqs: [

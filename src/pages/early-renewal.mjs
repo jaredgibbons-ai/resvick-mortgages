@@ -50,7 +50,7 @@ export default {
   slug: "/early-mortgage-renewal/",
   h1: "Early mortgage renewal: how early can you renew in BC?",
   lede: "The 120-day window, early-renewal offers from your lender, rate holds, and the cost of leaving before maturity, with a framework for deciding.",
-  crumbs: [["Home", "/"], ["Renewals", "/mortgage-renewal-bc/"], ["Early renewal", "/early-mortgage-renewal/"]],
+  crumbs: [["Home", "/"], ["Mortgage renewal", "/mortgage-renewal-bc/"], ["Early renewal", "/early-mortgage-renewal/"]],
   nav: "/mortgage-renewal-bc/", body,
   faqs: [
     { q: "How early can I renew my mortgage?", a: "Most lenders open renewals about 120 days before maturity, and some allow it earlier. Renewing inside that window is free to explore, and you can switch lenders at maturity without a penalty. Renewing before maturity, ahead of the window, means ending your current term early." },

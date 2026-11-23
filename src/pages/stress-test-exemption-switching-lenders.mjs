@@ -92,7 +92,7 @@ export default {
   slug: "/stress-test-exemption-switching-lenders/",
   h1: "The stress-test exemption for switching lenders",
   lede: "Since late 2024, you may not need to re-pass the stress test on a straight switch. Two federal measures, who is covered, who is not, and the traps.",
-  crumb: "Stress-test exemption for switching lenders", nav: "/mortgage-renewal-bc/", body,
+  crumbs: [["Home", "/"], ["Mortgage renewal", "/mortgage-renewal-bc/"], ["Stress-test exemption for switching lenders", "/stress-test-exemption-switching-lenders/"]], nav: "/mortgage-renewal-bc/", body,
   faqs: [
     { q: "Do I need to pass the stress test to switch lenders at renewal?", a: "You may not need to re-pass it on a straight switch between federally regulated lenders, as long as the balance and amortization don't go up. The new lender still checks your credit, income and property under OSFI's B-20 guideline, so it isn't an automatic approval, and credit unions and collateral charges can change the answer." },
     { q: "What is the $3,000 allowance?", a: "It belongs to Finance Canada's measure, effective December 16, 2024, for low-ratio (80% loan-to-value or less) switches under portfolio insurance. The balance may rise by up to $3,000 to cover costs such as penalties or fees, with no equity take-out. OSFI's separate November 2024 measure has no dollar allowance at all." },
