@@ -2,6 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
+import { execFileSync } from "node:child_process";
 import { render, SITE, setLinkData } from "./src/lib/site.mjs";
 import { SPECS } from "./src/lib/specs.mjs";
 import { loadPosts, postPage } from "./src/lib/posts.mjs";
@@ -19,6 +20,10 @@ fs.mkdirSync(dist, { recursive: true });
 // 1. Pages
 const dir = path.join(root, "src/pages");
 const built = [];
+// Sitemap lastmod = date of the last commit that touched the page module, so it stays stable between builds.
+function fileDate(file) {
+  try { return execFileSync("git", ["log", "-1", "--format=%cs", "--", file], { cwd: root, encoding: "utf8" }).trim() || undefined; } catch { return undefined; }
+}
 for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".mjs")).sort()) {
   const mod = (await import(pathToFileURL(path.join(dir, f)).href)).default;
   for (const page of Array.isArray(mod) ? mod : [mod]) {
@@ -28,7 +33,7 @@ for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".mjs")).sort()) {
     const out = path.join(dist, page.slug === "/" ? "" : page.slug, "index.html");
     fs.mkdirSync(path.dirname(out), { recursive: true });
     fs.writeFileSync(out, render(full));
-    built.push({ slug: page.slug, noindex: !!spec.noindex });
+    built.push({ slug: page.slug, noindex: !!spec.noindex, lastmod: fileDate(path.join("src/pages", f)) });
   }
 }
 // 1b. Guides posts (src/posts/*.mjs -> /guides/<slug>/)

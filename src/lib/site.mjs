@@ -290,7 +290,14 @@ export function render(page) {
   const trail = page.crumbs || [["Home", "/"], [page.crumb || page.h1, page.slug]];
   const crumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: trail.map(([t, h], i) => ({ "@type": "ListItem", position: i + 1, name: t, item: SITE.origin + h })) };
   const schemas = [crumbSchema, ...(page.schema || [])];
-  if (page.slug === "/") schemas.push(businessSchema());
+  if (page.slug === "/") {
+    schemas.push(businessSchema());
+    schemas.push({ "@context": "https://schema.org", "@type": "WebSite", "@id": SITE.origin + "/#website", name: SITE.name, url: SITE.origin + "/", inLanguage: "en-CA", publisher: { "@id": SITE.origin + "/#business" } });
+  }
+  if (page.slug === "/contact/" || page.slug === "/about-joshua-resvick/") {
+    const biz = businessSchema();
+    schemas.push(page.slug === "/contact/" ? { ...biz, "@type": [...biz["@type"]], contactPoint: { "@type": "ContactPoint", contactType: "customer service", telephone: "+1-778-882-5674", email: SITE.email, areaServed: "CA-BC", availableLanguage: "English" } } : biz);
+  }
   if (page.faqs && page.faqs.length) schemas.push({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: page.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/<[^>]+>/g, "") } })) });
   const hero = page.hero || `<div class="hero-copy"><h1>${page.h1}</h1>${page.lede ? `<p class="lede">${page.lede}</p>` : ""}</div>`;
   const top = withTop(page);
