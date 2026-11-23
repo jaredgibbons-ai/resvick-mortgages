@@ -200,12 +200,15 @@ td.num,th.num{text-align:right;padding-right:0}
 @media(min-width:900px){.close-in.two{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:72px}.close .callback{border-top:0;padding-top:0;border-left:1px solid #5B7399;padding-left:56px}.cb-row{grid-template-columns:1fr 1fr 1fr}}
 
 /* home sections */
-.index{list-style:none;margin:1.2em 0 1.4em;padding:0;display:grid;border-top:3px solid var(--spruce)}
-.index a{display:grid;gap:2px;padding:16px 0;border-bottom:1px solid var(--rule);text-decoration:none;color:var(--ink);background:none}
-.index strong{font:700 24px/1.2 var(--display);color:var(--spruce)}
-.index span{font:400 16px/1.45 var(--ui);color:var(--muted)}
-.index a:hover{background:var(--sage);box-shadow:-8px 0 0 var(--sage),8px 0 0 var(--sage)}
-@media(min-width:760px){.index{grid-template-columns:1fr 1fr;column-gap:56px}.index a{padding:18px 0}}
+/* Choice lists read as buttons (outlined key, same edge as .btn-ghost). Jared chose option A, Nov 23 2026. */
+.index{list-style:none;margin:1.2em 0 1.4em;padding:0;display:grid;gap:14px}
+.index a,.tool-grid a{display:grid;gap:2px;padding:18px 22px;background:#fff;border:2px solid var(--spruce);border-radius:14px;box-shadow:0 4px 0 var(--spruce);text-decoration:none;color:var(--ink);transition:transform .08s,box-shadow .08s,background .12s}
+.index a:hover,.tool-grid a:hover{background:var(--sage);transform:translateY(1px);box-shadow:0 3px 0 var(--spruce)}
+.index a:active,.tool-grid a:active{transform:translateY(4px);box-shadow:0 0 0 var(--spruce)}
+.tool-grid a{font:400 15.5px/1.45 var(--ui);color:var(--muted);align-content:start}
+.index strong,.tool-grid strong{font:700 21px/1.25 var(--display);color:var(--spruce)}
+.index span,.tool-grid span{font:400 15.5px/1.45 var(--ui);color:var(--muted)}
+@media(min-width:760px){.index{grid-template-columns:1fr 1fr;gap:18px 22px}}
 .steps{counter-reset:s;display:grid;gap:0;margin:1.4em 0;padding:0;list-style:none;border-top:3px solid var(--spruce)}
 .prose .steps{padding-left:0}.steps li{counter-increment:s;padding:20px 0 20px 64px;position:relative;margin:0;border-bottom:1px solid var(--rule)}
 .steps li::before{content:counter(s);position:absolute;left:0;top:10px;font:800 46px/1 var(--display);color:var(--spruce)}
@@ -234,9 +237,7 @@ td.num,th.num{text-align:right;padding-right:0}
 .out dd,.qz-num dd{margin:0;text-align:right;font-weight:600}
 .out .err{color:var(--warn);font-weight:600}
 .honest{font:400 13.5px/1.5 var(--ui);color:var(--muted);margin-top:10px}
-.tool-grid{display:grid;gap:0 40px;margin:1.4em 0;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));border-top:3px solid var(--spruce)}
-.tool-grid a{display:block;padding:14px 0;border-bottom:1px solid var(--rule);text-decoration:none;color:var(--ink);font:400 16px/1.45 var(--ui);background:none}
-.tool-grid a:hover{background:var(--sage);box-shadow:-8px 0 0 var(--sage),8px 0 0 var(--sage)}.tool-grid strong{display:block;font:700 21px var(--display);color:var(--spruce);margin-bottom:2px}
+.tool-grid{display:grid;gap:14px;margin:1.4em 0;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
 .soon{border-style:dashed!important}
 .out .checks{list-style:none;padding:0;margin:10px 0;display:grid;gap:0}.out .checks li{padding:8px 0;border-bottom:1px solid var(--rule)}
 .out .table-wrap{margin:12px 0}

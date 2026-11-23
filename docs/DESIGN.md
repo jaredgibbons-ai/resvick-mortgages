@@ -40,3 +40,6 @@ Subject: a Surrey mortgage broker who used to be an underwriter and teaches in p
 - Identical rounded cards, shadows, gradients: removed. Components differ because their content differs.
 - Template chrome: no tracked caps eyebrows, no middle-dot meta strings, no arrows, no icon chips, no star rows.
 - Revision after review: dropped a planned hanging-heading layout (fragile across 169 page modules) in favour of the left rail; replaced the big-number proof strip with a quiet four-column fact line.
+
+## Choice lists (Nov 23, 2026)
+Choice lists (home "What do you need help with?" `.index`, calculators `.tool-grid`) use the outlined button style: white fill, 2px navy border, 14px radius, 0 4px 0 navy pressed edge, sage on hover, press on active. Same edge as `.btn-ghost`. This supersedes the older "3px radius, no shadows" notes above.
