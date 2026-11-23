@@ -9,7 +9,7 @@ export function cityServiceSchema(slug, city, extraAreas = []) {
     address: { "@type": "PostalAddress", streetAddress: SITE.address.street, addressLocality: SITE.address.city, addressRegion: SITE.address.region, postalCode: SITE.address.postal, addressCountry: "CA" },
     areaServed: [city, ...extraAreas].map((n) => ({ "@type": "City", name: n, containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } })),
     availableChannel: { "@type": "ServiceChannel", serviceUrl: SITE.book, servicePhone: "+1-778-882-5674" },
-    founder: { "@type": "Person", name: SITE.person, jobTitle: "Mortgage Broker" },
+    founder: { "@type": "Person", name: SITE.person, jobTitle: "Mortgage Broker", sameAs: [SITE.social.linkedin, SITE.social.bcfsa] },
     parentOrganization: { "@type": "Organization", name: "Xeva Mortgage" }
   };
 }

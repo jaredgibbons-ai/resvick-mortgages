@@ -12,6 +12,7 @@ export const SITE = {
   whatsappHref: "https://wa.me/17788825674",
   email: "joshua@resvickmortgages.com",
   book: "https://cal.com/resvickmortgages/mortgage-advice",
+  social: { instagram: "https://www.instagram.com/resvickmortgages/", linkedin: "https://www.linkedin.com/in/josh-resvick-250aa1a2/", bcfsa: "https://www.bcfsa.ca/mortgage-broker/MB503619" }, // Josh's own profiles only (Jared, Nov 23 2026). Add Facebook / Google profile here when they exist; they feed the schema sameAs.
   fullApp: "https://velocity-client.newton.ca/en/client/journey/home?shortCode=n7tlotk51ren",
   bookRoot: "https://cal.com/resvickmortgages",
   address: { street: "#106, 2626 Croydon Drive", city: "Surrey", region: "BC", postal: "V3Z 0S8" },
@@ -158,7 +159,8 @@ export function businessSchema() {
     identifier: [{ "@type": "PropertyValue", propertyID: "BCFSA mortgage broker licence", value: SITE.brokerLicence }, { "@type": "PropertyValue", propertyID: "BCFSA brokerage licence", value: "X300203" }],
     address: { "@type": "PostalAddress", streetAddress: "#106, 2626 Croydon Drive", addressLocality: "Surrey", addressRegion: "BC", postalCode: "V3Z 0S8", addressCountry: "CA" },
     areaServed: { "@type": "AdministrativeArea", name: "British Columbia" },
-    founder: { "@type": "Person", name: SITE.person, jobTitle: "Mortgage Broker" },
+    sameAs: [SITE.social.instagram],
+    founder: { "@type": "Person", name: SITE.person, jobTitle: "Mortgage Broker", sameAs: [SITE.social.linkedin, SITE.social.bcfsa] },
     parentOrganization: { "@type": "Organization", name: "Xeva Mortgage" }
   };
 }
