@@ -13,8 +13,8 @@ const CALC_INTENT = { payment: "buyer", affordability: "buyer", downpayment: "bu
   renewal: "renewal", penalty: "renewal", prepayment: "renewal", compare: "renewal",
   consolidation: "refinance", offset: "refinance", readvanceable: "refinance", refibe: "refinance", saleproceeds: "other", suitechecker: "investor" };
 // Shown under a result once there is one (calc-ui.js fills result_text and tool_inputs, then unhides it).
-const toolMail = (id, calc, title) => CALC_INTENT[calc] ? `<form class="tool-mail" data-lead="calc-results" data-stay novalidate hidden>
-<input type="hidden" name="intent" value="${CALC_INTENT[calc]}"><input type="hidden" name="x_tool" value="${title}"><input type="hidden" name="result_text" value=""><input type="hidden" name="tool_inputs" value=""><input type="hidden" name="include_estimate" value="on">
+export const toolMail = (id, calc, title, intent = CALC_INTENT[calc]) => intent ? `<form class="tool-mail" data-lead="calc-results" data-stay novalidate hidden>
+<input type="hidden" name="intent" value="${intent}"><input type="hidden" name="x_tool" value="${title}"><input type="hidden" name="result_text" value=""><input type="hidden" name="tool_inputs" value=""><input type="hidden" name="include_estimate" value="on">
 <p class="tm-ask"><strong>Want a second look at these numbers?</strong> Send them to me and I'll email you back with a copy of your results and anything that stands out.</p>
 <div class="dl-row"><div class="fld"><label for="${id}-tm-name">Your name</label><input id="${id}-tm-name" name="name" type="text" autocomplete="name" required></div>
 <div class="fld"><label for="${id}-tm-email">Email</label><input id="${id}-tm-email" name="email" type="email" autocomplete="email" required></div>

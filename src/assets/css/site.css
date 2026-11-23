@@ -293,8 +293,8 @@ td.num,th.num{text-align:right;padding-right:0}
 .reviews{margin:2.4em 0 0}.reviews h2{margin-top:0}
 .rev-grid{display:grid;gap:30px 48px;margin:1.2em 0 .6em}
 .rev-grid blockquote{margin:0;border-top:3px solid var(--spruce);padding-top:16px;display:flex;flex-direction:column}
-.rev-grid blockquote p{font:500 19px/1.55 var(--serif);margin:0 0 12px;flex:1 0 auto}
-.rev-grid footer{font:600 15.5px var(--ui);color:var(--ink)}
+.rev-grid blockquote p{font:500 17px/1.6 var(--serif);margin:0 0 10px}
+.rev-grid footer{font:600 15px var(--ui);color:var(--muted)}
 .rev-src{margin-top:12px}
 @media(min-width:760px){.rev-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.rev-3 blockquote:first-child,.rev-1 blockquote{grid-column:1/-1}.rev-3 blockquote:first-child p,.rev-1 blockquote p{font-size:24px;line-height:1.45;max-width:36ch}.rev-5 blockquote:first-child{grid-column:1/-1}}
 .book-facade{border-top:4px solid var(--spruce);background:var(--sage);padding:24px;margin:1.4em 0;display:grid;gap:12px;justify-items:start}

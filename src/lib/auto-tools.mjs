@@ -1,6 +1,6 @@
 // Auto-placed calculators (Nov 23, 2026): one relevant tool on every city page and on the renewal and refinance guides
 // that had none. Placed after the page's first section so readers meet it early. Pages that already carry a tool are skipped.
-import { TOOLS } from "./tools.mjs";
+import { TOOLS, toolMail } from "./tools.mjs";
 import { CITY_NAME } from "./nearby.mjs";
 
 const T_CITY = /^\/mortgage-broker-(?!vs-bank)([a-z-]+)\/$/;
@@ -56,7 +56,14 @@ function block(page) {
   if (!key) return "";
   const [h, intro] = COPY[key];
   // The sale-proceeds tool points at a penalty estimator "above", which only exists on the calculators page.
-  const markup = TOOLS[key]().replace("Use the penalty estimator above, or ask your lender", "Ask your lender for this figure");
+  let markup = TOOLS[key]().replace("Use the penalty estimator above, or ask your lender", "Ask your lender for this figure");
+  // The equity estimator and the check-up have their own lead forms on their home pages, so their markup carries no
+  // "Email me my results" form. Placed on a guide, they get one here.
+  const mailIntent = { equity: "refinance", "check-up": "renewal" }[key];
+  if (mailIntent && !markup.includes('class="tool-mail"')) {
+    const id = (/<section class="tool" id="([^"]+)"/.exec(markup) || [])[1], calc = (/data-calc="([^"]+)"/.exec(markup) || [])[1], title = (/<h3 id="[^"]+">([^<]+)<\/h3>/.exec(markup) || [])[1];
+    if (id && calc && title) markup = markup.replace('<p class="honest">', toolMail(id, calc, title, mailIntent) + '<p class="honest">');
+  }
   return `<h2>${h}</h2>\n<p>${intro}</p>\n<div class="tools">${markup}</div>`;
 }
 

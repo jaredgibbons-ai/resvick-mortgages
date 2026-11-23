@@ -36,7 +36,7 @@ ${ratesStrip()}
 <h2>Why me</h2>
 <p>I spent five years as a mortgage underwriter before I became a broker. So I read your file the way a lender will, and fix the problems before it gets sent. That means fewer surprises late in the process. More on the <a href="/about-joshua-resvick/">About page</a>.</p>
 
-${reviews()}
+${reviews({ only: ["J.M.", "R.H."] })}
 
 <div class="band">
 <h2>Is your renewal coming up?</h2>

@@ -162,11 +162,12 @@ export function ratesStrip(file = "src/data/rates.json") {
 }
 
 export function reviews(opts = {}) {
-  const { file = "src/data/reviews.json", tag = "", limit = 0, heading = "What clients say", offset = 0 } = typeof opts === "string" ? { file: opts } : opts;
+  const { file = "src/data/reviews.json", tag = "", limit = 0, heading = "What clients say", offset = 0, only = null } = typeof opts === "string" ? { file: opts } : opts;
   let d = { items: [], link: "" };
   try { d = JSON.parse(fs.readFileSync(file, "utf8")); } catch {}
   let items = d.items || [];
   if (tag) items = items.filter((r) => (r.tags || []).includes(tag));
+  if (only) items = only.map((k) => items.find((r) => r.name.startsWith(k))).filter(Boolean); // hand-picked, in this order
   if (offset && items.length) { const o = offset % items.length; items = items.slice(o).concat(items.slice(0, o)); } // rotate so city pages do not all show the same pair
   if (limit) items = items.slice(0, limit);
   if (!items.length) return "";
