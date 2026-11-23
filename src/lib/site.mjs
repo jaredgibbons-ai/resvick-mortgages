@@ -199,11 +199,10 @@ export function businessSchema() {
 }
 
 
-/** Home hero: one main button, one outline button, one text link. */
+/** Home hero: one main button and one outline button. The quiz is a text link in the line under them (home.mjs). */
 export const actionCards = () => `<div class="acts" data-nocount>
 <a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a 15-minute call</a>
 <a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Start my application</a>
-<a class="btn btn-ghost" href="/mortgage-check/" data-evt="checkup_click">Take the quiz</a>
 </div>`;
 const NO_QUICK = new Set(["/apply/", "/accepted-offer/", "/refer/", "/privacy/", "/terms-of-use/", "/mortgage-check/", "/purchase-readiness-check/", "/renewal-check/", "/equity-check/", "/investor-check/", "/self-employed-check/", "/lender-match/", "/thank-you/", "/404.html"]);
 const heroSide = (slug) => NO_QUICK.has(slug) ? "" : `<aside class="hero-side" data-nocount aria-label="Next steps"><a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a 15-minute call</a><a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Start my application</a><p class="side-alt">Not sure yet? <a href="/mortgage-check/" data-evt="checkup_click">Take the two-minute quiz</a>, or call <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p></aside>`;

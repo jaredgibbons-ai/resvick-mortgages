@@ -7,7 +7,7 @@ const photo = fs.existsSync("src/assets/img/josh-hero.webp")
 
 const hero = `<div class="hero-copy"><h1>Josh Resvick<span class="h1-sub">Your BC mortgage broker</span></h1>
 <p class="lede">I compare lenders for you, explain every step in plain English and stay with you after closing. On most mortgages, the lender pays me and you pay nothing.</p>
-${actionCards()}<p class="hero-phone">Prefer to talk? Call <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p></div>${photo}`;
+${actionCards()}<p class="hero-phone">Not sure where to start? <a href="/mortgage-check/" data-evt="checkup_click">Take the two-minute quiz</a>, or call <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p></div>${photo}`;
 
 const body = `
 ${ratesStrip()}

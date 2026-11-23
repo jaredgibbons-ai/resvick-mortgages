@@ -83,8 +83,8 @@ ${cta({ title: "Talk to a broker who serves Victoria", text: "Book a 15-minute c
 
 <p>Resvick Mortgages is listed on Google as a mortgage broker serving BC from Surrey. Found this page by searching for a broker in Victoria? The <a href="/contact/">contact page</a> has the phone number, the email address and what to have ready for the first call.</p>
 
-<h2>Who wrote this</h2>
-<p>Joshua spent five years as a mortgage underwriter before he became a broker. Victoria clients tend to value that most. He reads your file the way the lender will, before the lender does.</p>
+<h2>Who's behind this page</h2>
+<p>I'm Joshua Resvick. I spent five years as a mortgage underwriter before I became a broker, and Victoria clients tend to value that most. I read your file the way the lender will, before the lender does.</p>
 `;
 
 export default {

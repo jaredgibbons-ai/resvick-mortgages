@@ -77,8 +77,8 @@ ${callout("What it costs", "<p>On a mortgage placed with an A lender, the lender
 
 <p>Ready to start? Or want to know what a report would look like for you? <a href="/contact/">Contact Joshua</a> and he'll take it from there.</p>
 
-<h2>Who wrote this</h2>
-<p>Joshua is a broker with Xeva Mortgage. That means he can place a mortgage with more than one lender. The report is where you actually see that advantage, instead of just reading about it on a website.</p>
+<h2>Who's behind this page</h2>
+<p>I'm Joshua Resvick, a broker with Xeva Mortgage, so I can place your mortgage with more than one lender. The report is where you actually see that, instead of just reading about it on a website.</p>
 `;
 
 export default {

@@ -72,8 +72,8 @@ ${callout("A note on the tone of this page", "<p>Separation is hard enough witho
 
 ${cta({ title: "Work out the mortgage side calmly", text: "Book a 15-minute call. You'll leave knowing what each person can qualify for and what each path costs. That makes the rest of the decisions easier. Or <a href=\"/contact/\">contact Joshua</a> by email." })}
 
-<h2>Who wrote this</h2>
-<p>Joshua Resvick is a BC mortgage broker and a former underwriter. This is a conversation he has with separating clients every month.</p>
+<h2>Who's behind this page</h2>
+<p>I'm Joshua Resvick, a BC mortgage broker and a former underwriter. I have this conversation with separating clients every month.</p>
 `;
 
 export default {

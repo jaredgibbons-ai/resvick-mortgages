@@ -72,8 +72,8 @@ ${callout("What a broker costs on a self-employed file", "<p>When a mortgage goe
 
 ${cta({ title: "Self-employed and not sure which lender fits?", text: "Book a 15-minute call. Joshua will tell you how an underwriter would read your returns. He'll also show which lenders can use your income and what each would cost." })}
 
-<h2>Who wrote this</h2>
-<p>Joshua Resvick spent five years as a mortgage underwriter before he became a broker. Self-employed files are where that background pays off. This page is the hub for the topic. It covers the three doors you can walk through. It shows how sole owners and corporations get read differently. It lists the documents lenders want, and it explains what you pay when the bank's door is the wrong one.</p>
+<h2>Who's behind this page</h2>
+<p>I'm Joshua Resvick. I spent five years as a mortgage underwriter before I became a broker, and self-employed files are where that background pays off most. This page is the hub for the topic. It covers the three doors you can walk through. It shows how sole owners and corporations get read differently. It lists the documents lenders want, and it explains what you pay when the bank's door is the wrong one.</p>
 `;
 
 export default {
