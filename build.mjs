@@ -6,6 +6,7 @@ import { execFileSync } from "node:child_process";
 import { render, SITE, setLinkData } from "./src/lib/site.mjs";
 import { SPECS } from "./src/lib/specs.mjs";
 import { loadPosts, postPage } from "./src/lib/posts.mjs";
+import { withAutoTool } from "./src/lib/auto-tools.mjs";
 
 setLinkData({
   guides: await loadPosts(),
@@ -29,7 +30,7 @@ for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".mjs")).sort()) {
   for (const page of Array.isArray(mod) ? mod : [mod]) {
     const spec = SPECS[page.slug];
     if (!spec) throw new Error(`No spec registered for ${page.slug} (${f})`);
-    const full = { ...page, title: spec.title, meta: spec.meta, noindex: spec.noindex };
+    const full = withAutoTool({ ...page, title: spec.title, meta: spec.meta, noindex: spec.noindex });
     const out = path.join(dist, page.slug === "/" ? "" : page.slug, "index.html");
     fs.mkdirSync(path.dirname(out), { recursive: true });
     fs.writeFileSync(out, render(full));
