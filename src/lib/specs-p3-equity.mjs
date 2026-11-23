@@ -3,9 +3,9 @@
 export default {
   "/heloc-bc/": {
     title: "HELOC in BC | Home Equity Line of Credit Explained",
-    meta: "A HELOC in BC gives revolving access to 65–80% of your home's value. Rates, the combined-limit rule, readvanceable combos and when it beats a refinance.",
+    meta: "A HELOC in BC gives revolving access to 65% to 80% of your home's value. Rates, the combined-limit rule, readvanceable plans and when it beats a refinance.",
     specTitle: "HELOC in BC | Home Equity Lines of Credit, Explained Honestly",
-    specMeta: "A HELOC gives revolving access to 65–80% of your home's value. Rates, the combined-limit rule, readvanceable combos and when a HELOC beats a refinance.",
+    specMeta: "A HELOC gives revolving access to 65% to 80% of your home's value. Rates, the combined-limit rule, readvanceable combos and when a HELOC beats a refinance.",
     links: ["/readvanceable-mortgage/", "/second-mortgage-bc/", "/cash-out-refinance-bc/", "/home-equity-estimator/", "/smith-manoeuvre/", "/collateral-charge-mortgage/", "/refinance-mortgage-bc/", "/contact/"]
   },
   "/second-mortgage-bc/": {

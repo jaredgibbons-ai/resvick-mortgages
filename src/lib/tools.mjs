@@ -69,7 +69,7 @@ ${chk("elig30", "I am a first-time buyer or buying a newly built home (needed fo
     "The premium for your loan-to-value band, and what it does to your mortgage balance.",
     `<div class="row2">${num("price", "Purchase price ($)", { value: 600000, req: 1 })}${num("down", "Down payment ($)", { value: 35000 })}</div>
 <div class="row2">${sel("amort", "Amortization", AMORT.slice(0, 2), "25")}${chk("nonTrad", "Down payment is borrowed or from a non-traditional source")}</div>${chk("elig30", "First-time buyer or newly built home")}`,
-    "Premium rates follow CMHC's published homeowner schedule: 0.60% to 4.00%, 4.50% for a non-traditional down payment at 90.01%–95% loan-to-value, plus 0.20% when amortization is over 25 years. The premium is added to your mortgage."),
+    "Premium rates follow CMHC's published homeowner schedule: 0.60% to 4.00%, 4.50% for a non-traditional down payment at 90.01% to 95% loan-to-value, plus 0.20% when amortization is over 25 years. The premium is added to your mortgage."),
 
   renewal: () => tool("renewal", "renewal", "Renewal comparison: stay, switch or refinance",
     "Three scenarios side by side over one term. Switching at maturity carries no prepayment penalty.",

@@ -8,7 +8,7 @@ export default {
   body: `
 <p class="small"><strong>Last updated October 31, 2026.</strong></p>
 <h2>Who is responsible</h2>
-<p>This website is operated by Resvick Mortgages, the working name of Joshua Resvick, Mortgage Broker, Xeva Mortgage, #106–2626 Croydon Drive, Surrey, BC V3Z 0S8. Joshua is the person responsible for privacy. Questions or requests about your information can go to <a href="mailto:${SITE.email}">${SITE.email}</a> or ${SITE.phone}.</p>
+<p>This website is operated by Resvick Mortgages, the working name of Joshua Resvick, Mortgage Broker, Xeva Mortgage, #106, 2626 Croydon Drive, Surrey, BC V3Z 0S8. Joshua is the person responsible for privacy. Questions or requests about your information can go to <a href="mailto:${SITE.email}">${SITE.email}</a> or ${SITE.phone}.</p>
 <h2>What we collect</h2>
 <p>We collect what you type into a form on this site. Which details we ask for depends on the form.</p>
 <ul>

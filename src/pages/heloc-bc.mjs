@@ -15,7 +15,7 @@ ${short({
 
 <h2>The limits: 65 percent standalone, 80 percent combined</h2>
 <p>For federally regulated lenders, OSFI sets the ceilings in Guideline B-20. A HELOC on its own is capped at 65 percent of your home's value.</p>
-<p>When a HELOC sits alongside a regular mortgage on the same home, the two together can't go above 80 percent of the value. Any borrowing above the 65 percent mark has to be the amortizing kind, not revolving. OSFI restated these rules in an advisory on combined loan plans (2022–2023).</p>
+<p>When a HELOC sits alongside a regular mortgage on the same home, the two together can't go above 80 percent of the value. Any borrowing above the 65 percent mark has to be the amortizing kind, not revolving. OSFI restated these rules in an advisory on combined loan plans (2022 to 2023).</p>
 <p>Here's how that plays out. Take a home worth $900,000 with a $450,000 mortgage. The total a federally regulated lender could lend is $720,000, so there's $270,000 of room for a line. All of it could be revolving, because it sits under the 65 percent line of $585,000.</p>
 <p>Now say the same home has a $650,000 mortgage. The total ceiling is still $720,000, which leaves $70,000 of room. The mortgage is already above 65 percent of value. So the lender would set up any extra borrowing as an amortizing portion, not a revolving line.</p>
 <p>BC credit unions are provincially regulated and may set their own policies. The same numbers don't always apply there.</p>

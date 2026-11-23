@@ -8,7 +8,7 @@ export default {
   body: `
 <p class="small"><strong>Last updated October 31, 2026.</strong></p>
 <h2>Who runs this site</h2>
-<p>This website is operated by Resvick Mortgages, the working name of Joshua Resvick, Mortgage Broker, Xeva Mortgage, #106–2626 Croydon Drive, Surrey, BC V3Z 0S8. Joshua is licensed in British Columbia. The brokerage licence is ${SITE.licence}, and his broker licence is #${SITE.brokerLicence}. You can check any BC mortgage broker's licence with <a href="https://www.bcfsa.ca/public-resources/mortgage-brokers/find-mortgage-broker" rel="noopener">BCFSA</a>. By using this site, you agree to these terms. If you do not agree, please do not use it.</p>
+<p>This website is operated by Resvick Mortgages, the working name of Joshua Resvick, Mortgage Broker, Xeva Mortgage, #106, 2626 Croydon Drive, Surrey, BC V3Z 0S8. Joshua is licensed in British Columbia. The brokerage licence is ${SITE.licence}, and his broker licence is #${SITE.brokerLicence}. You can check any BC mortgage broker's licence with <a href="https://www.bcfsa.ca/public-resources/mortgage-brokers/find-mortgage-broker" rel="noopener">BCFSA</a>. By using this site, you agree to these terms. If you do not agree, please do not use it.</p>
 <h2>General information, not advice</h2>
 <p>The pages, guides and tools here are general education. They are not advice on your file. Your situation, your credit, your income and the property all matter, and a page cannot see them. Please speak with Joshua, and where it fits with a lawyer, accountant or tax professional, before you act.</p>
 <h2>Calculators and tools are estimates</h2>

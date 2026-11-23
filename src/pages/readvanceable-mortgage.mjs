@@ -10,7 +10,7 @@ ${short({ answer: "A readvanceable mortgage pairs a regular mortgage with a line
 <h2>The structure: a mortgage and a line under one charge</h2>
 <p>A readvanceable mortgage puts two products on one property. One is a regular mortgage you pay down. The other is a home equity line of credit. They're registered together under a single collateral charge.</p>
 <p>The name comes from the link between them. Every payment of principal on the mortgage raises the limit on the line by the same amount. It happens automatically, with no new application. Over the life of the mortgage, borrowing room shifts from the mortgage side to the line side.</p>
-<p>The lender sets one overall limit for the whole package. For federally regulated lenders, that limit can't go above 80 percent of the home's value. The line portion is capped at 65 percent. OSFI set out these expectations for combined loan plans in Guideline B-20 and a later advisory (2022–2023).</p>
+<p>The lender sets one overall limit for the whole package. For federally regulated lenders, that limit can't go above 80 percent of the home's value. The line portion is capped at 65 percent. OSFI set out these expectations for combined loan plans in Guideline B-20 and a later advisory (2022 to 2023).</p>
 <p>The line's limit only grows until it hits the 65 percent mark. Principal you pay down past that point doesn't become line room. The <a href="/heloc-bc/">HELOC page</a> explains the limits in more detail.</p>
 
 <h2>The reborrowing mechanic</h2>
