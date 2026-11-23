@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-revelstoke/#service", name: "Resvick Mortgages, serving Revelstoke", url: SITE.origin + "/mortgage-broker-revelstoke/", areaServed: [{ "@type": "City", name: "Revelstoke", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Columbia-Shuswap Regional District" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-revelstoke/#service", url: SITE.origin + "/mortgage-broker-revelstoke/", areaServed: [{ "@type": "City", name: "Revelstoke", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Columbia-Shuswap Regional District" }] };
 
 const body = `
 ${short({

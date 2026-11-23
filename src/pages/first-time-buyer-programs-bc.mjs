@@ -88,7 +88,7 @@ export default {
   slug: "/first-time-buyer-programs-bc/", printable: "first-time-buyer-game-plan",
   h1: "BC first-time buyer programs, stacked in the right order",
   lede: "FHSA, Home Buyers' Plan, GST rebate and the BC transfer tax exemption: what each does, who qualifies, and how to use them together.",
-  crumbs: [["Home", "/"], ["First-time home buyers", "/first-time-home-buyer-bc/"], ["Programs and stacking", "/first-time-buyer-programs-bc/"]],
+  crumbs: [["Home", "/"], ["First-time buyers", "/first-time-home-buyer-bc/"], ["Programs and stacking", "/first-time-buyer-programs-bc/"]],
   nav: "/first-time-home-buyer-bc/", body,
   faqs: [
     { q: "Can I use the FHSA, the Home Buyers' Plan and the BC exemption on the same purchase?", a: `Yes, if you pass each program's test. The FHSA and the Home Buyers' Plan can be combined for the same home. The BC transfer tax exemption is a separate provincial benefit. Each one defines a first-time buyer in its own way, so you need to check all of them.` },

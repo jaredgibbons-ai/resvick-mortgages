@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-prince-george/#service", name: "Resvick Mortgages, serving Prince George", url: SITE.origin + "/mortgage-broker-prince-george/", areaServed: [{ "@type": "City", name: "Prince George", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Northern British Columbia" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-prince-george/#service", url: SITE.origin + "/mortgage-broker-prince-george/", areaServed: [{ "@type": "City", name: "Prince George", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Northern British Columbia" }] };
 
 const body = `
 ${short({ answer: "You don't need a local office to get a mortgage in Prince George. Joshua serves the North from his Surrey office by phone and video, and he's used to shift, camp and seasonal income.", who: "Prince George buyers, renewers and anyone with resource, rotation or contract pay.", next: "Book a 15-minute call, or start with the <a href=\"/self-employed-mortgage-bc/\">self-employed mortgage hub</a> if you work for yourself." })}

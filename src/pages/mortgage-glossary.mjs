@@ -113,7 +113,7 @@ export default {
   slug: "/mortgage-glossary/",
   h1: "Mortgage glossary for BC buyers: " + count + " terms in plain language",
   lede: "The mortgage words you will hear in BC, explained in plain language and grouped by stage, with links to the fuller guide where there is one.",
-  crumbs: [["Home", "/"], ["Learn", "/resources/"], ["Mortgage glossary", "/mortgage-glossary/"]],
+  crumbs: [["Home", "/"], ["Resources", "/resources/"], ["Mortgage glossary", "/mortgage-glossary/"]],
   nav: "/resources/",
   schema: [{
     "@context": "https://schema.org", "@type": "DefinedTermSet", "@id": SITE.origin + "/mortgage-glossary/#terms", name: "Mortgage glossary for BC buyers", url: SITE.origin + "/mortgage-glossary/", inLanguage: "en-CA",

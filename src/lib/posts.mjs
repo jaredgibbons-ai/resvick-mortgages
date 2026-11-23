@@ -32,7 +32,8 @@ export function postPage(p) {
   const dateLine = `<p class="post-date" data-nocount><span class="series-tag">${esc(SERIES[p.series].label)}</span> Published ${fmtDate(p.date)}${p.updated && p.updated !== p.date ? `, updated ${fmtDate(p.updated)}` : ""}. Dates matter on this page: the rules and figures below were current on the date shown.</p>`;
   const schema = [{
     "@context": "https://schema.org", "@type": "Article", headline: p.h1, datePublished: p.date, dateModified: p.updated || p.date,
-    author: { "@type": "Person", name: SITE.person, url: SITE.origin + "/about-joshua-resvick/" },
+    author: { "@type": "Person", "@id": SITE.origin + "/about-joshua-resvick/#person", name: SITE.person, url: SITE.origin + "/about-joshua-resvick/" },
+    image: SITE.origin + "/assets/img/og-default.jpg",
     publisher: { "@id": SITE.origin + "/#business" }, mainEntityOfPage: SITE.origin + p.slug, inLanguage: "en-CA"
   }];
   return { slug: p.slug, h1: p.h1, lede: p.lede, nav: "/guides/", crumbs: [["Home", "/"], ["Guides", "/guides/"], [p.crumb || p.h1, p.slug]],

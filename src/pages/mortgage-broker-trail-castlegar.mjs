@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-trail-castlegar/#service", name: "Resvick Mortgages, serving Trail and Castlegar", url: SITE.origin + "/mortgage-broker-trail-castlegar/", areaServed: [{ "@type": "City", name: "Trail", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Castlegar", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Rossland" }, { "@type": "AdministrativeArea", name: "Regional District of Kootenay Boundary" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-trail-castlegar/#service", url: SITE.origin + "/mortgage-broker-trail-castlegar/", areaServed: [{ "@type": "City", name: "Trail", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Castlegar", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Rossland" }, { "@type": "AdministrativeArea", name: "Regional District of Kootenay Boundary" }] };
 
 const body = `
 ${short({

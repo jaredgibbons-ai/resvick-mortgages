@@ -126,7 +126,7 @@ export default {
   slug: "/mortgages-for-real-estate-agents/",
   h1: "Mortgage for real estate agents in BC",
   lede: "A mortgage for realtors is a commission income mortgage: no salary, big write-offs and uneven months. Here is how lenders read agent income, and how to build a file that holds up.",
-  crumbs: [["Home", "/"], ["Self-employed mortgages", "/self-employed-mortgage-bc/"], ["Mortgage for real estate agents", "/mortgages-for-real-estate-agents/"]],
+  crumbs: [["Home", "/"], ["Self-employed", "/self-employed-mortgage-bc/"], ["Mortgage for real estate agents", "/mortgages-for-real-estate-agents/"]],
   nav: "/self-employed-mortgage-bc/",
   body,
   faqs: [

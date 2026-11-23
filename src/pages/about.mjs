@@ -90,9 +90,9 @@ export default {
     { q: "What is the best way to get started?", a: "Book a free 15-minute call. You will talk to Joshua himself, get a plain picture of your options and leave with a next step. If you would rather write first, the contact page and the mortgage check both work too." }
   ],
   schema: [{
-    "@context": "https://schema.org", "@type": "Person", "@id": SITE.origin + "/about-joshua-resvick/#person", name: "Joshua Resvick", jobTitle: "Mortgage Broker", identifier: { "@type": "PropertyValue", propertyID: "BCFSA Mortgage Broker Licence", value: "MB503619" },
+    "@context": "https://schema.org", "@type": "Person", "@id": SITE.origin + "/about-joshua-resvick/#person", name: "Joshua Resvick", alternateName: "Josh Resvick", jobTitle: "Mortgage Broker", identifier: { "@type": "PropertyValue", propertyID: "BCFSA Mortgage Broker Licence", value: "MB503619" },
     url: SITE.origin + "/about-joshua-resvick/", email: SITE.email, telephone: "+1-778-882-5674",
-    worksFor: { "@type": "Organization", name: "Xeva Mortgage" },
+    worksFor: [{ "@id": SITE.origin + "/#business" }, { "@type": "Organization", name: "Xeva Mortgage" }],
     workLocation: { "@type": "Place", address: { "@type": "PostalAddress", streetAddress: "#106, 2626 Croydon Drive", addressLocality: "Surrey", addressRegion: "BC", postalCode: "V3Z 0S8", addressCountry: "CA" } }
   }]
 };

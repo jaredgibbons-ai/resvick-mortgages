@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-keremeos/#service", name: "Resvick Mortgages, serving Keremeos", url: SITE.origin + "/mortgage-broker-keremeos/", areaServed: [{ "@type": "City", name: "Keremeos", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Okanagan-Similkameen" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-keremeos/#service", url: SITE.origin + "/mortgage-broker-keremeos/", areaServed: [{ "@type": "City", name: "Keremeos", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Okanagan-Similkameen" }] };
 
 const body = `
 ${short({

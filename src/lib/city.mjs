@@ -1,5 +1,5 @@
 // City-page helpers (Phase 4, §7.12). Josh SERVES each city online from the Surrey office; never a local branch.
-import { SITE } from "./site.mjs";
+import { SITE, personRef } from "./site.mjs";
 
 /** Service schema for a city page: the business, its real Surrey address, and the city as areaServed. */
 export function cityServiceSchema(slug, city, extraAreas = []) {
@@ -9,7 +9,7 @@ export function cityServiceSchema(slug, city, extraAreas = []) {
     address: { "@type": "PostalAddress", streetAddress: SITE.address.street, addressLocality: SITE.address.city, addressRegion: SITE.address.region, postalCode: SITE.address.postal, addressCountry: "CA" },
     areaServed: [city, ...extraAreas].map((n) => ({ "@type": "City", name: n, containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } })),
     availableChannel: { "@type": "ServiceChannel", serviceUrl: SITE.book, servicePhone: "+1-778-882-5674" },
-    founder: { "@type": "Person", name: SITE.person, jobTitle: "Mortgage Broker", sameAs: [SITE.social.linkedin, SITE.social.bcfsa] },
+    founder: personRef(),
     parentOrganization: { "@type": "Organization", name: "Xeva Mortgage" }
   };
 }

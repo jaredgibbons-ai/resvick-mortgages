@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-nanaimo/#service", name: "Resvick Mortgages, serving Nanaimo", url: SITE.origin + "/mortgage-broker-nanaimo/", areaServed: [{ "@type": "City", name: "Nanaimo", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Central Vancouver Island" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-nanaimo/#service", url: SITE.origin + "/mortgage-broker-nanaimo/", areaServed: [{ "@type": "City", name: "Nanaimo", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Central Vancouver Island" }] };
 
 const body = `
 ${short({ answer: "Yes, you can work with a mortgage broker in Nanaimo without one being in town. Joshua serves the city from his Surrey office by phone and video. The appraisal and the signing happen locally.", who: "Nanaimo buyers, ferry commuters, families moving to the Island and anyone renewing.", next: "Book a 15-minute call, or check your numbers first with the <a href=\"/mortgage-calculators/#affordability\">affordability calculator</a>." })}

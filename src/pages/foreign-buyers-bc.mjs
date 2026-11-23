@@ -72,7 +72,7 @@ export default {
   slug: "/foreign-buyers-bc/",
   h1: "Foreign buyer ban and tax in BC: where it applies and what it costs",
   lede: "Ottawa's foreign buyer ban is set to end on January 1, 2027, and BC adds a 20 percent tax in five regional districts. Where each rule applies, what it can cost and how financing works.",
-  crumbs: [["Home", "/"], ["Buy", "/first-time-home-buyer-bc/"], ["Foreign buyers", "/foreign-buyers-bc/"]],
+  crumbs: [["Home", "/"], ["Resources", "/resources/"], ["Foreign buyers", "/foreign-buyers-bc/"]],
   nav: "/first-time-home-buyer-bc/",
   body,
   faqs: [

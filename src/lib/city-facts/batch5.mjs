@@ -103,8 +103,7 @@ export default {
     land: "The Lower Similkameen Indian Band has several reserves in the Keremeos area. The RDOS area profile lists Chopaka, Ashnola and Narcisse's Farm among them. Title on reserve land is not like regular title. Lenders vary, so ask early.",
     feature: "The Village's zoning bylaw marks some parcels as floodplain. On those parcels, only one of a secondary suite or an accessory dwelling is allowed. Floodplain status can affect value and insurance, so check it early.",
     src: [
-      ["Village of Keremeos, zoning bylaw and amendment", "https://keremeos.civicweb.net/document/12331/"],
-      ["Village of Keremeos, Bylaw 851-10 adoption report", "https://keremeos.civicweb.net/document/12332/"],
+      ["Village of Keremeos, Planning and Development (Zoning Bylaw No. 851 and zoning map)", "https://www.keremeos.ca/planning-and-development"],
       ["Village of Keremeos, business licence page", "https://www.keremeos.ca/business-licence-and-inter-community-business-licence"],
       ["Village of Keremeos, 2017 business recruitment and resident attraction strategy", "https://www.keremeos.ca/files/documents/2017-05-15-FINALBusinessRecruitmentResidentAttractionStrategy-17041WITHEDITS21.pdf"],
       ["RDOS, Electoral Area G community profile", "https://www.rdos.bc.ca/assets/PLANNING/AreaG/OCPProject/CommunityProfile2020.pdf"],

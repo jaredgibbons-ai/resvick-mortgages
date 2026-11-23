@@ -5,7 +5,7 @@ import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
 const place = (name) => ({ "@type": "City", name, containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } });
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-vernon/#service", name: "Resvick Mortgages, serving Vernon and the North Okanagan", url: SITE.origin + "/mortgage-broker-vernon/", areaServed: [place("Vernon"), place("Coldstream"), { "@type": "AdministrativeArea", name: "Regional District of North Okanagan" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-vernon/#service", url: SITE.origin + "/mortgage-broker-vernon/", areaServed: [place("Vernon"), place("Coldstream"), { "@type": "AdministrativeArea", name: "Regional District of North Okanagan" }] };
 
 const body = `
 ${short({

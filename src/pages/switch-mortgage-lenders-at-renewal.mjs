@@ -66,7 +66,7 @@ export default {
   slug: "/switch-mortgage-lenders-at-renewal/", printable: "mortgage-renewal-checklist",
   h1: "Switching mortgage lenders at renewal: costs, steps and savings",
   lede: "A switch at maturity is a transfer, not a new purchase. No penalty, costs often covered by the new lender, and since 2024 you may not need to re-pass the stress test.",
-  crumb: "Switch lenders at renewal", nav: "/mortgage-renewal-bc/", body,
+  crumbs: [["Home", "/"], ["Mortgage renewal", "/mortgage-renewal-bc/"], ["Switch lenders at renewal", "/switch-mortgage-lenders-at-renewal/"]], nav: "/mortgage-renewal-bc/", body,
   faqs: [
     { q: "Is there a penalty for switching lenders at renewal?", a: "Not at maturity. A mortgage that has reached the end of its term can be moved to a new lender without a prepayment penalty. Leaving before maturity is different: breaking a term early usually triggers a penalty, which is why timing a switch to your maturity date matters." },
     { q: "Who pays for the legal and appraisal costs of a switch?", a: "It depends on the new lender. Many cover some or all of the legal and appraisal costs as part of the offer, and others do not. The research behind this site sourced all-in costs from about $833 to about $3,465. Ask for the arrangement in writing before you proceed." },

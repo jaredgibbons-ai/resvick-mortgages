@@ -88,7 +88,7 @@ export function footer() {
 <div><p class="ftr-h">Homeowners</p><ul><li><a href="/mortgage-renewal-bc/">Mortgage renewal</a></li><li><a href="/refinance-mortgage-bc/">Refinancing</a></li><li><a href="/self-employed-mortgage-bc/">Self-employed</a></li><li><a href="/mortgage-aftercare-program/">Aftercare program</a></li></ul></div>
 <div><p class="ftr-h">Tools</p><ul><li><a href="/mortgage-calculators/">Calculators</a></li><li><a href="/bc-property-transfer-tax-calculator/">Property transfer tax</a></li><li><a href="/mortgage-check-up/">Mortgage check-up</a></li><li><a href="/apply/">Start my application</a></li><li><a href="/mortgage-rates-bc/">Rates</a></li><li><a href="/resources/">All guides</a></li><li><a href="/guides/">News and rule changes</a></li><li><a href="/contact/">Contact</a></li></ul></div>
 <div><p class="ftr-h">Who I help</p><ul><li><a href="/mortgages-for-first-responders/">First responders</a></li><li><a href="/mortgages-for-nurses-and-healthcare-workers/">Nurses and healthcare</a></li><li><a href="/mortgages-for-military-and-veterans/">Military and veterans</a></li><li><a href="/mortgage-for-contractors/">Contractors and trades</a></li><li><a href="/mortgages-for-doctors-and-dentists/">Doctors and dentists</a></li><li><a href="/mortgages-for-real-estate-agents/">Real estate agents</a></li><li><a href="/mortgages-for-lawyers-accountants-and-engineers/">Lawyers, accountants, engineers</a></li><li><a href="/mortgages-for-government-and-city-employees/">Government and city staff</a></li><li><a href="/mortgages-for-teachers-and-school-staff/">Teachers and school staff</a></li><li><a href="/mortgages-for-tech-workers/">Tech workers</a></li><li><a href="/mortgages-for-truckers-and-owner-operators/">Truckers and owner-operators</a></li><li><a href="/mortgages-for-camp-mine-and-shift-workers/">Camp, mine and shift workers</a></li><li><a href="/new-to-canada-mortgage/">New to Canada</a></li><li><a href="/mortgages-for-single-parents/">Single parents</a></li><li><a href="/mortgages-during-separation-and-divorce/">Separation and divorce</a></li><li><a href="/co-buying-a-home/">Co-buying</a></li><li><a href="/downsizing-and-your-mortgage/">Downsizing</a></li><li><a href="/investment-property-mortgages-bc/">Investors</a></li><li><a href="/commercial-mortgages-bc/">Commercial</a></li><li><a href="/condo-and-townhouse-mortgages/">Condos and townhouses</a></li><li><a href="/mobile-home-mortgages-bc/">Mobile and manufactured homes</a></li><li><a href="/leasehold-mortgages-bc/">Leased land</a></li><li><a href="/first-nations-land-mortgages-bc/">First Nations land</a></li><li><a href="/farm-and-alr-mortgages-bc/">Farm and ALR</a></li></ul></div>
-<div><p class="ftr-h">Cities served</p><ul class="ftr-cities"><li><a href="/mortgage-broker-surrey/">Surrey</a></li><li><a href="/mortgage-broker-white-rock/">White Rock</a></li><li><a href="/mortgage-broker-delta/">Delta</a></li><li><a href="/mortgage-broker-langley/">Langley</a></li><li><a href="/mortgage-broker-richmond/">Richmond</a></li><li><a href="/mortgage-broker-vancouver/">Vancouver</a></li><li><a href="/mortgage-broker-north-vancouver/">North Vancouver</a></li><li><a href="/mortgage-broker-burnaby/">Burnaby</a></li><li><a href="/mortgage-broker-new-westminster/">New Westminster</a></li><li><a href="/mortgage-broker-coquitlam/">Coquitlam</a></li><li><a href="/mortgage-broker-port-coquitlam/">Port Coquitlam</a></li><li><a href="/mortgage-broker-port-moody/">Port Moody</a></li><li><a href="/mortgage-broker-maple-ridge/">Maple Ridge</a></li><li><a href="/mortgage-broker-pitt-meadows/">Pitt Meadows</a></li><li><a href="/mortgage-broker-mission/">Mission</a></li><li><a href="/mortgage-broker-abbotsford/">Abbotsford</a></li><li><a href="/mortgage-broker-chilliwack/">Chilliwack</a></li><li><a href="/mortgage-broker-squamish/">Squamish</a></li><li><a href="/mortgage-broker-whistler/">Whistler</a></li><li><a href="/mortgage-broker-victoria/">Victoria</a></li><li><a href="/mortgage-broker-langford/">Langford</a></li><li><a href="/mortgage-broker-saanich/">Saanich</a></li><li><a href="/mortgage-broker-nanaimo/">Nanaimo</a></li><li><a href="/mortgage-broker-courtenay/">Courtenay</a></li><li><a href="/mortgage-broker-kelowna/">Kelowna</a></li><li><a href="/mortgage-broker-west-kelowna/">West Kelowna</a></li><li><a href="/mortgage-broker-penticton/">Penticton</a></li><li><a href="/mortgage-broker-keremeos/">Keremeos</a></li><li><a href="/mortgage-broker-princeton/">Princeton</a></li><li><a href="/mortgage-broker-vernon/">Vernon</a></li><li><a href="/mortgage-broker-invermere/">Invermere</a></li><li><a href="/mortgage-broker-kamloops/">Kamloops</a></li><li><a href="/mortgage-broker-quesnel/">Quesnel</a></li><li><a href="/mortgage-broker-prince-george/">Prince George</a></li><li><a href="/mortgage-broker-terrace/">Terrace</a></li><li><a href="/mortgage-broker-kitimat/">Kitimat</a></li><li><a href="/mortgage-broker-prince-rupert/">Prince Rupert</a></li><li><a href="/mortgage-broker-fort-st-john/">Fort St. John</a></li><li><a href="/mortgage-broker-trail-castlegar/">Trail and Castlegar</a></li><li><a href="/mortgage-broker-fernie/">Fernie</a></li><li><a href="/mortgage-broker-osoyoos-oliver/">Osoyoos and Oliver</a></li><li><a href="/mortgage-broker-revelstoke/">Revelstoke</a></li></ul></div>
+<div><p class="ftr-h"><a href="/bc-mortgage-broker-service-areas/">Cities served</a></p><ul class="ftr-cities"><li><a href="/mortgage-broker-surrey/">Surrey</a></li><li><a href="/mortgage-broker-white-rock/">White Rock</a></li><li><a href="/mortgage-broker-delta/">Delta</a></li><li><a href="/mortgage-broker-langley/">Langley</a></li><li><a href="/mortgage-broker-richmond/">Richmond</a></li><li><a href="/mortgage-broker-vancouver/">Vancouver</a></li><li><a href="/mortgage-broker-north-vancouver/">North Vancouver</a></li><li><a href="/mortgage-broker-burnaby/">Burnaby</a></li><li><a href="/mortgage-broker-new-westminster/">New Westminster</a></li><li><a href="/mortgage-broker-coquitlam/">Coquitlam</a></li><li><a href="/mortgage-broker-port-coquitlam/">Port Coquitlam</a></li><li><a href="/mortgage-broker-port-moody/">Port Moody</a></li><li><a href="/mortgage-broker-maple-ridge/">Maple Ridge</a></li><li><a href="/mortgage-broker-pitt-meadows/">Pitt Meadows</a></li><li><a href="/mortgage-broker-mission/">Mission</a></li><li><a href="/mortgage-broker-abbotsford/">Abbotsford</a></li><li><a href="/mortgage-broker-chilliwack/">Chilliwack</a></li><li><a href="/mortgage-broker-squamish/">Squamish</a></li><li><a href="/mortgage-broker-whistler/">Whistler</a></li><li><a href="/mortgage-broker-victoria/">Victoria</a></li><li><a href="/mortgage-broker-langford/">Langford</a></li><li><a href="/mortgage-broker-saanich/">Saanich</a></li><li><a href="/mortgage-broker-nanaimo/">Nanaimo</a></li><li><a href="/mortgage-broker-courtenay/">Courtenay</a></li><li><a href="/mortgage-broker-kelowna/">Kelowna</a></li><li><a href="/mortgage-broker-west-kelowna/">West Kelowna</a></li><li><a href="/mortgage-broker-penticton/">Penticton</a></li><li><a href="/mortgage-broker-keremeos/">Keremeos</a></li><li><a href="/mortgage-broker-princeton/">Princeton</a></li><li><a href="/mortgage-broker-vernon/">Vernon</a></li><li><a href="/mortgage-broker-invermere/">Invermere</a></li><li><a href="/mortgage-broker-kamloops/">Kamloops</a></li><li><a href="/mortgage-broker-quesnel/">Quesnel</a></li><li><a href="/mortgage-broker-prince-george/">Prince George</a></li><li><a href="/mortgage-broker-terrace/">Terrace</a></li><li><a href="/mortgage-broker-kitimat/">Kitimat</a></li><li><a href="/mortgage-broker-prince-rupert/">Prince Rupert</a></li><li><a href="/mortgage-broker-fort-st-john/">Fort St. John</a></li><li><a href="/mortgage-broker-trail-castlegar/">Trail and Castlegar</a></li><li><a href="/mortgage-broker-fernie/">Fernie</a></li><li><a href="/mortgage-broker-osoyoos-oliver/">Osoyoos and Oliver</a></li><li><a href="/mortgage-broker-revelstoke/">Revelstoke</a></li></ul></div>
 </div>
 <div class="ftr-legal"><p>© ${new Date().getFullYear()} Resvick Mortgages. Mortgage information on this site is general education, not advice on your file; every approval is subject to lender and insurer underwriting. </p><p class="ftr-links"><a href="/privacy/">Privacy policy</a> <a href="/terms-of-use/">Terms of use</a>${SITE.ga4 ? ' <button type="button" class="linklike" data-cookie-settings>Cookie settings</button>' : ""}</p></div>
 </footer>`;
@@ -124,14 +124,16 @@ export function closeType(slug) {
   if (T_SIT.test(slug)) return "situation";
   return "other";
 }
-const cityOf = (slug) => CITY_NAME[slug.replace("/mortgage-broker-", "").replace(/\/$/, "")] || "your town";
+const cityKey = (slug) => slug.replace("/mortgage-broker-", "").replace(/\/$/, "");
+const cityOf = (slug) => CITY_NAME[cityKey(slug)] || "your town";
+export const CITIES_HUB = "/bc-mortgage-broker-service-areas/";
 function closeCopy(page) {
   const t = closeType(page.slug);
   if (t === "city") { const c = cityOf(page.slug); return [`Buying or renewing in ${c}? I can do it from here.`, "I work from my Surrey office by phone and video, so you never have to drive in. One 15-minute call is enough to start."]; }
   return page.slug === "/" ? CLOSE_COPY.home : CLOSE_COPY[t];
 }
 const ctaClose = (o = {}, page = { slug: "" }) => { const [dt, dx] = closeCopy(page); return `<aside class="cta-block" data-cta>
-<p class="close-who" data-nocount><img src="/assets/img/josh-face-360.webp" width="76" height="76" alt="" loading="lazy"><span><b>Joshua Resvick</b>Mortgage broker, Surrey, BC</span></p>
+<p class="close-who" data-nocount><img src="/assets/img/josh-face-360.webp" width="76" height="76" alt="Joshua Resvick, mortgage broker" loading="lazy"><span><b>Joshua Resvick</b>Mortgage broker, Surrey, BC</span></p>
 <h2>${esc(o.title || dt)}</h2><p>${o.text || dx}</p>
 <a class="btn" href="${o.href || SITE.book}" data-evt="book_call_click">${esc(o.label || "Book a 15-minute call")}</a><a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Start my application</a></aside>`; };
 
@@ -186,6 +188,13 @@ export function breadcrumbs(trail) {
 
 function ld(obj) { return `<script type="application/ld+json">${JSON.stringify(obj)}</script>`; }
 
+/** Josh as one Person entity. Every page points at the same @id (the full record lives on the About page). */
+export const PERSON_ID = SITE.origin + "/about-joshua-resvick/#person";
+export const BUSINESS_ID = SITE.origin + "/#business";
+export function personRef() {
+  return { "@type": "Person", "@id": PERSON_ID, name: SITE.person, alternateName: "Josh Resvick", jobTitle: "Mortgage Broker", url: SITE.origin + "/about-joshua-resvick/", worksFor: { "@id": BUSINESS_ID }, sameAs: [SITE.social.linkedin, SITE.social.bcfsa] };
+}
+
 export function businessSchema() {
   return {
     "@context": "https://schema.org", "@type": ["MortgageBroker", "FinancialService"], "@id": SITE.origin + "/#business",
@@ -194,7 +203,7 @@ export function businessSchema() {
     address: { "@type": "PostalAddress", streetAddress: "#106, 2626 Croydon Drive", addressLocality: "Surrey", addressRegion: "BC", postalCode: "V3Z 0S8", addressCountry: "CA" },
     areaServed: { "@type": "AdministrativeArea", name: "British Columbia" },
     sameAs: [SITE.social.instagram],
-    founder: { "@type": "Person", name: SITE.person, jobTitle: "Mortgage Broker", sameAs: [SITE.social.linkedin, SITE.social.bcfsa] },
+    founder: personRef(), employee: { "@id": PERSON_ID },
     parentOrganization: { "@type": "Organization", name: "Xeva Mortgage" }
   };
 }
@@ -353,9 +362,12 @@ function latestGuides(n, heading) {
 /** page: {slug,title,meta,h1,lede,body,faqs,crumbs,schema:[...],home,closing,assets:{calc:bool}} */
 export function render(page) {
   const url = SITE.origin + page.slug;
-  const trail = page.crumbs || [["Home", "/"], [page.crumb || page.h1, page.slug]];
+  // City pages all sit under the cities hub, labelled with the plain town name.
+  const trail = T_CITY.test(page.slug) && CITY_NAME[cityKey(page.slug)]
+    ? [["Home", "/"], ["Cities", CITIES_HUB], [CITY_NAME[cityKey(page.slug)], page.slug]]
+    : page.crumbs || [["Home", "/"], [page.crumb || page.h1, page.slug]];
   const crumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: trail.map(([t, h], i) => ({ "@type": "ListItem", position: i + 1, name: t, item: SITE.origin + h })) };
-  const schemas = [crumbSchema, ...(page.schema || [])];
+  const schemas = [...(page.slug === "/" ? [] : [crumbSchema]), ...(page.schema || [])];
   if (page.slug === "/") {
     schemas.push(businessSchema());
     schemas.push({ "@context": "https://schema.org", "@type": "WebSite", "@id": SITE.origin + "/#website", name: SITE.name, url: SITE.origin + "/", inLanguage: "en-CA", publisher: { "@id": SITE.origin + "/#business" } });

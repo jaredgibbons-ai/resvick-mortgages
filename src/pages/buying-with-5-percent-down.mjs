@@ -63,7 +63,7 @@ export default {
   slug: "/buying-with-5-percent-down/", printable: "first-time-buyer-game-plan",
   h1: "Can I buy a house with 5% down in BC?",
   lede: "Yes, with these rules: the first $500,000 at 5%, mortgage insurance, the stress test and a price below $1.5 million. Here is what it costs.",
-  crumbs: [["Home", "/"], ["First-time home buyers", "/first-time-home-buyer-bc/"], ["Buying with 5% down", "/buying-with-5-percent-down/"]],
+  crumbs: [["Home", "/"], ["First-time buyers", "/first-time-home-buyer-bc/"], ["Buying with 5% down", "/buying-with-5-percent-down/"]],
   nav: "/first-time-home-buyer-bc/", body,
   faqs: [
     { q: "Is 5% down really allowed in BC?", a: `Yes, within the insured mortgage rules. The minimum is 5% of the first $500,000 and 10% of the rest, for homes priced below $1,500,000. You must pay for mortgage default insurance and qualify at the stress-test rate. At $1,500,000 or more, 20% is required.` },

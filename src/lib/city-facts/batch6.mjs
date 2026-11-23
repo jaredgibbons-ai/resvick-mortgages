@@ -176,12 +176,12 @@ export default {
     src: [
       ["Province of BC news release on SSMUH extensions", "https://news.gov.bc.ca/releases/2024hous0178-001534"],
       ["District of Kitimat housing update, 2025", "https://docs.kitimat.ca/docs/hapna-implementation-update-2025.pdf"],
-      ["District of Kitimat Official Community Plan", "https://www.kitimat.ca/en/business-and-development/resources/Documents/Official-Community-Plan.pdf"],
+      ["District of Kitimat Official Community Plan", "https://www.kitimat.ca/municipal-office/official-community-plan"],
       ["Province of BC, District of Kitimat Housing Action Plan", "https://www2.gov.bc.ca/assets/gov/housing-and-tenancy/tools-for-government/publications/kitimat_hap_final.pdf"],
       ["Haisla Nation", "http://haisla.ca/"],
       ["Northern Health, Kitimat General Hospital", "https://www.northernhealth.ca/find-a-facility/hospitals/kitimat-general-hospital-and-health-centre"],
       ["District of Kitimat, Interim Housing Needs Report (2024)", "https://hdp-ca-prod-app-kitimat-getinvolved-files.s3.ca-central-1.amazonaws.com/5017/3638/0894/InterimHousingNeedsReport.pdf"],
-      ["District of Kitimat, Municipal Code Part 9", "https://www.kitimat.ca/en/municipal-hall/resources/Documents/Kitimat-Municipal-Code/Part-9/Consolidated_PART-9-2025-03-17.pdf"]
+      ["District of Kitimat, Municipal Code Part 9", "https://www.kitimat.ca/municipal-office/part-9-planning"]
     ],
     omitted: [
       "Third pass: mix now filled from the Housing Action Plan on gov.bc.ca (2011 data, so old). The 2024 Interim Housing Needs Report and 2025 fact sheet were blocked on S3 and kitimat.ca; invest.kitimat.ca/housing-profile charts still show Loading. Refresh mix if the newer report is read. STR still empty: no official page states a rule.",

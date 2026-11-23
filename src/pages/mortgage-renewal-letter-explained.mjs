@@ -55,7 +55,7 @@ export default {
   slug: "/mortgage-renewal-letter-explained/",
   h1: "Your mortgage renewal letter, explained",
   lede: "The renewal statement arrives at least 21 days before maturity, and it is an opening offer. What each line means and what to check before you sign.",
-  crumb: "Mortgage renewal letter explained", nav: "/mortgage-renewal-bc/", body,
+  crumbs: [["Home", "/"], ["Mortgage renewal", "/mortgage-renewal-bc/"], ["Mortgage renewal letter explained", "/mortgage-renewal-letter-explained/"]], nav: "/mortgage-renewal-bc/", body,
   faqs: [
     { q: "How long before maturity must my lender send a renewal letter?", a: "At least 21 days before your maturity date. Many lenders send it earlier, but that is the minimum. Because rate holds run about 120 days, your real shopping window starts well before the letter arrives, which is why waiting for it can leave you short on time." },
     { q: "Is the rate in my renewal letter negotiable?", a: "Often, yes. The rate in the letter is your lender's opening offer, and lenders frequently have room to move, especially when you show a competing written offer. A broker can obtain comparison offers from other lenders to support the conversation." },

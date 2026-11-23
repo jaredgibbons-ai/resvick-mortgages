@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-invermere/#service", name: "Resvick Mortgages, serving Invermere", url: SITE.origin + "/mortgage-broker-invermere/", areaServed: [{ "@type": "City", name: "Invermere", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of East Kootenay" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-invermere/#service", url: SITE.origin + "/mortgage-broker-invermere/", areaServed: [{ "@type": "City", name: "Invermere", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of East Kootenay" }] };
 
 const body = `
 ${short({
