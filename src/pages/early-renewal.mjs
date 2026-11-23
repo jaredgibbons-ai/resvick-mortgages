@@ -47,7 +47,7 @@ ${cta({ title: "Map your renewal timeline", text: "Tell Joshua your maturity dat
 `;
 
 export default {
-  slug: "/early-mortgage-renewal/",
+  slug: "/early-mortgage-renewal/", printable: "mortgage-renewal-checklist",
   h1: "Early mortgage renewal: how early can you renew in BC?",
   lede: "The 120-day window, early-renewal offers from your lender, rate holds, and the cost of leaving before maturity, with a framework for deciding.",
   crumbs: [["Home", "/"], ["Renewals", "/mortgage-renewal-bc/"], ["Early renewal", "/early-mortgage-renewal/"]],

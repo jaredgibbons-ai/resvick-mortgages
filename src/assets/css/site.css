@@ -269,7 +269,7 @@ td.num,th.num{text-align:right;padding-right:0}
 .print-row{margin:14px 0 0}
 @media print{
   body{background:#fff!important;color:#000!important;font-size:11.5pt}
-  .sticky-cta,.toc,.rail,.site-header,.site-footer,.proof,.crumbs,.cta-block,.close,.form-card,.mnav,.hero-actions,.hero-side,.acts,.print-row,.faq,.index,.band,.callout,.rates,.reviews,.tool-grid,.steps,.hero-photo{display:none!important}
+  .sticky-cta,.toc,.rail,.site-header,.site-footer,.proof,.crumbs,.cta-block,.close,.form-card,.dl-card,.print-page,.tool-mail,.related,.mnav,.hero-actions,.hero-side,.acts,.print-row,.faq,.index,.band,.callout,.rates,.reviews,.tool-grid,.steps,.hero-photo{display:none!important}
   .hero-in{border:0;padding:0}.hero h1{color:#000!important;font-size:22pt}.lede{display:none}
   a{color:#000;text-decoration:none;background:none!important}a[href^="http"]::after{content:""}
   body.printing-tool article.prose>*:not(.tools):not(.tool.printing){display:none!important}
@@ -376,3 +376,19 @@ td.num,th.num{text-align:right;padding-right:0}
 .prose .gloss dt{font-weight:700;color:var(--ink);padding-top:14px;border-top:2px dotted var(--rule);scroll-margin-top:96px}
 .prose .gloss dt:first-of-type{border-top:0;padding-top:0}
 .prose .gloss dd{margin:2px 0 14px;padding:0}
+
+/* Free printable card (Nov 23, 2026): download is free, the email box under it is optional */
+.dl-card{background:var(--card);border:1px solid var(--rule);border-left:6px solid var(--spruce);border-radius:var(--r);padding:22px 24px;margin:2em 0;display:grid;gap:16px;font-family:var(--ui)}
+.dl-top{display:grid;gap:14px;align-items:center}
+.dl-top p{margin:0;font-size:16px;line-height:1.5;color:var(--muted)}
+.dl-top .dl-title{font:800 19px/1.3 var(--display);color:var(--ink);margin-bottom:4px}
+.dl-top .btn{justify-self:start}
+.dl-mail,.tool-mail{display:grid;gap:12px;border-top:1px solid var(--rule);padding-top:16px}
+.dl-ask,.tm-ask{margin:0;font-size:16px}
+.dl-row{display:grid;gap:12px}
+.dl-mail .small,.tool-mail .small{margin:0}
+.tool-mail{margin-top:18px}
+@media(min-width:700px){.dl-top{grid-template-columns:1fr auto;gap:28px}.dl-row{grid-template-columns:1fr 1fr auto;align-items:end}}
+.print-page{margin:1.6em 0 0;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.print-page .small{color:var(--muted)}
+

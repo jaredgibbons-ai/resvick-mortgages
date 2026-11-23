@@ -36,5 +36,5 @@ export function postPage(p) {
     publisher: { "@id": SITE.origin + "/#business" }, mainEntityOfPage: SITE.origin + p.slug, inLanguage: "en-CA"
   }];
   return { slug: p.slug, h1: p.h1, lede: p.lede, nav: "/guides/", crumbs: [["Home", "/"], ["Guides", "/guides/"], [p.crumb || p.h1, p.slug]],
-    body: dateLine + p.body, faqs: p.faqs, schema, calc: p.calc, noindex: p.noindex };
+    body: dateLine + p.body, faqs: p.faqs, schema, calc: p.calc, noindex: p.noindex, printable: p.printable, print: true };
 }

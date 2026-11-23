@@ -233,7 +233,7 @@
       var lenderNote = lender === "cu" ? "Credit unions are provincially regulated, so the federal switch rules read a little differently; worth a question before you count on the stress-test exemption." : lender === "mono" ? "Broker-channel lenders are usually the easiest to move away from at maturity, and often the ones to compare against." : lender === "bank" ? "Big banks often register collateral charges, which can make a switch slower and a little pricier. Check which charge you have." : "";
       var html = '<span class="big">' + when + "</span>" + windowLine + rows(l) + "<p><strong>What to do now</strong></p><ol>" + steps.map(function (t) { return "<li>" + t + "</li>"; }).join("") + "</ol>" + (lenderNote ? "<p class='small'>" + lenderNote + "</p>" : "");
       html += "<p class='small'>Payment is recalculated from the balance, rate and amortization you entered and may differ slightly from your statement. The penalty is a range and your lender's figure governs. Nothing you typed leaves your browser unless you choose to send it below.</p>";
-      var h = document.querySelector("form[data-lead] input[name=tool_inputs]");
+      var h = document.querySelector("form[data-lead]:not(.tool-mail) input[name=tool_inputs]");
       if (h) h.value = JSON.stringify({ tool: "check-up", balance: n(f, "balance"), rate: n(f, "rate"), rate_type: s(f, "type"), amort_years: n(f, "amort"), maturity: s(f, "maturity"), months_to_maturity: o.monthsToMaturity, phase: o.phase, lender_type: lender, home_value: isNaN(n(f, "value")) ? null : n(f, "value"), penalty_low: o.penaltyLow, penalty_high: o.penaltyHigh });
       return html;
     },
@@ -245,7 +245,7 @@
       if (o.overLimit) html += "<p class='err'>You owe more than 80% of the value you entered, so a regulated lender would not add to the mortgage. Other lenders have different rules; ask.</p>";
       if (o.wanted) html += "<p>" + (o.fitsRefi ? "Your " + money0(o.wanted) + " fits within the estimate" : "Your " + money0(o.wanted) + " is more than the estimate") + (o.addedPayment != null ? ". Over the amortization you entered it would add about <strong>" + money2(o.addedPayment) + " a month</strong> at that rate." : ".") + "</p>";
       html += "<p class='small'>Based only on the figures you typed. Nothing was looked up or sent. A lender decides the real amount after an appraisal, a credit check and proof of income.</p>";
-      var h = document.querySelector("form[data-lead] input[name=tool_inputs]");
+      var h = document.querySelector("form[data-lead]:not(.tool-mail) input[name=tool_inputs]");
       if (h) h.value = JSON.stringify({ tool: "equity", home_value: n(f, "value"), mortgage_balance: n(f, "balance"), other_liens: nz(f, "liens"), estimated_room_80: o.refiRoom, estimated_net: o.refiNet, wanted: nz(f, "wanted") });
       return html;
     }
@@ -258,6 +258,19 @@
     var ok = html.indexOf('class="err"') === -1;
     out.innerHTML = html + (ok ? '<p class="print-row"><button type="button" class="btn btn-ghost btn-sm" data-print>Print or save as PDF</button> <span class="small">Prints this tool\'s inputs and result only.</span></p>' : "");
     out.hidden = false;
+    // "Email me my results": hand the visible result and the inputs to the form under it, then show the form.
+    var tm = form.parentNode.querySelector("form.tool-mail");
+    if (tm) {
+      if (ok) {
+        var txt = out.innerText || out.textContent || "", pr = out.querySelector(".print-row");
+        if (pr) txt = txt.replace(pr.innerText || pr.textContent || "", "");
+        tm.elements.result_text.value = txt.replace(/\n{3,}/g, "\n\n").trim().slice(0, 3000);
+        var ins = { tool: form.getAttribute("data-calc") }, k = 0;
+        Array.prototype.forEach.call(form.elements, function (el) { if (!el.name || k >= 18) return; var v = el.type === "checkbox" ? el.checked : el.value; if (v === "" || v == null) return; ins[el.name] = el.type === "number" ? Number(v) : v; k++; });
+        tm.elements.tool_inputs.value = JSON.stringify(ins);
+        tm.hidden = false;
+      } else tm.hidden = true;
+    }
     var pb = out.querySelector("[data-print]");
     if (pb) pb.addEventListener("click", function () {
       var tool = form.closest(".tool"); if (!tool) { try { window.print(); } catch (e) {} return; }

@@ -101,3 +101,33 @@ test("blocked keys never travel in extra", async () => {
   await onRequestPost({ request: req({ ...good, extra: { sin_number: "123", dob: "1990", budget: "ok" } }), env: { CRM_WEBHOOK_URL: "https://crm.test/h" } });
   const sent = JSON.parse(calls[0].init.body); assert.deepEqual(sent.extra, { budget: "ok" });
 });
+
+test("download: Josh gets the lead, then the visitor gets the fixed PDF link", async () => {
+  const calls = mockFetch({ "https://api.resend.com": 200 });
+  const r = await onRequestPost({ request: req({ ...good, form: "download", printable: "closing-costs-worksheet", message: "" }), env: { RESEND_API_KEY: "k", LEAD_EMAIL_TO: "joshua@resvickmortgages.com" } });
+  assert.equal(r.status, 200); assert.equal(calls.length, 2);
+  const toJosh = JSON.parse(calls[0].init.body); assert.match(toJosh.text, /Printable: Closing costs worksheet/); assert.match(toJosh.subject, /Free printable/);
+  const toVisitor = JSON.parse(calls[1].init.body); assert.deepEqual(toVisitor.to, ["buyer@example.com"]);
+  assert.match(toVisitor.text, /https:\/\/www\.resvickmortgages\.com\/assets\/downloads\/resvick-closing-costs-worksheet\.pdf/);
+  assert.match(toVisitor.text, /^Hi Test,/);
+});
+
+test("download with an unknown printable: lead delivered, nothing sent to the visitor", async () => {
+  const calls = mockFetch({ "https://api.resend.com": 200 });
+  const r = await onRequestPost({ request: req({ ...good, form: "download", printable: "https://evil.test/x" }), env: { RESEND_API_KEY: "k", LEAD_EMAIL_TO: "j@x.ca" } });
+  assert.equal(r.status, 200); assert.equal(calls.length, 1);
+});
+
+test("download: a failed visitor email never fails the lead", async () => {
+  let n = 0;
+  globalThis.fetch = async () => { n++; return new Response("", { status: n === 1 ? 200 : 500 }); };
+  const r = await onRequestPost({ request: req({ ...good, form: "download", printable: "down-payment-sources" }), env: { RESEND_API_KEY: "k", LEAD_EMAIL_TO: "j@x.ca" } });
+  assert.equal(r.status, 200); assert.equal(n, 2);
+});
+
+test("calc-results: the result text goes to Josh only, never to the visitor", async () => {
+  const calls = mockFetch({ "https://api.resend.com": 200 });
+  const r = await onRequestPost({ request: req({ ...good, form: "calc-results", result_text: "Payment $3,412 a month", printable: "closing-costs-worksheet" }), env: { RESEND_API_KEY: "k", LEAD_EMAIL_TO: "j@x.ca" } });
+  assert.equal(r.status, 200); assert.equal(calls.length, 1);
+  const b = JSON.parse(calls[0].init.body); assert.deepEqual(b.to, ["j@x.ca"]); assert.match(b.text, /What the calculator showed them:\nPayment \$3,412 a month/);
+});

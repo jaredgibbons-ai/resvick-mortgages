@@ -1,7 +1,7 @@
 import { short } from "../lib/short.mjs";
 
 export default {
-  slug: "/guides/pay-off-car-or-save-for-down-payment/",
+  slug: "/guides/pay-off-car-or-save-for-down-payment/", printable: "first-time-buyer-game-plan",
   date: "2026-11-23",
   series: "questions",
   title: "Pay Off the Car or Save for the Down Payment?",

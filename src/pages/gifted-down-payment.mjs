@@ -74,7 +74,7 @@ ${cta({ title: "Walk through your plan with Joshua", text: "A 15-minute call wil
 `;
 
 export default {
-  slug: "/gifted-down-payment/",
+  slug: "/gifted-down-payment/", printable: "down-payment-sources",
   h1: "Gifted down payment in Canada: the gift letter and the rules",
   lede: "How a gift from family is treated by lenders: who can give, what the letter says, how the money must move, and how a gift differs from a loan.",
   crumbs: [["Home", "/"], ["First-time buyers", "/first-time-home-buyer-bc/"], ["Gifted down payment", "/gifted-down-payment/"]],
