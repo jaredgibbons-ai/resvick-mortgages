@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-port-coquitlam/#service", name: "Resvick Mortgages, serving Port Coquitlam", url: SITE.origin + "/mortgage-broker-port-coquitlam/", areaServed: [{ "@type": "City", name: "Port Coquitlam", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-port-coquitlam/#service", url: SITE.origin + "/mortgage-broker-port-coquitlam/", areaServed: [{ "@type": "City", name: "Port Coquitlam", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
 const body = `
 ${short({

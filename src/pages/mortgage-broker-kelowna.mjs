@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-kelowna/#service", name: "Resvick Mortgages, serving Kelowna", url: SITE.origin + "/mortgage-broker-kelowna/", areaServed: [{ "@type": "City", name: "Kelowna", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Central Okanagan" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-kelowna/#service", url: SITE.origin + "/mortgage-broker-kelowna/", areaServed: [{ "@type": "City", name: "Kelowna", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Central Okanagan" }] };
 
 const body = `
 ${short({

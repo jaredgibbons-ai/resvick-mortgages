@@ -130,7 +130,7 @@ function closeCopy(page) {
   return CLOSE_COPY[t];
 }
 const ctaClose = (o = {}, page = { slug: "" }) => { const [dt, dx] = closeCopy(page); return `<aside class="cta-block" data-cta>
-<p class="close-who" data-nocount><img src="/assets/img/josh-face-360.webp" width="76" height="76" alt="" loading="lazy"><span><b>Joshua Resvick</b>Mortgage broker, Surrey, BC</span></p>
+<p class="close-who" data-nocount><img src="/assets/img/josh-face-360.webp" width="76" height="76" alt="Joshua Resvick, mortgage broker" loading="lazy"><span><b>Joshua Resvick</b>Mortgage broker, Surrey, BC</span></p>
 <h2>${esc(o.title || dt)}</h2><p>${o.text || dx}</p>
 <a class="btn" href="${o.href || SITE.book}" data-evt="book_call_click">${esc(o.label || "Book a 15-minute call")}</a><a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Start my application</a></aside>`; };
 
@@ -185,6 +185,13 @@ export function breadcrumbs(trail) {
 
 function ld(obj) { return `<script type="application/ld+json">${JSON.stringify(obj)}</script>`; }
 
+/** Josh as one Person entity. Every page points at the same @id (the full record lives on the About page). */
+export const PERSON_ID = SITE.origin + "/about-joshua-resvick/#person";
+export const BUSINESS_ID = SITE.origin + "/#business";
+export function personRef() {
+  return { "@type": "Person", "@id": PERSON_ID, name: SITE.person, alternateName: "Josh Resvick", jobTitle: "Mortgage Broker", url: SITE.origin + "/about-joshua-resvick/", worksFor: { "@id": BUSINESS_ID }, sameAs: [SITE.social.linkedin, SITE.social.bcfsa] };
+}
+
 export function businessSchema() {
   return {
     "@context": "https://schema.org", "@type": ["MortgageBroker", "FinancialService"], "@id": SITE.origin + "/#business",
@@ -193,7 +200,7 @@ export function businessSchema() {
     address: { "@type": "PostalAddress", streetAddress: "#106, 2626 Croydon Drive", addressLocality: "Surrey", addressRegion: "BC", postalCode: "V3Z 0S8", addressCountry: "CA" },
     areaServed: { "@type": "AdministrativeArea", name: "British Columbia" },
     sameAs: [SITE.social.instagram],
-    founder: { "@type": "Person", name: SITE.person, jobTitle: "Mortgage Broker", sameAs: [SITE.social.linkedin, SITE.social.bcfsa] },
+    founder: personRef(), employee: { "@id": PERSON_ID },
     parentOrganization: { "@type": "Organization", name: "Xeva Mortgage" }
   };
 }
@@ -319,7 +326,7 @@ export function render(page) {
   const url = SITE.origin + page.slug;
   const trail = page.crumbs || [["Home", "/"], [page.crumb || page.h1, page.slug]];
   const crumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: trail.map(([t, h], i) => ({ "@type": "ListItem", position: i + 1, name: t, item: SITE.origin + h })) };
-  const schemas = [crumbSchema, ...(page.schema || [])];
+  const schemas = [...(page.slug === "/" ? [] : [crumbSchema]), ...(page.schema || [])];
   if (page.slug === "/") {
     schemas.push(businessSchema());
     schemas.push({ "@context": "https://schema.org", "@type": "WebSite", "@id": SITE.origin + "/#website", name: SITE.name, url: SITE.origin + "/", inLanguage: "en-CA", publisher: { "@id": SITE.origin + "/#business" } });

@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-penticton/#service", name: "Resvick Mortgages, serving Penticton", url: SITE.origin + "/mortgage-broker-penticton/", areaServed: [{ "@type": "City", name: "Penticton", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Summerland", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Okanagan-Similkameen" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-penticton/#service", url: SITE.origin + "/mortgage-broker-penticton/", areaServed: [{ "@type": "City", name: "Penticton", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Summerland", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Okanagan-Similkameen" }] };
 
 const body = `
 ${short({

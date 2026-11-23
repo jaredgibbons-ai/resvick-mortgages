@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-whistler/#service", name: "Resvick Mortgages, serving Whistler", url: SITE.origin + "/mortgage-broker-whistler/", areaServed: [{ "@type": "City", name: "Whistler", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-whistler/#service", url: SITE.origin + "/mortgage-broker-whistler/", areaServed: [{ "@type": "City", name: "Whistler", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
 const body = `
 ${short({

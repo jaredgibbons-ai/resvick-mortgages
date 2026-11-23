@@ -5,7 +5,7 @@ import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
 const city = "Victoria";
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-victoria/#service", name: "Resvick Mortgages, serving Victoria", url: SITE.origin + "/mortgage-broker-victoria/", areaServed: [{ "@type": "City", name: "Victoria", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Greater Victoria" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-victoria/#service", url: SITE.origin + "/mortgage-broker-victoria/", areaServed: [{ "@type": "City", name: "Victoria", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Greater Victoria" }] };
 
 const body = `
 ${short({ answer: "You can get a mortgage in Victoria through a broker who isn't in town. Joshua serves the Island from his Surrey office by phone and video. You sign with a local lawyer or notary.", who: "Greater Victoria buyers, public servants and military families, retirees moving to the Island, and anyone renewing.", next: "Book a 15-minute call, or work out your tax with the <a href=\"/bc-property-transfer-tax-calculator/\">BC property transfer tax calculator</a>." })}

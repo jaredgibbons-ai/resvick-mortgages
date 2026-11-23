@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-kamloops/#service", name: "Resvick Mortgages, serving Kamloops", url: SITE.origin + "/mortgage-broker-kamloops/", areaServed: [{ "@type": "City", name: "Kamloops", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Thompson-Nicola" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-kamloops/#service", url: SITE.origin + "/mortgage-broker-kamloops/", areaServed: [{ "@type": "City", name: "Kamloops", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Thompson-Nicola" }] };
 
 const body = `
 ${short({

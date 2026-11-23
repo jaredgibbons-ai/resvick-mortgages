@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-saanich/#service", name: "Resvick Mortgages, serving Saanich", url: SITE.origin + "/mortgage-broker-saanich/", areaServed: [{ "@type": "City", name: "Saanich", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Saanich Peninsula" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-saanich/#service", url: SITE.origin + "/mortgage-broker-saanich/", areaServed: [{ "@type": "City", name: "Saanich", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Saanich Peninsula" }] };
 
 const body = `
 ${short({

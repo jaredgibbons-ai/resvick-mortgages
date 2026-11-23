@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-osoyoos-oliver/#service", name: "Resvick Mortgages, serving Osoyoos and Oliver", url: SITE.origin + "/mortgage-broker-osoyoos-oliver/", areaServed: [{ "@type": "City", name: "Osoyoos", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Oliver", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Okanagan-Similkameen" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-osoyoos-oliver/#service", url: SITE.origin + "/mortgage-broker-osoyoos-oliver/", areaServed: [{ "@type": "City", name: "Osoyoos", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Oliver", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Okanagan-Similkameen" }] };
 
 const body = `
 ${short({

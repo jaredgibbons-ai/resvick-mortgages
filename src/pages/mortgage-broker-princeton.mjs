@@ -4,7 +4,7 @@ import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 import { censusTable } from "../lib/city-census.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-princeton/#service", name: "Resvick Mortgages, serving Princeton", url: SITE.origin + "/mortgage-broker-princeton/", areaServed: [{ "@type": "City", name: "Princeton", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Okanagan-Similkameen" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-princeton/#service", url: SITE.origin + "/mortgage-broker-princeton/", areaServed: [{ "@type": "City", name: "Princeton", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Okanagan-Similkameen" }] };
 
 const body = `
 ${short({

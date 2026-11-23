@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-fernie/#service", name: "Resvick Mortgages, serving Fernie", url: SITE.origin + "/mortgage-broker-fernie/", areaServed: [{ "@type": "City", name: "Fernie", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Sparwood" }, { "@type": "City", name: "Elkford" }, { "@type": "AdministrativeArea", name: "Regional District of East Kootenay" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-fernie/#service", url: SITE.origin + "/mortgage-broker-fernie/", areaServed: [{ "@type": "City", name: "Fernie", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Sparwood" }, { "@type": "City", name: "Elkford" }, { "@type": "AdministrativeArea", name: "Regional District of East Kootenay" }] };
 
 const body = `
 ${short({

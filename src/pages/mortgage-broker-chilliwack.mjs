@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-chilliwack/#service", name: "Resvick Mortgages, serving Chilliwack", url: SITE.origin + "/mortgage-broker-chilliwack/", areaServed: [{ "@type": "City", name: "Chilliwack", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Fraser Valley Regional District" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-chilliwack/#service", url: SITE.origin + "/mortgage-broker-chilliwack/", areaServed: [{ "@type": "City", name: "Chilliwack", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Fraser Valley Regional District" }] };
 
 const body = `
 ${short({

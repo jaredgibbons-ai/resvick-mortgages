@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-prince-rupert/#service", name: "Resvick Mortgages, serving Prince Rupert", url: SITE.origin + "/mortgage-broker-prince-rupert/", areaServed: [{ "@type": "City", name: "Prince Rupert", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Port Edward" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-prince-rupert/#service", url: SITE.origin + "/mortgage-broker-prince-rupert/", areaServed: [{ "@type": "City", name: "Prince Rupert", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Port Edward" }] };
 
 const body = `
 ${short({
