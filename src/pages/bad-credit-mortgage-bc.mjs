@@ -2,7 +2,7 @@ import { cta, callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
-${short({ answer: "Yes, you can get a mortgage in BC with bad credit. It changes which lender says yes, how much you need down and what it costs. For most people it's a two-year problem, not a permanent one.", who: "Anyone with missed payments, collections, or a past proposal or bankruptcy on their report.", next: "Read the rebuild rule below, then <a href=\"/contact/\">contact Joshua</a> to look at your report together." })}
+${short({ answer: "Yes, you can get a mortgage in BC with bad credit. It changes which lender says yes, how much you need down and what it costs. For most people it's a two-year problem, not a permanent one.", who: "You've got missed payments, collections, a past proposal or a bankruptcy on your report.", next: "Read the rebuild rule below, then <a href=\"/contact/\">get in touch</a> and we'll go through your report together." })}
 
 <h2>Credit changes the lender, not the conversation</h2>
 <p>A low credit score doesn't mean you can't get a mortgage in BC. It means three things are different from what someone with clean credit would see. The lender that approves you changes. So does the down payment you need, and the price you pay.</p>

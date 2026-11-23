@@ -55,7 +55,7 @@ const sections = groups.map(([name, blurb, slugs]) => `<h2 id="${groupId(name)}"
 <ul class="res-list">${slugs.map((s) => `<li><a href="${s}">${label(s)}</a><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">. </span><span>${esc(SPECS[s].meta)}</span></li>`).join("\n")}</ul>`).join("\n");
 
 const body = `
-${short({ answer: "Every guide, calculator and check on this site is listed here, grouped by what's going on in your life. Find the heading that sounds like you and open what fits.", who: "Anyone who isn't sure what to search for, or wants to see everything in one place.", next: "Not sure where to start? Try the <a href=\"/mortgage-check/\">two-minute mortgage check</a>." })}
+${short({ answer: "Every guide, calculator and check on this site is listed here, grouped by what's going on in your life. Find the heading that sounds like you and open what fits.", who: "You aren't sure what to search for, or you want to see everything in one place.", next: "Not sure where to start? Try the <a href=\"/mortgage-check/\">two-minute mortgage check</a>." })}
 
 <p>Not sure what to search for? That's normal. Mortgages have their own words. The question you need answered often has a name you haven't heard yet.</p>
 <p>This page lists every guide on the site in one place. It's sorted by what's going on in your life, not by jargon. Find the heading that sounds like you. Skim the one-line summaries and open whatever fits.</p>

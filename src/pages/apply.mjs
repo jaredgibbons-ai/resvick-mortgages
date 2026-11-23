@@ -98,7 +98,7 @@ ${callout("Ready for the full application?", `<p>If we have already spoken, or y
 <p><a class="btn btn-ghost" href="${SITE.fullApp}" target="_blank" rel="noopener" data-evt="full_app_click">Start the full application</a></p>
 `)}
 
-${short({ answer: "This is a short, easy first step. Six questions, about five minutes. It is not a credit application and asks for nothing sensitive. I read it myself, then we talk.", who: "Anyone buying, renewing, switching or refinancing in BC. Already have an accepted offer? Use the <a href=\"/accepted-offer/\">accepted offer page</a> instead.", next: "Fill in the form below, or <a href=\"/contact/\">book a 15-minute call</a> if you would rather talk first." })}
+${short({ answer: "This is a short, easy first step. Six questions, about five minutes. It is not a credit application and asks for nothing sensitive. I read it myself, then we talk.", who: "You're buying, renewing, switching or refinancing in BC. Already have an accepted offer? Use the <a href=\"/accepted-offer/\">accepted offer page</a> instead.", next: "Fill in the form below, or <a href=\"/contact/\">book a 15-minute call</a> if you would rather talk first." })}
 <h2>What this is, and what it isn't</h2>
 <p>This is the easy version of a mortgage application. It has six short steps and takes about five minutes. You can do it on your phone. It tells me enough about your situation before we talk. That way the first call is about your options, not your postal code.</p>
 <p>It is not a credit application. Nothing here touches your credit report, and nothing gets sent to a lender. I'm not asking for anything a stranger shouldn't have. That means no social insurance number, no date of birth, no account numbers and no documents.</p>

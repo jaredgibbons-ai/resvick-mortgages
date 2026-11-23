@@ -13,7 +13,7 @@ export default {
   body: `
 ${short({
   answer: "On a mortgage with a mainstream lender, the lender pays the broker and you pay nothing. Fees can apply on B-lender and private files. Any fee must be disclosed in writing on BCFSA forms before you commit.",
-  who: "Anyone wondering if using a broker will cost them money, or how a broker is paid.",
+  who: "You're wondering if using a broker will cost you money, or how a broker is paid.",
   next: "Read <a href=\"/how-mortgage-brokers-get-paid/\">how brokers get paid</a>, then ask any broker to show you their lender comparison."
 })}
 <h2>The answer most people get, and the part they do not</h2>

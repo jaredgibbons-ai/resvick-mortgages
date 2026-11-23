@@ -31,7 +31,7 @@ const form = `
 const body = `
 ${short({
   answer: "A mortgage file moves faster when the paperwork is ready before you need it. This free two-page checklist lists what lenders usually ask for, grouped by your situation, with a box to tick beside each item.",
-  who: "Anyone about to get pre-approved, make an offer, renew or refinance in BC.",
+  who: "You're about to get pre-approved, make an offer, renew or refinance in BC.",
   next: "Fill in the short form below. The PDF appears on this page right away."
 })}
 ${form}

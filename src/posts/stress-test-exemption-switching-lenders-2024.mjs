@@ -4,7 +4,7 @@ import { short } from "../lib/short.mjs";
 const body = `
 ${short({
   answer: "Since November 21, 2024, you can move an uninsured mortgage to a new federally regulated lender at renewal without the stress test, if the balance and amortization stay the same. Since December 16, 2024, the same goes for low-ratio insured mortgages, with up to $3,000 of costs allowed on top.",
-  who: "Anyone renewing in the next year who thought the stress test would stop them from switching lenders.",
+  who: "You're renewing in the next year and thought the stress test would stop you from switching lenders.",
   next: "Read the current rule in the <a href=\"/stress-test-exemption-switching-lenders/\">stress-test exemption guide</a>, then compare stay, switch and refinance in the <a href=\"/mortgage-calculators/#renewal\">renewal calculator</a>."
 })}
 <h2>The rule in two sentences</h2>

@@ -12,7 +12,7 @@ const list = (series) => {
 const body = `
 ${short({
   answer: "This is the dated part of the site: Bank of Canada decisions explained the same day, rule changes explained first, and real client questions answered in depth.",
-  who: "Anyone who wants to know what changed, when, and what it means for their mortgage.",
+  who: "You want to know what changed, when, and what it means for your mortgage.",
   next: "Pick a series below. For the current rules, use the <a href=\"/resources/\">resource library</a> instead."
 })}
 <h2>What this section is, and why dates live here</h2>

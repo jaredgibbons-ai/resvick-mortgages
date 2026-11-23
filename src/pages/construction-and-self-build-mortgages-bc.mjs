@@ -4,7 +4,7 @@ import { short } from "../lib/short.mjs";
 const body = `
 ${short({
   answer: "A construction mortgage pays out in stages while the home is built, and you pay interest only on what has been advanced. Expect a bigger down payment, a full review of your plans and builder, and inspections before each draw.",
-  who: "Anyone in BC building a home on land they own or are buying, with a builder or as their own general contractor. Buying a new home that is already built? Start with the <a href='/first-time-home-buyer-bc/'>first-time buyer guide</a>.",
+  who: "You're building a home in BC on land you own or are buying, with a builder or as your own general contractor. Buying a new home that is already built? Start with the <a href='/first-time-home-buyer-bc/'>first-time buyer guide</a>.",
   next: "Book a 15-minute call before you sign a build contract. The lender's rules can change the contract."
 })}
 

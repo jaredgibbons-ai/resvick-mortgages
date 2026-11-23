@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "A bank can only offer its own mortgages. A broker can compare many lenders, and on most mortgages the broker costs you nothing. Sometimes the bank is still the best choice, and a comparison is how you find out.", who: "Anyone deciding between their bank and a mortgage broker, especially first-time buyers.", next: "Get your bank's offer in writing, then <a href=\"/contact/\">ask Joshua</a> for a written comparison." })}
+${short({ answer: "A bank can only offer its own mortgages. A broker can compare many lenders, and on most mortgages the broker costs you nothing. Sometimes the bank is still the best choice, and a comparison is how you find out.", who: "You're deciding between their bank and a mortgage broker, especially first-time buyers.", next: "Get your bank's offer in writing, then <a href=\"/contact/\">ask Joshua</a> for a written comparison." })}
 <h2>The structural difference: one shelf or many</h2>
 <p>A bank sells its own mortgages. At the branch, you might talk to a mortgage specialist or a relationship manager. Either way, they can only offer the products on that bank's shelf. The bank sets the prices and the rules. They may be excellent people with excellent products. They still cannot show you what the bank across the street would do.</p>
 <p>A mortgage broker works differently. A broker is licensed to arrange mortgages and can place one with any of the lenders the brokerage works with. Joshua Resvick is a broker with Xeva Mortgage, so he is not tied to a single lender. He doesn't fit you to one product. He looks for the lender whose rules and terms fit your situation. Then he puts the options side by side so you can see them.</p>
@@ -27,7 +27,7 @@ ${short({ answer: "A bank can only offer its own mortgages. A broker can compare
 <p>The advice model differs too. A bank employee advises within the bank's products. A broker advises across lenders and is paid when the mortgage funds. Both have incentives, and neither is neutral. The right question is whether the incentives are disclosed and whether you can verify the advice. Brokers in BC must disclose how they are paid in writing, and a written comparison lets you check the recommendation.</p>
 
 <h2>Cost</h2>
-<p>On a mortgage placed with an A lender, the lender pays the broker, and you pay nothing for the broker's service. Fees to the borrower arise only on some B-lender and private files, and they are disclosed in writing before you commit. The details, including what BC rules prohibit, are on the page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>. Cost is therefore usually not a reason to choose the bank over a broker.</p>
+<p>On a mortgage placed with an A lender, the lender pays the broker, and you pay nothing for the broker's service. Fees to the borrower arise only on some B-lender and private files, and they are disclosed in writing before you commit. The details, including what BC rules prohibit, are on the page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>. So cost usually isn't a reason to pick the bank over a broker.</p>
 
 ${cta({ title: "See what the market would offer you", text: "A 15-minute call is enough to tell whether a broker's comparison could change your decision, whatever you decide afterwards." })}
 

@@ -7,7 +7,7 @@ ${short({
   who: "First-time buyers in BC who want the whole process on one page, in the right order.",
   next: "See what your income can support with the <a href=\"/how-much-mortgage-can-i-afford/\">affordability guide</a>, then book a 15-minute call if you want a real pre-approval."
 })}
-<h2>The BC first-buyer landscape in one map</h2>
+<h2>First-time buyer programs in BC, at a glance</h2>
 <p>Buying your first home in BC is really four things stacked together. Most of the confusion comes from treating them as one. There's the mortgage itself, which decides how much you can borrow and what the monthly payment looks like. There's the cash you need on day one, which is your down payment plus closing costs. There are the federal programs that help you save or cut what you pay. And there's one provincial tax, the BC property transfer tax, which has its own first-time buyer exemption.</p>
 <p>Here's what catches people out. Each layer has its own rules, and its own idea of who counts as a first-time buyer. That's not a typo. The FHSA, the Home Buyers' Plan, the GST rebate on new homes and the BC transfer tax exemption each use a different test. You can pass three and fail the fourth. The <a href="/first-time-buyer-programs-bc/">first-time buyer programs and stacking guide</a> sets the four tests side by side so you can check yourself against each one.</p>
 <p>Think of this page as the map. It tells you what each piece is, what order to tackle them in, and where to go for the detail. Joshua Resvick wrote it. He's been a BC mortgage broker for ten years, after five years as an underwriter. The goal is simple: you walk into your first talk with a lender or realtor already knowing how the process works. You don't need to memorize any of it. You just need to know what to ask.</p>
@@ -32,7 +32,7 @@ ${short({
 
 ${cta({ title: "Not sure which number to start with?", text: "Book a 15-minute call. Joshua will go through your savings, income and timeline and tell you which of these steps actually matter for you." })}
 
-<h2>Pre-approval, done properly</h2>
+<h2>Getting pre-approved: what a lender actually checks</h2>
 <p>A pre-approval is the point where a lender actually reads your file. It isn't a rate quote. It isn't a prequalification either, which is often just math on numbers you typed in yourself. A proper pre-approval checks your income documents, your credit and where your down payment came from. Then it tells you the price range you can shop in. It doesn't guarantee the final mortgage, because the property still has to pass the lender's review.</p>
 <p>Why do it before you start viewing homes? Knowing your real number changes which homes you look at. It also lets you move fast when the right one shows up. <a href="/mortgage-pre-approval-bc/">The pre-approval guide</a> explains what gets verified, what doesn't, and which documents to bring. The <a href="/mortgage-application-checklist/">application checklist</a> covers the six problems that most often sink applications. Check your own file before anyone else does.</p>
 
@@ -47,7 +47,7 @@ ${cta({ title: "Not sure which number to start with?", text: "Book a 15-minute c
 <li><strong>Prepare for completion.</strong> Your lawyer or notary (see the <a href="/partners/">partners page</a> for people I know) collects the down payment, the transfer tax and the closing costs, registers the transfer and releases the keys.</li>
 </ol>
 
-<h2>Common first-buyer mistakes</h2>
+<h2>Mistakes I see first-time buyers make</h2>
 <p>These come up again and again, and nearly all of them are avoidable.</p>
 <ul>
 <li><strong>Budgeting only for the down payment.</strong> Closing costs are separate and due at the same time.</li>
@@ -65,7 +65,7 @@ ${cta({ title: "Not sure which number to start with?", text: "Book a 15-minute c
 
 ${callout("The rule worth remembering", "<p>Federal programs help you save and borrow. The provincial exemption reduces a tax. None of them lowers the price of the home, and each one has its own conditions. Check each one separately before you write an offer, not after.</p>")}
 
-${cta({ title: "Plan your first purchase with someone who reads files like an underwriter", text: "Book a 15-minute call, or start with the affordability calculator. Either way, you'll leave with a number and a next step." })}
+${cta({ title: "Planning your first purchase? I'll read your file the way a lender will.", text: "Book a 15-minute call, or start with the affordability calculator. Either way, you'll leave with a number and a next step." })}
 `;
 
 export default {

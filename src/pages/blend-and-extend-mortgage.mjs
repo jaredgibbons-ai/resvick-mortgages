@@ -2,7 +2,7 @@ import { cta, callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
-${short({ answer: "A blend-and-extend mixes your current rate with today's rate and starts a longer term with the same lender. There's no penalty, but you only get part of today's rate and you're tied in longer.", who: "Anyone with a rate above today's rates who wants a lower payment before maturity.", next: "Compare blend, break and wait with the <a href=\"/refinance-break-even/\">break-even calculator</a>, then <a href=\"/contact/\">ask Joshua</a> to model it." })}
+${short({ answer: "A blend-and-extend mixes your current rate with today's rate and starts a longer term with the same lender. There's no penalty, but you only get part of today's rate and you're tied in longer.", who: "You have a rate above today's rates who wants a lower payment before maturity.", next: "Compare blend, break and wait with the <a href=\"/refinance-break-even/\">break-even calculator</a>, then <a href=\"/contact/\">ask Joshua</a> to model it." })}
 
 <h2>What blending is</h2>
 <p>Say your mortgage has two years left, at a rate higher than today's rates. You'd like the lower payment now, not at maturity. Breaking the mortgage would trigger a prepayment penalty.</p>

@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "Renewing with your current lender is often still possible, because same-lender renewals usually skip a new income check. Switching is different. A new lender checks your income, and the stress-test exemption doesn't change that. Whatever you do, don't let the term end unsigned.", who: "Anyone who lost their job or income before a mortgage renewal, or expects to.", next: "Confirm your own lender's renewal terms first, then read about <a href=\"/switch-mortgage-lenders-at-renewal/\">switching lenders at renewal</a>." })}
+${short({ answer: "Renewing with your current lender is often still possible, because same-lender renewals usually skip a new income check. Switching is different. A new lender checks your income, and the stress-test exemption doesn't change that. Whatever you do, don't let the term end unsigned.", who: "You lost your job or income before a mortgage renewal, or you expect to.", next: "Confirm your own lender's renewal terms first, then read about <a href=\"/switch-mortgage-lenders-at-renewal/\">switching lenders at renewal</a>." })}
 
 <h2>The short answer has two tracks</h2>
 <p>Maybe you've lost your job, or your income dropped, and your mortgage is up for renewal. The answer depends on which lender holds the mortgage next. Staying with your current lender and switching to a new one are treated differently. People get conflicting answers because they're really answering different questions.</p>

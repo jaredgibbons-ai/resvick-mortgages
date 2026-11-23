@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "Rent-to-own lets you rent a home now with the right to buy it later at a set price. It's legal in BC, but many deals fail. The buyer can't qualify for the mortgage at the end, or the appraisal comes in low, and the option fee and rent credits are lost. Get legal advice before you sign.", who: "Anyone who's been offered a rent-to-own deal because they can't qualify for a mortgage today.", next: "Check whether a normal purchase is closer than you think in the <a href=\"/first-time-home-buyer-bc/\">first-time home buyer guide</a>." })}
+${short({ answer: "Rent-to-own lets you rent a home now with the right to buy it later at a set price. It's legal in BC, but many deals fail. The buyer can't qualify for the mortgage at the end, or the appraisal comes in low, and the option fee and rent credits are lost. Get legal advice before you sign.", who: "You've been offered a rent-to-own deal because you can't qualify for a mortgage today.", next: "Check whether a normal purchase is closer than you think in the <a href=\"/first-time-home-buyer-bc/\">first-time home buyer guide</a>." })}
 
 <h2>What rent-to-own actually is</h2>
 <p>Rent-to-own means you rent a home now, with the right to buy it later at a price fixed in advance. Sometimes you're required to buy. You usually pay an up-front option fee. Your monthly rent is higher than market, and part of each payment is credited toward the purchase. At the end of the term, usually two to five years, you get a mortgage and buy the home at the agreed price. The credits you built up go toward the down payment.</p>

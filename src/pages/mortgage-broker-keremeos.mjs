@@ -13,12 +13,12 @@ ${short({
   next: "Book a 15-minute call and tell Joshua where you are moving from and how you are paid."
 })}
 <p>Keremeos sits beside the Similkameen River, about 45 km south of Penticton. (The Canadian Encyclopedia, Keremeos, read October 2026). The Village calls itself the Orchard Village and says nearly a third of its area is orchards. (Village of Keremeos, Our Community, read October 2026). Fruit stands line the highway, and the valley floor is farmland. A mortgage here often comes with a farm, a farm paycheque, or a move from somewhere bigger.</p>
-<p>Joshua Resvick is a BC mortgage broker with Xeva Mortgage. Before he started brokering, he spent five years as a lender's underwriter, so he knows what a lender's desk looks for in a file. He works from his Surrey office and serves Keremeos by phone and video. There is no Keremeos branch. You can <a href="/contact/">book a 15-minute call</a> from your porch or your truck.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I work from my Surrey office and help Keremeos clients by phone and video. There is no Keremeos branch. You can <a href="/contact/">book a 15-minute call</a> from your porch or your truck.</p>
 
 ${ratesStrip()}
 
 <h2>Moving to Keremeos: buying a home before or after you arrive</h2>
-<p>Many people who search for buying a home in Keremeos do not live here yet. Some are retirees who fell for the sunshine. Some have a seasonal job on an orchard or at a winery. Others have sold in Kelowna or the Lower Mainland and want land for less money. Moving to Keremeos brings a few mortgage questions that a local buyer does not face.</p>
+<p>A lot of people looking at Keremeos don't live here yet. Some are retirees who fell for the sunshine. Some have a seasonal job on an orchard or at a winery. Others have sold in Kelowna or the Lower Mainland and want land for less money. Moving to Keremeos brings a few mortgage questions that a local buyer does not face.</p>
 <p>Here is an order that tends to work:</p>
 <ol>
 <li><strong>Get pre-approved before you visit.</strong> It tells you which price range to search and holds a rate for a set time. The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> lists what lenders ask for.</li>
@@ -79,12 +79,12 @@ ${censusTable("keremeos")}
 <p>Many searches say Keremeos but mean the wider valley. Cawston sits about five minutes away on Highway 3A and calls itself the Organic Farming Capital of Canada. (Similkameen Valley, Cawston community page, read October 2026). Rural Keremeos, Hedley and Olalla together make up Electoral Area G. (Regional District of Okanagan-Similkameen, Housing Needs Report 2024, read October 2026).</p>
 <p>Joshua serves all of them. The first question on a rural property is which government's rules apply, the Village or the regional district. Many buyers also price homes in other towns. The <a href="/mortgage-broker-penticton/">Penticton page</a> covers the South Okanagan, and the <a href="/mortgage-broker-princeton/">Princeton page</a> covers the town about a 40-minute drive west. (Village of Keremeos, Area Attractions, read October 2026).</p>
 
-<h2>How Joshua works with Keremeos clients</h2>
+<h2>How I work with Keremeos clients</h2>
 <ol>
-<li><strong>Asks how you are paid first.</strong> Wages, seasonal work, a farm, a pension or sale proceeds all point to different lenders.</li>
-<li><strong>Checks the property early.</strong> He asks about ALR status, well and septic, and whether it is a pad home or has a suite. These facts steer the lender choice before you fall in love with a house.</li>
-<li><strong>Writes the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
-<li><strong>Stays in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
+<li><strong>I ask how you are paid first.</strong> Wages, seasonal work, a farm, a pension or sale proceeds all point to different lenders.</li>
+<li><strong>I check the property early.</strong> I ask about ALR status, well and septic, and whether it is a pad home or has a suite. These facts steer the lender choice before you fall in love with a house.</li>
+<li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
+<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Keremeos files, such as pad homes, new farm income or working orchards, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}

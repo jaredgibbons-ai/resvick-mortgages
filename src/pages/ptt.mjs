@@ -3,7 +3,7 @@ import { TOOLS } from "../lib/tools.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "BC property transfer tax is 1 percent on the first $200,000 and 2 percent up to $2 million, with higher rates above that. Eligible first-time buyers save up to $8,000 on homes up to $835,000, and newly built homes can be fully exempt up to $1.1 million.", who: "Anyone buying in BC who wants to know the tax due on completion day.", next: "Enter your price in the calculator below, then plan the rest of your cash with the <a href=\"/closing-costs-bc/\">BC closing costs guide</a>." })}
+${short({ answer: "BC property transfer tax is 1 percent on the first $200,000 and 2 percent up to $2 million, with higher rates above that. Eligible first-time buyers save up to $8,000 on homes up to $835,000, and newly built homes can be fully exempt up to $1.1 million.", who: "You're buying in BC and want to know the tax due on completion day.", next: "Enter your price in the calculator below, then plan the rest of your cash with the <a href=\"/closing-costs-bc/\">BC closing costs guide</a>." })}
 
 <h2>Calculate your BC property transfer tax</h2>
 <p>The property transfer tax is a one-time tax paid to the Province of British Columbia when a property changes hands. It's due when the transfer is registered at the land title office. Your lawyer or notary collects it from you as part of your closing funds. It's one of the biggest costs on completion that buyers forget to plan for. For many first-time buyers, it can be reduced or removed.</p>

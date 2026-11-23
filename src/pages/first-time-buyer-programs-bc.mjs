@@ -4,7 +4,7 @@ import { short } from "../lib/short.mjs";
 const body = `
 ${short({
   answer: "Four programs can help a first-time buyer in BC: the FHSA, the Home Buyers' Plan, the GST rebate on new homes and the BC transfer tax exemption. Each one has its own test, so you can pass one and fail another.",
-  who: "Anyone buying their first home in BC who wants to know which programs they can use, and in what order.",
+  who: "You're buying your first home in BC and want to know which programs you can use, and in what order.",
   next: "Check your transfer tax with the <a href=\"/bc-property-transfer-tax-calculator/\">BC property transfer tax calculator</a>, then read the four tests below."
 })}
 <h2>The stack at a glance</h2>

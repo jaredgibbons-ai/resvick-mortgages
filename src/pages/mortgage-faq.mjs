@@ -4,7 +4,7 @@ import { cta } from "../lib/site.mjs";
 const body = `
 ${short({
   answer: "Twenty-six plain answers to the questions BC buyers, renewers and refinancers ask most. Each one links to the page that goes deeper.",
-  who: "Anyone who wants a straight answer before booking a call, or who is comparing brokers.",
+  who: "You want a straight answer before you book a call, or you're comparing brokers.",
   next: "Find your question below, or <a href=\"/contact/\">book a 15-minute call</a> if yours isn't here."
 })}
 <h2>How to use this page</h2>

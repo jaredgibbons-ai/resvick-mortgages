@@ -3,10 +3,10 @@ import { TOOLS } from "../lib/tools.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
-${short({ answer: "Yes. A car payment counts as debt, and the stress test magnifies it. Once your debts are the limit, each $100 a month can cut your approval by roughly $15,000 to $17,000.", who: "Anyone car-shopping while home-shopping. Not planning a car? Read the <a href='/how-much-mortgage-can-i-afford/'>affordability guide</a> instead.", next: "Test your own payment in the <a href='/mortgage-calculators/#affordability'>affordability calculator</a>." })}
+${short({ answer: "Yes. A car payment counts as debt, and the stress test magnifies it. Once your debts are the limit, each $100 a month can cut your approval by roughly $15,000 to $17,000.", who: "You're car-shopping while home-shopping. Not planning a car? Read the <a href='/how-much-mortgage-can-i-afford/'>affordability guide</a> instead.", next: "Test your own payment in the <a href='/mortgage-calculators/#affordability'>affordability calculator</a>." })}
 <h2>The direct answer</h2>
 <p>Yes, a car loan or lease affects your mortgage, and it can affect it a lot. A lender adds your car payment to your other monthly debts. It uses them to work out your total debt service ratio. Every dollar you owe on a vehicle is a dollar the lender cannot count toward your mortgage payment. The mortgage payment is calculated at the stress-test rate. So each dollar of car payment removes far more than a dollar's worth of mortgage.</p>
-<p>The size of the effect surprises almost everyone. Roughly speaking, once your debts are the limit, each $100 of monthly car payment cuts your approval by about $15,000 to $17,000. A $600 payment can therefore cut an approval by something in the range of $90,000 to $100,000.</p>
+<p>The size of the effect surprises almost everyone. Roughly speaking, once your debts are the limit, each $100 of monthly car payment cuts your approval by about $15,000 to $17,000. So a $600 payment can cut your approval by roughly $90,000 to $100,000.</p>
 
 <h2>How lenders count the payment: the two ratios</h2>
 <p>Lenders test two ratios against your gross income, which is your income before tax. The gross debt service ratio (GDS) counts housing costs only. Those are the mortgage payment, property tax, heat and, for a strata unit, a share of the fees. It is capped at 39 percent.</p>

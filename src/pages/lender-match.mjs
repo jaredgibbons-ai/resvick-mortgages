@@ -7,7 +7,7 @@ ${quizEmbed("lendermatch")}
 
 ${short({
   answer: "Seven sliders on what you want from a mortgage. The result names the kind of lender and the kind of rate that tend to fit those priorities. It isn't scored, and there's no form.",
-  who: "Anyone comparing lenders who wants to sort out their own priorities first.",
+  who: "You're comparing lenders and want to sort out your own priorities first.",
   next: "Move the sliders below, then read the <a href=\"/fixed-vs-variable-mortgage/\">fixed versus variable guide</a> if your result raises that question."
 })}
 

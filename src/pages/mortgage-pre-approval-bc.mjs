@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "A real pre-approval means a lender has checked your income, credit and down payment and will lend you a set amount at a rate it holds. A quick online estimate isn't the same thing. The property still has to be approved later.", who: "Anyone getting ready to make an offer on a home in BC, especially first-time buyers.", next: "Gather the documents on the <a href=\"/mortgage-application-checklist/\">application checklist</a>, then book a 15-minute call." })}
+${short({ answer: "A real pre-approval means a lender has checked your income, credit and down payment and will lend you a set amount at a rate it holds. A quick online estimate isn't the same thing. The property still has to be approved later.", who: "You're getting ready to make an offer on a home in BC, especially first-time buyers.", next: "Gather the documents on the <a href=\"/mortgage-application-checklist/\">application checklist</a>, then book a 15-minute call." })}
 <h2>Three things people call a pre-approval</h2>
 <p>The word gets used loosely. The difference matters when you're about to make an offer. Three different things are commonly described as a pre-approval, and only one of them is the real thing.</p>
 <ul>

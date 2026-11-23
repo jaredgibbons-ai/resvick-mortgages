@@ -14,7 +14,7 @@ const penIrd = RM.penalty({ balance: 400000, contractPct: 5, monthsRemaining: 24
 const body = `
 ${short({
   answer: "Every client gets a written side-by-side of real lender options: rate, term, penalty method, prepayment privileges and portability. You see the trade-offs before you choose.",
-  who: "Anyone buying, renewing or refinancing who wants more than one lender's quote.",
+  who: "You're buying, renewing or refinancing and want more than one lender's quote.",
   next: "Book a 15-minute strategy call. That's where your report starts."
 })}
 <h2>Why one quote is not a market</h2>

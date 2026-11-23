@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "Porting moves your mortgage, rate and remaining term to your new home with no penalty. It isn't automatic. You still have to qualify again, and the new mortgage usually blends your old rate with today's rate if it's bigger.", who: "Anyone selling and buying with time left on a fixed or variable term.", next: "Ask your lender if your mortgage is portable and what the window is, then price the break with the <a href=\"/mortgage-penalty-calculator/\">penalty calculator</a>." })}
+${short({ answer: "Porting moves your mortgage, rate and remaining term to your new home with no penalty. It isn't automatic. You still have to qualify again, and the new mortgage usually blends your old rate with today's rate if it's bigger.", who: "You're selling and buying with time left on a fixed or variable term.", next: "Ask your lender if your mortgage is portable and what the window is, then price the break with the <a href=\"/mortgage-penalty-calculator/\">penalty calculator</a>." })}
 
 <h2>Your situation</h2>
 <p>You're two years into a five-year fixed mortgage, at a rate you were happy to get. Now you need to move. Maybe it's a new job in another city, a growing family, a downsize or a separation. Breaking the mortgage would mean a prepayment penalty that could run to five figures.</p>

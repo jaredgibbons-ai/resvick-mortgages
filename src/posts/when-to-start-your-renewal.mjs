@@ -13,7 +13,7 @@ export default {
   body: `
 ${short({
   answer: "Start about six months before your maturity date. Most lenders open the renewal window about 120 days out, and the renewal letter must reach you at least 21 days before. If you wait for the letter, you've given away most of your time to compare.",
-  who: "Anyone with a mortgage maturing in the next year, especially if you were planning to wait for the letter.",
+  who: "You have a mortgage maturing in the next year, especially if you were planning to wait for the letter.",
   next: "Sign up for the <a href=\"/mortgage-renewal-reminder/\">free renewal reminder</a>, or run your numbers in the <a href=\"/mortgage-calculators/#renewal\">renewal comparison calculator</a>."
 })}
 <h2>The short answer and the reason behind it</h2>

@@ -13,7 +13,7 @@ export default {
   body: `
 ${short({
   answer: "It can. A $600 car payment can cut your approval by about $90,000 to $100,000, but only once your total debts are what's holding you back. The first few hundred dollars of debt often costs little or nothing.",
-  who: "Anyone buying a home who has a car loan or lease, or is thinking about getting one.",
+  who: "You're buying a home and have a car loan or lease, or you're thinking about getting one.",
   next: "Run the <a href=\"/mortgage-calculators/#affordability\">affordability calculator</a> with and without the car payment."
 })}
 <h2>The claim, stated carefully</h2>

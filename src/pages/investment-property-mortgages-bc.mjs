@@ -7,7 +7,7 @@ const tool = TOOLS.offset ? TOOLS.offset() : "";
 const body = `
 ${short({
   answer: "A rental you won't live in usually needs at least 20 percent down. Lenders count only part of the rent, using one of two methods. And the number of rentals you own can change which lender you need.",
-  who: "Anyone buying a first rental, growing a portfolio, or adding a suite to a home they live in.",
+  who: "You're buying a first rental, growing a portfolio, or adding a suite to a home you live in.",
   next: "Run your rent through the comparator below, then book a 15-minute call to map the lender for each purchase."
 })}
 <h2>Rental mortgages start from a different set of rules</h2>

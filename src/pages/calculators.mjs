@@ -5,7 +5,7 @@ import { short } from "../lib/short.mjs";
 const soon = (id, title, text) => `<section class="tool soon" id="${id}" aria-labelledby="${id}-h"><h3 id="${id}-h">${title}</h3><p class="small">${text}</p><p class="honest"><strong>In development.</strong> This tool is not live yet. Joshua can run the same numbers with you on a <a href="/contact/">call</a>.</p></section>`;
 
 const body = `
-${short({ answer: "These free calculators work out your payment, what you can borrow, your cash needs and what leaving a mortgage early would cost. Results show right away, and nothing you type leaves your browser.", who: "Anyone buying, renewing or refinancing in BC. Not sure which tool you need? Try the <a href='/mortgage-check/'>two-minute check</a>.", next: "Pick your situation in the list below and open the tool that fits." })}
+${short({ answer: "These free calculators work out your payment, what you can borrow, your cash needs and what leaving a mortgage early would cost. Results show right away, and nothing you type leaves your browser.", who: "You're buying, renewing or refinancing in BC. Not sure which tool you need? Try the <a href='/mortgage-check/'>two-minute check</a>.", next: "Pick your situation in the list below and open the tool that fits." })}
 <h2>Calculators built on published rules</h2>
 <p>These tools cover the numbers behind a mortgage decision. They show what the payment will be and how much you may be able to borrow. They also show what you need in cash and what leaving a mortgage early would cost.</p>
 <p>They are free to use and show the whole result at once. They ask for no email address. Nothing you type is sent anywhere or stored. Your own browser does all the math.</p>

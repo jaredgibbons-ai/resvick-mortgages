@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "Most closed mortgages let you pay extra each year with no penalty, through lump sums and payment increases. Go past those limits, or leave early, and a penalty applies. Renewal is the best time for a big payment, because it's usually penalty-free.", who: "Anyone choosing a mortgage, or planning to put a bonus, inheritance or savings against it.", next: "See what extra payments save in the <a href=\"/mortgage-calculators/#prepayment\">prepayment calculator</a>." })}
+${short({ answer: "Most closed mortgages let you pay extra each year with no penalty, through lump sums and payment increases. Go past those limits, or leave early, and a penalty applies. Renewal is the best time for a big payment, because it's usually penalty-free.", who: "You're choosing a mortgage, or planning to put a bonus, inheritance or savings against it.", next: "See what extra payments save in the <a href=\"/mortgage-calculators/#prepayment\">prepayment calculator</a>." })}
 
 <h2>Why this belongs on your list before you sign</h2>
 <p>When you choose a mortgage, everyone talks about the rate. Two other features shape what the mortgage is like to live with, and they get far less attention. The first is how much extra you can pay each year with no penalty. The second is what it costs to pay more than that, or to leave early.</p>

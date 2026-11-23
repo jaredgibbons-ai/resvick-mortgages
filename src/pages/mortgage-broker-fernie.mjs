@@ -13,7 +13,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua how you are paid and whether the home will be a full-time home or a second home."
 })}
 <p>Fernie sits in the Elk Valley in the southeast corner of BC. The City says Sparwood is 31 km away, Cranbrook about an hour and Calgary about three hours (City of Fernie, Getting to Fernie, read October 2026). Fernie has two big income engines, coal mining and skiing, and a lot of second homes. That mix shapes the mortgage files here.</p>
-<p>Joshua Resvick is a BC mortgage broker with Xeva Mortgage. Before he started brokering, he spent five years as a lender's underwriter, so he knows what a lender's desk looks for in a file. He works from his Surrey office and serves Fernie by phone and video. There is no Fernie branch. You can <a href="/contact/">book a 15-minute call</a> from home, a camp or a chairlift line.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I work from my Surrey office and help Fernie clients by phone and video. There is no Fernie branch. You can <a href="/contact/">book a 15-minute call</a> from home, a camp or a chairlift line.</p>
 
 ${ratesStrip()}
 
@@ -60,12 +60,12 @@ ${censusTable("fernie")}
 <h2>Local housing projects</h2>
 <p>Several housing projects are moving ahead. The Province reported 49 affordable rental homes opened at North End Court in May 2024 (Province of BC, New affordable homes open in Fernie, May 31, 2024, read October 2026). A 27-unit project with child care began construction in March 2026 (City of Fernie, Groundbreaking for childcare centre and affordable homes, March 23, 2026, read October 2026). These are rentals, not homes for sale, but they may ease pressure over time. They do not predict prices.</p>
 
-<h2>How Joshua works with Fernie clients</h2>
+<h2>How I work with Fernie clients</h2>
 <ol>
-<li><strong>Asks how you are paid first.</strong> Mine pay, resort pay, remote work or a business each point to different lenders.</li>
-<li><strong>Checks the property early.</strong> He asks about strata or freehold, any suite, hazard areas and covenants on title. These facts steer the lender choice before you fall in love with a house.</li>
-<li><strong>Writes the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
-<li><strong>Stays in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
+<li><strong>I ask how you are paid first.</strong> Mine pay, resort pay, remote work or a business each point to different lenders.</li>
+<li><strong>I check the property early.</strong> I ask about strata or freehold, any suite, hazard areas and covenants on title. These facts steer the lender choice before you fall in love with a house.</li>
+<li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
+<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Fernie files, such as a second home with rental income, new self-employed income or a unit in a rental pool, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}

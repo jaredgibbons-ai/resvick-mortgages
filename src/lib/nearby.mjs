@@ -33,5 +33,5 @@ export const nearbyCallout = (k, callout) => {
   if (!near) return "";
   const names = near.map(link);
   const list = names.length === 1 ? names[0] : names.slice(0, -1).join(", ") + " and " + names[names.length - 1];
-  return callout("Nearby", `<p>Joshua also serves ${list}. Each page covers the local incomes, housing and lender questions for that town. He works from his Surrey office by phone, video and secure upload, wherever you live in BC.</p>`);
+  return callout("Nearby", `<p>I also work with clients in ${list}. Pick your town. Each page covers local incomes, housing and what lenders ask there. I work from my Surrey office by phone, video and secure upload, so it doesn't matter where in BC you live.</p>`);
 };

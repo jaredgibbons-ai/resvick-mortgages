@@ -3,7 +3,7 @@ import { TOOLS } from "../lib/tools.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "On a fixed mortgage, the penalty is usually the bigger of three months' interest or the interest rate differential (IRD). How your lender works out the IRD can triple the number. This tool gives you a range.", who: "Anyone thinking about selling, refinancing or leaving their lender before the term ends.", next: "Run the estimator below, then ask your lender for a written penalty quote with the method named." })}
+${short({ answer: "On a fixed mortgage, the penalty is usually the bigger of three months' interest or the interest rate differential (IRD). How your lender works out the IRD can triple the number. This tool gives you a range.", who: "You're thinking about selling, refinancing or leaving their lender before the term ends.", next: "Run the estimator below, then ask your lender for a written penalty quote with the method named." })}
 <h2>Estimate your mortgage prepayment penalty</h2>
 <p>A prepayment penalty is the fee a lender charges when you pay off a mortgage early, in full or in part. People run into it for ordinary reasons. They sell the home, refinance to a better rate, pay off debt, or leave a lender with a poor renewal offer. The amount can be small or large. You almost never see it until you ask.</p>
 <p>This estimator gives you a range, not a single number. That's because the answer depends on a method your lender chooses. Enter what you know. Add the optional rates to see both versions of the interest rate differential.</p>

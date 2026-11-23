@@ -58,8 +58,8 @@ ${cta({ title: "Four months out? That's the moment.", text: "Book a 15-minute ca
 <h2>Renewing a rental property</h2>
 <p>Landlords face the same timeline, with a few extra conditions. Lenders treat rental income differently. They often look at your whole portfolio. And choosing between renewing and refinancing can have tax effects. Joshua covers all of it on the page about <a href="/rental-property-mortgage-renewal/">renewing a mortgage on a rental property</a>.</p>
 
-<h2>The aftercare runway</h2>
-<p>The best renewals are planned long before the letter shows up. That's the whole point of Joshua's <a href="/mortgage-aftercare-program/">aftercare program</a>. Here's what it includes:</p>
+<h2>I'll check in before your renewal</h2>
+<p>The best renewals are planned long before the letter shows up. That's the point of my <a href="/mortgage-aftercare-program/">aftercare program</a>. Here's what it includes:</p>
 <ul>
 <li>A yearly review of your mortgage against your goals.</li>
 <li>An eye on your renewal window.</li>
@@ -71,8 +71,8 @@ ${cta({ title: "Four months out? That's the moment.", text: "Book a 15-minute ca
 
 ${callout("Illustrative figures", "<p>The payment and interest examples on this page use sample balances and rates to make a point. They aren't quotes. Your lender's figures, and the rates available to you on the day, will differ.</p>")}
 
-<h2>Who wrote this</h2>
-<p>Joshua Resvick is a BC mortgage broker. He has ten years as a broker, five years as an underwriter before that, and over 1,000 mortgages funded. He writes these pages for people whose payment might be about to change. They'd like to understand their options before picking one.</p>
+<h2>Who's behind this page</h2>
+<p>I'm Joshua Resvick, a BC mortgage broker. I spent five years as an underwriter, then ten as a broker, and I've funded over 1,000 mortgages. I write these pages for people whose payment might be about to change. They'd like to understand their options before picking one.</p>
 `;
 
 export default {

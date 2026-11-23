@@ -5,7 +5,7 @@ import { short } from "../lib/short.mjs";
 const body = `
 ${short({
   answer: "On October 28, 2026, the Bank of Canada raised its policy rate by 0.25 points to 2.50 percent. Prime at the big banks went from 4.45 to 4.70 percent the next day. Adjustable-rate payments rise. Static-payment variable mortgages pay down more slowly.",
-  who: "Anyone with a variable-rate mortgage, anyone renewing before the end of 2027, and anyone shopping for a fixed rate.",
+  who: "You have a variable-rate mortgage, you're renewing before the end of 2027, or you're shopping for a fixed rate.",
   next: "Check which kind of variable you have, then run the <a href=\"/mortgage-calculators/#payment\">payment calculator</a> with your balance."
 })}
 <h2>What the Bank decided</h2>

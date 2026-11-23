@@ -4,7 +4,7 @@ import { short } from "../lib/short.mjs";
 const body = `
 ${short({
   answer: "Downsizing is a mortgage event too. Work out your sale proceeds first. Then decide how to cover the gap between closings, whether to port your rate, and whether the next home should be mortgage-free.",
-  who: "Anyone in BC selling a family home to buy something smaller. Thinking about unlocking equity instead? Read the <a href='/reverse-mortgage-bc/'>reverse mortgage page</a>.",
+  who: "You're in BC and selling a family home to buy something smaller. Thinking about unlocking equity instead? Read the <a href='/reverse-mortgage-bc/'>reverse mortgage page</a>.",
   next: "Run the <a href='/mortgage-calculators/#sale-proceeds'>sale proceeds calculator</a>, then book a 15-minute call."
 })}
 

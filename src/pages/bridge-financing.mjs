@@ -2,7 +2,7 @@ import { cta, callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
-${short({ answer: "A bridge loan lends you the equity from your old home, for days or weeks, so you can close on the new one first. It is repaid when your sale closes. Your sale must be firm.", who: "Anyone buying a home before selling the current one. Dates that line up? You may not need a bridge at all.", next: "<a href=\"/contact/\">Book a 15-minute call</a> before you write the offer, so we can map both completion dates." })}
+${short({ answer: "A bridge loan lends you the equity from your old home, for days or weeks, so you can close on the new one first. It is repaid when your sale closes. Your sale must be firm.", who: "You're buying a home before selling the current one. Dates that line up? You may not need a bridge at all.", next: "<a href=\"/contact/\">Book a 15-minute call</a> before you write the offer, so we can map both completion dates." })}
 <h2>The overlap problem</h2>
 <p>Most people who own a home and buy another face the same timing question. The purchase and the sale rarely complete on the same day. If the purchase completes first, the down payment is still tied up in the old home. The equity only becomes cash when the sale closes.</p>
 <p>Bridge financing is the short-term loan that covers that gap. It advances the equity from your sale so you can complete the purchase. It is repaid in full when the sale closes, usually days or weeks later.</p>

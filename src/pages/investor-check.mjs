@@ -7,7 +7,7 @@ ${quizEmbed("investor")}
 
 ${short({
   answer: "Ten questions on your reserves, plan, finances and experience. You get a score, a band and the one thing to work on, right on the page.",
-  who: "Anyone thinking about buying a rental property, first or fifth.",
+  who: "You're thinking about buying a rental property, first or fifth.",
   next: "Take the check below. Then read the <a href=\"/investment-property-mortgages-bc/\">investment property guide</a> for the details."
 })}
 

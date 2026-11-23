@@ -4,7 +4,7 @@ import { cta, callout, SITE } from "../lib/site.mjs";
 const body = `
 ${short({
   answer: "Your online application is a first step, not a credit application. Joshua reads it himself, books a short call, then asks for documents through a secure link. You see a written comparison of lender options before you decide anything.",
-  who: "Anyone thinking about filling in the application form, or who just sent one.",
+  who: "You're thinking about filling in the application form, or you just sent one.",
   next: "Read the steps below. When you are ready, start the application, or book a 15-minute call."
 })}
 <h2>Why this page exists</h2>

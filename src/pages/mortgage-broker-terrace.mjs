@@ -13,7 +13,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua when you arrive and how you are paid."
 })}
 <p>Terrace sits on the Skeena River where Highway 16 meets Highway 37. It is the hub for a wide stretch of the northwest. Kitimat is about 63 km south on Highway 37. (Wikipedia, Kitimat, read October 2026). That reach is why people move to Terrace for work, and why they often arrive in a hurry.</p>
-<p>Joshua Resvick is a BC mortgage broker with Xeva Mortgage. Before he started brokering, he spent five years as a lender's underwriter, so he knows what a lender's desk looks for in a file. More than 1,000 mortgages have been funded through him. He works from his Surrey office and serves Terrace by phone, video and secure document upload. There is no Terrace branch. You can <a href="/contact/">book a 15-minute call</a> before you pack a single box.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. More than 1,000 mortgages have been funded through him. I work from my Surrey office and help Terrace clients by phone, video and secure document upload. There is no Terrace branch. You can <a href="/contact/">book a 15-minute call</a> before you pack a single box.</p>
 
 ${ratesStrip()}
 
@@ -49,7 +49,7 @@ ${censusTable("terrace")}
 <p>With so little to rent, some new arrivals decide to buy. If you are a first-time buyer, the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> sets out the programs and their order.</p>
 
 <h2>Moving to Terrace: buying a home before or after you arrive</h2>
-<p>Many people who search for buying a home in Terrace are not living here yet. They have a job offer, a start date and a short window to find a place. Moving to Terrace for work often means a hospital, college or project employer, and a rental market with little room.</p>
+<p>A lot of people looking at Terrace don't live here yet. They have a job offer, a start date and a short window to find a place. Moving to Terrace for work often means a hospital, college or project employer, and a rental market with little room.</p>
 <p>Here is an order that tends to work:</p>
 <ol>
 <li><strong>Get pre-approved before you visit.</strong> A pre-approval sets your price range and holds a rate for a set time. You can look at homes without a clock on your back. The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> shows what lenders ask for.</li>
@@ -85,12 +85,12 @@ ${censusTable("terrace")}
 <p>Forestry has had a rough stretch in the area. Skeena Sawmills was reported closed and in receivership in 2023. (Wood Business, Offers now open for closed Skeena sawmill and pellet plant, November 14, 2023, read October 2026). Current mill status may have changed, so check local news.</p>
 <p>If you left a long job and started a new one, a lender looks at the gap and the new pay. Keep your layoff or severance papers, plus your new offer. A broker can explain the break in the story before the lender asks. The <a href="/mortgage-renewal-bc/">renewal guide</a> also covers renewing when income has changed.</p>
 
-<h2>How Joshua works with Terrace clients</h2>
+<h2>How I work with Terrace clients</h2>
 <ol>
-<li><strong>Asks about your arrival date first.</strong> Probation, your last job and your pay type decide which lenders to approach.</li>
-<li><strong>Checks the property early.</strong> He asks if it is on a pad, on larger land, on well and septic, or on First Nations land. These facts steer the lender choice before you fall in love with a house.</li>
-<li><strong>Writes the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
-<li><strong>Stays in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and calls about six months before renewal.</li>
+<li><strong>I ask about your arrival date first.</strong> Probation, your last job and your pay type decide which lenders to approach.</li>
+<li><strong>I check the property early.</strong> I ask if it is on a pad, on larger land, on well and septic, or on First Nations land. These facts steer the lender choice before you fall in love with a house.</li>
+<li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
+<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal.</li>
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Terrace files, such as pad homes or very new income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}

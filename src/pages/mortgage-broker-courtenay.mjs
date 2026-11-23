@@ -47,9 +47,9 @@ ${censusTable("courtenay")}
 <p>Outside the serviced areas, many Comox Valley homes rely on a well and a septic system. A lender will usually want proof that both work. Plan for a water test and a septic inspection as conditions in the offer, and book them early.</p>
 <p>Larger rural parcels bring more questions. How much of the value is land? Are there outbuildings with no lending value? Is the property mainly a home, or mainly a business? Many residential lenders limit what they count, and the <a href="/farm-and-alr-mortgages-bc/">farm and ALR mortgage page</a> sets out the property types. If the house needs work, the <a href="/purchase-plus-improvements/">purchase plus improvements page</a> shows how renovation money can be folded in.</p>
 
-<h2>How Joshua works with Comox Valley clients</h2>
-<p><strong>Before you make an offer.</strong> He checks the property type, the zoning question and your income against lender rules, so a surprise doesn't show up after subjects are removed.</p>
-<p><strong>While the file is open.</strong> You get a <a href="/lender-comparison-report/">Lender Comparison Report</a> that shows rate, term, penalty method and prepayment room side by side. Documents travel by secure link, and he deals with your realtor and lawyer directly.</p>
+<h2>How I work with Comox Valley clients</h2>
+<p><strong>Before you make an offer.</strong> I check the property type, the zoning question and your income against lender rules, so a surprise doesn't show up after subjects are removed.</p>
+<p><strong>While the file is open.</strong> You get a <a href="/lender-comparison-report/">Lender Comparison Report</a> that shows rate, term, penalty method and prepayment room side by side. Documents travel by secure link, and I deal with your realtor and lawyer directly.</p>
 <p><strong>After you move in.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> brings a yearly check-in and a note roughly six months before maturity. That way a renewal is shopped, not simply signed.</p>
 
 ${callout("What you pay", "<p>For most Comox Valley purchases and renewals, the lender pays Joshua and you pay nothing for his work. Some files, such as certain rural or retirement-income cases, need a B or private lender. If yours does, BCFSA's Form 1A puts any fee to you in writing before you commit.</p>")}

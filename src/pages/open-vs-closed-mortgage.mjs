@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "An open mortgage lets you pay it off anytime with no penalty, but it costs a higher rate. A closed mortgage is cheaper but limits prepayments. Open only makes sense for a short, specific window, like a sale a few months away.", who: "Anyone choosing a term, or about to sell, refinance or get a lump sum.", next: "Compare the open premium against your likely penalty in the <a href=\"/mortgage-calculators/#payment\">payment calculator</a>." })}
+${short({ answer: "An open mortgage lets you pay it off anytime with no penalty, but it costs a higher rate. A closed mortgage is cheaper but limits prepayments. Open only makes sense for a short, specific window, like a sale a few months away.", who: "You're choosing a term, or about to sell, refinance or get a lump sum.", next: "Compare the open premium against your likely penalty in the <a href=\"/mortgage-calculators/#payment\">payment calculator</a>." })}
 
 <h2>Two definitions, one trade</h2>
 <p>An <strong>open mortgage</strong> lets you pay off some or all of the balance at any time, with no penalty. A <strong>closed mortgage</strong> limits how much you can prepay during the term. It charges a penalty if you pay it out, or break it, before the term ends.</p>

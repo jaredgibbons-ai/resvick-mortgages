@@ -32,7 +32,7 @@ const body = `
 <div class="fld"><label for="c-phone">Phone (optional)</label><input id="c-phone" name="phone" type="tel" autocomplete="tel"></div>
 <div class="fld"><label for="c-intent">What is this about?</label><select id="c-intent" name="intent"><option value="buyer">Buying a home</option><option value="renewal">Renewing my mortgage</option><option value="refinance">Refinancing</option><option value="investor">Investment property</option><option value="self-employed">Self-employed mortgage</option><option value="distress">Struggling with payments</option><option value="other" selected>Something else</option></select></div>
 </div>
-<div class="fld"><label for="c-timeline">Target closing date or mortgage maturity date (optional)</label><input id="c-timeline" name="timeline" type="text" placeholder="For example, March 2027"></div>
+<div class="fld"><label for="c-timeline">Closing date or renewal date, if you have one (optional)</label><input id="c-timeline" name="timeline" type="text" placeholder="For example, March 2027"></div>
 <div class="fld"><label for="c-msg">Your message</label><textarea id="c-msg" name="message"></textarea></div>
 <div class="hp" aria-hidden="true"><label for="c-web">Leave this field empty</label><input id="c-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
 <p class="small">By sending this message you agree that Joshua Resvick may contact you to reply to it. See the <a href="/privacy/">privacy policy</a>.</p>
@@ -42,7 +42,7 @@ const body = `
 </form>
 </div>
 
-${short({ answer: "Book a free 15-minute call, phone 778.882.5674, or send a note below. You'll deal with me directly.", who: "Anyone in BC who is buying, renewing, refinancing or just has a mortgage question.", next: `Pick a time in the <a href="${SITE.book}">booking calendar</a>. You don't need any documents yet.` })}
+${short({ answer: "Book a free 15-minute call, phone 778.882.5674, or send a note below. You'll deal with me directly.", who: "You're in BC and buying, renewing or refinancing, or you just have a mortgage question.", next: `Pick a time in the <a href="${SITE.book}">booking calendar</a>. You don't need any documents yet.` })}
 
 <h2>Phone, email and office</h2>
 <div class="contact-grid">
@@ -84,7 +84,7 @@ ${short({ answer: "Book a free 15-minute call, phone 778.882.5674, or send a not
 <li>I'm selling and buying at the same time. How do I avoid paying a penalty, or ending up without a home between closing dates?</li>
 <li>I'm behind on payments, or worried I soon will be. What can I do before it gets worse?</li>
 </ul>
-<p>That last one deserves a note of its own. If you're struggling with payments, reach out early, and by phone if you can. There are almost always more options at the beginning of a problem than at the end, and I won't pressure you. I'll explain the choices plainly and let you decide.</p>
+<p>That last one deserves a note of its own. If you're behind on payments, call me early. A phone call is best. There are almost always more options at the beginning of a problem than at the end, and I won't pressure you. I'll explain the choices plainly and let you decide.</p>
 
 <h2>Who I work with</h2>
 <p>I work with clients across all of British Columbia. Everything can be done online and by phone. So it doesn't matter where you live: Metro Vancouver, the Okanagan, the Island, up North or anywhere in between. My office is in Surrey, and you're welcome to meet there if it's convenient, but you never need to. Applications, documents and signatures can all be handled remotely.</p>

@@ -13,7 +13,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua how you are paid and what kind of home you want."
 })}
 <p>Prince Rupert sits on Kaien Island on BC's north coast. The Port Authority lists six terminals, from containers and grain to cruise ships and wood pellets. It says the port directly supports 3,300 full-time jobs, plus about 4,200 indirect and induced jobs (Prince Rupert Port Authority, Economic Impact, read October 2026). That puts a lot of household income in one place. It also means a mortgage here often turns on how a lender reads port, rail and shift pay.</p>
-<p>Joshua Resvick is a BC mortgage broker with Xeva Mortgage. Before he started brokering, he spent five years as a lender's underwriter, so he knows what a lender's desk looks for in a file. He works from his Surrey office and serves Prince Rupert by phone and video. There is no Prince Rupert branch. You can <a href="/contact/">book a 15-minute call</a> from home or from a job site.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I work from my Surrey office and help Prince Rupert clients by phone and video. There is no Prince Rupert branch. You can <a href="/contact/">book a 15-minute call</a> from home or from a job site.</p>
 
 ${ratesStrip()}
 
@@ -33,7 +33,7 @@ ${ratesStrip()}
 ${censusTable("prince-rupert")}
 
 <h2>Moving to Prince Rupert for work</h2>
-<p>Many people who search for buying a home in Prince Rupert do not live here yet. They are starting a job at the port, the hospital or a school. The City's 2022 housing report says Northern Health lost 18 staff in two years and ties part of that to housing (City of Prince Rupert, Prince Rupert Housing Needs Report, December 2022, read October 2026). The Province describes a 40-home rental project called Estrella as housing for people who work in health care, education, port operations and logistics (BC Government News, Minister's statement on March 2026 housing highlights, April 10, 2026, read October 2026).</p>
+<p>A lot of people looking at Prince Rupert don't live here yet. They are starting a job at the port, the hospital or a school. The City's 2022 housing report says Northern Health lost 18 staff in two years and ties part of that to housing (City of Prince Rupert, Prince Rupert Housing Needs Report, December 2022, read October 2026). The Province describes a 40-home rental project called Estrella as housing for people who work in health care, education, port operations and logistics (BC Government News, Minister's statement on March 2026 housing highlights, April 10, 2026, read October 2026).</p>
 <p>An order that tends to work:</p>
 <ol>
 <li><strong>Get pre-approved before you visit.</strong> It sets your price range and holds a rate for a set time. The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> lists what lenders ask for.</li>
@@ -63,12 +63,12 @@ ${censusTable("prince-rupert")}
 <h2>Booms, busts and your plan</h2>
 <p>Prince Rupert has seen big project talk before. A 2016 letter from the local MLA said LNG speculation tightened the rental market, while no LNG project had yet been built (Jennifer Rice MLA, MLA Rice Advocates for Provincial Investment in Prince Rupert Housing Infrastructure, September 19, 2016, read October 2026). Some projects now move ahead and some wait. For example, the Ksi Lisims LNG partners said in late October 2026 that they aim to make a final investment decision this year, and no decision had been announced (BNN Bloomberg, Ksi Lisims finalizes supply deal with German utility SEFE, October 26, 2026, read October 2026). A sound plan does not depend on any one project. Choose a payment you could carry on today's income, with room if hours change.</p>
 
-<h2>How Joshua works with Prince Rupert clients</h2>
+<h2>How I work with Prince Rupert clients</h2>
 <ol>
-<li><strong>Asks how you are paid first.</strong> Salary, union hours, contract work, shift pay or a business each point to different lenders.</li>
-<li><strong>Checks the home early.</strong> He asks about the age of the house, any suite, the lot and the heating. These facts steer the lender choice before you fall in love with a house.</li>
-<li><strong>Writes the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
-<li><strong>Stays in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
+<li><strong>I ask how you are paid first.</strong> Salary, union hours, contract work, shift pay or a business each point to different lenders.</li>
+<li><strong>I check the home early.</strong> I ask about the age of the house, any suite, the lot and the heating. These facts steer the lender choice before you fall in love with a house.</li>
+<li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
+<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Prince Rupert files, such as a home that needs major repairs, new self-employed income or a home on leased land, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}

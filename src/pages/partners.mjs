@@ -48,7 +48,7 @@ const lawyerCard = card({
 });
 
 const body = `
-${short({ answer: "Buying a home takes a team. A mortgage broker, a realtor and a lawyer or notary each do a different job. Below are the realtor, notaries and real estate lawyers I know and am happy to point you to. You can use any licensed professional you like.", who: "Home buyers in BC who have, or are about to have, a mortgage approval and need the next people on the team.", next: `Read who does what below, then contact whoever fits. If you still need the mortgage piece, <a href="${SITE.book}" data-evt="book_call_click">book a 15-minute call</a>.` })}
+${short({ answer: "Buying a home takes a team. A mortgage broker, a realtor and a lawyer or notary each do a different job. Below are the realtor, notaries and real estate lawyers I know and am happy to point you to. You can use any licensed professional you like.", who: "You're buying in BC, you have a mortgage approval or are about to, and you need the rest of your team.", next: `Read who does what below, then contact whoever fits. If you still need the mortgage piece, <a href="${SITE.book}" data-evt="book_call_click">book a 15-minute call</a>.` })}
 
 <h2>Who does what when you buy a home</h2>
 <p>A home purchase in BC has more moving parts than most people expect. Each person on the team has a clear job. Knowing the jobs makes the process feel calmer. If you are earlier in the journey, start with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>.</p>

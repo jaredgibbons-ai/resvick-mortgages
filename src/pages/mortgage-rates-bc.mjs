@@ -3,7 +3,7 @@ import { bocDates } from "../lib/boc-dates.mjs";
 import { cta, callout, ratesStrip } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "Your mortgage rate depends on your down payment, credit, property, purpose and term. It also depends on which lender you ask, and when. The lowest rate isn't always the cheapest mortgage once you count the penalty to leave.", who: "Anyone buying, renewing or refinancing in BC who wants to understand the rate they're being offered.", next: "Compare offers side by side with the <a href=\"/mortgage-calculators/#compare\">scenario tool</a>, or book a 15-minute call for real numbers." })}
+${short({ answer: "Your mortgage rate depends on your down payment, credit, property, purpose and term. It also depends on which lender you ask, and when. The lowest rate isn't always the cheapest mortgage once you count the penalty to leave.", who: "You're buying, renewing or refinancing in BC and want to know why you were quoted the rate you were.", next: "Compare offers side by side with the <a href=\"/mortgage-calculators/#compare\">scenario tool</a>, or book a 15-minute call for real numbers." })}
 ${ratesStrip()}
 
 <h2>Start with what a rate is, and what it is not</h2>
@@ -99,7 +99,7 @@ ${cta({ title: "Get your comparison report", text: "A 15-minute call covers your
 export default {
   slug: "/mortgage-rates-bc/",
   h1: "Mortgage rates in BC: how your rate is set, and what the lowest rate leaves out",
-  lede: "Why the rate you qualify for differs from the rate you see advertised, how terms compare, and what to check beyond the percentage.",
+  lede: "Why your rate won't match the one in the ad, how terms compare, and what to check besides the percentage.",
   crumbs: [["Home", "/"], ["Rates", "/mortgage-rates-bc/"]],
   nav: "/mortgage-rates-bc/", body,
   faqs: [

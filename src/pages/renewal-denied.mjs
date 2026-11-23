@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "First, work out which kind of no you got. A true refusal to renew is unusual. More often a new lender declined a switch, and your current lender will still renew you. From there, the options run from staying put and repairing your file, to a B lender, a private lender or selling on your terms.", who: "Anyone whose renewal or switch was declined, or who fears it will be.", next: "Get the decision and reason in writing this week, then read the <a href=\"/mortgage-renewal-bc/\">mortgage renewal guide</a>." })}
+${short({ answer: "First, work out which kind of no you got. A true refusal to renew is unusual. More often a new lender declined a switch, and your current lender will still renew you. From there, the options run from staying put and repairing your file, to a B lender, a private lender or selling on your terms.", who: "Your renewal or switch was declined, or you fear it will be.", next: "Get the decision and reason in writing this week, then read the <a href=\"/mortgage-renewal-bc/\">mortgage renewal guide</a>." })}
 
 <h2>First, the calm truth</h2>
 <p>Maybe your lender said it won't renew your mortgage. Or a bank declined to take your mortgage over. You're probably frightened, and that's a fair reaction. But there are more ways forward than it feels like on the day you hear the news. The first step is to work out which kind of "no" you got. The options are different for each.</p>

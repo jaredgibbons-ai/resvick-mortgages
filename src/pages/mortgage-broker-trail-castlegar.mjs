@@ -13,7 +13,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua how you are paid and what kind of home you want."
 })}
 <p>Trail and Castlegar sit on the Columbia River in the West Kootenay. They share a labour market. In the 2021 census data, about 15 percent of the Castlegar residents who commute to work go to Trail, and some workers live in Trail because homes cost less (City of Castlegar, 2023 Castlegar Housing Needs Report, 2023, read October 2026). The price gap is real. BC Assessment puts the 2026 typical single-family value at $376,000 in Trail and $519,000 in Castlegar (BC Assessment, Southern Interior 2026 Property Assessments Announced, January 2, 2026, read October 2026).</p>
-<p>Joshua Resvick is a BC mortgage broker with Xeva Mortgage. Before he started brokering, he spent five years as a lender's underwriter, so he knows what a lender's desk looks for in a file. He works from his Surrey office and serves Trail and Castlegar by phone and video. There is no branch in either town. You can <a href="/contact/">book a 15-minute call</a> from home or from the job site.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I work from my Surrey office and help Trail and Castlegar clients by phone and video. There is no branch in either town. You can <a href="/contact/">book a 15-minute call</a> from home or from the job site.</p>
 
 ${ratesStrip()}
 

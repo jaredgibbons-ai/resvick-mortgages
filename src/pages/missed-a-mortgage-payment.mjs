@@ -4,7 +4,7 @@ import { short } from "../lib/short.mjs";
 const body = `
 ${short({
   answer: "One missed payment means a fee, some interest and a phone call. It's nowhere near foreclosure. The real risk is a late mark on your credit report, which usually starts at 30 days. Paying or calling your lender before then is what matters.",
-  who: "Anyone who has just missed a mortgage payment, or knows one is about to bounce.",
+  who: "You've just missed a mortgage payment, or you know one is about to bounce.",
   next: "Pay it if you can, even late. If you can't, call your lender before day 30 and ask about relief options."
 })}
 <h2>What one missed payment is, and is not</h2>

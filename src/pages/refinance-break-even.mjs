@@ -3,7 +3,7 @@ import { TOOLS } from "../lib/tools.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "A refinance pays off when the savings have covered its costs: the penalty, legal fees and appraisal. That point is the break-even. If it comes after you expect to sell, move or renew elsewhere, the refinance doesn't pay.", who: "Anyone weighing a lower rate or a new payment against a penalty to break their mortgage.", next: "Get your penalty in writing from your lender, then enter it in the calculator below." })}
+${short({ answer: "A refinance pays off when the savings have covered its costs: the penalty, legal fees and appraisal. That point is the break-even. If it comes after you expect to sell, move or renew elsewhere, the refinance doesn't pay.", who: "You're weighing a lower rate or a new payment against a penalty to break their mortgage.", next: "Get your penalty in writing from your lender, then enter it in the calculator below." })}
 
 <h2>Find out when a refinance pays for itself</h2>
 <p>Every refinance has a price. If you break a mortgage early, you pay a prepayment penalty. Almost every refinance also adds legal fees, an appraisal and sometimes lender fees. In exchange you get a lower rate, a different payment or access to cash. The only honest way to judge it is to ask how long it takes the savings to repay the price. That length of time is the break-even point.</p>

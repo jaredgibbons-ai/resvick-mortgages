@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "A private mortgage lends mainly against your property, not your income or credit. It can fund in days when banks can't, but it costs far more: a higher rate, a lender fee and usually a broker fee. Only use one for a short time, with a written plan to get out.", who: "Anyone facing a deadline, a declined renewal, a foreclosure notice or a property banks won't touch.", next: "See the cheaper middle step first on the <a href=\"/b-lender-mortgage-bc/\">B lender page</a>." })}
+${short({ answer: "A private mortgage lends mainly against your property, not your income or credit. It can fund in days when banks can't, but it costs far more: a higher rate, a lender fee and usually a broker fee. Only use one for a short time, with a written plan to get out.", who: "You're facing a deadline, a declined renewal, a foreclosure notice or a property banks won't touch.", next: "See the cheaper middle step first on the <a href=\"/b-lender-mortgage-bc/\">B lender page</a>." })}
 
 <h2>What a private mortgage is</h2>
 <p>A private mortgage is a loan secured against real estate. Someone other than a bank, credit union or institutional B lender funds it. The money comes from an individual investor, a group of investors, or a mortgage investment corporation (MIC). A MIC pools investors' money and lends it out.</p>

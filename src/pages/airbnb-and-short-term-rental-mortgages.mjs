@@ -2,7 +2,7 @@ import { cta, callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
-${short({ answer: "Most mainstream lenders won't count Airbnb income. And since 2024, BC limits short-term rentals to your own home plus one suite in most larger towns. Plan to qualify without that income.", who: "Anyone buying or refinancing a property with nightly rental income in mind.", next: "Check your community's status on the provincial list, then see <a href=\"/how-much-suite-income-will-a-lender-count/\">how lenders count long-term rent</a>." })}
+${short({ answer: "Most mainstream lenders won't count Airbnb income. And since 2024, BC limits short-term rentals to your own home plus one suite in most larger towns. Plan to qualify without that income.", who: "You're buying or refinancing a property with nightly rental income in mind.", next: "Check your community's status on the provincial list, then see <a href=\"/how-much-suite-income-will-a-lender-count/\">how lenders count long-term rent</a>." })}
 
 <h2>Two sets of rules, and both have changed</h2>
 <p>Financing a property with short-term rental income in BC means passing two tests. The first is the lender. It decides whether nightly rental income counts toward your mortgage at all, and if so, how much. The second is the Province. Since 2024, it has limited where short-term rentals are allowed and made hosts register.</p>

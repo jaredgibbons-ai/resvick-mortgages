@@ -4,7 +4,7 @@ import { short } from "../lib/short.mjs";
 const body = `
 ${short({
   answer: "The stress test checks that you could still pay your mortgage if rates were higher. At a federally regulated lender, you qualify at the greater of your contract rate plus 2 percentage points and 5.25 percent. It limits how much you can borrow. It does not change the rate you pay.",
-  who: "Anyone in BC planning to buy, refinance or switch lenders, and anyone surprised by a lower approval than they expected.",
+  who: "You're in BC and planning to buy, refinance or switch lenders, or you were surprised by a lower approval than you expected.",
   next: "Run your numbers in the <a href='/mortgage-calculators/#affordability'>affordability calculator</a>, then book a 15-minute call to see which lenders fit."
 })}
 

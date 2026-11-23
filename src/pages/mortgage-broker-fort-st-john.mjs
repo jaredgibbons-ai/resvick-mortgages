@@ -13,7 +13,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua how you are paid and what kind of home or land you want."
 })}
 <p>Fort St. John is the largest city in BC's Peace River region. The City lists Shell Canada, PETRONAS Canada and NorthRiver Midstream among its largest employers, and says oil and gas, forestry, agriculture and mining drive the local economy (City of Fort St. John, Move Here, read October 2026). The median age is 34.1, against 43.1 for BC (City of Fort St. John, Move Here, read October 2026). It is a young, working city, and many files here involve shift, rotation or contract pay.</p>
-<p>Joshua Resvick is a BC mortgage broker with Xeva Mortgage. Before he started brokering, he spent five years as a lender's underwriter, so he knows what a lender's desk looks for in a file. He works from his Surrey office and serves Fort St. John by phone and video. There is no Fort St. John branch. You can <a href="/contact/">book a 15-minute call</a> from home, a camp or a truck cab.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I work from my Surrey office and help Fort St. John clients by phone and video. There is no Fort St. John branch. You can <a href="/contact/">book a 15-minute call</a> from home, a camp or a truck cab.</p>
 
 ${ratesStrip()}
 
@@ -64,12 +64,12 @@ ${censusTable("fort-st-john")}
 <h2>How far everything is</h2>
 <p>The City lists Dawson Creek 75 km south, Grande Prairie 215 km east and Prince George 475 km away (City of Fort St. John, Move Here, read October 2026). Many Fort St. John buyers compare the <a href="/mortgage-broker-prince-george/">Prince George market</a>. Alberta buyers and workers are also common in this region. Plan an inspection trip around those distances, or sign from where you live.</p>
 
-<h2>How Joshua works with Fort St. John clients</h2>
+<h2>How I work with Fort St. John clients</h2>
 <ol>
-<li><strong>Asks how you are paid first.</strong> Salary, rotation, contract work, a business or a pension each point to different lenders.</li>
-<li><strong>Checks the property early.</strong> He asks about the land type, any suite, the age of a manufactured home, well and septic. These facts steer the lender choice before you fall in love with a house.</li>
-<li><strong>Writes the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
-<li><strong>Stays in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
+<li><strong>I ask how you are paid first.</strong> Salary, rotation, contract work, a business or a pension each point to different lenders.</li>
+<li><strong>I check the property early.</strong> I ask about the land type, any suite, the age of a manufactured home, well and septic. These facts steer the lender choice before you fall in love with a house.</li>
+<li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
+<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Fort St. John files, such as pad homes, new self-employed income or recent job changes, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}

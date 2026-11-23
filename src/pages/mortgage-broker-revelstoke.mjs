@@ -13,7 +13,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua how you are paid and what kind of home you want."
 })}
 <p>Revelstoke sits on the Trans-Canada Highway between the Okanagan and the Rockies. Tourism Revelstoke lists Kelowna about 187 km away. Kamloops is about 211 km and Calgary about 410 km (Tourism Revelstoke, Getting Here, June 29, 2026, read October 2026). It is a small city with big-city prices. Rail, hydro, forestry, skiing and remote jobs all shape the mortgage files here.</p>
-<p>Joshua Resvick is a BC mortgage broker with Xeva Mortgage. Before he started brokering, he spent five years as a lender's underwriter, so he knows what a lender's desk looks for in a file. He works from his Surrey office and serves Revelstoke by phone and video. There is no Revelstoke branch. You can <a href="/contact/">book a 15-minute call</a> from home, a locomotive cab or the lift line.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I work from my Surrey office and help Revelstoke clients by phone and video. There is no Revelstoke branch. You can <a href="/contact/">book a 15-minute call</a> from home, a locomotive cab or the lift line.</p>
 
 ${ratesStrip()}
 
@@ -58,12 +58,12 @@ ${censusTable("revelstoke")}
 <p>Revelstoke and Electoral Area B follow different rules. About 43 percent of Area B homes were vacant or temporarily occupied in 2016 (Columbia Shuswap Regional District, Area B Housing Needs Assessment, March 2022, read October 2026). That report is dated, but it shows how many rural homes are second homes. Wells and septic systems are common outside town. We found no manufactured home parks or First Nation land with homes for sale near Revelstoke. If your purchase involves a manufactured home, the land decides the file. See the <a href="/mobile-home-mortgages-bc/">manufactured home page</a>. If it involves reserve or leased land, tell Joshua at the start. He arranges those files through a lender that works on them, and the lender that fits depends on the land and your timing. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
 <p>Revelstoke is not on the speculation and vacancy tax list (Province of BC, Taxable areas, December 8, 2025, read October 2026).</p>
 
-<h2>How Joshua works with Revelstoke clients</h2>
+<h2>How I work with Revelstoke clients</h2>
 <ol>
-<li><strong>Asks how you are paid first.</strong> Rail pay, hydro contracts, resort pay, remote work or a business each point to different lenders.</li>
-<li><strong>Checks the property early.</strong> He asks about strata or freehold, covenants, any suite, the age of the home and hazard zones. These facts steer the lender choice before you fall in love with a house.</li>
-<li><strong>Writes the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
-<li><strong>Stays in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
+<li><strong>I ask how you are paid first.</strong> Rail pay, hydro contracts, resort pay, remote work or a business each point to different lenders.</li>
+<li><strong>I check the property early.</strong> I ask about strata or freehold, covenants, any suite, the age of the home and hazard zones. These facts steer the lender choice before you fall in love with a house.</li>
+<li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
+<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Revelstoke files may need a B or private lender. Examples are a resale-capped home, new self-employed income or a unit with rental income. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}

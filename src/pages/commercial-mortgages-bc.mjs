@@ -77,7 +77,7 @@ ${short({
 <h2>How long it takes</h2>
 <p>A home mortgage can move in days. A commercial file generally takes longer. Appraisals, environmental reports and lender committee reviews add time. A clean file with every document ready moves faster than one that is chased in pieces. Many commercial files take several weeks from a complete application to funding, and insured files can take longer. Treat that as a general range, not a promise. Build extra days into your purchase conditions.</p>
 
-<h2>What happens after you reach out</h2>
+<h2>What happens after you get in touch</h2>
 <ol>
 <li><strong>A 15-minute call.</strong> You describe the property, the price, how it is used and your plans. Joshua tells you if it is a fit and what the lenders will care about.</li>
 <li><strong>A short list and a plan.</strong> He tells you which kinds of lenders suit the file, what to gather and what the costs look like.</li>

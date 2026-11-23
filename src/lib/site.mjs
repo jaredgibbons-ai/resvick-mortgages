@@ -1,5 +1,6 @@
 // Shared site constants + components. Every fact here comes from the build prompt's §2 (verified; invent nothing).
 import fs from "node:fs";
+import { CITY_NAME } from "./nearby.mjs";
 
 export const SITE = {
   origin: "https://www.resvickmortgages.com",
@@ -45,7 +46,7 @@ const NAV = [
     ["Penalties (IRD)", "/interest-rate-differential/"], ["Broker vs bank", "/mortgage-broker-vs-bank/"], ["News and rule changes", "/guides/"]] },
   { label: "About", href: "/about-joshua-resvick/", kids: [
     ["About Joshua", "/about-joshua-resvick/"], ["Aftercare program", "/mortgage-aftercare-program/"], ["Lender Comparison Report", "/lender-comparison-report/"],
-    ["How brokers get paid", "/how-mortgage-brokers-get-paid/"], ["Realtor, notary and lawyer partners", "/partners/"], ["Refer a friend", "/refer/"], ["Contact", "/contact/"]] }
+    ["How brokers get paid", "/how-mortgage-brokers-get-paid/"], ["Realtors, notaries and lawyers", "/partners/"], ["Refer a friend", "/refer/"], ["Contact", "/contact/"]] }
 ];
 
 /** Which top-level nav item to mark current: a page that is listed in a menu marks that menu; city pages sit under Situations ("Cities served"); the Apply page is a button, not a menu item. Otherwise the page's own `nav` hint. */
@@ -67,9 +68,9 @@ export function header(current) {
 <div class="hdr-in">
 <a class="brand" href="/"><span class="brand-name">Resvick Mortgages</span><span class="brand-sub">Xeva Mortgage</span></a>
 <nav class="nav" aria-label="Primary"><ul>${items}</ul></nav>
-<div class="hdr-cta"><a class="hdr-phone" href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a><a class="btn btn-ghost btn-sm" href="/apply/" data-evt="apply_click">Apply</a><a class="btn btn-ghost btn-sm" href="/mortgage-check-up/" data-evt="checkup_click">Check-up</a><a class="btn btn-sm" href="${SITE.book}" data-evt="book_call_click">Book a call</a></div>
+<div class="hdr-cta"><a class="hdr-phone" href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a><a class="btn btn-ghost btn-sm" href="/apply/" data-evt="apply_click">Start my application</a><a class="btn btn-ghost btn-sm" href="/mortgage-check-up/" data-evt="checkup_click">Check-up</a><a class="btn btn-sm" href="${SITE.book}" data-evt="book_call_click">Book a call</a></div>
 <details class="mnav"><summary aria-label="Menu"><span></span></summary><div class="mnav-panel"><ul>${NAV.map((n) => `<li><a href="${n.href}">${esc(n.label)}</a></li>`).join("")}</ul>
-<div class="mnav-actions"><a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a 15-minute call</a><a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Start your application</a><a class="btn btn-ghost" href="/mortgage-check-up/" data-evt="checkup_click">Mortgage check-up</a></div><a class="mnav-phone" href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a></div></details>
+<div class="mnav-actions"><a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a 15-minute call</a><a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Start my application</a><a class="btn btn-ghost" href="/mortgage-check-up/" data-evt="checkup_click">Mortgage check-up</a></div><a class="mnav-phone" href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a></div></details>
 </div></header>`;
 }
 
@@ -82,11 +83,11 @@ export function footer() {
 <div><p class="ftr-brand">Resvick Mortgages</p>
 <address class="ftr-addr"><span>Resvick Mortgages, Joshua Resvick, Mortgage Broker, Xeva Mortgage, #106, 2626 Croydon Drive, Surrey, BC</span><span>${SITE.licence}</span><span>Broker Licence #${SITE.brokerLicence}</span></address>
 <ul class="ftr-contact"><li><a href="${SITE.phoneHref}">${SITE.phone}</a></li><li><a href="mailto:${SITE.email}">${SITE.email}</a></li><li><a href="${SITE.whatsappHref}" data-evt="whatsapp_click" rel="noopener">WhatsApp</a></li></ul>
-<p class="small">Joshua serves clients across British Columbia, online and by phone, from his Surrey office. Verify any BC mortgage broker's licence with <a href="https://www.bcfsa.ca/public-resources/mortgage-brokers/find-mortgage-broker" rel="noopener">BCFSA's Find a Mortgage Broker</a>.</p></div>
-<div><p class="ftr-h">Buyers</p><ul><li><a href="/first-time-home-buyer-bc/">First-time buyers</a></li><li><a href="/down-payment-guide-bc/">Down payment guide</a></li><li><a href="/mortgage-pre-approval-bc/">Pre-approval</a></li><li><a href="/closing-costs-bc/">Closing costs</a></li><li><a href="/partners/">Realtor, notary and lawyer partners</a></li></ul></div>
+<p class="small">I work with clients across BC, online and by phone, from my Surrey office. You can check any BC mortgage broker's licence with <a href="https://www.bcfsa.ca/public-resources/mortgage-brokers/find-mortgage-broker" rel="noopener">BCFSA's Find a Mortgage Broker</a>.</p></div>
+<div><p class="ftr-h">Buyers</p><ul><li><a href="/first-time-home-buyer-bc/">First-time buyers</a></li><li><a href="/down-payment-guide-bc/">Down payment guide</a></li><li><a href="/mortgage-pre-approval-bc/">Pre-approval</a></li><li><a href="/closing-costs-bc/">Closing costs</a></li><li><a href="/partners/">Realtors, notaries and lawyers</a></li></ul></div>
 <div><p class="ftr-h">Homeowners</p><ul><li><a href="/mortgage-renewal-bc/">Mortgage renewal</a></li><li><a href="/refinance-mortgage-bc/">Refinancing</a></li><li><a href="/self-employed-mortgage-bc/">Self-employed</a></li><li><a href="/mortgage-aftercare-program/">Aftercare program</a></li></ul></div>
-<div><p class="ftr-h">Tools</p><ul><li><a href="/mortgage-calculators/">Calculators</a></li><li><a href="/bc-property-transfer-tax-calculator/">Property transfer tax</a></li><li><a href="/mortgage-check-up/">Mortgage check-up</a></li><li><a href="/apply/">Start your application</a></li><li><a href="/mortgage-rates-bc/">Rates</a></li><li><a href="/resources/">All guides</a></li><li><a href="/guides/">News and rule changes</a></li><li><a href="/contact/">Contact</a></li></ul></div>
-<div><p class="ftr-h">Who we help</p><ul><li><a href="/mortgages-for-first-responders/">First responders</a></li><li><a href="/mortgages-for-nurses-and-healthcare-workers/">Nurses and healthcare</a></li><li><a href="/mortgages-for-military-and-veterans/">Military and veterans</a></li><li><a href="/mortgage-for-contractors/">Contractors and trades</a></li><li><a href="/mortgages-for-doctors-and-dentists/">Doctors and dentists</a></li><li><a href="/mortgages-for-real-estate-agents/">Real estate agents</a></li><li><a href="/mortgages-for-lawyers-accountants-and-engineers/">Lawyers, accountants, engineers</a></li><li><a href="/mortgages-for-government-and-city-employees/">Government and city staff</a></li><li><a href="/mortgages-for-teachers-and-school-staff/">Teachers and school staff</a></li><li><a href="/mortgages-for-tech-workers/">Tech workers</a></li><li><a href="/mortgages-for-truckers-and-owner-operators/">Truckers and owner-operators</a></li><li><a href="/mortgages-for-camp-mine-and-shift-workers/">Camp, mine and shift workers</a></li><li><a href="/new-to-canada-mortgage/">New to Canada</a></li><li><a href="/mortgages-for-single-parents/">Single parents</a></li><li><a href="/mortgages-during-separation-and-divorce/">Separation and divorce</a></li><li><a href="/co-buying-a-home/">Co-buying</a></li><li><a href="/downsizing-and-your-mortgage/">Downsizing</a></li><li><a href="/investment-property-mortgages-bc/">Investors</a></li><li><a href="/commercial-mortgages-bc/">Commercial</a></li><li><a href="/condo-and-townhouse-mortgages/">Condos and townhouses</a></li><li><a href="/mobile-home-mortgages-bc/">Mobile and manufactured homes</a></li><li><a href="/leasehold-mortgages-bc/">Leased land</a></li><li><a href="/first-nations-land-mortgages-bc/">First Nations land</a></li><li><a href="/farm-and-alr-mortgages-bc/">Farm and ALR</a></li></ul></div>
+<div><p class="ftr-h">Tools</p><ul><li><a href="/mortgage-calculators/">Calculators</a></li><li><a href="/bc-property-transfer-tax-calculator/">Property transfer tax</a></li><li><a href="/mortgage-check-up/">Mortgage check-up</a></li><li><a href="/apply/">Start my application</a></li><li><a href="/mortgage-rates-bc/">Rates</a></li><li><a href="/resources/">All guides</a></li><li><a href="/guides/">News and rule changes</a></li><li><a href="/contact/">Contact</a></li></ul></div>
+<div><p class="ftr-h">Who I help</p><ul><li><a href="/mortgages-for-first-responders/">First responders</a></li><li><a href="/mortgages-for-nurses-and-healthcare-workers/">Nurses and healthcare</a></li><li><a href="/mortgages-for-military-and-veterans/">Military and veterans</a></li><li><a href="/mortgage-for-contractors/">Contractors and trades</a></li><li><a href="/mortgages-for-doctors-and-dentists/">Doctors and dentists</a></li><li><a href="/mortgages-for-real-estate-agents/">Real estate agents</a></li><li><a href="/mortgages-for-lawyers-accountants-and-engineers/">Lawyers, accountants, engineers</a></li><li><a href="/mortgages-for-government-and-city-employees/">Government and city staff</a></li><li><a href="/mortgages-for-teachers-and-school-staff/">Teachers and school staff</a></li><li><a href="/mortgages-for-tech-workers/">Tech workers</a></li><li><a href="/mortgages-for-truckers-and-owner-operators/">Truckers and owner-operators</a></li><li><a href="/mortgages-for-camp-mine-and-shift-workers/">Camp, mine and shift workers</a></li><li><a href="/new-to-canada-mortgage/">New to Canada</a></li><li><a href="/mortgages-for-single-parents/">Single parents</a></li><li><a href="/mortgages-during-separation-and-divorce/">Separation and divorce</a></li><li><a href="/co-buying-a-home/">Co-buying</a></li><li><a href="/downsizing-and-your-mortgage/">Downsizing</a></li><li><a href="/investment-property-mortgages-bc/">Investors</a></li><li><a href="/commercial-mortgages-bc/">Commercial</a></li><li><a href="/condo-and-townhouse-mortgages/">Condos and townhouses</a></li><li><a href="/mobile-home-mortgages-bc/">Mobile and manufactured homes</a></li><li><a href="/leasehold-mortgages-bc/">Leased land</a></li><li><a href="/first-nations-land-mortgages-bc/">First Nations land</a></li><li><a href="/farm-and-alr-mortgages-bc/">Farm and ALR</a></li></ul></div>
 <div><p class="ftr-h">Cities served</p><ul class="ftr-cities"><li><a href="/mortgage-broker-surrey/">Surrey</a></li><li><a href="/mortgage-broker-white-rock/">White Rock</a></li><li><a href="/mortgage-broker-delta/">Delta</a></li><li><a href="/mortgage-broker-langley/">Langley</a></li><li><a href="/mortgage-broker-richmond/">Richmond</a></li><li><a href="/mortgage-broker-vancouver/">Vancouver</a></li><li><a href="/mortgage-broker-north-vancouver/">North Vancouver</a></li><li><a href="/mortgage-broker-burnaby/">Burnaby</a></li><li><a href="/mortgage-broker-new-westminster/">New Westminster</a></li><li><a href="/mortgage-broker-coquitlam/">Coquitlam</a></li><li><a href="/mortgage-broker-port-coquitlam/">Port Coquitlam</a></li><li><a href="/mortgage-broker-port-moody/">Port Moody</a></li><li><a href="/mortgage-broker-maple-ridge/">Maple Ridge</a></li><li><a href="/mortgage-broker-pitt-meadows/">Pitt Meadows</a></li><li><a href="/mortgage-broker-mission/">Mission</a></li><li><a href="/mortgage-broker-abbotsford/">Abbotsford</a></li><li><a href="/mortgage-broker-chilliwack/">Chilliwack</a></li><li><a href="/mortgage-broker-squamish/">Squamish</a></li><li><a href="/mortgage-broker-whistler/">Whistler</a></li><li><a href="/mortgage-broker-victoria/">Victoria</a></li><li><a href="/mortgage-broker-langford/">Langford</a></li><li><a href="/mortgage-broker-saanich/">Saanich</a></li><li><a href="/mortgage-broker-nanaimo/">Nanaimo</a></li><li><a href="/mortgage-broker-courtenay/">Courtenay</a></li><li><a href="/mortgage-broker-kelowna/">Kelowna</a></li><li><a href="/mortgage-broker-west-kelowna/">West Kelowna</a></li><li><a href="/mortgage-broker-penticton/">Penticton</a></li><li><a href="/mortgage-broker-keremeos/">Keremeos</a></li><li><a href="/mortgage-broker-princeton/">Princeton</a></li><li><a href="/mortgage-broker-vernon/">Vernon</a></li><li><a href="/mortgage-broker-invermere/">Invermere</a></li><li><a href="/mortgage-broker-kamloops/">Kamloops</a></li><li><a href="/mortgage-broker-quesnel/">Quesnel</a></li><li><a href="/mortgage-broker-prince-george/">Prince George</a></li><li><a href="/mortgage-broker-terrace/">Terrace</a></li><li><a href="/mortgage-broker-kitimat/">Kitimat</a></li><li><a href="/mortgage-broker-prince-rupert/">Prince Rupert</a></li><li><a href="/mortgage-broker-fort-st-john/">Fort St. John</a></li><li><a href="/mortgage-broker-trail-castlegar/">Trail and Castlegar</a></li><li><a href="/mortgage-broker-fernie/">Fernie</a></li><li><a href="/mortgage-broker-osoyoos-oliver/">Osoyoos and Oliver</a></li><li><a href="/mortgage-broker-revelstoke/">Revelstoke</a></li></ul></div>
 </div>
 <div class="ftr-legal"><p>© ${new Date().getFullYear()} Resvick Mortgages. Mortgage information on this site is general education, not advice on your file; every approval is subject to lender and insurer underwriting. </p><p class="ftr-links"><a href="/privacy/">Privacy policy</a> <a href="/terms-of-use/">Terms of use</a>${SITE.ga4 ? ' <button type="button" class="linklike" data-cookie-settings>Cookie settings</button>' : ""}</p></div>
@@ -96,12 +97,42 @@ export function footer() {
 export const proofStrip = () => `<ul class="proof" data-nocount aria-label="At a glance"><li><strong>1,000+</strong><span>mortgages funded</span></li><li><strong>Xeva Mortgage</strong><span>brokerage</span></li><li><strong>BC-wide</strong><span>online and by phone</span></li><li><strong>Former underwriter</strong><span>five years at a lender</span></li></ul>`;
 
 export const cta = (o = {}) => `<aside class="cta-block${o.dark ? " cta-dark" : ""}" data-cta>
-<div><h2>${esc(o.title || "Talk it through with Joshua")}</h2><p>${o.text || "A 15-minute call is enough to map your goals, your numbers and your next step. No obligation, and you deal directly with the broker who will do the work."}</p></div>
+<div><h2>${esc(o.title || "Want this run on your numbers?")}</h2><p>${o.text || "Book a 15-minute call and I'll work through your own figures with you. No obligation."}</p></div>
 <a class="btn" href="${o.href || SITE.book}" data-evt="book_call_click">${esc(o.label || "Book a 15-minute call")}</a></aside>`;
-const ctaClose = (o = {}) => `<aside class="cta-block" data-cta>
+/** Closing-block wording by page type (Nov 2026 voice pass: one block repeated on 193 pages). First person, plain. */
+const CLOSE_COPY = {
+  buy: ["Buying? Start with your numbers.", "On a 15-minute call I'll go through your income, savings and timeline and tell you what's realistic. No obligation."],
+  renew: ["Renewal coming up? Look before you sign.", "Tell me when your term ends and I'll show you how your lender's offer compares. Starting about 120 days out gives you the most room."],
+  refi: ["Thinking of refinancing? Check the math first.", "I'll run your numbers, including what it costs to leave your current mortgage, and tell you if it's worth it."],
+  situation: ["Let's look at your situation.", "Tell me what's going on. I'll read your file the way a lender will, then tell you what's realistic and what to fix first."],
+  tool: ["Got your number? Let's check it against real lenders.", "A calculator gives you a rough answer. A 15-minute call gets you real options."],
+  other: ["Want this run on your numbers?", "Book a 15-minute call and I'll work through your own figures with you. No obligation."]
+};
+const T_CITY = /^\/mortgage-broker-(?!vs-bank)[a-z-]+\/$/;
+const T_TOOL = /calculator|break-even|equity-estimator|lender-match|mortgage-check|readiness|check-up|-check\/$/;
+const T_RENEW = /renew|switch-mortgage|rate-hold|blend-and-extend|stress-test-exemption|interest-rate-differential|prepayment|penalty|porting|collateral/;
+const T_REFI = /refinanc|cash-out|heloc|second-mortgage|is-it-worth|debt|smith-manoeuvre|readvanceable|reverse-mortgage|equity|consolidat/;
+const T_BUY = /first-time|down-payment|pre-approval|closing-costs|how-much-mortgage|buying-with|accepted-offer|gifted|deposit-loan|presale|foreign-buyers|bridge-financing|downsizing|condo|co-buying|purchase|construction|how-much-suite|pay-off-car|where-can-my-down/;
+const T_SIT = /mortgages-for-|mortgage-for-|self-employed|bad-credit|mortgage-after|behind-on|missed|default|separation|spousal|stated-income|b-lender|private-mortgage|new-to-canada|cosigner|co-sign|student-loans|car-loan|build-credit|camp|first-nations|leasehold|farm|mobile-home|rent-to-own|commercial|investment|airbnb|brrrr|dscr|converting|investor|rental|probation|new-job|without-a-job|appraisal/;
+export function closeType(slug) {
+  if (T_CITY.test(slug)) return "city";
+  if (T_TOOL.test(slug)) return "tool";
+  if (T_RENEW.test(slug)) return "renew";
+  if (T_REFI.test(slug)) return "refi";
+  if (T_BUY.test(slug)) return "buy";
+  if (T_SIT.test(slug)) return "situation";
+  return "other";
+}
+const cityOf = (slug) => CITY_NAME[slug.replace("/mortgage-broker-", "").replace(/\/$/, "")] || "your town";
+function closeCopy(page) {
+  const t = closeType(page.slug);
+  if (t === "city") { const c = cityOf(page.slug); return [`Buying or renewing in ${c}? I can do it from here.`, "I work from my Surrey office by phone and video, so you never have to drive in. One 15-minute call is enough to start."]; }
+  return CLOSE_COPY[t];
+}
+const ctaClose = (o = {}, page = { slug: "" }) => { const [dt, dx] = closeCopy(page); return `<aside class="cta-block" data-cta>
 <p class="close-who" data-nocount><img src="/assets/img/josh-face-360.webp" width="76" height="76" alt="" loading="lazy"><span><b>Joshua Resvick</b>Mortgage broker, Surrey, BC</span></p>
-<h2>${esc(o.title || "Talk it through with Joshua")}</h2><p>${o.text || "A 15-minute call is enough to map your goals, your numbers and your next step. No obligation, and you deal directly with the broker who will do the work."}</p>
-<a class="btn" href="${o.href || SITE.book}" data-evt="book_call_click">${esc(o.label || "Book a 15-minute call")}</a></aside>`;
+<h2>${esc(o.title || dt)}</h2><p>${o.text || dx}</p>
+<a class="btn" href="${o.href || SITE.book}" data-evt="book_call_click">${esc(o.label || "Book a 15-minute call")}</a><a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Start my application</a></aside>`; };
 
 export const faq = (items) => `<section class="faq" aria-labelledby="faq-h"><h2 id="faq-h">Frequently asked questions</h2>${items.map((f) => `<details><summary>${esc(f.q)}</summary><div><p>${f.a}</p></div></details>`).join("")}</section>`;
 
@@ -120,11 +151,12 @@ export function ratesStrip(file = "src/data/rates.json") {
 }
 
 export function reviews(opts = {}) {
-  const { file = "src/data/reviews.json", tag = "", limit = 0, heading = "What clients say" } = typeof opts === "string" ? { file: opts } : opts;
+  const { file = "src/data/reviews.json", tag = "", limit = 0, heading = "What clients say", offset = 0 } = typeof opts === "string" ? { file: opts } : opts;
   let d = { items: [], link: "" };
   try { d = JSON.parse(fs.readFileSync(file, "utf8")); } catch {}
   let items = d.items || [];
   if (tag) items = items.filter((r) => (r.tags || []).includes(tag));
+  if (offset && items.length) { const o = offset % items.length; items = items.slice(o).concat(items.slice(0, o)); } // rotate so city pages do not all show the same pair
   if (limit) items = items.slice(0, limit);
   if (!items.length) return "";
   const stat = d.count && d.rating ? `<p class="small rev-stat">${esc(d.rating)} out of 5 on Google, from ${esc(d.count)} reviews${d.asOf ? ", as of " + esc(d.asOf) : ""}. Figures are Josh's own profile, updated by hand.</p>` : "";
@@ -140,7 +172,8 @@ const revFor = (page) => {
   const city = /^\/mortgage-broker-[a-z-]+\/$/.test(page.slug);
   if (!city && !(page.slug in REV_TAG)) return "";
   const tag = city ? "buy" : REV_TAG[page.slug];
-  return reviews({ tag, limit: REV_LIM[page.slug] || (tag ? 2 : 4), heading: "What clients say" });
+  const offset = city ? [...page.slug].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7) : 0;
+  return reviews({ tag, limit: REV_LIM[page.slug] || (tag ? 2 : 4), heading: "What clients say", offset });
 };
 
 export const callout = (title, html) => `<aside class="callout"><p class="callout-t">${esc(title)}</p>${html}</aside>`;
@@ -168,26 +201,21 @@ export function businessSchema() {
 
 /** Home hero: one main button, one outline button, one text link. */
 export const actionCards = () => `<div class="acts" data-nocount>
-<a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a call</a>
-<a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Apply online</a>
+<a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a 15-minute call</a>
+<a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Start my application</a>
 <a class="btn btn-ghost" href="/mortgage-check/" data-evt="checkup_click">Take the quiz</a>
 </div>`;
 const NO_QUICK = new Set(["/apply/", "/accepted-offer/", "/refer/", "/privacy/", "/terms-of-use/", "/mortgage-check/", "/purchase-readiness-check/", "/renewal-check/", "/equity-check/", "/investor-check/", "/self-employed-check/", "/lender-match/", "/thank-you/", "/404.html"]);
-const heroSide = (slug) => NO_QUICK.has(slug) ? "" : `<aside class="hero-side" data-nocount aria-label="Next steps"><a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a call</a><a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Apply online</a><p class="side-alt">Not sure yet? <a href="/mortgage-check/" data-evt="checkup_click">Take the two-minute quiz</a>, or call <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p></aside>`;
+const heroSide = (slug) => NO_QUICK.has(slug) ? "" : `<aside class="hero-side" data-nocount aria-label="Next steps"><a class="btn" href="${SITE.book}" data-evt="book_call_click">Book a 15-minute call</a><a class="btn btn-ghost" href="/apply/" data-evt="apply_click">Start my application</a><p class="side-alt">Not sure yet? <a href="/mortgage-check/" data-evt="checkup_click">Take the two-minute quiz</a>, or call <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p></aside>`;
 
 /** Add ids to h2s and build a "jump to" list for long pages. Returns the new body. */
-/** One slim prompt about a third of the way down long pages: apply or book. Skipped on tool, quiz, form and short pages. */
-const nudge = () => `<aside class="nudge" data-nocount><p><b>Want to know what you could qualify for?</b> Start an application, or book a short call and Joshua will walk you through it.</p><div class="nudge-btns"><a class="btn" href="/apply/" data-evt="apply_click">Apply online</a><a class="btn btn-ghost" href="${SITE.book}" data-evt="book_call_click">Book a call</a></div></aside>`;
-function withNudge(page, html) {
-  if (page.home || NO_QUICK.has(page.slug) || page.calc || page.quiz || page.forms) return html;
-  const heads = [...html.matchAll(/<h2[\s>]/g)].map((m) => m.index);
-  if (heads.length < 6) return html;
-  const at = heads[Math.max(2, Math.round(heads.length / 3))];
-  return html.slice(0, at) + nudge() + "\n" + html.slice(at);
-}
+// Mid-page "Want to know what you could qualify for?" nudge removed Nov 2026: it repeated word for word on 161 pages.
+function withNudge(page, html) { return html; }
+/** Source notes like "(Statistics Canada, 2021 Census Profile, read October 2026)" read as a smaller, quieter aside so the sentence skims. */
+const wrapCites = (h) => h.replace(/\(([^()<>]{3,200}?, read [A-Z][a-z]+ \d{4})\)/g, '<span class="cite">($1)</span>');
 function withTop(page) {
   const t = withToc(page);
-  const html = withNudge(page, t.body);
+  const html = withNudge(page, wrapCites(t.body));
   if (page.slug !== "/resources/") return { html, toc: t.toc };
   const blk = latestGuides(4, "Latest guides");
   const i = html.indexOf("</aside>");
@@ -215,23 +243,23 @@ function withToc(page) {
 
 /** Short "call me back" form at the foot of every content page. Name and phone only; posts to /api/lead as form "callback". */
 const hasCallback = (page) => !(page.home || NO_QUICK.has(page.slug) || page.forms);
-const callbackInner = () => `<aside class="callback" data-nocount aria-labelledby="cb-h"><div class="cb-copy"><h2 id="cb-h">Prefer a call back?</h2><p>Leave your name and number. Joshua will phone you at the time you pick.</p></div>
-<form data-lead="callback" novalidate data-success="Thank you. Joshua will call you back."><div class="cb-row"><div class="fld"><label for="cb-name">Your name</label><input id="cb-name" name="name" type="text" autocomplete="name" required></div><div class="fld"><label for="cb-phone">Phone</label><input id="cb-phone" name="phone" type="tel" autocomplete="tel" required></div><div class="fld"><label for="cb-when">Best time</label><select id="cb-when" name="x_best_time"><option>Morning</option><option>Afternoon</option><option>Evening</option><option>Any time</option></select></div></div>
+const callbackInner = () => `<aside class="callback" data-nocount aria-labelledby="cb-h"><div class="cb-copy"><h2 id="cb-h">Rather get a call?</h2><p>Leave your name and number, and tell me when's best. I'll phone you then.</p></div>
+<form data-lead="callback" novalidate data-success="Thank you. I'll call you back."><div class="cb-row"><div class="fld"><label for="cb-name">Your name</label><input id="cb-name" name="name" type="text" autocomplete="name" required></div><div class="fld"><label for="cb-phone">Phone</label><input id="cb-phone" name="phone" type="tel" autocomplete="tel" required></div><div class="fld"><label for="cb-when">Best time</label><select id="cb-when" name="x_best_time"><option>Morning</option><option>Afternoon</option><option>Evening</option><option>Any time</option></select></div></div>
 <div class="hp" aria-hidden="true"><label for="cb-web">Leave this field empty</label><input id="cb-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
 <p class="small">By sending this you agree that Joshua Resvick may phone you about your request. See the <a href="/privacy/">privacy policy</a>.</p>
-<div class="cb-go"><button class="btn" type="submit" data-evt="callback_submit">Request a call back</button><p class="form-msg" role="status"></p></div></form><p class="cb-alt">Or <a href="${SITE.whatsappHref}" data-evt="whatsapp_click" rel="noopener">message Joshua on WhatsApp</a>.</p></aside>`;
+<div class="cb-go"><button class="btn" type="submit" data-evt="callback_submit">Request a call back</button><p class="form-msg" role="status"></p></div></form><p class="cb-alt">Or <a href="${SITE.whatsappHref}" data-evt="whatsapp_click" rel="noopener">message me on WhatsApp</a>.</p></aside>`;
 
 
 /** One closing band: the booking prompt and the call-back form together. Pages with their own form skip the call-back half. */
 function closeBlock(page) {
-  const cta = page.closing === false ? "" : ctaClose(page.closing || {});
+  const cta = page.closing === false ? "" : ctaClose(page.closing || {}, page);
   const cb = hasCallback(page) ? callbackInner() : "";
   if (!cta && !cb) return "";
   return `<section class="close" data-nocount><div class="wrap close-in${cta && cb ? " two" : ""}">${cta}${cb}</div></section>`;
 }
 
 /** Sticky bottom bar on phones. */
-const stickyBar = (slug) => NO_QUICK.has(slug) ? "" : `<div class="sticky-cta" data-nocount><a class="sc-main" href="${SITE.book}" data-evt="book_call_click">Book a call</a><a href="/apply/" data-evt="apply_click">Get pre-approved</a></div>`;
+const stickyBar = (slug) => NO_QUICK.has(slug) ? "" : `<div class="sticky-cta" data-nocount><a class="sc-main" href="${SITE.book}" data-evt="book_call_click">Book a call</a><a href="/apply/" data-evt="apply_click">${closeType(slug) === "buy" || slug === "/" ? "Get pre-approved" : "Start my application"}</a></div>`;
 
 
 // ---- Internal linking: related guides, page clusters, latest guides (data comes from build.mjs via setLinkData) ----

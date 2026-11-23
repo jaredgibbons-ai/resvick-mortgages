@@ -10,7 +10,7 @@ const $0 = (x) => "$" + Math.round(x).toLocaleString("en-CA");
 const body = `
 ${short({
   answer: "Most mortgage applications fail on paperwork, not price. Six problems cause most of it: income you can't prove the lender's way, forgotten debts, credit surprises, an untraceable down payment, the property, and changes before closing.",
-  who: "Anyone about to apply for a mortgage or pre-approval, or about to remove conditions on an offer.",
+  who: "You're about to apply for a mortgage or pre-approval, or about to remove conditions on an offer.",
   next: "Run the six self-checks below. Then gather the documents for your situation."
 })}
 <h2>Most applications die on paperwork, not price</h2>

@@ -45,7 +45,7 @@ ${censusTable("invermere")}
 <p>The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> lists what to gather. A pre-approval before your trip means you can make an offer on your first visit.</p>
 
 <h2>Moving to Invermere: buying a home before or after you arrive</h2>
-<p>Many people who search for buying a home in Invermere do not live here yet. Some have a job offer or a remote-work plan. Others want to retire near the lake. Moving to Invermere brings a few mortgage questions that a local buyer never faces.</p>
+<p>A lot of people looking at Invermere don't live here yet. Some have a job offer or a remote-work plan. Others want to retire near the lake. Moving to Invermere brings a few mortgage questions that a local buyer never faces.</p>
 <ul>
 <li><strong>Get pre-approved before your first visit.</strong> Joshua works by phone and video, so you can do this from your kitchen table. See the <a href="/mortgage-pre-approval-bc/">pre-approval page</a> for what to gather. A clear budget lets you act when a home comes up.</li>
 <li><strong>Bring income papers from your province.</strong> Pay stubs, an employer letter and tax documents work in any province. If you will work remotely for an employer elsewhere, ask for a letter that says the job continues after the move.</li>

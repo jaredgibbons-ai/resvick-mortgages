@@ -38,12 +38,12 @@ ${censusTable("new-westminster")}
 <p>The City has also set up an infill housing program under new provincial rules. For lots of 280 square metres or less, it allows three units. Larger lots can hold four, and larger lots within 400 metres of frequent bus stops can hold six. (City of New Westminster, Small Scale Multi Unit Housing page, read October 2026.) That opens options for owners and for investors. It also means a lender will want to know which units are permitted and which are only planned.</p>
 <p>For qualifying, the test is simple. Is the suite permitted, and is the rent documented? A permitted suite lets many lenders count part of the rent. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> shows the two common methods. If you already own the house, the <a href="/secondary-suite-refinance/">secondary suite refinance page</a> covers borrowing to add a unit.</p>
 
-<h2>How Joshua works with New Westminster clients</h2>
+<h2>How I work with New Westminster clients</h2>
 <ol>
-<li><strong>Looks at the property early.</strong> He asks what the building is, how old it is and whether anything unusual attaches to it, so surprises come before the offer rather than after.</li>
-<li><strong>Matches income to lender.</strong> Salaried, commission, shift and self-employed pay are each read differently. He picks the lender whose rules fit yours before anything is submitted.</li>
-<li><strong>Puts the choices on paper.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lays out rate, term, penalty method and prepayment room for each option.</li>
-<li><strong>Keeps an eye on your renewal.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, you get a yearly review and a nudge well ahead of your maturity date.</li>
+<li><strong>I look at the property early.</strong> I ask what the building is, how old it is and whether anything unusual attaches to it, so surprises come before the offer rather than after.</li>
+<li><strong>I match income to lender.</strong> Salaried, commission, shift and self-employed pay are each read differently. I pick the lender whose rules fit yours before anything is submitted.</li>
+<li><strong>I put the choices on paper.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lays out rate, term, penalty method and prepayment room for each option.</li>
+<li><strong>I keep an eye on your renewal.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, you get a yearly review and a nudge well ahead of your maturity date.</li>
 </ol>
 
 ${callout("What it costs you", "<p>For most New Westminster purchases and renewals, an A lender pays Joshua for the work, and the bill to you is zero. A few files, such as a self-employed buyer with thin tax returns, may call for a B or private lender. If so, BC rules require written disclosure of any fee on BCFSA's Form 1A before you commit to anything.</p>")}

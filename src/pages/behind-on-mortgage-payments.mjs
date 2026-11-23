@@ -2,7 +2,7 @@ import { callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
-${short({ answer: "In BC, a lender has to go through the court to take or sell your home, and that takes months. Use that time. Call your lender this week and work through your options in order.", who: "Anyone who has missed a mortgage payment, or knows they're about to.", next: "Read the call script below, then call your lender. If you want a second opinion, <a href=\"/contact/\">contact Joshua</a>." })}
+${short({ answer: "In BC, a lender has to go through the court to take or sell your home, and that takes months. Use that time. Call your lender this week and work through your options in order.", who: "You've missed a mortgage payment, or you know you're about to.", next: "Read the call script below, then call your lender. If you want a second opinion, <a href=\"/contact/\">contact Joshua</a>." })}
 
 <h2>First, the BC reality</h2>
 <p>If you're behind on your mortgage, you probably picture a letter, a locked door and thirty days. That picture comes from American TV and a few other provinces. It's not how BC works.</p>

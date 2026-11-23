@@ -3,7 +3,7 @@ import { TOOLS } from "../lib/tools.mjs";
 import { cta, callout, ratesStrip } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "Your lender's renewal letter is one offer, not the best price. Lenders compete hardest for new customers, so a switch can often beat the letter. On a $500,000 mortgage, half a point lower saves about $11,700 of interest over five years.", who: "Anyone with a renewal letter in hand, or a maturity date in the next four months.", next: "Compare staying and switching with your own numbers in the <a href=\"/mortgage-calculators/#renewal\">renewal calculator</a>." })}
+${short({ answer: "Your lender's renewal letter is one offer, not the best price. Lenders compete hardest for new customers, so a switch can often beat the letter. On a $500,000 mortgage, half a point lower saves about $11,700 of interest over five years.", who: "You have a renewal letter in hand, or a maturity date in the next four months.", next: "Compare staying and switching with your own numbers in the <a href=\"/mortgage-calculators/#renewal\">renewal calculator</a>." })}
 
 <h2>What renewal rates look like for switchers</h2>
 <p>A renewal rate is the rate on your next term. You're not stuck with the one in your lender's letter. That letter is one offer from one lender.</p>

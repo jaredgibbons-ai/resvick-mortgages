@@ -13,7 +13,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua your start date and how you are paid."
 })}
 <p>Princeton sits where Highway 3 meets Highway 5A, at the joining of two rivers. It is a small town with a big employer nearby. Copper Mountain Mine is about 20 km to the south, and it shapes who buys homes here and when.</p>
-<p>Joshua Resvick is a BC mortgage broker with Xeva Mortgage. Before he started brokering, he spent five years as a lender's underwriter, so he knows what a lender's desk looks for in a file. More than 1,000 mortgages have been funded through him. He works from his Surrey office and serves Princeton by phone and video. There is no Princeton branch. You can <a href="/contact/">book a 15-minute call</a> from your kitchen table or your truck.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. More than 1,000 mortgages have been funded through him. I work from my Surrey office and help Princeton clients by phone and video. There is no Princeton branch. You can <a href="/contact/">book a 15-minute call</a> from your kitchen table or your truck.</p>
 
 ${ratesStrip()}
 
@@ -73,14 +73,14 @@ ${censusTable("princeton")}
 <p>Princeton is the affordable end of the Highway 3 corridor. Buyers priced out of the Okanagan and the Lower Mainland sometimes find a detached home here at a small-town price. Others come for the mine. In February 2026, the Province issued permits for the New Ingerbelle expansion, which would let the mine run beyond 2040. The release says the mine supports about 800 jobs, with most workers living locally. (Government of British Columbia, Province approves Copper Mountain Mine expansion, February 23, 2026, read October 2026). Hudbay held a groundbreaking for the project in June 2026. (International Mining, Hudbay breaks ground on New Ingerbelle expansion, June 18, 2026, read October 2026).</p>
 <p>A mine permit does not change how a lender reads your file. A lender looks at your job, not the mine's life. But it helps your own planning, because a long-lived employer makes a longer stay in town more likely. Buyers who stay often move up from a starter home to an acreage, so choose a lender whose terms let you port or switch later.</p>
 
-<h2>How Joshua works with Princeton clients</h2>
+<h2>How I work with Princeton clients</h2>
 <ol>
-<li><strong>Asks about your start date first.</strong> Probation, your last job and your pay type decide which lenders to approach.</li>
-<li><strong>Checks the property early.</strong> He asks if it is on a pad, on well and septic, or near the river. These facts steer the lender choice before you fall in love with a house.</li>
-<li><strong>Writes the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
-<li><strong>Stays in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and calls about six months before renewal.</li>
+<li><strong>I ask about your start date first.</strong> Probation, your last job and your pay type decide which lenders to approach.</li>
+<li><strong>I check the property early.</strong> I ask if it is on a pad, on well and septic, or near the river. These facts steer the lender choice before you fall in love with a house.</li>
+<li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
+<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal.</li>
 </ol>
-<p>If you do not have a realtor yet, Stacey Roberts of Flex Realty is the Princeton realtor Joshua works with. You can see her listings at <a href="https://sellingprinceton.ca" rel="noopener" target="_blank">sellingprinceton.ca</a> and find her contact details on our <a href="/partners/">partners page</a>. You are free to use any realtor you like. Joshua does not take or pay referral fees for introductions.</p>
+<p>If you do not have a realtor yet, Stacey Roberts of Flex Realty is the Princeton realtor I work with. You can see her listings at <a href="https://sellingprinceton.ca" rel="noopener" target="_blank">sellingprinceton.ca</a> and find her contact details on our <a href="/partners/">partners page</a>. You are free to use any realtor you like. I don't take or pay referral fees for introductions.</p>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Princeton files, such as pad homes or very new income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 

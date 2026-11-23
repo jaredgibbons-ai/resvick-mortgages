@@ -4,7 +4,7 @@ import { short } from "../lib/short.mjs";
 const body = `
 ${short({
   answer: "On most BC mortgages, the lender pays the broker and you pay nothing. Fees to you only come up on some B-lender and private files, and you must see them in writing before you commit.",
-  who: "Anyone wondering what a broker costs, or how to tell if a broker's fee is fair.",
+  who: "You're wondering what a broker costs, or how to tell if a broker's fee is fair.",
   next: "Use the questions at the bottom of this page with any broker, or ask Joshua on a 15-minute call."
 })}
 <h2>The short answer</h2>

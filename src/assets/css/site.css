@@ -126,7 +126,7 @@ a:hover{text-decoration-thickness:1px;text-decoration-color:var(--marker);backgr
 .sticky-cta{display:none}
 @media(max-width:899px){
   .sticky-cta{display:flex;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 12px calc(14px + env(safe-area-inset-bottom,0px));background:var(--paper);border-top:3px solid var(--spruce)}
-  .sticky-cta a{flex:1;display:inline-flex;align-items:center;justify-content:center;font:700 16px var(--ui);min-height:52px;padding:12px 10px;border-radius:14px;text-decoration:none;color:var(--spruce);background:#fff;border:2px solid var(--spruce);box-shadow:0 4px 0 var(--spruce)}
+  .sticky-cta a{flex:1;display:inline-flex;align-items:center;justify-content:center;text-align:center;line-height:1.15;font:700 15px/1.15 var(--ui);min-height:52px;padding:12px 6px;border-radius:14px;text-decoration:none;color:var(--spruce);background:#fff;border:2px solid var(--spruce);box-shadow:0 4px 0 var(--spruce)}
   .sticky-cta a.sc-main{background:var(--spruce);color:#fff;box-shadow:0 4px 0 var(--spruce-2)}
   body{padding-bottom:78px}
   body:has(.mnav[open]) .sticky-cta{display:none}
@@ -200,6 +200,7 @@ td.num,th.num{text-align:right;padding-right:0}
 @media(min-width:900px){.close-in.two{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:72px}.close .callback{border-top:0;padding-top:0;border-left:1px solid #5B7399;padding-left:56px}.cb-row{grid-template-columns:1fr 1fr 1fr}}
 
 /* home sections */
+.cite{font-size:.84em;color:var(--muted)}
 /* Choice lists read as buttons (outlined key, same edge as .btn-ghost). Jared chose option A, Nov 23 2026. */
 .index{list-style:none;margin:1.2em 0 1.4em;padding:0;display:grid;gap:14px}
 .index a,.tool-grid a{display:grid;gap:2px;padding:18px 22px;background:#fff;border:2px solid var(--spruce);border-radius:14px;box-shadow:0 4px 0 var(--spruce);text-decoration:none;color:var(--ink);transition:transform .08s,box-shadow .08s,background .12s}

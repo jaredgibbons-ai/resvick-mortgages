@@ -5,7 +5,7 @@ import { short } from "../lib/short.mjs";
 const body = `
 ${short({
   answer: "Neither one is reliably cheaper. Fixed gives you a payment that can't rise but a bigger penalty if you leave early. Variable gives you a smaller penalty but a cost that moves with prime.",
-  who: "Anyone choosing a rate type for a purchase, renewal or refinance.",
+  who: "You're choosing a rate type for a purchase, renewal or refinance.",
   next: "Compare both side by side with the <a href=\"/mortgage-calculators/#penalty\">penalty calculator</a>, then ask for a written comparison."
 })}
 <h2>The question underneath the question</h2>

@@ -13,7 +13,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua how you are paid."
 })}
 <p>Quesnel sits where the Quesnel River meets the Fraser River, on Highway 97. It lies nearly evenly between Prince George and Williams Lake (Wikipedia, Quesnel, read October 2026). The 2021 census counted 9,889 people (North Cariboo Housing Needs Assessment, December 2024, read October 2026).</p>
-<p>Joshua Resvick is a BC mortgage broker with Xeva Mortgage. Before he started brokering, he spent five years as a lender's underwriter. More than 1,000 mortgages have been funded through him. He works from his Surrey office and serves Quesnel by phone and video. There is no Quesnel branch. You can <a href="/contact/">book a 15-minute call</a> from home, from the truck or on a break.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, and more than 1,000 mortgages have been funded through me. I work from my Surrey office and help Quesnel clients by phone and video. There is no Quesnel branch. You can <a href="/contact/">book a 15-minute call</a> from home, from the truck or on a break.</p>
 
 ${ratesStrip()}
 
@@ -36,7 +36,7 @@ ${ratesStrip()}
 ${censusTable("quesnel")}
 
 <h2>Moving to Quesnel: buying a home before or after you arrive</h2>
-<p>Many people who search for buying a home in Quesnel do not live here yet. Some are leaving higher-priced cities. Some work remotely. Others are health care workers or tradespeople with a start date and a short window. Moving to Quesnel is a personal choice, and a lender cares about your job and credit, not the town's headlines.</p>
+<p>A lot of people looking at Quesnel don't live here yet. Some are leaving higher-priced cities. Some work remotely. Others are health care workers or tradespeople with a start date and a short window. Moving to Quesnel is a personal choice, and a lender cares about your job and credit, not the town's headlines.</p>
 <p>Try these steps in this order:</p>
 <ol>
 <li><strong>Get pre-approved before you visit.</strong> It sets your price range and holds a rate for a set time. The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> lists what to gather.</li>
@@ -76,12 +76,12 @@ ${censusTable("quesnel")}
 <p>If a suite already exists, call the City first. The guide says the building department can inspect it, and the owner can then apply to legalize it. Rules change, so confirm with the City before you plan a build.</p>
 <p>For a lender, the unit must be legal, and the rent must be documented. Many lenders then count part of the rent. An unpermitted unit usually counts for nothing. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> shows the two methods.</p>
 
-<h2>How Joshua works with Quesnel clients</h2>
+<h2>How I work with Quesnel clients</h2>
 <ol>
-<li><strong>Asks how you are paid first.</strong> A mill shift, a mine rotation, a hospital salary and a truck all read differently.</li>
-<li><strong>Checks the property early.</strong> He asks if the home sits on a pad, on a well, on acreage or in a treed area. These facts steer the lender choice before you fall for a house.</li>
-<li><strong>Writes the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you do not choose on rate alone.</li>
-<li><strong>Stays in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and calls about six months before renewal. That way a change in your work does not catch you off guard.</li>
+<li><strong>I ask how you are paid first.</strong> A mill shift, a mine rotation, a hospital salary and a truck all read differently.</li>
+<li><strong>I check the property early.</strong> I ask if the home sits on a pad, on a well, on acreage or in a treed area. These facts steer the lender choice before you fall for a house.</li>
+<li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you do not choose on rate alone.</li>
+<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal. That way a change in your work does not catch you off guard.</li>
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Quesnel files, such as pad homes or very new income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}

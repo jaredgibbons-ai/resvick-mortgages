@@ -117,12 +117,12 @@ ${short({ answer: "Lenders usually count your base wage first. Overtime, premium
 <li>Ninety days of bank statements for your down payment.</li>
 </ul>
 
-<h2>How Joshua works with rotation and shift clients</h2>
+<h2>How I work with rotation and shift clients</h2>
 <ol>
-<li><strong>A 15-minute call.</strong> It is booked around your roster, by phone or video. You tell him how you are paid and what you want to buy.</li>
-<li><strong>The income read.</strong> He works out what each type of lender is likely to count. He tells you where the number lands and what could move it.</li>
+<li><strong>A 15-minute call.</strong> It is booked around your roster, by phone or video. You tell me how you are paid and what you want to buy.</li>
+<li><strong>The income read.</strong> I work out what each type of lender is likely to count. I tell you where the number lands and what could move it.</li>
 <li><strong>A pre-approval that holds.</strong> It has been through your documents, so it is more than a rate quote.</li>
-<li><strong>The right lender.</strong> He picks one for its policy on variable pay, allowances and gaps. You see the options in a written Lender Comparison Report.</li>
+<li><strong>The right lender.</strong> I pick one for its policy on variable pay, allowances and gaps. You see the options in a written Lender Comparison Report.</li>
 <li><strong>Signing that fits your rotation.</strong> Dates, documents and e-signature are planned before you fly out.</li>
 </ol>
 

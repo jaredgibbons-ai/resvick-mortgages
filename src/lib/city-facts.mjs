@@ -48,7 +48,7 @@ export const cityFacts = (k) => {
   if (!d) return "";
   const name = CITY_NAME[k];
   let h = `\n<h2>${esc(name)}: local rules, employers and lenders</h2>`;
-  h += `\n<p>We read the pages below in October 2026. Rules change, so check with the town first.</p>`;
+  h += `\n<p>I checked these pages in October 2026. Rules change, so confirm with the town before you rely on this.</p>`;
   h += `\n<h3>Short-term rentals in ${esc(name)}</h3><p>${esc(strLead(k))}</p>`;
   if (d.str) h += `\n<p>${esc(dot(d.str))}</p>`;
   h += `\n<h3>Suites and small multi-unit housing</h3><p>${esc(dot(d.suites))}</p>`;
@@ -60,10 +60,10 @@ export const cityFacts = (k) => {
     if (d.areas && d.areas.length) h += `<ul>${d.areas.map((a) => `\n<li><strong>${esc(a.n)}.</strong> ${esc(dot(a.d))}</li>`).join("")}</ul>`;
   }
   if (d.land) h += `\n<h3>Leased, treaty and reserve land</h3><p>${esc(dot(d.land))}</p>`;
-  if (d.lenders) h += `\n<h3>Lenders based in ${esc(name)}</h3><p>${esc(dot(d.lenders))} Joshua compares these with the banks and other lenders, since each one sets its own rules.</p>`;
+  if (d.lenders) h += `\n<h3>Lenders based in ${esc(name)}</h3><p>${esc(dot(d.lenders))} I compare these with the banks and other lenders, since each one sets its own rules.</p>`;
   if (d.feature) h += `\n<h3>One thing that changes mortgage files here</h3><p>${esc(dot(d.feature))}</p>`;
   const extra = k === "vancouver" ? [["City of Vancouver: Empty Homes Tax FAQ", "https://vancouver.ca/home-property-development/empty-homes-tax-frequently-asked-questions.aspx"]] : [];
   const src = (d.src || []).concat(extra, [["Province of BC: short-term rental rule", PROV_STR_URL], ["Province of BC: Speculation and Vacancy Tax areas", PROV_SVT_URL]]);
-  h += `\n<details class="small"><summary>Where we read this</summary><ul>${src.map((s) => `<li><a href="${esc(s[1])}" rel="noopener">${esc(s[0])}</a></li>`).join("")}</ul></details>`;
+  h += `\n<details class="small"><summary>Where I read this</summary><ul>${src.map((s) => `<li><a href="${esc(s[1])}" rel="noopener">${esc(s[0])}</a></li>`).join("")}</ul></details>`;
   return h;
 };

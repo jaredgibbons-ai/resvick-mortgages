@@ -13,7 +13,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua how you are paid and when your contract ends."
 })}
 <p>Kitimat is a small industrial town at the head of Douglas Channel. Around 8,200 people live here. (Statistics Canada 2021 Census, as used in Kitimat Housing Needs Report 2024, read October 2026). A few very large projects sit around that small base, and they pull on everything from pay stubs to house prices.</p>
-<p>Joshua Resvick is a BC mortgage broker with Xeva Mortgage. Before he started brokering, he spent five years as a lender's underwriter, so he knows what a lender's desk looks for in a file. More than 1,000 mortgages have been funded through him. He works from his Surrey office and serves Kitimat by phone and video. There is no Kitimat branch. You can <a href="/contact/">book a 15-minute call</a> on your break or after a shift.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. More than 1,000 mortgages have been funded through him. I work from my Surrey office and help Kitimat clients by phone and video. There is no Kitimat branch. You can <a href="/contact/">book a 15-minute call</a> on your break or after a shift.</p>
 
 ${ratesStrip()}
 
@@ -53,7 +53,7 @@ ${censusTable("kitimat")}
 </ol>
 
 <h2>Moving to Kitimat: buying a home before or after you arrive</h2>
-<p>Many people who search for buying a home in Kitimat are not living here yet. They have a job offer, a start date and a short window to find a place. Moving to Kitimat for work brings a few mortgage questions that a local buyer does not face.</p>
+<p>A lot of people looking at Kitimat don't live here yet. They have a job offer, a start date and a short window to find a place. Moving to Kitimat for work brings a few mortgage questions that a local buyer does not face.</p>
 <p>Here is an order that tends to work:</p>
 <ol>
 <li><strong>Get pre-approved before you visit.</strong> A pre-approval tells you what price range to search in. It also holds a rate for a set time, so you can look without a clock on your back. The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> shows what lenders ask for.</li>
@@ -98,12 +98,12 @@ ${censusTable("kitimat")}
 <p><strong>First-time buyers</strong> can use the same BC and federal programs as buyers anywhere. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> shows the order in which to use them.</p>
 <p><strong>Renewals</strong> reward early planning, especially if your income has changed since you signed. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline, and the <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set.</p>
 
-<h2>How Joshua works with Kitimat clients</h2>
+<h2>How I work with Kitimat clients</h2>
 <ol>
-<li><strong>Starts with your pay type.</strong> Permanent, contract, camp or your own company: the answer picks the lender.</li>
-<li><strong>Checks the home early.</strong> Age, land, pad rent and location steer the lender choice before you fall for a house.</li>
-<li><strong>Writes the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
-<li><strong>Stays in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and calls about six months before renewal.</li>
+<li><strong>I start with your pay type.</strong> Permanent, contract, camp or your own company: the answer picks the lender.</li>
+<li><strong>I check the home early.</strong> Age, land, pad rent and location steer the lender choice before you fall for a house.</li>
+<li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
+<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal.</li>
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Kitimat files, such as pad homes or very new contract income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}

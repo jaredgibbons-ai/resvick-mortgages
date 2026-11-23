@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "Most A lenders want two years of tax returns from a business before they use its income. If you're doing the same work you did as an employee, some lenders will look sooner. A co-signer, a bigger down payment or a short B-lender mortgage can bridge the gap.", who: "Anyone who's been self-employed for less than two years and wants to buy or refinance.", next: "Gather your contracts, business bank statements and old T4s, and see how the <a href=\"/stated-income-mortgage/\">stated income</a> route works." })}
+${short({ answer: "Most A lenders want two years of tax returns from a business before they use its income. If you're doing the same work you did as an employee, some lenders will look sooner. A co-signer, a bigger down payment or a short B-lender mortgage can bridge the gap.", who: "You've been self-employed for less than two years and want to buy or refinance.", next: "Gather your contracts, business bank statements and old T4s, and see how the <a href=\"/stated-income-mortgage/\">stated income</a> route works." })}
 
 <h2>Why the two-year rule exists</h2>
 <p>Most A lenders won't use self-employed income until the business has filed two years of tax returns. The rule isn't a judgment about you. It's about businesses in general. A large share of new ventures don't survive their first two years, and a lender can't tell from the outside which ones will.</p>

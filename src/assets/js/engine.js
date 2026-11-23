@@ -166,7 +166,7 @@
       return res;
     }
     if (price >= 1500000) {
-      res.error = "Insured mortgages are available only for purchase prices below $1,500,000. At this price a minimum 20% down payment applies.";
+      res.error = "Homes priced at $1,500,000 or more need at least 20% down. Insured, low-down-payment mortgages aren't available at that price.";
       return res;
     }
     if (down + 0.005 < minDownPayment(price)) {
@@ -177,11 +177,11 @@
     for (var k = 0; k < CMHC_BANDS.length; k++) {
       if (ltv <= CMHC_BANDS[k].maxLtv + 1e-12) { band = CMHC_BANDS[k]; break; }
     }
-    if (!band) { res.error = "Loan-to-value above 95% is not insurable."; return res; }
+    if (!band) { res.error = "You need at least 5% down. Insured mortgages can't go above 95% of the price."; return res; }
     var base = band.rate;
     if (opts.nonTraditional && ltv > 0.9 + 1e-12) base = NON_TRADITIONAL_RATE;
     if (amort > 25 && opts.eligible30 === false) {
-      res.error = "Insured mortgages are limited to a 25-year amortization unless you are a first-time buyer or buying a newly built home (since December 15, 2024).";
+      res.error = "Insured mortgages top out at 25 years, unless you're a first-time buyer or buying a new build. Since December 15, 2024, those buyers can go longer.";
       return res;
     }
     var sur = amort > 25 ? AMORT_SURCHARGE : 0;
@@ -402,7 +402,7 @@
     if (!(years > 0)) return { error: "Enter the years left on your amortization." };
     if (!(rate >= 0)) return { error: "Enter an interest rate of zero or more." };
     if (extra < 0 || lump < 0 || annual < 0) return { error: "Extra amounts cannot be negative." };
-    if (lump >= P) return { error: "A lump sum equal to or above the balance pays the mortgage off. Check your prepayment limit before relying on it." };
+    if (lump >= P) return { error: "That lump sum is as big as your balance, so it would pay the mortgage off. Check your prepayment limit first." };
     var base = payment({ principal: P, ratePct: rate, amortYears: years, freq: o.freq || "monthly", compounding: comp });
     if (base.error) return base;
     var i = periodicRate(rate, f.n, comp), N = Math.round(years * f.n);

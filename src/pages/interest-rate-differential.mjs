@@ -4,7 +4,7 @@ import { short } from "../lib/short.mjs";
 const body = `
 ${short({
   answer: "The IRD is the rate-based part of a fixed-rate penalty. Your penalty is usually the greater of three months of interest and the IRD. How your lender works out the IRD can double the cost.",
-  who: "Anyone with a fixed-rate mortgage who might sell, refinance or switch before the term ends.",
+  who: "You have a fixed-rate mortgage and might sell, refinance or switch before the term ends.",
   next: "Estimate yours with the <a href=\"/mortgage-calculators/#penalty\">penalty calculator</a>, then ask your lender for the exact figure in writing."
 })}
 <h2>IRD in plain language</h2>

@@ -13,7 +13,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua how you are paid and whether the home is on freehold or leased land."
 })}
 <p>Osoyoos and Oliver sit in the South Okanagan desert, about 30 km apart on Highway 97. Osoyoos is on the Canada-US border. Oliver bills itself as wine country. Destination Osoyoos says more than 40 wineries lie within a 20-minute drive (Destination Osoyoos, Road Tripping to Osoyoos, read October 2026). Both are small towns with their own rules for suites, rentals and farm land. A mortgage here often comes with a question about the land, the season or the lease.</p>
-<p>Joshua Resvick is a BC mortgage broker with Xeva Mortgage. Before he started brokering, he spent five years as a lender's underwriter, so he knows what a lender's desk looks for in a file. He works from his Surrey office and serves Osoyoos and Oliver by phone and video. There is no branch in either town. You can <a href="/contact/">book a 15-minute call</a> from your porch or your truck.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I work from my Surrey office and help Osoyoos and Oliver clients by phone and video. There is no branch in either town. You can <a href="/contact/">book a 15-minute call</a> from your porch or your truck.</p>
 
 ${ratesStrip()}
 
@@ -37,7 +37,7 @@ ${censusTable("osoyoos-oliver")}
 <p>On Osoyoos Indian Band land in Osoyoos, 43 affordable rental homes opened at Cedar Lane in October 2025. The Province says they are open to band members and Osoyoos residents (Province of BC, Forty-three homes open for people in Osoyoos, October 2, 2025, read October 2026). They are rentals, so they do not change what a buyer can borrow. They do show how much housing in the area sits on band land.</p>
 
 <h2>Moving to the South Okanagan</h2>
-<p>Many people who search for buying a home in Osoyoos or Oliver do not live here yet. Some are retirees who sold elsewhere. Some are starting work at a winery, a packinghouse or the hospital. In Osoyoos, the 2021 Census counted 632 of 3,279 homes as vacant or held by temporary residents (Town of Osoyoos, Housing Needs Assessment 2024, February 2025, read October 2026). That means part-year owners are common, and lenders see second homes often.</p>
+<p>A lot of people looking at Osoyoos or Oliver don't live here yet. Some are retirees who sold elsewhere. Some are starting work at a winery, a packinghouse or the hospital. In Osoyoos, the 2021 Census counted 632 of 3,279 homes as vacant or held by temporary residents (Town of Osoyoos, Housing Needs Assessment 2024, February 2025, read October 2026). That means part-year owners are common, and lenders see second homes often.</p>
 <p>An order that tends to work:</p>
 <ol>
 <li><strong>Get pre-approved before you visit.</strong> It sets your price range and holds a rate for a set time. The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> lists what lenders ask for.</li>
@@ -71,12 +71,12 @@ ${censusTable("osoyoos-oliver")}
 <p>The South Okanagan has a dry climate and a recent record. In July 2023 the Eagle Bluff wildfire led to evacuation orders for 732 properties. Another 2,094 were on alert (Castanet, Osoyoos declares State of Emergency, July 30, 2023, read October 2026). In 2018 Osoyoos Lake flooded low-lying lakeshore areas (International Joint Commission, Osoyoos Lake Level Rising During Spring Snowmelt, May 11, 2018, read October 2026). Insurers may ask extra questions about hillside, lakeshore and rural homes. Get a quote before you remove conditions, because a lender will want proof of coverage.</p>
 <p>As of late October 2026, Osoyoos also had a water quality advisory for manganese on the Town system (Town of Osoyoos, Water Quality Advisory, October 27, 2026, read October 2026). It does not change a mortgage, but ask about water when you view a home.</p>
 
-<h2>How Joshua works with South Okanagan clients</h2>
+<h2>How I work with South Okanagan clients</h2>
 <ol>
-<li><strong>Asks how you are paid first.</strong> Wages, pensions, seasonal work, a farm or sale proceeds point to different lenders.</li>
-<li><strong>Checks the property early.</strong> He asks about the land type, ALR status, well and septic, any suite and whether the lease is registered. These facts steer the lender choice before you fall in love with a house.</li>
-<li><strong>Writes the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
-<li><strong>Stays in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
+<li><strong>I ask how you are paid first.</strong> Wages, pensions, seasonal work, a farm or sale proceeds point to different lenders.</li>
+<li><strong>I check the property early.</strong> I ask about the land type, ALR status, well and septic, any suite and whether the lease is registered. These facts steer the lender choice before you fall in love with a house.</li>
+<li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
+<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some South Okanagan files, such as leasehold homes, working vineyards or new self-employed income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}

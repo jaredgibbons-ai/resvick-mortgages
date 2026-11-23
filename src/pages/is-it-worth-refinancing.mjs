@@ -2,7 +2,7 @@ import { cta, callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
-${short({ answer: "Only if it pays for itself before you leave the mortgage. Add up the penalty and fees, divide by the monthly saving, and you get the months to break even.", who: "Anyone thinking about breaking a mortgage early for a lower rate, lower payments or to pull out equity.", next: "Run your numbers in the <a href=\"/refinance-break-even/\">refinance break-even calculator</a>." })}
+${short({ answer: "Only if it pays for itself before you leave the mortgage. Add up the penalty and fees, divide by the monthly saving, and you get the months to break even.", who: "You're thinking about breaking a mortgage early for a lower rate, lower payments or to pull out equity.", next: "Run your numbers in the <a href=\"/refinance-break-even/\">refinance break-even calculator</a>." })}
 <h2>The test: months until it pays for itself</h2>
 <p>Every refinance made for a lower rate, or for lower payments, has to pass one test. Add up everything it costs you to do, and divide by the amount it saves you each month. The answer is the number of months until you are ahead. If that number is longer than the time you expect to keep the mortgage, the refinance loses money, however good the new rate looks.</p>
 <p>Written out, it is simple:</p>

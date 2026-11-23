@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "A deferral lets you miss payments with your lender's OK, but the interest gets added to your balance and costs more than you'd think. A skip-a-payment backed by prepayments you've already made costs close to nothing.", who: "Anyone facing a payment they can't make, or wondering whether their mortgage lets them skip one.", next: "Ask your lender for the dollar cost in writing before you agree. If you're already behind, start with the <a href=\"/behind-on-mortgage-payments/\">behind on mortgage payments</a> hub." })}
+${short({ answer: "A deferral lets you miss payments with your lender's OK, but the interest gets added to your balance and costs more than you'd think. A skip-a-payment backed by prepayments you've already made costs close to nothing.", who: "You're facing a payment you can't make, or wondering whether your mortgage lets you skip one.", next: "Ask your lender for the dollar cost in writing before you agree. If you're already behind, start with the <a href=\"/behind-on-mortgage-payments/\">behind on mortgage payments</a> hub." })}
 <h2>Two tools that sound alike and are not</h2>
 <p>"Can I skip a mortgage payment?" has two honest answers. That's because a lender might mean two different things by yes.</p>
 <p>A <strong>deferral</strong> is a hardship measure. The lender agrees you won't make one or more scheduled payments. The interest for those months gets added to your balance.</p>

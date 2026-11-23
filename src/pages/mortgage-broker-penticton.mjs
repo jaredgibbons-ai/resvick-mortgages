@@ -42,12 +42,12 @@ ${censusTable("penticton")}
 <p>Lenders care about the same few things on a rural lot. Is it mostly a home or mostly a business? How much of the value is land? Do the well, septic and road access all work? Many residential lenders cap the land value they will count and give farm buildings little value. The <a href="/farm-and-alr-mortgages-bc/">farm and ALR page</a> explains the property types.</p>
 <p>A smaller group of buyers looks at homes in manufactured home parks, which suit some retirees. A home on a rented pad is financed more like a vehicle than a house, with fewer lenders and shorter terms. The pad rent and park rules affect the file. The <a href="/mobile-home-mortgages-bc/">manufactured home page</a> walks through both cases.</p>
 
-<h2>How Joshua works with South Okanagan clients</h2>
+<h2>How I work with South Okanagan clients</h2>
 <ol>
-<li><strong>Names the property type first.</strong> Before you offer, he asks whether the place is a plain house, has a suite, sits on farmland or is rented by the night. That one answer narrows the lender list.</li>
-<li><strong>Puts the options in writing.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up the rate, term, penalty method and portability for each lender, so a retirement move or a second home is not judged on rate alone.</li>
-<li><strong>Handles the paper trail.</strong> You upload documents through a secure link. A Penticton appraiser and lawyer or notary do the local work, and Joshua keeps them and your realtor on the same dates.</li>
-<li><strong>Looks in again later.</strong> With <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and contacts you about six months before it matures.</li>
+<li><strong>I name the property type first.</strong> Before you offer, I ask whether the place is a plain house, has a suite, sits on farmland or is rented by the night. That one answer narrows the lender list.</li>
+<li><strong>I put the options in writing.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up the rate, term, penalty method and portability for each lender, so a retirement move or a second home is not judged on rate alone.</li>
+<li><strong>I handle the paper trail.</strong> You upload documents through a secure link. A Penticton appraiser and lawyer or notary do the local work, and I keep them and your realtor on the same dates.</li>
+<li><strong>I look in again later.</strong> With <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and contacts you about six months before it matures.</li>
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>For most Penticton purchases and renewals, an A lender pays Joshua and your cost is zero. Rural, rental-income and retirement-income files can sometimes need a B or private lender. Any fee that applies to you has to be shown in writing, on BCFSA's Form 1A, before you agree to it.</p>")}

@@ -82,7 +82,7 @@ const groupsHtml = GROUPS.map(([h, intro, terms]) => `<h2>${h}</h2>
 const body = `
 ${short({
   answer: "This is a plain-language list of the mortgage terms you meet in BC, grouped by the stage you are at. Each entry is short and links to a fuller page where there is one.",
-  who: "Anyone starting out, or anyone who has heard a word on a call and nodded along. No one expects you to know them.",
+  who: "You're starting out, or you've heard a word on a call and nodded along. No one expects you to know them all.",
   next: "Find the word you need, then <a href='/contact/'>ask Joshua</a> about anything that is still unclear."
 })}
 

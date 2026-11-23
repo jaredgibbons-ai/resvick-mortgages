@@ -31,7 +31,7 @@ ${TOOLS["check-up"]()}
 </form>
 </div>
 
-${short({ answer: "Type in the numbers from your mortgage statement and see where you stand. You get your renewal window, the interest left in your term, your balance at renewal and a rough penalty to leave early.", who: "Anyone with a mortgage, especially if renewal is a year or less away.", next: "Fill in the check-up below. For a reminder before renewal, use the <a href=\"/mortgage-renewal-reminder/\">free renewal reminder</a>." })}
+${short({ answer: "Type in the numbers from your mortgage statement and see where you stand. You get your renewal window, the interest left in your term, your balance at renewal and a rough penalty to leave early.", who: "You have a mortgage, especially if renewal is a year or less away.", next: "Fill in the check-up below. For a reminder before renewal, use the <a href=\"/mortgage-renewal-reminder/\">free renewal reminder</a>." })}
 
 <h2>What a check-up is, and why I built one</h2>
 <p>Most people know their mortgage payment to the dollar and almost nothing else about it. That's not a knock. The payment is the number that leaves the account every month. Everything else lives in a statement that gets filed and forgotten. Then the renewal letter arrives, usually with a few weeks to go. Suddenly there are five questions at once and no time to think.</p>

@@ -4,7 +4,7 @@ import { short } from "../lib/short.mjs";
 const body = `
 ${short({
   answer: "Yes. Lenders start counting from the day your proposal is completed. Some B lenders look within about a year with 20 percent down. A lenders commonly want around two years of clean, rebuilt credit.",
-  who: "Anyone in a consumer proposal, just finished one, or wondering if an old one still blocks a mortgage.",
+  who: "You're in a consumer proposal, you just finished one, or you're wondering if an old one still blocks a mortgage.",
   next: "Get your certificate of full performance, open two small credit accounts and pay them perfectly. Then <a href=\"/contact/\">book a call</a> to map the timeline."
 })}
 <h2>Proposal versus bankruptcy, in a lender's eyes</h2>
