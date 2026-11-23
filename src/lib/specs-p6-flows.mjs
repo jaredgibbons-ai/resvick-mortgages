@@ -3,7 +3,7 @@
 export default {
   "/apply/": {
     title: "Apply for a Mortgage Online in BC | Resvick Mortgages",
-    meta: "Start your BC mortgage application in six short steps, about five minutes, nothing sensitive asked. No credit check until you say so. Joshua reads it himself.",
+    meta: "Start your BC mortgage application in six short steps, about five minutes. Nothing sensitive is asked and no credit check runs until you say so.",
     links: ["/contact/", "/how-mortgage-brokers-get-paid/", "/mortgage-application-checklist/", "/mortgage-pre-approval-bc/", "/lender-comparison-report/", "/accepted-offer/", "/privacy/", "/self-employed-mortgage-bc/", "/down-payment-guide-bc/", "/mortgage-calculators/#affordability"],
     provisional: true
   },
