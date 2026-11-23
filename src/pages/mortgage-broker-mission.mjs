@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-mission/#service", name: "Resvick Mortgages, serving Mission", url: SITE.origin + "/mortgage-broker-mission/", areaServed: [{ "@type": "City", name: "Mission", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Fraser Valley" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-mission/#service", url: SITE.origin + "/mortgage-broker-mission/", areaServed: [{ "@type": "City", name: "Mission", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Fraser Valley" }] };
 
 const body = `
 ${short({

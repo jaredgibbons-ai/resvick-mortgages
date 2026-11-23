@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-pitt-meadows/#service", name: "Resvick Mortgages, serving Pitt Meadows", url: SITE.origin + "/mortgage-broker-pitt-meadows/", areaServed: [{ "@type": "City", name: "Pitt Meadows", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-pitt-meadows/#service", url: SITE.origin + "/mortgage-broker-pitt-meadows/", areaServed: [{ "@type": "City", name: "Pitt Meadows", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
 const body = `
 ${short({

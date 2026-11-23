@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-port-moody/#service", name: "Resvick Mortgages, serving Port Moody", url: SITE.origin + "/mortgage-broker-port-moody/", areaServed: [{ "@type": "City", name: "Port Moody", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-port-moody/#service", url: SITE.origin + "/mortgage-broker-port-moody/", areaServed: [{ "@type": "City", name: "Port Moody", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
 const body = `
 ${short({

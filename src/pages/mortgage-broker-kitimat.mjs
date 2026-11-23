@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-kitimat/#service", name: "Resvick Mortgages, serving Kitimat", url: SITE.origin + "/mortgage-broker-kitimat/", areaServed: [{ "@type": "City", name: "Kitimat", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Kitimat-Stikine" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-kitimat/#service", url: SITE.origin + "/mortgage-broker-kitimat/", areaServed: [{ "@type": "City", name: "Kitimat", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Kitimat-Stikine" }] };
 
 const body = `
 ${short({

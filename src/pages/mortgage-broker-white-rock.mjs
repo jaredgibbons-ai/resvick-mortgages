@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-white-rock/#service", name: "Resvick Mortgages, serving White Rock", url: SITE.origin + "/mortgage-broker-white-rock/", areaServed: [{ "@type": "City", name: "White Rock", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Metro Vancouver" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-white-rock/#service", url: SITE.origin + "/mortgage-broker-white-rock/", areaServed: [{ "@type": "City", name: "White Rock", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Metro Vancouver" }] };
 
 const body = `
 ${short({

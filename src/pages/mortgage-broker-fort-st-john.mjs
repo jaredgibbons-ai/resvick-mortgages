@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-fort-st-john/#service", name: "Resvick Mortgages, serving Fort St. John", url: SITE.origin + "/mortgage-broker-fort-st-john/", areaServed: [{ "@type": "City", name: "Fort St. John", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Taylor" }, { "@type": "AdministrativeArea", name: "Peace River Regional District" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-fort-st-john/#service", url: SITE.origin + "/mortgage-broker-fort-st-john/", areaServed: [{ "@type": "City", name: "Fort St. John", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Taylor" }, { "@type": "AdministrativeArea", name: "Peace River Regional District" }] };
 
 const body = `
 ${short({

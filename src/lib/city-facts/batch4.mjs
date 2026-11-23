@@ -221,7 +221,7 @@ export default {
     land: "Westbank First Nation has governed itself since 2005. Buyers on Westbank Lands often get a long-term sublease under a head lease, not fee simple title. Mortgages are registered in the First Nation's own Lands Registry. Lender acceptance varies by development, so ask early.",
     feature: "The City's plan sends most new homes to two urban centres and five neighbourhood centres. Infill, such as suites and carriage houses, is a main way new homes get added.",
     src: [
-      ["City of West Kelowna short-term rental operator guidebook", "https://www.westkelownacity.ca/media/4capfz3j/str-operator-guidebook.pdf"],
+      ["City of West Kelowna, business licences and short-term rental operator guidebook", "https://www.westkelownacity.ca/building-business-development/business-licences/"],
       ["Province of BC, short-term rental principal residence requirement", "https://www2.gov.bc.ca/gov/content/housing-tenancy/short-term-rentals/principal-residence-requirement"],
       ["City of West Kelowna small-scale multi-unit housing", "https://www.westkelownacity.ca/building-business-development/housing-incentive-program/small-scale-multi-unit-housing/"],
       ["City of West Kelowna interim housing needs report", "https://www.westkelownacity.ca/media/tp0aqt1l/cwk-interim-housing-needs-report.pdf"],

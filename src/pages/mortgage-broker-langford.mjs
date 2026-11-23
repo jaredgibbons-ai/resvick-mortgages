@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-langford/#service", name: "Resvick Mortgages, serving Langford and the Westshore", url: SITE.origin + "/mortgage-broker-langford/", areaServed: [{ "@type": "City", name: "Langford", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Colwood", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Westshore, Capital Regional District" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-langford/#service", url: SITE.origin + "/mortgage-broker-langford/", areaServed: [{ "@type": "City", name: "Langford", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Colwood", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Westshore, Capital Regional District" }] };
 
 const body = `
 ${short({

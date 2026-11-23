@@ -140,7 +140,7 @@ export default {
       ["District of Squamish, Short-term rentals", "https://squamish.ca/home-and-property/bylaws-and-guidelines/short-term-rentals/"],
       ["District of Squamish, Housing action", "https://squamish.ca/projects-plans-and-initiatives/projects-and-initiatives/housing/housing-action/"],
       ["District of Squamish, Missing middle housing", "https://squamish.ca/projects-plans-and-initiatives/projects-and-initiatives/housing/missingmiddle/"],
-      ["District of Squamish, Neighbourhoods", "https://squamish.ca/business-and-development/economic-development/work/neighbourhoods"],
+      ["District of Squamish, Neighbourhoods", "https://investsquamish.ca/why-squamish/lifestyle-in-squamish/squamish-neighbourhoods"],
       ["District of Squamish, Community housing needs assessment, 2018", "https://squamish.ca/assets/Uploads/4c438a7bc3/Housing-Needs-Assessment-Full-Package-Oct-16-2018-revision.pdf"]
     ],
     omitted: [

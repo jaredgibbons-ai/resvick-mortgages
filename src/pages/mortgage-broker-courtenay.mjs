@@ -5,7 +5,7 @@ import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
 const place = (name) => ({ "@type": "City", name, containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } });
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-courtenay/#service", name: "Resvick Mortgages, serving the Comox Valley", url: SITE.origin + "/mortgage-broker-courtenay/", areaServed: [place("Courtenay"), place("Comox"), place("Cumberland")] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-courtenay/#service", url: SITE.origin + "/mortgage-broker-courtenay/", areaServed: [place("Courtenay"), place("Comox"), place("Cumberland")] };
 
 const body = `
 ${short({

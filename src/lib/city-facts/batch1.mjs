@@ -60,7 +60,6 @@ export default {
       ["City of New Westminster, short-term rentals and bed and breakfasts", "https://www.newwestcity.ca/business_licences/sb_expander_articles/6677.php"],
       ["City of New Westminster, development projects and infill housing", "https://www.newwestcity.ca/devprojects"],
       ["City of New Westminster, secondary suite guide (August 2025)", "https://www.newwestcity.ca/database/files/library/Secondary_Suite_Guide_August_2025.pdf"],
-      ["City of New Westminster, multi-unit residential zones (as of June 8, 2026)", "https://www.newwestcity.ca/database/files/library/400_Multi_Unit_Residential___As_of_June_8_2026.pdf"],
       ["City of New Westminster, 2021 Census release findings (council report)", "https://pub-newwestcity.escribemeetings.com/filestream.ashx?DocumentId=15358"],
       ["Province of BC news release on SSMUH extensions", "https://news.gov.bc.ca/releases/2024hous0178-001534"]
     ],

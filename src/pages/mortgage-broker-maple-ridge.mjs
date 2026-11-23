@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-maple-ridge/#service", name: "Resvick Mortgages, serving Maple Ridge", url: SITE.origin + "/mortgage-broker-maple-ridge/", areaServed: [{ "@type": "City", name: "Maple Ridge", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Pitt Meadows", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-maple-ridge/#service", url: SITE.origin + "/mortgage-broker-maple-ridge/", areaServed: [{ "@type": "City", name: "Maple Ridge", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Pitt Meadows", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }] };
 
 const body = `
 ${short({

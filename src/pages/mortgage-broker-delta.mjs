@@ -4,7 +4,7 @@ import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
 
-const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-delta/#service", name: "Resvick Mortgages, serving Delta", url: SITE.origin + "/mortgage-broker-delta/", areaServed: [{ "@type": "City", name: "Delta", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Metro Vancouver" }] };
+const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-delta/#service", url: SITE.origin + "/mortgage-broker-delta/", areaServed: [{ "@type": "City", name: "Delta", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Metro Vancouver" }] };
 
 const body = `
 ${short({
