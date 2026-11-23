@@ -368,7 +368,7 @@
       var body = { form: "quiz", intent: CANON_INTENT[id] || "other", name: name, email: email, phone: f.elements.phone.value.trim(), consent_enquiry: true, consent_marketing: !!f.elements.consent_marketing.checked,
         message: def.title + " score " + r.score + ", band " + r.band.name + "; wants call: " + (f.elements.call.checked ? "yes" : "no"), tool_inputs: ti, source_page: typeof location !== "undefined" ? location.pathname : "" };
       var btn = f.querySelector("button[type=submit]"); btn.disabled = true; btn.textContent = "Sending";
-      fetch("/api/lead", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }).then(function (res) {
+      (typeof window !== "undefined" && window.RMGuard ? window.RMGuard.get(f) : Promise.resolve("")).then(function (tok) { if (tok) body.turnstile = tok; return fetch("/api/lead", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }); }).then(function (res) {
         if (!res.ok) throw new Error("bad");
         track("form_submit", { form: "quiz", quiz: id });
         // Keep the score for /thank-you/ (no financial values), leave a one-conversion token, then go there. If navigation is blocked, the message below stays.

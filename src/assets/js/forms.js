@@ -140,7 +140,7 @@
       var body = { tool_inputs: ti, extra: extras(f), name: name, email: email, phone: val(d, "phone"), intent: d.get("intent") || "other", timeline: val(d, "timeline"), message: val(d, "message"),
         consent_enquiry: true, consent_reminders: d.get("consent_reminders") === "on", consent_marketing: d.get("consent_marketing") === "on", consent_referee: d.get("consent_referee") === "on",
         current_lender: val(d, "current_lender"), source_page: location.pathname, utm: utm(), submitted_at: new Date().toISOString(), form: kind };
-      fetch("/api/lead", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) })
+      (window.RMGuard ? window.RMGuard.get(f) : Promise.resolve("")).then(function (tok) { if (tok) body.turnstile = tok; return fetch("/api/lead", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }); })
         .then(function (r) { if (!r.ok) throw new Error("bad"); f.reset(); clearSaved();
           var done = f.getAttribute("data-success") || "Thank you. Joshua will reply personally.";
           var panel = f.querySelector("[data-done]");
@@ -149,7 +149,7 @@
           // Tool-result forms (data-stay) keep the visitor on their result and count the lead in place. Everything else goes to /thank-you/.
           if (f.hasAttribute("data-stay")) { if (window.RMTrack) window.RMTrack("generate_lead", { form: kind, page: location.pathname }); }
           else goThanks(kind); })
-        .catch(function () { setMsg(FALLBACK, true); })
+        .catch(function () { setMsg(FALLBACK, true); if (window.RMGuard) window.RMGuard.reset(f); })
         .then(function () { btn.disabled = false; });
     });
   }

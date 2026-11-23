@@ -21,7 +21,7 @@ Rules the CRM side must implement: one record per person (match on email + phone
 
 Failure handling: if the CRM call fails, the function posts `{alert, error, lead}` to `ALERT_WEBHOOK_URL` (set it to something that emails Josh) and returns 502; the page then tells the visitor to phone or email. A silent lost lead is launch-blocking, so do not go live without both variables set and a test submission from staging.
 
-Environment variables: `CRM_WEBHOOK_URL`, `ALERT_WEBHOOK_URL`.
+Environment variables: `CRM_WEBHOOK_URL`, `ALERT_WEBHOOK_URL`, and since Nov 23, 2026 `RESEND_API_KEY`, `LEAD_EMAIL_TO`, `LEAD_EMAIL_FROM`, the `LEADS` KV binding, `TURNSTILE_SECRET` and `TURNSTILE_SITE_KEY`. All setup steps are in LEAD-SETUP.md.
 
 ## Readable fields (added Oct 31, 2026)
 
