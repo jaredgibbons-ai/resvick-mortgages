@@ -282,6 +282,29 @@ const CLUSTERS = [
   ["checks", "More free checks", ["/mortgage-check/", "/purchase-readiness-check/", "/renewal-check/", "/equity-check/", "/investor-check/", "/self-employed-check/", "/lender-match/", "/mortgage-check-up/"]],
   ["rates", "More on rates", ["/mortgage-rates-bc/", "/mortgage-stress-test-canada/", "/mortgage-glossary/", "/mortgage-rates-surrey/", "/mortgage-rates-vancouver/", "/mortgage-renewal-rates-bc/", "/3-year-fixed-mortgage-rate/", "/5-year-fixed-mortgage-rate/", "/variable-rate-mortgage/"]]
 ];
+// "Keep reading" picks for content pages that no guide or cluster links to (Nov 23, 2026), so no page ends in a dead end.
+const READ_NEXT = {
+  "/prepayment-privileges-and-penalties/": ["/mortgage-penalty-calculator/", "/interest-rate-differential/", "/early-mortgage-renewal/"],
+  "/open-vs-closed-mortgage/": ["/prepayment-privileges-and-penalties/", "/fixed-vs-variable-mortgage/", "/mortgage-penalty-calculator/"],
+  "/rental-property-mortgage-renewal/": ["/refinance-rental-property/", "/switch-mortgage-lenders-at-renewal/", "/investment-property-mortgages-bc/"],
+  "/dscr-loans-canada/": ["/investment-property-mortgages-bc/", "/brrrr-strategy-canada/", "/refinance-rental-property/"],
+  "/second-mortgage-bc/": ["/heloc-bc/", "/cash-out-refinance-bc/", "/private-mortgage-lending-bc/"],
+  "/purchase-plus-improvements/": ["/construction-and-self-build-mortgages-bc/", "/secondary-suite-refinance/", "/closing-costs-bc/"],
+  "/reverse-mortgage-bc/": ["/mortgages-for-retirees-and-seniors/", "/downsizing-and-your-mortgage/", "/heloc-bc/"],
+  "/student-loans-and-your-mortgage/": ["/how-much-mortgage-can-i-afford/", "/build-credit-for-a-mortgage/", "/first-time-home-buyer-bc/"],
+  "/refinance-break-even/": ["/is-it-worth-refinancing/", "/mortgage-penalty-calculator/", "/cash-out-refinance-bc/"],
+  "/is-it-worth-refinancing/": ["/refinance-break-even/", "/refinance-to-pay-off-debt/", "/blend-and-extend-mortgage/"],
+  "/readvanceable-mortgage/": ["/smith-manoeuvre/", "/heloc-bc/", "/collateral-charge-mortgage/"],
+  "/smith-manoeuvre/": ["/readvanceable-mortgage/", "/heloc-bc/", "/investment-property-mortgages-bc/"],
+  "/refinance-rental-property/": ["/investment-property-mortgages-bc/", "/rental-property-mortgage-renewal/", "/heloc-bc/"],
+  "/bridge-financing/": ["/downsizing-and-your-mortgage/", "/accepted-offer/", "/closing-costs-bc/"],
+  "/mortgage-faq/": ["/how-mortgage-brokers-get-paid/", "/what-happens-after-you-apply/", "/mortgage-glossary/"],
+  "/what-happens-after-you-apply/": ["/mortgage-application-checklist/", "/closing-costs-bc/", "/mortgage-aftercare-program/"],
+  "/mortgage-aftercare-program/": ["/mortgage-renewal-reminder/", "/lender-comparison-report/", "/mortgage-check-up/"],
+  "/about-joshua-resvick/": ["/lender-comparison-report/", "/mortgage-aftercare-program/", "/how-mortgage-brokers-get-paid/"],
+  "/mortgage-calculators/": ["/mortgage-check/", "/lender-match/", "/mortgage-check-up/"]
+};
+export const READ_NEXT_PAGES = READ_NEXT;
 const NO_GUIDE_TARGET = new Set(["/contact/", "/partners/", "/mortgage-calculators/", "/", "/privacy/", "/terms-of-use/", "/apply/", "/refer/", "/resources/"]);
 const mon = (iso) => new Date(iso + "T12:00:00Z").toLocaleDateString("en-CA", { year: "numeric", month: "long", timeZone: "UTC" });
 const guideLi = (g) => `<li><a href="${g.slug}">${esc(g.h1)}</a> <span class="small">${mon(g.date)}</span></li>`;
@@ -313,6 +336,10 @@ function relatedHtml(page) {
       for (let k = 1; k < slugs.length && others.length < 5; k++) { const s = slugs[(i + k) % slugs.length]; if (labels[s]) others.push(s); }
       if (others.length) parts.push(`<aside class="callout related" data-nocount><p class="callout-t">${esc(title)}</p><ul>${others.map((s) => `<li><a href="${s}">${esc(labels[s])}</a></li>`).join("")}</ul></aside>`);
     }
+  }
+  if (!parts.length && READ_NEXT[page.slug]) {
+    const picks = READ_NEXT[page.slug].filter((s) => labels[s] && s !== page.slug);
+    if (picks.length) parts.push(`<aside class="callout related" data-nocount><p class="callout-t">Keep reading</p><ul>${picks.map((s) => `<li><a href="${s}">${esc(labels[s])}</a></li>`).join("")}</ul></aside>`);
   }
   return parts.join("\n");
 }
