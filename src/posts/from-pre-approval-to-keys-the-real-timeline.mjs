@@ -5,7 +5,7 @@ export default {
   date: "2026-10-31",
   series: "questions",
   title: "From Pre-Approval to Keys: The Real Timeline in BC",
-  meta: "The steps and rough timing between a mortgage pre-approval and getting your keys in BC: offer, conditions, appraisal, lawyer or notary, funding and completion.",
+  meta: "The steps and rough timing from mortgage pre-approval to getting your keys in BC: offer, conditions, appraisal, lawyer or notary, funding and completion.",
   h1: "From pre-approval to keys: the real timeline",
   crumb: "From pre-approval to keys",
   lede: "Buying a home in BC has a clear order of steps. Each one has its own deadline, and a slip in one can push the others. Here is the path, who does what, and what to have ready at each stage.",

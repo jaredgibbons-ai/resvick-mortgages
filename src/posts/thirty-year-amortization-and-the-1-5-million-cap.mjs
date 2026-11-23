@@ -5,7 +5,7 @@ export default {
   date: "2026-10-31",
   series: "rules",
   title: "30-Year Amortization and the $1.5M Insured Cap, Explained",
-  meta: "Since December 15, 2024, more BC buyers can use a 30-year amortization on an insured mortgage, and the insured price cap is $1.5 million. Here is who qualifies.",
+  meta: "Since December 15, 2024, more BC buyers can get a 30-year amortization on an insured mortgage, and the insured price cap is $1.5 million. Who qualifies.",
   h1: "30-year amortization and the $1.5 million insured cap",
   crumb: "30-year amortization and the $1.5M cap",
   lede: "Two mortgage rules changed on December 15, 2024. One lets some buyers stretch their payments over 30 years. The other lets more homes qualify for a small down payment. Here is what each rule does, and what it costs.",
