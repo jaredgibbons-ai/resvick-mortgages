@@ -236,7 +236,8 @@ function withNudge(page, html) { return html; }
 const wrapCites = (h) => h.replace(/\(([^()<>]{3,200}?, read [A-Z][a-z]+ \d{4})\)/g, '<span class="cite">($1)</span>');
 function withTop(page) {
   const t = withToc(page);
-  const html = withNudge(page, wrapCites(t.body));
+  let html = withNudge(page, wrapCites(t.body));
+  if (BENCH_PAGES.has(page.slug)) { const box = benchmarksBox(); const i = html.indexOf("</aside>"); if (box) html = i >= 0 ? html.slice(0, i + 8) + "\n" + box + html.slice(i + 8) : box + html; }
   if (page.slug !== "/resources/") return { html, toc: t.toc };
   const blk = latestGuides(4, "Latest guides");
   const i = html.indexOf("</aside>");
@@ -313,6 +314,22 @@ export function printableCard(key) {
 }
 /** "Print this page" button for guides and checklists (handled in print.js). */
 const printRow = (page) => page.print ? `<p class="print-page" data-nocount><button type="button" class="btn btn-ghost btn-sm" data-print-page>Print this ${page.slug.startsWith("/guides/") ? "guide" : "page"}</button> <span class="small">Prints the article without the menus and forms.</span></p>` : "";
+
+/** "Rates right now": public benchmark rates on the rate pages (Nov 24, 2026). Data: src/data/benchmarks.json, updated on
+ *  Bank of Canada decision days. Hidden at build time once the next decision date is more than 3 days past, so it can't go stale. */
+const BENCH_PAGES = new Set(["/mortgage-rates-bc/", "/variable-rate-mortgage/", "/mortgage-renewal-rates-bc/", "/5-year-fixed-mortgage-rate/", "/3-year-fixed-mortgage-rate/", "/mortgage-rates-vancouver/", "/mortgage-rates-surrey/", "/mortgage-stress-test-canada/"]);
+const longDate = (iso) => new Date(iso + "T12:00:00Z").toLocaleDateString("en-CA", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
+export function benchmarksBox(file = "src/data/benchmarks.json") {
+  let d; try { d = JSON.parse(fs.readFileSync(file, "utf8")); } catch { return ""; }
+  if (!d.nextDecision || Date.now() > Date.parse(d.nextDecision + "T23:59:00Z") + 3 * 86400000) return "";
+  return `<aside class="bench" data-nocount aria-labelledby="bench-h"><p class="bench-t" id="bench-h">Rates right now</p>
+<dl class="bench-grid">
+<div><dt>Bank of Canada policy rate</dt><dd>${esc(d.policyRate)}%</dd><p>Set ${longDate(d.policyDate)}</p></div>
+<div><dt>Prime rate at the big banks</dt><dd>${esc(d.prime)}%</dd><p>Since ${longDate(d.primeDate)}. Variable mortgages are priced from prime.</p></div>
+<div><dt>Stress-test floor</dt><dd>${esc(d.qualifyingFloor)}%</dd><p>You qualify at the higher of this or your rate plus 2%.</p></div>
+</dl>
+<p class="small">These are public benchmark rates, not a mortgage quote. Lenders price each mortgage on your down payment, property and term, and fixed rates move with bond yields every day. Next Bank of Canada decision: ${longDate(d.nextDecision)}. ${d.guide ? `What the last decision means: <a href="${d.guide}">read the guide</a>.` : ""}</p></aside>`;
+}
 
 /** Sticky bottom bar on phones. */
 const stickyBar = (slug) => NO_QUICK.has(slug) ? "" : `<div class="sticky-cta" data-nocount><a class="sc-main" href="${SITE.book}" data-evt="book_call_click">Book a call</a><a href="/apply/" data-evt="apply_click">${closeType(slug) === "buy" || slug === "/" ? "Get pre-approved" : "Start my application"}</a></div>`;

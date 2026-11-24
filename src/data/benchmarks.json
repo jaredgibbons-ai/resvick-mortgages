@@ -1,0 +1,19 @@
+{
+  "note": "Public benchmark rates only (never a lender's mortgage rate: Josh posts none). Update on every Bank of Canada decision day from the Bank's press release and one big bank's prime announcement. If nextDecision is more than 3 days past at build time, the box is hidden until this file is updated.",
+  "policyRate": "2.50",
+  "policyDate": "2026-10-28",
+  "prime": "4.70",
+  "primeDate": "2026-10-29",
+  "qualifyingFloor": "5.25",
+  "nextDecision": "2026-12-09",
+  "sources": [
+    {
+      "name": "Bank of Canada, October 28, 2026 press release",
+      "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "National Bank of Canada prime rate announcement, October 28, 2026"
+    }
+  ],
+  "guide": "/guides/bank-of-canada-october-2026/"
+}
