@@ -237,6 +237,20 @@
       if (h) h.value = JSON.stringify({ tool: "check-up", balance: n(f, "balance"), rate: n(f, "rate"), rate_type: s(f, "type"), amort_years: n(f, "amort"), maturity: s(f, "maturity"), months_to_maturity: o.monthsToMaturity, phase: o.phase, lender_type: lender, home_value: isNaN(n(f, "value")) ? null : n(f, "value"), penalty_low: o.penaltyLow, penalty_high: o.penaltyHigh });
       return html;
     },
+    reverse: function (f) {
+      var o = RM.reverseMortgage({ homeValue: n(f, "value"), age: n(f, "age"), balance: nz(f, "balance"), cash: nz(f, "cash"), ratePct: isNaN(n(f, "rate")) ? "" : n(f, "rate"), years: nz(f, "years") || 15, growthPct: nz(f, "growth") });
+      if (o.error) return err(o.error);
+      if (o.mortgageTooLarge) return "<p class='err'>Your mortgage is more than 55% of the value you entered, which is about the most any reverse mortgage lender advertises. A reverse mortgage likely can't pay it off on its own. Other options, like downsizing or a different lender, are worth a call.</p>";
+      var l = [["Most lenders advertise (55% of value)", money0(o.ceiling)], ["Used to pay off your current mortgage", money0(o.payout)], ["Cash to you in this estimate", money0(o.cash)], ["Starting reverse mortgage balance", money0(o.loan)]];
+      var t = "<div class='table-wrap'><table><thead><tr><th>After</th><th class='num'>Youngest owner's age</th><th class='num'>Amount owing</th><th class='num'>Home value</th><th class='num'>Equity left</th></tr></thead><tbody>" + o.rows.map(function (r) { return "<tr><td>" + r.year + " years</td><td class='num'>" + r.age + "</td><td class='num'>" + money0(r.balance) + "</td><td class='num'>" + money0(r.home) + "</td><td class='num'>" + (r.equity < 0 ? "None (" + money0(-r.equity) + " over)" : money0(r.equity)) + "</td></tr>"; }).join("") + "</tbody></table></div>";
+      var over = o.rows.filter(function (r) { return r.equity < 0; })[0];
+      var h = '<span class="big">Up to ' + money0(o.netCeiling) + "</span>the most you could get in cash, at the 55% most lenders advertise" + rows(l);
+      if (o.overCeiling) h += "<p class='small'>The amount you asked for is more than the 55% ceiling after your mortgage is paid off, so this estimate uses the ceiling.</p>";
+      h += "<p><strong>How the balance grows.</strong> You make no payments, so interest is added to what you owe. After " + o.years + " years, about " + money0(o.interestAdded) + " of interest has been added.</p>" + t;
+      if (over) h += "<p><strong>On these numbers, you'd owe more than the home is worth by year " + over.year + ".</strong> Some lenders guarantee you or your estate won't owe more than the home sells for, if you meet the loan's terms. Read the exclusions, and try taking less cash or a lower rate to see the difference.</p>";
+      h += "<p class='small'>The 55% figure is a ceiling, not an offer. The lender sets your amount from the ages of everyone on title, the home and its location, and younger owners usually get less. Interest here compounds twice a year; your lender's method may differ. Fees such as appraisal, legal and setup costs are not included.</p>";
+      return h;
+    },
     equity: function (f) {
       var o = RM.homeEquity({ homeValue: n(f, "value"), balance: n(f, "balance"), otherLiens: nz(f, "liens"), penalty: nz(f, "pen"), costs: nz(f, "costs"), wanted: nz(f, "wanted"), ratePct: isNaN(n(f, "rate")) ? "" : n(f, "rate"), amortYears: nz(f, "amort") || 25 });
       if (o.error) return err(o.error);

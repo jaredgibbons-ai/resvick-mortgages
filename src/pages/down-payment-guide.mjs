@@ -72,6 +72,7 @@ ${cta({ title: "Not sure which sources fit your plan?", text: "A 15-minute call 
 ${callout("Check this against your own file", "<p>These are the standard insured rules. A lender can ask for more than the minimum, and some property types or situations have their own conditions. Joshua will confirm what applies to your purchase before you make an offer.</p>")}
 
 <p>Want to know how ready you are overall? Take the two-minute <a href="/purchase-readiness-check/">purchase readiness check</a>.</p>
+<p>Putting less than 20% down? <a href="/cmhc-insurance-bc/">CMHC insurance in BC</a> shows the premium at each down payment. Saving in an FHSA? The <a href="/fhsa-bc/">FHSA guide</a> covers the limits.</p>
 ${cta({ title: "Turn the numbers into a plan", text: "Bring your savings and your target price to a 15-minute call. You'll leave with a down payment figure and an order for using each source.", href: "/contact/", label: "Contact Joshua" })}
 `;
 

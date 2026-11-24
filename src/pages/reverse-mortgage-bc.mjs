@@ -42,6 +42,7 @@ ${short({ answer: "A reverse mortgage lets homeowners 55 and over borrow against
 <li><strong>Government and pension income.</strong> Before you borrow, make sure you're claiming every benefit you're entitled to. It costs nothing to check.</li>
 </ul>
 
+<p>Want to see the numbers? The <a href="/reverse-mortgage-calculator-bc/">reverse mortgage calculator</a> shows the most you could get and how the balance grows each year.</p>
 ${cta({ title: "Bring the family to the call", text: "A reverse mortgage is a family decision as much as a money one. Book a 15-minute call, and bring an adult child or anyone else it affects. Joshua will explain the cost curve, the alternatives and what the estate would look like. There's no pressure to go ahead." })}
 
 <h2>The family conversation</h2>

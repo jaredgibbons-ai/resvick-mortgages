@@ -14,6 +14,7 @@ ${short({ answer: "Yes. You can buy in BC with 5 percent down, but only on the f
 <p>If your income is only just enough, a rental suite that a lender counts can raise the number. The <a href="/how-much-suite-income-will-a-lender-count/">suite income guide</a> explains how. It also explains why an unregistered suite usually counts for nothing at a mainstream lender.</p>
 <p>The money has to come from an acceptable source. Savings, an FHSA or Home Buyers' Plan withdrawal, and a gift from family all qualify with the right paperwork. Borrowed money is treated differently and costs more. A down payment that is borrowed or from a non-traditional source carries a higher premium rate when the loan-to-value is above 90 percent. See the <a href="/down-payment-guide-bc/">down payment guide</a> for the sources and the documents.</p>
 
+<p>The full premium table, with a worked example, is on the <a href="/cmhc-insurance-bc/">CMHC insurance page</a>.</p>
 ${cta({ title: "See what your own numbers look like", text: "Try the affordability calculator, or book a 15-minute call and Joshua will run a 5 percent scenario against your income and debts." , href: "/mortgage-calculators/#affordability", label: "Open the affordability calculator" })}
 
 <h2>The true cost of 5 percent down</h2>

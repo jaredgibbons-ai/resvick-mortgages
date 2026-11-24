@@ -71,6 +71,7 @@ ${soon("mli", "MLI Select calculator", "Estimate qualifying details for CMHC's m
 
 ${callout("What these tools do not do", "<p>They do not approve you for anything. They do not know your credit or your lender's policies. They also use the rules in force today. If a rule changes, the tools change with it. For a number you can rely on, book a call and Joshua will run your actual file.</p>")}
 
+<p>Two more tools live on their own pages: the <a href="/reverse-mortgage-calculator-bc/">reverse mortgage calculator</a> for owners 55 and older, and the <a href="/cmhc-insurance-bc/">CMHC insurance guide</a> with the premium calculator and table.</p>
 ${cta({ title: "Have the numbers, but not sure what they mean?", text: "Bring your results to a 15-minute call. Joshua will explain what a lender is likely to see and what you can do to improve it." })}
 
 <p>Calculators are one part of the job. If your mortgage is already in place, the <a href="/mortgage-aftercare-program/">aftercare program</a> keeps the numbers current as your life changes. You can also <a href="/contact/">contact Joshua</a> directly with a question these tools do not answer.</p>

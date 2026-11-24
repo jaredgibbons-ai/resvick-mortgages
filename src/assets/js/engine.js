@@ -783,6 +783,36 @@
     };
   }
 
+  // Reverse mortgage estimate (Nov 24, 2026). Public limits only: FCAC says lenders usually lend up to 55% of the home's value
+  // to owners 55 and older; HomeEquity Bank's CHIP page says the same 55% and that every owner on title must be 55+.
+  // The lender sets the real amount from ages, home and location, so 55% is shown as a ceiling, never as an offer.
+  // Growth: interest is added to the balance; compounded semi-annually here (a stated assumption, lenders' methods vary).
+  function reverseMortgage(o) {
+    var V = Number(o.homeValue), age = Number(o.age), B = Number(o.balance) || 0, cash = Number(o.cash) || 0;
+    var r = Number(o.ratePct), g = Number(o.growthPct) || 0, years = Math.round(Number(o.years) || 15);
+    if (!(V > 0)) return { error: "Enter your estimate of the home's value." };
+    if (!(age > 0)) return { error: "Enter the age of the youngest owner on title." };
+    if (age < 55) return { error: "Reverse mortgages in Canada are for homeowners 55 and older, and every owner on title usually has to meet that age." };
+    if (!(r >= 0) || o.ratePct === "" || o.ratePct == null) return { error: "Enter a reverse mortgage rate you've been quoted." };
+    if (B < 0 || cash < 0) return { error: "Amounts can't be negative." };
+    if (years < 1 || years > 40) years = 15;
+    var ceiling = roundCents(0.55 * V), netCeiling = roundCents(Math.max(0, 0.55 * V - B));
+    if (B >= 0.55 * V) return { ceiling: ceiling, netCeiling: 0, mortgageTooLarge: true };
+    if (!(cash > 0)) cash = netCeiling;
+    var overCeiling = cash > netCeiling + 0.005;
+    if (overCeiling) cash = netCeiling;
+    var loan = B + cash, ea = Math.pow(1 + r / 200, 2) - 1, rows = [], marks = [5, 10, 15, 20, 25];
+    if (marks.indexOf(years) < 0) marks.push(years);
+    marks = marks.filter(function (t) { return t <= Math.max(years, 5); }).sort(function (a, b) { return a - b; });
+    marks.forEach(function (t) {
+      var bal = loan * Math.pow(1 + ea, t), home = V * Math.pow(1 + g / 100, t);
+      rows.push({ year: t, age: age + t, balance: roundCents(bal), home: roundCents(home), equity: roundCents(home - bal) });
+    });
+    var end = rows[rows.length - 1];
+    return { ceiling: ceiling, netCeiling: netCeiling, cash: roundCents(cash), payout: roundCents(B), loan: roundCents(loan), overCeiling: overCeiling,
+      effectiveAnnual: ea, rows: rows, years: end.year, interestAdded: roundCents(end.balance - loan), endEquity: end.equity };
+  }
+
   return {
     FREQ: FREQ, roundCents: roundCents, periodicRate: periodicRate,
     levelPayment: levelPayment, payment: payment, principalFromPayment: principalFromPayment,
@@ -790,6 +820,6 @@
     generalPtt: generalPtt, ptt: ptt, qualifyingRate: qualifyingRate,
     affordability: affordability, closingCosts: closingCosts, termCost: termCost, penalty: penalty, fmt: fmt,
     prepayment: prepayment, compare: compare, consolidation: consolidation, refiBreakEven: refiBreakEven, rental: rental,
-    suiteCheck: suiteCheck, readvanceable: readvanceable, saleProceeds: saleProceeds, homeEquity: homeEquity, quizRoute: quizRoute, QUIZ_ROUTES: QUIZ_ROUTES, checkUp: checkUp, monthsBetween: monthsBetween, daysBetween: daysBetween
+    suiteCheck: suiteCheck, readvanceable: readvanceable, saleProceeds: saleProceeds, homeEquity: homeEquity, reverseMortgage: reverseMortgage, quizRoute: quizRoute, QUIZ_ROUTES: QUIZ_ROUTES, checkUp: checkUp, monthsBetween: monthsBetween, daysBetween: daysBetween
   };
 });

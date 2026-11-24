@@ -117,6 +117,10 @@ export const SLUGS = `/
 /student-loans-and-your-mortgage/
 /mortgage-stress-test-canada/
 /mortgage-glossary/
+/home-equity-loan-bc/
+/reverse-mortgage-calculator-bc/
+/cmhc-insurance-bc/
+/fhsa-bc/
 /mortgage-calculators/
 /mortgage-default-and-foreclosure-bc/
 /mortgage-for-contractors/

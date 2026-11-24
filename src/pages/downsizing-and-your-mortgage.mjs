@@ -75,6 +75,7 @@ ${short({
 
 ${callout("A decision with a long horizon", "<p>Downsizing is usually the last large housing decision a family makes. It deserves a plan that looks past the move. Joshua will show you the mortgage-free route and the small-mortgage route honestly. That includes what each one leaves you able to do later.</p>")}
 
+<p>Weighing downsizing against a reverse mortgage? Run the <a href="/reverse-mortgage-calculator-bc/">reverse mortgage calculator</a> to see what staying put would cost.</p>
 ${cta({ title: "Thinking about the move down?", text: "Book a 15-minute call. You will leave with the proceeds estimate, the penalty or porting answer and a plan for the overlap. Or <a href=\"/contact/\">contact Joshua</a> by email." })}
 `;
 

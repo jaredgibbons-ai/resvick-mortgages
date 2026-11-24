@@ -304,3 +304,17 @@ test("mortgage check-up: date windows, phases and term figures match the indepen
   const eq = RM.checkUp({ balance: 480000, ratePct: 4.79, amortYears: 21, maturity: "2027-06-01", homeValue: 900000, today: "2026-10-30" });
   assert.equal(eq.equity, 420000); assert.equal(eq.refiRoom, 240000); close(eq.ltv, 0.5333, 0.001);
 });
+
+test("reverse mortgage: 55% ceiling, payoff first, semi-annual growth, age gate", () => {
+  const o = RM.reverseMortgage({ homeValue: 1000000, age: 70, balance: 100000, ratePct: 6, years: 10 });
+  assert.equal(o.ceiling, 550000); assert.equal(o.netCeiling, 450000); assert.equal(o.cash, 450000); assert.equal(o.loan, 550000);
+  const ea = Math.pow(1.03, 2) - 1, r10 = o.rows.find((r) => r.year === 10);
+  close(r10.balance, 550000 * Math.pow(1 + ea, 10), 0.01); assert.equal(r10.age, 80); assert.equal(r10.home, 1000000);
+  assert.ok(RM.reverseMortgage({ homeValue: 1000000, age: 54, ratePct: 6 }).error);
+  assert.ok(RM.reverseMortgage({ homeValue: 1000000, age: 70 }).error);
+  assert.equal(RM.reverseMortgage({ homeValue: 500000, age: 70, balance: 300000, ratePct: 6 }).mortgageTooLarge, true);
+  const capped = RM.reverseMortgage({ homeValue: 1000000, age: 70, cash: 900000, ratePct: 6 });
+  assert.equal(capped.overCeiling, true); assert.equal(capped.cash, 550000);
+  const g = RM.reverseMortgage({ homeValue: 1000000, age: 70, cash: 200000, ratePct: 0, growthPct: 3, years: 5 });
+  close(g.rows.find((r) => r.year === 5).home, 1000000 * Math.pow(1.03, 5), 0.01); assert.equal(g.interestAdded, 0);
+});

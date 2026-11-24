@@ -42,7 +42,8 @@ const PAGES = {
   "/refinance-to-pay-off-debt/": "consolidation",
   "/bridge-financing/": "sale-proceeds",
   "/downsizing-and-your-mortgage/": "sale-proceeds",
-  "/smith-manoeuvre/": "readvanceable"
+  "/smith-manoeuvre/": "readvanceable",
+  "/home-equity-loan-bc/": "equity"
 };
 
 function block(page) {

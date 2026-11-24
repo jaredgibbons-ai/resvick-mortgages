@@ -6,8 +6,8 @@ import { esc, cta, PRINTABLES } from "../lib/site.mjs";
 // so they stay in sync automatically. A slug listed here that has no spec yet is skipped, not broken.
 const GROUPS = [
   ["Buying your first home", "Start here if you haven't owned before. Programs, down payment, closing costs and the order to do things in.", [
-    "/first-time-home-buyer-bc/", "/first-time-buyer-programs-bc/", "/mortgage-pre-approval-bc/", "/how-much-mortgage-can-i-afford/", "/down-payment-guide-bc/",
-    "/buying-with-5-percent-down/", "/gifted-down-payment/", "/deposit-loan-and-borrowed-down-payment/", "/closing-costs-bc/", "/partners/", "/mortgage-application-checklist/", "/mortgage-document-checklist/", "/what-happens-after-you-apply/",
+    "/first-time-home-buyer-bc/", "/first-time-buyer-programs-bc/", "/fhsa-bc/", "/mortgage-pre-approval-bc/", "/how-much-mortgage-can-i-afford/", "/down-payment-guide-bc/",
+    "/buying-with-5-percent-down/", "/cmhc-insurance-bc/", "/gifted-down-payment/", "/deposit-loan-and-borrowed-down-payment/", "/closing-costs-bc/", "/partners/", "/mortgage-application-checklist/", "/mortgage-document-checklist/", "/what-happens-after-you-apply/",
     "/co-buying-a-home/", "/mortgage-with-a-cosigner/", "/car-loan-affecting-mortgage/", "/student-loans-and-your-mortgage/", "/presale-mortgages-bc/", "/purchase-plus-improvements/", "/rent-to-own-homes-bc/"]],
   ["Renewing your mortgage", "Your renewal letter is an offer, not a verdict. How to compare, when to start and how switching works.", [
     "/mortgage-renewal-bc/", "/mortgage-renewal-rates-bc/", "/switch-mortgage-lenders-at-renewal/", "/stress-test-exemption-switching-lenders/", "/early-mortgage-renewal/",
@@ -16,7 +16,7 @@ const GROUPS = [
     "/mortgage-rates-bc/", "/fixed-vs-variable-mortgage/", "/5-year-fixed-mortgage-rate/", "/3-year-fixed-mortgage-rate/", "/variable-rate-mortgage/", "/open-vs-closed-mortgage/",
     "/mortgage-stress-test-canada/", "/mortgage-glossary/", "/interest-rate-differential/", "/prepayment-privileges-and-penalties/", "/blend-and-extend-mortgage/", "/collateral-charge-mortgage/", "/mortgage-rate-hold/", "/porting-your-mortgage/"]],
   ["Refinancing and using your equity", "Cash-out, debt consolidation, lines of credit and suites. Run the break-even math before anything else.", [
-    "/refinance-mortgage-bc/", "/is-it-worth-refinancing/", "/refinance-to-pay-off-debt/", "/cash-out-refinance-bc/", "/heloc-bc/", "/second-mortgage-bc/", "/readvanceable-mortgage/",
+    "/refinance-mortgage-bc/", "/home-equity-loan-bc/", "/is-it-worth-refinancing/", "/refinance-to-pay-off-debt/", "/cash-out-refinance-bc/", "/heloc-bc/", "/second-mortgage-bc/", "/readvanceable-mortgage/",
     "/secondary-suite-refinance/", "/how-much-suite-income-will-a-lender-count/", "/bridge-financing/", "/spousal-buyout-mortgage/", "/reverse-mortgage-bc/", "/downsizing-and-your-mortgage/"]],
   ["Self-employed and non-traditional income", "How lenders read business income, contracts and short histories, and which route fits your tax returns.", [
     "/self-employed-mortgage-bc/", "/stated-income-mortgage/", "/newly-self-employed-mortgage/", "/mortgage-for-contractors/", "/b-lender-mortgage-bc/", "/private-mortgage-lending-bc/"]],
@@ -33,7 +33,7 @@ const GROUPS = [
     "/investment-property-mortgages-bc/", "/commercial-mortgages-bc/", "/refinance-rental-property/", "/converting-your-home-to-a-rental/", "/airbnb-and-short-term-rental-mortgages/", "/dscr-loans-canada/",
     "/brrrr-strategy-canada/", "/smith-manoeuvre/"]],
   ["Calculators and checks", "Run the numbers yourself. Every result shows up right away, and nothing you type is sent anywhere.", [
-    "/mortgage-calculators/", "/bc-property-transfer-tax-calculator/", "/mortgage-penalty-calculator/", "/refinance-break-even/", "/home-equity-estimator/",
+    "/mortgage-calculators/", "/bc-property-transfer-tax-calculator/", "/reverse-mortgage-calculator-bc/", "/mortgage-penalty-calculator/", "/refinance-break-even/", "/home-equity-estimator/",
     "/mortgage-check/", "/purchase-readiness-check/", "/renewal-check/", "/equity-check/", "/investor-check/", "/self-employed-check/", "/lender-match/", "/mortgage-check-up/"]],
   ["Working with Joshua", "Who he is, how he's paid, and what happens after your mortgage funds.", [
     "/about-joshua-resvick/", "/mortgage-faq/", "/how-mortgage-brokers-get-paid/", "/mortgage-broker-vs-bank/", "/lender-comparison-report/", "/mortgage-aftercare-program/", "/apply/", "/contact/"]],

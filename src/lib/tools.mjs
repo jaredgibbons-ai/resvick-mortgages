@@ -11,7 +11,7 @@ const AMORT = [["25", "25 years"], ["30", "30 years (first-time buyers and new b
 // Which intent a calculator's "email me my results" lead carries. Tools with their own lead form (check-up, equity) and the quiz get none.
 const CALC_INTENT = { payment: "buyer", affordability: "buyer", downpayment: "buyer", closing: "buyer", cmhc: "buyer", ptt: "buyer",
   renewal: "renewal", penalty: "renewal", prepayment: "renewal", compare: "renewal",
-  consolidation: "refinance", offset: "refinance", readvanceable: "refinance", refibe: "refinance", saleproceeds: "other", suitechecker: "investor" };
+  consolidation: "refinance", offset: "refinance", readvanceable: "refinance", refibe: "refinance", saleproceeds: "other", suitechecker: "investor", reverse: "refinance" };
 // Shown under a result once there is one (calc-ui.js fills result_text and tool_inputs, then unhides it).
 export const toolMail = (id, calc, title, intent = CALC_INTENT[calc]) => intent ? `<form class="tool-mail" data-lead="calc-results" data-stay novalidate hidden>
 <input type="hidden" name="intent" value="${intent}"><input type="hidden" name="x_tool" value="${title}"><input type="hidden" name="result_text" value=""><input type="hidden" name="tool_inputs" value=""><input type="hidden" name="include_estimate" value="on">
@@ -189,6 +189,15 @@ ${sel("timeline", "When does it matter?", [["now", "Within the next month"], ["s
 <div class="row2">${sel("roll", "How the penalty and costs are paid", [["roll", "Added to the new mortgage"], ["cash", "Paid in cash"]], "roll")}${sel("horizon", "Months to compare", [["24", "24 months"], ["36", "36 months"], ["60", "60 months"], ["120", "120 months"]], "60")}</div>`,
     "Compares your position at each month: payments made, plus cash costs, plus the balance still owing. It assumes both rates hold for the period shown, which is the main uncertainty in any refinance decision. It does not model a change in the amount you borrow, the value of a different lender's prepayment terms, or taxes. A break-even later than the time you expect to keep the mortgage means the refinance does not pay.",
     "Find my break-even"),
+
+  reverse: () => tool("reverse", "reverse", "Reverse mortgage calculator",
+    "The most you could get at the 55% most lenders advertise, after paying off your mortgage, and how the balance grows over time.",
+    `<div class="row2">${num("value", "Home value ($)", { req: 1, ph: "your estimate" })}${num("age", "Age of the youngest owner", { req: 1, min: 55, ph: "55 or older" })}</div>
+<div class="row2">${num("balance", "Mortgage or line of credit owing ($)", { value: 0, hint: "Usually paid off first from the reverse mortgage" })}${num("cash", "Cash you'd like ($)", { ph: "optional; blank uses the most available" })}</div>
+<div class="row2">${num("rate", "Reverse mortgage rate (%)", { req: 1, ph: "a rate you've been quoted", hint: "Usually higher than a regular mortgage rate" })}${num("growth", "Home value growth (%/year)", { value: 0, step: "0.1", min: -10, hint: "0 shows the balance against today's value" })}</div>
+${sel("years", "Show the balance over", [["10", "10 years"], ["15", "15 years"], ["20", "20 years"], ["25", "25 years"]], "15")}`,
+    "An estimate, not an approval. Reverse mortgages in Canada are usually for owners 55 and older, up to about 55% of the home's value (Financial Consumer Agency of Canada). The real amount depends on your ages, home and location, and only a lender's appraisal sets it.",
+    "Estimate my reverse mortgage"),
 
   equity: () => tool("equity", "equity", "Home equity estimator",
     "How much equity you have and how much a lender could allow you to borrow against it.",

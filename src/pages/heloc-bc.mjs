@@ -55,6 +55,7 @@ ${short({
 <p>Since the lender treats an approved line as possible debt, pick the size you actually need, not the biggest one offered. A smaller line is easier to carry on your file, and easier to leave alone.</p>
 
 <p>Wondering whether a line of credit fits your situation? Take the two-minute <a href="/equity-check/">equity check</a>.</p>
+<p>Comparing every way to borrow against your home? The <a href="/home-equity-loan-bc/">home equity loan comparison</a> puts a HELOC, a refinance, a second mortgage and a reverse mortgage side by side.</p>
 ${cta({ title: "Estimate your room, then talk it through", text: "Run the equity estimator, then book a 15-minute call. Joshua will check the number against lender limits, your income and your mortgage. Then he'll tell you if a line, a refinance or neither is the right move." })}
 
 <h2>The risks, in plain language</h2>

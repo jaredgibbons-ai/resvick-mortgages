@@ -66,6 +66,7 @@ ${short({
 
 ${callout("Start early", "<p>Retirement income is easier to document when you plan ahead. If you may want to borrow in the next few years, talk to a broker before your income changes, not after. A short call now can keep your options open.</p>")}
 
+<p>Thinking about a reverse mortgage? The <a href="/reverse-mortgage-calculator-bc/">reverse mortgage calculator</a> shows how much you could get and what you'd owe over time.</p>
 ${cta({ title: "Planning a mortgage in retirement?", text: "Book a 15-minute call. You will leave knowing what lenders would count, which options fit and what to gather. Or <a href=\"/contact/\">contact Joshua</a> by email." })}
 `;
 

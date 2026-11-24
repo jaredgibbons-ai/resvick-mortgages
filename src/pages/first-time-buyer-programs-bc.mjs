@@ -61,6 +61,7 @@ ${short({
 <li><strong>BC transfer tax exemption (Province).</strong> This is the strictest test. You must never have owned a principal residence anywhere in the world. You must be a Canadian citizen or permanent resident. You must have lived in BC for 12 months in a row before registration, or filed two of your last six BC tax returns. The property, its value and how you live in it must also meet the rules.</li>
 </ul>
 
+<p>The FHSA is usually the first account to open. The <a href="/fhsa-bc/">FHSA guide</a> covers the limits, who qualifies and how withdrawals work.</p>
 ${cta({ title: "Which of the four do you pass?", text: "Bring your situation to a 15-minute call. Joshua will go through each program's test with you before you make an offer." })}
 
 <h2>Stacking order and how the programs interact</h2>

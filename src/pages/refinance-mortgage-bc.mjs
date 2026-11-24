@@ -53,6 +53,7 @@ ${short({ answer: "A refinance changes your balance, amortization or both, so it
 </ul>
 
 <p>Not sure a refinance makes sense for you? The two-minute <a href="/equity-check/">equity check</a> gives you a quick read.</p>
+<p>A refinance is one of four ways to use your equity. The <a href="/home-equity-loan-bc/">home equity loan comparison</a> shows the other three.</p>
 ${cta({ title: "Run the break-even check first", text: "Bring your balance, rate, term and the amount you are thinking of borrowing. Joshua will price the penalty and tell you whether a refinance, a switch at maturity or doing nothing comes out ahead." })}
 
 <h2>Where to go from here</h2>
