@@ -20,6 +20,11 @@ ${short({
 </tbody></table></div>
 <p>There's also a fifth item. It isn't a program, but it's a mortgage rule that helps first-time buyers. Since December 15, 2024, insured mortgages can use a 30-year amortization for first-time buyers and for buyers of newly built homes. The insured price cap is now below $1,500,000. We cover both below.</p>
 
+<h2>Is there a first-time home buyer grant in BC?</h2>
+<p>Not as a cash payment. People search for a "first-time home buyer grant" a lot, but BC doesn't hand first-time buyers money toward the purchase. What you get instead are the four programs above. Two help you save the down payment (the FHSA and the Home Buyers' Plan). Two cut the taxes you'd otherwise pay (the GST rebate on new homes and the transfer tax exemption).</p>
+<p>There is one real grant, but it comes after you buy. The BC Home Owner Grant lowers your property tax each year once you own and live in the home. The Province lists it at up to $570 a year from January 1, 2027. It shrinks for homes assessed above a threshold, which is $2,075,000 for 2026. You have to be a Canadian citizen or permanent resident living in BC, and the home has to be your principal residence. You claim it every year, usually through your city's property tax notice (Province of BC, Home Owner Grant page, read November 2026).</p>
+<p>So no grant will help with the down payment. The programs above are where the real money is. Used in the right order, they're worth far more than any grant.</p>
+
 <h2>FHSA: open it before you need it</h2>
 <p>The First Home Savings Account lets you save for a first home with two tax breaks. You get a deduction when you put money in. You pay no tax when you take it out for a qualifying home.</p>
 <p>You get $8,000 of room for each year you hold the account, up to $40,000 in total. Here's the detail that matters most: room only starts to build in the year you open your first account. Open it this year and buy next year, and you have $16,000 of room. Open it and buy in the same year, and you have $8,000.</p>
@@ -91,6 +96,7 @@ export default {
   crumbs: [["Home", "/"], ["First-time buyers", "/first-time-home-buyer-bc/"], ["Programs and stacking", "/first-time-buyer-programs-bc/"]],
   nav: "/first-time-home-buyer-bc/", body,
   faqs: [
+    { q: "Is there a first-time home buyer grant in BC?", a: "Not a cash grant toward the purchase. BC helps first-time buyers through the FHSA, the Home Buyers' Plan, the GST rebate on new homes and the transfer tax exemption. Once you own and live in the home, the BC Home Owner Grant lowers your yearly property tax, and you claim it every year." },
     { q: "Can I use the FHSA, the Home Buyers' Plan and the BC exemption on the same purchase?", a: `Yes, if you pass each program's test. The FHSA and the Home Buyers' Plan can be combined for the same home. The BC transfer tax exemption is a separate provincial benefit. Each one defines a first-time buyer in its own way, so you need to check all of them.` },
     { q: "Is a home under $835,000 free of transfer tax for first-time buyers?", a: `No. The exemption covers the tax on the first $500,000, a maximum of $8,000, for homes valued up to $835,000. The exemption then phases out and ends at $860,000. A $750,000 home still owes $5,000 after the exemption is applied.` },
     { q: "Which date decides the GST rebate?", a: `The date of your written agreement of purchase and sale with the builder. CRA's current guidance covers agreements signed on or after March 20, 2025. The date is needed, but it isn't enough on its own. The other conditions must also be met.` },
