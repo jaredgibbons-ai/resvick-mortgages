@@ -54,11 +54,11 @@ a:hover{text-decoration-thickness:1px;text-decoration-color:var(--marker);backgr
 .mnav-panel ul{list-style:none;margin:0;padding:0}
 .mnav-panel li a{display:block;padding:11px 0;font:500 18px var(--ui);color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule);background:none}
 .mnav-phone{font:600 19px var(--ui);text-align:center;color:var(--ink);text-decoration:none;background:none!important}
-@media(min-width:1180px){.nav{display:block}.hdr-cta{display:flex}.mnav{display:none}}
+@media(min-width:1240px){.nav{display:block}.hdr-cta{display:flex}.mnav{display:none}} /* below 1240px the full menu overflows the window, so the phone menu is used */
 @media(max-width:1419px){.hdr-phone{display:none}}
 @media(max-width:1079px){.hdr-in{position:relative}}
 @media(max-width:339px){.hdr-in{padding-right:12px;gap:8px}.mnav summary{width:44px}}
-@media(min-width:1420px){.hdr-phone{margin-right:10px}}
+@media(min-width:1420px){.hdr-phone{margin-right:10px}.hdr-in{max-width:1400px}} /* the phone number needs the extra 80px, or the buttons run past the box */
 
 /* buttons: solid, rounded, with a pressed-key edge so they read as buttons */
 .btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;background:var(--spruce);color:#fff;font:700 16.5px/1.2 var(--ui);padding:13px 28px;border-radius:14px;text-decoration:none;text-align:center;border:2px solid var(--spruce);box-shadow:0 4px 0 var(--spruce-2);cursor:pointer;transition:transform .08s,box-shadow .08s,background .12s;position:relative;top:0}
@@ -106,6 +106,12 @@ a:hover{text-decoration-thickness:1px;text-decoration-color:var(--marker);backgr
   .hero-home .hero-in{grid-template-columns:minmax(0,1fr) minmax(0,43%);min-height:620px}
   .hero-home .hero-copy{padding:72px 48px 56px max(28px,calc((100vw - var(--wrap))/2 + 28px));max-width:none;align-self:center}
   .hero-photo{aspect-ratio:auto;min-height:0;border-top:0;border-left:5px solid var(--spruce)}
+}
+/* Very wide screens (Nov 24, 2026): the home hero stops at the header's width instead of running edge to edge,
+   so the photo stays a portrait (about 520px) and the heading lines up with the content below. */
+@media(min-width:1500px){
+  .hero-home .hero-in{max-width:1400px;margin:0 auto;padding-right:16px;grid-template-columns:minmax(0,1fr) 540px;min-height:600px}
+  .hero-home .hero-copy{padding-left:calc((1400px - var(--wrap))/2 + 28px)}
 }
 
 /* jump-to list (left rail on wide screens) and sticky bar on phones */

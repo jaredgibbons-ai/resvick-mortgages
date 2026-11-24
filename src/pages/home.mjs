@@ -2,7 +2,7 @@ import fs from "node:fs";
 import { SITE, ratesStrip, reviews, actionCards } from "../lib/site.mjs";
 
 const photo = fs.existsSync("src/assets/img/josh-hero.webp")
-  ? `<figure class="hero-photo"><img src="/assets/img/josh-hero-720.webp" srcset="/assets/img/josh-hero-720.webp 720w, /assets/img/josh-hero-1080.webp 1080w" sizes="(max-width: 900px) 100vw, 43vw" width="720" height="1080" alt="Joshua Resvick, mortgage broker in Surrey, BC" fetchpriority="high"></figure>`
+  ? `<figure class="hero-photo"><img src="/assets/img/josh-hero-720.webp" srcset="/assets/img/josh-hero-720.webp 720w, /assets/img/josh-hero-1080.webp 1080w" sizes="(max-width: 900px) 100vw, (min-width: 1500px) 540px, 43vw" width="720" height="1080" alt="Joshua Resvick, mortgage broker in Surrey, BC" fetchpriority="high"></figure>`
   : "";
 
 const hero = `<div class="hero-copy"><h1>Josh Resvick<span class="h1-sub">Your BC mortgage broker</span></h1>
