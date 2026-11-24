@@ -18,7 +18,7 @@ ${ratesStrip()}
 <h2>Qualifying on a 5-year fixed: the stress test</h2>
 <p>Lenders don't qualify you at the rate you'll pay. They test your income against a higher rate. That checks you could still manage if rates went up.</p>
 <p>At a federally regulated lender, the qualifying rate is the higher of two numbers. One is your contract rate plus 2 percentage points. The other is 5.25 percent. With an illustrative contract rate of 4.50 percent, the qualifying rate would be 6.50 percent.</p>
-<p>So the most you can borrow depends on the stress-test rate, not the rate on the page. A small change in your contract rate moves the qualifying rate by the same amount. That means the rate you get can shift your borrowing limit. The <a href="/how-much-mortgage-can-i-afford/">affordability guide</a> explains the ratios lenders use alongside the test.</p>
+<p>So the most you can borrow depends on the stress-test rate, not the rate on the page. A small change in your contract rate moves the qualifying rate by the same amount. That means the rate you get can shift your borrowing limit. The <a href="/how-much-mortgage-can-i-afford/">mortgage affordability guide</a> explains the ratios lenders use alongside the test.</p>
 
 <h2>The penalty reality</h2>
 <p>The most useful thing to know about any fixed mortgage is what leaving early would cost. The penalty on a fixed term is usually the larger of two numbers. One is three months of interest. The other is the <a href="/interest-rate-differential/">interest rate differential</a>. Lenders work out the differential in different ways. So the result can vary a lot between lenders on the same mortgage.</p>

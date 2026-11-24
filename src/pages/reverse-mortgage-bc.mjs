@@ -68,6 +68,7 @@ export default {
   crumbs: [["Home", "/"], ["Refinancing", "/refinance-mortgage-bc/"], ["Reverse mortgages", "/reverse-mortgage-bc/"]],
   nav: "/refinance-mortgage-bc/", body,
   faqs: [
+    { q: "Can I use a mortgage broker for a reverse mortgage?", a: "Yes. Reverse mortgages in Canada come from a small number of lenders, and a broker can compare them with other options like a HELOC or downsizing. Joshua arranges reverse mortgages across BC, including Vancouver and the Fraser Valley, by phone and video from his Surrey office." },
     { q: "How does a reverse mortgage work in Canada?", a: "Homeowners aged 55 and over borrow against their home with no regular payments required. Interest is added to the balance monthly, and the loan is repaid when the home is sold, the last borrower moves out permanently or dies, or the borrower chooses to repay. Title stays with the owner." },
     { q: "How much can I get from a reverse mortgage?", a: "Typically up to about 55 percent of the appraised value, with some products slightly higher, and the share rises with age. The exact amount depends on your age, the home's value and location, and the lender's rules. The funds are not taxed as income." },
     { q: "What does a reverse mortgage cost over time?", a: "Because nothing is paid, interest compounds on interest and the balance roughly doubles in about ten years at a 7 percent rate, in a generic illustration. Equity shrinks accordingly unless the home's value rises enough to offset it. Rates are higher than on conventional mortgages." },

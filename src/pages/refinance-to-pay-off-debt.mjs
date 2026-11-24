@@ -51,6 +51,7 @@ export default {
   crumbs: [["Home", "/"], ["Refinancing", "/refinance-mortgage-bc/"], ["Pay off debt", "/refinance-to-pay-off-debt/"]],
   nav: "/refinance-mortgage-bc/", body,
   faqs: [
+    { q: "Is a debt consolidation mortgage better than a debt consolidation loan?", a: "Often cheaper per month, not always cheaper in total. A consolidation loan is usually unsecured, at a higher rate with a shorter payoff. Rolling debt into a mortgage lowers the rate but can stretch it over decades and may trigger a penalty. Compare the total interest both ways." },
     { q: "Can I refinance my mortgage to pay off credit card debt?", a: "Yes, if you have enough equity and you qualify. A refinance is generally limited to 80 percent of your home's appraised value. The lender pays your cards at closing, and the lower rate and longer amortization usually reduce your monthly outgo substantially." },
     { q: "Is consolidating debt into a mortgage a good idea?", a: "It can lower your payments and your interest rate, which helps when cash flow is tight. It can also raise your total interest because the debt lasts as long as the mortgage. It works best if you keep paying at your old level and stop re-using the cards." },
     { q: "Can I use my home equity to pay the CRA?", a: "Often, yes. A refinance can pay a balance owing to the CRA in full, and some lenders will pay the CRA directly at closing. Policy varies, and some lenders will not lend while arrears are outstanding, so a B lender may be the route. An accountant should advise on the tax side." },

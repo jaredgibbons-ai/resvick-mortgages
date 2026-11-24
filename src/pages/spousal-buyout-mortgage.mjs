@@ -32,7 +32,7 @@ ${short({
 
 <h2>How the staying partner qualifies</h2>
 <p>The partner keeping the home must qualify for the whole mortgage alone. That means their own income, credit and debts. The departing partner's income no longer counts.</p>
-<p>The stress test applies too. Federally regulated lenders qualify you at the contract rate plus two points, or 5.25 percent, whichever is higher. This is the step that most often decides whether a buyout can happen. The <a href="/how-much-mortgage-can-i-afford/">affordability guide</a> explains how the ratios work.</p>
+<p>The stress test applies too. Federally regulated lenders qualify you at the contract rate plus two points, or 5.25 percent, whichever is higher. This is the step that most often decides whether a buyout can happen. The <a href="/how-much-mortgage-can-i-afford/">mortgage affordability guide</a> explains how the ratios work.</p>
 <p>Support payments can go either way on these files. Spousal or child support you receive can usually count as income. It needs to be set out in the agreement or order, with a history of payments or a clear start date. Support you pay is a monthly cost that's added to your debts. Both have to be written into the agreement.</p>
 <p>If the staying partner's income falls a little short, a <a href="/mortgage-with-a-cosigner/">co-signer</a> is sometimes the answer. Make sure the co-signer understands their own duties and risks first.</p>
 <p>The <a href="/mortgage-application-checklist/">application checklist</a> lists the documents. For a buyout, add the agreement, the appraisal and a payout statement to the usual set.</p>

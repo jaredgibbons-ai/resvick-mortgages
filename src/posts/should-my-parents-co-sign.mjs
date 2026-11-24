@@ -28,7 +28,7 @@ ${short({
 <p>Lenders differ on whether a co-signer must also go on title. The guide covers that. But the liability and the debt-counting don't change.</p>
 
 <h2>What the buyer gains, and how to size it</h2>
-<p>Before you ask, know how far short your file really is. The <a href="/mortgage-calculators/#affordability">affordability calculator</a> applies the standard ratios and the stress-test rate to your income and debts. The <a href="/how-much-mortgage-can-i-afford/">affordability guide</a> explains how lenders do it. Three cases come out of that exercise.</p>
+<p>Before you ask, know how far short your file really is. The <a href="/mortgage-calculators/#affordability">affordability calculator</a> applies the standard ratios and the stress-test rate to your income and debts. The <a href="/how-much-mortgage-can-i-afford/">mortgage affordability guide</a> explains how lenders do it. Three cases come out of that exercise.</p>
 <p>If the gap is small, say a price a few percent above what you qualify for, the options below often close it. No one has to co-sign.</p>
 <p>If the gap is large, a co-signer may be the only route. Then the question is whether the parent is comfortable with the risk.</p>
 <p>If the gap is about credit, not income, a co-signer helps less than people expect. Many lenders still need the main borrower's credit to meet a minimum. Rebuilding for six to twelve months may be the better path. The credit-building page on this site covers how.</p>

@@ -22,7 +22,7 @@ ${short({
 
 <h2>Where the number comes from</h2>
 <p>Lenders test your gross monthly income against two ratios. The gross debt service ratio counts only housing costs. It's capped at 39 percent. The total debt service ratio counts housing costs plus every other debt payment, including car loans and leases. It's capped at 44 percent.</p>
-<p>In both tests, the mortgage payment is worked out at the qualifying rate. That's your contract rate plus 2 points, or 5.25 percent, whichever is higher. So a 4.50 percent mortgage is tested at 6.50 percent. The <a href="/how-much-mortgage-can-i-afford/">affordability guide</a> walks through the method.</p>
+<p>In both tests, the mortgage payment is worked out at the qualifying rate. That's your contract rate plus 2 points, or 5.25 percent, whichever is higher. So a 4.50 percent mortgage is tested at 6.50 percent. The <a href="/how-much-mortgage-can-i-afford/">mortgage affordability guide</a> walks through the method.</p>
 <p>Now the conversion. At a 6.50 percent qualifying rate over 25 years, each $100 of monthly payment supports about $14,900 of mortgage. So a $600 car payment that comes straight out of your room removes about $89,600 of mortgage.</p>
 <p>At the 5.25 percent floor, each $100 supports about $16,800. That floor applies when the contract rate is 3.25 percent or lower. The same $600 then removes about $100,700.</p>
 <p>That's the whole origin of "$90,000 to $100,000". It's $600 times the mortgage a dollar of payment buys at the stress-test rate.</p>

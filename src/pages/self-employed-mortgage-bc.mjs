@@ -85,6 +85,7 @@ export default {
   nav: "/self-employed-mortgage-bc/",
   body,
   faqs: [
+    { q: "Should a self-employed borrower use a mortgage broker?", a: "Often, yes. Banks mostly use the income on your tax return after write-offs. Some lenders a broker works with read business income in other ways. A broker matches how you're paid to the lender whose rules fit. Any fee on a B-lender file is disclosed in writing before you commit." },
     { q: "How many years of self-employment do I need for a mortgage?", a: "Most A lenders want two years of tax history and average the income across them. Some B lenders will consider a business younger than two years, especially when you work in the same field you were employed in before. The newly self-employed page explains the options for each year." },
     { q: "Can I get a mortgage if I write off most of my income?", a: "Often, yes, but usually not at an A lender on the declared figure alone. Some A lenders add back certain deductions or gross up self-employed income. If that's still not enough, a B lender can qualify you on a reasonable stated income, at a higher rate and with a fee." },
     { q: "Do dividends count as income for a mortgage?", a: "Yes, at most lenders, usually averaged over two years of T5 slips and supported by the corporation's financial statements. Some lenders treat dividends more cautiously than salary because they can change from year to year, so consistency matters." },

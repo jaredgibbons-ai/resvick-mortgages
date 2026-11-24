@@ -47,7 +47,7 @@ const NAV = [
     ["Self-employed", "/self-employed-mortgage-bc/"], ["New to Canada", "/new-to-canada-mortgage/"], ["Separation and divorce", "/mortgages-during-separation-and-divorce/"],
     ["Behind on payments", "/behind-on-mortgage-payments/"], ["Bad credit", "/bad-credit-mortgage-bc/"], ["Investors", "/investment-property-mortgages-bc/"], ["Cities served", "/mortgage-broker-surrey/"]] },
   { label: "Tools", href: "/mortgage-calculators/", kids: [
-    ["All calculators", "/mortgage-calculators/"], ["Two-minute mortgage check", "/mortgage-check/"], ["Mortgage check-up", "/mortgage-check-up/"],
+    ["Mortgage calculators", "/mortgage-calculators/"], ["Two-minute mortgage check", "/mortgage-check/"], ["Mortgage check-up", "/mortgage-check-up/"],
     ["BC property transfer tax", "/bc-property-transfer-tax-calculator/"], ["Penalty calculator", "/mortgage-penalty-calculator/"], ["Lender match", "/lender-match/"]] },
   { label: "Learn", href: "/resources/", kids: [
     ["All guides by topic", "/resources/"], ["Mortgage rates explained", "/mortgage-rates-bc/"], ["Fixed vs variable", "/fixed-vs-variable-mortgage/"],

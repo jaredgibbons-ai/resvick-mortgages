@@ -73,6 +73,7 @@ export default {
   crumbs: [["Home", "/"], ["Calculators", "/mortgage-calculators/"], ["BC property transfer tax calculator", "/bc-property-transfer-tax-calculator/"]],
   nav: "/mortgage-calculators/", calc: true, body,
   faqs: [
+    { q: "What is the first-time home buyer exemption in BC?", a: "Eligible first-time buyers pay no transfer tax on the first $500,000 of value, worth up to $8,000, on homes up to $835,000. It phases out and ends at $860,000. You must be a citizen or permanent resident who has never owned a principal residence anywhere." },
     { q: "Who pays the BC property transfer tax?", a: "The buyer pays it. It is due when the transfer is registered at the land title office, and your lawyer or notary normally collects it from you with the rest of your closing funds, then remits it to the Province on your behalf. Plan for it in your cash-to-close total." },
     { q: "Is a $750,000 home exempt for first-time buyers?", a: "Not entirely. The exemption covers the tax on the first $500,000, which is up to $8,000. On a $750,000 home the general tax is $13,000, so $5,000 is still payable for a qualifying first-time buyer. Only homes at $500,000 or less are fully exempt." },
     { q: "Can I get both the first-time buyers' and the newly built exemptions?", a: "They are separate programs with separate conditions. As a planning estimate the calculator applies whichever exemption is larger. Your lawyer or notary confirms which one applies when the transfer is filed, so ask them before you finalize your closing budget." },

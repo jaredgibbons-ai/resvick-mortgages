@@ -51,7 +51,7 @@ ${short({
 <p>The combined effect on cash is in the tens of thousands. The programs guide warns that this has to be worked out program by program, not assumed.</p>
 
 <h2>What it doesn't do</h2>
-<p>The rebate doesn't change what a lender will approve. You still qualify at the stress-test rate on your income and debts. The <a href="/how-much-mortgage-can-i-afford/">affordability guide</a> explains that math.</p>
+<p>The rebate doesn't change what a lender will approve. You still qualify at the stress-test rate on your income and debts. The <a href="/how-much-mortgage-can-i-afford/">mortgage affordability guide</a> explains that math.</p>
 <p>It doesn't lower the price of a resale home. GST isn't charged on resale homes. It only applies to new or substantially renovated homes.</p>
 <p>It doesn't help a buyer who has owned in the last four years, whatever the other programs say.</p>
 <p>And it doesn't make a presale safer. The deposit setup and the completion risk are the same as before. So is the gap between a rate hold and a completion date two years away. The <a href="/presale-mortgages-bc/">presale guide</a> covers all of that.</p>

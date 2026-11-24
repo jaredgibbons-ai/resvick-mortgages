@@ -26,7 +26,7 @@ ${short({
 <p>It also helps in a second way. A bigger down payment means a smaller mortgage and a lower payment. And cash on hand covers closing costs, which many buyers forget to plan for. The <a href="/closing-costs-bc/">closing costs guide</a> lists what to expect in BC.</p>
 
 <h2>What a dollar toward the car loan buys</h2>
-<p>Lenders test your income against two limits. One counts housing costs only. The other counts housing costs plus every debt payment, including a car loan. The <a href="/how-much-mortgage-can-i-afford/">affordability guide</a> explains both.</p>
+<p>Lenders test your income against two limits. One counts housing costs only. The other counts housing costs plus every debt payment, including a car loan. The <a href="/how-much-mortgage-can-i-afford/">mortgage affordability guide</a> explains both.</p>
 <p>When your debts are what holds you back, each dollar of monthly payment you remove frees room for a larger mortgage. At a typical qualifying rate, each $100 of monthly payment supports about $15,000 of mortgage. The <a href="/guides/car-loan-100k-of-mortgage/">car loan post</a> shows where that figure comes from.</p>
 <p>So a $480 car payment can be worth around $70,000 of mortgage room. That is more than three times the $22,000 it takes to clear the loan. This is why paying off a car is sometimes the best use of cash on a file that is close.</p>
 <p>That number comes with a catch. It only applies to the part of your debt payments that is limiting you.</p>

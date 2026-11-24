@@ -81,6 +81,7 @@ export default {
   crumbs: [["Home", "/"], ["First-time buyers", "/first-time-home-buyer-bc/"], ["How much mortgage can I afford?", "/how-much-mortgage-can-i-afford/"]],
   nav: "/first-time-home-buyer-bc/", calc: true, body,
   faqs: [
+    { q: "How much house can I afford in BC?", a: "It depends on your income, debts, down payment and the stress test. Lenders usually cap housing costs near 39% of gross income and all debts near 44%, at the higher of your rate plus 2% or 5.25%. The affordability calculator on this page turns that into a price range." },
     { q: "How do lenders calculate how much I can borrow?", a: `They test your gross income against two ratios, GDS at 39% and TDS at 44% for insured mortgages, using the qualifying rate, which is the greater of your contract rate plus 2% or 5.25%. The lower result sets your limit, and lender policy on income and debts adjusts it further.` },
     { q: "Is there a rule that I can borrow 4.5 times my income?", a: `No. That figure comes from a regulator's portfolio limit on how many high loan-to-income mortgages a lender can write each quarter. It is not a cap on borrowers. Your limit comes from the debt service ratios, the qualifying rate and the lender's own policies.` },
     { q: "Do I need to count credit card payments as debt?", a: `Yes. Lenders include a payment for every credit card and line of credit on your report, calculated by their own method. Paying off a card before applying removes its payment from your ratios, which helps most when total debt service is the ratio limiting you.` },

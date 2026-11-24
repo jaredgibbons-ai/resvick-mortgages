@@ -49,7 +49,7 @@ ${short({ answer: "A co-signer lends their income or credit to your mortgage and
 <li><strong>A gifted down payment.</strong> A relative gives money without signing the mortgage or being responsible for it. The gift needs a letter and a paper trail, and the guide to a <a href="/gifted-down-payment/">gifted down payment</a> explains the steps. The relative's risk is limited to the money given, which is a different commitment from a liability that lasts for years.</li>
 <li><strong>Suite income.</strong> If the home has a legal suite, the rent can raise what you qualify for. See <a href="/how-much-suite-income-will-a-lender-count/">how much suite income a lender will count</a>.</li>
 <li><strong>A different lender.</strong> Lenders read income and credit differently. A broker may find an A lender that fits, or a <a href="/b-lender-mortgage-bc/">B lender</a> for a file that is stronger than it looks to a bank. B lenders generally charge higher rates and may charge fees, with written disclosure first.</li>
-<li><strong>A smaller purchase or a longer wait.</strong> A lower price, a larger down payment saved over a few more months, or paying down a debt can bring the numbers in range without involving anyone. Test the numbers with the <a href="/how-much-mortgage-can-i-afford/">affordability guide</a>.</li>
+<li><strong>A smaller purchase or a longer wait.</strong> A lower price, a larger down payment saved over a few more months, or paying down a debt can bring the numbers in range without involving anyone. Test the numbers with the <a href="/how-much-mortgage-can-i-afford/">mortgage affordability guide</a>.</li>
 </ul>
 
 <h2>Questions families should ask each other</h2>

@@ -35,7 +35,7 @@ ${short({
 <li><strong>A gap-free work history.</strong> No time between the old job and the new one is the easiest case.</li>
 <li><strong>Good credit and a solid down payment.</strong> Strong parts of a file can balance a short job history.</li>
 </ul>
-<p>The type of pay matters too. A fixed salary is simple. Hourly pay with steady hours is usually fine. Commission, bonus and overtime are harder, and lenders often want a longer history before they count them. If your new pay is mostly variable, expect questions. The <a href="/how-much-mortgage-can-i-afford/">affordability guide</a> shows how income feeds the ratios.</p>
+<p>The type of pay matters too. A fixed salary is simple. Hourly pay with steady hours is usually fine. Commission, bonus and overtime are harder, and lenders often want a longer history before they count them. If your new pay is mostly variable, expect questions. The <a href="/how-much-mortgage-can-i-afford/">mortgage affordability guide</a> shows how income feeds the ratios.</p>
 
 <h2>What to bring</h2>
 <p>The paperwork is the most useful thing you control. For a new job, expect to provide the following.</p>

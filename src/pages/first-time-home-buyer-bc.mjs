@@ -5,7 +5,7 @@ const body = `
 ${short({
   answer: "Plan for two numbers: the down payment (5 percent of the first $500,000, 10 percent of the rest) and closing costs. Then check which of the four first-time buyer programs you qualify for, because each has its own test.",
   who: "First-time buyers in BC who want the whole process on one page, in the right order.",
-  next: "See what your income can support with the <a href=\"/how-much-mortgage-can-i-afford/\">affordability guide</a>, then book a 15-minute call if you want a real pre-approval."
+  next: "See what your income can support with the <a href=\"/how-much-mortgage-can-i-afford/\">mortgage affordability guide</a>, then book a 15-minute call if you want a real pre-approval."
 })}
 <h2>First-time buyer programs in BC, at a glance</h2>
 <p>Buying your first home in BC is really four things stacked together. Most of the confusion comes from treating them as one. There's the mortgage itself, which decides how much you can borrow and what the monthly payment looks like. There's the cash you need on day one, which is your down payment plus closing costs. There are the federal programs that help you save or cut what you pay. And there's one provincial tax, the BC property transfer tax, which has its own first-time buyer exemption.</p>
@@ -39,7 +39,7 @@ ${cta({ title: "Not sure which number to start with?", text: "Book a 15-minute c
 <h2>The buying timeline</h2>
 <p>The exact calendar depends on your situation, but the order is almost always the same:</p>
 <ol>
-<li><strong>Learn your numbers.</strong> Use the <a href="/how-much-mortgage-can-i-afford/">affordability guide</a> and calculator to see what your income and debts can support at the qualifying rate.</li>
+<li><strong>Learn your numbers.</strong> Use the <a href="/how-much-mortgage-can-i-afford/">mortgage affordability guide</a> and calculator to see what your income and debts can support at the qualifying rate.</li>
 <li><strong>Open the right accounts early.</strong> FHSA room only starts building once the account exists. Opening it early can matter, even if you only put in a little at first.</li>
 <li><strong>Get a real pre-approval.</strong> Documents, not guesses.</li>
 <li><strong>Shop with a realtor.</strong> Offers usually carry a financing condition, and that's the window where your broker confirms the lender's final approval.</li>

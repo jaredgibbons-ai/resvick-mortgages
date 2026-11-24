@@ -14,7 +14,7 @@ export default {
 ${short({
   answer: "As of December 15, 2024, first-time buyers and buyers of new builds can ask for a 30-year amortization on an insured mortgage. The price cap for insured mortgages also moved from $1 million to $1.5 million. Both changes are federal rules. Lenders still decide whether to offer them on a given file.",
   who: "Buyers with less than 20 percent down, especially first-time buyers and anyone buying a new build in BC.",
-  next: "Check your own numbers with the <a href=\"/how-much-mortgage-can-i-afford/\">affordability guide</a>, or <a href=\"/contact/\">book a short call</a>."
+  next: "Check your own numbers with the <a href=\"/how-much-mortgage-can-i-afford/\">mortgage affordability guide</a>, or <a href=\"/contact/\">book a short call</a>."
 })}
 <h2>What changed, in plain words</h2>
 <p>The federal government announced changes to the insured mortgage rules in 2024. They took effect on December 15, 2024. Two of them matter most to home buyers in BC.</p>
@@ -43,7 +43,7 @@ ${short({
 <h2>The stress test still applies</h2>
 <p>A longer amortization does not remove the stress test. You still have to qualify at the higher of your contract rate plus 2 percent, or 5.25 percent. OSFI, the federal bank regulator, sets that rule for federally regulated lenders.</p>
 <p>The longer amortization does help the test. Because the payment is calculated over 30 years, the monthly figure used in the test is lower. So a buyer who is just short at 25 years may pass at 30.</p>
-<p>That is the real purpose of the change. It is a way to make the numbers fit. It is not a reason to buy more house than you want to carry. The <a href="/how-much-mortgage-can-i-afford/">affordability guide</a> explains the ratios lenders use, and why the comfortable number is often lower than the approved number.</p>
+<p>That is the real purpose of the change. It is a way to make the numbers fit. It is not a reason to buy more house than you want to carry. The <a href="/how-much-mortgage-can-i-afford/">mortgage affordability guide</a> explains the ratios lenders use, and why the comfortable number is often lower than the approved number.</p>
 
 <h2>The $1.5 million cap</h2>
 <p>Before December 15, 2024, a home could only be insured if the price was below $1 million. That cap had not moved in years, and many BC homes sat above it. A buyer in Metro Vancouver or the Fraser Valley with less than 20 percent down had to find the extra cash.</p>
