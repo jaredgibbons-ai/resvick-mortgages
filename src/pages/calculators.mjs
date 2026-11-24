@@ -78,7 +78,7 @@ ${cta({ title: "Have the numbers, but not sure what they mean?", text: "Bring yo
 
 export default {
   slug: "/mortgage-calculators/",
-  h1: "Mortgage calculators for BC buyers and renewers",
+  h1: "Mortgage calculator BC: payment, affordability and more",
   lede: "Payments, affordability, down payment, BC transfer tax, CMHC premiums, renewal scenarios and penalties. Each shows its full result immediately and explains its assumptions.",
   crumb: "Mortgage calculators", nav: "/mortgage-calculators/", calc: true, body,
   faqs: [

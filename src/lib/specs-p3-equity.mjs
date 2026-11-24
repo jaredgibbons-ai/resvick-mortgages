@@ -16,7 +16,7 @@ export default {
     links: ["/heloc-bc/", "/refinance-to-pay-off-debt/", "/private-mortgage-lending-bc/", "/home-equity-estimator/", "/refinance-mortgage-bc/", "/behind-on-mortgage-payments/", "/contact/"]
   },
   "/bridge-financing/": {
-    title: "Bridge Financing BC | Buy Before Your Sale Closes",
+    title: "Bridge Financing BC | Bridge Loans to Buy Before You Sell",
     meta: "Bridge loans cover the gap when your purchase closes before your sale. How bridge financing works in BC, what it costs, what lenders need and the plan B.",
     specTitle: "Bridge Financing in BC | Buy Before Your Sale Closes",
     specMeta: "Bridge loans cover the gap when your purchase closes before your sale. How bridge financing works in BC, what it costs, and what your lender needs.",
