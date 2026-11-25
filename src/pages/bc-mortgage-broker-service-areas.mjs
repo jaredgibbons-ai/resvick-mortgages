@@ -13,9 +13,9 @@ const REGIONS = [
   ["Tri-Cities, Pitt Meadows and Maple Ridge", "Townhouses and newer builds are common, and so are presales.", ["coquitlam", "port-coquitlam", "port-moody", "pitt-meadows", "maple-ridge"]],
   ["Fraser Valley", "Farmland, acreages and houses with suites all show up in the same search here.", ["abbotsford", "mission", "chilliwack"]],
   ["Sea to Sky", "Resort rules and rental rules matter as much as the price.", ["squamish", "whistler"]],
-  ["Vancouver Island", "From the capital region up to the Comox Valley.", ["victoria", "saanich", "langford", "nanaimo", "courtenay"]],
+  ["Vancouver Island and Powell River", "From the capital region up to Campbell River, plus Powell River across the strait.", ["victoria", "saanich", "langford", "duncan", "nanaimo", "port-alberni", "courtenay", "campbell-river", "powell-river"], "/mortgage-broker-vancouver-island/"],
   ["Okanagan and Similkameen", "Second homes, orchards and small towns sit side by side.", ["kelowna", "west-kelowna", "vernon", "penticton", "osoyoos-oliver", "keremeos", "princeton"]],
-  ["Thompson and Kootenays", "Mountain towns and regional centres, each with its own housing mix.", ["kamloops", "revelstoke", "trail-castlegar", "fernie", "invermere"]],
+  ["Thompson and Kootenays", "Mountain towns and regional centres, each with its own housing mix.", ["kamloops", "revelstoke", "nelson", "trail-castlegar", "cranbrook", "fernie", "invermere"]],
   ["Northern BC", "Resource towns where shift work and industry income are normal.", ["prince-george", "quesnel", "terrace", "kitimat", "prince-rupert", "fort-st-john"]]
 ];
 
@@ -28,8 +28,8 @@ for (const k of Object.keys(CITY_NAME)) if (!listed.has(k)) throw new Error("Cit
 
 const regionId = (name) => name.toLowerCase().replace(/[^a-z]+/g, "-").replace(/^-|-$/g, "");
 const jump = `<nav class="res-jump" aria-label="Jump to a region" data-nocount><ul>${REGIONS.map(([n]) => `<li><a href="#${regionId(n)}">${esc(n)}</a>${DOT}</li>`).join("\n")}</ul></nav>`;
-const sections = REGIONS.map(([name, blurb, keys]) => `<h3 id="${regionId(name)}">${esc(name)}</h3>
-<p>${esc(blurb)}</p>
+const sections = REGIONS.map(([name, blurb, keys, hub]) => `<h3 id="${regionId(name)}">${esc(name)}</h3>
+<p>${esc(blurb)}${hub ? ` The <a href="${hub}">Vancouver Island overview</a> compares the towns side by side.` : ""}</p>
 <ul class="res-list">${keys.map((k) => `<li><a href="${href(k)}">${esc(CITY_NAME[k])}</a>${DOT}</li>`).join("\n")}</ul>`).join("\n");
 
 const body = `

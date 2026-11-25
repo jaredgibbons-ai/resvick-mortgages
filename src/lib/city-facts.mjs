@@ -1,4 +1,4 @@
-// Per-city local facts section. Data: src/lib/city-facts/batch1-6.mjs (verified-only, from Muse research read October 31, 2026)
+// Per-city local facts section. Data: src/lib/city-facts/batch1-7.mjs (verified-only, from Muse research read October 31, 2026)
 // plus src/lib/city-provincial.mjs (gov.bc.ca lists). Rendered once per city page.
 import { esc } from "./site.mjs";
 import { CITY_NAME } from "./nearby.mjs";
@@ -9,8 +9,9 @@ import b3 from "./city-facts/batch3.mjs";
 import b4 from "./city-facts/batch4.mjs";
 import b5 from "./city-facts/batch5.mjs";
 import b6 from "./city-facts/batch6.mjs";
+import b7 from "./city-facts/batch7.mjs";
 
-export const FACTS = { ...b1, ...b2, ...b3, ...b4, ...b5, ...b6 };
+export const FACTS = { ...b1, ...b2, ...b3, ...b4, ...b5, ...b6, ...b7 };
 export const hasFacts = (k) => !!FACTS[k];
 
 const dot = (s) => (/[.!?]$/.test(s.trim()) ? s.trim() : s.trim() + ".");
@@ -48,7 +49,7 @@ export const cityFacts = (k) => {
   if (!d) return "";
   const name = CITY_NAME[k];
   let h = `\n<h2>${esc(name)}: local rules, employers and lenders</h2>`;
-  h += `\n<p>I checked these pages in October 2026. Rules change, so confirm with the town before you rely on this.</p>`;
+  h += `\n<p>I checked these pages in ${esc(d.checked || "October 2026")}. Rules change, so confirm with the town before you rely on this.</p>`;
   h += `\n<h3>Short-term rentals in ${esc(name)}</h3><p>${esc(strLead(k))}</p>`;
   if (d.str) h += `\n<p>${esc(dot(d.str))}</p>`;
   h += `\n<h3>Suites and small multi-unit housing</h3><p>${esc(dot(d.suites))}</p>`;

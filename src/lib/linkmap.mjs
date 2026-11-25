@@ -86,6 +86,13 @@ export const SLUGS = `/
 /mortgage-broker-terrace/
 /mortgage-broker-invermere/
 /mortgage-broker-keremeos/
+/mortgage-broker-vancouver-island/
+/mortgage-broker-duncan/
+/mortgage-broker-port-alberni/
+/mortgage-broker-campbell-river/
+/mortgage-broker-powell-river/
+/mortgage-broker-cranbrook/
+/mortgage-broker-nelson/
 /mortgage-broker-prince-rupert/
 /mortgage-broker-osoyoos-oliver/
 /mortgage-broker-fort-st-john/
