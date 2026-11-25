@@ -81,6 +81,7 @@ export default {
   schema: [schema],
   faqs: [
     { q: "Do you have an office in Powell River?", a: "No. Joshua works from his Surrey office and serves Powell River and the qathet region by phone, video and secure upload. The lender, appraiser and your lawyer or notary do their parts locally, so you can start before you move." },
+    { q: "How much do I need to buy a home in Powell River?", a: "At BC Assessment's typical 2026 value of $580,000, the minimum down payment is $33,000. A qualifying first-time buyer pays about $1,600 in property transfer tax. With under 20% down, the CMHC premium is added to the mortgage. Legal fees and an inspection come on top." },
     { q: "Can I get a mortgage on remote work income?", a: "Yes. If you're an employee, lenders read your salary the same way wherever you live. A job letter that confirms remote work helps. If you're self-employed, lenders usually want two years of tax returns and look at net income." },
     { q: "Can I rent my Powell River home on Airbnb?", a: "Only your principal residence, in listed zones, one per lot. You need a City business licence and the provincial registration. Many lenders won't count short-term rent at all, so don't rely on it to qualify." },
     { q: "Is Powell River on Vancouver Island?", a: "No. It's on the mainland's upper Sunshine Coast, but there's no road to the rest of the mainland. Most people reach it by ferry from Comox on the Island, or by two ferries from the Lower Mainland." },

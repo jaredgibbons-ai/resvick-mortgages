@@ -84,6 +84,7 @@ export default {
   schema: [schema],
   faqs: [
     { q: "Do you have an office in Nelson?", a: "No. Joshua works from his Surrey office and serves Nelson and the West Kootenay by phone, video and secure upload. The lender, appraiser and your lawyer or notary do their parts locally, so you can start before you move." },
+    { q: "How much do I need to buy a home in Nelson?", a: "At BC Assessment's typical 2026 values, a $699,000 house needs at least $44,900 down and a $560,000 strata home needs $31,000. A qualifying first-time buyer pays about $3,980 in transfer tax on the house and $1,200 on the strata home." },
     { q: "Can I buy a Nelson home and keep its Airbnb licence?", a: "No. The City says a short-term rental licence doesn't pass to a buyer. You'd join a wait list, and as of October 2024 the residential quota was full. Don't count on that income to qualify." },
     { q: "Can I get a mortgage in Nelson on remote work income?", a: "Yes. If you're an employee, lenders read your salary the same way wherever you live. A job letter that confirms remote work helps. If you're self-employed, lenders usually want two years of tax returns." },
     { q: "Will a lender count rent from a laneway house in Nelson?", a: "Often, if it's built with permits and the rent is documented. Many lenders count part of the rent toward your income. An unpermitted unit usually counts for nothing. Check the City's rules for your lot first." },

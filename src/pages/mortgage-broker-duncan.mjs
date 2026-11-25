@@ -75,6 +75,7 @@ export default {
   schema: [schema],
   faqs: [
     { q: "Do you have an office in Duncan?", a: "No. Joshua works from his Surrey office and serves Duncan and the Cowichan Valley by phone, video and secure upload. Most clients never need to meet in person. The lender, appraiser and your lawyer or notary do their parts locally." },
+    { q: "How much do I need to buy a home in Duncan?", a: "At BC Assessment's typical 2026 value of $592,000, the minimum down payment is $34,200. A qualifying first-time buyer pays about $1,840 in transfer tax. In North Cowichan, at $733,000, it's $48,300 down and about $4,660 in tax. Legal fees and an inspection come on top." },
     { q: "Is Duncan cheaper than Victoria for a first home?", a: "Assessed values are lower. BC Assessment's typical 2026 single-family value was $592,000 in Duncan and $733,000 in North Cowichan, against $1,128,000 in Victoria. Those are assessments, not sale prices, so check recent sales with a realtor." },
     { q: "Does the Speculation and Vacancy Tax apply in Duncan?", a: "Yes. Duncan and North Cowichan are both in the Province's taxable area. Owners file a yearly declaration, and owners who live in the home are generally exempt. It matters most if you buy a second home or leave one empty." },
     { q: "Can I buy a home on Cowichan Tribes reserve land with a mortgage?", a: "Sometimes, but it is a different kind of file. Reserve land is not held the same way as a town lot, so fewer lenders work on it. Joshua arranges these through a lender that does. Tell him at the start." },

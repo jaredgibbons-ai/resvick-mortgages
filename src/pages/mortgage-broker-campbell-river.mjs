@@ -84,6 +84,7 @@ export default {
   schema: [schema],
   faqs: [
     { q: "Do you have an office in Campbell River?", a: "No. Joshua works from his Surrey office and serves Campbell River by phone, video and secure upload. The lender, appraiser and your lawyer or notary do their parts locally, so you can start before you move." },
+    { q: "How much do I need to buy a home in Campbell River?", a: "At BC Assessment's typical 2026 values, a $680,000 house needs at least $43,000 down and a $412,000 strata home needs $20,600. A qualifying first-time buyer pays about $3,600 in transfer tax on the house and none on the strata home." },
     { q: "Can I run an Airbnb in Campbell River?", a: "The City's zoning FAQ says short-term rentals are not a permitted use and won't be licensed. Bed and breakfasts are a separate use where zoning allows. Don't count on nightly rental income to qualify. A lender will only count long-term rent." },
     { q: "How do lenders count camp or rotation pay?", a: "Base pay is usually easy. Overtime, camp allowances and bonuses are often averaged over two years, and lenders vary in what they accept. Bring two years of T4s and recent pay stubs. Joshua checks lender rules before you apply." },
     { q: "Can I buy in Campbell River before I move there?", a: "Often, yes. You can get pre-approved by phone or video and make an offer through a realtor. Most lenders want a signed job offer or employer letter. Ask for a closing date that fits your move." },
