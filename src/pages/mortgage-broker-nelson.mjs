@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
+import { costToBuy } from "../lib/cost-to-buy.mjs";
 
 // Added Nov 25, 2026. Sources are cited inline and in the facts box (batch7.mjs).
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-nelson/#service", url: SITE.origin + "/mortgage-broker-nelson/", areaServed: [{ "@type": "City", name: "Nelson", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Regional District of Central Kootenay" }] };
@@ -20,6 +21,8 @@ ${ratesStrip()}
 <h2>What homes cost here</h2>
 <p>BC Assessment's typical single-family value in Nelson was $699,000 for 2026, up 3%. A typical strata home was $560,000, about the same as the year before. Castlegar was $519,000 for a house. (BC Assessment, Southern Interior 2026 Property Assessments, January 2, 2026, read November 2026). Nelson is the highest-priced city in the West Kootenay, and some buyers compare it with Castlegar and Trail for that reason.</p>
 <p>A strata home in Nelson costs much closer to a house than it does in most towns. That narrows the usual step up from a condo. Run both options in the <a href="/mortgage-calculators/">mortgage calculators</a> before you choose.</p>
+
+${costToBuy("Nelson", [["Typical house", 699000], ["Typical strata home", 560000]], "Southern Interior")}
 
 <h2>A small city that keeps growing</h2>
 <p>The 2021 Census counted 11,106 people in Nelson, up from 10,572 in 2016. (My Nelson Now, Nelson population tops 11,000, February 9, 2022, read November 2026). The local Chamber counts about 19,119 in Greater Nelson. (Nelson and District Chamber of Commerce, Welcome to Nelson 2025, read November 2026).</p>

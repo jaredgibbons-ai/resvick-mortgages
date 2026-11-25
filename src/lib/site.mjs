@@ -417,6 +417,8 @@ function latestGuides(n, heading) {
 
 /** page: {slug,title,meta,h1,lede,body,faqs,crumbs,schema:[...],home,closing,assets:{calc:bool}} */
 export function render(page) {
+  // City pages get the first-time buyer game plan download (email capture) unless they set their own (Nov 25, 2026).
+  if (!page.printable && /^\/mortgage-broker-[a-z-]+\/$/.test(page.slug || "")) page = { ...page, printable: "first-time-buyer-game-plan" };
   const url = SITE.origin + page.slug;
   // City pages all sit under the cities hub, labelled with the plain town name.
   const trail = T_CITY.test(page.slug) && CITY_NAME[cityKey(page.slug)]

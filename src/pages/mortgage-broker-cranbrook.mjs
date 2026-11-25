@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
+import { costToBuy } from "../lib/cost-to-buy.mjs";
 
 // Added Nov 25, 2026. Sources are cited inline and in the facts box (batch7.mjs).
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-cranbrook/#service", url: SITE.origin + "/mortgage-broker-cranbrook/", areaServed: [{ "@type": "City", name: "Cranbrook", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "City", name: "Kimberley" }, { "@type": "AdministrativeArea", name: "Regional District of East Kootenay" }] };
@@ -20,6 +21,8 @@ ${ratesStrip()}
 <h2>What homes cost here</h2>
 <p>BC Assessment's typical single-family value in Cranbrook was $517,000 for 2026, up 3%. A typical strata home was $278,000, also up 3%. Kimberley was $564,000 for a house. (BC Assessment, Southern Interior 2026 Property Assessments, January 2, 2026, read November 2026). Assessed values are not sale prices, but they show the gap with the coast.</p>
 <p>At those prices, the down payment can be within reach sooner. A $517,000 home needs at least $26,700 down, which is 5% of the first $500,000 plus 10% of the rest. A $278,000 strata home needs $13,900. The <a href="/down-payment-guide-bc/">down payment guide</a> shows the rules, and the <a href="/cmhc-insurance-bc/">CMHC insurance page</a> shows the premium.</p>
+
+${costToBuy("Cranbrook", [["Cranbrook house", 517000], ["Cranbrook strata home", 278000], ["Kimberley house", 564000]], "Southern Interior")}
 
 <h2>A regional hub with steady jobs</h2>
 <p>The City's economic development site lists East Kootenay Regional Hospital and College of the Rockies, with about 2,100 full-time students. It says the airport handles over 134,000 passengers a year. It gives a population of 21,308 in 2019. (Choose Cranbrook, By the numbers, read November 2026).</p>

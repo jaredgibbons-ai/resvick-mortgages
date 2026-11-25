@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
+import { costToBuy } from "../lib/cost-to-buy.mjs";
 
 // Added Nov 25, 2026. Sources are cited inline and in the facts box (batch7.mjs).
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-powell-river/#service", url: SITE.origin + "/mortgage-broker-powell-river/", areaServed: [{ "@type": "City", name: "Powell River", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "qathet Regional District" }] };
@@ -20,6 +21,8 @@ ${ratesStrip()}
 <h2>What homes cost here</h2>
 <p>BC Assessment's typical single-family value in Powell River was $580,000 for 2026, up 1%. Across the water in the Comox Valley, Courtenay was $752,000. (BC Assessment, Vancouver Island 2026 Property Assessments, January 2, 2026, read November 2026). Assessed values are not sale prices, and they move each year. They do show why buyers from bigger markets take the ferry over.</p>
 <p>Lower prices mean a smaller down payment in dollars. On a $580,000 home, the minimum is $33,000, which is 5% of the first $500,000 plus 10% of the rest. The <a href="/down-payment-guide-bc/">down payment guide</a> shows how that's worked out.</p>
+
+${costToBuy("Powell River", [["Typical house", 580000]], "Vancouver Island")}
 
 <h2>Moving to Powell River</h2>
 <p>The region's housing study noted retirees and remote workers moving in. It put the City's population at 13,157 in 2016. It also found a regional rental vacancy rate of 0.5% in 2019 and 1.7% in 2020. (qathet Regional District, Regional Housing Needs Study, April 2021, read November 2026). Renting while you look can be hard, so many newcomers buy first.</p>

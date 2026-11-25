@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
+import { costToBuy } from "../lib/cost-to-buy.mjs";
 
 // Added Nov 25, 2026. Sources are cited inline and in the facts box (batch7.mjs).
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-duncan/#service", url: SITE.origin + "/mortgage-broker-duncan/", areaServed: [{ "@type": "City", name: "Duncan", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "North Cowichan" }, { "@type": "AdministrativeArea", name: "Cowichan Valley Regional District" }] };
@@ -21,6 +22,8 @@ ${ratesStrip()}
 <p>Price is the main reason. BC Assessment's typical single-family value for 2026 was $592,000 in the City of Duncan and $733,000 in North Cowichan. In Langford it was $951,000, and in Victoria $1,128,000. (BC Assessment, Vancouver Island 2026 Property Assessments, January 2, 2026, read November 2026). These are assessed values, not sale prices. They still show why a lot of capital region buyers drive north.</p>
 <p>The trade-off is the commute and a smaller market. If you will still work in Victoria, test the drive at rush hour before you buy. Then run the payment on the <a href="/how-much-mortgage-can-i-afford/">affordability calculator</a> with the costs of the drive in mind.</p>
 <p>First-time buyers can use the same programs here as anywhere in BC. The FHSA, the Home Buyers' Plan and the transfer tax exemption all apply. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> puts them in order, and the <a href="/down-payment-guide-bc/">down payment guide</a> shows the minimums.</p>
+
+${costToBuy("Duncan", [["Duncan house", 592000], ["North Cowichan house", 733000]], "Vancouver Island")}
 
 <h2>A small city with a lot of renters</h2>
 <p>The City of Duncan is compact. The 2021 Census counted 5,047 people, up 2.1% from 2016. North Cowichan counted 31,900, up 7.7%. (North Shore News, 2021 Census results, February 2022, read November 2026).</p>

@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
+import { costToBuy } from "../lib/cost-to-buy.mjs";
 
 // Added Nov 25, 2026. Sources are cited inline and in the facts box (batch7.mjs).
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-campbell-river/#service", url: SITE.origin + "/mortgage-broker-campbell-river/", areaServed: [{ "@type": "City", name: "Campbell River", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Strathcona Regional District" }] };
@@ -20,6 +21,8 @@ ${ratesStrip()}
 <h2>What homes cost here</h2>
 <p>BC Assessment's typical single-family value in Campbell River was $680,000 for 2026, about the same as the year before. A typical strata home was $412,000, down 2%. Courtenay was $752,000 for a house, and Nanaimo $769,000. (BC Assessment, Vancouver Island 2026 Property Assessments, January 2, 2026, read November 2026). Assessed values are not sale prices, but they show where Campbell River sits.</p>
 <p>A strata home can be the first step for a lot of buyers. The <a href="/condo-and-townhouse-mortgages/">condo and townhouse page</a> explains what lenders check on a strata, from the depreciation report to the fees.</p>
+
+${costToBuy("Campbell River", [["Typical house", 680000], ["Typical strata home", 412000]], "Vancouver Island")}
 
 <h2>Moving to Campbell River</h2>
 <p>A lot of buyers don't live here yet. Some are coming for a job. Others are leaving the Lower Mainland or Alberta for a smaller city. Renting first is hard. A 2025 provincial profile says the rental vacancy rate has been below 2% since 2015. (UBCM, Campbell River housing profile, December 2025, read November 2026).</p>

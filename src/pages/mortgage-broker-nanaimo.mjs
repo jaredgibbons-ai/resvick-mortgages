@@ -3,6 +3,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { censusTable } from "../lib/city-census.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
+import { costToBuy } from "../lib/cost-to-buy.mjs";
 
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-nanaimo/#service", url: SITE.origin + "/mortgage-broker-nanaimo/", areaServed: [{ "@type": "City", name: "Nanaimo", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Central Vancouver Island" }] };
 
@@ -24,6 +25,9 @@ ${ratesStrip()}
 <li><strong>Moving your current mortgage</strong> to the new home is called porting. It can save you a penalty if your lender allows it and the dates line up. Portability is one of the terms Joshua compares before you pick a lender.</li>
 </ul>
 
+${costToBuy("Nanaimo", [["Typical house", 769000], ["Typical strata home", 451000]], "Vancouver Island")}
+<p>For context, Ladysmith's typical house was $723,000 and Parksville's was $774,000. Duncan, 50 minutes south, was $592,000. The <a href="/mortgage-broker-vancouver-island/">Vancouver Island overview</a> lines up every Island town.</p>
+
 <h2>Incomes in Nanaimo</h2>
 <p>Nanaimo's median household income was $75,500 for 2020, and 16.3 percent of workers were self-employed. Health care, retail and construction were the three largest industries. (Statistics Canada, 2021 Census Profile, read October 2026). The median is lower than in most of the Lower Mainland. Some buyers close that gap with equity from a sale on the mainland, or with a spouse's income earned across the water. Lenders ask for proof of both. Joshua helps you collect the paperwork so the file is complete.</p>
 ${censusTable("nanaimo")}
@@ -39,6 +43,21 @@ ${censusTable("nanaimo")}
 <p>Rules change. Check with the City before you count on a suite being legal.</p>
 <p>A legal suite with proof of rent can help you qualify. Lenders count part of that rent. Some subtract it from your housing costs. Others add a share to your income. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> shows both methods on the same numbers.</p>
 <p>Already own and want to add a suite? The <a href="/secondary-suite-refinance/">secondary suite refinance</a> program lets you borrow against the home's value after the work is done. Conditions apply.</p>
+
+<h2>Condos and townhouses in Nanaimo</h2>
+<p>A typical Nanaimo strata home was assessed at $451,000 for 2026, against $769,000 for a house. That gap makes a condo or townhouse the usual first step. Under $500,000, a qualifying first-time buyer pays no property transfer tax at all.</p>
+<p>Strata files have their own checks. Lenders read the strata's depreciation report and recent minutes, and they count the monthly fee in your ratios. A big repair on the horizon, such as a roof, envelope or elevator job, can mean a special levy. Ask your realtor for the Form B and the minutes before you remove conditions. The <a href="/condo-and-townhouse-mortgages/">condo and townhouse page</a> covers what lenders look for.</p>
+<p>Buying a new condo before it's built? A presale can take two to four years to finish, and your approval has to hold up at completion. The <a href="/presale-mortgages-bc/">presale mortgage page</a> explains how to protect yourself.</p>
+
+<h2>Hospital and university jobs</h2>
+<p>Health care is Nanaimo's largest industry, and it's growing. A new BC Cancer centre is being built at Nanaimo Regional General Hospital. The Province puts the cost at about $311 million, with opening planned for 2028. The hospital also recently added an intensive care unit, a high acuity unit and a new MRI. (Government of BC news release, October 31, 2025, read November 2026).</p>
+<p>New services bring new hires: nurses, technologists, pharmacists and support staff. Vancouver Island University's main campus adds faculty and staff on term contracts too. Lenders read these jobs differently:</p>
+<ul>
+<li><strong>Permanent staff</strong> usually need only a job letter and recent pay stubs, even if they're new to the role.</li>
+<li><strong>Casual and part-time staff</strong> often need a two-year history of hours. Some lenders accept less with the same employer. The <a href="/mortgages-for-nurses-and-healthcare-workers/">health care workers page</a> sets out the usual rules.</li>
+<li><strong>Sessional and term faculty</strong> are often read like contract workers. The <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff page</a> covers contracts that renew each term.</li>
+</ul>
+<p>Moving here for one of these jobs? A signed offer letter is usually enough to start. You can get pre-approved before you leave the mainland.</p>
 
 <h2>Who Joshua helps in Nanaimo</h2>
 <p><strong>First-time buyers.</strong> For many households priced out of the coast, a first home in Nanaimo is within reach. The same programs apply here as anywhere in BC. That means the property transfer tax exemption, the First Home Savings Account, the Home Buyers' Plan and the GST rebate on new homes. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> explains the order to use them in. The <a href="/bc-property-transfer-tax-calculator/">property transfer tax calculator</a> gives the exact tax at any price.</p>
@@ -59,9 +78,9 @@ ${callout("The cost of using a broker", "<p>On a mortgage placed with an A lende
 <p>Keeping a mainland home? Try the <a href="/mortgage-calculators/#offset">rental offset tool</a>. It shows how that home's rent would be counted. The full set is on the <a href="/mortgage-calculators/">calculators page</a>.</p>
 
 <h2>Nearby</h2>
-<p>Joshua serves the whole Island. The <a href="/mortgage-broker-victoria/">Victoria page</a> covers the Capital Region, including government and military income. For the mainland side of a two-place life, see the <a href="/mortgage-broker-vancouver/">Vancouver page</a>. Current rates and how your rate gets set are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
+<p>Joshua serves the whole Island. The <a href="/mortgage-broker-duncan/">Duncan page</a> covers the Cowichan Valley to the south, and the <a href="/mortgage-broker-victoria/">Victoria page</a> covers the Capital Region, including government and military income. For the mainland side of a two-place life, see the <a href="/mortgage-broker-vancouver/">Vancouver page</a>. Current rates and how your rate gets set are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
-<p>If a home near Nanaimo sits on First Nation land, it is a different kind of file. We found no First Nation leasehold homes for sale in the city today, but plans exist for leased land on the Snuneymuxw te'tuxwtun lands (Snuneymuxw First Nation, 2026 member vote materials, read October 2026). Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
+<p>If a home near Nanaimo sits on First Nation land, it is a different kind of file. We found no First Nation leasehold homes for sale in the city today. Plans exist for leased land on the Snuneymuxw te'tuxwtun lands (Snuneymuxw First Nation, 2026 member vote materials, read October 2026). In October 2025, Canada added 78.8 hectares of former defence land at te'tuxwtun, near Mount Benson, to Snuneymuxw reserve land. (Government of Canada news release, October 16, 2025, read November 2026). Snuneymuxw signed a treaty with James Douglas in 1854, which the Supreme Court of Canada has recognized as valid. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
 
 <p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-government-and-city-employees/">government and city employees</a>. To plan a Nanaimo purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
@@ -82,6 +101,7 @@ export default {
   body,
   schema: [schema],
   faqs: [
+    { q: "How much do I need to buy a typical home in Nanaimo?", a: "At BC Assessment's typical 2026 values, a $769,000 house needs at least $51,900 down, and a $451,000 strata home needs $22,550. A qualifying first-time buyer pays about $5,380 in transfer tax on the house and none on the strata home. Legal fees, an inspection and adjustments come on top." },
     { q: "Can I buy in Nanaimo while working for a Vancouver employer?", a: "Yes. Lenders document remote and hybrid employment the same way as any job: an employment letter, pay stubs and T4s. A line in the letter confirming the role is remote by agreement avoids questions. What the lender needs is that the Nanaimo home will be your principal residence and that your employment is stable." },
     { q: "I want to keep my mainland home as a rental and buy in Nanaimo. Is that possible?", a: "Often, if you qualify carrying both. The lender counts the existing mortgage and property costs and, usually, a share of the documented rent. Whether the rent is offset against costs or added to income depends on the lender and changes the result. Joshua runs the numbers both ways before you decide which home to buy." },
     { q: "Does Joshua have an office in Nanaimo?", a: "No. His office is in Surrey, and he serves Nanaimo by phone, video and secure document exchange. The appraisal is done locally and you sign with a Nanaimo lawyer or notary. Brokers in BC are licensed by BCFSA for the whole province, and lenders lend province-wide, so where the broker sits does not affect the mortgage." },

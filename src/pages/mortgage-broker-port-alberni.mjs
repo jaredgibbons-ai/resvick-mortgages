@@ -2,6 +2,7 @@ import { SITE, ratesStrip, cta, callout, businessSchema } from "../lib/site.mjs"
 import { short } from "../lib/short.mjs";
 import { nearbyCallout } from "../lib/nearby.mjs";
 import { cityFacts } from "../lib/city-facts.mjs";
+import { costToBuy } from "../lib/cost-to-buy.mjs";
 
 // Added Nov 25, 2026. Sources are cited inline and in the facts box (batch7.mjs).
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-port-alberni/#service", url: SITE.origin + "/mortgage-broker-port-alberni/", areaServed: [{ "@type": "City", name: "Port Alberni", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Alberni-Clayoquot Regional District" }] };
@@ -21,6 +22,8 @@ ${ratesStrip()}
 <p>BC Assessment's typical single-family value in Port Alberni was $485,000 for 2026, down 3%. Nanaimo was $769,000, and Courtenay was $752,000. (BC Assessment, Vancouver Island 2026 Property Assessments, January 2, 2026, read November 2026). These are assessed values, not sale prices, and they change each year.</p>
 <p>A lower price changes the math. On a $485,000 home, the minimum down payment is $24,250, or 5%. That's well within reach for many renters. You'll still need cash for closing costs, an inspection and the CMHC premium, which is added to the loan. The <a href="/down-payment-guide-bc/">down payment guide</a> shows the minimums, and the <a href="/cmhc-insurance-bc/">CMHC insurance page</a> shows the premium on your price.</p>
 <p>First-time buyers can also use the FHSA, the Home Buyers' Plan and the BC transfer tax exemption. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> puts them in order.</p>
+
+${costToBuy("Port Alberni", [["Typical house", 485000]], "Vancouver Island")}
 
 <h2>Who buys in the Alberni Valley</h2>
 <p>The population is older than average. Statistics Canada put the Port Alberni area at 27,771 people in July 2022, with 26.3% aged 65 or older. Nationally it was 18.8%. The median after-tax income in 2020 was $44,640. (Statistics Canada, A statistical snapshot of Port Alberni, March 2023, read November 2026).</p>
