@@ -69,5 +69,18 @@ fs.writeFileSync(path.join(dist, "robots.txt"), `User-agent: *\nAllow: /\nDisall
 let reviewsLink = "/contact/";
 try { const rj = JSON.parse(fs.readFileSync(path.join(root, "src/data/reviews.json"), "utf8")); if (rj.writeLink) reviewsLink = rj.writeLink; } catch {}
 fs.writeFileSync(path.join(dist, "_redirects"), `/home / 301\n/new-page / 301\n/about /about-joshua-resvick/ 301\n/contact /contact/ 301\n/reviews ${reviewsLink} 302\n`);
-fs.writeFileSync(path.join(dist, "_headers"), `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: SAMEORIGIN\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n  Strict-Transport-Security: max-age=31536000; includeSubDomains\n/assets/fonts/*\n  Cache-Control: public, max-age=31536000, immutable\n/assets/*\n  Cache-Control: public, max-age=3600\n`);
+fs.writeFileSync(path.join(dist, "_headers"), `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: SAMEORIGIN\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n  Strict-Transport-Security: max-age=31536000; includeSubDomains\n/assets/fonts/*\n  Cache-Control: public, max-age=31536000, immutable\n/assets/css/*\n  Cache-Control: public, max-age=31536000, immutable\n/assets/js/*\n  Cache-Control: public, max-age=31536000, immutable\n/assets/img/*\n  Cache-Control: public, max-age=2592000, stale-while-revalidate=86400\n/assets/downloads/*\n  Cache-Control: public, max-age=86400\n/assets/*.png\n  Cache-Control: public, max-age=2592000\n/assets/*.svg\n  Cache-Control: public, max-age=2592000\n`);
+
+// 4. Cache-busting: CSS and JS are cached for a year, so every page links them with ?v=<content hash>. A changed file gets a new URL.
+{
+  const { createHash } = await import("node:crypto");
+  const ver = {};
+  const tag = (p) => (ver[p] ??= createHash("sha256").update(fs.readFileSync(path.join(dist, p))).digest("hex").slice(0, 10));
+  const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => e.isDirectory() ? walk(path.join(d, e.name)) : e.name.endsWith(".html") ? [path.join(d, e.name)] : []);
+  for (const f of walk(dist)) {
+    const html = fs.readFileSync(f, "utf8");
+    const out = html.replace(/"\/(assets\/(?:css|js)\/[a-z0-9-]+\.(?:css|js))"/g, (m, p) => fs.existsSync(path.join(dist, p)) ? `"/${p}?v=${tag(p)}"` : m);
+    if (out !== html) fs.writeFileSync(f, out);
+  }
+}
 console.log(`Built ${built.length} pages -> dist/`);
