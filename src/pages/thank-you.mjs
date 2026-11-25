@@ -34,7 +34,7 @@ const blocks = [
   block("check-up", "Thank you. Your check-up request is in.", "I'll look at your numbers myself.",
     ["I'll read your check-up and your statement numbers.", "I'll reply with what stands out and what to do next.", "If renewal is close, I can also show you how a switch or a refinance would compare."],
     `The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> and the <a href="/mortgage-aftercare-program/">aftercare program page</a> cover the next steps while you wait.`),
-  block("quiz", "Thank you. Your result is on its way.", "I'll write up your result and email it to you.",
+  block("quiz", "Thank you. I'll send your written result by email.", "I'll write up your result and email it to you.",
     ["I'll read your answers and write up what they mean.", "I'll email the write-up to the address you gave.", "If you ticked the box for a call, I'll suggest a time too."],
     `A quiz score is a guide, not an approval. You can <a href="${SITE.book}" data-evt="book_call_click">book a 15-minute call</a> whenever you'd like to talk it through.`),
   block("booking", "Your call is booked.", "Cal.com sends the confirmation to the email you used.",

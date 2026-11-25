@@ -37,8 +37,9 @@ ${short({ answer: "I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. 
 <p><strong>Over 1,000</strong> mortgages funded by me.</p>
 <p><strong>Ten years</strong> as a mortgage broker, after <strong>five years</strong> as a mortgage underwriter.</p>
 <p><strong>$14B+</strong> in funded volume is a figure Xeva Mortgage, the brokerage, cites for the whole firm. It's not my personal total. It's here so you know the size of the organization behind the licence.</p>
+<p>Named a <strong>2025 Rising Star</strong> by Canadian Mortgage Professional (CMP), the industry magazine's annual list of up-and-coming mortgage professionals. <a href="https://www.mpamag.com/ca/best-in-mortgage/the-best-young-mortgage-professionals-in-canada-rising-stars/549607" rel="noopener">See the 2025 list</a>.</p>
 </div>
-<p>Those are the only numbers this page claims. You won't find made-up review counts, lender counts or savings promises on this site. If I can't check a number, it isn't here.</p>
+<p>Those are the only numbers and honours this page claims. You won't find made-up review counts, lender counts or savings promises on this site. If I can't check a number, it isn't here.</p>
 
 <h2>How I work</h2>
 <p>I run my practice on systems, because organized files are fast files. Day to day, it looks like this:</p>
@@ -91,7 +92,7 @@ export default {
     { q: "What is the best way to get started?", a: "Book a free 15-minute call. You will talk to Joshua himself, get a plain picture of your options and leave with a next step. If you would rather write first, the contact page and the mortgage check both work too." }
   ],
   schema: [{
-    "@context": "https://schema.org", "@type": "Person", "@id": SITE.origin + "/about-joshua-resvick/#person", name: "Joshua Resvick", alternateName: "Josh Resvick", jobTitle: "Mortgage Broker", identifier: { "@type": "PropertyValue", propertyID: "BCFSA Mortgage Broker Licence", value: "MB503619" },
+    "@context": "https://schema.org", "@type": "Person", "@id": SITE.origin + "/about-joshua-resvick/#person", name: "Joshua Resvick", alternateName: "Josh Resvick", jobTitle: "Mortgage Broker", award: "Canadian Mortgage Professional (CMP) Rising Stars 2025", identifier: { "@type": "PropertyValue", propertyID: "BCFSA Mortgage Broker Licence", value: "MB503619" },
     url: SITE.origin + "/about-joshua-resvick/", email: SITE.email, telephone: "+1-778-882-5674",
     worksFor: [{ "@id": SITE.origin + "/#business" }, { "@type": "Organization", name: "Xeva Mortgage" }],
     workLocation: { "@type": "Place", address: { "@type": "PostalAddress", streetAddress: "#106, 2626 Croydon Drive", addressLocality: "Surrey", addressRegion: "BC", postalCode: "V3Z 0S8", addressCountry: "CA" } }
