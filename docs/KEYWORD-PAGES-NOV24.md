@@ -22,7 +22,8 @@ Volumes are ranges (no ad spend on the account).
 - src/data/benchmarks.json. Public benchmark rates only. Hides itself 3 days after nextDecision.
 - The Dec 9, 2026 Bank of Canada scheduled task updates it. If that task is ever skipped, the box disappears rather than going stale.
 
-## CONFIRM with Josh
-- Reverse mortgages: which lenders he uses (the page names HomeEquity Bank only as the source of the 55%/age/$250,000 facts).
-- Home equity loan page: that second mortgages he arranges are usually private or B lender, short term, rolled in at renewal.
+## Confirmed by Josh (via Jared, Nov 24, 2026)
+- Reverse mortgages: he uses HomeEquity Bank. The calculator page's call to action says so.
+- Second mortgages: terms can be short or longer depending on the lender; private seconds are usually short term.
+  Wording updated on /home-equity-loan-bc/ and /second-mortgage-bc/.
 - CMHC page: fine as is; premiums are CMHC's published table.

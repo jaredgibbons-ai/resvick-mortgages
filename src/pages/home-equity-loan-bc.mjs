@@ -36,7 +36,7 @@ ${short({
 <p>Some lenders package a HELOC with your mortgage, so the line grows as you pay the mortgage down. The <a href="/heloc-bc/">HELOC guide</a> explains those combined plans and how the 65% and 80% limits interact.</p>
 
 <h2>Option 3: a second mortgage</h2>
-<p>A second mortgage sits behind your first one. You keep your current mortgage and its rate, and add a separate loan. It usually comes from a private lender or a B lender, so the rate and fees are higher. Terms are often one or two years.</p>
+<p>A second mortgage sits behind your first one. You keep your current mortgage and its rate, and add a separate loan. It usually comes from a private lender or a B lender, so the rate and fees are higher. How long it runs depends on the lender. Private seconds are usually short term, often a year or two. Some others can run longer.</p>
 <p>It can still be the cheapest choice. Say you need money for 18 months and your first mortgage has a large penalty. Paying a higher rate on a smaller loan for a short time can cost less than breaking the first mortgage. Many second mortgages are rolled into the first at its renewal, when there's no penalty. The <a href="/second-mortgage-bc/">second mortgage guide</a> covers the costs, and any fee on these files is disclosed in writing before you commit.</p>
 
 <h2>Option 4: a reverse mortgage</h2>

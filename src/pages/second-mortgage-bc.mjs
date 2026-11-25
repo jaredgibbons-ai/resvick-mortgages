@@ -11,7 +11,7 @@ ${short({
 <p>A second mortgage is a loan secured by your home. It ranks behind the mortgage you already have. Your first lender keeps its place in line and keeps its rate. The second lender registers its loan after it.</p>
 <p>Here's why that matters. If the home were ever sold because of default, the first lender gets paid in full first. The second lender only gets what's left. That's a real risk, so seconds come with higher rates and shorter terms.</p>
 <p>The upside is simple. Your first mortgage isn't touched. There's no penalty to break it, and you don't have to qualify for it again. That's the whole point of a second.</p>
-<p>Most seconds run for one or two years. Payments are often interest only. The plan is to pay the second off, or fold it into the first mortgage when that one renews.</p>
+<p>How long a second runs depends on the lender. Private seconds are usually short term, often one or two years. Some other lenders offer longer terms. Payments are often interest only. The plan is to pay the second off, or fold it into the first mortgage when that one renews.</p>
 
 <h2>Who uses them</h2>
 <p>A second mortgage fills a specific gap. It isn't an everyday product. Here are the usual reasons people use one.</p>
@@ -51,7 +51,7 @@ ${short({
 ${cta({ title: "Get the real total cost before you decide", text: "Tell Joshua what the money is for and what your first mortgage looks like. He'll show you the full cost of a second next to a line and a refinance, in dollars. He'll also tell you which lenders would look at your file." })}
 
 <h2>The way out</h2>
-<p>A second mortgage is a short-term fix. How it ends matters as much as how it starts. Before you take one, know your exit. These are the usual ones.</p>
+<p>Most second mortgages, and almost all private ones, are a short-term fix. How it ends matters as much as how it starts. Before you take one, know your exit. These are the usual ones.</p>
 <ol>
 <li><strong>Fold it into the first mortgage at renewal.</strong> When your first mortgage matures, there's no penalty. A refinance can then join both loans into one at a bank rate. You'd need to qualify, and the total has to fit under 80 percent of the home's value. The cleanest plan times the second to end when the first one matures.</li>
 <li><strong>Pay it off from a known event.</strong> That might be a sale, an inheritance, a bonus, or a strong season in your business. It should be close to certain, not just hoped for.</li>
