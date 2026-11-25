@@ -27,7 +27,7 @@ ${short({
 <p><strong>Watch out for:</strong> large deposits with no clear source. If you sold a car or received a bonus, keep the paperwork. Lenders may ask you to explain any lump sum.</p>
 
 <h2>Source 2: the FHSA</h2>
-<p>The First Home Savings Account lets first-time buyers save tax-free for a home. The CRA's published limits let you add up to $8,000 a year, to a lifetime limit of $40,000. A qualifying withdrawal for a first home is tax-free, and you do not repay it.</p>
+<p>The <a href="/fhsa-bc/">First Home Savings Account</a> lets first-time buyers save tax-free for a home. The CRA's published limits let you add up to $8,000 a year, to a lifetime limit of $40,000. A qualifying withdrawal for a first home is tax-free, and you do not repay it.</p>
 <p><strong>The proof:</strong> your account statements and the withdrawal records. Your broker will tell you what the lender wants.</p>
 <p><strong>Watch out for:</strong> the first-time buyer test and the timing rules. Check the CRA's own page before you move money. The <a href="/first-time-buyer-programs-bc/">first-time buyer programs guide</a> lists the other BC and federal programs.</p>
 

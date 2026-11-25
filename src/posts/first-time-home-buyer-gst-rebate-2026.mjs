@@ -21,7 +21,7 @@ ${short({
 <p>On the same $800,000 condo, the new rebate returns the full $40,000 to a buyer who qualifies. That's why it matters more in BC than almost anywhere else. It's also why the <a href="/presale-mortgages-bc/">presale mortgage guide</a> treats it as part of the financing plan, not a footnote.</p>
 
 <h2>Who counts as a first-time buyer for this rebate</h2>
-<p>The federal definition is its own test. It isn't the same as the tests for the FHSA, the Home Buyers' Plan or the BC property transfer tax exemption.</p>
+<p>The federal definition is its own test. It isn't the same as the tests for the <a href="/fhsa-bc/">FHSA</a>, the Home Buyers' Plan or the BC property transfer tax exemption.</p>
 <p>For the GST rebate, the buyer must be at least 18. They must be a Canadian citizen or permanent resident. They must not have owned and lived in a home, in Canada or anywhere else, in the current calendar year or the four years before.</p>
 <p>The home must be the buyer's main residence. The buyer must be the first person to live in it. The time limit to apply is generally two years from when ownership transfers or building is finished.</p>
 <p>Those conditions are summarized from the CRA's rebate pages and from professional summaries of Bill C-4, read on October 30, 2026. The CRA's own "who can apply" page is the authority, and the programs guide links to it.</p>

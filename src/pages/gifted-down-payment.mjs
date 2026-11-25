@@ -48,7 +48,7 @@ ${cta({ title: "Planning to use a family gift?", text: "Tell Joshua who is givin
 
 <h2>Combining a gift with the FHSA and the Home Buyers' Plan</h2>
 <p>A gift sits alongside your own savings and the federal programs. You aren't limited to one source.</p>
-<p>The First Home Savings Account gives $8,000 of room in the first year you open it, and $40,000 over a lifetime. The Home Buyers' Plan allows up to $60,000 per person from an RRSP. You can combine the two on the same home when each one's conditions are met. A gift can fill whatever's left. Each source gets documented on its own.</p>
+<p>The <a href="/fhsa-bc/">First Home Savings Account</a> gives $8,000 of room in the first year you open it, and $40,000 over a lifetime. The Home Buyers' Plan allows up to $60,000 per person from an RRSP. You can combine the two on the same home when each one's conditions are met. A gift can fill whatever's left. Each source gets documented on its own.</p>
 <p>Timing matters in practice. FHSA and RRSP withdrawals take time to arrive, and the HBP has its own timing rules. So a purchase with three sources needs three separate paper trails.</p>
 <p>The <a href="/first-time-buyer-programs-bc/">first-time buyer programs guide</a> shows how the programs stack. The <a href="/first-time-home-buyer-bc/">first-time home buyer hub</a> puts it all on a buying timeline.</p>
 

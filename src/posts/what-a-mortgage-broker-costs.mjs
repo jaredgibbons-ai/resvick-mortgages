@@ -65,7 +65,7 @@ ${short({
 <ul>
 <li>Legal fees and disbursements are paid to your lawyer or notary.</li>
 <li>An appraisal, where the lender needs one, is paid to the appraiser. Some lenders cover it on some products, and a broker will tell you which.</li>
-<li>Mortgage default insurance applies when your down payment is under 20 percent. It's a premium added to your mortgage and paid to the insurer, not the broker.</li>
+<li><a href="/cmhc-insurance-bc/">Mortgage default insurance</a> applies when your down payment is under 20 percent. It's a premium added to your mortgage and paid to the insurer, not the broker.</li>
 <li>The property transfer tax goes to the Province.</li>
 </ul>
 <p>None of these change because you used a broker. Part of a broker's job is telling you about all of them before you make an offer, not after.</p>
