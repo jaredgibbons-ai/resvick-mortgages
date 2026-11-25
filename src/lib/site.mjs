@@ -415,6 +415,12 @@ function latestGuides(n, heading) {
   return `<aside class="callout related" data-nocount><p class="callout-t">${esc(heading)}</p><ul>${guides.slice(0, n).map(guideLi).join("")}</ul><p class="small"><a href="/guides/">See all guides</a></p></aside>`;
 }
 
+// Share images: city pages and the cities hub get their own card (made by tools/make-og.py); every other page uses the default.
+const OG_DIR = new URL("../assets/img/og/", import.meta.url);
+function ogImage(slug) {
+  const key = slug === CITIES_HUB ? "cities" : T_CITY.test(slug) ? cityKey(slug) : "";
+  return key && fs.existsSync(new URL(key + ".jpg", OG_DIR)) ? `/assets/img/og/${key}.jpg` : "/assets/img/og-default.jpg";
+}
 /** page: {slug,title,meta,h1,lede,body,faqs,crumbs,schema:[...],home,closing,assets:{calc:bool}} */
 export function render(page) {
   // City pages get the first-time buyer game plan download (email capture) unless they set their own (Nov 25, 2026).
@@ -445,7 +451,7 @@ export function render(page) {
 <link rel="canonical" href="${url}">
 ${page.noindex ? '<meta name="robots" content="noindex,follow">' : ""}
 ${page.alternate ? `<link rel="alternate" hreflang="en-CA" href="${SITE.origin}${page.alternate}"><link rel="alternate" hreflang="${page.lang || "en-CA"}" href="${url}">` : ""}
-<meta property="og:locale" content="en_CA"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(page.title)}"><meta name="twitter:description" content="${esc(page.meta)}"><meta property="og:type" content="website"><meta property="og:site_name" content="Resvick Mortgages"><meta property="og:title" content="${esc(page.title)}"><meta property="og:description" content="${esc(page.meta)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${SITE.origin}/assets/img/og-default.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:locale" content="en_CA"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(page.title)}"><meta name="twitter:description" content="${esc(page.meta)}"><meta property="og:type" content="website"><meta property="og:site_name" content="Resvick Mortgages"><meta property="og:title" content="${esc(page.title)}"><meta property="og:description" content="${esc(page.meta)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${SITE.origin}${ogImage(page.slug)}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#253551">
 
 ${process.env.STAGING ? '<meta name="robots" content="noindex,nofollow">' : ""}

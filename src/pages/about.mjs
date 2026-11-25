@@ -64,7 +64,7 @@ ${short({ answer: "I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. 
 <h2>A little about me</h2>
 <p>I'm a husband and a father of two. I live and work in British Columbia. That's a useful reminder of what a mortgage is actually for.</p>
 <p>The questions clients bring me are family questions as much as money ones. Should we wait or buy now? How does this payment sit next to the rest of our budget? What happens if one income stops? Those deserve a patient, plain answer. That's the standard I hold myself to.</p>
-<p>I work with clients across BC. If you're near my office, the <a href="/mortgage-broker-surrey/">mortgage broker in Surrey</a> page has the local details. If you're anywhere else in the province, nothing changes. The process is online, and the service is the same.</p>
+<p>I work with clients <a href="/bc-mortgage-broker-service-areas/">across BC</a>. If you're near my office, the <a href="/mortgage-broker-surrey/">mortgage broker in Surrey</a> page has the local details. If you're anywhere else in the province, nothing changes. The process is online, and the service is the same.</p>
 
 <h2>Licence and brokerage details</h2>
 <p>Resvick Mortgages is the working name of Joshua Resvick, Mortgage Broker, at Xeva Mortgage. The brokerage holds BCFSA Brokerage Licence #X300203. Joshua's own mortgage broker licence number is MB503619.</p>

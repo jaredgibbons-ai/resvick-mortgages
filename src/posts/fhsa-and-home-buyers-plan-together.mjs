@@ -17,7 +17,7 @@ ${short({
   next: "Read the steps below, then confirm your own room on your CRA My Account. Questions about the mortgage side? <a href=\"/contact/\">Book a short call</a>."
 })}
 <h2>The short answer</h2>
-<p>Yes, you can use both programs. The CRA, which runs both, allows you to combine an FHSA withdrawal with a Home Buyers' Plan withdrawal for the same home.</p>
+<p>Yes, you can use both programs. The CRA, which runs both, allows you to combine an <a href="/fhsa-bc/">FHSA</a> withdrawal with a Home Buyers' Plan withdrawal for the same home.</p>
 <p>The two programs work in different ways, so it helps to treat them as two tools. One is a savings account. The other is a loan from yourself. This post explains each one, then shows how to use them together.</p>
 <p>It is a questions post, so it covers the main points rather than every tax rule. For the full list of first-time buyer programs in BC, read the <a href="/first-time-buyer-programs-bc/">programs guide</a>. For the CRA's own wording, use the CRA website or your My Account.</p>
 

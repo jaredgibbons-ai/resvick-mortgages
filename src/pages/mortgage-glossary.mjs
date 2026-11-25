@@ -98,7 +98,7 @@ ${groupsHtml}
 <li><strong>Pre-qualification and pre-approval.</strong> A pre-qualification is a rough estimate based on what you tell a lender. A pre-approval reviews your documents and credit. Neither one is a final approval, which only comes after the lender reviews the property.</li>
 <li><strong>Renewal and refinance.</strong> A renewal happens at the end of your term, usually with the same balance. A refinance replaces the mortgage in the middle of a term or changes the amount, and it normally needs a full application.</li>
 <li><strong>Prime rate and policy rate.</strong> The policy rate is set by the Bank of Canada. Prime is set by each lender, and it usually moves after the policy rate does. Variable mortgages follow prime.</li>
-<li><strong>Insured and insurance.</strong> Mortgage default insurance protects the lender. Life insurance and title insurance protect you or the title. They are different products.</li>
+<li><strong>Insured and insurance.</strong> <a href="/cmhc-insurance-bc/">Mortgage default insurance</a> protects the lender. Life insurance and title insurance protect you or the title. They are different products.</li>
 </ul>
 
 <h2>Where to go next</h2>

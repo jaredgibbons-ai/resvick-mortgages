@@ -74,7 +74,7 @@ ${cta({ title: "Which of the four do you pass?", text: "Bring your situation to 
 <p>These are illustrative. The figures come from the same engine as the calculators on this site, using the published rules. The prices are examples only.</p>
 <h3>A $750,000 resale home, one eligible first-time buyer</h3>
 <p>The minimum down payment is $50,000. That's 5 percent of the first $500,000 plus 10 percent of the remaining $250,000.</p>
-<p>The loan before insurance is $700,000, a loan-to-value ratio of about 93.3 percent. So the CMHC premium is 4.00 percent, or $28,000. It's added to the mortgage, for a total of $728,000. On a 30-year amortization the premium rate is 4.20 percent, or $29,400, for a total of $729,400.</p>
+<p>The loan before insurance is $700,000, a loan-to-value ratio of about 93.3 percent. So the <a href="/cmhc-insurance-bc/">CMHC premium</a> is 4.00 percent, or $28,000. It's added to the mortgage, for a total of $728,000. On a 30-year amortization the premium rate is 4.20 percent, or $29,400, for a total of $729,400.</p>
 <p>The transfer tax on a $750,000 purchase is $13,000. After the $8,000 first-time buyer exemption, $5,000 is still payable.</p>
 <p>One person with a full FHSA and the Home Buyers' Plan could, in principle, put up to $100,000 toward the down payment. So the $50,000 minimum is within reach of those two programs alone.</p>
 <h3>An $800,000 newly built home from a builder</h3>

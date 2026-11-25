@@ -24,7 +24,7 @@ ${short({ answer: "Lenders don't care how many people earn the income, only whet
 
 <h2>Programs that reduce your cash</h2>
 <p>If you haven't owned a home before, you're likely a first-time buyer, and several programs stack. Some programs also count you if you haven't owned in the last few years.</p>
-<p>The First Home Savings Account lets you put money in tax-deductible and take it out tax-free for a purchase. The Home Buyers' Plan lets you withdraw from an RRSP and pay it back over time. In BC, the first-time buyers' property transfer tax exemption can save a qualifying buyer up to $8,000 at closing, below the current price threshold. The federal GST rebate cuts the tax on a new home.</p>
+<p>The <a href="/fhsa-bc/">First Home Savings Account</a> lets you put money in tax-deductible and take it out tax-free for a purchase. The Home Buyers' Plan lets you withdraw from an RRSP and pay it back over time. In BC, the first-time buyers' property transfer tax exemption can save a qualifying buyer up to $8,000 at closing, below the current price threshold. The federal GST rebate cuts the tax on a new home.</p>
 <p>The <a href="/first-time-buyer-programs-bc/">programs and stacking guide</a> explains each one, who qualifies and the order to use them in. One point catches people. A home you owned with a former spouse can affect your first-time status under some programs. Each program has its own definition, so Joshua checks each one against your history.</p>
 
 <h2>The down payment</h2>

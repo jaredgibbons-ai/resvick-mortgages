@@ -66,7 +66,7 @@ ${censusTable("surrey")}
 <h2>Every city Joshua serves</h2>
 <p>Surrey is the office, but the service covers the whole province, online and by phone. Each city below has its own page with the local details, from suite bylaws to presale patterns.</p>
 <p><a href="/mortgage-broker-vancouver/">Vancouver</a>, <a href="/mortgage-broker-langley/">Langley</a>, <a href="/mortgage-broker-burnaby/">Burnaby</a>, <a href="/mortgage-broker-coquitlam/">Coquitlam</a>, <a href="/mortgage-broker-richmond/">Richmond</a>, <a href="/mortgage-broker-abbotsford/">Abbotsford</a>, <a href="/mortgage-broker-victoria/">Victoria</a>, <a href="/mortgage-broker-nanaimo/">Nanaimo</a>, <a href="/mortgage-broker-kelowna/">Kelowna</a>, <a href="/mortgage-broker-kamloops/">Kamloops</a>, <a href="/mortgage-broker-prince-george/">Prince George</a>.</p>
-<p>Is your city not on the list? Nothing changes. The process is the same from anywhere in BC.</p>
+<p>Is your city not on the list? Nothing changes. The process is the same from <a href="/bc-mortgage-broker-service-areas/">anywhere in BC</a>.</p>
 
 <h2>How it works, from this office</h2>
 <ol>
