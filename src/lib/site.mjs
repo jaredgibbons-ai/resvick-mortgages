@@ -177,7 +177,7 @@ export function reviews(opts = {}) {
 }
 
 // Where reviews appear automatically (all are purchase stories, so they only go on buyer, trust and contact pages).
-const REV_TAG = { "/about-joshua-resvick/": "", "/contact/": "", "/apply/": "", "/refer/": "realtor", "/partners/": "first", "/first-time-home-buyer-bc/": "first", "/mortgage-pre-approval-bc/": "buy", "/first-time-buyer-programs-bc/": "first", "/how-much-mortgage-can-i-afford/": "buy", "/down-payment-guide-bc/": "buy", "/accepted-offer/": "buy", "/mortgage-broker-vs-bank/": "buy", "/how-mortgage-brokers-get-paid/": "buy" };
+const REV_TAG = { "/closing-costs-bc/": "buy", "/cmhc-insurance-bc/": "first", "/gifted-down-payment/": "first", "/deposit-loan-and-borrowed-down-payment/": "first", "/fhsa-bc/": "first", "/buying-with-5-percent-down/": "first", "/mortgage-application-checklist/": "buy", "/presale-mortgages-bc/": "buy", "/about-joshua-resvick/": "", "/contact/": "", "/apply/": "", "/refer/": "realtor", "/partners/": "first", "/first-time-home-buyer-bc/": "first", "/mortgage-pre-approval-bc/": "buy", "/first-time-buyer-programs-bc/": "first", "/how-much-mortgage-can-i-afford/": "buy", "/down-payment-guide-bc/": "buy", "/accepted-offer/": "buy", "/mortgage-broker-vs-bank/": "buy", "/how-mortgage-brokers-get-paid/": "buy" };
 const REV_LIM = { "/contact/": 2, "/apply/": 2 };
 const revFor = (page) => {
   if (page.reviews === false || page.slug === "/") return "";
