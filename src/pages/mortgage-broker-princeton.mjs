@@ -78,7 +78,7 @@ ${censusTable("princeton")}
 <li><strong>I ask about your start date first.</strong> Probation, your last job and your pay type decide which lenders to approach.</li>
 <li><strong>I check the property early.</strong> I ask if it is on a pad, on well and septic, or near the river. These facts steer the lender choice before you fall in love with a house.</li>
 <li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
-<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal.</li>
+<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and call you about six months before renewal.</li>
 </ol>
 <p>If you do not have a realtor yet, Stacey Roberts of Flex Realty is the Princeton realtor I work with. You can see her listings at <a href="https://sellingprinceton.ca" rel="noopener" target="_blank">sellingprinceton.ca</a> and find her contact details on our <a href="/partners/">partners page</a>. You are free to use any realtor you like. I don't take or pay referral fees for introductions.</p>
 

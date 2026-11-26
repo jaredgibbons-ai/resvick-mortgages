@@ -52,7 +52,7 @@ function block(page) {
     const c = CITY_NAME[m[1]];
     return `<h2>What could you afford in ${c}?</h2>
 <p>Thinking about buying in ${c}? Put in your household income, your debts and what you've saved. The calculator runs the same stress test lenders use, so you get a realistic ${c} price range before you start looking. Rates aren't filled in for you, so use one you've actually been quoted.</p>
-<div class="tools">${TOOLS.affordability()}</div>`;
+<div class="tools">${TOOLS.affordability().replace(">How much mortgage can I afford?</h3>", `>${c} affordability calculator</h3>`).replace(/<p class="small">Runs your income[^<]*<\/p>/, `<p class="small">Your income and debts in, a ${c} price range out, tested at the stress-test rate.</p>`)}</div>`;
   }
   const key = PAGES[page.slug];
   if (!key) return "";

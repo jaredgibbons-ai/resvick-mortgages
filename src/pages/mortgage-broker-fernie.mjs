@@ -65,7 +65,7 @@ ${censusTable("fernie")}
 <li><strong>I ask how you are paid first.</strong> Mine pay, resort pay, remote work or a business each point to different lenders.</li>
 <li><strong>I check the property early.</strong> I ask about strata or freehold, any suite, hazard areas and covenants on title. These facts steer the lender choice before you fall in love with a house.</li>
 <li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
-<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
+<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and call you about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Fernie files, such as a second home with rental income, new self-employed income or a unit in a rental pool, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}

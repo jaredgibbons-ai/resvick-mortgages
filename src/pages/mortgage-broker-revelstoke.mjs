@@ -13,7 +13,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua how you are paid and what kind of home you want."
 })}
 <p>Revelstoke sits on the Trans-Canada Highway between the Okanagan and the Rockies. Tourism Revelstoke lists Kelowna about 187 km away. Kamloops is about 211 km and Calgary about 410 km (Tourism Revelstoke, Getting Here, June 29, 2026, read October 2026). It is a small city with big-city prices. Rail, hydro, forestry, skiing and remote jobs all shape the mortgage files here.</p>
-<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I work from my Surrey office and help Revelstoke clients by phone and video. There is no Revelstoke branch. You can <a href="/contact/">book a 15-minute call</a> from home, a locomotive cab or the lift line.</p>
+<p>My name is Joshua Resvick, and I'm a mortgage broker with Xeva Mortgage. I was an underwriter for five years before I started brokering, which means I know how a lender reads rail pay, seasonal resort income and a mountain-town strata. My office is in Surrey, and Revelstoke clients work with me by phone, video and secure upload. I don't have a Revelstoke office. You can <a href="/contact/">book a 15-minute call</a> from home, a locomotive cab or the lift line.</p>
 
 ${ratesStrip()}
 
@@ -61,9 +61,9 @@ ${censusTable("revelstoke")}
 <h2>How I work with Revelstoke clients</h2>
 <ol>
 <li><strong>I ask how you are paid first.</strong> Rail pay, hydro contracts, resort pay, remote work or a business each point to different lenders.</li>
-<li><strong>I check the property early.</strong> I ask about strata or freehold, covenants, any suite, the age of the home and hazard zones. These facts steer the lender choice before you fall in love with a house.</li>
-<li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
-<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
+<li><strong>I check the property early.</strong> I ask about strata or freehold, covenants, any suite, the age of the home and hazard zones. In Revelstoke, a rental covenant or a hazard zone can change which lenders say yes, so I check before you write an offer.</li>
+<li><strong>I put the choices in writing.</strong> Buying a Revelstoke condo, a home with a suite or a property with a covenant? The <a href="/lender-comparison-report/">Lender Comparison Report</a> shows which lenders accept it, plus each one's term, penalty method and portability.</li>
+<li><strong>I check in every year.</strong> Through <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your Revelstoke mortgage each year and call about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> shows why starting early gives you more choices.</li>
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Revelstoke files may need a B or private lender. Examples are a resale-capped home, new self-employed income or a unit with rental income. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
