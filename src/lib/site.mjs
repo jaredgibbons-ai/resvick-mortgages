@@ -28,6 +28,7 @@ export const SITE = {
   licence: "BCFSA Brokerage Licence #X300203",
   brokerLicence: "MB503619",
   turnstileKey: process.env.TURNSTILE_SITE_KEY || "", // Cloudflare Turnstile site key (public). Unset = no spam-check script on the pages.
+  mapsKey: process.env.GOOGLE_MAPS_KEY || "", // Places API (New) browser key, locked to the site's domain. Unset = plain address box on /apply/.
   ga4: process.env.GA4_ID || "" // set GA4_ID in the Pages build environment once Josh creates the property (Open Item 15)
 };
 
@@ -437,7 +438,7 @@ export function render(page) {
   if (page.faqs && page.faqs.length) schemas.push({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: page.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/<[^>]+>/g, "") } })) });
   const hero = page.hero || `<div class="hero-copy"><h1>${page.h1}</h1>${page.lede ? `<p class="lede">${page.lede}</p>` : ""}</div>`;
   const top = withTop(page);
-  const scripts = (page.calc ? `<script src="${asset("/assets/js/engine.js")}" defer></script><script src="${asset("/assets/js/calc-ui.js")}" defer></script>` : page.quiz ? `<script src="${asset("/assets/js/engine.js")}" defer></script>` : "") + (page.quiz ? `<script src="${asset("/assets/js/quiz.js")}" defer></script>` : "") + ((page.forms || page.calc || page.printable || hasCallback(page)) ? `<script src="${asset("/assets/js/forms.js")}" defer></script>` : "") + (page.print ? `<script src="${asset("/assets/js/print.js")}" defer></script>` : "") + (SITE.turnstileKey && (page.forms || page.quiz || page.calc || page.printable || hasCallback(page)) ? `<script src="${asset("/assets/js/guard.js")}" defer data-key="${SITE.turnstileKey}"></script>` : "") + (SITE.ga4 ? `<script src="${asset("/assets/js/consent.js")}" defer data-ga="${SITE.ga4}"></script>` : "");
+  const scripts = (page.calc ? `<script src="${asset("/assets/js/engine.js")}" defer></script><script src="${asset("/assets/js/calc-ui.js")}" defer></script>` : page.quiz ? `<script src="${asset("/assets/js/engine.js")}" defer></script>` : "") + (page.quiz ? `<script src="${asset("/assets/js/quiz.js")}" defer></script>` : "") + ((page.forms || page.calc || page.printable || hasCallback(page)) ? `<script src="${asset("/assets/js/forms.js")}" defer></script>` : "") + (page.print ? `<script src="${asset("/assets/js/print.js")}" defer></script>` : "") + (SITE.turnstileKey && (page.forms || page.quiz || page.calc || page.printable || hasCallback(page)) ? `<script src="${asset("/assets/js/guard.js")}" defer data-key="${SITE.turnstileKey}"></script>` : "") + (SITE.mapsKey && page.slug === "/apply/" ? `<script src="${asset("/assets/js/places.js")}" defer data-key="${SITE.mapsKey}"></script>` : "") + (SITE.ga4 ? `<script src="${asset("/assets/js/consent.js")}" defer data-ga="${SITE.ga4}"></script>` : "");
   return `<!doctype html>
 <html lang="${page.lang || "en-CA"}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(page.title)}</title>

@@ -34,6 +34,7 @@ export default {
 <p>We send marketing email, such as rate updates and mortgage tips, only if you tick the separate, optional box. Renewal reminders are sent only if you tick the reminder box. Each marketing email shows who sent it and has an unsubscribe link. One unsubscribe stops all marketing messages. Messages about a file you already have with us are separate.</p>
 <h2>Who sees it</h2>
 ${SITE.turnstileKey ? `<p>The forms use Cloudflare Turnstile, a spam check. It looks at basic details from your browser to tell a person from a bot. It loads only when you start to fill in a form.</p>
+` : ""}${SITE.mapsKey ? `<p>On the application, the property address box suggests addresses as you type. What you type in that box is sent to Google to find matching addresses. Nothing else on the form is sent to Google.</p>
 ` : ""}<p>Enquiries go to the brokerage's customer records system, so each person has one record instead of scattered emails. Other service providers help run the site: the hosting and form-handling service, Cal.com for booking, and Google for analytics. If you apply, your file goes to the lenders, insurers and lawyers or notaries involved in your application, and only for that purpose. We may also have to share records with a regulator, such as BCFSA, if the law requires it. We do not sell your information.</p>
 <p>Some of these providers are based outside Canada, including in the United States. Your information may be stored or handled there, and the laws of that place may apply to it.</p>
 <h2>How long we keep it</h2>

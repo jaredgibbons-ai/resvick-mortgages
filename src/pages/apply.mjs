@@ -62,7 +62,7 @@ ${choice("credit", "How would you describe your credit?", [["good", "Good, no mi
 </fieldset>
 
 <fieldset data-step="5" hidden><legend>The property</legend>
-<div class="fld"><label for="a-address">Address, or the area you're looking in</label><input id="a-address" name="x_property_area" type="text" placeholder="e.g. 123 Example St, Surrey, or Langley townhouses" required></div>
+<div class="fld"><label for="a-address">Address, or the area you're looking in</label><input id="a-address" name="x_property_area" type="text" placeholder="e.g. 123 Example St, Surrey, or Langley townhouses" required>${SITE.mapsKey ? `<span class="hint">Start typing and pick the address from the list, or just type the area.</span>` : ""}</div>
 ${choice("ptype", "Property type", [["detached", "Detached house"], ["townhouse", "Townhouse"], ["condo", "Condo or apartment"], ["suite", "House with a suite"], ["other", "Other"]])}
 ${choice("occupancy", "Will you live in it?", [["yes", "Yes, it's my home"], ["partly", "Yes, and part of it will be rented"], ["no", "No, it's a rental or investment"]])}
 </fieldset>
