@@ -25,7 +25,7 @@ export default {
 <h2>Using our content</h2>
 <p>The text, design and tools on this site belong to Resvick Mortgages or its licensors. You may read it, print a page for your own use and link to it. Please do not copy it, republish it or pass it off as your own without our written permission.</p>
 <h2>Limits on our responsibility</h2>
-<p>This site is provided as is. To the extent the law allows, Resvick Mortgages and Joshua Resvick are not responsible for losses that come from using this site or relying on its content without getting advice on your own file. Nothing here limits any right you have under the law that cannot be limited.</p>
+<p>This site is provided as is. To the extent the law allows, Resvick Mortgages and Joshua Resvick are not responsible for losses from using this site. That includes relying on its content without getting advice on your own file. Nothing here limits any right you have under the law that cannot be limited.</p>
 <h2>Your information</h2>
 <p>The <a href="/privacy/">privacy policy</a> explains what we collect through this site and your choices.</p>
 <h2>Governing law and changes</h2>

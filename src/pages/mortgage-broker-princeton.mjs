@@ -13,7 +13,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua your start date and how you are paid."
 })}
 <p>Princeton sits where Highway 3 meets Highway 5A, at the joining of two rivers. It is a small town with a big employer nearby. Copper Mountain Mine is about 20 km to the south, and it shapes who buys homes here and when.</p>
-<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. More than 1,000 mortgages have been funded through him. I work from my Surrey office and help Princeton clients by phone and video. There is no Princeton branch. You can <a href="/contact/">book a 15-minute call</a> from your kitchen table or your truck.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I've funded more than 1,000 mortgages. I work from my Surrey office and help Princeton clients by phone and video. There is no Princeton branch. You can <a href="/contact/">book a 15-minute call</a> from your kitchen table or your truck.</p>
 
 ${ratesStrip()}
 

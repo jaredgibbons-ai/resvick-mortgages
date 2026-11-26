@@ -18,7 +18,7 @@ ${short({
 ${ratesStrip()}
 
 <h2>Port and project jobs: how lenders read the pay</h2>
-<p>The port has grown. In 2025 it handled 26.3 million tonnes of cargo, up 14 percent on 2024, and the Port Authority says its major projects represent more than $3 billion in capital investment (Prince Rupert Port Authority, Port of Prince Rupert Cargo Volumes Grew to 26.3 Million Tonnes in 2025, January 14, 2026, read October 2026). In July 2026 the Province gave the City $240,000 for a worker attraction campaign. The release links it to a $1.35 billion bulk terminal project on Ridley Island that could create up to 1,900 jobs (BC Government News, Helping Prince Rupert attract workers for growth, July 13, 2026, read October 2026).</p>
+<p>The port has grown. In 2025 it handled 26.3 million tonnes of cargo, up 14 percent on 2024. The Port Authority says its major projects represent more than $3 billion in capital investment (Prince Rupert Port Authority, Port of Prince Rupert Cargo Volumes Grew to 26.3 Million Tonnes in 2025, January 14, 2026, read October 2026). In July 2026 the Province gave the City $240,000 for a worker attraction campaign. The release links it to a $1.35 billion bulk terminal project on Ridley Island that could create up to 1,900 jobs (BC Government News, Helping Prince Rupert attract workers for growth, July 13, 2026, read October 2026).</p>
 <p>Big projects bring work, but a lender does not lend against a forecast. It looks at the job you hold today. These are common cases:</p>
 <ul>
 <li><strong>Permanent terminal, rail or hospital jobs.</strong> A salaried or hourly job with a steady schedule is read like most jobs. Recent pay stubs and an employer letter do most of the work.</li>

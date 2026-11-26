@@ -13,7 +13,7 @@ ${short({
   next: "Book a 15-minute call and tell Joshua when you arrive and how you are paid."
 })}
 <p>Terrace sits on the Skeena River where Highway 16 meets Highway 37. It is the hub for a wide stretch of the northwest. Kitimat is about 63 km south on Highway 37. (Wikipedia, Kitimat, read October 2026). That reach is why people move to Terrace for work, and why they often arrive in a hurry.</p>
-<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. More than 1,000 mortgages have been funded through him. I work from my Surrey office and help Terrace clients by phone, video and secure document upload. There is no Terrace branch. You can <a href="/contact/">book a 15-minute call</a> before you pack a single box.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I've funded more than 1,000 mortgages. I work from my Surrey office and help Terrace clients by phone, video and secure document upload. There is no Terrace branch. You can <a href="/contact/">book a 15-minute call</a> before you pack a single box.</p>
 
 ${ratesStrip()}
 
