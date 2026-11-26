@@ -52,7 +52,7 @@ ${censusTable("delta")}
 ${callout("What you pay", "<p>Most Delta purchases and renewals go to A lenders, where the lender pays Joshua and your cost is nothing. Leasehold, farm-edge and unusual-income files sometimes need a B or private lender. Any fee to you on those must appear in writing on BCFSA's Form 1A before you commit.</p>")}
 
 <h2>Buying, renewing and refinancing in Delta</h2>
-<p><strong>First-time buyers</strong> in Delta can use the same federal and provincial programs as everyone in BC: the transfer tax exemption, the First Home Savings Account, the Home Buyers' Plan and the new-home GST rebate. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> shows how they stack.</p>
+<p><strong>First-time buyers</strong> in Delta get the same federal and provincial programs as everyone in BC. They are the transfer tax exemption, the First Home Savings Account, the Home Buyers' Plan and the new-home GST rebate. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> shows how they stack.</p>
 <p><strong>Renewing owners</strong> in Delta get the same advice as anywhere: the letter is a first offer. The <a href="/mortgage-renewal-bc/">renewal guide</a> has the timeline and the late-2024 switching rules. Then run your figures through the <a href="/mortgage-calculators/">mortgage calculators</a>, including the <a href="/mortgage-calculators/#renewal">renewal scenario tool</a>.</p>
 <p><strong>Refinancing</strong> for debt, a renovation or a suite begins with the break-even math, ahead of any talk about rates. For how a rate is set, see the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
