@@ -49,7 +49,7 @@ export const cityFacts = (k) => {
   if (!d) return "";
   const name = CITY_NAME[k];
   let h = `\n<h2>${esc(name)}: local rules, employers and lenders</h2>`;
-  h += `\n<p>I checked these pages in ${esc(d.checked || "October 2026")}. Rules change, so confirm with the town before you rely on this.</p>`;
+  h += `\n<p>I read the ${esc(name)} sources below in ${esc(d.checked || "October 2026")}. Local rules change, so check with ${esc(name)} before you rely on them.</p>`;
   h += `\n<h3>Short-term rentals in ${esc(name)}</h3><p>${esc(strLead(k))}</p>`;
   if (d.str) h += `\n<p>${esc(dot(d.str))}</p>`;
   h += `\n<h3>Suites and small multi-unit housing</h3><p>${esc(dot(d.suites))}</p>`;

@@ -181,6 +181,7 @@ export const SLUGS = `/
 /smith-manoeuvre/
 /spousal-buyout-mortgage/
 /stated-income-mortgage/
+/no-income-verification-mortgage-bc/
 /stress-test-exemption-switching-lenders/
 /switch-mortgage-lenders-at-renewal/
 /variable-rate-mortgage/

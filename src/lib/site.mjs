@@ -122,7 +122,7 @@ const T_TOOL = /calculator|break-even|equity-estimator|lender-match|mortgage-che
 const T_RENEW = /renew|switch-mortgage|rate-hold|blend-and-extend|stress-test-exemption|interest-rate-differential|prepayment|penalty|porting|collateral/;
 const T_REFI = /refinanc|cash-out|heloc|second-mortgage|is-it-worth|debt|smith-manoeuvre|readvanceable|reverse-mortgage|equity|consolidat/;
 const T_BUY = /first-time|down-payment|pre-approval|closing-costs|how-much-mortgage|buying-with|accepted-offer|gifted|deposit-loan|presale|foreign-buyers|bridge-financing|downsizing|condo|co-buying|purchase|construction|how-much-suite|pay-off-car|where-can-my-down/;
-const T_SIT = /mortgages-for-|mortgage-for-|self-employed|bad-credit|mortgage-after|behind-on|missed|default|separation|spousal|stated-income|b-lender|private-mortgage|new-to-canada|cosigner|co-sign|student-loans|car-loan|build-credit|camp|first-nations|leasehold|farm|mobile-home|rent-to-own|commercial|investment|airbnb|brrrr|dscr|converting|investor|rental|probation|new-job|without-a-job|appraisal/;
+const T_SIT = /mortgages-for-|mortgage-for-|self-employed|bad-credit|mortgage-after|behind-on|missed|default|separation|spousal|stated-income|no-income|b-lender|private-mortgage|new-to-canada|cosigner|co-sign|student-loans|car-loan|build-credit|camp|first-nations|leasehold|farm|mobile-home|rent-to-own|commercial|investment|airbnb|brrrr|dscr|converting|investor|rental|probation|new-job|without-a-job|appraisal/;
 export function closeType(slug) {
   if (T_CITY.test(slug)) return "city";
   if (T_TOOL.test(slug)) return "tool";

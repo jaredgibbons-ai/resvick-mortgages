@@ -81,7 +81,7 @@ ${censusTable("quesnel")}
 <li><strong>I ask how you are paid first.</strong> A mill shift, a mine rotation, a hospital salary and a truck all read differently.</li>
 <li><strong>I check the property early.</strong> I ask if the home sits on a pad, on a well, on acreage or in a treed area. These facts steer the lender choice before you fall for a house.</li>
 <li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you do not choose on rate alone.</li>
-<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal. That way a change in your work does not catch you off guard.</li>
+<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and call you about six months before renewal. That way a change in your work does not catch you off guard.</li>
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Quesnel files, such as pad homes or very new income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}

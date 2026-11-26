@@ -90,7 +90,7 @@ ${censusTable("terrace")}
 <li><strong>I ask about your arrival date first.</strong> Probation, your last job and your pay type decide which lenders to approach.</li>
 <li><strong>I check the property early.</strong> I ask if it is on a pad, on larger land, on well and septic, or on First Nations land. These facts steer the lender choice before you fall in love with a house.</li>
 <li><strong>I write the options down.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up term, penalty method and portability, so you are not choosing on rate alone.</li>
-<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and calls about six months before renewal.</li>
+<li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and call you about six months before renewal.</li>
 </ol>
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Terrace files, such as pad homes or very new income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}

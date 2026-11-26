@@ -7,7 +7,7 @@ ${short({ answer: "A private mortgage lends mainly against your property, not yo
 <h2>What a private mortgage is</h2>
 <p>A private mortgage is a loan secured against real estate. Someone other than a bank, credit union or institutional B lender funds it. The money comes from an individual investor, a group of investors, or a mortgage investment corporation (MIC). A MIC pools investors' money and lends it out.</p>
 <p>In BC, licensed mortgage brokers arrange private mortgages. They're registered on title like any other mortgage. Your lawyer handles the closing the usual way.</p>
-<p>What makes a private lender different is what it lends against. Banks lend mainly against income and credit, with the property as security. Private lenders lend mainly against the property. Income and credit come second. That's why a private lender can say yes in days to a file a bank won't touch. It's also why a private mortgage costs what it does.</p>
+<p>What makes a private lender different is what it lends against. Banks lend mainly against income and credit, with the property as security. Private lenders lend mainly against the property. Income and credit come second. That's why a private lender can say yes in days to a file a bank won't touch. It's also why a private mortgage costs what it does. If you have a lot of equity and good credit but can't show income, a <a href="/no-income-verification-mortgage-bc/">no income verification mortgage</a> from an alternative lender can cost less than a private loan.</p>
 
 <h2>The legitimate use cases</h2>
 <p>Private lending has a reputation it only partly deserves. Used for the right reason, for a short time, with a way out, it solves problems nothing else can.</p>
