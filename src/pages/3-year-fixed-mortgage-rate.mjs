@@ -60,7 +60,7 @@ ${callout("Shorter isn't safer", "<p>A 3-year term cuts the time you're tied to 
 <p>The term is one part of a bigger choice about how to set up your mortgage. The page on <a href="/fixed-vs-variable-mortgage/">fixed versus variable</a> lays out the trade-offs between the two types. The <a href="/5-year-fixed-mortgage-rate/">5-year fixed</a> page covers the classic term in the same detail. The overview at <a href="/mortgage-rates-bc/">mortgage rates in BC</a> brings all the terms together.</p>
 <p>Joshua Resvick compares terms across a wide range of lenders. He gives you the results in writing, covering rate, penalty, prepayment and portability. On a mortgage with a mainstream (A) lender, the lender pays the broker. You pay nothing for the service. Fees come up only on some B-lender and private files, with written disclosure first.</p>
 
-${cta({ title: "Match the term to your plans", text: "Tell Joshua what you expect to happen in the next three to five years and he'll price the terms against it.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "Not sure three years is the right fit?", text: "Tell Joshua what you expect to happen in the next three to five years and he'll price the terms against it.", href: "/contact/", label: "Contact Joshua" })}
 `;
 
 export default {

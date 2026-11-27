@@ -409,3 +409,5 @@ td.num,th.num{text-align:right;padding-right:0;padding-left:12px}@media(max-widt
 .bench .small{margin:0}
 @media(min-width:700px){.bench-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 
+
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
