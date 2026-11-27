@@ -226,7 +226,7 @@ td.num,th.num{text-align:right;padding-right:0}
 /* tools and forms: these are forms, so they get a form's header rule */
 .tools{display:grid;gap:26px;margin:1.6em 0}
 .tool{background:var(--card);border:1px solid var(--rule);border-top:4px solid var(--spruce);border-radius:var(--r);padding:24px;scroll-margin-top:96px}
-.tool h3{margin:0 0 4px!important}.tool .small{margin:0 0 14px}
+.tool h3{margin:0 0 4px!important}.prose .tool h2.tool-h{font:700 23px/1.22 var(--display);margin:0 0 4px!important;letter-spacing:0}.tool .small{margin:0 0 14px}
 .tool form{display:grid;gap:12px}
 .fld{display:grid;gap:4px}.fld label,.fld legend{font:600 15px var(--ui)}
 .fld input,.fld select,.fld textarea{font:400 17px var(--ui);padding:11px 12px;border:1px solid var(--field);border-radius:var(--r);background:#fff;color:var(--ink);width:100%;min-height:46px}

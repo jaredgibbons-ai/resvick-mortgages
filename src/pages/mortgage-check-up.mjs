@@ -1,10 +1,10 @@
 import { short } from "../lib/short.mjs";
 import { SITE, cta, callout } from "../lib/site.mjs";
-import { TOOLS } from "../lib/tools.mjs";
+import { TOOLS, topTool } from "../lib/tools.mjs";
 
 const body = `
 
-${TOOLS["check-up"]()}
+${topTool(TOOLS["check-up"]())}
 
 <h2>Want it written up, with a reminder attached?</h2>
 <p>You've already got the result. Want it as a short written check-up? Want a reminder at six months and at 120 days before maturity? The form below does both. It's optional. The box that sends your numbers is unticked by default, so nothing travels unless you choose it. The reminder is the same one on the <a href="/mortgage-renewal-reminder/">free renewal reminder page</a>, and it works whether or not your mortgage is with me.</p>
