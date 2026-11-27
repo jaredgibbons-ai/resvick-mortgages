@@ -44,7 +44,7 @@ ${costToBuy("Campbell River", [["Typical house", 680000], ["Typical strata home"
 <p>Industry towns can see layoffs and closures. Lenders know this, and a steady two-year history helps. If your income changed recently, talk to me before you apply, not after.</p>
 
 <h2>Short-term rentals are not allowed</h2>
-<p>This one surprises people. The City's zoning FAQ says short-term rentals are not a permitted use in Campbell River, and the City won't issue business licences for them. B&amp;Bs are licensed separately, where zoning allows them. (City of Campbell River, Zoning FAQs, read November 2026).</p>
+<p>This one surprises people. The City's zoning FAQ says short-term rentals are not a permitted use in Campbell River, and the City won't issue business licences for them. Bed and breakfasts are a separate use that can be licensed where zoning allows. (City of Campbell River, Zoning FAQs, read November 2026).</p>
 <p>So don't count on vacation rental income to carry a mortgage here. A lender counts only long-term rent, from a legal suite or unit. If you were planning to rent by the night, read the <a href="/airbnb-and-short-term-rental-mortgages/">short-term rental guide</a> and check with the City first.</p>
 
 <h2>Suites and the 2024 zoning change</h2>
@@ -66,8 +66,8 @@ ${costToBuy("Campbell River", [["Typical house", 680000], ["Typical strata home"
 
 ${callout("The cost of using a broker", "<p>For most Campbell River buyers, nothing. An A lender pays the broker when the mortgage funds. Some files, such as brand-new self-employment or past credit trouble, need a B or private lender and may carry a fee. Any fee is disclosed in writing on BCFSA's Form 1A before you commit.</p>")}
 
-<p class="more-links"><strong>Where to go next.</strong> Compare the other Island towns on the <a href="/mortgage-broker-vancouver-island/">Vancouver Island overview</a>. First-time buyers can start with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Check today's benchmarks on the <a href="/mortgage-rates-bc/">BC rates hub</a>, and test your numbers in the <a href="/mortgage-calculators/">mortgage calculators</a>.</p>
 
+<p>Before we talk, it can help to read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> and the <a href="/down-payment-guide-bc/">down payment guide</a>. The <a href="/closing-costs-bc/">closing costs guide</a> and the <a href="/mortgage-calculators/">mortgage calculators</a> cover the cash and the numbers. For the bigger picture, see <a href="/mortgage-rates-bc/">how BC mortgage rates are set</a> and the <a href="/mortgage-broker-vancouver-island/">Vancouver Island overview</a>.</p>
 ${cityFacts("campbell-river")}
 ${nearbyCallout("campbell-river", callout)}
 

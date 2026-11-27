@@ -86,8 +86,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <p>Buyers here also look east and west. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the closest large Okanagan city, and the <a href="/mortgage-broker-penticton/">Penticton page</a> covers the South Okanagan.</p>
 
-<p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-teachers-and-school-staff/">teachers and school staff</a>. To plan a purchase, start with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
+<p>Before we talk, it can help to read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>.</p>
 ${cityFacts("trail-castlegar")}
 ${nearbyCallout("trail-castlegar", callout)}
 

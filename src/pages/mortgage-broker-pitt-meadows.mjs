@@ -85,7 +85,6 @@ ${callout("Paying for the service", "<p>If your Pitt Meadows file suits a bank o
 <h2>Who writes this</h2>
 <p>Joshua Resvick holds a mortgage broker licence through Xeva Mortgage. Before that, he worked as an underwriter, so he knows what a lender looks for when it reads a file. He has helped fund more than 1,000 mortgages. He works with Pitt Meadows clients from an office in Surrey, with calls, video and secure uploads. He has no office in Pitt Meadows.</p>
 
-<p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/farm-and-alr-mortgages-bc/">farm and ALR mortgages</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Pitt Meadows file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
 ${cityFacts("pitt-meadows")}
 ${nearbyCallout("pitt-meadows", callout)}

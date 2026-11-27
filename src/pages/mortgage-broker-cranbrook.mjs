@@ -44,7 +44,7 @@ ${costToBuy("Cranbrook", [["Cranbrook house", 517000], ["Cranbrook strata home",
 </ol>
 
 <h2>Suites and small multi-unit housing</h2>
-<p>Cranbrook's Council adopted Zoning Bylaw Amendment No. 4161 on June 10, 2024. Smaller parcels can have 3 units, and larger ones up to 4, in the main residential zones. Each parcel can also hold one secondary suite and one accessory dwelling unit. (City of Cranbrook, Small-Scale Multi-Unit Housing, June 2024, read November 2026).</p>
+<p>Cranbrook's Council adopted Zoning Bylaw Amendment No. 4161 on June 10, 2024. Smaller parcels can have 3 units, and larger ones up to 4, in the main residential zones. A parcel can have one secondary suite plus one accessory dwelling unit. (City of Cranbrook, Small-Scale Multi-Unit Housing, June 2024, read November 2026).</p>
 <p>The City said in 2023 that Cranbrook needs about 1,400 new homes by 2031. (City of Cranbrook news, October 26, 2023, read November 2026). That demand helps a legal suite rent steadily. Many lenders count part of that rent toward your income. The <a href="/how-much-suite-income-will-a-lender-count/">suite income guide</a> shows the two methods.</p>
 
 <h2>Short-term rentals</h2>
@@ -63,8 +63,8 @@ ${costToBuy("Cranbrook", [["Cranbrook house", 517000], ["Cranbrook strata home",
 
 ${callout("Is there a fee?", "<p>Not when an A lender takes the mortgage. The lender pays the broker. Pad homes, new self-employment or credit trouble can push a file to a B or private lender, and those may carry a fee. You see any fee in writing on BCFSA's Form 1A before you commit.</p>")}
 
-<p class="more-links"><strong>Where to go next.</strong> Nearby, the <a href="/mortgage-broker-fernie/">Fernie page</a> covers the Elk Valley and the <a href="/mortgage-broker-invermere/">Invermere page</a> covers the Columbia Valley. First-time buyers can start with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>, and self-employed buyers with the <a href="/self-employed-mortgage-bc/">self-employed hub</a>. Check today's benchmarks on the <a href="/mortgage-rates-bc/">BC rates hub</a>, and test your numbers in the <a href="/mortgage-calculators/">mortgage calculators</a>.</p>
 
+<p>Before we talk, it can help to read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>, the <a href="/mortgage-calculators/">mortgage calculators</a>, <a href="/mortgage-rates-bc/">how BC mortgage rates are set</a> and the <a href="/self-employed-mortgage-bc/">self-employed mortgage guide</a>.</p>
 ${cityFacts("cranbrook")}
 ${nearbyCallout("cranbrook", callout)}
 

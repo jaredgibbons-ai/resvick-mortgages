@@ -238,7 +238,7 @@ export default {
       { n: "Cordova Bay", d: "Mostly single-family homes, about 94 percent in the 1998 local area plan. Multi-family homes are near the village." },
       { n: "Cadboro Bay", d: "Mostly single-family homes, about 88 percent in the 2002 plan. Multi-family homes are in the village and at Wedgewood Point." },
       { n: "Saanich Core", d: "Mostly apartments and other multi-family homes, about 81 percent in the 1999 plan. Council re-adopted the plan in 2024." },
-      { n: "Quadra", d: "Mostly single and two-family homes, about 74 percent in the 2001 plan. Council re-adopted the plan in 2024." },
+      { n: "Quadra", d: "Mostly single and two-family homes, about 74 percent in the 2001 plan, which Council also re-adopted in 2024." },
       { n: "Rural Saanich", d: "Land outside the Urban Containment Boundary. The District's page allows only one secondary suite per property there." }
     ],
     mix: "The District's 2024 housing needs report uses 2021 Census data. It shows about 69 percent of homes owned and 31 percent rented. Detached houses are about 47 percent of homes. Apartments in buildings under five storeys are about 20 percent.",

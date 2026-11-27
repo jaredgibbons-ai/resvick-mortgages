@@ -9,6 +9,7 @@ export function asset(url) {
   const v = VERS.get(url); return v ? url + "?v=" + v : url;
 }
 import { CITY_NAME } from "./nearby.mjs";
+import { mergeLocal } from "./city-facts.mjs";
 
 export const SITE = {
   origin: "https://www.resvickmortgages.com",
@@ -257,7 +258,8 @@ function withTop(page) {
   return { html: i >= 0 ? html.slice(0, i + 8) + "\n" + blk + html.slice(i + 8) : blk + html, toc: t.toc };
 }
 function withToc(page) {
-  const body = page.body || "";
+  const ck = T_CITY.test(page.slug) ? cityKey(page.slug) : null;
+  const body = ck ? mergeLocal(page.body || "", ck) : (page.body || "");
   if (page.home || NO_QUICK.has(page.slug)) return { body, toc: "" };
   const used = new Set((body.match(/\sid="([^"]+)"/g) || []).map((x) => x.slice(5, -1)));
   const items = [];

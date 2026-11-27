@@ -56,17 +56,17 @@ export default {
     links: city("/mortgage-rates-bc/", "/mortgage-broker-langley/", "/mortgage-broker-surrey/")
   },
   "/mortgage-rates-vancouver/": {
-    title: "Mortgage Rates Vancouver | Current Rates & Local Context",
-    meta: "Current Vancouver mortgage rates with local context: how property type and down payment change the rate you actually get, and what to compare beyond it.",
-    specTitle: "Mortgage Rates in Vancouver | Current Rates + Local Context",
-    specMeta: "Current Vancouver mortgage rates with local context: how your property type and down payment change the rate you actually get — and what to compare beyond it.",
+    title: "Mortgage Rates Vancouver | What Sets Your Rate, Explained",
+    meta: "How Vancouver mortgage rates are set: property type, price and down payment all change your rate. What to compare beyond it, and how to get your real number.",
+    specTitle: "Mortgage Rates Vancouver | What Sets Your Rate, Explained",
+    specMeta: "How Vancouver mortgage rates are set: property type, price and down payment all change your rate. What to compare beyond it, and how to get your real number.",
     links: ratesLinks("/mortgage-broker-vancouver/")
   },
   "/mortgage-rates-surrey/": {
-    title: "Mortgage Rates Surrey | Current Rates & Local Context",
-    meta: "Current Surrey mortgage rates with local context: suite homes, first purchases and renewals, how the rate you qualify for is set, and what else to compare.",
-    specTitle: "Mortgage Rates in Surrey | Current Rates + Local Context",
-    specMeta: "Current Surrey mortgage rates with local context: suite homes, first purchases and renewals — how the rate you qualify for is set, and what else to compare.",
+    title: "Mortgage Rates Surrey | What Sets Your Rate, Explained",
+    meta: "How Surrey mortgage rates are set for suite homes, first homes, presales and renewals, what to compare beyond the rate, and how to get your real number.",
+    specTitle: "Mortgage Rates Surrey | What Sets Your Rate, Explained",
+    specMeta: "How Surrey mortgage rates are set for suite homes, first homes, presales and renewals, what to compare beyond the rate, and how to get your real number.",
     links: ratesLinks("/mortgage-broker-surrey/")
   }
 };

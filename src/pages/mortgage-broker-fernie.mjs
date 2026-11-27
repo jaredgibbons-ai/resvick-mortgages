@@ -72,8 +72,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <p>Buyers who like a mountain town also look at the <a href="/mortgage-broker-whistler/">Whistler page</a> and the <a href="/mortgage-broker-invermere/">Invermere page</a>, which covers another East Kootenay market.</p>
 
-<p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>. To plan a Fernie purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
+<p>Before we talk, it can help to read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> and the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>.</p>
 ${cityFacts("fernie")}
 ${nearbyCallout("fernie", callout)}
 

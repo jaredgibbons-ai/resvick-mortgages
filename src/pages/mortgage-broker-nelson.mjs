@@ -49,7 +49,7 @@ ${costToBuy("Nelson", [["Typical house", 699000], ["Typical strata home", 560000
 <p>So if a listing shows strong vacation rental income, don't assume you can keep it. Ask the City before you make an offer. Many lenders won't count short-term rent at all. The <a href="/airbnb-and-short-term-rental-mortgages/">short-term rental guide</a> explains what lenders look for.</p>
 
 <h2>Suites and laneway houses</h2>
-<p>Long-term rentals are a better bet. The City allows secondary suites and laneway houses in most residential zones, with a building permit. Suites need at least 26 square metres of floor area. A laneway house can be 26 to 89 square metres, with height limits that depend on the design. (City of Nelson, Secondary Suites and Laneway Houses, read November 2026).</p>
+<p>Long-term rentals are a better bet. The City allows secondary suites and laneway houses in most residential zones, with a building permit. A suite must be at least 26 square metres. A laneway house can be 26 to 89 square metres, with height limits that depend on the design. (City of Nelson, Secondary Suites and Laneway Houses, read November 2026).</p>
 <p>A legal suite or laneway house can help you qualify, since many lenders count part of the rent. An unpermitted unit usually counts for nothing. The <a href="/how-much-suite-income-will-a-lender-count/">suite income guide</a> shows the two methods. If you plan to build one, the <a href="/construction-and-self-build-mortgages-bc/">construction mortgage page</a> covers draws.</p>
 
 <h2>Moving to Nelson</h2>
@@ -66,8 +66,8 @@ ${costToBuy("Nelson", [["Typical house", 699000], ["Typical strata home", 560000
 
 ${callout("Paying for broker help", "<p>On most files you don't. When an A lender funds the mortgage, it pays the broker. A file that needs a B or private lender, such as one with new self-employment income, may carry a fee. Any fee is set out in writing on BCFSA's Form 1A before you sign.</p>")}
 
-<p class="more-links"><strong>Where to go next.</strong> Comparing towns? The <a href="/mortgage-broker-trail-castlegar/">Trail and Castlegar page</a> covers the next two cities south. First-time buyers can start with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Check today's benchmarks on the <a href="/mortgage-rates-bc/">BC rates hub</a>.</p>
 
+<p>Before we talk, it can help to read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>, <a href="/mortgage-rates-bc/">how BC mortgage rates are set</a>, the <a href="/closing-costs-bc/">closing costs guide</a> and the <a href="/down-payment-guide-bc/">down payment guide</a>.</p>
 ${cityFacts("nelson")}
 ${nearbyCallout("nelson", callout)}
 
