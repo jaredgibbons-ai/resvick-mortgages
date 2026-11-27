@@ -142,7 +142,7 @@
         current_lender: val(d, "current_lender"), result_text: (d.get("result_text") || "").slice(0, 3000), printable: val(d, "printable"), source_page: location.pathname, utm: utm(), submitted_at: new Date().toISOString(), form: kind };
       (window.RMGuard ? window.RMGuard.get(f) : Promise.resolve("")).then(function (tok) { if (tok) body.turnstile = tok; return fetch("/api/lead", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }); })
         .then(function (r) { if (!r.ok) throw new Error("bad"); f.reset(); clearSaved();
-          var done = f.getAttribute("data-success") || "Thank you. Joshua will reply personally.";
+          var done = f.getAttribute("data-success") || "Sent. Joshua will read it himself and reply by email.";
           var panel = f.querySelector("[data-done]");
           if (panel) { Array.prototype.forEach.call(f.children, function (c) { if (c !== panel) c.hidden = true; }); panel.hidden = false; try { panel.scrollIntoView({ block: "start", behavior: "smooth" }); } catch (x) {} } else setMsg(done, false);
           if (window.RMTrack) window.RMTrack(kind === "renewal-reminder" ? "reminder_signup" : "form_submit", { page: location.pathname, intent: body.intent, form: kind });

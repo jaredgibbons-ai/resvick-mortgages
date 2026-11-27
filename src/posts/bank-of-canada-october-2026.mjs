@@ -15,7 +15,7 @@ ${short({
 <p>Headline inflation has been around 3 percent since April. The Bank expects it to reach about 3.5 percent by year-end. Leaving out gasoline, inflation was 2.2 percent in September. The Bank's core measures remain close to 2 percent. It projects inflation to average 3 percent in 2027 and to return to 2 percent by the middle of 2028.</p>
 <p>On growth, the Bank said the economy grew 3.3 percent in the second quarter. Indicators point to about 2 percent growth in the third. It expects growth to slow in the fourth quarter because of new U.S. tariffs, then pick up in 2027. The unemployment rate has been around 6.5 percent for several months. Housing, the statement said, is expected to stay fairly weak.</p>
 <p>The sentence that matters most for borrowers is the guidance at the end. Governing Council said the policy rate may need to rise further. It also said it will proceed carefully, given the uncertainty. That's neither a promise of more increases nor a promise of a pause.</p>
-<p>The next scheduled announcement is December 9, 2026. The next Monetary Policy Report is due January 27, 2027.</p>
+<p>The next scheduled announcement is December 9, 2026. The <a href="/guides/bank-of-canada-december-2026-preview/">December preview</a> covers what to watch. The next Monetary Policy Report is due January 27, 2027.</p>
 
 <h2>What happened to prime</h2>
 <p>Nobody pays the policy rate on a mortgage. A variable-rate borrower pays a rate tied to their lender's prime rate. Prime moves when the banks decide to move it. That has usually been within a day of a Bank of Canada decision, and by the same amount.</p>

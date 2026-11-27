@@ -51,7 +51,7 @@ ${short({ answer: "Most BC homeowners can borrow up to 80% of their home's value
 <p>The result above stays in your browser. If you would like Joshua to look at it with you, the form below sends him a message. The box that adds your figures to the message is unticked by default, so nothing travels unless you choose it.</p>
 <div class="form-card">
 <p class="small"><strong>Please do not send financial documents through this form.</strong> It does not accept attachments. When documents are needed, Joshua will send a secure upload link.</p>
-<form data-lead="equity-estimator" data-stay novalidate>
+<form data-lead="equity-estimator" data-stay data-success="Sent. Joshua will look over your numbers and your plan himself, then email you back. If a call would help, he will suggest a time." novalidate>
 <input type="hidden" name="intent" value="refinance">
 <input type="hidden" name="tool_inputs" value="">
 <div class="row2">
