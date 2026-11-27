@@ -25,7 +25,7 @@ ${short({ answer: "Yes, you can get a mortgage in BC with bad credit. It changes
 <li><strong>Equity or down payment.</strong> The more of the property you own, the less the lender loses if things go wrong. A 25 or 35 percent down payment opens doors that 20 percent doesn't. On a refinance, a low loan-to-value ratio does the same job.</li>
 <li><strong>Steady income.</strong> A long time in the same job or business, with income that's easy to document, tells an underwriter the payments will be made.</li>
 <li><strong>Low ratios.</strong> A mortgage well inside the debt limits leaves room for error. Lenders notice.</li>
-<li><strong>An explanation that adds up.</strong> A credit problem with a clear cause and a clear end reads differently from a pattern with no story. Think of a job loss, an illness or a separation, followed by a clean stretch. Most bruised-credit applications include a short letter of explanation. Joshua helps you write it.</li>
+<li><strong>An explanation that adds up.</strong> A credit problem with a clear cause and a clear end reads differently from a pattern with no story. Think of a job loss, an illness or a separation, followed by a clean stretch. Most bruised-credit applications include a short letter of explanation. I help you write it.</li>
 </ul>
 
 <h2>Collections, judgments and arrears</h2>
@@ -66,10 +66,10 @@ ${callout("Renewing with changed credit", "<p>Has your credit gotten worse since
 <li>Let the clean history build up.</li>
 </ol>
 <p>During that time, a B or private mortgage holds the home. At the first renewal where your credit meets A-lender standards, the mortgage moves to A pricing with no penalty.</p>
-<p>Joshua treats every bruised-credit mortgage as a file with a date on it. The <a href="/mortgage-application-checklist/">application checklist</a> shows what to gather now. The <a href="/mortgage-calculators/#affordability">affordability calculator</a> shows what your income supports once credit isn't the limit. Aftercare includes a check at the yearly review, and again about six months before maturity, on whether your credit has recovered enough to make the move.</p>
-<p>Has your credit been the reason you've put off a call? <a href="/contact/">Contact Joshua</a>. He's seen every kind of credit report. The first step is just to look at yours together.</p>
+<p>I treat every bruised-credit mortgage as a file with a date on it. The <a href="/mortgage-application-checklist/">application checklist</a> shows what to gather now. The <a href="/mortgage-calculators/#affordability">affordability calculator</a> shows what your income supports once credit isn't the limit. Aftercare includes a check at the yearly review, and again about six months before maturity, on whether your credit has recovered enough to make the move.</p>
+<p>Has your credit been the reason you've put off a call? <a href="/contact/">Contact me</a>. I've seen every kind of credit report. The first step is just to look at yours together.</p>
 
-${cta({ title: "Not sure what your credit allows?", text: "Book a 15-minute call. Joshua will read your report the way an underwriter does. He'll tell you which tier of lender fits today and lay out the steps back to bank pricing." })}
+${cta({ title: "Not sure what your credit allows?", text: "Book a 15-minute call. I'll read your report the way an underwriter does. I'll tell you which tier of lender fits today and lay out the steps back to bank pricing." })}
 `;
 
 export default {
@@ -84,6 +84,6 @@ export default {
     { q: "Can I get a mortgage with collections on my credit report?", a: "Often, yes, but most lenders want the collections paid before or at funding. A paid collection still appears on the report for a time, but it stops blocking approval at most lenders. Unpaid collections usually push the file to the B or private tier." },
     { q: "How long does bad credit affect a mortgage application?", a: "Equifax Canada reports that late payments and collections stay on a report for up to six years, and a first bankruptcy for six years after discharge. Lenders care less about the entry than about the clean history since, and many will consider a file after two years of rebuilt credit." },
     { q: "Is a larger down payment enough to offset bad credit?", a: "It helps a great deal. A down payment of 25 to 35 percent reduces the lender's risk and opens B lenders that would decline at 20 percent. It does not replace credit entirely at A lenders, which still apply score thresholds, but it changes which tier is available and the price." },
-    { q: "Will I pay a broker fee because of my credit?", a: "Not if the mortgage is placed with an A lender, where the lender pays the broker. If your file needs a B or private lender, a fee can apply, and it must be disclosed in writing under BCFSA Form 1A before you commit. Joshua shows every cost before you decide." }
+    { q: "Will I pay a broker fee because of my credit?", a: "Not if the mortgage is placed with an A lender, where the lender pays the broker. If your file needs a B or private lender, a fee can apply, and it must be disclosed in writing under BCFSA Form 1A before you commit. I show every cost before you decide." }
   ]
 };

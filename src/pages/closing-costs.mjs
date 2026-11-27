@@ -32,7 +32,7 @@ ${short({ answer: "Your down payment is not the whole bill. On completion day yo
 <div class="tools">${TOOLS["closing-costs"]()}</div>
 <p>The same tool lives on the main <a href="/mortgage-calculators/#closing-costs">closing cost calculator</a> page, alongside the payment and affordability tools.</p>
 
-${cta({ title: "Get your cash-to-close number checked", text: "Joshua will go through your price, your down payment and the programs you may qualify for, and tell you what to have ready on completion day." })}
+${cta({ title: "Get your cash-to-close number checked", text: "I'll go through your price, your down payment and the programs you may qualify for, and tell you what to have ready on completion day." })}
 
 <h2>Worked examples at different price points</h2>
 <p>These examples are illustrative. They show the two items that can be worked out by rule: the minimum down payment and the transfer tax. They leave out the costs that depend on quotes. Add your own quotes for legal fees, appraisal, inspection, title insurance and adjustments to get the full total.</p>
@@ -65,7 +65,7 @@ ${cta({ title: "Get your cash-to-close number checked", text: "Joshua will go th
 
 ${callout("Not an estimate of your lawyer's bill", "<p>The calculator adds up the numbers you give it. Your lawyer or notary will confirm the final amounts, including the statement of adjustments, shortly before completion.</p>")}
 
-${cta({ title: "Plan your whole cash picture", text: "Bring your price range to a 15-minute call, and Joshua will show you the down payment, the transfer tax and the programs that can reduce them.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "Plan your whole cash picture", text: "Bring your price range to a 15-minute call, and I'll show you the down payment, the transfer tax and the programs that can reduce them.", href: "/contact/", label: "Contact me" })}
 `;
 
 export default {

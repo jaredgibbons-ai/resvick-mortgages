@@ -5,7 +5,7 @@ const body = `
 ${short({
   answer: "A condo or townhouse mortgage depends on three things: you, the unit and the strata building. A weak strata can shrink your approval or lead to a decline.",
   who: "Read on if you're buying a strata-titled condo or townhouse in BC. Buying before the building exists? See <a href=\"/presale-mortgages-bc/\">presale mortgages</a>.",
-  next: "Ask for the strata documents early, then <a href=\"/contact/\">send them to Joshua</a> before you remove conditions."
+  next: "Ask for the strata documents early, then <a href=\"/contact/\">send them to me</a> before you remove conditions."
 })}
 <h2>A strata purchase is two files, not one</h2>
 <p>When you buy a detached house, the lender looks at you and the house. When you buy a condo or a townhouse in British Columbia, the lender looks at three things. They are you, the unit, and the strata corporation that owns the building around it. That third file is the one most buyers have never seen before. It's also the one that most often changes an approval late in the process.</p>
@@ -37,7 +37,7 @@ ${short({
 
 <p>Some strata homes sit on leased land. If your building is leasehold, the lease matters as much as the strata documents. See <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
 
-${cta({ title: "Buying a strata unit and want the documents read like a lender would?", text: "Send Joshua the Form B, the minutes and the depreciation report before you remove subjects. He will tell you what an underwriter is likely to see, and whether anything in them changes the mortgage you can expect." })}
+${cta({ title: "Buying a strata unit and want the documents read like a lender would?", text: "Send me the Form B, the minutes and the depreciation report before you remove subjects. I'll tell you what an underwriter is likely to see, and whether anything in them changes the mortgage you can expect." })}
 
 <h2>Building insurance and the deductible problem</h2>
 <p>Every lender requires the strata corporation to carry insurance on the building. The strata's policy, not your own, covers the structure and common property. Your own condo policy covers your contents and your improvements. Critically, it also covers your share of a strata deductible if a claim starts in your unit.</p>
@@ -63,7 +63,7 @@ ${cta({ title: "Buying a strata unit and want the documents read like a lender w
 <p>If a strata concern comes up, you have four options. You can put down a larger down payment. You can use a different lender whose appetite for that building differs. You can renegotiate the price to reflect a coming levy. Or you can walk away while your conditions still allow it. A broker who reads the documents early can usually tell which one applies before you're committed.</p>
 <p>The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> explains the timing of conditions and deposits for a first purchase. The city pages for <a href="/mortgage-broker-vancouver/">Vancouver</a> and <a href="/mortgage-broker-surrey/">Surrey</a> cover the local strata stock. That ranges from older wood-frame low-rises to new concrete towers, each with its own typical issues.</p>
 
-${callout("Fees, and who pays the broker", "<p>Arranging a condo or townhouse mortgage is ordinary A-lender work. The lender pays the broker, and you pay nothing for the service. Fees arise only on B-lender and private files. You get written disclosure on BCFSA's Form 1A before you commit. A strata concern alone does not push a file into that category. <a href=\"/contact/\">Contact Joshua</a> with the address and the documents, and he will tell you how a lender is likely to read them.</p>")}
+${callout("Fees, and who pays the broker", "<p>Arranging a condo or townhouse mortgage is ordinary A-lender work. The lender pays the broker, and you pay nothing for the service. Fees arise only on B-lender and private files. You get written disclosure on BCFSA's Form 1A before you commit. A strata concern alone does not push a file into that category. <a href=\"/contact/\">Contact me</a> with the address and the documents, and I'll tell you how a lender is likely to read them.</p>")}
 `;
 
 export default {

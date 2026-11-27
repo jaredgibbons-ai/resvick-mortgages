@@ -51,7 +51,7 @@ ${short({ answer: "A bridge loan lends you the equity from your old home, for da
 
 <p>Bridge loans also come up on commercial purchases. See our page on <a href="/commercial-mortgages-bc/">commercial mortgages</a>.</p>
 
-${cta({ title: "Buying and selling in the same window?", text: "Book a 15-minute call before you write the offer. Joshua will map both completion dates, check whether your new lender can bridge, and show you what the gap would cost, so the timing is a plan rather than a scramble." })}
+${cta({ title: "Buying and selling in the same window?", text: "Book a 15-minute call before you write the offer. I'll map both completion dates, check whether your new lender can bridge, and show you what the gap would cost, so the timing is a plan rather than a scramble." })}
 
 <h2>The plan-B conversation</h2>
 <p>Every bridge rests on the sale closing. Sales usually do close, but not always. A buyer's financing can fail. A strata document can surface a problem. A buyer can default. If that happens after your purchase has completed, you own two homes. The bridge is outstanding, and the lender expects repayment.</p>
@@ -73,7 +73,7 @@ ${cta({ title: "Buying and selling in the same window?", text: "Book a 15-minute
 <li><strong>Purchase completion.</strong> The bridge funds through your lawyer along with the new mortgage.</li>
 <li><strong>Sale completion.</strong> The lawyer repays the bridge with interest from the sale proceeds. The old mortgage is discharged at the same time.</li>
 </ol>
-<p>Move-up buyers often meet the same cash questions first-time buyers have, in a different form. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> covers the purchase side of the costs. Most of it applies to a second purchase too. If your situation does not fit neatly into any of this, <a href="/contact/">contact Joshua</a> and describe the dates. The plan usually follows from them.</p>
+<p>Move-up buyers often meet the same cash questions first-time buyers have, in a different form. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> covers the purchase side of the costs. Most of it applies to a second purchase too. If your situation does not fit neatly into any of this, <a href="/contact/">contact me</a> and describe the dates. The plan usually follows from them.</p>
 
 ${callout("Firm means firm", "<p>Lenders bridge against a sale with every subject removed and a completion date fixed. Until then, the equity is not available to borrow against at bridge rates. Planning as if it were is the most common way this goes wrong.</p>")}
 `;

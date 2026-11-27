@@ -16,7 +16,7 @@ ${short({
 <h2>Most applications die on paperwork, not price</h2>
 <p>When a mortgage application fails, it's rarely because of the rate. It fails because something on the file didn't match what the lender needed to see.</p>
 <p>Maybe the income couldn't be proven the way the lender wants. Maybe nobody mentioned a debt. A credit entry might have shown up late. The down payment might have had no paper trail. Or the property didn't fit the lender's rules.</p>
-<p>Each of these can be found and fixed early. That's why Joshua Resvick reads a file for these problems first. His background includes five years as an underwriter.</p>
+<p>Each of these can be found and fixed early. That's why I read a file for these problems first. My background includes five years as an underwriter.</p>
 <p>This page lists the six problems that sink the most applications, with a self-check for each. Run through them before you apply, before you make an offer and again before closing. It takes less time than recovering from any one of them.</p>
 
 <h2>The six problems that kill applications</h2>
@@ -56,13 +56,13 @@ ${short({
 
 <h3>6. Last-minute changes before closing</h3>
 <p>Your approval is based on your situation the day it was issued. Changes between approval and completion can trigger a re-check. That includes a new job, a new loan, a big card balance, moving large sums or a big purchase. A failed re-check can stop the closing. Lenders often re-check employment and credit shortly before funding.</p>
-<p><strong>Self-check:</strong> Between approval and funding, don't change anything about your income, debts or accounts without talking to Joshua first.</p>
+<p><strong>Self-check:</strong> Between approval and funding, don't change anything about your income, debts or accounts without talking to me first.</p>
 
-${cta({ title: "Have a file you want checked before you apply?", text: "A 15-minute call is a good time to run through these six with your real situation. Joshua will tell you where the risks are." })}
+${cta({ title: "Have a file you want checked before you apply?", text: "A 15-minute call is a good time to run through these six with your real situation. I'll tell you where the risks are." })}
 
 <h2>Documents by situation</h2>
 <p>Want this as a printable list with boxes to tick? Get the <a href="/mortgage-document-checklist/">free two-page document checklist</a>. Not sure what happens once you apply? See <a href="/what-happens-after-you-apply/">the steps after you apply</a>.</p>
-<p>The exact list depends on the lender. The lists below are a reliable starting point. Joshua will tell you which items your file needs, and he'll send a secure upload link for the sensitive ones. Please don't email financial documents.</p>
+<p>The exact list depends on the lender. The lists below are a reliable starting point. I'll tell you which items your file needs, and I'll send a secure upload link for the sensitive ones. Please don't email financial documents.</p>
 <h3>If you are employed</h3>
 <ul>
 <li>Government-issued photo ID.</li>
@@ -101,7 +101,7 @@ ${cta({ title: "Have a file you want checked before you apply?", text: "A 15-min
 </ol>
 <p>Nothing on that list moves fast if a file has a problem at step two. That's why you want to find it there. At that point, it's still free to fix.</p>
 
-${callout("The one-line version", "<p>Know your income documents, your debts and your credit. Know your down payment's history and your property's status. Then keep everything the same until closing. If any of those is a question mark, <a href=\"/contact/\">contact Joshua</a> before you apply.</p>")}
+${callout("The one-line version", "<p>Know your income documents, your debts and your credit. Know your down payment's history and your property's status. Then keep everything the same until closing. If any of those is a question mark, <a href=\"/contact/\">contact me</a> before you apply.</p>")}
 `;
 
 export default {
@@ -111,9 +111,9 @@ export default {
   crumb: "Application checklist", nav: "/first-time-home-buyer-bc/", body,
   faqs: [
     { q: "Why are mortgage applications denied?", a: "The usual reasons are income that cannot be documented the way the lender needs, debts that push your ratios too high, credit problems, a down payment without a clear source, or a property that does not meet the lender's rules. Each one can be checked before you apply." },
-    { q: "How long should my down payment be in my account?", a: "Lenders commonly want to see about 90 days of history so the source is clear. Newer funds, such as a gift or a sale of an asset, can usually be accepted if they are properly documented. Joshua can tell you what your lender will need." },
+    { q: "How long should my down payment be in my account?", a: "Lenders commonly want to see about 90 days of history so the source is clear. Newer funds, such as a gift or a sale of an asset, can usually be accepted if they are properly documented. I can tell you what your lender will need." },
     { q: "Do car loans really affect my mortgage?", a: "Yes. The payment counts as a monthly debt and reduces how much a lender will approve, often by more than borrowers expect. Leases and loans on a vehicle count the same way. Include every payment when you estimate what you can afford." },
-    { q: "Can I change jobs while my mortgage is being approved?", a: "It is risky. Lenders approve you based on your employment at the time and often verify it again before funding. If a change is unavoidable, tell Joshua before you make it, so that the file can be handled properly and you know the risk." },
-    { q: "What should I not do after I am approved?", a: "Avoid new credit, large purchases, moving big sums between accounts, and changes to employment until the mortgage has funded. A lender can re-check your credit and income before closing, and a surprise at that stage can delay or stop the deal. When in doubt, ask Joshua first." }
+    { q: "Can I change jobs while my mortgage is being approved?", a: "It is risky. Lenders approve you based on your employment at the time and often verify it again before funding. If a change is unavoidable, tell me before you make it, so that the file can be handled properly and you know the risk." },
+    { q: "What should I not do after I am approved?", a: "Avoid new credit, large purchases, moving big sums between accounts, and changes to employment until the mortgage has funded. A lender can re-check your credit and income before closing, and a surprise at that stage can delay or stop the deal. When in doubt, ask me first." }
   ]
 };

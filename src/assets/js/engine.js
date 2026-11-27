@@ -716,7 +716,7 @@
     "unsure": { persona: "Still working out the first step", hub: "/mortgage-calculators/", guides: [["/how-mortgage-brokers-get-paid/", "How mortgage brokers get paid"], ["/mortgage-broker-vs-bank/", "Mortgage broker or bank?"], ["/lender-comparison-report/", "The Lender Comparison Report"]], tool: ["/mortgage-calculators/", "Browse the calculators"] }
   };
   var QUIZ_TIMING = {
-    now: "Your timeline is short, so the most useful step is a call this week. Bring the documents you have, and Joshua will tell you what is missing.",
+    now: "Your timeline is short, so the most useful step is a call this week. Bring the documents you have, and I'll tell you what is missing.",
     soon: "You have a few months, which is enough time to plan well. A call now will set the order of the steps and the dates that matter.",
     later: "You have room to prepare, and preparation is where most of the savings are. A call can map the milestones so nothing arrives as a surprise.",
     exploring: "There is no deadline, so the aim is to learn the rules before you need them. Read the guides below and call when a date appears."

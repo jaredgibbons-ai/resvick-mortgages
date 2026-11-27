@@ -68,9 +68,9 @@ ${short({ answer: "Splitting up doesn't change your mortgage. Both of you stay o
 <li><strong>Bringing a new partner onto the file too early.</strong> A new partner's income can't be used until the old mortgage is settled. Adding them creates the same shared debt you're trying to leave.</li>
 </ul>
 
-${callout("A note on the tone of this page", "<p>Separation is hard enough without a sales pitch. Want to talk through the mortgage side with someone who has handled many of these files? Joshua is happy to speak with either or both of you, and the conversation is free. The decisions stay with you and your lawyer.</p>")}
+${callout("A note on the tone of this page", "<p>Separation is hard enough without a sales pitch. Want to talk through the mortgage side with someone who has handled many of these files? I'm happy to speak with either or both of you, and the conversation is free. The decisions stay with you and your lawyer.</p>")}
 
-${cta({ title: "Work out the mortgage side calmly", text: "Book a 15-minute call. You'll leave knowing what each person can qualify for and what each path costs. That makes the rest of the decisions easier. Or <a href=\"/contact/\">contact Joshua</a> by email." })}
+${cta({ title: "Work out the mortgage side calmly", text: "Book a 15-minute call. You'll leave knowing what each person can qualify for and what each path costs. That makes the rest of the decisions easier. Or <a href=\"/contact/\">contact me</a> by email." })}
 
 <h2>Who's behind this page</h2>
 <p>I'm Joshua Resvick, a BC mortgage broker and a former underwriter. I have this conversation with separating clients every month.</p>

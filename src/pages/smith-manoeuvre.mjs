@@ -5,7 +5,7 @@ const body = `
 ${short({
   answer: "The Smith Manoeuvre uses a readvanceable mortgage to slowly turn home mortgage debt into investment debt, whose interest is generally tax deductible. Your total debt doesn't shrink, the investments can fall, and the paperwork has to be perfect for years.",
   who: "Stable, higher earners with a long horizon and an accountant. Not for tight budgets or anyone who wants to be debt-free soon.",
-  next: "Talk to an accountant and an investment advisor first. Joshua can explain the <a href=\"/readvanceable-mortgage/\">readvanceable mortgage</a> side."
+  next: "Talk to an accountant and an investment advisor first. I can explain the <a href=\"/readvanceable-mortgage/\">readvanceable mortgage</a> side."
 })}
 ${callout("General information only", "<p>This page explains a financial strategy so you know what people mean when they recommend it. It isn't tax advice, investment advice or a recommendation. Whether interest is deductible depends on your own facts and on the Canada Revenue Agency's rules. Investing borrowed money carries real risk. Talk to an accountant or tax professional, and a licensed investment advisor, before you act.</p>")}
 
@@ -52,13 +52,13 @@ ${callout("General information only", "<p>This page explains a financial strateg
 <p>It tends not to suit people in the early years of a tight mortgage. It doesn't suit people with uneven income. It doesn't suit anyone who'd be uneasy owing against their home in a falling market.</p>
 <p>It may also not suit anyone who hasn't filled their registered accounts yet. An RRSP or a First Home Savings Account may get a similar tax result more simply, without the borrowing. A good advisor will raise those options before this strategy, not after.</p>
 
-${cta({ title: "Thinking about a readvanceable mortgage?", text: "Joshua can explain which lenders offer readvanceable setups and how the collateral charge works at renewal. He'll also show what the mortgage side costs. The tax and investment side belongs with your accountant and advisor." })}
+${cta({ title: "Thinking about a readvanceable mortgage?", text: "I can explain which lenders offer readvanceable setups and how the collateral charge works at renewal. I'll also show what the mortgage side costs. The tax and investment side belongs with your accountant and advisor." })}
 
 <h2>Where the mortgage broker fits</h2>
 <p>A broker's role here is narrow. It's to set up the readvanceable mortgage and explain the lender's rules for the line. It's also to be honest about the product's costs and how it affects your future choices.</p>
 <p>That includes a plain comparison with other options. A simple <a href="/cash-out-refinance-bc/">cash-out refinance</a> for a one-time investment is a different, often simpler deal. A standalone HELOC that isn't tied to the mortgage paydown is another.</p>
-<p>A broker doesn't recommend investments or give tax advice. Be careful with anyone in the mortgage business who does. Joshua works with your accountant and advisor, not instead of them.</p>
-<p>For the bigger picture on rental and investment borrowing in BC, start with the <a href="/investment-property-mortgages-bc/">investment property mortgage guide</a>. You can <a href="/contact/">contact Joshua</a> with questions about the mortgage setup itself.</p>
+<p>A broker doesn't recommend investments or give tax advice. Be careful with anyone in the mortgage business who does. I work with your accountant and advisor, not instead of them.</p>
+<p>For the bigger picture on rental and investment borrowing in BC, start with the <a href="/investment-property-mortgages-bc/">investment property mortgage guide</a>. You can <a href="/contact/">contact me</a> with questions about the mortgage setup itself.</p>
 <p>On fees, it's the same as any other file. A readvanceable mortgage with an A lender costs you nothing for the broker's service, because the lender pays the broker. Fees only come up on B-lender and private files. In BC, they're disclosed in writing before you commit.</p>
 `;
 
@@ -73,6 +73,6 @@ export default {
     { q: "What kind of mortgage do I need for the Smith Manoeuvre?", a: "A readvanceable mortgage, which combines an amortizing mortgage with a home equity line of credit under one registered charge. As you pay principal, the line's available room grows. Not every lender offers one, and the structure is usually a collateral charge, which affects how easily you can switch lenders at renewal." },
     { q: "Does the Smith Manoeuvre reduce my debt?", a: "No. It changes the character of the debt rather than its size. The non-deductible mortgage shrinks and the deductible investment loan grows, while the total borrowed against your home stays roughly level. If your goal is to be debt-free, this is a different plan, and the two should not be confused." },
     { q: "What are the main risks?", a: "Leverage: the investments can fall while the loan stays the same. A floating line-of-credit rate that can rise. Lender rights to reduce or freeze the line. Record-keeping errors that put the deduction at risk. And the possibility that tax rules change over a strategy designed to run for a decade or more." },
-    { q: "Can a mortgage broker set this up for me?", a: "A broker arranges the readvanceable mortgage and explains its costs and its effect on your flexibility. A broker does not recommend investments or give tax advice. Joshua works alongside your accountant and investment advisor on the mortgage portion, and on an A-lender file the lender pays the broker, so the service costs you nothing." }
+    { q: "Can a mortgage broker set this up for me?", a: "A broker arranges the readvanceable mortgage and explains its costs and its effect on your flexibility. A broker does not recommend investments or give tax advice. I work alongside your accountant and investment advisor on the mortgage portion, and on an A-lender file the lender pays the broker, so the service costs you nothing." }
   ]
 };

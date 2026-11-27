@@ -23,18 +23,18 @@ ${short({ answer: "This check scores how ready you are to shop your renewal, and
 
 <h2>Why you see the result first</h2>
 <p>Nothing you answer is sent anywhere. The check runs in your browser and shows your score and timeline on the page.</p>
-<p>After that, there's an optional button for a written version with Joshua's notes on your renewal. That's where you'd give a name and email. The consent box starts unticked, and so does the box asking for a call. If you only wanted the number, you've got it.</p>
+<p>After that, there's an optional button for a written version with my notes on your renewal. That's where you'd give a name and email. The consent box starts unticked, and so does the box asking for a call. If you only wanted the number, you've got it.</p>
 
 ${callout("The auto-renewal trap", "<p>If a term reaches maturity without a signed renewal, it commonly rolls into an open term. That rate is usually much higher than a negotiated one. It's how the contract works, not a penalty, and the only cure is starting early. The <a href=\"/mortgage-renewal-letter-explained/\">renewal letter guide</a> shows what to look for on the letter itself.</p>")}
 
-<h2>What Joshua does with the written version</h2>
-<p>He reads your answers and does what he does for every client at renewal. He works backwards from your maturity date.</p>
+<h2>What I do with the written version</h2>
+<p>I read your answers and does what I do for every client at renewal. I work backwards from your maturity date.</p>
 <p>The written version tells you what to ask your current lender. It explains what a switch would involve for someone like you. It covers what the stress-test exemption does and doesn't cover for you. And it flags anything in your answers that might make a new lender hesitate.</p>
-<p>Maybe you've been with the same lender for years, and nobody has looked at the mortgage in between. Then it's worth knowing his <a href="/mortgage-aftercare-program/">aftercare program</a> exists so that doesn't happen again.</p>
-<p>If you asked for a call, he'll suggest a time. If you'd like him to compare real options, every client gets a written Lender Comparison Report before deciding. It puts rate, term, penalties, prepayment and portability side by side. The <a href="/mortgage-renewal-bc/">renewal guide</a> explains how that fits into the timeline.</p>
+<p>Maybe you've been with the same lender for years, and nobody has looked at the mortgage in between. Then it's worth knowing my <a href="/mortgage-aftercare-program/">aftercare program</a> exists so that doesn't happen again.</p>
+<p>If you asked for a call, I'll suggest a time. If you'd like me to compare real options, every client gets a written Lender Comparison Report before deciding. It puts rate, term, penalties, prepayment and portability side by side. The <a href="/mortgage-renewal-bc/">renewal guide</a> explains how that fits into the timeline.</p>
 
 <h2>What the check can't do</h2>
-<p>It can't see your renewal letter. If you have one, keep it handy. The written version is better when Joshua can see the actual offer.</p>
+<p>It can't see your renewal letter. If you have one, keep it handy. The written version is better when I can see the actual offer.</p>
 <p>It can't know your lender's penalty method if you're thinking of leaving early. And it can't tell you what rate you'd get. Nobody can without seeing your file. That's why this site doesn't print rates in its articles.</p>
 <p>About fees. On a mortgage placed with a mainstream (A) lender, the lender pays the broker and you pay nothing for the service, including at a switch. Fees only come up on certain B-lender and private-lender files, with written disclosure first.</p>
 <p>Not sure this is your check? The <a href="/mortgage-check/">two-question router</a> will sort it. The <a href="/mortgage-calculators/">renewal calculator</a> lets you run stay-versus-switch numbers yourself. And the <a href="/contact/">contact page</a> is there if you'd rather just talk.</p>
@@ -48,10 +48,10 @@ export default {
   lede: "Four numbers and six questions on timing, your situation, income, flexibility and how long you're staying. Score and timeline on the page, before any form.",
   crumb: "Renewal check", nav: "/mortgage-check/", quiz: true, body,
   faqs: [
-    { q: "My renewal is more than two years away. Is there any point?", a: "Yes, mostly for the timeline. The check tells you when to start and what to have in order by then, and it flags anything in your situation that would be better fixed early, like a credit report nobody has looked at. You can also sign up for the free renewal reminder so you hear from Joshua at six months and 120 days out." },
+    { q: "My renewal is more than two years away. Is there any point?", a: "Yes, mostly for the timeline. The check tells you when to start and what to have in order by then, and it flags anything in your situation that would be better fixed early, like a credit report nobody has looked at. You can also sign up for the free renewal reminder so you hear from me at six months and 120 days out." },
     { q: "Why does the check send me to the equity check when I ask about debt?", a: "Because rolling debt into your mortgage turns a renewal into a refinance, and refinances are underwritten differently: the amount, the loan-to-value and the stress test all come back into play. The equity check asks the questions that matter for that, so you get a result that actually fits what you're planning." },
     { q: "Can I switch lenders if I've had a missed payment this year?", a: "Sometimes, but it's harder, and the check will tell you that honestly. Your current lender must usually renew you regardless; a new lender will look at the missed payment closely. The written version is the place to work out which path is realistic for you." },
     { q: "Does the check tell me what rate I'd get?", a: "No, and be wary of any quiz that claims to. A rate depends on your file, your property and the lender, and this site deliberately prints no rates in its articles. What the check tells you is whether you're in a position to shop and when to start." },
-    { q: "Is the result sent to my current lender?", a: "No. Nothing is sent anywhere unless you ask for the written version, and even then it goes to Joshua only. He doesn't share it with any lender. Whether and when to approach your current lender is a decision you make with the timeline in front of you." }
+    { q: "Is the result sent to my current lender?", a: "No. Nothing is sent anywhere unless you ask for the written version, and even then it goes to me only. I don't share it with any lender. Whether and when to approach your current lender is a decision you make with the timeline in front of you." }
   ]
 };

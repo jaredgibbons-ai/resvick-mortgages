@@ -8,9 +8,9 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-ker
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Keremeos by phone and video from his Surrey office. Most buyers here are retirees, farm families, orchard and vineyard workers, and people priced out of bigger Okanagan towns. You can start the mortgage before you ever drive in.",
+  answer: "I serve Keremeos by phone and video from my Surrey office. Most buyers here are retirees, farm families, orchard and vineyard workers, and people priced out of bigger Okanagan towns. You can start the mortgage before you ever drive in.",
   who: "Buyers of village homes, orchards and acreages around Keremeos, and anyone moving to the Lower Similkameen.",
-  next: "Book a 15-minute call and tell Joshua where you are moving from and how you are paid."
+  next: "Book a 15-minute call and tell me where you are moving from and how you are paid."
 })}
 <p>Keremeos sits beside the Similkameen River, about 45 km south of Penticton. (The Canadian Encyclopedia, Keremeos, read October 2026). The Village calls itself the Orchard Village and says nearly a third of its area is orchards. (Village of Keremeos, Our Community, read October 2026). Fruit stands line the highway, and the valley floor is farmland. A mortgage here often comes with a farm, a farm paycheque, or a move from somewhere bigger.</p>
 <p>My name is Joshua Resvick, and I'm a mortgage broker with Xeva Mortgage. For five years before brokering I was an underwriter, the person at the lender who reads a file and says yes or no. Orchard, acreage and Village homes in Keremeos all get that same read before they go out. My office is in Surrey, so Similkameen clients work with me by phone, video and secure upload. I don't have a Keremeos office. You can <a href="/contact/">book a 15-minute call</a> from your porch or your truck.</p>
@@ -26,7 +26,7 @@ ${ratesStrip()}
 <li><strong>Choose a closing date that fits the move.</strong> A long closing lets you finish a season, a lease or a sale. Ask your realtor what the seller can accept.</li>
 <li><strong>Plan for the home you leave.</strong> If you own a place elsewhere, the sale date matters. A <a href="/bridge-financing/">bridge loan</a> may cover a gap in some cases.</li>
 </ol>
-<p>You do not have to live here to start. Joshua works by phone and video, so a pre-approval can be done from your current home. A realtor can show you the house, and you can sign from anywhere.</p>
+<p>You do not have to live here to start. I work by phone and video, so a pre-approval can be done from your current home. A realtor can show you the house, and you can sign from anywhere.</p>
 
 <h2>Incomes in Keremeos</h2>
 <p>Keremeos is a small village, so its Census counts are small. The 2021 Census puts the median household income at $53,200 for 2020. About 16.8 percent of workers were self-employed, or 90 of 535. Health care was the largest industry with 90 workers, then retail with 80, construction with 60 and manufacturing with 55. (Statistics Canada, 2021 Census Profile, read October 2026). A lower household income can still qualify, since lenders look at your debts and down payment as well. Farm and seasonal pay is read over a longer period, often two years, so bring your tax returns.</p>
@@ -43,7 +43,7 @@ ${censusTable("keremeos")}
 <p>Lenders read these incomes in different ways:</p>
 <ul>
 <li><strong>Year-round wage jobs.</strong> A packing house, winery or farm that pays a steady wage is read like any other job. An employer letter and recent pay stubs do most of the work.</li>
-<li><strong>Seasonal work.</strong> Pay that stops in winter is harder. Many lenders average income over two years, and some count only the months you are paid. Policies vary, so Joshua checks before you apply.</li>
+<li><strong>Seasonal work.</strong> Pay that stops in winter is harder. Many lenders average income over two years, and some count only the months you are paid. Policies vary, so I check before you apply.</li>
 <li><strong>Owners and growers.</strong> If you run your own orchard or crew, lenders usually want two years of tax returns and often look at net income after expenses. The <a href="/self-employed-mortgage-bc/">self-employed hub</a> explains the routes.</li>
 </ul>
 <p>Farm worker housing has its own rules. The regional district reviewed how it treats temporary farm worker housing on agricultural land. It proposed that such housing be temporary or easy to remove, and be limited to farm workers. (Regional District of Okanagan-Similkameen, Temporary Farm Labour Housing Review, read October 2026). That matters if you buy land with worker cabins. A lender may not count them as homes or as rent. Ask the regional district what applies to your lot before you make an offer.</p>
@@ -51,7 +51,7 @@ ${censusTable("keremeos")}
 <h2>Village lots, benches and orchard land</h2>
 <p>A home inside the Village sits on a town lot with municipal services. A home outside it is often on a larger rural lot, and the rules and costs change.</p>
 <h3>Homes in the Village</h3>
-<p>These are the easiest files. Lenders appraise them against nearby sales. In a small market there may be few recent sales to compare, so the appraiser may reach further back or further out. Lenders vary in how they handle that, and a low appraisal can change your down payment. Ask Joshua about it before you waive conditions.</p>
+<p>These are the easiest files. Lenders appraise them against nearby sales. In a small market there may be few recent sales to compare, so the appraiser may reach further back or further out. Lenders vary in how they handle that, and a low appraisal can change your down payment. Ask me about it before you waive conditions.</p>
 <h3>Orchards and hobby farms</h3>
 <p>Much of the valley is farmland. In May 2022 the Village held a public hearing on applications to exclude land from the Agricultural Land Reserve (ALR). So ALR land sits inside the Village, not only beyond it. (Village of Keremeos, Applications for exclusion from ALR lands, April 25, 2022, read October 2026). Whether land is in the ALR changes what you can build and what a lender will value. A home with a few fruit trees is not the same file as a working orchard. The <a href="/farm-and-alr-mortgages-bc/">farm and ALR page</a> explains where residential lending stops.</p>
 <h3>Wells and septic</h3>
@@ -59,7 +59,7 @@ ${censusTable("keremeos")}
 <h3>Manufactured homes</h3>
 <p>Some buyers look at manufactured homes in parks or on rural lots. The land decides the file. A home on land you own is easier than one on a rented pad, and pad homes often have fewer lenders and age limits. The <a href="/mobile-home-mortgages-bc/">manufactured home page</a> covers both cases.</p>
 <h3>Homes on Band land</h3>
-<p>The Lower Similkameen Indian Band is a member of the Okanagan Nation Alliance, and its community lies on the Similkameen River near Keremeos. (Government of British Columbia, Lower Similkameen Indian Band, read October 2026). Homes on Indian reserve land are held differently from a town lot. This page covers homes off reserve. If a purchase involves reserve land, tell Joshua at the start so he can check what lenders will do.</p>
+<p>The Lower Similkameen Indian Band is a member of the Okanagan Nation Alliance, and its community lies on the Similkameen River near Keremeos. (Government of British Columbia, Lower Similkameen Indian Band, read October 2026). Homes on Indian reserve land are held differently from a town lot. This page covers homes off reserve. If a purchase involves reserve land, tell me at the start so I can check what lenders will do.</p>
 <h3>Wildfire and insurance</h3>
 <p>The Keremeos Creek wildfire of August 2022 put 493 properties under evacuation order and 909 on alert across the regional district. It burned near Olalla and the Highway 3A corridor. (Global News, Keremeos Creek wildfire update, August 10, 2022, read October 2026). Insurers may ask extra questions about rural and hillside homes. Ask for a quote before you remove conditions, because a lender will want proof of insurance before it funds.</p>
 
@@ -77,7 +77,7 @@ ${censusTable("keremeos")}
 
 <h2>Cawston, Olalla, Hedley and the surrounding area</h2>
 <p>Many searches say Keremeos but mean the wider valley. Cawston sits about five minutes away on Highway 3A and calls itself the Organic Farming Capital of Canada. (Similkameen Valley, Cawston community page, read October 2026). Rural Keremeos, Hedley and Olalla together make up Electoral Area G. (Regional District of Okanagan-Similkameen, Housing Needs Report 2024, read October 2026).</p>
-<p>Joshua serves all of them. The first question on a rural property is which government's rules apply, the Village or the regional district. Many buyers also price homes in other towns. The <a href="/mortgage-broker-penticton/">Penticton page</a> covers the South Okanagan, and the <a href="/mortgage-broker-princeton/">Princeton page</a> covers the town about a 40-minute drive west. (Village of Keremeos, Area Attractions, read October 2026).</p>
+<p>I serve all of them. The first question on a rural property is which government's rules apply, the Village or the regional district. Many buyers also price homes in other towns. The <a href="/mortgage-broker-penticton/">Penticton page</a> covers the South Okanagan, and the <a href="/mortgage-broker-princeton/">Princeton page</a> covers the town about a 40-minute drive west. (Village of Keremeos, Area Attractions, read October 2026).</p>
 
 <h2>How I work with Keremeos clients</h2>
 <ol>
@@ -87,9 +87,9 @@ ${censusTable("keremeos")}
 <li><strong>I keep watching after it funds.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> means a yearly review of your Keremeos mortgage and a call from me about six months before it renews. The <a href="/mortgage-renewal-bc/">renewal guide</a> explains why that timing matters.</li>
 </ol>
 
-${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Keremeos files, such as pad homes, new farm income or working orchards, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
+${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays me and you pay nothing for my work. Some Keremeos files, such as pad homes, new farm income or working orchards, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
-<p>If a home in the Similkameen sits on First Nation land or leased land, it is a different kind of file. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
+<p>If a home in the Similkameen sits on First Nation land or leased land, it is a different kind of file. I arrange mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
 
 
 <p>The next towns south and east are Oliver and Osoyoos. Our <a href="/mortgage-broker-osoyoos-oliver/">Osoyoos and Oliver page</a> compares their zoning, rentals and leasehold homes.</p>
@@ -103,17 +103,17 @@ ${cta({ title: "Talk to a broker who serves Keremeos", text: "Book a 15-minute c
 export default {
   slug: "/mortgage-broker-keremeos/",
   h1: "Mortgage broker in Keremeos, BC: buying a home or moving to Keremeos",
-  lede: "Buying a home in Keremeos, or moving to Keremeos? Joshua Resvick, Xeva Mortgage, serves the Lower Similkameen from his Surrey office by phone and video. Orchard pay, retirees, suites and acreages, explained the way an underwriter reads them.",
+  lede: "Buying a home in Keremeos, or moving to Keremeos? I'm Joshua Resvick, with Xeva Mortgage, and I serve the Lower Similkameen from my Surrey office by phone and video. Orchard pay, retirees, suites and acreages, explained the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Keremeos", "/mortgage-broker-keremeos/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
     { q: "Can I buy a home in Keremeos before I move there?", a: "Often, yes. Many buyers get pre-approved by phone or video, then make an offer through a realtor, in person or by proxy. Lenders look at your income, credit and down payment, not where you live today. Ask for a closing date that fits your move." },
-    { q: "I am moving to Keremeos. When should I get pre-approved?", a: "Before you start visiting homes. A pre-approval shows your price range and holds a rate for a set time. Bring income papers, your down payment details and any sale plans for your old home. Retirees, employees and growers need different papers, so tell Joshua early." },
-    { q: "How does a lender count seasonal orchard or vineyard pay?", a: "It depends on the lender. Many average your income over two years, and some count only the months you are paid. A steady wage from one employer helps. Growers and owners usually need two years of tax returns. Joshua checks lender rules before you apply." },
-    { q: "Can I get a regular mortgage on an orchard or farm property?", a: "Sometimes. A home on a few acres can finance like a house, but lenders often count only some of the land. A working orchard is usually agricultural lending. The Agricultural Land Reserve limits what you can build. Share the listing with Joshua before you offer." },
-    { q: "Can a manufactured home in the Keremeos area be financed?", a: "In some cases. A home on land you own is far easier than one on a rented pad. Pad homes often have fewer lenders, shorter terms and age limits. Joshua checks the land and the home before you make an offer." },
+    { q: "I am moving to Keremeos. When should I get pre-approved?", a: "Before you start visiting homes. A pre-approval shows your price range and holds a rate for a set time. Bring income papers, your down payment details and any sale plans for your old home. Retirees, employees and growers need different papers, so tell me early." },
+    { q: "How does a lender count seasonal orchard or vineyard pay?", a: "It depends on the lender. Many average your income over two years, and some count only the months you are paid. A steady wage from one employer helps. Growers and owners usually need two years of tax returns. I check lender rules before you apply." },
+    { q: "Can I get a regular mortgage on an orchard or farm property?", a: "Sometimes. A home on a few acres can finance like a house, but lenders often count only some of the land. A working orchard is usually agricultural lending. The Agricultural Land Reserve limits what you can build. Share the listing with me before you offer." },
+    { q: "Can a manufactured home in the Keremeos area be financed?", a: "In some cases. A home on land you own is far easier than one on a rented pad. Pad homes often have fewer lenders, shorter terms and age limits. I check the land and the home before you make an offer." },
     { q: "Can a suite help me qualify for a Keremeos mortgage?", a: "It can, if the suite is legal and the rent is documented. Many lenders count part of the rent, and an unpermitted unit usually counts for nothing. The Village updated its zoning in 2024, so call the Village before you plan a build." }
   ]
 };

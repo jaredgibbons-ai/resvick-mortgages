@@ -8,19 +8,19 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-por
 
 const body = `
 ${short({
-  answer: "Joshua Resvick helps Port Coquitlam buyers, owners and renewers by phone and video from his Surrey office. PoCo is a rail city with detached homes and townhomes, and its suite rules are narrower than many buyers assume. The file starts with the zone, the suite status and how you are paid.",
+  answer: "I help Port Coquitlam buyers, owners and renewers by phone and video from my Surrey office. PoCo is a rail city with detached homes and townhomes, and its suite rules are narrower than many buyers assume. The file starts with the zone, the suite status and how you are paid.",
   who: "Port Coquitlam buyers moving up from a condo, owners with a suite or a coach house in mind, and renewers with trades, rail or shift-work income.",
-  next: "Book a 15-minute call and tell Joshua the street or address you are considering."
+  next: "Book a 15-minute call and tell me the street or address you are considering."
 })}
 <p>Port Coquitlam sits on the north bank of the Fraser River, where the Pitt River joins it. Coquitlam wraps around it to the north and west. Across the Pitt River is Pitt Meadows. The Canadian Pacific Railway chose this spot for a freight terminus in 1911, and the city incorporated in 1913. A large CPKC rail yard still sits in the middle of town (Wikipedia, Port Coquitlam, read October 2026).</p>
-<p>That history is why railway, trades and shift work are familiar here. Joshua is a mortgage broker licensed through Xeva Mortgage. He worked as an underwriter for five years before brokering for ten, and he has funded more than 1,000 mortgages. You deal with him directly, from his Surrey office, and there is no branch in town.</p>
+<p>That history is why railway, trades and shift work are familiar here. I'm a mortgage broker licensed through Xeva Mortgage. I worked as an underwriter for five years before brokering for ten, and I have funded more than 1,000 mortgages. You deal with me directly, from my Surrey office, and there is no branch in town.</p>
 
 ${ratesStrip()}
 
 <h2>Rail, trades and shift pay: how lenders read a PoCo income</h2>
 <p>Pay in rail, trades and shift jobs is often not one flat salary. Overtime, shift premiums, standby pay, tool allowances and seasonal hours can all show up. Lenders sort that pay into base income and extra income, and they do not all treat the extra the same way.</p>
 <p>Many lenders count base pay in full. For overtime and premiums, a lot of them want a track record, often two years, and may average it. Some will use a lower figure than your best year. A few are more generous with unionized or long-tenure employees. This is lender policy, and it changes, so the lender choice matters more than the rate.</p>
-<p>Joshua reads your T4s, your recent pay stubs and your employer letter before anything is submitted. He then picks lenders whose rules fit the way you are paid. If part of your income comes from a side business, the <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains how it is read. The <a href="/mortgage-for-contractors/">contractors and trades page</a> covers invoices and write-offs.</p>
+<p>I read your T4s, your recent pay stubs and your employer letter before anything is submitted. I then pick lenders whose rules fit the way you are paid. If part of your income comes from a side business, the <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains how it is read. The <a href="/mortgage-for-contractors/">contractors and trades page</a> covers invoices and write-offs.</p>
 <p>Before you shop for homes, get a <a href="/mortgage-pre-approval-bc/">real pre-approval</a>. It confirms how much a lender will lend on your actual documents, not on a guess.</p>
 
 <h2>Incomes in Port Coquitlam</h2>
@@ -42,15 +42,15 @@ ${censusTable("port-coquitlam")}
 <p>Port Coquitlam has its own West Coast Express station. TransLink lists weekday rush-hour service, with trains going west to Waterfront in the morning and east in the afternoon. Coquitlam Central and Moody Centre are the next stops toward Vancouver (TransLink, West Coast Express, read October 2026). Check the current timetable before you plan a daily commute around it.</p>
 <p>A lender does not price your commute. It looks at income, debts, credit and the source of your down payment. Your own budget is another matter, since fuel, passes and parking all come out of the same pay.</p>
 
-<h2>How Joshua helps Port Coquitlam clients</h2>
+<h2>How I help Port Coquitlam clients</h2>
 <ol>
-<li><strong>Looks at the address and the income together.</strong> He checks the zone, the suite status and your pay documents before an offer, so there is no surprise in the financing condition.</li>
-<li><strong>Writes the comparison down.</strong> A <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up rate, term, penalty method and prepayment room for each lender he would consider.</li>
-<li><strong>Keeps everyone informed.</strong> Documents go by secure link. Your realtor, lawyer or notary and appraiser get what they need from him directly.</li>
-<li><strong>Returns before your term ends.</strong> With <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and contacts you around six months before maturity.</li>
+<li><strong>Looks at the address and the income together.</strong> I check the zone, the suite status and your pay documents before an offer, so there is no surprise in the financing condition.</li>
+<li><strong>Writes the comparison down.</strong> A <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up rate, term, penalty method and prepayment room for each lender I would consider.</li>
+<li><strong>Keeps everyone informed.</strong> Documents go by secure link. Your realtor, lawyer or notary and appraiser get what they need from me directly.</li>
+<li><strong>Returns before your term ends.</strong> With <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and contact you around six months before maturity.</li>
 </ol>
 
-${callout("What it costs you", "<p>For most Port Coquitlam files, the A lender pays Joshua and you pay nothing for his help. Some self-employed or credit-challenged files need a B or private lender instead. If one does, BCFSA's Form 1A puts any fee to you in writing before you commit to anything.</p>")}
+${callout("What it costs you", "<p>For most Port Coquitlam files, the A lender pays me and you pay nothing for my help. Some self-employed or credit-challenged files need a B or private lender instead. If one does, BCFSA's Form 1A puts any fee to you in writing before you commit to anything.</p>")}
 
 <h2>Buying, renewing and refinancing in PoCo</h2>
 <p><strong>First-time buyers</strong> here may qualify for several programs: the BC transfer tax exemption, the First Home Savings Account, the Home Buyers' Plan and the new-home GST rebate. Each has its own test. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> sets out the order.</p>
@@ -64,22 +64,22 @@ ${callout("What it costs you", "<p>For most Port Coquitlam files, the A lender p
 ${cityFacts("port-coquitlam")}
 ${nearbyCallout("port-coquitlam", callout)}
 
-${cta({ title: "Talk to a broker who serves Port Coquitlam", text: "Book a 15-minute call. Tell Joshua how you are paid and which home you are weighing. You will leave knowing what a lender will ask for first." })}
+${cta({ title: "Talk to a broker who serves Port Coquitlam", text: "Book a 15-minute call. Tell me how you are paid and which home you are weighing. You will leave knowing what a lender will ask for first." })}
 `;
 
 export default {
   slug: "/mortgage-broker-port-coquitlam/",
   h1: "Mortgage broker serving Port Coquitlam, BC",
-  lede: "Joshua Resvick, Xeva Mortgage, helps Port Coquitlam buyers and owners from his Surrey office by phone and video. Rail, trades and shift income, suites and townhomes, read the way an underwriter reads them.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I help Port Coquitlam buyers and owners from my Surrey office by phone and video. Rail, trades and shift income, suites and townhomes, read the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Port Coquitlam", "/mortgage-broker-port-coquitlam/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Can I add a basement suite to any Port Coquitlam house?", a: "Not any house. The City says secondary suites are only permitted in the RS-1, RS-2, RS-3 and RS-4 zones, and a building permit and inspections are required. Check the zone for the address before you count on rent. Joshua can run your numbers with and without the suite income." },
-    { q: "Will overtime and shift pay count toward my mortgage?", a: "Often partly. Lenders usually count base pay in full and want a history of extra pay, commonly two years, before counting it, sometimes averaged. Policies differ a lot. Joshua reads your T4s and pay stubs first, then picks lenders whose rules fit how you are paid." },
+    { q: "Can I add a basement suite to any Port Coquitlam house?", a: "Not any house. The City says secondary suites are only permitted in the RS-1, RS-2, RS-3 and RS-4 zones, and a building permit and inspections are required. Check the zone for the address before you count on rent. I can run your numbers with and without the suite income." },
+    { q: "Will overtime and shift pay count toward my mortgage?", a: "Often partly. Lenders usually count base pay in full and want a history of extra pay, commonly two years, before counting it, sometimes averaged. Policies differ a lot. I read your T4s and pay stubs first, then pick lenders whose rules fit how you are paid." },
     { q: "Does a lender count rent from a coach house?", a: "Sometimes. Port Coquitlam allows coach houses on eligible single-family lots, but fewer lenders count rent from a detached unit than from a suite inside the house. The share also varies. Ask before you buy, and have the permit and a lease ready as proof." },
-    { q: "Is a townhome easier to finance than a detached house?", a: "Neither is automatically easier. The down payment rules are the same. A strata townhome adds document review, such as minutes, the budget and any special levy. A detached house adds questions about the lot, a suite or a floodplain. Joshua checks both before the subject-removal date." },
-    { q: "Do I need to travel to Surrey to work with Joshua?", a: "No. Most files run on phone, video and secure document links, and your appraiser and lawyer are local to you. If you would like to meet face to face, ask on the first call. His office is in Surrey, and there is no Port Coquitlam branch." }
+    { q: "Is a townhome easier to finance than a detached house?", a: "Neither is automatically easier. The down payment rules are the same. A strata townhome adds document review, such as minutes, the budget and any special levy. A detached house adds questions about the lot, a suite or a floodplain. I check both before the subject-removal date." },
+    { q: "Do I need to travel to Surrey to work with you?", a: "No. Most files run on phone, video and secure document links, and your appraiser and lawyer are local to you. If you would like to meet face to face, ask on the first call. My office is in Surrey, and there is no Port Coquitlam branch." }
   ]
 };

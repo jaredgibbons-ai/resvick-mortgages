@@ -9,9 +9,9 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-dun
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Duncan and the Cowichan Valley by phone and video from his Surrey office. Buyers here are often first-time buyers priced out of Victoria, hospital and public sector staff, and retirees. You can get pre-approved before you ever tour a home.",
+  answer: "I serve Duncan and the Cowichan Valley by phone and video from my Surrey office. Buyers here are often first-time buyers priced out of Victoria, hospital and public sector staff, and retirees. You can get pre-approved before you ever tour a home.",
   who: "Buyers and owners in Duncan, North Cowichan, Maple Bay, Chemainus and the rest of the Cowichan Valley.",
-  next: "Book a 15-minute call and tell Joshua where you work and what kind of home you want."
+  next: "Book a 15-minute call and tell me where you work and what kind of home you want."
 })}
 <p>Duncan is a small city in the middle of the Cowichan Valley, about an hour north of Victoria. Most of the valley's homes sit outside the City itself, in the Municipality of North Cowichan and the regional district around it. When people search for a mortgage broker in Duncan, they usually mean the whole valley. This page covers both.</p>
 <p>I'm Joshua Resvick, a mortgage broker with Xeva Mortgage. Before brokering, I underwrote mortgages for a lender for five years, so I've sat on the other side of the desk. My office is in Surrey, and Cowichan Valley clients reach me by phone, video and secure upload. I don't have a Duncan office. A <a href="/contact/">15-minute call</a> is the easiest way to start.</p>
@@ -55,30 +55,30 @@ ${costToBuy("Duncan", [["Duncan house", 592000], ["North Cowichan house", 733000
 <p>Most Cowichan Valley files start with one question: how are you paid? A hospital salary, casual shifts, a pension and a small business each lead to a different shortlist of lenders. Next, I look at the home itself. Floodplain, reserve land, a suite or a well can each rule lenders in or out, so I'd rather know before you write an offer.</p>
 <p>You get the options in writing. My <a href="/lender-comparison-report/">Lender Comparison Report</a> sets out the term, how each lender works out a penalty, and whether you can take the mortgage with you if you move. After you close, <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> means a yearly review and a call well ahead of renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> explains that timeline.</p>
 
-${callout("Who pays for the advice", "<p>On a normal purchase or renewal with a mainstream (A) lender, the lender pays Joshua. You don't. If your file needs a B or private lender, for example after credit trouble, there may be a fee. It is shown to you in writing on BCFSA's Form 1A before you sign.</p>")}
+${callout("Who pays for the advice", "<p>On a normal purchase or renewal with a mainstream (A) lender, the lender pays me. You don't. If your file needs a B or private lender, for example after credit trouble, there may be a fee. It is shown to you in writing on BCFSA's Form 1A before you sign.</p>")}
 
 
 <p>Before we talk, it can help to read the <a href="/mortgage-calculators/">mortgage calculators</a>, <a href="/mortgage-rates-bc/">how BC mortgage rates are set</a>, the <a href="/self-employed-mortgage-bc/">self-employed mortgage guide</a> and the <a href="/mortgage-broker-vancouver-island/">Vancouver Island overview</a>.</p>
 ${cityFacts("duncan")}
 ${nearbyCallout("duncan", callout)}
 
-${cta({ title: "Talk to a broker who serves the Cowichan Valley", text: "Book a 15-minute call. Tell Joshua whether you work in the valley or commute south, and what you hope to buy. He will tell you which lenders suit your file and what to gather first." })}
+${cta({ title: "Talk to a broker who serves the Cowichan Valley", text: "Book a 15-minute call. Tell me whether you work in the valley or commute south, and what you hope to buy. I'll tell you which lenders suit your file and what to gather first." })}
 `;
 
 export default {
   slug: "/mortgage-broker-duncan/",
   h1: "Mortgage broker in Duncan, BC: buying a home in the Cowichan Valley",
-  lede: "Buying in Duncan, North Cowichan or anywhere in the Cowichan Valley? Joshua Resvick, Xeva Mortgage, serves the valley by phone and video from his Surrey office. Prices, suites, floodplain and reserve land, explained the way a lender reads them.",
+  lede: "Buying in Duncan, North Cowichan or anywhere in the Cowichan Valley? I'm Joshua Resvick, with Xeva Mortgage, and I serve the valley by phone and video from my Surrey office. Prices, suites, floodplain and reserve land, explained the way a lender reads them.",
   crumbs: [["Home", "/"], ["Vancouver Island", "/mortgage-broker-vancouver-island/"], ["Serving Duncan", "/mortgage-broker-duncan/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Do you have an office in Duncan?", a: "No. Joshua works from his Surrey office and serves Duncan and the Cowichan Valley by phone, video and secure upload. Most clients never need to meet in person. The lender, appraiser and your lawyer or notary do their parts locally." },
+    { q: "Do you have an office in Duncan?", a: "No. I work from my Surrey office and serve Duncan and the Cowichan Valley by phone, video and secure upload. Most clients never need to meet in person. The lender, appraiser and your lawyer or notary do their parts locally." },
     { q: "How much do I need to buy a home in Duncan?", a: "At BC Assessment's typical 2026 value of $592,000, the minimum down payment is $34,200. A qualifying first-time buyer pays about $1,840 in transfer tax. In North Cowichan, at $733,000, it's $48,300 down and about $4,660 in tax. Legal fees and an inspection come on top." },
     { q: "Is Duncan cheaper than Victoria for a first home?", a: "Assessed values are lower. BC Assessment's typical 2026 single-family value was $592,000 in Duncan and $733,000 in North Cowichan, against $1,128,000 in Victoria. Those are assessments, not sale prices, so check recent sales with a realtor." },
     { q: "Does the Speculation and Vacancy Tax apply in Duncan?", a: "Yes. Duncan and North Cowichan are both in the Province's taxable area. Owners file a yearly declaration, and owners who live in the home are generally exempt. It matters most if you buy a second home or leave one empty." },
-    { q: "Can I buy a home on Cowichan Tribes reserve land with a mortgage?", a: "Sometimes, but it is a different kind of file. Reserve land is not held the same way as a town lot, so fewer lenders work on it. Joshua arranges these through a lender that does. Tell him at the start." },
+    { q: "Can I buy a home on Cowichan Tribes reserve land with a mortgage?", a: "Sometimes, but it is a different kind of file. Reserve land is not held the same way as a town lot, so fewer lenders work on it. I arrange these through a lender that does. Tell me at the start." },
     { q: "Will a lender count rent from a suite in Duncan?", a: "Often, if the suite is legal and the rent is documented. Many lenders count part of the rent toward your income. An unpermitted suite usually counts for nothing. Check the City's zoning and any flood construction level first." }
   ]
 };

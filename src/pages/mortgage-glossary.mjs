@@ -83,7 +83,7 @@ const body = `
 ${short({
   answer: "This is a plain-language list of the mortgage terms you meet in BC, grouped by the stage you are at. Each entry is short and links to a fuller page where there is one.",
   who: "You're starting out, or you've heard a word on a call and nodded along. No one expects you to know them all.",
-  next: "Find the word you need, then <a href='/contact/'>ask Joshua</a> about anything that is still unclear."
+  next: "Find the word you need, then <a href='/contact/'>ask me</a> about anything that is still unclear."
 })}
 
 <h2>How to use this glossary</h2>
@@ -104,9 +104,9 @@ ${groupsHtml}
 <h2>Where to go next</h2>
 <p>If a word on this page raised a bigger question, start with the guide that fits your stage. First-time buyers can read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. Homeowners coming up on a renewal can read the <a href="/mortgage-renewal-bc/">renewal guide</a>. If you want to see how the numbers work, the <a href="/mortgage-calculators/">calculators</a> are free, and they do not ask for an email. The <a href="/mortgage-faq/">mortgage FAQ</a> answers many common questions in plain words.</p>
 
-${callout("Ask when a word is unclear", "<p>No one should have to sign a mortgage document they do not understand. Joshua will explain any term in plain words, and he will show you where it appears in your own file.</p>")}
+${callout("Ask when a word is unclear", "<p>No one should have to sign a mortgage document they do not understand. I'll explain any term in plain words, and I'll show you where it appears in your own file.</p>")}
 
-${cta({ title: "Still have a question about a term?", text: "Book a 15-minute call, or <a href=\"/contact/\">contact Joshua</a> by email. Joshua will explain what each word means for your own mortgage." })}
+${cta({ title: "Still have a question about a term?", text: "Book a 15-minute call, or <a href=\"/contact/\">contact me</a> by email. I'll explain what each word means for your own mortgage." })}
 `;
 
 export default {

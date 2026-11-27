@@ -62,7 +62,7 @@ ${short({
 </ul>
 
 <p>The FHSA is usually the first account to open. The <a href="/fhsa-bc/">FHSA guide</a> covers the limits, who qualifies and how withdrawals work.</p>
-${cta({ title: "Which of the four do you pass?", text: "Bring your situation to a 15-minute call. Joshua will go through each program's test with you before you make an offer." })}
+${cta({ title: "Which of the four do you pass?", text: "Bring your situation to a 15-minute call. I'll go through each program's test with you before you make an offer." })}
 
 <h2>Stacking order and how the programs interact</h2>
 <p>Order matters because each program's clock starts at a different moment. The FHSA clock starts when you open the account, so open it first.</p>
@@ -85,7 +85,7 @@ ${cta({ title: "Which of the four do you pass?", text: "Bring your situation to 
 <h2>What no longer exists</h2>
 <p>Some programs are still advertised long after they ended. The federal First-Time Home Buyer Incentive is closed. Any page that promotes it as available is out of date.</p>
 <p>The Canada Secondary Suite Loan Program was announced at $40,000 and later $80,000. It was cancelled in Budget 2025 and never opened. If a calculator or guide says either one can lower your costs, it's wrong. Treat that as a sign to check its other numbers too.</p>
-<p>Rules change, so every figure on this page is dated and sourced to a government or insurer page. Each one is rechecked against its source on a regular schedule. If you want to see how they apply to your plan, <a href="/contact/">contact Joshua</a> and bring your questions. The <a href="/first-time-home-buyer-bc/">first-time home buyer hub</a> has the full set of guides.</p>
+<p>Rules change, so every figure on this page is dated and sourced to a government or insurer page. Each one is rechecked against its source on a regular schedule. If you want to see how they apply to your plan, <a href="/contact/">contact me</a> and bring your questions. The <a href="/first-time-home-buyer-bc/">first-time home buyer hub</a> has the full set of guides.</p>
 
 ${callout("Use the date on your agreement", "<p>Several of these programs depend on dates: when you open an account, when you withdraw, and when you sign with a builder. Write down each date as it happens. Eligibility questions get answered by the record.</p>")}
 `;

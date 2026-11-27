@@ -73,10 +73,10 @@ ${short({ answer: "In BC, a lender can only foreclose through the Supreme Court.
 
 ${callout("Free help, by name", "<p>The People's Law School publishes a plain-language foreclosure guide. It points to free legal help through Access Pro Bono's advice clinics. The Credit Counselling Society offers non-profit credit counselling in BC. A lawyer should review any petition served on you. A mortgage broker doesn't replace any of these. On an A-lender mortgage, a broker is paid by the lender, not by you. Fees apply only on B and private files, and they're shown to you in writing first.</p>")}
 
-<h2>Where Joshua can help</h2>
-<p>A broker can't stop a petition or speak for you in court. What Joshua can do, quickly, is tell you if a refinance or a bridge is realistic for your file. He'll tell you what it would cost, and whether it beats selling.</p>
-<p>He spent five years underwriting files before he became a broker. He knows what a lender will and won't accept once there are arrears on the record. He'll tell you plainly when the honest answer is a sale.</p>
-<p>If you're in this process, <a href="/contact/">contact him</a> and say so in the first line.</p>
+<h2>Where I can help</h2>
+<p>A broker can't stop a petition or speak for you in court. What I can do, quickly, is tell you if a refinance or a bridge is realistic for your file. I'll tell you what it would cost, and whether it beats selling.</p>
+<p>I spent five years underwriting files before I became a broker. I know what a lender will and won't accept once there are arrears on the record. I'll tell you plainly when the honest answer is a sale.</p>
+<p>If you're in this process, <a href="/contact/">contact me</a> and say so in the first line.</p>
 `;
 
 export default {

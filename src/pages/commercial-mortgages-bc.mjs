@@ -5,10 +5,10 @@ const body = `
 ${short({
   answer: "Often yes, if the building or the business can carry the loan. A commercial lender looks at the property's income and your finances together. Plan on a bigger down payment than a home needs, more paperwork, and a broker fee that you pay.",
   who: "Business owners buying their own premises, investors buying or refinancing income property, and owners of five-plus unit buildings.",
-  next: "Book a 15-minute call. Tell Joshua the property type, the price and how it is used today."
+  next: "Book a 15-minute call. Tell me the property type, the price and how it is used today."
 })}
 <p>A commercial mortgage is a loan on property that is used for business or earns rent. The loan is secured on the property. The lender also studies the people behind it. Most people reach this page with the same four questions. Can you finance my property? What will you need from me? How does it work? What should I do next? This page answers them in that order.</p>
-<p>Joshua Resvick is a BC mortgage broker with Xeva Mortgage. He arranges commercial files as well as home mortgages. He serves buyers across BC from his Surrey office, by phone and video.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I arrange commercial files as well as home mortgages. I serve buyers across BC from my Surrey office, by phone and video.</p>
 
 <h2>What kinds of property can be financed</h2>
 <p>Lenders sort commercial files by how the property is used. The use changes the rules. These are the types most owners ask about:</p>
@@ -19,7 +19,7 @@ ${short({
 <li><strong>Mixed-use.</strong> Shops on the ground floor and suites above. Lenders read each part by its use.</li>
 <li><strong>Land and special-purpose property.</strong> These files are more specific. Some lenders will not look at them at all.</li>
 </ul>
-<p>Not sure where yours fits? Ask. Joshua can tell you on the first call whether it is a file he can place and which kind of lender suits it. For a plain rental house or a small portfolio of homes, the page on <a href="/investment-property-mortgages-bc/">investment property mortgages</a> may be the better starting point.</p>
+<p>Not sure where yours fits? Ask. I can tell you on the first call whether it is a file I can place and which kind of lender suits it. For a plain rental house or a small portfolio of homes, the page on <a href="/investment-property-mortgages-bc/">investment property mortgages</a> may be the better starting point.</p>
 
 <h2>How a lender decides if you qualify</h2>
 <p>The question changes with the type of file. Here are the two main versions.</p>
@@ -32,12 +32,12 @@ ${short({
 
 <h2>Down payment and equity</h2>
 <p>Commercial files need more down payment than most homes. Many lenders lend about 65 to 75 percent of a property's value on a conventional commercial mortgage. That means you provide 25 to 35 percent, from your own money or from equity in another property. These are common ranges, not promises. A lender may go higher or lower based on the property, the tenants and your finances.</p>
-<p>Some files can use equity you already own. If you hold a home or another building with room in it, a lender may take security on that property too. Joshua can show you how that changes the deal.</p>
+<p>Some files can use equity you already own. If you hold a home or another building with room in it, a lender may take security on that property too. I can show you how that changes the deal.</p>
 <p>Specialized property and weaker locations often get a lower loan-to-value. A building with long leases to strong tenants may get a higher one. The lender's own appraisal decides the value they will lend against, not the price you agreed to pay.</p>
 
 <h2>Conventional or CMHC-insured</h2>
 <p>A conventional commercial mortgage is a loan from a bank, credit union or other lender. A CMHC-insured mortgage is different. CMHC insures the lender against loss on certain multi-unit residential buildings. That insurance can allow a higher loan, a longer amortization and sometimes a lower rate than an uninsured loan on the same building. You pay an insurance premium, and the process takes longer.</p>
-<p>CMHC's MLI Select program covers buildings of five or more units. You earn points for affordable units, energy savings and accessibility, and you need at least 50 points to qualify. More points unlock better terms. On an existing building, 50 points can reach 85% loan-to-value with a 40-year amortization. 70 points can reach 95% and 45 years. 100 points can reach 95% and 50 years, with limited recourse to the borrower. New construction is measured against cost, and it can reach 95% of cost at each of those levels. CMHC also asks the borrower for net worth of at least 25% of the loan, with a $100,000 minimum. (CMHC, MLI Select, published September 21, 2026, read October 2026). CMHC says premiums are reduced under the program but publishes no percentage, so we do not quote one. Rules change over time. Joshua confirms the current rules with CMHC for each file. If you are looking at an apartment building, raise it on your first call.</p>
+<p>CMHC's MLI Select program covers buildings of five or more units. You earn points for affordable units, energy savings and accessibility, and you need at least 50 points to qualify. More points unlock better terms. On an existing building, 50 points can reach 85% loan-to-value with a 40-year amortization. 70 points can reach 95% and 45 years. 100 points can reach 95% and 50 years, with limited recourse to the borrower. New construction is measured against cost, and it can reach 95% of cost at each of those levels. CMHC also asks the borrower for net worth of at least 25% of the loan, with a $100,000 minimum. (CMHC, MLI Select, published September 21, 2026, read October 2026). CMHC says premiums are reduced under the program but publishes no percentage, so we do not quote one. Rules change over time. I confirm the current rules with CMHC for each file. If you are looking at an apartment building, raise it on your first call.</p>
 
 <h2>Terms, amortization and pricing</h2>
 <p>Commercial mortgages are not built like a typical five-year home mortgage. Terms of one to ten years are common, and the loan is often not paid off at the end of the term. You renew or refinance when it comes due. Amortization is often shorter than on a home, commonly around 20 to 25 years. Insured multi-unit loans can run longer. Every lender sets its own limits.</p>
@@ -45,7 +45,7 @@ ${short({
 <p>Read the prepayment terms with care. On a commercial loan, the cost of leaving early can be higher than on a home loan. It can also be calculated in a different way. Ask what it would cost if you sell in year three.</p>
 
 <h2>What it costs, and who pays the broker</h2>
-<p>Please read this part. On residential files with a mainstream lender, the lender pays the broker. Commercial files work differently. On a commercial mortgage, the borrower pays the broker's fee. Joshua tells you the fee and puts it in writing before you sign anything. The fee is part of the cost you compare, so it is in the numbers you see up front.</p>
+<p>Please read this part. On residential files with a mainstream lender, the lender pays the broker. Commercial files work differently. On a commercial mortgage, the borrower pays the broker's fee. I tell you the fee and put it in writing before you sign anything. The fee is part of the cost you compare, so it is in the numbers you see up front.</p>
 <p>Other costs usually include:</p>
 <ul>
 <li><strong>Lender fees.</strong> Many lenders charge a commitment or processing fee.</li>
@@ -72,18 +72,18 @@ ${short({
 <li>Property tax and insurance details.</li>
 <li>Title and survey information, if the lender asks for them.</li>
 </ul>
-<p>You do not need all of this for the first call. Joshua will tell you what matters most for your file, so you do not spend a week gathering papers that no lender will ask for. Questions before you book? <a href="/contact/">Contact Joshua</a>.</p>
+<p>You do not need all of this for the first call. I'll tell you what matters most for your file, so you do not spend a week gathering papers that no lender will ask for. Questions before you book? <a href="/contact/">Contact me</a>.</p>
 
 <h2>How long it takes</h2>
 <p>A home mortgage can move in days. A commercial file generally takes longer. Appraisals, environmental reports and lender committee reviews add time. A clean file with every document ready moves faster than one that is chased in pieces. Many commercial files take several weeks from a complete application to funding, and insured files can take longer. Treat that as a general range, not a promise. Build extra days into your purchase conditions.</p>
 
 <h2>What happens after you get in touch</h2>
 <ol>
-<li><strong>A 15-minute call.</strong> You describe the property, the price, how it is used and your plans. Joshua tells you if it is a fit and what the lenders will care about.</li>
-<li><strong>A short list and a plan.</strong> He tells you which kinds of lenders suit the file, what to gather and what the costs look like.</li>
-<li><strong>A package to lenders.</strong> He prepares the file, so the lender sees the income, the property and the borrower clearly. He then asks suitable lenders for terms.</li>
+<li><strong>A 15-minute call.</strong> You describe the property, the price, how it is used and your plans. I tell you if it is a fit and what the lenders will care about.</li>
+<li><strong>A short list and a plan.</strong> I tell you which kinds of lenders suit the file, what to gather and what the costs look like.</li>
+<li><strong>A package to lenders.</strong> I prepare the file, so the lender sees the income, the property and the borrower clearly. I then ask suitable lenders for terms.</li>
 <li><strong>A written comparison.</strong> You see the offers side by side, fees included, and you choose.</li>
-<li><strong>Closing.</strong> He follows the file through the appraisal, conditions and your lawyer until funds move.</li>
+<li><strong>Closing.</strong> I follow the file through the appraisal, conditions and your lawyer until funds move.</li>
 </ol>
 
 <h2>Refinancing, equity and tougher situations</h2>
@@ -104,7 +104,7 @@ export default {
   body,
   faqs: [
     { q: "How much down payment do I need for a commercial property?", a: "Many lenders lend about 65 to 75 percent of a commercial property's value, so plan on roughly 25 to 35 percent down. These are common ranges, not promises. A lender can go higher or lower based on the property type, the tenants, the location and your finances. Insured multi-unit residential loans can go higher." },
-    { q: "Who pays the mortgage broker on a commercial mortgage?", a: "On a commercial mortgage, the borrower pays the broker's fee. Joshua gives you the fee in writing before you sign anything, so it is part of the cost you compare. Lender fees, the appraisal, legal costs and any environmental report are separate costs. This is different from most home mortgages with a mainstream lender, where the lender pays the broker." },
+    { q: "Who pays the mortgage broker on a commercial mortgage?", a: "On a commercial mortgage, the borrower pays the broker's fee. I give you the fee in writing before you sign anything, so it is part of the cost you compare. Lender fees, the appraisal, legal costs and any environmental report are separate costs. This is different from most home mortgages with a mainstream lender, where the lender pays the broker." },
     { q: "How does a lender decide how much I can borrow?", a: "On an investment property, the lender looks at the building's net income compared with the yearly loan payments, often called the debt service coverage ratio. Many look for about 1.2 or higher. On premises you use yourself, they look at your business income, your personal finances and the property's value. Each lender sets its own rules." },
     { q: "What is the difference between a conventional and a CMHC-insured commercial mortgage?", a: "A conventional loan is made and carried by the lender. A CMHC-insured loan, available on certain multi-unit residential buildings, has insurance that protects the lender. That can allow a higher loan amount and a longer amortization, but you pay a premium and the process can take longer. CMHC's current rules are confirmed with CMHC on each file." },
     { q: "How long does a commercial mortgage take?", a: "Longer than a home mortgage. An appraisal, an environmental report and lender review all add time. Many files take several weeks from a complete application to funding, and insured files can take longer. A complete set of documents up front is the best way to keep it moving. Build extra time into your purchase conditions." },

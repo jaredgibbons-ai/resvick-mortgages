@@ -3,12 +3,12 @@ import { short } from "../lib/short.mjs";
 
 const body = `
 ${short({
-  answer: "Yes, Joshua arranges mortgages on leased land, but fewer lenders do this work. On leased land you own the home and rent the land under it. A lender reads the lease as closely as it reads you, so he places your file with a specific lender that fits.",
+  answer: "Yes, I arrange mortgages on leased land, but fewer lenders do this work. On leased land you own the home and rent the land under it. A lender reads the lease as closely as it reads you, so I place your file with a specific lender that fits.",
   who: "Buyers and owners of homes on leased land: First Nation lease land, university land, manufactured home parks, and some 55-plus or resort communities.",
-  next: "Get the lease before you make an offer, then book a 15-minute call. Joshua can tell you early if a lender is likely to look at it."
+  next: "Get the lease before you make an offer, then book a 15-minute call. I can tell you early if a lender is likely to look at it."
 })}
 <p>Most BC homes are freehold. You own the building and the land. A leasehold home is different. You own the home, or a share of a strata building, and you hold a lease on the land. The landlord keeps the land. This page explains how lenders see that setup, what they ask for, and what to check before you commit. It also covers one common question: whether a lender will finance it at all.</p>
-<p>Joshua Resvick is a BC mortgage broker with Xeva Mortgage. He serves buyers across BC from his Surrey office, by phone and video. He arranges mortgages on leased land, including reserve and First Nation land. Only some lenders do this work, so he places these files with a specific lender that does. If your home sits on First Nation land, read our page on <a href="/first-nations-land-mortgages-bc/">First Nations and reserve land mortgages</a> as well. It covers the steps that are specific to those lands.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I serve buyers across BC from my Surrey office, by phone and video. I arrange mortgages on leased land, including reserve and First Nation land. Only some lenders do this work, so I place these files with a specific lender that does. If your home sits on First Nation land, read our page on <a href="/first-nations-land-mortgages-bc/">First Nations and reserve land mortgages</a> as well. It covers the steps that are specific to those lands.</p>
 
 <h2>What a leasehold home is</h2>
 <p>With a leasehold home, the lease is the thing a lender takes as security, together with your home. The lease says how long you may use the land, what you pay for it, and what happens when the term ends. Two homes that look the same can be very different on paper. One may have a 99-year lease that was paid in full years ago. Another may have 30 years left and a yearly rent that can rise.</p>
@@ -50,18 +50,18 @@ ${short({
 <p>Leasehold homes can be harder to resell. The group of buyers who can get financing is smaller, and the number gets smaller as the lease runs down. Think about the exit before you buy. How many years will be left in ten years? Would a buyer still find a lender?</p>
 <p>The same question comes back at renewal. When your term ends, your lender checks the remaining lease again. If you plan to switch lenders, ask early whether the new lender accepts the property. Our page on <a href="/mortgage-renewal-bc/">mortgage renewal</a> explains the process.</p>
 
-${callout("Check these before you make an offer", "<ul><li>Get a full copy of the lease and the strata or park documents.</li><li>Note the end date, the rent, and the rules on selling.</li><li>Ask the landlord or manager who must approve a buyer.</li><li>Ask Joshua if a lender is likely to finance the property, before you remove conditions.</li><li>Have a lawyer or notary read the lease.</li></ul>")}
+${callout("Check these before you make an offer", "<ul><li>Get a full copy of the lease and the strata or park documents.</li><li>Note the end date, the rent, and the rules on selling.</li><li>Ask the landlord or manager who must approve a buyer.</li><li>Ask me if a lender is likely to finance the property, before you remove conditions.</li><li>Have a lawyer or notary read the lease.</li></ul>")}
 
-<h2>How Joshua helps with a leasehold file</h2>
+<h2>How I help with a leasehold file</h2>
 <ol>
-<li><strong>A 15-minute call.</strong> You describe the property, the landlord and the lease term. He tells you what is likely to matter to a lender.</li>
-<li><strong>A look at the lease.</strong> You send the lease and the listing. He flags the points a lender will ask about.</li>
-<li><strong>The right lender.</strong> Not every lender works on leased land. He places your file with a specific lender that does, and shows you the terms in writing. Which lender fits depends on the lease and on your timing, so he confirms it once he has seen both. Banks and credit unions that have financed leased land in BC include Scotiabank, Vancity, Coast Capital Savings, Prospera Credit Union and BlueShore Financial. Each keeps its own list of lessors and developments it will accept, and those lists change.</li>
-<li><strong>Conditions that fit the lease.</strong> He helps you set a financing condition with enough time for the lender to review the lease.</li>
+<li><strong>A 15-minute call.</strong> You describe the property, the landlord and the lease term. I tell you what is likely to matter to a lender.</li>
+<li><strong>A look at the lease.</strong> You send the lease and the listing. I flag the points a lender will ask about.</li>
+<li><strong>The right lender.</strong> Not every lender works on leased land. I place your file with a specific lender that does, and show you the terms in writing. Which lender fits depends on the lease and on your timing, so I confirm it once I have seen both. Banks and credit unions that have financed leased land in BC include Scotiabank, Vancity, Coast Capital Savings, Prospera Credit Union and BlueShore Financial. Each keeps its own list of lessors and developments it will accept, and those lists change.</li>
+<li><strong>Conditions that fit the lease.</strong> I help you set a financing condition with enough time for the lender to review the lease.</li>
 </ol>
-<p>Most files go to a mainstream lender, which pays Joshua. In that case you pay nothing for his work. A leasehold file that needs a B lender or private lender can carry a fee. If so, it appears in writing on BCFSA's Form 1A before you commit. See <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+<p>Most files go to a mainstream lender, which pays me. In that case you pay nothing for my work. A leasehold file that needs a B lender or private lender can carry a fee. If so, it appears in writing on BCFSA's Form 1A before you commit. See <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
-${cta({ title: "Looking at a leasehold home?", text: "Send the lease or the listing before you write an offer. Joshua will tell you what lenders are likely to ask, so the financing condition fits the property." })}
+${cta({ title: "Looking at a leasehold home?", text: "Send the lease or the listing before you write an offer. I'll tell you what lenders are likely to ask, so the financing condition fits the property." })}
 `;
 
 export default {
@@ -72,8 +72,8 @@ export default {
   nav: "/mobile-home-mortgages-bc/",
   body,
   faqs: [
-    { q: "Can I get a mortgage on a leasehold home in BC?", a: "Yes, and Joshua arranges these mortgages. Fewer lenders work on leased land, and those that do read the lease closely and compare the years left with your amortization. He places the file with a specific lender that fits the property." },
-    { q: "How long does the lease need to be?", a: "It depends on the lender. Most want the lease to run well past the amortization, and some set a margin of extra years. There is no single number that applies everywhere. Ask your lender before you write an offer, and give the lease to Joshua early." },
+    { q: "Can I get a mortgage on a leasehold home in BC?", a: "Yes, and I arrange these mortgages. Fewer lenders work on leased land, and those that do read the lease closely and compare the years left with your amortization. I place the file with a specific lender that fits the property." },
+    { q: "How long does the lease need to be?", a: "It depends on the lender. Most want the lease to run well past the amortization, and some set a margin of extra years. There is no single number that applies everywhere. Ask your lender before you write an offer, and give the lease to me early." },
     { q: "What is the difference between a prepaid lease and a lease with yearly rent?", a: "A prepaid lease was paid up front, so you owe no rent for the term. A lease with rent charges you every year or month, and the rent may rise. Lenders ask which kind you have, and many count any rent as part of your housing costs." },
     { q: "Is leasehold cheaper than freehold?", a: "Sometimes the price is lower, but not always, and the lease can add costs. You may pay yearly rent, strata fees or park fees. The home can also be harder to resell. Compare the full cost over the years you plan to stay, not just the price." },
     { q: "Do I need a bigger down payment on leased land?", a: "Some lenders ask for more, and some limit the amortization. Others treat the property like any other home once they accept the lease. It varies by lender, so ask early. Insurance for a small down payment is not available on every leasehold property." },

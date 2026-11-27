@@ -31,14 +31,14 @@ ${short({
 
 <h2>Why the result comes first</h2>
 <p>All three previews show up on the page when you finish. Nothing you typed has been sent anywhere. The check runs in your browser.</p>
-<p>After the result, there's an optional button for a written breakdown with Joshua's notes. That's where you'd give a name and an email. The consent box starts unticked. So does the box asking for a call.</p>
+<p>After the result, there's an optional button for a written breakdown with my notes. That's where you'd give a name and an email. The consent box starts unticked. So does the box asking for a call.</p>
 
 ${callout("Newly self-employed?", "<p>If it's been less than two years, most mainstream lenders can't use your income yet. That's not the end of the road. The <a href=\"/newly-self-employed-mortgage/\">newly self-employed guide</a> covers what's possible in the meantime. The check will send you there if your answers fit.</p>")}
 
-<h2>What Joshua does with the written version</h2>
-<p>He reads your answers against how each lender type really treats business income. He spent five years doing that from the other side of the desk, as an underwriter.</p>
-<p>The written breakdown tells you which route he'd start with and why. It lists the documents each route would need. Depending on the route, that could be two years of returns and notices of assessment, financial statements and bank statements. It could also be a business licence or articles of incorporation. It also covers what would move you from one route to a better one. If a fee is involved, you'll know before anything else happens. More on that below.</p>
-<p>If you asked for a call, he'll suggest a time. If you asked for the written version only, that's what you'll get. He won't shop your numbers to anyone.</p>
+<h2>What I do with the written version</h2>
+<p>I read your answers against how each lender type really treats business income. I spent five years doing that from the other side of the desk, as an underwriter.</p>
+<p>The written breakdown tells you which route I'd start with and why. It lists the documents each route would need. Depending on the route, that could be two years of returns and notices of assessment, financial statements and bank statements. It could also be a business licence or articles of incorporation. It also covers what would move you from one route to a better one. If a fee is involved, you'll know before anything else happens. More on that below.</p>
+<p>If you asked for a call, I'll suggest a time. If you asked for the written version only, that's what you'll get. I won't shop your numbers to anyone.</p>
 
 <h2>What the check can't do</h2>
 <p>It can't read your financial statements. So it can't know how much of your expenses a lender would add back. It can't tell you what a given lender's stated-income test would decide. And it can't promise a rate on any route.</p>

@@ -9,9 +9,9 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-cra
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Cranbrook and the East Kootenay by phone and video from his Surrey office. Buyers here are often hospital and college staff, rail, mine and trades workers, and first-time buyers who want a house for less than the coast. Homes are among the lowest-priced in the region.",
+  answer: "I serve Cranbrook and the East Kootenay by phone and video from my Surrey office. Buyers here are often hospital and college staff, rail, mine and trades workers, and first-time buyers who want a house for less than the coast. Homes are among the lowest-priced in the region.",
   who: "Buyers and owners in Cranbrook, Kimberley, Wycliffe, Moyie and the rest of the East Kootenay.",
-  next: "Book a 15-minute call and tell Joshua how you are paid and what you want to buy."
+  next: "Book a 15-minute call and tell me how you are paid and what you want to buy."
 })}
 <p>Cranbrook is the main service centre of the East Kootenay, between the Rockies and the Purcells. It has the region's hospital, college and airport. People come here for work, for the outdoors, and for house prices that look very different from the coast.</p>
 <p>I'm Joshua Resvick, a mortgage broker with Xeva Mortgage. I was a lender's underwriter for five years first, so I know what makes a file easy or hard. I'm in Surrey and serve the East Kootenay by phone and video, with documents sent through secure upload. There isn't a Cranbrook office. <a href="/contact/">Book a 15-minute call</a> to get going.</p>
@@ -68,21 +68,21 @@ ${callout("Is there a fee?", "<p>Not when an A lender takes the mortgage. The le
 ${cityFacts("cranbrook")}
 ${nearbyCallout("cranbrook", callout)}
 
-${cta({ title: "Talk to a broker who serves Cranbrook", text: "Book a 15-minute call. Tell Joshua about your job, your down payment and the home you want, in Cranbrook or nearby. He will tell you which lenders fit and what comes next." })}
+${cta({ title: "Talk to a broker who serves Cranbrook", text: "Book a 15-minute call. Tell me about your job, your down payment and the home you want, in Cranbrook or nearby. I'll tell you which lenders fit and what comes next." })}
 `;
 
 export default {
   slug: "/mortgage-broker-cranbrook/",
   h1: "Mortgage broker in Cranbrook, BC: buying a home in the East Kootenay",
-  lede: "Buying in Cranbrook or Kimberley, or moving to the East Kootenay for work? Joshua Resvick, Xeva Mortgage, serves the region by phone and video from his Surrey office. Shift pay, suites, pad homes and rural lots, explained the way a lender reads them.",
+  lede: "Buying in Cranbrook or Kimberley, or moving to the East Kootenay for work? I'm Joshua Resvick, with Xeva Mortgage, and I serve the region by phone and video from my Surrey office. Shift pay, suites, pad homes and rural lots, explained the way a lender reads them.",
   crumbs: [["Home", "/"], ["Cities served", "/bc-mortgage-broker-service-areas/"], ["Serving Cranbrook", "/mortgage-broker-cranbrook/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Do you have an office in Cranbrook?", a: "No. Joshua works from his Surrey office and serves Cranbrook, Kimberley and the East Kootenay by phone, video and secure upload. The lender, appraiser and your lawyer or notary do their parts locally." },
+    { q: "Do you have an office in Cranbrook?", a: "No. I work from my Surrey office and serve Cranbrook, Kimberley and the East Kootenay by phone, video and secure upload. The lender, appraiser and your lawyer or notary do their parts locally." },
     { q: "How much down payment do I need for a house in Cranbrook?", a: "At least 5% of the first $500,000 and 10% of the rest. On a $517,000 home that's $26,700. With under 20% down, the mortgage is insured and the premium is added to the loan. You also need cash for closing costs." },
-    { q: "How do lenders count mine or rail overtime?", a: "Base pay is usually simple. Overtime and shift premiums are often averaged over two years, and lenders vary in what they accept. Bring two years of T4s and recent pay stubs. Joshua checks the rules before you apply." },
+    { q: "How do lenders count mine or rail overtime?", a: "Base pay is usually simple. Overtime and shift premiums are often averaged over two years, and lenders vary in what they accept. Bring two years of T4s and recent pay stubs. I check the rules before you apply." },
     { q: "I'm moving from Alberta. What's different about buying in BC?", a: "The big one is BC's property transfer tax, which Alberta doesn't have. First-time buyers may be exempt on part or all of it. The mortgage rules are federal, so qualifying works the same way. Your lawyer or notary must be licensed in BC." },
     { q: "Can a suite help me qualify in Cranbrook?", a: "Often. The City's 2024 zoning allows a secondary suite plus an accessory unit on many lots. If the suite is legal and the rent is documented, many lenders count part of it toward your income." }
   ]

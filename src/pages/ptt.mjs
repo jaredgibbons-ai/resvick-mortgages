@@ -62,9 +62,9 @@ ${short({ answer: "BC property transfer tax is 1 percent on the first $200,000 a
 <p>Most of those depend on quotes you'll gather. So the <a href="/mortgage-calculators/#closing-costs">closing cost calculator</a> asks you to enter them instead of guessing. The <a href="/closing-costs-bc/">BC closing costs guide</a> lists every item. The <a href="/down-payment-guide-bc/">down payment guide</a> explains how much to save and how lenders check where it came from.</p>
 <p>Other tools are on the <a href="/mortgage-calculators/">mortgage calculators</a> page. The payment, affordability and CMHC premium calculators complete the picture.</p>
 
-${callout("Check your own numbers", "<p>Whether you qualify for an exemption turns on details of your history and the property. A mistake can be costly to fix after closing. If you're not sure, ask your lawyer or notary before you remove an offer condition. Bring the question to Joshua when you plan your cash needs. You can <a href=\"/contact/\">contact him here</a>.</p>")}
+${callout("Check your own numbers", "<p>Whether you qualify for an exemption turns on details of your history and the property. A mistake can be costly to fix after closing. If you're not sure, ask your lawyer or notary before you remove an offer condition. Bring the question to me when you plan your cash needs. You can <a href=\"/contact/\">contact me here</a>.</p>")}
 
-${cta({ title: "Planning the cash you will need to close?", text: "Book a 15-minute call. Joshua will go through the transfer tax, your down payment and the other closing costs with your real figures." })}
+${cta({ title: "Planning the cash you will need to close?", text: "Book a 15-minute call. I'll go through the transfer tax, your down payment and the other closing costs with your real figures." })}
 `;
 
 export default {

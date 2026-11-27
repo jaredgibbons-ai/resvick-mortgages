@@ -47,7 +47,7 @@ ${short({
 <p>Third mortgages exist too. They sit behind the second, and their price shows it. They belong to the world of <a href="/private-mortgage-lending-bc/">private mortgage lending</a>, and that page covers them.</p>
 
 <p>Not sure a second mortgage is the right tool? The two-minute <a href="/equity-check/">equity check</a> compares your options, and the <a href="/home-equity-loan-bc/">home equity loan comparison</a> sets a second against a HELOC, a refinance and a reverse mortgage.</p>
-${cta({ title: "Get the real total cost before you decide", text: "Tell Joshua what the money is for and what your first mortgage looks like. He'll show you the full cost of a second next to a line and a refinance, in dollars. He'll also tell you which lenders would look at your file." })}
+${cta({ title: "Get the real total cost before you decide", text: "Tell me what the money is for and what your first mortgage looks like. I'll show you the full cost of a second next to a line and a refinance, in dollars. I'll also tell you which lenders would look at your file." })}
 
 <h2>The way out</h2>
 <p>Most second mortgages, and almost all private ones, are a short-term fix. How it ends matters as much as how it starts. Before you take one, know your exit. These are the usual ones.</p>
@@ -57,7 +57,7 @@ ${cta({ title: "Get the real total cost before you decide", text: "Tell Joshua w
 <li><strong>Swap it for a cheaper second.</strong> If your credit or income gets better, an alternative lender may replace a private second for less. That can carry you to your first mortgage's renewal.</li>
 <li><strong>Sell.</strong> Sometimes none of the above is realistic. The honest answer may be that the home can't carry the debt. Selling on your own timeline beats selling on a lender's.</li>
 </ol>
-<p>A second with no way out tends to get renewed again and again. Each renewal brings new fees, and the cost keeps climbing. Joshua's approach to a second starts with the exit. What has to change? By when? Which lender is the target? Those answers get written down at the start.</p>
+<p>A second with no way out tends to get renewed again and again. Each renewal brings new fees, and the cost keeps climbing. My approach to a second starts with the exit. What has to change? By when? Which lender is the target? Those answers get written down at the start.</p>
 
 <h2>Questions to ask any second-mortgage lender</h2>
 <ul>
@@ -67,7 +67,7 @@ ${cta({ title: "Get the real total cost before you decide", text: "Tell Joshua w
 <li>Can I pay it off early? Is there a penalty?</li>
 <li>Does my first lender have to agree? Has that been checked?</li>
 </ul>
-<p>Want those answered for your own situation? <a href="/contact/">Contact Joshua</a> or book a call. There's no obligation. The first talk is about whether a second is even the right tool.</p>
+<p>Want those answered for your own situation? <a href="/contact/">Contact me</a> or book a call. There's no obligation. The first talk is about whether a second is even the right tool.</p>
 
 ${callout("The rate isn't the cost", "<p>A second with a lower rate and higher fees can cost more over one year than one with a higher rate and lower fees. Compare total dollars over the term. Ask to see the fee disclosure before anything else.</p>")}
 `;

@@ -7,9 +7,9 @@ import { cityFacts } from "../lib/city-facts.mjs";
 const slug = "/mortgage-broker-surrey/";
 
 const body = `
-${short({ answer: "Joshua's office is in Surrey, so this is his home city. He works with suite houses, first townhouses, City Centre presales and South Surrey move-ups. You can meet in person or do it all online.", who: "Surrey and White Rock buyers, homeowners renewing, and self-employed people and trades.", next: "Book a 15-minute call, or see how a suite changes what you qualify for on the <a href=\"/how-much-suite-income-will-a-lender-count/\">suite income page</a>." })}
+${short({ answer: "My office is in Surrey, so this is my home city. I work with suite houses, first townhouses, City Centre presales and South Surrey move-ups. You can meet in person or do it all online.", who: "Surrey and White Rock buyers, homeowners renewing, and self-employed people and trades.", next: "Book a 15-minute call, or see how a suite changes what you qualify for on the <a href=\"/how-much-suite-income-will-a-lender-count/\">suite income page</a>." })}
 <h2>Surrey is six housing markets, not one</h2>
-<p>Surrey is the one city Joshua Resvick works from. It's big enough to act like several cities.</p>
+<p>Surrey is the one city I work from. It's big enough to act like several cities.</p>
 <ul>
 <li><strong>South Surrey and White Rock</strong> have houses and townhouses near the beach and the border. It's a strong market for moving up and for downsizing.</li>
 <li><strong>Cloverdale</strong> has family streets, newer subdivisions and the fairgrounds.</li>
@@ -21,7 +21,7 @@ ${short({ answer: "Joshua's office is in Surrey, so this is his home city. He wo
 <p>The office is at ${SITE.address.street}, Surrey, in the Grandview Heights area of South Surrey. Most Surrey clients still do everything by phone, video and secure upload, because it's faster. If you'd rather sit across a desk, you can do that here.</p>
 
 <h2>Incomes in Surrey</h2>
-<p>Surrey's median household income was $98,000 for 2020. About 15.0 percent of Surrey's workers were self-employed, or 46,125 of 308,190 in the labour force. Retail, health care and construction were the three largest industries, and construction alone had about 30,500 workers. (Statistics Canada, 2021 Census Profile, read October 2026). That mix explains why so many Surrey files include trades pay, commissions or a small company. Lenders vary in how they read that income, so Joshua checks it before he picks one.</p>
+<p>Surrey's median household income was $98,000 for 2020. About 15.0 percent of Surrey's workers were self-employed, or 46,125 of 308,190 in the labour force. Retail, health care and construction were the three largest industries, and construction alone had about 30,500 workers. (Statistics Canada, 2021 Census Profile, read October 2026). That mix explains why so many Surrey files include trades pay, commissions or a small company. Lenders vary in how they read that income, so I check it before I pick one.</p>
 ${censusTable("surrey")}
 
 <h2>The suite question, Surrey version</h2>
@@ -63,7 +63,7 @@ ${censusTable("surrey")}
 <h2>Rates with local context</h2>
 <p>Surrey buyers tend to compare rates on different files. Think of a townhouse with 10 percent down, a suite house with 20 percent down, and a presale that closes years from now. Every lender prices those three differently. The <a href="/mortgage-rates-surrey/">Surrey mortgage rates page</a> explains that context. The <a href="/mortgage-rates-bc/">BC rates hub</a> covers how a rate gets set. A short call gets you today's number for your own file.</p>
 
-<h2>Every city Joshua serves</h2>
+<h2>Every city I serve</h2>
 <p>Surrey is the office, but the service covers the whole province, online and by phone. Each city below has its own page with the local details, from suite bylaws to presale patterns.</p>
 <p><a href="/mortgage-broker-vancouver/">Vancouver</a>, <a href="/mortgage-broker-langley/">Langley</a>, <a href="/mortgage-broker-burnaby/">Burnaby</a>, <a href="/mortgage-broker-coquitlam/">Coquitlam</a>, <a href="/mortgage-broker-richmond/">Richmond</a>, <a href="/mortgage-broker-abbotsford/">Abbotsford</a>, <a href="/mortgage-broker-victoria/">Victoria</a>, <a href="/mortgage-broker-nanaimo/">Nanaimo</a>, <a href="/mortgage-broker-kelowna/">Kelowna</a>, <a href="/mortgage-broker-kamloops/">Kamloops</a>, <a href="/mortgage-broker-prince-george/">Prince George</a>.</p>
 <p>Is your city not on the list? Nothing changes. The process is the same from <a href="/bc-mortgage-broker-service-areas/">anywhere in BC</a>.</p>
@@ -71,7 +71,7 @@ ${censusTable("surrey")}
 <h2>How it works, from this office</h2>
 <ol>
 <li><strong>A 15-minute call.</strong> Where you are, what you want and when. You get a straight answer on what's realistic.</li>
-<li><strong>Underwriting first.</strong> Joshua spent five years as a mortgage underwriter, then ten as a broker. He reads your file the way a lender will, before a lender sees it.</li>
+<li><strong>Underwriting first.</strong> I spent five years as a mortgage underwriter, then ten as a broker. I read your file the way a lender will, before a lender sees it.</li>
 <li><strong>A written Lender Comparison Report.</strong> Real options side by side, so the choice is yours.</li>
 <li><strong>Resvick Aftercare.</strong> Yearly reviews, rate monitoring and a renewal plan six months out. The <a href="/mortgage-aftercare-program/">aftercare page</a> lists what's included.</li>
 </ol>
@@ -81,9 +81,9 @@ ${censusTable("surrey")}
 <p>The <a href="/mortgage-calculators/">calculators</a> let you test a few things. You can check a payment with the CMHC premium. You can see how a suite changes what you can afford under both lender methods. You can estimate closing costs, including property transfer tax, and compare renewal options. Results show up right away, with no email needed.</p>
 
 ${cityFacts("surrey")}
-${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-langley/">Langley</a> and <a href="/mortgage-broker-richmond/">Richmond</a>, plus White Rock, Delta and the rest of the South of Fraser area. The Google Business Profile for Resvick Mortgages lists this Surrey office. If Joshua has helped you, a review there helps the next Surrey family find him.</p>`)}
+${callout("Nearby", `<p>I also serve <a href="/mortgage-broker-langley/">Langley</a> and <a href="/mortgage-broker-richmond/">Richmond</a>, plus White Rock, Delta and the rest of the South of Fraser area. The Google Business Profile for Resvick Mortgages lists this Surrey office. If I've helped you, a review there helps the next Surrey family find me.</p>`)}
 
-<p>If you own a business in Surrey and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+<p>If you own a business in Surrey and want to buy its premises, I also arrange <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
 
 
 ${cta({ title: "Close to the office? Come in, or call.", text: "Book a 15-minute call, by phone or at the Surrey office. You'll leave with a clear picture and a next step." })}
@@ -93,16 +93,16 @@ ${cta({ title: "Close to the office? Come in, or call.", text: "Book a 15-minute
 export default {
   slug,
   h1: "Mortgage broker in Surrey: South Surrey, White Rock, Cloverdale, Fleetwood, Newton and Guildford",
-  lede: "Suite houses, townhouses, City Centre presales and South Surrey move-ups. Joshua Resvick works from his Surrey office and handles files across every neighbourhood, online or in person.",
+  lede: "Suite houses, townhouses, City Centre presales and South Surrey move-ups. I work from my Surrey office and handle files across every neighbourhood, online or in person.",
   crumbs: [["Home", "/"], ["Surrey", slug]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [cityServiceSchema(slug, "Surrey", ["White Rock", "Delta"])],
   faqs: [
-    { q: "Where is the Resvick Mortgages office in Surrey?", a: `The office is at ${SITE.address.street}, Surrey, BC ${SITE.address.postal}, in Grandview Heights in South Surrey. Most clients work with Joshua by phone, video and secure upload because it is faster, but in-person meetings are available by appointment. He serves all of Surrey, White Rock, Delta and the rest of BC the same way.` },
+    { q: "Where is the Resvick Mortgages office in Surrey?", a: `The office is at ${SITE.address.street}, Surrey, BC ${SITE.address.postal}, in Grandview Heights in South Surrey. Most clients work with me by phone, video and secure upload because it is faster, but in-person meetings are available by appointment. I serve all of Surrey, White Rock, Delta and the rest of BC the same way.` },
     { q: "Will a lender count the rent from my Surrey basement suite?", a: "Often, if the suite is legal and the rent is documented with a lease or bank deposits. Surrey allows one permitted secondary suite per single-family, semi-detached or duplex home, and a permitted suite is far easier for a lender to count. How much is counted depends on the lender's method and share, which is why lender choice matters on a suite house." },
     { q: "Does the SkyTrain extension change what I can borrow in Fleetwood or Clayton?", a: "No, approvals depend on your income, debts, credit and down payment, not on transit. It can change your plan, though. If you expect to sell or move up around the time the line opens, which the province expects in late 2029, a shorter term or a lender with a gentler penalty may suit you better than the lowest five-year rate." },
     { q: "I am self-employed in Surrey. Can I still get a mainstream mortgage?", a: "Often yes, with two years of returns and the right lender. Lenders differ on add-backs, dividends and retained earnings, so the same tax returns can produce different approvals. When mainstream income rules do not fit, stated-income programs exist, and they are explained plainly on the self-employed hub, including when a fee can apply." },
-    { q: "Can I buy a Surrey presale and keep my current home?", a: "It depends on whether you qualify to carry both at completion and on the lender's rules for the down payment and deposits. Because a presale closes long after you sign, Joshua plans the approval for the completion date, including what your income and the property's value need to look like then, and reviews it as the date approaches." }
+    { q: "Can I buy a Surrey presale and keep my current home?", a: "It depends on whether you qualify to carry both at completion and on the lender's rules for the down payment and deposits. Because a presale closes long after you sign, I plan the approval for the completion date, including what your income and the property's value need to look like then, and review it as the date approaches." }
   ]
 };

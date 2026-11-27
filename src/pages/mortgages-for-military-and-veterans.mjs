@@ -6,7 +6,7 @@ ${short({ answer: "Military pay is some of the cleanest income a lender sees. Ba
 
 <h2>Your situation</h2>
 <p>Maybe you have a posting message with a report date. You have a house to sell in another province. And you get a few weeks of house-hunting leave in a market you've never shopped. Or maybe you're releasing after a full career. You want to settle in British Columbia on a pension and a civilian job that hasn't started yet.</p>
-<p>Either way, someone else sets the timeline, and the mortgage has to fit it. Joshua Resvick is a BC mortgage broker and a former underwriter. This page is about buying on a military schedule. It covers what lenders count, how the relocation program fits with a mortgage, and how to line up the dates.</p>
+<p>Either way, someone else sets the timeline, and the mortgage has to fit it. I'm Joshua Resvick, a BC mortgage broker and a former underwriter. This page is about buying on a military schedule. It covers what lenders count, how the relocation program fits with a mortgage, and how to line up the dates.</p>
 
 <h2>How lenders see military income</h2>
 <p>Regular Force pay is some of the cleanest income a lender sees. There's a published pay scale, a federal employer and a long history. Lenders count base pay in full.</p>
@@ -23,9 +23,9 @@ ${short({ answer: "Military pay is some of the cleanest income a lender sees. Ba
 <h2>Buying on a posting schedule</h2>
 <ol>
 <li><strong>Pre-approval before house-hunting leave.</strong> A real <a href="/mortgage-pre-approval-bc/">pre-approval</a> means your documents were reviewed. You can write an offer on a short visit with confidence. A rate quote isn't the same thing.</li>
-<li><strong>A rate hold that matches the timeline.</strong> Lenders commonly hold a rate for 90 to 120 days. The <a href="/mortgage-rate-hold/">rate hold page</a> explains what a hold does and doesn't cover. If your report date is further out, Joshua times the application so the hold covers closing.</li>
+<li><strong>A rate hold that matches the timeline.</strong> Lenders commonly hold a rate for 90 to 120 days. The <a href="/mortgage-rate-hold/">rate hold page</a> explains what a hold does and doesn't cover. If your report date is further out, I time the application so the hold covers closing.</li>
 <li><strong>Bridging the gap between two closings.</strong> Say the new home closes before the old one sells. <a href="/bridge-financing/">Bridge financing</a> covers the down payment for a short time, usually only once the sale is firm. The lender on your new mortgage provides it. It carries interest and a fee, and it's short by design.</li>
-<li><strong>Closing from a distance.</strong> In most cases you can sign remotely with a BC lawyer or notary. Joshua keeps the lawyer, lender and realtor in step, so you hit a closing date set by a posting message.</li>
+<li><strong>Closing from a distance.</strong> In most cases you can sign remotely with a BC lawyer or notary. I keep the lawyer, lender and realtor in step, so you hit a closing date set by a posting message.</li>
 </ol>
 
 <h2>Documents specific to your file</h2>
@@ -48,7 +48,7 @@ ${short({ answer: "Military pay is some of the cleanest income a lender sees. Ba
 <li><strong>Writing an offer on a quote.</strong> A posting leaves no time to recover from a pre-approval nobody really checked.</li>
 <li><strong>Letting the rate hold expire before closing.</strong> A long timeline needs a hold that matches, or a plan to re-apply.</li>
 <li><strong>Thinking the relocation program replaces the down payment.</strong> It pays back certain costs. It isn't equity.</li>
-<li><strong>Bridging on an unsold home.</strong> Most lenders bridge only against a firm sale. If the old home hasn't sold, you need a different plan, and Joshua will say so.</li>
+<li><strong>Bridging on an unsold home.</strong> Most lenders bridge only against a firm sale. If the old home hasn't sold, you need a different plan, and I'll say so.</li>
 <li><strong>Leaving allowances off the application.</strong> If an allowance is ongoing and documented, a lender that counts it may make the difference. Ask, don't assume.</li>
 </ul>
 
@@ -56,11 +56,11 @@ ${short({ answer: "Military pay is some of the cleanest income a lender sees. Ba
 <p>Your rate depends on your down payment, credit, property and lender. Military and pension income almost always lands with a mainstream A lender. On those mortgages, the lender pays the broker and you pay nothing for the service. Fees only come up on certain B-lender and private files. They're disclosed in writing on BCFSA's Form 1A before you commit.</p>
 <p>There's no government-backed military mortgage program in Canada, nothing like the US VA loan. A few lenders offer affinity packages for the defence community, so it's worth asking. The real edge is a lender that reads your income correctly, and a file timed to your posting.</p>
 
-${callout("Serving clients anywhere in BC", "<p>Postings land people in Esquimalt, Comox, Chilliwack and everywhere in between. Joshua works online and by phone from his Surrey office. The process is the same on Vancouver Island, in the Fraser Valley or in the Interior. It doesn't matter if you call from your current base or from a hotel on house-hunting leave.</p>")}
+${callout("Serving clients anywhere in BC", "<p>Postings land people in Esquimalt, Comox, Chilliwack and everywhere in between. I work online and by phone from my Surrey office. The process is the same on Vancouver Island, in the Fraser Valley or in the Interior. It doesn't matter if you call from your current base or from a hotel on house-hunting leave.</p>")}
 
-<p class="more-links"><strong>Where Joshua helps military and veterans.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-langford/">Langford</a>, <a href="/mortgage-broker-courtenay/">Courtenay and Comox</a>, <a href="/mortgage-broker-victoria/">Victoria</a>, <a href="/mortgage-broker-saanich/">Saanich</a> and <a href="/mortgage-broker-nanaimo/">Nanaimo</a>.</p>
+<p class="more-links"><strong>Where I help military and veterans.</strong> I serve buyers online from my Surrey office in <a href="/mortgage-broker-langford/">Langford</a>, <a href="/mortgage-broker-courtenay/">Courtenay and Comox</a>, <a href="/mortgage-broker-victoria/">Victoria</a>, <a href="/mortgage-broker-saanich/">Saanich</a> and <a href="/mortgage-broker-nanaimo/">Nanaimo</a>.</p>
 
-${cta({ title: "Buying on a posting timeline?", text: "Book a 15-minute call before your house-hunting trip. Joshua will confirm what you qualify for, line up a rate hold that covers the closing and plan the bridge if you need one. Or <a href=\"/contact/\">contact him</a> by email." })}
+${cta({ title: "Buying on a posting timeline?", text: "Book a 15-minute call before your house-hunting trip. I'll confirm what you qualify for, line up a rate hold that covers the closing and plan the bridge if you need one. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {

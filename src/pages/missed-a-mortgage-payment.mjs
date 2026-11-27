@@ -56,7 +56,7 @@ ${callout("Why this page does not sell you anything", "<p>One missed payment isn
 <h2>A straight answer if you want one</h2>
 <p>Most people who miss one payment don't need a broker. They need to make the payment, make the call and fix the cause.</p>
 <p>Sometimes the missed payment is a sign of something bigger. Maybe the payment no longer fits the budget. Maybe a renewal is coming at a much higher rate. Maybe debts have grown around the mortgage.</p>
-<p>Then it's worth talking about whether the mortgage can be restructured while your credit still qualifies you for the better options. Joshua will tell you plainly if nothing needs to change. <a href="/contact/">Contact him</a> if you want that conversation, and mention the missed payment in your first message.</p>
+<p>Then it's worth talking about whether the mortgage can be restructured while your credit still qualifies you for the better options. I'll tell you plainly if nothing needs to change. <a href="/contact/">Contact me</a> if you want that conversation, and mention the missed payment in your first message.</p>
 `;
 
 export default {

@@ -7,7 +7,7 @@ ${short({ answer: "Lenders usually count your base wage first. Overtime, premium
 <h2>You earn well, but your pay stub is hard to read</h2>
 <p>You work two weeks on and two weeks off. Or seven on and seven off. Maybe you fly in, drive in, or sleep in a camp trailer. Your pay has a base wage, overtime, a shift premium and a camp or travel line. Some of it lands in a bank in another province.</p>
 <p>That is a good income. It is also a hard one to feed into a bank form with one box for salary. So the first answer you get is often low, or it is a no.</p>
-<p>This page is about your income and your paperwork, wherever you live. It is a plain guide to a mortgage for camp workers in BC, a mine worker mortgage, and a shift worker mortgage. It covers the pay types, the history lenders want, and how to sign a deal when you are three provinces away from your lawyer. Joshua Resvick is a BC mortgage broker with Xeva Mortgage. He spent five years as an underwriter, so he knows how a lender reads a file like yours. He works from his Surrey office, by phone and video.</p>
+<p>This page is about your income and your paperwork, wherever you live. It is a plain guide to a mortgage for camp workers in BC, a mine worker mortgage, and a shift worker mortgage. It covers the pay types, the history lenders want, and how to sign a deal when you are three provinces away from your lawyer. I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as an underwriter, so I know how a lender reads a file like yours. I work from my Surrey office, by phone and video.</p>
 
 <h2>Shift worker mortgage: base wage first, extras second</h2>
 <p>A lender looks at each part of your pay on its own. Here is the common pattern. Lenders vary, so treat it as a map and not a rule.</p>
@@ -18,13 +18,13 @@ ${short({ answer: "Lenders usually count your base wage first. Overtime, premium
 <li><strong>Bonuses.</strong> Production, safety and retention bonuses are variable. Lenders commonly want to see them repeat over two years. A one-time sign-on bonus rarely counts as income, though it can count as savings if you can show where it went.</li>
 <li><strong>Allowances.</strong> Living-out, travel and meal pay are covered in the next section, because they get the most questions.</li>
 </ul>
-<p>The practical result is this. Base wage is the floor of what you can borrow. The rest can raise it, but only if your history and your lender line up. See what your base wage alone supports in the <a href="/mortgage-calculators/#affordability">affordability calculator</a>. Then ask Joshua what the rest could add.</p>
+<p>The practical result is this. Base wage is the floor of what you can borrow. The rest can raise it, but only if your history and your lender line up. See what your base wage alone supports in the <a href="/mortgage-calculators/#affordability">affordability calculator</a>. Then ask me what the rest could add.</p>
 
 <h2>Mortgage for camp workers in BC: allowances and living-out pay</h2>
 <p>Many camp and rotation jobs pay a daily allowance on top of wages. It might be called a living-out allowance, a camp per diem, a travel allowance or a board and lodging line. Your employer may also give you the room and meals instead of cash.</p>
 <p>Many lenders do not count an allowance as income that can carry a mortgage. Some count a part of it. A few treat it as taxable pay and count it fully if it shows on your T4. Lenders vary, so ask before you assume it helps.</p>
 <p>The tax side can change how it looks on paper. The Canada Revenue Agency has rules for board and lodging at a special work site. The value is not counted as income when three things are true. The site is in a prescribed zone. You kept your main home outside a prescribed zone. And you and your employer completed Form TD4. The exempt part is still reported on your T4 under code 31. (Canada Revenue Agency, Board, lodging, and transportation at a special work site in a prescribed zone, read October 2026). Whether you qualify is a tax question, so ask your employer or an accountant.</p>
-<p>For your mortgage, the point is simple. An allowance may show up as its own line, in a box on your T4, or not at all. Keep your pay stubs and T4s together so the lender can see each piece. Joshua will show you the file with the allowance and without it, so you know which number you are really working with.</p>
+<p>For your mortgage, the point is simple. An allowance may show up as its own line, in a box on your T4, or not at all. Keep your pay stubs and T4s together so the lender can see each piece. I'll show you the file with the allowance and without it, so you know which number you are really working with.</p>
 
 <h2>Mine worker mortgage: a new hire versus two years on the job</h2>
 <p>Mines, mills, smelters and plants hire in waves. If you are new, you may be earning more than you ever did, with no history of it. That is a common spot, and it is fixable.</p>
@@ -51,7 +51,7 @@ ${short({ answer: "Lenders usually count your base wage first. Overtime, premium
 <p>Resource work has gaps. A pipeline spread ends. A mill closes for maintenance. A mine pauses a line. A seasonal job stops when the weather turns. A gap is not a failed file, but a lender will ask about it.</p>
 <p>Here is what usually helps.</p>
 <ul>
-<li><strong>A pattern you can show.</strong> Seven months on and five off, for four years in a row, is a pattern. Lenders commonly average income over twelve months and over two years. Joshua can show you what that math gives.</li>
+<li><strong>A pattern you can show.</strong> Seven months on and five off, for four years in a row, is a pattern. Lenders commonly average income over twelve months and over two years. I can show you what that math gives.</li>
 <li><strong>A short, honest note.</strong> Explain the gap in a few lines: what ended, why, and what you did next. A one-page letter beats a lender guessing.</li>
 <li><strong>A recall or return date.</strong> A letter that says you are recalled for the next season or the next shutdown cycle carries weight.</li>
 <li><strong>Money in the bank.</strong> Savings that cover several months of payments give a lender comfort. They also give you comfort.</li>
@@ -66,17 +66,17 @@ ${short({ answer: "Lenders usually count your base wage first. Overtime, premium
 <li><strong>Deposits that match.</strong> A lender may check that your pay stubs match your bank deposits. If your pay goes to one account and your savings sit in another, keep statements for both.</li>
 <li><strong>Your residence.</strong> Where you live and where you work can differ. List both clearly on the application.</li>
 </ul>
-<p>If you are paid by an employer outside Canada, or in another currency, tell Joshua at the first call. That file takes more care, and fewer lenders will take it.</p>
+<p>If you are paid by an employer outside Canada, or in another currency, tell me at the first call. That file takes more care, and fewer lenders will take it.</p>
 
 <h2>Away on rotation: signing by phone, video and e-signature</h2>
 <p>You cannot take a week off to sit in a branch. You may have no cell signal for 14 days. A mortgage can still work around that, if you plan for it.</p>
-<p>Joshua works by phone and video, so a call can happen on your break, before a shift or after one. Many lenders accept documents signed by e-signature. Final signing of the mortgage in BC is done with a lawyer or notary. Many offer signing away from the office, and some can sign by video or send a mobile signer. Policies differ, so ask yours early.</p>
+<p>I work by phone and video, so a call can happen on your break, before a shift or after one. Many lenders accept documents signed by e-signature. Final signing of the mortgage in BC is done with a lawyer or notary. Many offer signing away from the office, and some can sign by video or send a mobile signer. Policies differ, so ask yours early.</p>
 <p>Here is a plan that tends to work:</p>
 <ol>
 <li><strong>Pick closing dates that land on your time off.</strong> Ask your lawyer or notary to line up the signing for the first days home.</li>
 <li><strong>Hand over documents before you fly out.</strong> Upload T4s, pay stubs and ID while you have a good connection.</li>
 <li><strong>Name a backup.</strong> A spouse or trusted person can hold a power of attorney in some cases. A lawyer must set it up, and lenders have their own views. Ask early.</li>
-<li><strong>Lock the rate for the right window.</strong> A rate hold can run months. Joshua can match it to your rotation so an offer does not expire while you are in the field.</li>
+<li><strong>Lock the rate for the right window.</strong> A rate hold can run months. I can match it to your rotation so an offer does not expire while you are in the field.</li>
 </ol>
 
 <h2>Buy near the site, or where your family lives</h2>
@@ -85,7 +85,7 @@ ${short({ answer: "Lenders usually count your base wage first. Overtime, premium
 <li><strong>A home in a larger centre.</strong> Rotation workers often buy where their family lives, so the days off are spent at home. See the pages on <a href="/mortgage-broker-kamloops/">Kamloops</a> and <a href="/mortgage-broker-prince-george/">Prince George</a> for how those markets and resource incomes fit together.</li>
 <li><strong>A home near the work.</strong> If you drive in and out each shift, a home in town makes the commute short. Small towns can have older homes and thin sales records, which affects appraisals. Our pages for <a href="/mortgage-broker-kitimat/">Kitimat</a>, <a href="/mortgage-broker-terrace/">Terrace</a> and <a href="/mortgage-broker-princeton/">Princeton</a> cover those local points.</li>
 </ul>
-<p>The lender counts your income the same either way. What changes is the property. Lenders look closely at small remote markets, and an appraisal can come in under the price. Joshua checks the property early, before you pay for an inspection.</p>
+<p>The lender counts your income the same either way. What changes is the property. Lenders look closely at small remote markets, and an appraisal can come in under the price. I check the property early, before you pay for an inspection.</p>
 
 <h2>Rental property and what to do with the extra income</h2>
 <p>When you work a rotation, you can build cash faster than many buyers. Some workers use it to buy a second property. A rental can also be a home base you rent out while you live in camp.</p>
@@ -126,11 +126,11 @@ ${short({ answer: "Lenders usually count your base wage first. Overtime, premium
 <li><strong>Signing that fits your rotation.</strong> Dates, documents and e-signature are planned before you fly out.</li>
 </ol>
 
-${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some files with very new or irregular income may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
+${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays me and you pay nothing for my work. Some files with very new or irregular income may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
-<p class="more-links"><strong>Where Joshua helps camp, mine and shift workers.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-kitimat/">Kitimat</a>, <a href="/mortgage-broker-terrace/">Terrace</a>, <a href="/mortgage-broker-quesnel/">Quesnel</a>, <a href="/mortgage-broker-princeton/">Princeton</a> and <a href="/mortgage-broker-kamloops/">Kamloops</a>. Related pages: <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>.</p>
+<p class="more-links"><strong>Where I help camp, mine and shift workers.</strong> I serve buyers online from my Surrey office in <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-kitimat/">Kitimat</a>, <a href="/mortgage-broker-terrace/">Terrace</a>, <a href="/mortgage-broker-quesnel/">Quesnel</a>, <a href="/mortgage-broker-princeton/">Princeton</a> and <a href="/mortgage-broker-kamloops/">Kamloops</a>. Related pages: <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>.</p>
 
-${cta({ title: "Talk to a broker who works your schedule", text: "Book a 15-minute call on a break, in the camp lounge or on a day off. Share how you are paid and how long you have been on the job. You will leave knowing which lenders fit and what to line up first. Or <a href=\"/contact/\">contact Joshua</a> by email." })}
+${cta({ title: "Talk to a broker who works your schedule", text: "Book a 15-minute call on a break, in the camp lounge or on a day off. Share how you are paid and how long you have been on the job. You will leave knowing which lenders fit and what to line up first. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {
@@ -141,11 +141,11 @@ export default {
   nav: "/first-time-home-buyer-bc/",
   body,
   faqs: [
-    { q: "Will a lender count my overtime and shift premiums?", a: "Often, after a history. Many lenders want two years of T4s showing the pay, then use an average, or the lower of the two years. Some count none. Base wage is usually counted first. Lenders vary, so Joshua checks your file against several policies and shows you the number with and without the extras." },
-    { q: "Does a camp or living-out allowance count as income?", a: "Many lenders do not count it, and some count only part. A few count it if it is taxable and shows on your T4. Policies vary. Keep your pay stubs and T4s together, and ask before you assume the allowance helps. Joshua can show you both versions of the file." },
+    { q: "Will a lender count my overtime and shift premiums?", a: "Often, after a history. Many lenders want two years of T4s showing the pay, then use an average, or the lower of the two years. Some count none. Base wage is usually counted first. Lenders vary, so I check your file against several policies and show you the number with and without the extras." },
+    { q: "Does a camp or living-out allowance count as income?", a: "Many lenders do not count it, and some count only part. A few count it if it is taxable and shows on your T4. Policies vary. Keep your pay stubs and T4s together, and ask before you assume the allowance helps. I can show you both versions of the file." },
     { q: "I started a new mine job. How soon can I get a mortgage?", a: "Sometimes right away, sometimes after probation. Many lenders want probation finished, and a few will work with a signed offer. If you did similar work before, past T4s help. A pre-approval on base wage can start now, then you update it as your history grows." },
     { q: "Can I get a mortgage if my work has layoffs or seasonal shutdowns?", a: "Often yes. Lenders look for a pattern, like the same months on and off for several years. Explain each gap in a short note and add a recall letter if you have one. Do not hide a layoff, because a late surprise can stop a deal." },
-    { q: "My pay comes from an employer in another province. Is that a problem?", a: "Usually not. Lenders see it often. Bring T4s, pay stubs and an employer letter that names your job, wage, rotation and work location. Keep bank statements that match the deposits. If your employer is outside Canada or pays in another currency, tell Joshua early, because fewer lenders take that." },
-    { q: "How do I sign mortgage papers while I am away on rotation?", a: "Joshua works by phone and video, and many lenders accept e-signed documents. Final signing in BC is done with a lawyer or notary, and many offer signing away from the office. Policies differ, so ask early and pick a closing date that falls on your time off." }
+    { q: "My pay comes from an employer in another province. Is that a problem?", a: "Usually not. Lenders see it often. Bring T4s, pay stubs and an employer letter that names your job, wage, rotation and work location. Keep bank statements that match the deposits. If your employer is outside Canada or pays in another currency, tell me early, because fewer lenders take that." },
+    { q: "How do I sign mortgage papers while I am away on rotation?", a: "I work by phone and video, and many lenders accept e-signed documents. Final signing in BC is done with a lawyer or notary, and many offer signing away from the office. Policies differ, so ask early and pick a closing date that falls on your time off." }
   ]
 };

@@ -8,9 +8,9 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-kit
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Kitimat by phone and video from his Surrey office. Big LNG projects bring contract and rotation pay, and lenders read that kind of income with care. A file built around how you are paid, and a home that appraises, gets through more easily.",
+  answer: "I serve Kitimat by phone and video from my Surrey office. Big LNG projects bring contract and rotation pay, and lenders read that kind of income with care. A file built around how you are paid, and a home that appraises, gets through more easily.",
   who: "Plant and project workers, contractors, trades, and buyers of older homes or mobile homes in Kitimat.",
-  next: "Book a 15-minute call and tell Joshua how you are paid and when your contract ends."
+  next: "Book a 15-minute call and tell me how you are paid and when your contract ends."
 })}
 <p>Kitimat is a small industrial town at the head of Douglas Channel. Around 8,200 people live here. (Statistics Canada 2021 Census, as used in Kitimat Housing Needs Report 2024, read October 2026). A few very large projects sit around that small base, and they pull on everything from pay stubs to house prices.</p>
 <p>My name is Joshua Resvick, and I'm a mortgage broker with Xeva Mortgage. I was an underwriter for five years before brokering, so I've seen how a lender reads smelter pay, LNG contracts and camp rotations. I've funded more than 1,000 mortgages. My office is in Surrey, and Kitimat clients work with me by phone, video and secure upload. I don't have a Kitimat office. You can <a href="/contact/">book a 15-minute call</a> on your break or after a shift.</p>
@@ -62,10 +62,10 @@ ${censusTable("kitimat")}
 <li><strong>Time your closing to your move.</strong> If you can, pick a closing date that falls after you start work and after any probation ends.</li>
 <li><strong>Plan for the home you leave.</strong> If you own a place elsewhere, the sale date matters. A <a href="/bridge-financing/">bridge loan</a> may cover a gap in some cases.</li>
 </ol>
-<p>You do not have to live in Kitimat to start. Joshua works by phone and video, so a pre-approval can be done before you ever drive up Highway 37 or Highway 16. If you are moving from another province, lenders ask for the same kinds of papers. They just come from a different employer and a different bank.</p>
+<p>You do not have to live in Kitimat to start. I work by phone and video, so a pre-approval can be done before you ever drive up Highway 37 or Highway 16. If you are moving from another province, lenders ask for the same kinds of papers. They just come from a different employer and a different bank.</p>
 
 <h2>Contract, camp and rotation pay</h2>
-<p>Large projects hire in several ways, and a lender sorts them into different boxes. Policies vary, so Joshua checks each file against a lender's rules before you apply.</p>
+<p>Large projects hire in several ways, and a lender sorts them into different boxes. Policies vary, so I check each file against a lender's rules before you apply.</p>
 <h3>Permanent staff</h3>
 <p>A permanent, full-time job with a stated base wage is the easiest file. A lender usually wants an employer letter and recent pay stubs. Overtime and shift pay are often counted on an average, and many lenders want two years of history first.</p>
 <h3>Contract and project hires</h3>
@@ -74,11 +74,11 @@ ${censusTable("kitimat")}
 <p>Some project jobs include a camp stay or a daily allowance for living away from home. Many lenders do not count an allowance as income that can pay a mortgage. Some do count part of it. Ask before you assume it helps, and keep the pay stubs that show it.</p>
 <h3>Paid through your own company</h3>
 <p>Many trades invoice a contractor instead of drawing a wage. That is self-employed income, even if one customer pays all of it. Lenders usually want two years of tax filings. The <a href="/self-employed-mortgage-bc/">self-employed hub</a> and the <a href="/mortgage-for-contractors/">contractor page</a> explain the routes.</p>
-<p>The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> lists the papers worth gathering. If you have moved here from another province or country for a job, tell Joshua early. The <a href="/new-to-canada-mortgage/">new-to-Canada page</a> covers files with a short Canadian history.</p>
+<p>The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> lists the papers worth gathering. If you have moved here from another province or country for a job, tell me early. The <a href="/new-to-canada-mortgage/">new-to-Canada page</a> covers files with a short Canadian history.</p>
 
 <h2>Older homes in a small market</h2>
 <p>With so many homes built before 1981, expect to look at the roof, the wiring, the heating system and the plumbing. A home inspection protects you and shows the lender that the building is sound. Ask your insurer about the home before you remove conditions, because some older systems affect cover.</p>
-<p>A small town has few sales each year. That affects the appraisal. An appraiser may have few recent sales of similar homes to compare, and the value can come in below the price you agreed to. Some lenders also limit or price small remote markets in their own way. Lenders vary, so Joshua asks about the property early, before you pay for an inspection or an appraisal.</p>
+<p>A small town has few sales each year. That affects the appraisal. An appraiser may have few recent sales of similar homes to compare, and the value can come in below the price you agreed to. Some lenders also limit or price small remote markets in their own way. Lenders vary, so I ask about the property early, before you pay for an inspection or an appraisal.</p>
 <p>Good habits for a small market:</p>
 <ul>
 <li>Ask your realtor for recent sales on the same street, not just in town.</li>
@@ -106,12 +106,12 @@ ${censusTable("kitimat")}
 <li><strong>I keep an eye on it.</strong> With <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your Kitimat mortgage every year. I also call you about six months before renewal, in case a project wraps up or your work changes.</li>
 </ol>
 
-${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Kitimat files, such as pad homes or very new contract income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
+${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays me and you pay nothing for my work. Some Kitimat files, such as pad homes or very new contract income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
 <h2>Other resource towns</h2>
 <p>Another northern town where resource pay shapes the file is Prince George. The <a href="/mortgage-broker-prince-george/">Prince George page</a> covers it.</p>
 
-<p>If a home near Kitimat sits on First Nation land, it is financed differently from other land. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
+<p>If a home near Kitimat sits on First Nation land, it is financed differently from other land. I arrange mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
 
 
 <p>Many Kitimat buyers also look west. Our <a href="/mortgage-broker-prince-rupert/">Prince Rupert page</a> covers port wages, muskeg lots and the City's four-unit zoning.</p>
@@ -125,19 +125,19 @@ ${cta({ title: "Talk to a broker who serves Kitimat", text: "Book a 15-minute ca
 export default {
   slug: "/mortgage-broker-kitimat/",
   h1: "Mortgage broker in Kitimat, BC: buying a home or moving to Kitimat",
-  lede: "Buying a home in Kitimat, or moving to Kitimat for work? Joshua Resvick, Xeva Mortgage, serves Kitimat from his Surrey office by phone and video. LNG and smelter pay, contract work, older homes and small-market appraisals, explained the way an underwriter reads them.",
+  lede: "Buying a home in Kitimat, or moving to Kitimat for work? I'm Joshua Resvick, with Xeva Mortgage, and I serve Kitimat from my Surrey office by phone and video. LNG and smelter pay, contract work, older homes and small-market appraisals, explained the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Kitimat", "/mortgage-broker-kitimat/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
     { q: "Can I buy a home in Kitimat before I move there?", a: "Yes, often. Many people get pre-approved by phone or video, then make an offer when they visit or through a realtor. Lenders look at your job offer, pay and credit, not where you live today. Ask for a closing date that fits your start date and any probation." },
-    { q: "I am moving to Kitimat for a new job. When should I get pre-approved?", a: "As soon as you have a signed offer letter. A pre-approval shows your price range and holds a rate for a set time. Bring the offer, your start date, recent pay stubs and your down payment details. If you are still on probation, tell Joshua early so he can plan around it." },
-    { q: "I work on a contract at an LNG site. Can I get a mortgage?", a: "Often yes. Lenders commonly look at whether the contract runs past closing, or whether you have a record of back-to-back contracts in the same trade. A permanent role is simpler. Joshua checks your file against lender rules before you apply, so you know where it stands." },
+    { q: "I am moving to Kitimat for a new job. When should I get pre-approved?", a: "As soon as you have a signed offer letter. A pre-approval shows your price range and holds a rate for a set time. Bring the offer, your start date, recent pay stubs and your down payment details. If you are still on probation, tell me early so I can plan around it." },
+    { q: "I work on a contract at an LNG site. Can I get a mortgage?", a: "Often yes. Lenders commonly look at whether the contract runs past closing, or whether you have a record of back-to-back contracts in the same trade. A permanent role is simpler. I check your file against lender rules before you apply, so you know where it stands." },
     { q: "Will a lender count my camp pay or living allowance?", a: "Many lenders do not count an allowance as income that can carry a mortgage, and some count only part of it. Base wage is usually counted in full once your job is confirmed. Ask before you assume the allowance helps, and keep the pay stubs that show it." },
     { q: "My employer housing lease may end. Should I buy instead of renting?", a: "It depends on how long you plan to stay and what rent would cost. The District's report expects rents to rise as company leases reset. Compare the monthly cost of a home you could really buy with the rent you may face. A pre-approval shows your budget without a commitment." },
     { q: "Why would a Kitimat home appraise low?", a: "A small town has few sales, so an appraiser may have few close comparisons. The value can come in under the price you agreed to. Keep extra cash on hand, and put a value check in your conditions. Lenders vary on how they treat small remote markets." },
-    { q: "Can I buy a mobile home in Kitimat?", a: "Sometimes. A mobile home on land you own is a far easier file than one on a rented pad. Pad homes often have fewer lenders, shorter terms and age limits. Joshua checks this before you make an offer." },
+    { q: "Can I buy a mobile home in Kitimat?", a: "Sometimes. A mobile home on land you own is a far easier file than one on a rented pad. Pad homes often have fewer lenders, shorter terms and age limits. I check this before you make an offer." },
     { q: "Does LNG Canada Phase 2 change how a lender sees my file?", a: "Not directly. A lender looks at your job, pay and debts, not at the project. The announcement gave no job count or building timeline, so plan from your own contract dates and income, not from headlines." }
   ]
 };

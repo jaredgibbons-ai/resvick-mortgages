@@ -18,7 +18,7 @@ ${short({
 })}
 <h2>The answer most people get, and the part they do not</h2>
 <p>Here's the usual answer. Say your mortgage goes to a mainstream lender. That could be a bank, a credit union or a monoline lender that lends on standard guidelines. The lender pays the brokerage when the mortgage funds. You pay nothing for the broker's work.</p>
-<p>That's the answer on the <a href="/how-mortgage-brokers-get-paid/">how brokers get paid</a> page. It's the answer for the large majority of files Joshua Resvick arranges.</p>
+<p>That's the answer on the <a href="/how-mortgage-brokers-get-paid/">how brokers get paid</a> page. It's the answer for the large majority of files I arrange.</p>
 <p>It's also where most explanations stop. That leaves two follow-up questions. Where does that money come from, if not from me? And when is the answer not nothing?</p>
 <p>This post takes both questions seriously. A borrower who understands the money side can tell a fair deal from an unfair one with any broker, not just this one.</p>
 
@@ -27,7 +27,7 @@ ${short({
 <p>The payment comes from the lender's own revenue. It isn't added to your rate as a separate line. It isn't a charge on your balance, and there's no invoice.</p>
 <p>If the mortgage doesn't fund, no fee is paid. So a broker has every reason to build a file that will really get approved.</p>
 <p>Two details are worth knowing, because they show up in the paperwork.</p>
-<p>First, the payment goes to the brokerage, not to the person. Joshua works under Xeva Mortgage, BCFSA Brokerage Licence #X300203. The brokerage is the licensed party the lender pays.</p>
+<p>First, the payment goes to the brokerage, not to the person. I work under Xeva Mortgage, BCFSA Brokerage Licence #X300203. The brokerage is the licensed party the lender pays.</p>
 <p>Second, the arrangement is disclosed in writing. The BC Financial Services Authority requires two forms. The Form 1A is the Disclosure of Representation to Borrower. It explains who the broker acts for and how the brokerage may be paid. The Form 4 sets out the expected pay on your own deal, as an amount or as a way of working it out. You'll see both before you commit.</p>
 
 <h2>Does lender pay mean lender bias</h2>
@@ -73,7 +73,7 @@ ${short({
 <h2>Is a broker worth it if the bank is free too</h2>
 <p>Your bank doesn't charge you a fee either. So the choice isn't free versus paid. It's one lender's products versus several lenders' products. The full version is on the <a href="/mortgage-broker-vs-bank/">broker versus bank</a> page.</p>
 <p>Here are the practical differences, at no cost to you. A broker can place the file where it fits, not just where you already bank. They can compare penalty methods, not only rates. And they can tell you when the bank's offer is the right one.</p>
-<p>Joshua spent five years as an underwriter before ten years as a broker. That matters here. Reading a file the way a lender reads it is how a broker avoids a declined application, and a lender that's wrong for the borrower.</p>
+<p>I spent five years as an underwriter before ten years as a broker. That matters here. Reading a file the way a lender reads it is how a broker avoids a declined application, and a lender that's wrong for the borrower.</p>
 <p>None of that means every borrower needs a broker. Maybe your file is simple, you're close with one bank, and you don't care to compare. The branch may serve you well. The point is only that the comparison costs nothing. So there's little reason not to see it before you sign.</p>
 
 <h2>Questions to ask any broker before you commit</h2>
@@ -95,7 +95,7 @@ ${short({
     { q: "Is the broker's fee hidden in my interest rate?", a: "No. On an A-lender mortgage the lender pays the brokerage from its own revenue, and the rate you are offered is the rate the lender prices for your file. Lenders that accept broker applications price them alongside their other channels. Your written disclosure shows how the brokerage is paid so there is nothing to find in the rate." },
     { q: "Can a broker charge me a fee on a bank mortgage?", a: "It is unusual, and if it is proposed you should ask why. On a standard file placed with a mainstream lender, the lender pays the brokerage. A borrower fee belongs to the narrower world of B-lender and private files, where the lender pays less or nothing and the work is different, and it must be disclosed in writing first." },
     { q: "What are Form 1A and Form 4?", a: "They are the BC Financial Services Authority's disclosure forms. Form 1A, the Disclosure of Representation to Borrower, explains who the broker represents and how the brokerage can be paid. Form 4 sets out the remuneration expected on your transaction, as an amount or as the method used to calculate it. You see both before you commit." },
-    { q: "Do I pay anything for the first call?", a: "No. A 15-minute call with Joshua costs nothing and carries no obligation. You leave with a clear idea of what is realistic for your situation and what the next step would be, whether or not you go on to work together. The same is true of the written comparison if you proceed to that stage." },
+    { q: "Do I pay anything for the first call?", a: "No. A 15-minute call with me costs nothing and carries no obligation. You leave with a clear idea of what is realistic for your situation and what the next step would be, whether or not you go on to work together. The same is true of the written comparison if you proceed to that stage." },
     { q: "Why would anyone use a B or private lender if there are fees?", a: "Because for some borrowers the alternative is no mortgage at all, or a missed purchase, or a renewal that cannot be placed. A B-lender or private mortgage is usually a short-term bridge back to mainstream lending, and the fee is weighed against what the borrower gains. A good broker shows that trade-off in writing rather than assuming it." }
   ]
 };

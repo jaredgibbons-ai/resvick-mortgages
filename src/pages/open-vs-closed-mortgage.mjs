@@ -44,11 +44,11 @@ ${callout("Open, closed and the cost of leaving", "<p>A closed mortgage is only 
 <p>Some lenders offer products in between. A convertible mortgage can be changed to a longer closed term with no penalty. A short closed term runs six months to a year.</p>
 <p>A short closed term is cheaper than open and ends soon. A convertible term lets you lock in later. Which products exist depends on the lender, so ask what's available for your timeline. Don't assume a product labelled flexible is free to leave. Read what it says about prepayment and penalty.</p>
 
-<h2>How Joshua helps with the choice</h2>
-<p>Joshua Resvick starts with your timeline. Tell him you might sell in a year, and he'll compare open, short-term and closed options across a wide range of lenders. He'll include the cost of each way out. You'll see the results in the <a href="/lender-comparison-report/">Lender Comparison Report</a>.</p>
+<h2>How I help with the choice</h2>
+<p>I start with your timeline. Tell me you might sell in a year, and I'll compare open, short-term and closed options across a wide range of lenders. I'll include the cost of each way out. You'll see the results in the <a href="/lender-comparison-report/">Lender Comparison Report</a>.</p>
 <p>On a mortgage placed with a mainstream (A) lender, the lender pays the broker and you pay nothing for the service. Fees only come up on certain B-lender and private-lender files, with written disclosure first.</p>
 
-${cta({ title: "Tell Joshua your timeline", text: "Whether you might sell, refinance or receive a lump sum, a short conversation shows which structure fits and what the exit would cost.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "Tell me your timeline", text: "Whether you might sell, refinance or receive a lump sum, a short conversation shows which structure fits and what the exit would cost.", href: "/contact/", label: "Contact me" })}
 `;
 
 export default {

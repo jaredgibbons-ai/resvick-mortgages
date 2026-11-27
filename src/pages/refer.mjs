@@ -23,7 +23,7 @@ ${toggle("buying", "Buying a home")}${toggle("renewing", "Renewing")}${toggle("r
 <div class="fld"><label for="r-msg">Anything that would help me help them? (optional)</label><textarea id="r-msg" name="message" rows="3" placeholder="Their timeline, what they've been told so far, the best time to reach them"></textarea></div>
 <input type="hidden" name="intent" value="other">
 <div class="hp" aria-hidden="true"><label for="r-web">Leave this field empty</label><input id="r-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
-<label class="chk"><input type="checkbox" name="consent_referee" required data-msg="Please confirm the person you are referring has agreed to be contacted."><span>I've told them about Joshua, and they've said they're happy for him to get in touch. (Required. Canada's anti-spam rules mean I can't contact someone who hasn't agreed to hear from me, and I wouldn't want to anyway.)</span></label>
+<label class="chk"><input type="checkbox" name="consent_referee" required data-msg="Please confirm the person you are referring has agreed to be contacted."><span>I've told them about me, and they've said they're happy for me to get in touch. (Required. Canada's anti-spam rules mean I can't contact someone who hasn't agreed to hear from me, and I wouldn't want to anyway.)</span></label>
 <p class="small">By sending this you agree that Joshua Resvick may contact you to confirm the referral. See the <a href="/privacy/">privacy policy</a>.</p>
 <div><button class="btn" type="submit">Send the referral</button></div>
 <p class="form-msg" role="status" aria-live="polite"></p>

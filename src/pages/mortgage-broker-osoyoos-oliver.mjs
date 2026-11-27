@@ -8,9 +8,9 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-oso
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Osoyoos and Oliver by phone and video from his Surrey office. Buyers here include retirees, vineyard and orchard workers, and people who want a home on leased land. You can start the mortgage before you ever drive south.",
+  answer: "I serve Osoyoos and Oliver by phone and video from my Surrey office. Buyers here include retirees, vineyard and orchard workers, and people who want a home on leased land. You can start the mortgage before you ever drive south.",
   who: "Buyers of homes, orchard land and leasehold homes in Osoyoos, Oliver and the South Okanagan.",
-  next: "Book a 15-minute call and tell Joshua how you are paid and whether the home is on freehold or leased land."
+  next: "Book a 15-minute call and tell me how you are paid and whether the home is on freehold or leased land."
 })}
 <p>Osoyoos and Oliver sit in the South Okanagan desert, about 30 km apart on Highway 97. Osoyoos is on the Canada-US border. Oliver bills itself as wine country. Destination Osoyoos says more than 40 wineries lie within a 20-minute drive (Destination Osoyoos, Road Tripping to Osoyoos, read October 2026). Both are small towns with their own rules for suites, rentals and farm land. A mortgage here often comes with a question about the land, the season or the lease.</p>
 <p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I work from my Surrey office and help Osoyoos and Oliver clients by phone and video. There is no branch in either town. You can <a href="/contact/">book a 15-minute call</a> from your porch or your truck.</p>
@@ -23,7 +23,7 @@ ${ratesStrip()}
 <ul>
 <li><strong>Retirees.</strong> Pensions, annuities and registered income are usually counted from award letters and statements. Some lenders also consider investment income. A bigger down payment can offset a smaller income. See the <a href="/downsizing-and-your-mortgage/">downsizing page</a>.</li>
 <li><strong>Year-round wage jobs.</strong> The hospital, the school district and larger employers pay steady wages. An employer letter and recent pay stubs do most of the work.</li>
-<li><strong>Seasonal and tourism work.</strong> Destination Osoyoos calls local employment "significantly seasonal" (Destination Osoyoos, 5 Year Strategy 2024-2029, read October 2026). Many lenders average income over two years. Policies vary, so Joshua checks before you apply.</li>
+<li><strong>Seasonal and tourism work.</strong> Destination Osoyoos calls local employment "significantly seasonal" (Destination Osoyoos, 5 Year Strategy 2024-2029, read October 2026). Many lenders average income over two years. Policies vary, so I check before you apply.</li>
 <li><strong>Growers and owners.</strong> A vineyard, orchard or small business owner usually needs two years of tax returns, and lenders often look at net income after expenses. The <a href="/self-employed-mortgage-bc/">self-employed hub</a> explains the routes.</li>
 </ul>
 
@@ -54,11 +54,11 @@ ${censusTable("osoyoos-oliver")}
 <p>The main Osoyoos Indian Band reserve stretches from Oliver to Osoyoos (Town of Oliver, Official Community Plan Bylaw No. 1436, read October 2026). Some homes in the area are on band land under a long lease. These files work differently from a town lot.</p>
 <p>Indigenous Services Canada says that on designated reserve land, no mortgage is valid until the lessee and the lender enter into a mortgage acknowledgement agreement. The lessee, the lender, the department and the Band Council sign it. Leases and mortgages are registered in the Indian Lands Registry (Indigenous Services Canada, Leasing on designated reserve land, modified October 22, 2025, read October 2026). Insurance must also name the Band as an additional named insured and loss payee. That means more steps and more people than a normal closing, so timing matters.</p>
 <p>Taxes differ too. A non-member leaseholder pays property tax to the First Nation if it levies one. A homeowner who pays that tax to a First Nation cannot use the provincial home owner grant (Province of BC, Property taxes on reserve land, May 20, 2026, read October 2026). We have not verified how BC property transfer tax applies to a non-member's leasehold, so ask your lawyer.</p>
-<p>Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. Which lender fits depends on the lease, the land and your timing. Share the lease early. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
+<p>I arrange mortgages on reserve land, leased land and First Nation land through a lender that works on it. Which lender fits depends on the lease, the land and your timing. Share the lease early. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
 
 <h2>Vineyards, orchards and farm land</h2>
 <p>Osoyoos has 326.7 hectares of Agricultural Land Reserve (ALR). Most of it is in farm use (Town of Osoyoos, Official Community Plan Bylaw No. 1375, read October 2026). Oliver's plan names three agricultural areas. Rural irrigation comes from a pipe system and an open canal (Town of Oliver, Official Community Plan Bylaw No. 1436, read October 2026). Whether land is in the ALR changes what you can build and what a lender will value.</p>
-<p>A home on a few acres can finance like a house, but lenders often count only part of the land. A working vineyard or orchard is usually agricultural lending. Our <a href="/farm-and-alr-mortgages-bc/">farm and ALR page</a> covers both cases. Farm worker housing is also a local issue. In 2023 the regional district approved temporary use permits for worker housing at two Oliver-area farms (Castanet, Two Oliver-area farms given approval for temporary agricultural worker housing, October 16, 2023, read October 2026). A lender may not count worker cabins as part of the home's value, so tell Joshua if the listing has them.</p>
+<p>A home on a few acres can finance like a house, but lenders often count only part of the land. A working vineyard or orchard is usually agricultural lending. Our <a href="/farm-and-alr-mortgages-bc/">farm and ALR page</a> covers both cases. Farm worker housing is also a local issue. In 2023 the regional district approved temporary use permits for worker housing at two Oliver-area farms (Castanet, Two Oliver-area farms given approval for temporary agricultural worker housing, October 16, 2023, read October 2026). A lender may not count worker cabins as part of the home's value, so tell me if the listing has them.</p>
 <p>Wells, septic systems and irrigation rights are common outside town limits. Lenders may ask for test results. Budget for inspections. Rural Oliver is covered by the regional district rather than the Town, so the rules can differ from those inside town limits.</p>
 
 <h2>Suites, laneway homes and short-term rentals</h2>
@@ -79,7 +79,7 @@ ${censusTable("osoyoos-oliver")}
 <li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and call you about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
 </ol>
 
-${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some South Okanagan files, such as leasehold homes, working vineyards or new self-employed income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
+${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays me and you pay nothing for my work. Some South Okanagan files, such as leasehold homes, working vineyards or new self-employed income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
 <p>Buyers here also compare nearby towns. The <a href="/mortgage-broker-penticton/">Penticton page</a> covers the next large town north, and the <a href="/mortgage-broker-keremeos/">Keremeos page</a> covers the Similkameen to the west.</p>
 
@@ -94,17 +94,17 @@ ${cta({ title: "Talk to a broker who serves Osoyoos and Oliver", text: "Book a 1
 export default {
   slug: "/mortgage-broker-osoyoos-oliver/",
   h1: "Mortgage broker in Osoyoos and Oliver, BC: buying in the South Okanagan",
-  lede: "Buying a home in Osoyoos or Oliver, or moving to the South Okanagan? Joshua Resvick, Xeva Mortgage, serves wine country from his Surrey office by phone and video. Retirees, vineyard pay, leasehold homes on band land and farm lots, explained the way an underwriter reads them.",
+  lede: "Buying a home in Osoyoos or Oliver, or moving to the South Okanagan? I'm Joshua Resvick, with Xeva Mortgage, and I serve wine country from my Surrey office by phone and video. Retirees, vineyard pay, leasehold homes on band land and farm lots, explained the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Osoyoos and Oliver", "/mortgage-broker-osoyoos-oliver/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
     { q: "Can I buy a home in Osoyoos or Oliver before I move there?", a: "Often, yes. Many buyers get pre-approved by phone or video, then make an offer through a realtor. Lenders look at your income, credit and down payment, not where you live today. Ask for a closing date that fits your move." },
-    { q: "Can I get a mortgage on a leasehold home on Osoyoos Indian Band land?", a: "Yes, and Joshua arranges these files. Indigenous Services Canada says no mortgage on designated reserve land is valid until the lessee, lender, the department and the Band Council sign a mortgage acknowledgement agreement. The lender that fits depends on the lease and your timing, so share the lease early." },
-    { q: "How does a lender count seasonal vineyard or tourism pay?", a: "It depends on the lender. Many average your income over two years, and some count only the months you are paid. A steady wage from one employer helps. Owners and growers usually need two years of tax returns. Joshua checks lender rules before you apply." },
+    { q: "Can I get a mortgage on a leasehold home on Osoyoos Indian Band land?", a: "Yes, and I arrange these files. Indigenous Services Canada says no mortgage on designated reserve land is valid until the lessee, lender, the department and the Band Council sign a mortgage acknowledgement agreement. The lender that fits depends on the lease and your timing, so share the lease early." },
+    { q: "How does a lender count seasonal vineyard or tourism pay?", a: "It depends on the lender. Many average your income over two years, and some count only the months you are paid. A steady wage from one employer helps. Owners and growers usually need two years of tax returns. I check lender rules before you apply." },
     { q: "Can I use a South Okanagan home as a vacation rental?", a: "Maybe, but the rules differ by town. Osoyoos limits short-term rentals to the host's principal residence plus one suite. Oliver requires the owner to live on the property. Check the current bylaw before you plan on rental income, and note that lenders ask what rent they can count." },
     { q: "Can a suite or laneway home help me qualify?", a: "It can, if the unit is legal and the rent is documented. Both towns updated their zoning for small-scale multi-unit housing. Call the Town before you plan a build, because suite limits vary by lot and by zone." },
-    { q: "Is a vineyard or orchard property financed like a house?", a: "Sometimes. A home on a few acres can finance like a house, but lenders often count only part of the land. A working vineyard or orchard is usually agricultural lending. The Agricultural Land Reserve limits what you can build. Share the listing with Joshua before you offer." }
+    { q: "Is a vineyard or orchard property financed like a house?", a: "Sometimes. A home on a few acres can finance like a house, but lenders often count only part of the land. A working vineyard or orchard is usually agricultural lending. The Agricultural Land Reserve limits what you can build. Share the listing with me before you offer." }
   ]
 };

@@ -59,7 +59,7 @@ ${callout("What it costs to arrange", "<p>On a refinance or HELOC with a mainstr
 <p>Every option except a reverse mortgage needs you to qualify. The lender looks at your income, your credit, your other debts and the home's value. For a refinance or HELOC with a federally regulated lender, you also need to pass the stress test. A reverse mortgage looks mostly at your age, the home and where it is.</p>
 <p>An appraisal is almost always part of it. If your estimate of the value is high, the amount you can borrow drops with it. The equity estimator below shows what happens if the appraisal comes in 5% or 10% lower.</p>
 
-${cta({ title: "Not sure which one fits?", text: "Book a 15-minute call. Joshua will check your penalty, your equity and your numbers, and show you which option costs least in total." })}
+${cta({ title: "Not sure which one fits?", text: "Book a 15-minute call. I'll check your penalty, your equity and your numbers, and show you which option costs least in total." })}
 
 <p class="small">Sources: limits for federally regulated lenders from the site's refinance and HELOC guides (OSFI Guideline B-20). Reverse mortgage limits from the Financial Consumer Agency of Canada, Reverse mortgages page, read November 2026.</p>
 `;

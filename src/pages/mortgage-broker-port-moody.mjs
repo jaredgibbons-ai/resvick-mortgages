@@ -8,12 +8,12 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-por
 
 const body = `
 ${short({
-  answer: "Joshua Resvick helps Port Moody buyers and owners by phone and video from his Surrey office. Most Port Moody homes are strata condos and townhomes near the water and SkyTrain, with detached houses up the hill. Strata documents and price level decide how the file is built.",
+  answer: "I help Port Moody buyers and owners by phone and video from my Surrey office. Most Port Moody homes are strata condos and townhomes near the water and SkyTrain, with detached houses up the hill. Strata documents and price level decide how the file is built.",
   who: "Port Moody condo and townhome buyers, move-up buyers heading for a detached house, owners with a suite, and renewers.",
-  next: "Book a 15-minute call and tell Joshua whether you are looking at a strata home or a house."
+  next: "Book a 15-minute call and tell me whether you are looking at a strata home or a house."
 })}
 <p>Port Moody is at the east end of Burrard Inlet. Burnaby is to the west, Coquitlam to the east and south, and the small villages of Belcarra and Anmore lie to the northwest and north. Mountains rise to the north, and the highest point in the city is 712 metres (Wikipedia, Port Moody, read October 2026).</p>
-<p>Joshua Resvick is a mortgage broker licensed through Xeva Mortgage, and a former underwriter. He spent five years assessing files for a lender, then ten years as a broker, with more than 1,000 mortgages funded. He serves Port Moody from his Surrey office. There is no office in the city, and you work with him directly.</p>
+<p>I'm Joshua Resvick, a mortgage broker licensed through Xeva Mortgage, and a former underwriter. I spent five years assessing files for a lender, then ten years as a broker, with more than 1,000 mortgages funded. I serve Port Moody from my Surrey office. There is no office in the city, and you work with me directly.</p>
 
 ${ratesStrip()}
 
@@ -26,7 +26,7 @@ ${ratesStrip()}
 <p>Neighbourhoods such as Heritage Mountain and College Park have more single-family houses. These are often move-up purchases, where buyers sell a condo and carry the equity into a larger home. Those files raise questions about the order of events. Do you sell first, buy first, or need a bridge? The <a href="/bridge-financing/">bridge financing page</a> explains the choices.</p>
 
 <h2>Incomes in Port Moody</h2>
-<p>Port Moody's median household income was $115,000 for 2020, one of the highest of the cities we cover. About 16.2 percent of workers were self-employed. Professional services led the industries, followed by health care and retail. (Statistics Canada, 2021 Census Profile, read October 2026). Higher household incomes can still run into the insured limit on a home price. A down payment of less than 20 percent is only allowed under a set price cap. Joshua can show you where your numbers land before you start looking.</p>
+<p>Port Moody's median household income was $115,000 for 2020, one of the highest of the cities we cover. About 16.2 percent of workers were self-employed. Professional services led the industries, followed by health care and retail. (Statistics Canada, 2021 Census Profile, read October 2026). Higher household incomes can still run into the insured limit on a home price. A down payment of less than 20 percent is only allowed under a set price cap. I can show you where your numbers land before you start looking.</p>
 ${censusTable("port-moody")}
 
 <h2>Buying a strata home: what the lender wants to read</h2>
@@ -37,7 +37,7 @@ ${censusTable("port-moody")}
 <li><strong>Any special levy</strong>, past or proposed. A large levy can change what you can afford.</li>
 <li><strong>The Form B Information Certificate</strong>, which summarizes the strata's finances, rules and insurance.</li>
 </ul>
-<p>Each lender sets its own comfort level. A building with a major repair coming can be harder to finance with some lenders than others. The <a href="/condo-and-townhouse-mortgages/">condo and townhouse mortgage page</a> goes through the details. Joshua can look at the package alongside your offer so that the financing condition is realistic.</p>
+<p>Each lender sets its own comfort level. A building with a major repair coming can be harder to finance with some lenders than others. The <a href="/condo-and-townhouse-mortgages/">condo and townhouse mortgage page</a> goes through the details. I can look at the package alongside your offer so that the financing condition is realistic.</p>
 
 <h2>Moody Centre and the presale question</h2>
 <p>New construction is planned near the station. The Province's page on the Moody Centre transit-oriented development describes a proposal to redevelop a two-acre parcel near the station into hundreds of rental units. It says the master-planned area around the station would bring more than 3,000 new homes. It gives no construction timeline (BC Government, Moody Centre TOD, last updated July 17, 2026, read October 2026). So treat it as a plan, not a promise.</p>
@@ -52,15 +52,15 @@ ${censusTable("port-moody")}
 <p>The City of Port Moody allows one secondary suite in a single detached home. Its guide limits a suite to 90 square metres and 40 percent of the building's floor space. A suite cannot be stratified. A building permit is required. The suite needs one extra off-street parking space and fire separation from the main home. The City adds a utility fee for the extra water and sewer use. Renting the suite needs a home-based business licence (City of Port Moody, A Guide to Secondary Suites, read October 2026). The City's suite page also says suites are allowed in the duplex zone.</p>
 <p>A permitted suite lets many lenders count part of the rent. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> shows how the offset and add-back methods work.</p>
 
-<h2>What Joshua does for Port Moody clients</h2>
+<h2>What I do for Port Moody clients</h2>
 <ol>
-<li><strong>Reads the building first.</strong> If you are buying a strata home, he looks at the strata package with your pre-approval in mind.</li>
-<li><strong>Compares lenders on paper.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> shows rate, term, penalty method and prepayment terms for each lender he would use.</li>
-<li><strong>Coordinates the closing.</strong> Your realtor, lawyer and appraiser get what they need from him, and you upload documents through a secure link.</li>
+<li><strong>Reads the building first.</strong> If you are buying a strata home, I look at the strata package with your pre-approval in mind.</li>
+<li><strong>Compares lenders on paper.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> shows rate, term, penalty method and prepayment terms for each lender I would use.</li>
+<li><strong>Coordinates the closing.</strong> Your realtor, lawyer and appraiser get what they need from me, and you upload documents through a secure link.</li>
 <li><strong>Looks ahead to renewal.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> means a yearly check-in and a call about six months before your term ends.</li>
 </ol>
 
-${callout("The cost to you", "<p>On most Port Moody purchases and renewals, the lender pays Joshua and you pay nothing for the service. A few files, such as those with unusual income or a building that mainstream lenders avoid, may need a B or private lender. Any fee to you must then appear in writing on BCFSA's Form 1A before you commit.</p>")}
+${callout("The cost to you", "<p>On most Port Moody purchases and renewals, the lender pays me and you pay nothing for the service. A few files, such as those with unusual income or a building that mainstream lenders avoid, may need a B or private lender. Any fee to you must then appear in writing on BCFSA's Form 1A before you commit.</p>")}
 
 <h2>Buying, renewing and refinancing in Port Moody</h2>
 <p><strong>First-time buyers</strong> in Port Moody should look at each program on its own test. The transfer tax exemption, the First Home Savings Account, the Home Buyers' Plan and the GST rebate on new homes do not share one definition. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> sorts them out.</p>
@@ -68,28 +68,28 @@ ${callout("The cost to you", "<p>On most Port Moody purchases and renewals, the 
 <p><strong>Self-employed buyers</strong> need a lender that reads business income well. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains how lenders read business income. For how a rate is set, see the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
 <h2>Neighbouring cities</h2>
-<p>Many Port Moody buyers also look in <a href="/mortgage-broker-coquitlam/">Coquitlam</a>, where the housing mix differs. Others look at <a href="/mortgage-broker-burnaby/">Burnaby</a>, just to the west. Joshua serves all three the same way. The <a href="/contact/">contact page</a> has the phone number and email for a first call.</p>
+<p>Many Port Moody buyers also look in <a href="/mortgage-broker-coquitlam/">Coquitlam</a>, where the housing mix differs. Others look at <a href="/mortgage-broker-burnaby/">Burnaby</a>, just to the west. I serve all three the same way. The <a href="/contact/">contact page</a> has the phone number and email for a first call.</p>
 
 
 ${cityFacts("port-moody")}
 ${nearbyCallout("port-moody", callout)}
 
-${cta({ title: "Talk to a broker who serves Port Moody", text: "Book a 15-minute call. Tell Joshua which building or street you are looking at. You will leave knowing what a lender will check and what to gather." })}
+${cta({ title: "Talk to a broker who serves Port Moody", text: "Book a 15-minute call. Tell me which building or street you are looking at. You will leave knowing what a lender will check and what to gather." })}
 `;
 
 export default {
   slug: "/mortgage-broker-port-moody/",
   h1: "Mortgage broker serving Port Moody, BC",
-  lede: "Joshua Resvick, Xeva Mortgage, helps Port Moody buyers and owners from his Surrey office by phone and video. Strata homes, presales, larger purchase prices and suites, read the way an underwriter reads them.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I help Port Moody buyers and owners from my Surrey office by phone and video. Strata homes, presales, larger purchase prices and suites, read the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Port Moody", "/mortgage-broker-port-moody/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "What does a lender check when I buy a Port Moody condo?", a: "Besides your income and credit, many lenders review parts of the strata package: minutes, the budget, the contingency reserve fund, any special levy and the Form B. A building facing a large repair can be harder to finance with some lenders. Joshua reviews the package with your offer so the financing condition is realistic." },
-    { q: "Can I use a 30-year amortization on a Port Moody home?", a: "Possibly. A 30-year amortization on an insured mortgage is open to first-time buyers and buyers of new builds, and insured mortgages apply only to prices under $1,500,000. Uninsured mortgages have different rules, and lenders vary. Joshua will check which schedule your purchase and lender allow." },
+    { q: "What does a lender check when I buy a Port Moody condo?", a: "Besides your income and credit, many lenders review parts of the strata package: minutes, the budget, the contingency reserve fund, any special levy and the Form B. A building facing a large repair can be harder to finance with some lenders. I review the package with your offer so the financing condition is realistic." },
+    { q: "Can I use a 30-year amortization on a Port Moody home?", a: "Possibly. A 30-year amortization on an insured mortgage is open to first-time buyers and buyers of new builds, and insured mortgages apply only to prices under $1,500,000. Uninsured mortgages have different rules, and lenders vary. I'll check which schedule your purchase and lender allow." },
     { q: "How does a presale mortgage work if I buy near Moody Centre?", a: "You sign the contract now, but the mortgage is funded at completion, often a year or more later. Some lenders hold a rate for a limited time, and others approve closer to completion at the rate of that day. Your income and the appraisal are checked again at the end." },
     { q: "Can I rent out a suite in a Port Moody house?", a: "Port Moody allows one suite in a single detached home. It needs a building permit, an extra parking space and a home-based business licence to rent out. A permitted suite lets many lenders count part of the rent. An unpermitted one usually cannot be counted." },
-    { q: "Do I have to go to Surrey to work with Joshua?", a: "No. Everything can run by phone, video and secure document upload, with a local appraiser and your own lawyer or notary. If you would rather meet in person, ask on the first call. His office is in Surrey, and there is no Port Moody branch." }
+    { q: "Do I have to go to Surrey to work with you?", a: "No. Everything can run by phone, video and secure document upload, with a local appraiser and your own lawyer or notary. If you would rather meet in person, ask on the first call. My office is in Surrey, and there is no Port Moody branch." }
   ]
 };

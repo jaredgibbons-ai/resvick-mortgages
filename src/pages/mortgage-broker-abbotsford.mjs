@@ -8,7 +8,7 @@ const slug = "/mortgage-broker-abbotsford/";
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Abbotsford online and by phone from his Surrey office. He handles suite homes, first-time purchases, renewals, and the acreage and farm files that make Abbotsford different.",
+  answer: "I serve Abbotsford online and by phone from my Surrey office. I handle suite homes, first-time purchases, renewals, and the acreage and farm files that make Abbotsford different.",
   who: "Abbotsford buyers and homeowners, especially anyone looking at an acreage, a farm or a home with a suite.",
   next: "Book a 15-minute call before you fall for an acreage, so you know what a lender will value."
 })}
@@ -17,7 +17,7 @@ ${short({
 <p>Roughly 72 percent of the city sits inside the Agricultural Land Reserve (City of Abbotsford, 2021). Farming is a big part of the local economy.</p>
 <p>The urban part of the city is where most of the houses, townhouses and condos are. It runs from the historic downtown and Clearbrook to the newer east-side subdivisions and up the slopes of Sumas Mountain and Eagle Mountain.</p>
 <p>Around it, and in Bradner, Mount Lehman and Matsqui Prairie, are the acreages, hobby farms and working farms. They give Abbotsford files a character few other cities have.</p>
-<p>Joshua Resvick serves Abbotsford from his office in Surrey, by phone, video and secure document upload. There's no Abbotsford branch, and you never need to visit an office. Every step is done online, and your lawyer or notary handles the signing near you.</p>
+<p>I serve Abbotsford from my office in Surrey, by phone, video and secure document upload. There's no Abbotsford branch, and you never need to visit an office. Every step is done online, and your lawyer or notary handles the signing near you.</p>
 
 ${ratesStrip()}
 
@@ -34,7 +34,7 @@ ${censusTable("abbotsford")}
 <li><strong>Additional residences.</strong> The ALR and the city have rules on second homes and farm worker housing on farmland. Don't assume a second home on the property can be rented, or counted as income.</li>
 </ul>
 <p>None of this makes a Bradner acreage impossible to finance. It means the lender is chosen to suit the property. Then the down payment and timeline are planned around what that lender will value.</p>
-<p>Joshua will tell you early if a property is going to need a bigger down payment than the listing price suggests.</p>
+<p>I'll tell you early if a property is going to need a bigger down payment than the listing price suggests.</p>
 
 <h2>Suite homes in the urban areas</h2>
 <p>East Abbotsford, Clearbrook and the newer subdivisions have lots of houses built with a basement suite. The suite is part of most buyers' plans.</p>
@@ -60,7 +60,7 @@ ${censusTable("abbotsford")}
 <h2>How it works from Abbotsford</h2>
 <ol>
 <li><strong>A 15-minute call</strong> on your goals, your numbers and your dates.</li>
-<li><strong>An underwriter's read</strong> of your file before a lender sees it. Joshua underwrote mortgages for five years before his ten as a broker. Acreage and farm files are where that matters most.</li>
+<li><strong>An underwriter's read</strong> of your file before a lender sees it. I underwrote mortgages for five years before my ten as a broker. Acreage and farm files are where that matters most.</li>
 <li><strong>A written Lender Comparison Report</strong>: rate, term, penalty method, prepayment room and portability, side by side.</li>
 <li><strong><a href="/mortgage-aftercare-program/">Resvick Aftercare</a></strong> after funding, with annual reviews and renewal outreach six months out.</li>
 </ol>
@@ -68,9 +68,9 @@ ${censusTable("abbotsford")}
 <p>The <a href="/mortgage-calculators/">calculators</a> cover payment, affordability with a suite, closing costs and renewal options. Every result shows right away, with no email needed.</p>
 
 ${cityFacts("abbotsford")}
-${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-langley/">Langley</a> and <a href="/mortgage-broker-surrey/">Surrey</a>, where his office is. He also serves Mission, Chilliwack and the rest of the Fraser Valley. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from an Abbotsford client helps the next family find him.</p>`)}
+${callout("Nearby", `<p>I also serve <a href="/mortgage-broker-langley/">Langley</a> and <a href="/mortgage-broker-surrey/">Surrey</a>, where my office is. I also serve Mission, Chilliwack and the rest of the Fraser Valley. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from an Abbotsford client helps the next family find me.</p>`)}
 
-<p>Farm families and small business owners here sometimes want to buy a shop, a packing building or a small commercial unit. Joshua can arrange that kind of file too, and our <a href="/commercial-mortgages-bc/">commercial mortgage page</a> sets out the down payment, the income tests and the costs.</p>
+<p>Farm families and small business owners here sometimes want to buy a shop, a packing building or a small commercial unit. I can arrange that kind of file too, and our <a href="/commercial-mortgages-bc/">commercial mortgage page</a> sets out the down payment, the income tests and the costs.</p>
 
 
 ${cta({ title: "Buying a suite home, an acreage or a first townhouse in Abbotsford?", text: "Book a 15-minute call. You'll leave knowing what's realistic for the property you want, including what a lender will value." })}
@@ -80,16 +80,16 @@ ${cta({ title: "Buying a suite home, an acreage or a first townhouse in Abbotsfo
 export default {
   slug,
   h1: "Mortgage broker serving Abbotsford, BC",
-  lede: "Acreages and farm files, suite homes in the urban areas, and first-time buyers moving out to the Valley. Joshua Resvick serves Abbotsford from his Surrey office, online and by phone.",
+  lede: "Acreages and farm files, suite homes in the urban areas, and first-time buyers moving out to the Valley. I serve Abbotsford from my Surrey office, online and by phone.",
   crumbs: [["Home", "/"], ["Abbotsford", slug]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [cityServiceSchema(slug, "Abbotsford", ["Mission", "Chilliwack"])],
   faqs: [
     { q: "Why would an acreage need a bigger down payment than the price suggests?", a: "Because many conventional lenders value only the house and a limited number of acres, and give little or no value to the rest of the land or to barns, shops and arenas. The mortgage is based on what the lender values, not the price, so the down payment has to cover the difference. Choosing a lender that understands acreages narrows that gap." },
-    { q: "Can farm income be used to qualify for a mortgage?", a: "Yes, but it is read through the farm's tax returns, usually averaged over two years, and some lenders treat a working farm as agricultural rather than residential lending. Add-backs and the treatment of farm losses differ by lender. The self-employed hub covers the general rules, and Joshua will say early which lenders fit a farm file." },
+    { q: "Can farm income be used to qualify for a mortgage?", a: "Yes, but it is read through the farm's tax returns, usually averaged over two years, and some lenders treat a working farm as agricultural rather than residential lending. Add-backs and the treatment of farm losses differ by lender. The self-employed hub covers the general rules, and I'll say early which lenders fit a farm file." },
     { q: "Does the Agricultural Land Reserve stop me from getting a regular mortgage?", a: "Not by itself. A house on ALR land can be financed by conventional lenders, but they value the land in a limited way, farm status changes the products available, and the rules on additional residences on farm land apply. The file is planned around what the lender will value rather than the listing price." },
     { q: "Will a lender count the suite rent on an East Abbotsford house?", a: "Usually some of it, if the suite is permitted and the rent is documented. Lenders either add a share of the rent to your income or subtract it from your housing costs, and the share varies by lender, so the lender choice can be the difference between an approval and a decline on a suite home." },
-    { q: "Do I need to come to Surrey to work with Joshua?", a: "No. He serves Abbotsford by phone, video and secure document upload, with your lawyer or notary handling the signing locally. There is no Abbotsford branch, and nothing in the process requires a visit. If you would rather meet in person, the Surrey office is available by appointment." }
+    { q: "Do I need to come to Surrey to work with you?", a: "No. I serve Abbotsford by phone, video and secure document upload, with your lawyer or notary handling the signing locally. There is no Abbotsford branch, and nothing in the process requires a visit. If you would rather meet in person, the Surrey office is available by appointment." }
   ]
 };

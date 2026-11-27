@@ -2,10 +2,10 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "A bank can only offer its own mortgages. A broker can compare many lenders, and on most mortgages the broker costs you nothing. Sometimes the bank is still the best choice, and a comparison is how you find out.", who: "You're deciding between their bank and a mortgage broker, especially first-time buyers.", next: "Get your bank's offer in writing, then <a href=\"/contact/\">ask Joshua</a> for a written comparison." })}
+${short({ answer: "A bank can only offer its own mortgages. A broker can compare many lenders, and on most mortgages the broker costs you nothing. Sometimes the bank is still the best choice, and a comparison is how you find out.", who: "You're deciding between their bank and a mortgage broker, especially first-time buyers.", next: "Get your bank's offer in writing, then <a href=\"/contact/\">ask me</a> for a written comparison." })}
 <h2>The structural difference: one shelf or many</h2>
 <p>A bank sells its own mortgages. At the branch, you might talk to a mortgage specialist or a relationship manager. Either way, they can only offer the products on that bank's shelf. The bank sets the prices and the rules. They may be excellent people with excellent products. They still cannot show you what the bank across the street would do.</p>
-<p>A mortgage broker works differently. A broker is licensed to arrange mortgages and can place one with any of the lenders the brokerage works with. Joshua Resvick is a broker with Xeva Mortgage, so he is not tied to a single lender. He doesn't fit you to one product. He looks for the lender whose rules and terms fit your situation. Then he puts the options side by side so you can see them.</p>
+<p>A mortgage broker works differently. A broker is licensed to arrange mortgages and can place one with any of the lenders the brokerage works with. I'm Joshua Resvick, a broker with Xeva Mortgage, so I'm not tied to a single lender. I don't fit you to one product. I look for the lender whose rules and terms fit your situation. Then I put the options side by side so you can see them.</p>
 <p>That structural difference is the heart of the choice. Everything else on this page follows from it.</p>
 
 <h2>Rate access</h2>
@@ -20,10 +20,10 @@ ${short({ answer: "A bank can only offer its own mortgages. A broker can compare
 <li><strong>Portability.</strong> Whether you can take the mortgage with you when you move.</li>
 <li><strong>The type of charge.</strong> Whether the mortgage is registered as a conventional charge or a collateral charge affects what happens when you want to switch lenders. Read the explanation of <a href="/collateral-charge-mortgage/">collateral charge mortgages</a> before you accept one.</li>
 </ul>
-<p>When a broker compares lenders, these items should appear in the comparison, not only the rate. In Joshua's practice they appear in the written <a href="/lender-comparison-report/">Lender Comparison Report</a>, which every client receives before choosing.</p>
+<p>When a broker compares lenders, these items should appear in the comparison, not only the rate. In my practice they appear in the written <a href="/lender-comparison-report/">Lender Comparison Report</a>, which every client receives before choosing.</p>
 
 <h2>Speed and the advice model</h2>
-<p>A bank can sometimes move quickly on a straightforward file, particularly for an existing customer with a simple profile. A broker's speed depends on the file and the lender. But a broker who prepares the file like an underwriter, as Joshua does, can often avoid delays. Missing documents and late questions are what slow things down.</p>
+<p>A bank can sometimes move quickly on a straightforward file, particularly for an existing customer with a simple profile. A broker's speed depends on the file and the lender. But a broker who prepares the file like an underwriter, as I do, can often avoid delays. Missing documents and late questions are what slow things down.</p>
 <p>The advice model differs too. A bank employee advises within the bank's products. A broker advises across lenders and is paid when the mortgage funds. Both have incentives, and neither is neutral. The right question is whether the incentives are disclosed and whether you can verify the advice. Brokers in BC must disclose how they are paid in writing, and a written comparison lets you check the recommendation.</p>
 
 <h2>Cost</h2>
@@ -39,11 +39,11 @@ ${cta({ title: "See what the market would offer you", text: "A 15-minute call is
 <li><strong>Your situation is simple</strong> and the bank's offer is competitive when you compare it. The only way to know is to compare, and even then the answer may be the bank.</li>
 <li><strong>A particular product fits you</strong> that only a given bank offers.</li>
 </ul>
-<p>A good broker will tell you so. Joshua's job is to put the options in front of you and say what he sees. If the offer you already have is the best one, you can take it with more confidence.</p>
+<p>A good broker will tell you so. My job is to put the options in front of you and say what I see. If the offer you already have is the best one, you can take it with more confidence.</p>
 
 <h2>The first-time buyer angle</h2>
 <p>For a first-time buyer, the differences matter more. You've never done this before, and you don't know which questions to ask. The choices you make now will follow you for years. That includes the amortization, the type of charge, the prepayment terms and the lender. A broker's role is to explain the process, set up the programs correctly, and put a real comparison in front of you before you commit to a purchase. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> explains the whole sequence. The page on <a href="/mortgage-pre-approval-bc/">mortgage pre-approval</a> explains what a proper one involves. It also explains why to get one before you start looking at homes.</p>
-<p>Buyers who start with a pre-approval from a bank are not locked in. A pre-approval is a starting point, and comparing it with what a broker can arrange costs nothing. If you are weighing the two, <a href="/contact/">contact Joshua</a> and he will walk through what a comparison would show.</p>
+<p>Buyers who start with a pre-approval from a bank are not locked in. A pre-approval is a starting point, and comparing it with what a broker can arrange costs nothing. If you are weighing the two, <a href="/contact/">contact me</a> and I'll walk through what a comparison would show.</p>
 
 ${callout("A fair way to decide", "<p>Get the bank's offer in writing. Ask a broker for a written comparison. Look at rate, penalty method, prepayment, portability and charge type side by side. Choose the one that fits your plans, not the one that was first or the one that was friendliest.</p>")}
 `;

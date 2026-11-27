@@ -30,7 +30,7 @@ ${short({ answer: "With a presale, you pay deposits from your own cash now, and 
 <p>Some offer extended holds or capped rates for presale buyers. Sometimes these come through builder programs the developer negotiated. Terms vary by lender and project. They often cost a bit more than the day's best rate, in exchange for certainty. Other lenders simply approve you close to completion, at the rates of the day.</p>
 <p>Neither approach is wrong. No lender's program is described here, because they change. What matters is that you know which one applies to your project. Don't rely on a rate hold that doesn't exist. A broker tracks the completion estimate. The real approval starts when the developer gives notice, usually a few months before completion.</p>
 
-${cta({ title: "Signed a presale, or thinking about one?", text: "Joshua will review the deposit schedule, the GST and the timeline. He'll tell you what a lender will need when the building is ready. The conversation is free." })}
+${cta({ title: "Signed a presale, or thinking about one?", text: "I'll review the deposit schedule, the GST and the timeline. I'll tell you what a lender will need when the building is ready. The conversation is free." })}
 
 <h2>What can go wrong at completion</h2>
 <ul>
@@ -56,7 +56,7 @@ ${cta({ title: "Signed a presale, or thinking about one?", text: "Joshua will re
 </ul>
 <p>If any of these might touch you, raise it with your lawyer and accountant before you sign, not after.</p>
 
-${callout("Fees, and who pays the broker", "<p>Arranging a presale mortgage is ordinary broker work with an unusual timeline. On a mortgage placed with an A lender, the lender pays the broker and you pay nothing for the service. Fees come up only on B-lender and private files, with written disclosure on BCFSA's Form 1A before you commit. <a href=\"/contact/\">Contact Joshua</a> with the project and the completion estimate, and he'll map the dates backward from it.</p>")}
+${callout("Fees, and who pays the broker", "<p>Arranging a presale mortgage is ordinary broker work with an unusual timeline. On a mortgage placed with an A lender, the lender pays the broker and you pay nothing for the service. Fees come up only on B-lender and private files, with written disclosure on BCFSA's Form 1A before you commit. <a href=\"/contact/\">Contact me</a> with the project and the completion estimate, and I'll map the dates backward from it.</p>")}
 `;
 
 export default {

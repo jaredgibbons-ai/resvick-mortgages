@@ -68,13 +68,13 @@ ${short({
 
 <h2>Common questions people ask about the test</h2>
 <p><strong>Does the test mean I will pay the higher rate?</strong> No. You pay your contract rate. The higher rate is only used to check that you qualify.</p>
-<p><strong>Can I be approved at the limit and still be comfortable?</strong> That is a separate question. The test is a minimum standard, not a budget. Joshua will often show a lower payment that suits your life better. The <a href="/how-much-mortgage-can-i-afford/">affordability page</a> covers it.</p>
+<p><strong>Can I be approved at the limit and still be comfortable?</strong> That is a separate question. The test is a minimum standard, not a budget. I'll often show a lower payment that suits your life better. The <a href="/how-much-mortgage-can-i-afford/">affordability page</a> covers it.</p>
 <p><strong>Will the rule change?</strong> It has changed before, and OSFI reviews it at least yearly. The <a href="/guides/">guides section</a> posts changes when they happen.</p>
 
-<h2>How Joshua helps</h2>
+<h2>How I help</h2>
 <ol>
 <li><strong>A 15-minute call</strong> about your income, debts and goals.</li>
-<li><strong>Your real limit.</strong> Joshua works out what each type of lender would approve, since the answer differs.</li>
+<li><strong>Your real limit.</strong> I work out what each type of lender would approve, since the answer differs.</li>
 <li><strong>A plan to improve it</strong>, if the number is lower than you hoped. That may mean paying a debt, waiting for a bonus to show on a tax return, or choosing a different lender.</li>
 <li><strong>A written comparison.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> sets out the options side by side.</li>
 </ol>
@@ -82,7 +82,7 @@ ${short({
 
 ${callout("The test is about qualifying, not paying", "<p>You will pay your contract rate. The higher rate is used once, at approval. Knowing that takes some of the fear out of the process. It also shows why small changes to your debts can make a large difference.</p>")}
 
-${cta({ title: "Want to know where you stand?", text: "Book a 15-minute call. You will leave knowing how the test affects you, which lenders fit and what to change first. Or <a href=\"/contact/\">contact Joshua</a> by email." })}
+${cta({ title: "Want to know where you stand?", text: "Book a 15-minute call. You will leave knowing how the test affects you, which lenders fit and what to change first. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {
@@ -98,6 +98,6 @@ export default {
     { q: "Does the stress test apply to variable-rate mortgages?", a: "Yes, in the same way. Fixed and variable mortgages are both tested at the greater of the contract rate plus 2 percentage points and 5.25 percent. Choose between them on cost and risk, since neither gets an easier test." },
     { q: "Do I need to pass the stress test to renew?", a: "Not with your current lender, since a renewal there is not a new application. If you switch lenders on an uninsured mortgage without raising the balance, you may also be exempt. If you increase the loan or refinance, the test normally applies." },
     { q: "Do credit unions have to follow the stress test?", a: "OSFI's rule covers federally regulated lenders. Many credit unions are provincially regulated, and some follow similar rules while others use their own. Lenders vary, so ask each one how it qualifies you." },
-    { q: "How can I qualify for a bigger mortgage?", a: "Pay down debts, add a co-borrower with income, put down more, use a longer amortization where allowed, or look at a lender that tests differently. Each has trade-offs. Joshua can show you what each one does to your numbers before you choose." }
+    { q: "How can I qualify for a bigger mortgage?", a: "Pay down debts, add a co-borrower with income, put down more, use a longer amortization where allowed, or look at a lender that tests differently. Each has trade-offs. I can show you what each one does to your numbers before you choose." }
   ]
 };

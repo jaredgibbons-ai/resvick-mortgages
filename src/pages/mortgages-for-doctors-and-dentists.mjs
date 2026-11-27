@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "Lenders look at where your income is heading, not just last year's tax return. Some lenders have professional or graduate programs for doctors and dentists. Terms and eligibility vary, so Joshua confirms what is current on your file.", who: "Residents, new graduates, locums, salaried physicians, dentists, pharmacists, veterinarians and optometrists, including those with a corporation.", next: "Check your price range with the <a href=\"/mortgage-calculators/#affordability\">affordability calculator</a>, then <a href=\"/contact/\">book a call</a>." })}
+${short({ answer: "Lenders look at where your income is heading, not just last year's tax return. Some lenders have professional or graduate programs for doctors and dentists. Terms and eligibility vary, so I confirm what is current on your file.", who: "Residents, new graduates, locums, salaried physicians, dentists, pharmacists, veterinarians and optometrists, including those with a corporation.", next: "Check your price range with the <a href=\"/mortgage-calculators/#affordability\">affordability calculator</a>, then <a href=\"/contact/\">book a call</a>." })}
 
 <h2>Your situation</h2>
 <p>You spent years in school. You may have a large student loan, a professional line of credit, and a car loan on top. Your bank account looks thin. Your résumé looks strong. Those two things don't match, and a basic application only sees the first one.</p>
@@ -11,7 +11,7 @@ ${short({ answer: "Lenders look at where your income is heading, not just last y
 
 <h2>A mortgage for new doctors and residents</h2>
 <p>Residency is a strange time to buy. Pay is steady, but it is a training salary. In BC, resident physicians are paid under a collective agreement between the Health Employers Association of BC and Resident Doctors of BC. The current four-year agreement runs from April 1, 2025 to March 31, 2029 (HEABC, April 15, 2026, read October 2026).</p>
-<p>That means a lender can see a real contract, with set pay and scheduled raises. What it can't easily see is the jump that comes after training. Many lenders qualify you mainly on today's pay. Some lenders have professional or graduate programs that look further ahead, such as a signed contract for after training. Others do not. Terms and eligibility vary, and Joshua confirms current programs on each file.</p>
+<p>That means a lender can see a real contract, with set pay and scheduled raises. What it can't easily see is the jump that comes after training. Many lenders qualify you mainly on today's pay. Some lenders have professional or graduate programs that look further ahead, such as a signed contract for after training. Others do not. Terms and eligibility vary, and I confirm current programs on each file.</p>
 <p>Here is what usually helps a resident or new graduate:</p>
 <ul>
 <li><strong>A signed offer or contract.</strong> A letter that shows your start date, your pay and your status can carry real weight. A verbal promise carries none.</li>
@@ -32,7 +32,7 @@ ${short({ answer: "Lenders look at where your income is heading, not just last y
 <li>Keep the line open if it is cheap and useful, but know that its limit may count against you.</li>
 <li>Don't open new credit just before applying. A new car loan can cut your approval by more than you expect.</li>
 </ul>
-<p>Joshua can show you how each choice moves the number before you commit to anything. You can also test ranges yourself with the <a href="/mortgage-calculators/">mortgage calculators</a>.</p>
+<p>I can show you how each choice moves the number before you commit to anything. You can also test ranges yourself with the <a href="/mortgage-calculators/">mortgage calculators</a>.</p>
 
 <h2>Locum, contract or health authority job?</h2>
 <p>How you are paid matters as much as how much. Lenders sort health professionals into a few groups, and each group gets read differently.</p>
@@ -54,21 +54,21 @@ ${short({ answer: "Lenders look at where your income is heading, not just last y
 <li><strong>Retained earnings.</strong> Money left in the corporation doesn't appear on your personal return. Some lenders will look at corporate financial statements and the notice of assessment to add some of it back. Others will not.</li>
 </ul>
 <p>The result can change your approval by a wide margin. This is why the right lender matters more for a corporation owner than almost anyone. Our <a href="/self-employed-mortgage-bc/">self-employed mortgage page</a> goes deeper on how lenders read business income. If you are in your first or second year of incorporation, the <a href="/newly-self-employed-mortgage/">newly self-employed page</a> is the better start.</p>
-<p>A practical tip: talk to your accountant before you change how you pay yourself. Raising your salary this year may cost you tax. It may also lift your mortgage approval. Joshua can tell you what a lender would count, and your accountant can tell you what it costs. You decide with both answers in hand.</p>
+<p>A practical tip: talk to your accountant before you change how you pay yourself. Raising your salary this year may cost you tax. It may also lift your mortgage approval. I can tell you what a lender would count, and your accountant can tell you what it costs. You decide with both answers in hand.</p>
 
 <h2>Buying a practice</h2>
-<p>A practice is a business deal. A clinic building, a strata unit used as an office, or the purchase of a practice with its equipment is usually a commercial file. Commercial lenders look at the business, the property and sometimes your personal finances too. The <a href="/commercial-mortgages-bc/">commercial mortgages page</a> explains the basics. On commercial files the borrower pays the broker's fee. Joshua discloses it in writing before you sign.</p>
+<p>A practice is a business deal. A clinic building, a strata unit used as an office, or the purchase of a practice with its equipment is usually a commercial file. Commercial lenders look at the business, the property and sometimes your personal finances too. The <a href="/commercial-mortgages-bc/">commercial mortgages page</a> explains the basics. On commercial files the borrower pays the broker's fee. I disclose it in writing before you sign.</p>
 <p>Timing matters. If you plan to buy a home and a practice in the same year, tell your broker early. A large business loan can change your personal approval. It is better to plan the order of the two purchases than to find out partway through.</p>
 
 <h2>Moving to BC from another province or country</h2>
 <p>Many health professionals arrive in BC for a job. You may be a physician moving from Ontario, a dentist coming from the UK, or a pharmacist with a new offer in Surrey. The hard part is usually timing. You want to buy near your workplace, but your licence, your start date and your first pay stub may be months apart.</p>
 <p>Lenders care about three things in that window: a signed offer, a confirmed start date, and proof you are allowed to work. A letter of offer can carry a lot of weight. Do you hold a work permit, or are you a new permanent resident? The <a href="/new-to-canada-mortgage/">new to Canada mortgage page</a> explains what lenders ask for. It also covers how a short Canadian credit history is handled. A credit history from your home country may or may not be counted. Lenders vary.</p>
-<p>Joshua works with clients across BC by phone and video from his Surrey office. That suits a move. You can sort out your financing before you land, and you don't need to be in the province to start.</p>
+<p>I work with clients across BC by phone and video from my Surrey office. That suits a move. You can sort out your financing before you land, and you don't need to be in the province to start.</p>
 <p>If you have to move before you sell your old home, ask about <a href="/bridge-financing/">bridge financing</a>. It can cover the gap between buying and selling.</p>
 
 <h2>Down payment and closing costs</h2>
 <p>Doctors and dentists are often surprised by how much cash a purchase needs, because income and savings don't always grow together. The federal rules for insured mortgages set the floor. CMHC describes it this way. You put 5% down on the first $500,000. You put 10% down on the part from $500,000 to $1.5 million. Homes at $1.5 million or more need 20% (CMHC, June 30, 2025, read October 2026).</p>
-<p>Here is a simple illustration. On a $1,000,000 home, the minimum insured down payment would be $25,000 on the first $500,000 plus $50,000 on the next $500,000. That comes to $75,000, before insurance premiums and closing costs. Rules change, so Joshua confirms current limits on your file.</p>
+<p>Here is a simple illustration. On a $1,000,000 home, the minimum insured down payment would be $25,000 on the first $500,000 plus $50,000 on the next $500,000. That comes to $75,000, before insurance premiums and closing costs. Rules change, so I confirm current limits on your file.</p>
 <p>A few other points matter for your cash plan.</p>
 <ul>
 <li>The First Home Savings Account lets you save $8,000 a year, up to $40,000 in total (Canada Revenue Agency, 2025, read October 2026). A first-time buyer who starts early in residency can build a good start.</li>
@@ -85,7 +85,7 @@ ${short({ answer: "Lenders look at where your income is heading, not just last y
 <li><strong>After you sign a contract.</strong> This is when a lender can see your new pay in writing. The number often rises.</li>
 <li><strong>Before a move.</strong> Rates and approvals can be held for a set period. A <a href="/mortgage-rate-hold/">rate hold</a> keeps your options open while you house-hunt.</li>
 </ul>
-<p>An approval is only as good as the paperwork behind it. Joshua spent five years as an underwriter, so he reads a file the way a lender does. He checks it before you make an offer on a home.</p>
+<p>An approval is only as good as the paperwork behind it. I spent five years as an underwriter, so I read a file the way a lender does. I check it before you make an offer on a home.</p>
 
 <h2>Documents to gather</h2>
 <p>The general list is on the <a href="/mortgage-application-checklist/">mortgage application checklist</a>. For a health professional, these usually come first:</p>
@@ -107,23 +107,23 @@ ${short({ answer: "Lenders look at where your income is heading, not just last y
 <li><strong>Forgetting a co-signer is another option.</strong> In some cases, a parent or partner can help. See the <a href="/mortgage-with-a-cosigner/">co-signer page</a> for how it works.</li>
 </ul>
 
-<h2>What working with Joshua looks like</h2>
+<h2>What working with me looks like</h2>
 <ol>
 <li><strong>A short call,</strong> by phone or video, set around your call schedule or clinic hours.</li>
-<li><strong>An income read.</strong> Joshua works out what each type of lender is likely to count for your pay and your debts. He tells you what would move the number.</li>
+<li><strong>An income read.</strong> I work out what each type of lender is likely to count for your pay and your debts. I tell you what would move the number.</li>
 <li><strong>A real pre-approval,</strong> checked against your documents.</li>
-<li><strong>The right lender,</strong> chosen for its policy on your type of income. Joshua confirms current professional programs on each file, because terms and eligibility vary.</li>
+<li><strong>The right lender,</strong> chosen for its policy on your type of income. I confirm current professional programs on each file, because terms and eligibility vary.</li>
 <li><strong>Support after funding,</strong> including renewal and planning for your next move.</li>
 </ol>
 
 <h2>What it costs</h2>
 <p>For most health professionals buying a home, the mortgage comes from a mainstream A lender. On those mortgages the lender pays the broker, and you pay nothing for the service. Fees only come up on certain B-lender and private files, and they are disclosed in writing on BCFSA Form 1A before you commit. Commercial files are different, as noted above. You can read more in <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
-${callout("Bring these to the first call", "<p>Have a rough idea of your pay or your contract, your student loan and line of credit balances, and your target move date. If you have a corporation, bring last year's financial statements and your accountant's name. That is enough for Joshua to give you a clear first read.</p>")}
+${callout("Bring these to the first call", "<p>Have a rough idea of your pay or your contract, your student loan and line of credit balances, and your target move date. If you have a corporation, bring last year's financial statements and your accountant's name. That is enough for me to give you a clear first read.</p>")}
 
-<p class="more-links"><strong>Where Joshua helps doctors and dentists.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-kamloops/">Kamloops</a>, <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-nanaimo/">Nanaimo</a>, <a href="/mortgage-broker-kelowna/">Kelowna</a>, <a href="/mortgage-broker-victoria/">Victoria</a>, <a href="/mortgage-broker-white-rock/">White Rock</a> and <a href="/mortgage-broker-vancouver/">Vancouver</a>.</p>
+<p class="more-links"><strong>Where I help doctors and dentists.</strong> I serve buyers online from my Surrey office in <a href="/mortgage-broker-kamloops/">Kamloops</a>, <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-nanaimo/">Nanaimo</a>, <a href="/mortgage-broker-kelowna/">Kelowna</a>, <a href="/mortgage-broker-victoria/">Victoria</a>, <a href="/mortgage-broker-white-rock/">White Rock</a> and <a href="/mortgage-broker-vancouver/">Vancouver</a>.</p>
 
-${cta({ title: "Your income, read the way a lender reads it", text: "Book a 15-minute call. Joshua will look at your stage, your debt and your timeline, then tell you what is realistic. Or <a href=\"/contact/\">contact him</a> by email." })}
+${cta({ title: "Your income, read the way a lender reads it", text: "Book a 15-minute call. I'll look at your stage, your debt and your timeline, then tell you what is realistic. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {
@@ -134,11 +134,11 @@ export default {
   nav: "/first-time-home-buyer-bc/",
   body,
   faqs: [
-    { q: "Can a medical resident get a mortgage in BC?", a: "Often, yes. Resident pay is a steady salary under a collective agreement. Many lenders qualify you on that pay, and some professional programs also look at a signed contract for after training. Terms and eligibility vary, so Joshua confirms what is current for your file before you apply." },
-    { q: "Do student loans and professional lines of credit lower my approval?", a: "They can. Lenders count a payment on student loans, even interest-free ones, and a professional line of credit may be counted on its balance or its limit. Lenders vary. Paying down a balance before you apply can raise the amount, and Joshua can show you by how much." },
+    { q: "Can a medical resident get a mortgage in BC?", a: "Often, yes. Resident pay is a steady salary under a collective agreement. Many lenders qualify you on that pay, and some professional programs also look at a signed contract for after training. Terms and eligibility vary, so I confirm what is current for your file before you apply." },
+    { q: "Do student loans and professional lines of credit lower my approval?", a: "They can. Lenders count a payment on student loans, even interest-free ones, and a professional line of credit may be counted on its balance or its limit. Lenders vary. Paying down a balance before you apply can raise the amount, and I can show you by how much." },
     { q: "How do lenders count locum income?", a: "Most lenders treat locum income as self-employment income, so they want tax returns and a track record, often two years. A shorter history can still work at some lenders. Which one fits depends on your billing, your documents and your timing, so ask before you apply." },
-    { q: "Does my professional corporation help or hurt my mortgage?", a: "It depends on how you pay yourself. Salary on a T4 is usually simple to count. Dividends are often averaged over two years. Money left in the corporation may be added back by some lenders and ignored by others. Check with your accountant first, then with Joshua." },
-    { q: "Are there special mortgage programs for doctors and dentists?", a: "Some lenders have professional or graduate programs for health professionals. They can allow, for example, more flexible income or credit rules. Terms and eligibility vary by lender and change over time. Joshua checks which programs are open now and whether you qualify, before you apply." },
-    { q: "Can I get pre-approved before I start a job in BC?", a: "Often, yes. A signed offer or contract with a start date usually helps. If you are new to Canada or just relocating, lenders may ask about your licence status and work permit too. Joshua works by phone and video, so you can start your pre-approval before you arrive." }
+    { q: "Does my professional corporation help or hurt my mortgage?", a: "It depends on how you pay yourself. Salary on a T4 is usually simple to count. Dividends are often averaged over two years. Money left in the corporation may be added back by some lenders and ignored by others. Check with your accountant first, then with me." },
+    { q: "Are there special mortgage programs for doctors and dentists?", a: "Some lenders have professional or graduate programs for health professionals. They can allow, for example, more flexible income or credit rules. Terms and eligibility vary by lender and change over time. I check which programs are open now and whether you qualify, before you apply." },
+    { q: "Can I get pre-approved before I start a job in BC?", a: "Often, yes. A signed offer or contract with a start date usually helps. If you are new to Canada or just relocating, lenders may ask about your licence status and work permit too. I work by phone and video, so you can start your pre-approval before you arrive." }
   ]
 };

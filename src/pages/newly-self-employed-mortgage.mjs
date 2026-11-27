@@ -35,7 +35,7 @@ ${short({ answer: "Most A lenders want two years of tax returns from a business 
 <li><strong>A co-signer or co-borrower.</strong> A parent, partner or sibling with a paycheque can join the application. The file then qualifies on their income while yours builds a history. It's a real commitment for them. It usually ends after two years, when you refinance in your name alone. The page on <a href="/mortgage-with-a-cosigner/">mortgages with a co-signer</a> explains what each person signs up for.</li>
 <li><strong>A bigger down payment.</strong> With 20 percent or more down, you don't need default insurance. That opens lenders with looser rules on time in business. With 35 percent or more, even more doors open, because the lender's risk is small.</li>
 <li><strong>A B-lender bridge to an A lender.</strong> Buy now with a one- or two-year B mortgage. File your two returns. Then switch to an A lender at the first renewal, with no penalty. The cost of the B period is the price of not waiting.</li>
-<li><strong>Waiting, on purpose.</strong> Sometimes the best advice is to buy in fourteen months, after the second return is filed. You use the time to prepare the file. That's a real strategy, and Joshua will say so when it's the right one.</li>
+<li><strong>Waiting, on purpose.</strong> Sometimes the best advice is to buy in fourteen months, after the second return is filed. You use the time to prepare the file. That's a real strategy, and I'll say so when it's the right one.</li>
 </ol>
 
 <h2>The paperwork that substitutes for history</h2>
@@ -57,13 +57,13 @@ ${callout("Get the pre-approval conversation right", "<p>A pre-approval for a ne
 <p><strong>One to two years.</strong> You have one tax return. Some B lenders will consider a stated income backed by that return and your bank statements. A few A lenders make exceptions when continuity is strong. This is the window where strategy matters most.</p>
 <p><strong>Two years and beyond.</strong> You have two returns, and your income can be averaged. You're now a standard self-employed borrower. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> describes the three doors open to you.</p>
 
-<h2>How Joshua approaches a young business</h2>
-<p>Joshua spent five years as an underwriter. He learned what an underwriter needs to say yes to a file with no history. There's a clear line from the old job to the new business. The deposits match the story. And nothing is left unexplained.</p>
+<h2>How I approach a young business</h2>
+<p>I spent five years as an underwriter. I learned what an underwriter needs to say yes to a file with no history. There's a clear line from the old job to the new business. The deposits match the story. And nothing is left unexplained.</p>
 <p>He builds your file in that order and finds the lenders interested in your case. Then he tells you what's best: buy now with a B lender, bring in a co-signer, or wait a year. Every client gets a written comparison before deciding.</p>
 <p>The fees are simple. On an A-lender mortgage, the lender pays the broker and you pay nothing. On B or private files, any fee is disclosed in writing on BCFSA Form 1A before you commit.</p>
-<p><a href="/contact/">Contact Joshua</a> and bring your start date, your former role and any contracts you hold. That's enough for a first answer.</p>
+<p><a href="/contact/">Contact me</a> and bring your start date, your former role and any contracts you hold. That's enough for a first answer.</p>
 
-${cta({ title: "Less than two years in business?", text: "Book a 15-minute call. Joshua will tell you which lenders can look at your file today, what a co-signer or larger down payment would change, and whether waiting is the smarter move." })}
+${cta({ title: "Less than two years in business?", text: "Book a 15-minute call. I'll tell you which lenders can look at your file today, what a co-signer or larger down payment would change, and whether waiting is the smarter move." })}
 `;
 
 export default {
@@ -76,7 +76,7 @@ export default {
   faqs: [
     { q: "Can I get a mortgage with one year of self-employment?", a: "Sometimes. A few A lenders make exceptions where the new business is in the same field as your previous employment and contracts show income going forward. Some B lenders will consider a stated income after a year, supported by bank statements. A co-signer or a larger down payment widens the options." },
     { q: "Does it help if my new business is in the same industry as my old job?", a: "Yes, a great deal. Lenders call it continuity. An employee who becomes self-employed doing the same work has not changed careers, and many lenders will consider the file with less than two years of history. A complete change of field usually needs the full two years." },
-    { q: "Should I wait until I have two years of tax returns?", a: "Sometimes that is the best advice, and Joshua will say so. Waiting avoids B-lender pricing and gives you a standard file. Buying now can make sense when you have a co-signer, a large down payment or a market reason not to wait. The decision deserves real numbers." },
+    { q: "Should I wait until I have two years of tax returns?", a: "Sometimes that is the best advice, and I'll say so. Waiting avoids B-lender pricing and gives you a standard file. Buying now can make sense when you have a co-signer, a large down payment or a market reason not to wait. The decision deserves real numbers." },
     { q: "What documents prove a new business is real?", a: "Registration or incorporation papers, GST registration, business bank statements since the first day, signed contracts, paid invoices, a year-to-date profit and loss statement, and your previous T4s with an employer letter showing your old role in the same field." },
     { q: "Will I pay a fee to arrange a mortgage as a new business owner?", a: "Not on an A-lender mortgage, where the lender pays the broker. If your file is placed with a B or private lender, a fee can apply, and it must be disclosed to you in writing under BCFSA Form 1A before you commit." }
   ]

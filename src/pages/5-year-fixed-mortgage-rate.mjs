@@ -2,7 +2,7 @@ import { cta, callout, ratesStrip } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
-${short({ answer: "A 5-year fixed locks your rate and payment for five years. It's the most common choice, but its exit penalty can be large, so it suits people who expect to stay put.", who: "Buyers and renewers who want a steady payment and don't expect to move or refinance soon.", next: "Check what leaving early could cost with the <a href=\"/mortgage-calculators/#penalty\">penalty calculator</a>, then <a href=\"/contact/\">talk to Joshua</a>." })}
+${short({ answer: "A 5-year fixed locks your rate and payment for five years. It's the most common choice, but its exit penalty can be large, so it suits people who expect to stay put.", who: "Buyers and renewers who want a steady payment and don't expect to move or refinance soon.", next: "Check what leaving early could cost with the <a href=\"/mortgage-calculators/#penalty\">penalty calculator</a>, then <a href=\"/contact/\">talk to me</a>." })}
 
 <h2>Why the 5-year fixed became the default</h2>
 <p>Ask a Canadian what kind of mortgage they have. Often the answer is a five-year fixed. It has long been the most popular term. Most rate tables and ads lead with it.</p>
@@ -48,11 +48,11 @@ ${ratesStrip()}
 ${callout("What the rate table doesn't tell you", "<p>A 5-year fixed rate is easy to advertise and hard to compare. Two mortgages with the same rate can have different penalties, prepayment limits and portability. Compare the whole mortgage, not just the number. The Lender Comparison Report is built for that.</p>")}
 
 <h2>How a broker approaches the 5-year question</h2>
-<p>Joshua Resvick works with Xeva Mortgage. He compares lenders on more than the rate. For a five-year fixed, he asks each lender a few questions. How is the penalty worked out? What are the prepayment privileges? Can the mortgage be ported? What happens at renewal?</p>
+<p>I work with Xeva Mortgage. I compare lenders on more than the rate. For a five-year fixed, I ask each lender a few questions. How is the penalty worked out? What are the prepayment privileges? Can the mortgage be ported? What happens at renewal?</p>
 <p>Every client gets the results as a written <a href="/lender-comparison-report/">Lender Comparison Report</a>. On a mortgage with a mainstream (A) lender, the lender pays the broker. You pay nothing for the service. Fees come up only on some B-lender and private files, with written disclosure first.</p>
 <p>Want to see how a 5-year fixed stacks up against your other options? The rates hub at <a href="/mortgage-rates-bc/">mortgage rates in BC</a> lays out the whole picture. The best next step is a short chat about your own plans.</p>
 
-${cta({ title: "Is the 5-year fixed right for you?", text: "Tell Joshua how long you expect to stay and what changes you see coming. He'll show you the options and the exit costs side by side.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "Is the 5-year fixed right for you?", text: "Tell me how long you expect to stay and what changes you see coming. I'll show you the options and the exit costs side by side.", href: "/contact/", label: "Contact me" })}
 `;
 
 export default {

@@ -35,9 +35,9 @@ const GROUPS = [
   ["Calculators and checks", "Run the numbers yourself. Every result shows up right away, and nothing you type is sent anywhere.", [
     "/mortgage-calculators/", "/bc-property-transfer-tax-calculator/", "/reverse-mortgage-calculator-bc/", "/mortgage-penalty-calculator/", "/refinance-break-even/", "/home-equity-estimator/",
     "/mortgage-check/", "/purchase-readiness-check/", "/renewal-check/", "/equity-check/", "/investor-check/", "/self-employed-check/", "/lender-match/", "/mortgage-check-up/"]],
-  ["Working with Joshua", "Who he is, how he's paid, and what happens after your mortgage funds.", [
+  ["Working with me", "Who I'm, how I'm paid, and what happens after your mortgage funds.", [
     "/about-joshua-resvick/", "/mortgage-faq/", "/how-mortgage-brokers-get-paid/", "/mortgage-broker-vs-bank/", "/lender-comparison-report/", "/mortgage-aftercare-program/", "/apply/", "/contact/"]],
-  ["Cities served", "Joshua works from his Surrey office and serves all of BC online and by phone. These pages cover the local details.", [
+  ["Cities served", "I work from my Surrey office and serve all of BC online and by phone. These pages cover the local details.", [
     "/bc-mortgage-broker-service-areas/", "/mortgage-broker-surrey/", "/mortgage-broker-vancouver/", "/mortgage-broker-langley/", "/mortgage-broker-burnaby/", "/mortgage-broker-coquitlam/", "/mortgage-broker-richmond/",
     "/mortgage-broker-white-rock/", "/mortgage-broker-delta/", "/mortgage-broker-north-vancouver/", "/mortgage-broker-maple-ridge/", "/mortgage-broker-mission/", "/mortgage-broker-chilliwack/",
     "/mortgage-broker-port-coquitlam/", "/mortgage-broker-port-moody/", "/mortgage-broker-new-westminster/", "/mortgage-broker-squamish/", "/mortgage-broker-langford/", "/mortgage-broker-saanich/", "/mortgage-broker-courtenay/", "/mortgage-broker-vernon/", "/mortgage-broker-penticton/", "/mortgage-broker-west-kelowna/",
@@ -59,7 +59,7 @@ ${short({ answer: "Every guide, calculator and check on this site is listed here
 
 <p>Not sure what to search for? That's normal. Mortgages have their own words. The question you need answered often has a name you haven't heard yet.</p>
 <p>This page lists every guide on the site in one place. It's sorted by what's going on in your life, not by jargon. Find the heading that sounds like you. Skim the one-line summaries and open whatever fits.</p>
-<p>Joshua Resvick writes every guide to explain, not to sell. Each one starts with a short version box. You get the answer in ten seconds, and read the detail only if you want it.</p>
+<p>I write every guide to explain, not to sell. Each one starts with a short version box. You get the answer in ten seconds, and read the detail only if you want it.</p>
 ${jump}
 <h2 id="free-printables">Free printables</h2>
 <p>Five one- and two-page sheets you can print, fill in and bring to a call. Each one is a free download with no form to fill in. They print on letter paper.</p>
@@ -80,6 +80,6 @@ export default {
     { q: "My renewal letter just arrived. Which guide do I read?", a: "Read the mortgage renewal guide first. It explains what the letter is, what you're free to compare and how much time you have. If you're thinking about moving lenders, the stress-test exemption guide is the next stop, because it decides whether you'll need to requalify." },
     { q: "Are these guides kept up to date?", a: "Yes. The guides on this page carry no dates because they're updated when the rules change. Anything time-sensitive, like a Bank of Canada decision, goes in a dated post on the Guides page, and the matching guide is updated to point to it." },
     { q: "Do I have to give my email to use any of this?", a: "No. Every guide, calculator and check works without signing up, and calculator results show right away. A form only appears if you choose to ask for a written version or a call, and every consent box starts unticked." },
-    { q: "What if my situation isn't listed?", a: "Plenty of files don't fit a heading neatly, and that's what a conversation is for. Book a 15-minute call or use the contact page. Joshua works on every mortgage type, and the list above only shows where most questions start." }
+    { q: "What if my situation isn't listed?", a: "Plenty of files don't fit a heading neatly, and that's what a conversation is for. Book a 15-minute call or use the contact page. I work on every mortgage type, and the list above only shows where most questions start." }
   ]
 };

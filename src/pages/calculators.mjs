@@ -2,14 +2,14 @@ import { TOOLS } from "../lib/tools.mjs";
 import { cta, callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
-const soon = (id, title, text) => `<section class="tool soon" id="${id}" aria-labelledby="${id}-h"><h3 id="${id}-h">${title}</h3><p class="small">${text}</p><p class="honest"><strong>In development.</strong> This tool is not live yet. Joshua can run the same numbers with you on a <a href="/contact/">call</a>.</p></section>`;
+const soon = (id, title, text) => `<section class="tool soon" id="${id}" aria-labelledby="${id}-h"><h3 id="${id}-h">${title}</h3><p class="small">${text}</p><p class="honest"><strong>In development.</strong> This tool is not live yet. I can run the same numbers with you on a <a href="/contact/">call</a>.</p></section>`;
 
 const body = `
 ${short({ answer: "These free calculators work out your payment, what you can borrow, your cash needs and what leaving a mortgage early would cost. Results show right away, and nothing you type leaves your browser.", who: "You're buying, renewing or refinancing in BC. Not sure which tool you need? Try the <a href='/mortgage-check/'>two-minute check</a>.", next: "Pick your situation in the list below and open the tool that fits." })}
 <h2>Calculators built on published rules</h2>
 <p>These tools cover the numbers behind a mortgage decision. They show what the payment will be and how much you may be able to borrow. They also show what you need in cash and what leaving a mortgage early would cost.</p>
 <p>They are free to use and show the whole result at once. They ask for no email address. Nothing you type is sent anywhere or stored. Your own browser does all the math.</p>
-<p>A calculator is only as honest as its assumptions. So each one on this page lists what it includes and what it leaves out. Treat the results as estimates for planning. A lender confirms the real numbers after it reviews your income, credit and property. Joshua will go through your real figures with you whenever you like.</p>
+<p>A calculator is only as honest as its assumptions. So each one on this page lists what it includes and what it leaves out. Treat the results as estimates for planning. A lender confirms the real numbers after it reviews your income, credit and property. I'll go through your real figures with you whenever you like.</p>
 
 <h2>Find the right tool by what you are doing</h2>
 <div class="tool-grid">
@@ -91,12 +91,12 @@ ${soon("mli", "MLI Select calculator", "Estimate qualifying details for CMHC's m
 <h3>A renewal comparison</h3>
 <p>Take a $500,000 balance with 20 years of amortization remaining. Compare two five-year fixed offers: 5.00 percent and 4.50 percent, again illustrative. The payments are $3,285.63 and $3,152.03 a month. Over five years the interest is about $114,029 compared with about $102,302, a difference of roughly $11,727. The balance left at the end of the term is also lower at the lower rate, by about $3,711. Half a point of rate is not small at renewal. It is the reason to compare rather than accept the first offer.</p>
 
-${callout("What these tools do not do", "<p>They do not approve you for anything. They do not know your credit or your lender's policies. They also use the rules in force today. If a rule changes, the tools change with it. For a number you can rely on, book a call and Joshua will run your actual file.</p>")}
+${callout("What these tools do not do", "<p>They do not approve you for anything. They do not know your credit or your lender's policies. They also use the rules in force today. If a rule changes, the tools change with it. For a number you can rely on, book a call and I'll run your actual file.</p>")}
 
 <p>Two more tools live on their own pages: the <a href="/reverse-mortgage-calculator-bc/">reverse mortgage calculator</a> for owners 55 and older, and the <a href="/cmhc-insurance-bc/">CMHC insurance guide</a> with the premium calculator and table.</p>
-${cta({ title: "Have the numbers, but not sure what they mean?", text: "Bring your results to a 15-minute call. Joshua will explain what a lender is likely to see and what you can do to improve it." })}
+${cta({ title: "Have the numbers, but not sure what they mean?", text: "Bring your results to a 15-minute call. I'll explain what a lender is likely to see and what you can do to improve it." })}
 
-<p>Calculators are one part of the job. If your mortgage is already in place, the <a href="/mortgage-aftercare-program/">aftercare program</a> keeps the numbers current as your life changes. You can also <a href="/contact/">contact Joshua</a> directly with a question these tools do not answer.</p>
+<p>Calculators are one part of the job. If your mortgage is already in place, the <a href="/mortgage-aftercare-program/">aftercare program</a> keeps the numbers current as your life changes. You can also <a href="/contact/">contact me</a> directly with a question these tools do not answer.</p>
 `;
 
 export default {
@@ -107,8 +107,8 @@ export default {
   faqs: [
     { q: "How do I calculate my mortgage payment in BC?", a: "Use the payment calculator at the top of this page. Enter the price, down payment, a rate you've been quoted and the amortization. It shows the payment, any CMHC premium and the income lenders would look for. Fixed rates use semi-annual compounding, as Canadian law requires." },
     { q: "Are these calculators accurate?", a: "They apply published rules and were tested against an independent calculation. They are still estimates: a lender verifies your income, credit and property before confirming any number, and rates in the tools are the ones you type in, not live market rates." },
-    { q: "Do I need to give my email to see the results?", a: "No. Every result appears immediately, with no email address or sign-up needed, and nothing you enter is sent anywhere because the calculations run in your own browser. Booking a call afterwards, if you want to talk through the numbers with Joshua, is entirely optional." },
+    { q: "Do I need to give my email to see the results?", a: "No. Every result appears immediately, with no email address or sign-up needed, and nothing you enter is sent anywhere because the calculations run in your own browser. Booking a call afterwards, if you want to talk through the numbers with me, is entirely optional." },
     { q: "Why does the affordability result differ from my bank's pre-approval?", a: "Lenders differ in how they count income, debts and property costs, and some use different qualifying rules. This tool uses the standard ratios and the stress-test rate. A pre-approval from a broker, checked against real lender policies, is the more reliable figure." },
-    { q: "Which rate should I type in?", a: "Use a rate you have actually been quoted. If you do not have one yet, try a few values and see how sensitive the payment is. Joshua can give you a current rate that fits your file on a short call." }
+    { q: "Which rate should I type in?", a: "Use a rate you have actually been quoted. If you do not have one yet, try a few values and see how sensitive the payment is. I can give you a current rate that fits your file on a short call." }
   ]
 };

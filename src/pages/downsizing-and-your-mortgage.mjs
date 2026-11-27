@@ -29,7 +29,7 @@ ${short({
 <li><strong>Qualifying later is the problem.</strong> Lenders qualify a home equity line or a refinance on income. Retirement income is often lower. If you may want access to your equity later, the time to arrange it is while you still qualify easily.</li>
 <li><strong>The alternative is a reverse mortgage.</strong> It exists for exactly this situation, and it is expensive. The <a href="/reverse-mortgage-bc/">reverse mortgage page</a> explains the costs honestly. Reading it before you choose a mortgage-free purchase shows you what the choice really is.</li>
 </ul>
-<p>None of this means you should borrow. It means you should make the choice with the next twenty years in view. Joshua will lay out both routes without pushing either one.</p>
+<p>None of this means you should borrow. It means you should make the choice with the next twenty years in view. I'll lay out both routes without pushing either one.</p>
 
 <h2>Buying before selling, or selling before buying</h2>
 <p>The ideal is to sell first with a long completion date, and then buy. Your proceeds are certain, and there is no overlap. The market does not always allow it. Many downsizers find the next home before the old one sells.</p>
@@ -54,7 +54,7 @@ ${short({
 <p>Downsizing often means a first strata property. Lenders look at the strata documents. Some will decline a building with a large special levy pending, a thin contingency reserve or a leaky-condo history. Your realtor and lawyer review the documents. Your broker makes sure the lender's requirements are met before the subject-removal date.</p>
 <p>Strata fees also count in your qualifying ratios. Many lenders count about half of the fee. That can matter on a fixed income.</p>
 
-<h2>Joshua's process for a downsize</h2>
+<h2>My process for a downsize</h2>
 <ol>
 <li><strong>A 15-minute call</strong> about your current mortgage, your timeline and what you are thinking of buying.</li>
 <li><strong>The numbers first.</strong> Sale proceeds, the penalty or the port, and what you would qualify for on your retirement or current income.</li>
@@ -73,10 +73,10 @@ ${short({
 <li><strong>Ignoring the strata documents until subject removal.</strong> A building a lender will not finance is a problem to find early.</li>
 </ul>
 
-${callout("A decision with a long horizon", "<p>Downsizing is usually the last large housing decision a family makes. It deserves a plan that looks past the move. Joshua will show you the mortgage-free route and the small-mortgage route honestly. That includes what each one leaves you able to do later.</p>")}
+${callout("A decision with a long horizon", "<p>Downsizing is usually the last large housing decision a family makes. It deserves a plan that looks past the move. I'll show you the mortgage-free route and the small-mortgage route honestly. That includes what each one leaves you able to do later.</p>")}
 
 <p>Weighing downsizing against a reverse mortgage? Run the <a href="/reverse-mortgage-calculator-bc/">reverse mortgage calculator</a> to see what staying put would cost.</p>
-${cta({ title: "Thinking about the move down?", text: "Book a 15-minute call. You will leave with the proceeds estimate, the penalty or porting answer and a plan for the overlap. Or <a href=\"/contact/\">contact Joshua</a> by email." })}
+${cta({ title: "Thinking about the move down?", text: "Book a 15-minute call. You will leave with the proceeds estimate, the penalty or porting answer and a plan for the overlap. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {

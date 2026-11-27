@@ -2,7 +2,7 @@ import { cta, callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
-${short({ answer: "A cash-out refinance swaps your mortgage for a bigger one and pays you the difference. Most lenders cap it at 80 percent of your home's appraised value.", who: "Homeowners with equity who need money for a renovation, debt, a buyout or an investment. Still shopping for a home? Read about <a href='/purchase-plus-improvements/'>Purchase Plus Improvements</a>.", next: "Tell Joshua what the money is for, and <a href='/contact/'>he will check your ceiling and your costs</a>." })}
+${short({ answer: "A cash-out refinance swaps your mortgage for a bigger one and pays you the difference. Most lenders cap it at 80 percent of your home's appraised value.", who: "Homeowners with equity who need money for a renovation, debt, a buyout or an investment. Still shopping for a home? Read about <a href='/purchase-plus-improvements/'>Purchase Plus Improvements</a>.", next: "Tell me what the money is for, and <a href='/contact/'>I'll check your ceiling and your costs</a>." })}
 <h2>How a cash-out refinance works</h2>
 <p>A cash-out refinance replaces your current mortgage with a larger one and pays you the difference. You borrow against the equity you have built. That is the gap between what your home is worth and what you owe. The lender pays out your existing mortgage and deducts the costs. It sends you the rest through your lawyer or notary.</p>
 <p>The appraisal sets the limit. Federally regulated lenders generally cap a refinance at 80 percent of the home's appraised value. Mortgage default insurance is not available on a standard refinance.</p>
@@ -27,7 +27,7 @@ ${short({ answer: "A cash-out refinance swaps your mortgage for a bigger one and
 
 <p>Before you pull money out, take the two-minute <a href="/equity-check/">equity check</a>. It asks whether you can, and whether you should.</p>
 <p>Want to compare a cash-out refinance with a line of credit or a second mortgage? See the <a href="/home-equity-loan-bc/">home equity loan comparison</a>.</p>
-${cta({ title: "Get an equity estimate with a plan attached", text: "Tell Joshua what the money is for and how much you think you need. He will check it against the 80 percent ceiling, your qualification and the cost of breaking your current mortgage, and tell you which route fits." })}
+${cta({ title: "Get an equity estimate with a plan attached", text: "Tell me what the money is for and how much you think you need. I'll check it against the 80 percent ceiling, your qualification and the cost of breaking your current mortgage, and tell you which route fits." })}
 
 <h2>The suite-build path</h2>
 <p>Building a legal secondary suite is one of the most common uses of equity in BC, and it has its own federal program. Since January 15, 2025, a refinance to build a new self-contained suite can go up to 90 percent of the home's value as improved. The usual limit is 80 percent of today's value.</p>
@@ -50,7 +50,7 @@ ${cta({ title: "Get an equity estimate with a plan attached", text: "Tell Joshua
 <li><strong>A second mortgage.</strong> It sits behind your first mortgage and costs more, but does not disturb the first.</li>
 <li><strong>Waiting for renewal.</strong> At maturity there is no penalty, and a refinance can be part of the renewal.</li>
 </ul>
-<p>If you want a number for your own home, <a href="/contact/">contact Joshua</a> or book a call.</p>
+<p>If you want a number for your own home, <a href="/contact/">contact me</a> or book a call.</p>
 
 ${callout("Borrow what the plan needs", "<p>The 80 percent ceiling is a limit set by the lender, not a recommended amount. Borrowing less than the maximum leaves room for the unexpected. It also lowers the payment you commit to for the term.</p>")}
 `;

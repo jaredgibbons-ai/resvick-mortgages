@@ -55,9 +55,9 @@ ${short({ answer: "First, work out which kind of no you got. A true refusal to r
 
 ${callout("What it costs to get help", "<p>On A-lender mortgages, the lender pays the broker and you pay nothing for the service. Fees only come up on B-lender and private files. When they do, BC rules require your broker to give you written disclosure (BCFSA Form 1A) before you commit. For a consumer mortgage, the brokerage can't charge upfront fees for arranging it. Third-party costs, like an appraisal or legal work, are the exception. Ask to see every figure before you agree to anything.</p>")}
 
-<p>If your situation also involves a change in income, the page on <a href="/renewing-mortgage-without-a-job/">renewing a mortgage without a job</a> covers that case in more detail. If you'd rather talk first, you can <a href="/contact/">contact Joshua</a> by phone, email or the booking page.</p>
+<p>If your situation also involves a change in income, the page on <a href="/renewing-mortgage-without-a-job/">renewing a mortgage without a job</a> covers that case in more detail. If you'd rather talk first, you can <a href="/contact/">contact me</a> by phone, email or the booking page.</p>
 
-${cta({ title: "Speak with Joshua this week", text: "A renewal problem is easier to solve with time. Book a 15-minute call, or phone 778.882.5674. He'll explain which kind of decline you have and what your real options are. No pressure and no obligation.", label: "Book a 15-minute call" })}
+${cta({ title: "Speak with me this week", text: "A renewal problem is easier to solve with time. Book a 15-minute call, or phone 778.882.5674. I'll explain which kind of decline you have and what your real options are. No pressure and no obligation.", label: "Book a 15-minute call" })}
 `;
 
 export default {

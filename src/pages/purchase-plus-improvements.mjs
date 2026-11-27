@@ -34,7 +34,7 @@ ${short({ answer: "Purchase Plus Improvements lets you buy a home and finance th
 <p>The other cousin is the federal secondary suite refinance program. Since January 15, 2025, it allows a refinance up to 90 percent of as-improved value to build a legal rental suite in a home you already own. That's a refinance program for current owners. Purchase Plus Improvements is a purchase program.</p>
 <p>If you're buying a home and plan to add a suite right away, ask which program fits. The answer depends on whether the suite is part of the purchase plan, and on the lender's policies. The <a href="/secondary-suite-refinance/">secondary suite refinance page</a> explains the owner version.</p>
 
-${cta({ title: "Buying a home that needs work?", text: "Book a 15-minute call before your subject-removal date. Joshua will tell you whether the project fits, what quotes the lender wants and how much cash you need until the holdback is released." })}
+${cta({ title: "Buying a home that needs work?", text: "Book a 15-minute call before your subject-removal date. I'll tell you whether the project fits, what quotes the lender wants and how much cash you need until the holdback is released." })}
 
 <h2>Working with contractors</h2>
 <p>The program depends on quotes the lender can rely on, and work the appraiser can verify. A few practical points help it go smoothly:</p>
@@ -50,7 +50,7 @@ ${cta({ title: "Buying a home that needs work?", text: "Book a 15-minute call be
 <p>The program doesn't reduce the closing costs of the purchase itself. Property transfer tax, legal fees, the inspection and adjustments are all still due on completion. The <a href="/closing-costs-bc/">closing costs guide</a> walks through them.</p>
 <p>Remember that the down payment is figured on the as-improved price. Say you put five percent down on a $740,000 home with $60,000 of planned work. You need five percent of $800,000, or $40,000, not $37,000. And the holdback means you need working capital, or a contractor willing to wait, to carry the renovation.</p>
 <p>The <a href="/mortgage-application-checklist/">application checklist</a> lists the standard documents. The quotes and the appraisal are added to them. If this is your first purchase, the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> covers the programs you can stack alongside it, including the property transfer tax exemption.</p>
-<p>On a mortgage placed with a prime lender under this program, the lender pays the broker and you pay nothing for the service. Fees only come up on B-lender and private files, with written disclosure first. To see whether a specific home and project fit, <a href="/contact/">contact Joshua</a> with the listing and a rough scope of the work.</p>
+<p>On a mortgage placed with a prime lender under this program, the lender pays the broker and you pay nothing for the service. Fees only come up on B-lender and private files, with written disclosure first. To see whether a specific home and project fit, <a href="/contact/">contact me</a> with the listing and a rough scope of the work.</p>
 
 ${callout("The holdback is the catch", "<p>The renovation money is approved and insured, but it's paid out after the work is inspected, not before. Buyers who expect it on completion day get stuck. Plan how you'll pay the contractors in the meantime, before you commit.</p>")}
 `;

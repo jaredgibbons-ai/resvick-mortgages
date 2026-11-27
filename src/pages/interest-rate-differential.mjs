@@ -48,7 +48,7 @@ ${short({
 <h2>When breaking still wins</h2>
 <p>A big penalty doesn't always mean you should stay. If your rate is much higher than what you can get today, the savings can beat the penalty over the rest of your term.</p>
 <p>It's a break-even question. How many months of lower payments does it take to earn back the penalty? And will you likely keep the new mortgage that long? The <a href="/refinance-break-even/">refinance break-even calculator</a> works it through, including the penalty, the new rate and any fees.</p>
-<p>There are options between staying and breaking too. A blend-and-extend can lower your rate without the penalty, in exchange for a longer commitment. The page on <a href="/blend-and-extend-mortgage/">blend and extend mortgages</a> explains when that helps and when it's a trap. Which route wins depends on your numbers, and Joshua Resvick can run them with you.</p>
+<p>There are options between staying and breaking too. A blend-and-extend can lower your rate without the penalty, in exchange for a longer commitment. The page on <a href="/blend-and-extend-mortgage/">blend and extend mortgages</a> explains when that helps and when it's a trap. Which route wins depends on your numbers, and I can run them with you.</p>
 
 ${callout("A note on how the penalty is stated", "<p>A calculator gives you a range, not a quote. Your lender's number is the one that counts. It can differ from any online estimate because of how the lender picks the comparison rate. Ask for the penalty in writing, for your exact payout date, before you decide anything that depends on it.</p>")}
 
@@ -61,9 +61,9 @@ ${callout("A note on how the penalty is stated", "<p>A calculator gives you a ra
 <li>Can the mortgage be ported to a new property, and what happens to the penalty if it is?</li>
 <li>Is there a fee at discharge, or when moving the mortgage?</li>
 </ol>
-<p>Joshua compares lenders on these points as well as the rate. He shows them in writing in the <a href="/lender-comparison-report/">Lender Comparison Report</a>. On a mortgage placed with a mainstream (A) lender, the lender pays the broker and you pay nothing for the service. For the wider picture of how rates and terms fit together, see <a href="/mortgage-rates-bc/">mortgage rates in BC</a>.</p>
+<p>I compare lenders on these points as well as the rate. I show them in writing in the <a href="/lender-comparison-report/">Lender Comparison Report</a>. On a mortgage placed with a mainstream (A) lender, the lender pays the broker and you pay nothing for the service. For the wider picture of how rates and terms fit together, see <a href="/mortgage-rates-bc/">mortgage rates in BC</a>.</p>
 
-${cta({ title: "Get a penalty estimate", text: "Bring your mortgage statement. Joshua will estimate your penalty, work out whether breaking pays and show you the alternatives.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "Get a penalty estimate", text: "Bring your mortgage statement. I'll estimate your penalty, work out whether breaking pays and show you the alternatives.", href: "/contact/", label: "Contact me" })}
 `;
 
 export default {

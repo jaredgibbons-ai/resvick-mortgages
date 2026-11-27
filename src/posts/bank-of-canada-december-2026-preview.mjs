@@ -53,7 +53,7 @@ ${short({
 </ul>
 
 <h2>After the announcement</h2>
-<p>Joshua posts what the Bank decided on December 9, with the Bank's own wording, what prime did and what it means for each kind of mortgage. That post will be linked from the <a href="/guides/">guides page</a> the same day.</p>
+<p>I post what the Bank decided on December 9, with the Bank's own wording, what prime did and what it means for each kind of mortgage. That post will be linked from the <a href="/guides/">guides page</a> the same day.</p>
 <p>The next decision after that is January 27, 2027, along with a new Monetary Policy Report. If your maturity date or a purchase falls in the next few months, both dates are worth marking.</p>
 
 ${callout("How this series works", "<p>Each Bank of Canada post covers one decision, before or on the day it happens. Figures are dated and sourced. The evergreen guides carry the rules, and these posts carry the event. Aftercare clients get the same note by email on decision day.</p>")}

@@ -42,7 +42,7 @@ ${short({
 <p>Even if you paid the full high-end switching cost of $3,465, you'd still be roughly $7,202 ahead on interest. These numbers are examples, not quotes. Check your own in the <a href="/mortgage-calculators/#renewal">renewal calculator</a>. See the <a href="/mortgage-renewal-rates-bc/">renewal rates guide</a> for how switch pricing works.</p>
 
 <p>Before you switch, make sure you understand <a href="/mortgage-renewal-letter-explained/">your renewal letter</a>. The two-minute <a href="/renewal-check/">renewal check</a> shows whether you're ready to compare.</p>
-${cta({ title: "Find out if your switch qualifies", text: "Book a 15-minute call. Joshua will review your maturity date, balance and mortgage type. He'll tell you whether a straight switch is available and what it could save." })}
+${cta({ title: "Find out if your switch qualifies", text: "Book a 15-minute call. I'll review your maturity date, balance and mortgage type. I'll tell you whether a straight switch is available and what it could save." })}
 
 <h2>A warning about collateral charges and credit unions</h2>
 <p>Two things can complicate an otherwise simple switch. The first is how your current mortgage is registered.</p>
@@ -58,7 +58,7 @@ ${cta({ title: "Find out if your switch qualifies", text: "Book a 15-minute call
 <li>Your <strong>credit or income has changed</strong> since you last qualified. The new lender will see those changes. Moving lenders is harder if your file has weakened.</li>
 </ul>
 <p>Sometimes the best result is a negotiated renewal with your current lender, backed by a competing offer. The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> covers all the options.</p>
-<p>Whichever route you pick, your <a href="/contact/">first conversation</a> with Joshua costs nothing. On mainstream (A) lender mortgages, the lender pays the broker. Fees only come up on some B-lender and private files, with written disclosure first.</p>
+<p>Whichever route you pick, your <a href="/contact/">first conversation</a> with me costs nothing. On mainstream (A) lender mortgages, the lender pays the broker. Fees only come up on some B-lender and private files, with written disclosure first.</p>
 
 ${callout("Example figures", "<p>The balances, rates and savings above are sample figures worked out for this page. They aren't quotes. Real offers depend on your file, the lender and the day.</p>")}
 `;

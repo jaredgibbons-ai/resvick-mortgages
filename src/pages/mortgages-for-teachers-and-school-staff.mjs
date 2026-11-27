@@ -7,7 +7,7 @@ ${short({ answer: "Lenders turn a teacher's contract into a yearly salary, so te
 <h2>Your situation: a teacher mortgage is about the contract</h2>
 <p>You work hard for a steady paycheque, and you still get odd looks at the bank. Maybe you are paid for ten months, and July and August look empty. Maybe you are a teacher on call who works in three districts. Maybe you are on a one-year term and hope it turns into a continuing job.</p>
 <p>A mortgage for teachers in BC is rarely hard because the pay is low or risky. It is hard because the paperwork is unusual. A bank screen asks for one employer, one salary and twelve even months. School jobs often do not fit that box.</p>
-<p>Joshua Resvick works with teachers and school staff across the province, by phone and video, from his Surrey office. He spent five years as an underwriter before becoming a broker, so he knows what a lender is looking for when it opens a school file. This page walks through the usual cases. Find yours and skip the rest.</p>
+<p>I work with teachers and school staff across the province, by phone and video, from my Surrey office. I spent five years as an underwriter before becoming a broker, so I know what a lender is looking for when it opens a school file. This page walks through the usual cases. Find yours and skip the rest.</p>
 
 <h2>Ten-month pay, twelve-month pay and your mortgage</h2>
 <p>In many BC districts, teachers are paid their annual salary over the ten school months, September to June. Many also have an optional plan that holds back part of each net cheque. The held amount is then paid out in July and August. Your collective agreement and your district set the exact rules, so check yours.</p>
@@ -97,7 +97,7 @@ ${short({ answer: "Lenders turn a teacher's contract into a yearly salary, so te
 <h2>Buying in small districts and rural BC communities</h2>
 <p>Many BC districts work hard to recruit teachers, especially in the North and in small towns. Some rural and remote communities offer extra allowances, though these differ by district and not everyone qualifies. Check the details with the district that hires you. They are not something to count on for a mortgage unless they are in your letter.</p>
 <p>Smaller towns bring homebuying questions of their own. Lenders may look closely at a property with a well, a septic system, an older roof or a heating system that is not common. Some lenders also limit lending in very small or remote markets. Your broker can tell you which lenders are comfortable with your town.</p>
-<p>Joshua works with buyers in <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-kamloops/">Kamloops</a> and many other BC communities, all by phone and video. You do not need to live near his office. If you are weighing a move north or into the Interior, you can start the conversation before you accept the job.</p>
+<p>I work with buyers in <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-kamloops/">Kamloops</a> and many other BC communities, all by phone and video. You do not need to live near my office. If you are weighing a move north or into the Interior, you can start the conversation before you accept the job.</p>
 
 <h2>Down payment and closing costs on a teacher's budget</h2>
 <p>Your cash to close is more than your down payment. It also includes legal fees, an inspection and, in most cases, property transfer tax. The <a href="/closing-costs-bc/">closing costs page</a> lists them. The <a href="/down-payment-guide-bc/">down payment guide</a> explains where a down payment can come from.</p>
@@ -115,10 +115,10 @@ ${short({ answer: "Lenders turn a teacher's contract into a yearly salary, so te
 <li><strong>Student loan statements</strong> and any line of credit used for study.</li>
 </ul>
 
-<h2>Joshua's process</h2>
+<h2>My process</h2>
 <ol>
 <li><strong>A 15-minute call,</strong> booked around your school day. You talk about your job type, your history and what you want to buy.</li>
-<li><strong>An income read first.</strong> Joshua works out what each kind of lender will count and tells you what could move the number.</li>
+<li><strong>An income read first.</strong> I work out what each kind of lender will count and tell you what could move the number.</li>
 <li><strong>A real pre-approval,</strong> built from your documents, not a quick rate quote.</li>
 <li><strong>The right lender.</strong> It is chosen for how it treats school and call-list income. You see the options in writing.</li>
 <li><strong>Help after you close.</strong> A new contract, a new district or a renewal gets handled early, not at the last minute.</li>
@@ -127,11 +127,11 @@ ${short({ answer: "Lenders turn a teacher's contract into a yearly salary, so te
 <h2>What the service costs</h2>
 <p>A teacher file with documented income usually lands with a mainstream A lender. On those mortgages, the lender pays the broker, so you pay nothing. Fees come up only on some B-lender and private files, and they are disclosed in writing on BCFSA's Form 1A before you commit.</p>
 
-${callout("One request before the call", "<p>Find your last two T4s and one recent pay stub. Add your contract or letter of employment. With those three items, Joshua can usually tell you in one call how a lender will read your school income.</p>")}
+${callout("One request before the call", "<p>Find your last two T4s and one recent pay stub. Add your contract or letter of employment. With those three items, I can usually tell you in one call how a lender will read your school income.</p>")}
 
-<p class="more-links"><strong>Where Joshua helps teachers and school staff.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-langley/">Langley</a>, <a href="/mortgage-broker-saanich/">Saanich</a>, <a href="/mortgage-broker-courtenay/">Courtenay and Comox</a>, <a href="/mortgage-broker-vernon/">Vernon</a> and <a href="/mortgage-broker-maple-ridge/">Maple Ridge</a>.</p>
+<p class="more-links"><strong>Where I help teachers and school staff.</strong> I serve buyers online from my Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-langley/">Langley</a>, <a href="/mortgage-broker-saanich/">Saanich</a>, <a href="/mortgage-broker-courtenay/">Courtenay and Comox</a>, <a href="/mortgage-broker-vernon/">Vernon</a> and <a href="/mortgage-broker-maple-ridge/">Maple Ridge</a>.</p>
 
-${cta({ title: "Your school job, read the right way", text: "Book a 15-minute call that fits around your day. Joshua will tell you how lenders count your pay and which lender fits best. Or <a href=\"/contact/\">contact him</a> by email." })}
+${cta({ title: "Your school job, read the right way", text: "Book a 15-minute call that fits around your day. I'll tell you how lenders count your pay and which lender fits best. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {

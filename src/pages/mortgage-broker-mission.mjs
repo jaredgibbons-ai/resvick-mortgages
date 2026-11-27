@@ -8,12 +8,12 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-mis
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Mission by phone and video from his Surrey office. Many Mission buyers are moving up the valley with equity from a sale, or buying new homes and rural land. Each path has its own mortgage steps.",
+  answer: "I serve Mission by phone and video from my Surrey office. Many Mission buyers are moving up the valley with equity from a sale, or buying new homes and rural land. Each path has its own mortgage steps.",
   who: "Mission buyers, renewers and refinancers, especially people relocating from Metro Vancouver, new-home buyers and owners of rural property.",
-  next: "Book a 15-minute call and tell Joshua where you're coming from and what you're buying."
+  next: "Book a 15-minute call and tell me where you're coming from and what you're buying."
 })}
 <p>Mission is a Fraser Valley city on the north bank of the Fraser River, about 65 km from Vancouver. It has a town centre, newer subdivisions and a lot of rural land. Many buyers here are leaving a more expensive market. They want more space for the money.</p>
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage, with ten years in the business and five as an underwriter before that. He works with Mission, Hatzic and Silverdale clients from his Surrey office, by phone and video, and there is no Mission branch. Over 1,000 mortgages have been funded through him. <a href="/contact/">Book a 15-minute call</a> to start.</p>
+<p>I'm Joshua Resvick, a licensed mortgage broker with Xeva Mortgage, with ten years in the business and five as an underwriter before that. I work with Mission, Hatzic and Silverdale clients from my Surrey office, by phone and video, and there is no Mission branch. Over 1,000 mortgages have been funded through me. <a href="/contact/">Book a 15-minute call</a> to start.</p>
 
 ${ratesStrip()}
 
@@ -23,7 +23,7 @@ ${ratesStrip()}
 <p>If you still have time left on a low-rate mortgage, ask whether it can move with you. Porting avoids a penalty, but you still have to qualify again. The <a href="/porting-your-mortgage/">porting page</a> explains when it beats breaking. Selling a bigger home to buy a smaller one is a different path, covered on the <a href="/downsizing-and-your-mortgage/">downsizing page</a>.</p>
 
 <h2>Incomes in Mission</h2>
-<p>Mission's median household income was $98,000 for 2020, and 16.5 percent of workers were self-employed. Construction was the biggest industry, then retail and health care. (Statistics Canada, 2021 Census Profile, read October 2026). A construction-led city means many buyers have trades pay or run their own crew. Others commute west on the train or the highway for wages from a bigger employer. Each group gets read differently, so tell Joshua how you are paid and for how long.</p>
+<p>Mission's median household income was $98,000 for 2020, and 16.5 percent of workers were self-employed. Construction was the biggest industry, then retail and health care. (Statistics Canada, 2021 Census Profile, read October 2026). A construction-led city means many buyers have trades pay or run their own crew. Others commute west on the train or the highway for wages from a bigger employer. Each group gets read differently, so tell me how you are paid and for how long.</p>
 ${censusTable("mission")}
 
 <h2>Silverdale, Cedar Valley and new construction</h2>
@@ -43,15 +43,15 @@ ${censusTable("mission")}
 <p>Provincial rules also changed what lots can hold. The City says it must allow up to four units on most single-family lots inside its urban growth boundary. A building permit is still needed for any new unit (City of Mission, Provincial Housing Targets page, read October 2026). Zoning differs by lot. If a suite matters to your purchase, confirm its status and the lot's rules with the City.</p>
 <p>For a lender, status matters. A certified suite is the easiest to document, and many lenders count a share of the rent. A registered or unregistered suite is a harder case. Ask the seller which status the suite has and ask for the paperwork. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> explains how lenders count rent.</p>
 
-<h2>What Joshua does for Mission clients</h2>
+<h2>What I do for Mission clients</h2>
 <ol>
-<li><strong>Plans the money before the offer.</strong> He works out your down payment, any sale timing and the amount you qualify for. A <a href="/mortgage-pre-approval-bc/">real pre-approval</a> follows from that.</li>
-<li><strong>Checks the property type.</strong> New build, rural lot, suite or plain resale each change the file. He flags what a lender will ask for early.</li>
+<li><strong>Plans the money before the offer.</strong> I work out your down payment, any sale timing and the amount you qualify for. A <a href="/mortgage-pre-approval-bc/">real pre-approval</a> follows from that.</li>
+<li><strong>Checks the property type.</strong> New build, rural lot, suite or plain resale each change the file. I flag what a lender will ask for early.</li>
 <li><strong>Lines lenders up in writing.</strong> A <a href="/lender-comparison-report/">Lender Comparison Report</a> shows rate, term, penalty method and prepayment privileges next to each other.</li>
 <li><strong>Follows through later.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> brings a yearly review and a check-in around six months before maturity, so the renewal gets compared.</li>
 </ol>
 
-${callout("What you pay", "<p>Most Mission files go to an A lender. The lender pays Joshua and you pay nothing for his work. Some rural or self-employed deals need a B or private lender instead, and then BCFSA's Form 1A shows any fee to you in writing before you commit.</p>")}
+${callout("What you pay", "<p>Most Mission files go to an A lender. The lender pays me and you pay nothing for my work. Some rural or self-employed deals need a B or private lender instead, and then BCFSA's Form 1A shows any fee to you in writing before you commit.</p>")}
 
 <h2>Buying, renewing and refinancing in Mission</h2>
 <p><strong>First-time buyers</strong> in Mission can use the BC programs: the transfer tax exemption, the First Home Savings Account and the Home Buyers' Plan. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> shows how to combine them.</p>
@@ -66,22 +66,22 @@ ${callout("What you pay", "<p>Most Mission files go to an A lender. The lender p
 ${cityFacts("mission")}
 ${nearbyCallout("mission", callout)}
 
-${cta({ title: "Talk to a broker who serves Mission", text: "Book a 15-minute call. Tell Joshua where you're moving from and what you're buying. You'll leave knowing the steps and what to gather first." })}
+${cta({ title: "Talk to a broker who serves Mission", text: "Book a 15-minute call. Tell me where you're moving from and what you're buying. You'll leave knowing the steps and what to gather first." })}
 `;
 
 export default {
   slug: "/mortgage-broker-mission/",
   h1: "Mortgage broker serving Mission, BC",
-  lede: "Joshua Resvick, Xeva Mortgage, serves Mission from his Surrey office by phone and video. Buyers moving up the valley, new construction, rural land and suites, handled the way an underwriter reads them.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I serve Mission from my Surrey office by phone and video. Buyers moving up the valley, new construction, rural land and suites, handled the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Mission", "/mortgage-broker-mission/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "I'm selling in Metro Vancouver to buy in Mission. How does the down payment work?", a: "The equity from your sale becomes your down payment once the sale completes. A lender wants to see the money in your account. If you must buy first, a short bridge loan can cover the gap. Joshua plans the timing before you write an offer." },
+    { q: "I'm selling in Metro Vancouver to buy in Mission. How does the down payment work?", a: "The equity from your sale becomes your down payment once the sale completes. A lender wants to see the money in your account. If you must buy first, a short bridge loan can cover the gap. I plan the timing before you write an offer." },
     { q: "Will a lender count the rent from a suite in a Mission home?", a: "Often, if the suite is certified through a building permit. Many lenders count a share of documented rent. A registered suite, or one with no paperwork, is harder to count, and the share varies by lender. The City says its registration window closed in 2024, so ask the seller for the suite's status and the paperwork before you offer." },
-    { q: "Can I get a mortgage on a rural property near Hatzic or Dewdney?", a: "Often, but not with every lender. Many ask for a water test and a septic inspection, and some limit how much land value they count. They may decline where the land is mainly a business. Identify the property type with Joshua before the offer is written." },
-    { q: "Do builders in Mission require me to use their lender?", a: "Usually not. Builders may offer a price or incentive that depends on using their lender or lawyer, so compare it with your other options first. A presale also needs a rate hold and final approval at completion. Joshua compares both paths in writing." },
-    { q: "Do I have to travel to Surrey to work with Joshua?", a: "No. Most files are done by phone, video and secure document exchange, and your appraiser and lawyer are local to you. If you'd rather meet in person, ask on the first call. His office is in Surrey, and there's no Mission branch." }
+    { q: "Can I get a mortgage on a rural property near Hatzic or Dewdney?", a: "Often, but not with every lender. Many ask for a water test and a septic inspection, and some limit how much land value they count. They may decline where the land is mainly a business. Identify the property type with me before the offer is written." },
+    { q: "Do builders in Mission require me to use their lender?", a: "Usually not. Builders may offer a price or incentive that depends on using their lender or lawyer, so compare it with your other options first. A presale also needs a rate hold and final approval at completion. I compare both paths in writing." },
+    { q: "Do I have to travel to Surrey to work with you?", a: "No. Most files are done by phone, video and secure document exchange, and your appraiser and lawyer are local to you. If you'd rather meet in person, ask on the first call. My office is in Surrey, and there's no Mission branch." }
   ]
 };

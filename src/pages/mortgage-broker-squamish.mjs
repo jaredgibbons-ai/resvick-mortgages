@@ -8,12 +8,12 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-squ
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Squamish, Whistler and the Sea-to-Sky corridor by phone and video from his Surrey office. Remote income, suites, second homes and resort rules are what set these files apart.",
+  answer: "I serve Squamish, Whistler and the Sea-to-Sky corridor by phone and video from my Surrey office. Remote income, suites, second homes and resort rules are what set these files apart.",
   who: "Squamish and Whistler buyers, renewers and refinancers, including remote workers, owners with a suite and anyone buying a recreational property.",
-  next: "Book a 15-minute call and tell Joshua whether the home is a residence, a second home or a rental."
+  next: "Book a 15-minute call and tell me whether the home is a residence, a second home or a rental."
 })}
 <p>Highway 99 ties Squamish and Whistler to Vancouver, and the same road shapes who buys here. Some people commute south. Others work from a laptop and chose the trails and the water over a city postal code. Many own a business, and some buy a place in the mountains for weekends. Each of those paths leads to a different kind of mortgage file.</p>
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He worked as an underwriter for five years, then moved to brokering, and he has funded more than 1,000 mortgages. His office is in Surrey, so Sea-to-Sky clients work with him online and by phone. There is no branch up the highway. <a href="/contact/">Book a 15-minute call</a> to start.</p>
+<p>I'm Joshua Resvick, a licensed mortgage broker with Xeva Mortgage. I worked as an underwriter for five years, then moved to brokering, and I have funded more than 1,000 mortgages. My office is in Surrey, so Sea-to-Sky clients work with me online and by phone. There is no branch up the highway. <a href="/contact/">Book a 15-minute call</a> to start.</p>
 
 ${ratesStrip()}
 
@@ -27,7 +27,7 @@ ${ratesStrip()}
 <p>If you drive or ride south for work, a lender will not price the trip. Your own budget should include it. What counts for approval is income, debts, credit and the down payment, supported by a proper <a href="/mortgage-pre-approval-bc/">pre-approval</a> before you make an offer.</p>
 
 <h2>Incomes in Squamish</h2>
-<p>Squamish's median household income was $111,000 for 2020, one of the higher figures among the cities we cover. About 20.7 percent of workers were self-employed. Professional services, construction and retail were almost level as the three largest industries. (Statistics Canada, 2021 Census Profile, read October 2026). A high self-employed share fits a town of contractors, remote workers and outdoor businesses. Lenders will want two years of tax returns, and some will also want to see your business is stable. Joshua can tell you early if your income reads well.</p>
+<p>Squamish's median household income was $111,000 for 2020, one of the higher figures among the cities we cover. About 20.7 percent of workers were self-employed. Professional services, construction and retail were almost level as the three largest industries. (Statistics Canada, 2021 Census Profile, read October 2026). A high self-employed share fits a town of contractors, remote workers and outdoor businesses. Lenders will want two years of tax returns, and some will also want to see your business is stable. I can tell you early if your income reads well.</p>
 ${censusTable("squamish")}
 
 <h2>Suites, coach houses and short-term rentals in Squamish</h2>
@@ -54,15 +54,15 @@ ${censusTable("squamish")}
 </ul>
 <p>Our <a href="/foreign-buyers-bc/">foreign buyers page</a> has more. A lawyer should confirm the rules for your own purchase.</p>
 
-<h2>What Joshua does for Sea-to-Sky clients</h2>
+<h2>What I do for Sea-to-Sky clients</h2>
 <ol>
-<li><strong>Names the property category.</strong> Residence, second home, rental or restricted unit: he sorts it out before you write an offer, so the financing condition is realistic.</li>
-<li><strong>Finds the lender for your pay.</strong> Remote, seasonal, contract and commission income each suit certain lenders. He lines the file up with one before it is submitted.</li>
+<li><strong>Names the property category.</strong> Residence, second home, rental or restricted unit: I sort it out before you write an offer, so the financing condition is realistic.</li>
+<li><strong>Finds the lender for your pay.</strong> Remote, seasonal, contract and commission income each suit certain lenders. I line the file up with one before it is submitted.</li>
 <li><strong>Compares in writing.</strong> You receive a <a href="/lender-comparison-report/">Lender Comparison Report</a> that sets rate, term, penalty method and flexibility side by side.</li>
-<li><strong>Follows up later.</strong> With <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and checks in ahead of maturity.</li>
+<li><strong>Follows up later.</strong> With <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and check in ahead of maturity.</li>
 </ol>
 
-${callout("What you pay", "<p>On most Squamish and Whistler files, an A lender pays Joshua, and the cost to you is zero. Contract-income files and some resort properties can end up with a B or private lender. In that case, BC rules require any fee to you to be shown in writing on BCFSA's Form 1A before you agree.</p>")}
+${callout("What you pay", "<p>On most Squamish and Whistler files, an A lender pays me, and the cost to you is zero. Contract-income files and some resort properties can end up with a B or private lender. In that case, BC rules require any fee to you to be shown in writing on BCFSA's Form 1A before you agree.</p>")}
 
 <h2>Buying, renewing and refinancing up the highway</h2>
 <p><strong>First-time buyers</strong> here can claim the same help as buyers anywhere in BC, including the First Home Savings Account and the Home Buyers' Plan. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> explains how the pieces fit, and the <a href="/guides/fhsa-and-home-buyers-plan-together/">guide on using both accounts</a> covers the withdrawal rules.</p>
@@ -76,22 +76,22 @@ ${callout("What you pay", "<p>On most Squamish and Whistler files, an A lender p
 ${cityFacts("squamish")}
 ${nearbyCallout("squamish", callout)}
 
-${cta({ title: "Talk to a broker who serves Squamish and Whistler", text: "Book a 15-minute call. Tell Joshua how you are paid and how you plan to use the property. You will leave knowing how a lender will read it and what to gather first." })}
+${cta({ title: "Talk to a broker who serves Squamish and Whistler", text: "Book a 15-minute call. Tell me how you are paid and how you plan to use the property. You will leave knowing how a lender will read it and what to gather first." })}
 `;
 
 export default {
   slug: "/mortgage-broker-squamish/",
   h1: "Mortgage broker serving Squamish, Whistler and Sea-to-Sky, BC",
-  lede: "Joshua Resvick, Xeva Mortgage, serves Squamish, Whistler and the Sea-to-Sky corridor from his Surrey office by phone and video. Remote income, suites, second homes and resort property, read the way an underwriter reads them.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I serve Squamish, Whistler and the Sea-to-Sky corridor from my Surrey office by phone and video. Remote income, suites, second homes and resort property, read the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Squamish and Whistler", "/mortgage-broker-squamish/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Can I get a mortgage if I work remotely from Squamish?", a: "Yes. A permanent employee who works remotely is usually assessed like any other employee. A contractor is often assessed through tax returns, and many lenders prefer two years of history. The right lender depends on how you are paid, which Joshua checks before anything is submitted." },
-    { q: "Will a lender count rent from a Squamish suite or coach house?", a: "If the unit is permitted and rented long term with documented rent, many lenders count a share of it. Squamish does not allow short-term rental in suites or coach houses, apart from limited permits. Lenders are cautious about nightly-rental income, so Joshua runs the numbers on long-term rent." },
-    { q: "How does a lender treat a Whistler property with nightly rental?", a: "With care. Whether nightly rental is allowed depends on the zoning and on covenants such as a rental pool. Some lenders restrict or decline these units, and others lend with conditions. Joshua identifies the property type first and then looks for a lender that fits." },
+    { q: "Can I get a mortgage if I work remotely from Squamish?", a: "Yes. A permanent employee who works remotely is usually assessed like any other employee. A contractor is often assessed through tax returns, and many lenders prefer two years of history. The right lender depends on how you are paid, which I check before anything is submitted." },
+    { q: "Will a lender count rent from a Squamish suite or coach house?", a: "If the unit is permitted and rented long term with documented rent, many lenders count a share of it. Squamish does not allow short-term rental in suites or coach houses, apart from limited permits. Lenders are cautious about nightly-rental income, so I run the numbers on long-term rent." },
+    { q: "How does a lender treat a Whistler property with nightly rental?", a: "With care. Whether nightly rental is allowed depends on the zoning and on covenants such as a rental pool. Some lenders restrict or decline these units, and others lend with conditions. I identify the property type first and then look for a lender that fits." },
     { q: "How much down payment do I need for a second home in the mountains?", a: "Plan on at least 20 percent. High-ratio insurance is not available when you will not live in the property, and some lenders ask for more on recreational or rental properties. The exact amount depends on the lender, the property and how you plan to use it." },
-    { q: "Do I need to meet Joshua in person?", a: "No. Sea-to-Sky clients work with Joshua by phone, video and secure document upload. There is no branch in Squamish or Whistler, and his office is in Surrey. BC lenders and rules are provincial, so working remotely does not narrow your options." }
+    { q: "Do I need to meet you in person?", a: "No. Sea-to-Sky clients work with me by phone, video and secure document upload. There is no branch in Squamish or Whistler, and my office is in Surrey. BC lenders and rules are provincial, so working remotely does not narrow your options." }
   ]
 };

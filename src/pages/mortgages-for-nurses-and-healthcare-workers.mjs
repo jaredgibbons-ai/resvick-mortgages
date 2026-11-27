@@ -31,16 +31,16 @@ ${short({ answer: "Lenders count base pay in full. Overtime, premiums and casual
 <h2>Why bank software gets it wrong</h2>
 <p>A branch system usually asks for one employer, one salary and one job type. Your file may have two employers and a casual status. Your year-to-date may include a maternity leave top-up or a one-time retention payment. None of that fits the fields.</p>
 <p>So you get a number built on base pay alone. Or worse, a decline, because your status reads as unstable. A broker who knows health authority jobs reads the same documents differently. A casual line with three years of T4s at a stable employer is reliable income. A lender that agrees will count it.</p>
-<p>Joshua spent five years as an underwriter reading files like these. That's the difference between a pre-approval that holds and one that falls apart at the lender's desk.</p>
+<p>I spent five years as an underwriter reading files like these. That's the difference between a pre-approval that holds and one that falls apart at the lender's desk.</p>
 
 <h2>A worked example</h2>
 <p>These figures are only an illustration. A registered nurse holds a 0.6 permanent line paying about $62,000 a year in base pay. Over the last two years, she has averaged $34,000 a year in casual shifts, overtime and premiums.</p>
 <p>At a lender that counts only base pay, the application is built on $62,000. At a lender that averages the variable pay, it's built on $96,000. Run both through the <a href="/mortgage-calculators/#affordability">affordability calculator</a>. The gap in purchase price comes down to lender policy alone. Nothing about the nurse changed. The lender did.</p>
 
-<h2>Joshua's process</h2>
+<h2>My process</h2>
 <ol>
 <li><strong>A 15-minute call,</strong> booked around your shifts. You talk about your positions, your pay history and what you want to buy.</li>
-<li><strong>Income read first.</strong> Joshua works out what each type of lender will count. Before you look at homes, he tells you where the number lands and what would move it.</li>
+<li><strong>Income read first.</strong> I work out what each type of lender will count. Before you look at homes, I tell you where the number lands and what would move it.</li>
 <li><strong>A real pre-approval.</strong> A <a href="/mortgage-pre-approval-bc/">pre-approval</a> that has actually been through your documents, not a rate quote. For a healthcare file, that's the whole game.</li>
 <li><strong>The right lender.</strong> It's chosen for its policy on casual and multi-employer income. You see the options in a written Lender Comparison Report.</li>
 <li><strong>A clean submission and aftercare.</strong> Your documents are explained up front. The relationship continues after funding, so a move to a new line or region gets handled early.</li>
@@ -59,11 +59,11 @@ ${short({ answer: "Lenders count base pay in full. Overtime, premiums and casual
 <p>A healthcare file with documented income almost always lands with a mainstream A lender. On those mortgages, the lender pays the broker and you pay nothing. Fees only come up on certain B-lender and private files. They're disclosed in writing on BCFSA's Form 1A before you commit.</p>
 <p>If this is your first purchase, read the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a>. It covers the programs that can cut your cash to close. These include the first-time buyers' transfer tax exemption and the First Home Savings Account.</p>
 
-${callout("One request before the call", "<p>Pull your last two T4s from each employer and your latest pay stub. With those, Joshua can tell you in one conversation what a lender will count. Everything else depends on that number.</p>")}
+${callout("One request before the call", "<p>Pull your last two T4s from each employer and your latest pay stub. With those, I can tell you in one conversation what a lender will count. Everything else depends on that number.</p>")}
 
-<p class="more-links"><strong>Where Joshua helps nurses and healthcare workers.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-kamloops/">Kamloops</a>, <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-terrace/">Terrace</a>, <a href="/mortgage-broker-white-rock/">White Rock</a> and <a href="/mortgage-broker-new-westminster/">New Westminster</a>.</p>
+<p class="more-links"><strong>Where I help nurses and healthcare workers.</strong> I serve buyers online from my Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-kamloops/">Kamloops</a>, <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-terrace/">Terrace</a>, <a href="/mortgage-broker-white-rock/">White Rock</a> and <a href="/mortgage-broker-new-westminster/">New Westminster</a>.</p>
 
-${cta({ title: "Casual line, real approval", text: "Book a 15-minute call around your schedule. Joshua will read your income the way a lender does and tell you which lender reads it best. Or <a href=\"/contact/\">contact him</a> by email." })}
+${cta({ title: "Casual line, real approval", text: "Book a 15-minute call around your schedule. I'll read your income the way a lender does and tell you which lender reads it best. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {

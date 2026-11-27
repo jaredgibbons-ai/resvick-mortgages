@@ -19,9 +19,9 @@ ${short({ answer: "Rolling high-interest debt into your mortgage cuts the rate a
 
 <h2>Tax debt owed to the CRA</h2>
 <p>A balance owing to the Canada Revenue Agency is another debt that home equity can sometimes address. CRA charges interest on unpaid balances at a rate the government sets and reviews every quarter. Collections can get stressful. A refinance can pay the balance in full from the new mortgage. That may stop the interest and the collection steps.</p>
-<p>Some points to keep in mind. Lenders differ on tax arrears. Some pay the CRA directly at closing. Some want proof the balance is paid before funding. And some won't lend at all while arrears are owing. If the CRA has registered a claim on your property, it gets dealt with at closing. Your lawyer handles that. When the file doesn't fit a mainstream lender, a B lender may approve it at a higher rate. The page on <a href="/b-lender-mortgage-bc/">B-lender mortgages</a> explains how. Joshua can tell you early which route is realistic for your file. This is general information, not tax advice, and an accountant should confirm anything about the tax side.</p>
+<p>Some points to keep in mind. Lenders differ on tax arrears. Some pay the CRA directly at closing. Some want proof the balance is paid before funding. And some won't lend at all while arrears are owing. If the CRA has registered a claim on your property, it gets dealt with at closing. Your lawyer handles that. When the file doesn't fit a mainstream lender, a B lender may approve it at a higher rate. The page on <a href="/b-lender-mortgage-bc/">B-lender mortgages</a> explains how. I can tell you early which route is realistic for your file. This is general information, not tax advice, and an accountant should confirm anything about the tax side.</p>
 
-${cta({ title: "See what consolidating would look like", text: "Send Joshua your balances, rates and your mortgage details. He will show the payment view and the total-cost view side by side, so you can decide with both numbers in front of you." })}
+${cta({ title: "See what consolidating would look like", text: "Send me your balances, rates and your mortgage details. I'll show the payment view and the total-cost view side by side, so you can decide with both numbers in front of you." })}
 
 <h2>The behaviour condition</h2>
 <p>This is the part that most consolidation pages leave out, and it matters more than any rate. A consolidation refinance clears the cards. It does nothing to the reason the cards filled up. If the cause was a one-time event, like a job loss, a medical cost or a move, the relief can be a clean reset. If the cause was ongoing spending beyond your income, things are different. Without a change in spending, a refinance just gives you the same cards, empty again, on top of a bigger mortgage.</p>
@@ -39,7 +39,7 @@ ${cta({ title: "See what consolidating would look like", text: "Send Joshua your
 <li><strong>A B lender.</strong> If your debt ratios or credit fail at a mainstream lender, an alternative lender may approve a consolidation at a higher rate. It's usually a short-term bridge back to a prime lender.</li>
 <li><strong>A direct repayment plan.</strong> A lower-rate balance transfer or a lower-rate loan may fit smaller balances without touching your mortgage.</li>
 </ul>
-<p>To go through your own numbers, <a href="/contact/">contact Joshua</a>.</p>
+<p>To go through your own numbers, <a href="/contact/">contact me</a>.</p>
 
 ${callout("Check the lifetime cost, not just the payment", "<p>A lower payment is the reason people consolidate, and it is a good reason. Just make sure you can see the total interest alongside it, and decide whether to keep paying at your old level.</p>")}
 `;
@@ -56,6 +56,6 @@ export default {
     { q: "Is consolidating debt into a mortgage a good idea?", a: "It can lower your payments and your interest rate, which helps when cash flow is tight. It can also raise your total interest because the debt lasts as long as the mortgage. It works best if you keep paying at your old level and stop re-using the cards." },
     { q: "Can I use my home equity to pay the CRA?", a: "Often, yes. A refinance can pay a balance owing to the CRA in full, and some lenders will pay the CRA directly at closing. Policy varies, and some lenders will not lend while arrears are outstanding, so a B lender may be the route. An accountant should advise on the tax side." },
     { q: "Will paying off my cards with a refinance help my credit score?", a: "Usually it helps over time, because balances drop and utilization falls. Closing paid-off accounts can lower your score slightly, because it reduces your available credit. Running the cards back up cancels the benefit and leaves you with more debt overall." },
-    { q: "What if I do not have enough equity or my ratios fail?", a: "A second mortgage, a B lender or a different structure may fit, usually at a higher cost. If the debt is beyond what equity can absorb, talk to a licensed insolvency trustee or a non-profit credit counsellor. Joshua will tell you early which of these is realistic." }
+    { q: "What if I do not have enough equity or my ratios fail?", a: "A second mortgage, a B lender or a different structure may fit, usually at a higher cost. If the debt is beyond what equity can absorb, talk to a licensed insolvency trustee or a non-profit credit counsellor. I'll tell you early which of these is realistic." }
   ]
 };

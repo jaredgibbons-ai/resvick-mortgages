@@ -8,9 +8,9 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-pit
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Pitt Meadows buyers and owners by phone and video from his Surrey office. This is a small city where most of the land is farmland and most of the land sits in a floodplain. A few questions decide the file: is the home in town or in the ALR, is any suite registered, and how are you paid?",
+  answer: "I serve Pitt Meadows buyers and owners by phone and video from my Surrey office. This is a small city where most of the land is farmland and most of the land sits in a floodplain. A few questions decide the file: is the home in town or in the ALR, is any suite registered, and how are you paid?",
   who: "Pitt Meadows buyers of houses and townhomes, owners of acreage or farm-zoned lots, owners with a suite, and renewers.",
-  next: "Book a 15-minute call and tell Joshua the street or neighbourhood, and whether the lot is in the Agricultural Land Reserve."
+  next: "Book a 15-minute call and tell me the street or neighbourhood, and whether the lot is in the Agricultural Land Reserve."
 })}
 <p>Pitt Meadows lies between the Fraser River and the Pitt River, with Maple Ridge to the east and Port Coquitlam to the south and west. It has a small town centre and a lot of open land. The City says that 78 percent of the city is agricultural land (City of Pitt Meadows, Agriculture, read October 2026). It also says the city ranks sixth among BC municipalities for farm production and supplies 20 percent of the province's blueberries (same page).</p>
 <p>That mix makes this a city of two mortgage markets. One is the everyday market of houses and townhomes in town. The other is the market for acreage and farm-zoned land. Lenders treat them very differently, so it helps to know which one you are in before you make an offer.</p>
@@ -20,10 +20,10 @@ ${ratesStrip()}
 <h2>How lenders read Pitt Meadows incomes</h2>
 <p>Many Pitt Meadows households earn their pay outside the city, at jobs across Metro Vancouver. For these files, the lender checks salary or hourly pay, overtime and bonus history, debts and credit. Lenders do not count your drive or train fare as a debt. They look at your pay and your obligations. You should still put the commute in your own budget.</p>
 <p>A second group earns money from the land. Farm income can be seasonal, tied to weather and paid through a proprietorship or a company. Lenders commonly average two years of tax returns and notices of assessment for this kind of income. A year with a poor crop pulls the average down. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains how those averages work, and lenders vary in how much they will credit.</p>
-<p>If you are newly in business, a small down payment can narrow your choices. The right lender depends on how long you have filed and how steady the income has been. Joshua sorts that out before you start shopping, not after you have a firm offer.</p>
+<p>If you are newly in business, a small down payment can narrow your choices. The right lender depends on how long you have filed and how steady the income has been. I sort that out before you start shopping, not after you have a firm offer.</p>
 
 <h2>Incomes in Pitt Meadows</h2>
-<p>Pitt Meadows' own Census profile shows a median household income of $104,000 for 2020. About 14.5 percent of workers were self-employed, or 1,550 of 10,655 in the labour force. Health care was the largest industry with 1,275 workers, then construction with 1,140 and retail with 1,120. (Statistics Canada, 2021 Census Profile, read October 2026). Wages from hospitals and stores sit next to trades pay and small companies. Lenders read each differently, so Joshua asks how you are paid and for how long before he chooses where to apply.</p>
+<p>Pitt Meadows' own Census profile shows a median household income of $104,000 for 2020. About 14.5 percent of workers were self-employed, or 1,550 of 10,655 in the labour force. Health care was the largest industry with 1,275 workers, then construction with 1,140 and retail with 1,120. (Statistics Canada, 2021 Census Profile, read October 2026). Wages from hospitals and stores sit next to trades pay and small companies. Lenders read each differently, so I ask how you are paid and for how long before I choose where to apply.</p>
 ${censusTable("pitt-meadows")}
 
 <h2>Homes in town and homes on the land</h2>
@@ -31,7 +31,7 @@ ${censusTable("pitt-meadows")}
 <p>Houses and attached homes such as townhouses make up most of the housing in town. Apartments are a small share (Statistics Canada 2021 Census, via Point2Homes, read October 2026). For a lender, that means less strata paperwork than in a condo-heavy city. If you do buy a townhouse in a strata, the <a href="/condo-and-townhouse-mortgages/">condo and townhouse mortgage page</a> lists what lenders ask to see.</p>
 <h3>Acreage and farm lots</h3>
 <p>Land in the Agricultural Land Reserve, or ALR, follows provincial rules as well as City rules. The City says only one residence is allowed on an ALR property, unless the extra home is needed for farm use. A second house needs approval from the Agricultural Land Commission (City of Pitt Meadows, Residences in the ALR, read October 2026).</p>
-<p>Lenders react to this in several ways. Many mainstream lenders limit or decline farm-classified property. Some want a larger down payment. Others send the file to a lender that works with farm land. They also ask about the well, the septic system, the outbuildings and how much of the price is land. Rules differ between lenders, so Joshua checks the property type first. The <a href="/farm-and-alr-mortgages-bc/">farm and ALR mortgage page</a> gives the full picture.</p>
+<p>Lenders react to this in several ways. Many mainstream lenders limit or decline farm-classified property. Some want a larger down payment. Others send the file to a lender that works with farm land. They also ask about the well, the septic system, the outbuildings and how much of the price is land. Rules differ between lenders, so I check the property type first. The <a href="/farm-and-alr-mortgages-bc/">farm and ALR mortgage page</a> gives the full picture.</p>
 
 <h2>The floodplain question</h2>
 <p>About 85 percent of Pitt Meadows lies in the Fraser River and Pitt River floodplains (City of Pitt Meadows, Flood Preparation, read October 2026). For a buyer, that is a reason to ask about insurance early.</p>
@@ -63,27 +63,27 @@ ${censusTable("pitt-meadows")}
 <li><strong>Central Meadows and Mid Meadows</strong>, two names used for the central part of town.</li>
 <li><strong>North Meadows and the acreage areas</strong>, where lots are larger and farm rules come up more.</li>
 </ul>
-<p>Treat these as search terms, not legal boundaries. What matters to a lender is the property type and the zone, not the area name. Joshua can check both when you send him a listing.</p>
+<p>Treat these as search terms, not legal boundaries. What matters to a lender is the property type and the zone, not the area name. I can check both when you send me a listing.</p>
 
-<h2>What Joshua does for Pitt Meadows clients</h2>
+<h2>What I do for Pitt Meadows clients</h2>
 <ol>
-<li><strong>Checks the lot before the offer.</strong> He asks about the ALR, the floodplain and suite registration. Each answer shapes the lender choice.</li>
+<li><strong>Checks the lot before the offer.</strong> I ask about the ALR, the floodplain and suite registration. Each answer shapes the lender choice.</li>
 <li><strong>Puts lenders side by side.</strong> A <a href="/lender-comparison-report/">Lender Comparison Report</a> shows rate, term, penalty method and prepayment terms in writing.</li>
 <li><strong>Keeps the file moving.</strong> You upload papers through a secure link, and your realtor and lawyer get updates.</li>
 <li><strong>Looks ahead to renewal.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> means a yearly review and a call about six months before your term ends.</li>
 </ol>
 
-${callout("Paying for the service", "<p>If your Pitt Meadows file suits a bank or other A lender, the lender pays Joshua and you pay nothing to him. A farm lot or a hard-to-document income may need a B or private lender instead. In that case, any charge to you must be shown in writing on BCFSA Form 1A before you agree to it.</p>")}
+${callout("Paying for the service", "<p>If your Pitt Meadows file suits a bank or other A lender, the lender pays me and you pay nothing to me. A farm lot or a hard-to-document income may need a B or private lender instead. In that case, any charge to you must be shown in writing on BCFSA Form 1A before you agree to it.</p>")}
 
 <h2>First-time buyers, renewals and refinances</h2>
 <p><strong>First-time buyers</strong> can look at each program on its own test. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> sorts out the transfer tax exemption, the First Home Savings Account and the Home Buyers' Plan.</p>
 <p><strong>Renewals</strong> are worth shopping, not signing at the first letter. The <a href="/mortgage-renewal-bc/">renewal guide</a> has the timeline. The <a href="/mortgage-calculators/">mortgage calculators</a> let you try your own balance and term. To see how a rate gets set, read the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
 <h2>Nearby cities</h2>
-<p>Many Pitt Meadows buyers also look at <a href="/mortgage-broker-maple-ridge/">Maple Ridge</a>, next door to the east, and at <a href="/mortgage-broker-port-coquitlam/">Port Coquitlam</a>, across the Pitt River. Joshua serves all three the same way. The <a href="/contact/">contact page</a> shows how to reach him.</p>
+<p>Many Pitt Meadows buyers also look at <a href="/mortgage-broker-maple-ridge/">Maple Ridge</a>, next door to the east, and at <a href="/mortgage-broker-port-coquitlam/">Port Coquitlam</a>, across the Pitt River. I serve all three the same way. The <a href="/contact/">contact page</a> shows how to reach me.</p>
 
 <h2>Who writes this</h2>
-<p>Joshua Resvick holds a mortgage broker licence through Xeva Mortgage. Before that, he worked as an underwriter, so he knows what a lender looks for when it reads a file. He has helped fund more than 1,000 mortgages. He works with Pitt Meadows clients from an office in Surrey, with calls, video and secure uploads. He has no office in Pitt Meadows.</p>
+<p>I hold a mortgage broker licence through Xeva Mortgage. Before that, I worked as an underwriter, so I know what a lender looks for when it reads a file. I have helped fund more than 1,000 mortgages. I work with Pitt Meadows clients from an office in Surrey, with calls, video and secure uploads. I have no office in Pitt Meadows.</p>
 
 
 ${cityFacts("pitt-meadows")}
@@ -95,16 +95,16 @@ ${cta({ title: "Talk to a broker who serves Pitt Meadows", text: "Book a 15-minu
 export default {
   slug: "/mortgage-broker-pitt-meadows/",
   h1: "Mortgage broker serving Pitt Meadows, BC",
-  lede: "Joshua Resvick, Xeva Mortgage, helps Pitt Meadows buyers and owners from his Surrey office by phone and video. ALR land, floodplain homes, registered suites and commuter incomes, read the way an underwriter reads them.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I help Pitt Meadows buyers and owners from my Surrey office by phone and video. ALR land, floodplain homes, registered suites and commuter incomes, read the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Pitt Meadows", "/mortgage-broker-pitt-meadows/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "My Pitt Meadows property is in the ALR. Will a regular lender fund it?", a: "Sometimes, but not every lender will. Many mainstream lenders limit or decline farm-classified land, ask for more down payment or send the file to a lender that works with farm property. They also look at the well, septic and how much of the price is land. Joshua checks the property type before you write an offer." },
+    { q: "My Pitt Meadows property is in the ALR. Will a regular lender fund it?", a: "Sometimes, but not every lender will. Many mainstream lenders limit or decline farm-classified land, ask for more down payment or send the file to a lender that works with farm property. They also look at the well, septic and how much of the price is land. I check the property type before you write an offer." },
     { q: "Can I add a suite if my acreage has a farm worker house?", a: "The City's suite guide allows a suite in the farm house itself. It says suites are not allowed in the additional farm house built for farm workers. A second house on ALR land also needs approval from the Agricultural Land Commission. Check your exact lot with the City before you count on rent." },
     { q: "Is my basement suite legal if it was never registered?", a: "The City's guide says a suite is legal when the City confirms that it is registered. If it is not on the City's record, many lenders will not count its rent, and you may need to apply to register it. Rules for size, parking and flood levels apply. Ask the City before you buy." },
-    { q: "Can I count a suite and a garden suite on the same lot?", a: "Only in some zones. The City's guide says a secondary suite is not allowed on a lot with a garden suite, except in the R-3, R-4 and R-6 zones. Zoning is lot by lot, so confirm yours with the City. Then Joshua can show how a lender would treat the rent." },
-    { q: "Does the floodplain change my insurance or my lender's conditions?", a: "It can. About 85 percent of the city lies in a floodplain, so insurers may treat flood cover as a separate matter. Lenders usually need proof of home insurance before they fund. Get an insurance quote early, and tell Joshua if the quote adds a condition or a cost." }
+    { q: "Can I count a suite and a garden suite on the same lot?", a: "Only in some zones. The City's guide says a secondary suite is not allowed on a lot with a garden suite, except in the R-3, R-4 and R-6 zones. Zoning is lot by lot, so confirm yours with the City. Then I can show how a lender would treat the rent." },
+    { q: "Does the floodplain change my insurance or my lender's conditions?", a: "It can. About 85 percent of the city lies in a floodplain, so insurers may treat flood cover as a separate matter. Lenders usually need proof of home insurance before they fund. Get an insurance quote early, and tell me if the quote adds a condition or a cost." }
   ]
 };

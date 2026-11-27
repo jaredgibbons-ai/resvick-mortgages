@@ -39,7 +39,7 @@ ${short({
 <p>On owned land, lenders focus on a few things. They look at the home's age and condition, the foundation and whether the home is permanently fixed. They check the land's zoning and access. And they rely on the appraisal. In rural areas that can take longer, and may give less weight to the home than to the land.</p>
 <p>Run your numbers through the <a href="/mortgage-calculators/#affordability">affordability calculator</a>. The <a href="/down-payment-guide-bc/">down payment guide</a> explains how the 5 percent minimum works and where the money can come from.</p>
 
-${cta({ title: "Looking at a manufactured home and not sure how it will finance?", text: "Tell Joshua three things: owned or rented land, the home's year and label, and the park. He'll tell you which lenders are realistic and what terms to expect, before you write an offer." })}
+${cta({ title: "Looking at a manufactured home and not sure how it will finance?", text: "Tell me three things: owned or rented land, the home's year and label, and the park. I'll tell you which lenders are realistic and what terms to expect, before you write an offer." })}
 
 <h2>On a rented pad: chattel financing, and what changes</h2>
 <p>Park homes work differently. On a rented pad, there's no land for the lender to secure a mortgage against. The financing becomes a chattel loan secured on the home. Almost everything about it is different.</p>
@@ -70,7 +70,7 @@ ${cta({ title: "Looking at a manufactured home and not sure how it will finance?
 <p>Whatever the route, the <a href="/mortgage-application-checklist/">mortgage application checklist</a> applies. Add three things: the CSA label photo, the registry or land title search, and the park tenancy agreement or lease.</p>
 <p>If this is your first home, the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> covers the programs that may apply. One caution: some require the home to be real property. So a park home doesn't always get the same exemptions and rebates as a house on owned land. Check each program's property rules before you count on it.</p>
 
-${callout("Fees, and who pays the broker", "<p>On a manufactured home financed with an A lender, including the insurers' prefab programs, the lender pays the broker. You pay nothing for the service. Chattel loans, B-lender and private files can carry lender fees and sometimes a broker fee. You see them in writing on BCFSA's Form 1A before you commit. Joshua will tell you which category a home and lender fall into before any application. <a href=\"/contact/\">Contact him</a> with the details.</p>")}
+${callout("Fees, and who pays the broker", "<p>On a manufactured home financed with an A lender, including the insurers' prefab programs, the lender pays the broker. You pay nothing for the service. Chattel loans, B-lender and private files can carry lender fees and sometimes a broker fee. You see them in writing on BCFSA's Form 1A before you commit. I'll tell you which category a home and lender fall into before any application. <a href=\"/contact/\">Contact me</a> with the details.</p>")}
 `;
 
 export default {

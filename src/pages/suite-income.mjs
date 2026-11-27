@@ -73,9 +73,9 @@ ${tool}
 <p>Everything on this page applies to homes you live in. If you're buying mainly to rent out, lenders use different limits on the loan. They often use a different method for the rent too. The same goes if you want to borrow against a rental you already own.</p>
 <p>The <a href="/investment-property-mortgages-bc/">investment property mortgage guide</a> covers purchases. The page on how to <a href="/refinance-rental-property/">refinance a rental property</a> covers borrowing against one. A broker can match the property to a lender whose rent policy suits it.</p>
 
-${callout("What to do next", "<p>Before you make an offer on a suited home, ask your broker to run the file under more than one lender's method. Picture one lender that credits 80 percent of the rent as an offset. Picture another that credits 50 percent as an add-back. On the same suite, they can be hundreds of thousands of dollars apart. Tell Joshua three things. Is the suite registered? What does it rent for? How long has it been rented? He'll tell you what each route is likely to produce. You can <a href=\"/contact/\">contact him</a> with those three facts any time.</p>")}
+${callout("What to do next", "<p>Before you make an offer on a suited home, ask your broker to run the file under more than one lender's method. Picture one lender that credits 80 percent of the rent as an offset. Picture another that credits 50 percent as an add-back. On the same suite, they can be hundreds of thousands of dollars apart. Tell me three things. Is the suite registered? What does it rent for? How long has it been rented? I'll tell you what each route is likely to produce. You can <a href=\"/contact/\">contact me</a> with those three facts any time.</p>")}
 
-${cta({ title: "Run your suite through real lender policies", text: "Use the comparator above to see the range, then book a 15-minute call. Joshua will tell you which lenders are likely to credit your rent, and how much, before you write an offer." })}
+${cta({ title: "Run your suite through real lender policies", text: "Use the comparator above to see the range, then book a 15-minute call. I'll tell you which lenders are likely to credit your rent, and how much, before you write an offer." })}
 `;
 
 export default {

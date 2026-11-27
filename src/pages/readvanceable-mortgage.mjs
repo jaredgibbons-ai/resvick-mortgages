@@ -35,18 +35,18 @@ ${tool}
 <p>In practice, your current lender has more leverage at renewal, because leaving costs more. You should still shop at renewal. Just compare the savings against the real cost of moving.</p>
 <p>Also know this. The Finance Canada and OSFI rules let straight switches skip the stress test. They may not cover a move that involves refinancing or restructuring. Confirm with the new lender before you rely on it.</p>
 
-${cta({ title: "Is a readvanceable mortgage the right structure for you?", text: "Book a 15-minute call. Joshua will ask what you plan to do with the room and show you the renewal trade-off in dollars. He'll tell you if a plain mortgage with a separate line would serve you better." })}
+${cta({ title: "Is a readvanceable mortgage the right structure for you?", text: "Book a 15-minute call. I'll ask what you plan to do with the room and show you the renewal trade-off in dollars. I'll tell you if a plain mortgage with a separate line would serve you better." })}
 
 <h2>Risks: spending the room</h2>
 <p>This structure makes borrowing easy on purpose. Every principal payment creates new room, and that room is a few clicks away. For disciplined borrowers with a plan, that's a feature.</p>
 <p>For everyone else, the mortgage never really shrinks. The mortgage balance falls while the line balance rises, and the total owing stays put. Interest-only minimums on the line mean nothing forces you to repay.</p>
-<p>Three habits help. First, set your own limit on the line below the lender's. Then the room you see is the room you plan to use. Second, decide in advance what the line is for. Treat any other draw like a new loan that needs the same thought. Third, review the total owing, not just the mortgage balance, at least once a year. The <a href="/mortgage-aftercare-program/">aftercare program</a> includes that review for Joshua's clients.</p>
+<p>Three habits help. First, set your own limit on the line below the lender's. Then the room you see is the room you plan to use. Second, decide in advance what the line is for. Treat any other draw like a new loan that needs the same thought. Third, review the total owing, not just the mortgage balance, at least once a year. The <a href="/mortgage-aftercare-program/">aftercare program</a> includes that review for my clients.</p>
 <p>Two more points apply to the line itself. The rate is variable, at prime plus a spread. So a drawn balance costs more whenever prime goes up. And under the contract, the lender can lower the limit or freeze draws if your home's value falls or your credit changes.</p>
 
 <h2>Qualifying and cost</h2>
 <p>The package is approved like a mortgage and a line together. The lender qualifies you on the full overall limit, as if the line were fully drawn, at the stress-test rate. So a readvanceable setup reduces how much other debt you can carry on future applications. That's true even when the line is empty.</p>
 <p>On a package placed with a prime lender, the lender pays the broker and you pay nothing for the arrangement. Broker fees only come up on B-lender and private files, with written disclosure first. Appraisal and registration costs are set by the lender and vary.</p>
-<p>If the structure still fits after reading this, the next step is a short talk about what you'll do with the room. That decides how the package should be sized. <a href="/contact/">Contact Joshua</a> or book a call.</p>
+<p>If the structure still fits after reading this, the next step is a short talk about what you'll do with the room. That decides how the package should be sized. <a href="/contact/">Contact me</a> or book a call.</p>
 
 ${callout("Room is not wealth", "<p>Available credit on a readvanceable line is borrowing room, not money you have. The structure works when every draw has a purpose and a repayment plan. It fails quietly when the room gets spent and the total debt stops falling.</p>")}
 `;

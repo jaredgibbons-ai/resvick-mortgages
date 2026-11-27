@@ -9,7 +9,7 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-pow
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Powell River and the qathet region by phone and video from his Surrey office. Many buyers here are retirees, remote workers and people moving from the Lower Mainland or the Island. Getting here takes a ferry, but getting a mortgage doesn't.",
+  answer: "I serve Powell River and the qathet region by phone and video from my Surrey office. Many buyers here are retirees, remote workers and people moving from the Lower Mainland or the Island. Getting here takes a ferry, but getting a mortgage doesn't.",
   who: "Buyers and owners in Powell River, Westview, Cranberry, Lund, Texada Island and the rest of the qathet region.",
   next: "Book a 15-minute call. Say where you live now, how you earn, and when you hope to cross over."
 })}
@@ -68,23 +68,23 @@ ${callout("What you pay for the advice", "<p>Usually nothing. With an A lender, 
 ${cityFacts("powell-river")}
 ${nearbyCallout("powell-river", callout)}
 
-${cta({ title: "Talk to a broker who serves Powell River", text: "Book a 15-minute call. Tell Joshua where you live now, how you earn and what kind of place you have in mind. He will map out the lenders that fit and the steps before your move." })}
+${cta({ title: "Talk to a broker who serves Powell River", text: "Book a 15-minute call. Tell me where you live now, how you earn and what kind of place you have in mind. I'll map out the lenders that fit and the steps before your move." })}
 `;
 
 export default {
   slug: "/mortgage-broker-powell-river/",
   h1: "Mortgage broker in Powell River, BC: buying a home or moving to Powell River",
-  lede: "Buying in Powell River, or moving to the qathet region? Joshua Resvick, Xeva Mortgage, serves the upper Sunshine Coast by phone and video from his Surrey office. Remote work, retirees, suites and ferry-access lots, explained the way a lender reads them.",
+  lede: "Buying in Powell River, or moving to the qathet region? I'm Joshua Resvick, with Xeva Mortgage, and I serve the upper Sunshine Coast by phone and video from my Surrey office. Remote work, retirees, suites and ferry-access lots, explained the way a lender reads them.",
   crumbs: [["Home", "/"], ["Cities served", "/bc-mortgage-broker-service-areas/"], ["Serving Powell River", "/mortgage-broker-powell-river/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Do you have an office in Powell River?", a: "No. Joshua works from his Surrey office and serves Powell River and the qathet region by phone, video and secure upload. The lender, appraiser and your lawyer or notary do their parts locally, so you can start before you move." },
+    { q: "Do you have an office in Powell River?", a: "No. I work from my Surrey office and serve Powell River and the qathet region by phone, video and secure upload. The lender, appraiser and your lawyer or notary do their parts locally, so you can start before you move." },
     { q: "How much do I need to buy a home in Powell River?", a: "At BC Assessment's typical 2026 value of $580,000, the minimum down payment is $33,000. A qualifying first-time buyer pays about $1,600 in property transfer tax. With under 20% down, the CMHC premium is added to the mortgage. Legal fees and an inspection come on top." },
     { q: "Can I get a mortgage on remote work income?", a: "Yes. If you're an employee, lenders read your salary the same way wherever you live. A job letter that confirms remote work helps. If you're self-employed, lenders usually want two years of tax returns and look at net income." },
     { q: "Can I rent my Powell River home on Airbnb?", a: "Only your principal residence, in listed zones, one per lot. You need a City business licence and the provincial registration. Many lenders won't count short-term rent at all, so don't rely on it to qualify." },
     { q: "Is Powell River on Vancouver Island?", a: "No. It's on the mainland's upper Sunshine Coast, but there's no road to the rest of the mainland. Most people reach it by ferry from Comox on the Island, or by two ferries from the Lower Mainland." },
-    { q: "Can I buy a home on Texada Island with a regular mortgage?", a: "Often, if it's a year-round home with proper water, septic and access. There may be few comparable sales, so the appraisal can come in low. A seasonal cabin may be treated as a second home. Share the listing with Joshua early." }
+    { q: "Can I buy a home on Texada Island with a regular mortgage?", a: "Often, if it's a year-round home with proper water, septic and access. There may be few comparable sales, so the appraisal can come in low. A seasonal cabin may be treated as a second home. Share the listing with me early." }
   ]
 };

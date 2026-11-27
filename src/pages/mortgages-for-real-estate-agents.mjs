@@ -2,7 +2,7 @@ import { short } from "../lib/short.mjs";
 import { cta, callout } from "../lib/site.mjs";
 
 const body = `
-${short({ answer: "Lenders usually average two years of your net commission income, after expenses. So write-offs shrink the number they use. A new agent, or one paid through a corporation, needs a bit more planning. Lenders vary on all of it.", who: "Realtors, brokers and other commission-paid salespeople, new or seasoned, with or without a personal real estate corporation.", next: "Pull your last two tax returns and notices of assessment, then <a href=\"/contact/\">book a short call</a> with Joshua." })}
+${short({ answer: "Lenders usually average two years of your net commission income, after expenses. So write-offs shrink the number they use. A new agent, or one paid through a corporation, needs a bit more planning. Lenders vary on all of it.", who: "Realtors, brokers and other commission-paid salespeople, new or seasoned, with or without a personal real estate corporation.", next: "Pull your last two tax returns and notices of assessment, then <a href=\"/contact/\">book a short call</a> with me." })}
 
 <h2>Your situation</h2>
 <p>You close a deal and the cheque is big. Then six weeks go by and nothing lands. You know your year. You know a slow February is normal, and that a busy June makes up for it.</p>
@@ -36,7 +36,7 @@ ${short({ answer: "Lenders usually average two years of your net commission inco
 <li><strong>A co-signer or co-borrower.</strong> A partner with steady salaried income can anchor the file. The <a href="/mortgage-with-a-cosigner/">co-signer page</a> explains the risks.</li>
 <li><strong>A short B-lender term.</strong> A B lender may accept shorter history. It can cost more, and fees may apply. They are always disclosed in writing before you sign. You can then move to an A lender when you have two years filed.</li>
 </ul>
-<p>The <a href="/newly-self-employed-mortgage/">newly self-employed page</a> goes through these options in detail. If you are a few months short of two years, waiting may cost you less than rushing. Joshua will tell you straight which side of that line you are on.</p>
+<p>The <a href="/newly-self-employed-mortgage/">newly self-employed page</a> goes through these options in detail. If you are a few months short of two years, waiting may cost you less than rushing. I'll tell you straight which side of that line you are on.</p>
 
 <h2>Paid through a personal real estate corporation (PREC)</h2>
 <p>Many busy agents hold their licence through a personal real estate corporation. The commission is paid to the company. You then pay yourself salary, dividends, or a mix of both.</p>
@@ -85,21 +85,21 @@ ${short({ answer: "Lenders usually average two years of your net commission inco
 <li><strong>Disclosure and conflict of interest.</strong> When you are on either side of a trade, your licence comes with rules about disclosure. Your managing broker and brokerage handle that process. Ask them early, so the paperwork is ready when the mortgage is.</li>
 <li><strong>Rental income.</strong> If the new place will have tenants, lenders count only part of the rent, and the share varies. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> shows how it works for a basement or secondary suite.</li>
 </ul>
-<p>Joshua is not your brokerage and does not give legal advice. He builds the mortgage. Your brokerage and a lawyer or notary handle the rest of the trade.</p>
+<p>I'm not your brokerage and does not give legal advice. I build the mortgage. Your brokerage and a lawyer or notary handle the rest of the trade.</p>
 
 <h2>Working with agents and their clients</h2>
-<p>Joshua works with agents and with their clients. If you have a buyer who is self-employed or has a complicated file, you can ask for a call. He will explain the income to the buyer in plain words. He will also keep you in the loop on timing, with the client's permission.</p>
-<p>That lets you focus on the showings and the offer. The mortgage side is handled in parallel, with clear dates for the subjects. You can reach Joshua through the <a href="/contact/">contact page</a>.</p>
+<p>I work with agents and with their clients. If you have a buyer who is self-employed or has a complicated file, you can ask for a call. I'll explain the income to the buyer in plain words. I'll also keep you in the loop on timing, with the client's permission.</p>
+<p>That lets you focus on the showings and the offer. The mortgage side is handled in parallel, with clear dates for the subjects. You can reach me through the <a href="/contact/">contact page</a>.</p>
 
-<h2>Joshua's process for a commission file</h2>
+<h2>My process for a commission file</h2>
 <ol>
 <li><strong>A 15-minute call, set around your showings.</strong> You talk about your years in the business, your set-up and what you want to buy.</li>
-<li><strong>Income read first.</strong> Joshua works out what each type of lender is likely to count. Before you look at homes, he tells you where the number lands and what would move it.</li>
+<li><strong>Income read first.</strong> I work out what each type of lender is likely to count. Before you look at homes, I tell you where the number lands and what would move it.</li>
 <li><strong>A real pre-approval.</strong> It is reviewed against your documents, so it holds when the lender reads the file.</li>
 <li><strong>The right lender.</strong> It is picked for how it treats commission, expenses and corporate income. You see the options side by side in a written <a href="/lender-comparison-report/">Lender Comparison Report</a>.</li>
 <li><strong>A clean submission and aftercare.</strong> Your documents are explained up front. The relationship continues after funding, so a change in your income or a renewal gets handled early.</li>
 </ol>
-<p>Joshua spent five years as an underwriter reading files like these. He knows what the person on the other side of the desk will ask.</p>
+<p>I spent five years as an underwriter reading files like these. I know what the person on the other side of the desk will ask.</p>
 
 <h2>Common traps for commission earners</h2>
 <ul>
@@ -113,13 +113,13 @@ ${short({ answer: "Lenders usually average two years of your net commission inco
 <h2>What the service costs</h2>
 <p>Most agents with clean returns land with a mainstream A lender. On those mortgages, the lender pays the broker and you pay nothing. Fees only come up on certain B-lender and private files. They are disclosed in writing on BCFSA's Form 1A before you commit. Read the full explainer on <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> if you want the detail.</p>
 
-${callout("One request before the call", "<p>Pull your last two tax returns, your last two Notices of Assessment and your latest CRA balance. With those, Joshua can tell you in one conversation how a lender is likely to read your commission income.</p>")}
+${callout("One request before the call", "<p>Pull your last two tax returns, your last two Notices of Assessment and your latest CRA balance. With those, I can tell you in one conversation how a lender is likely to read your commission income.</p>")}
 
-<p>If you own your brokerage office or an investment building, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+<p>If you own your brokerage office or an investment building, I also arrange <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
 
-<p class="more-links"><strong>Where Joshua helps real estate agents.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-vancouver/">Vancouver</a>, <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-langley/">Langley</a>, <a href="/mortgage-broker-kelowna/">Kelowna</a>, <a href="/mortgage-broker-victoria/">Victoria</a> and <a href="/mortgage-broker-white-rock/">White Rock</a>.</p>
+<p class="more-links"><strong>Where I help real estate agents.</strong> I serve buyers online from my Surrey office in <a href="/mortgage-broker-vancouver/">Vancouver</a>, <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-langley/">Langley</a>, <a href="/mortgage-broker-kelowna/">Kelowna</a>, <a href="/mortgage-broker-victoria/">Victoria</a> and <a href="/mortgage-broker-white-rock/">White Rock</a>.</p>
 
-${cta({ title: "Commission income, read the way a lender reads it", text: "Book a 15-minute call around your showings. Joshua will go through your returns and tell you which lender is likely to read your income best. Or <a href=\"/contact/\">contact him</a> by email." })}
+${cta({ title: "Commission income, read the way a lender reads it", text: "Book a 15-minute call around your showings. I'll go through your returns and tell you which lender is likely to read your income best. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {

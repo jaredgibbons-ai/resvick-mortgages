@@ -34,14 +34,14 @@ ${short({
 <p>"Think twice" means the numbers point the other way, at least for now, and the result says why. It's not a refusal. Sometimes the right answer is a line of credit instead of a refinance. Sometimes it's waiting for renewal, or doing nothing at all. A check that can say "nothing" is more useful than one that can't.</p>
 
 <h2>Why the result comes first</h2>
-<p>You see everything on the page the moment you finish. Nothing is sent anywhere, because the check runs in your browser. Afterwards there's an optional button for a written version with Joshua's notes. That's where you'd give a name and an email. The consent box starts unticked, and so does the "I'd like a call" box. The answer is yours either way.</p>
+<p>You see everything on the page the moment you finish. Nothing is sent anywhere, because the check runs in your browser. Afterwards there's an optional button for a written version with my notes. That's where you'd give a name and an email. The consent box starts unticked, and so does the "I'd like a call" box. The answer is yours either way.</p>
 
 ${callout("Consolidating debt: the question the payment hides", "<p>Rolling $40,000 of cards into a mortgage drops the monthly payment a lot. It also spreads that $40,000 over 25 years. The check asks what you'd use the equity for so it can show total interest beside the payment. The payment alone tells you the wrong story. The <a href=\"/refinance-to-pay-off-debt/\">debt consolidation guide</a> goes through it properly.</p>")}
 
-<h2>What Joshua does with the written version</h2>
-<p>He reads your answers against the thing that decides every refinance: the break-even. The penalty plus costs sit on one side. The savings or benefit sit on the other, month by month.</p>
-<p>The written version tells you whether the math is likely to work for your purpose and timeline. It also says what a lender would want to see. And it says whether a different product would get you there cheaper. That might be a line of credit, a second mortgage, or a <a href="/blend-and-extend-mortgage/">blend and extend</a> with your current lender. If you've asked for a call, he'll suggest a time.</p>
-<p>Maybe no one has looked at your mortgage since it funded. That's normal, and it's also the problem. His <a href="/mortgage-aftercare-program/">aftercare program</a> exists so the equity conversation happens at the right moment, not by accident.</p>
+<h2>What I do with the written version</h2>
+<p>I read your answers against the thing that decides every refinance: the break-even. The penalty plus costs sit on one side. The savings or benefit sit on the other, month by month.</p>
+<p>The written version tells you whether the math is likely to work for your purpose and timeline. It also says what a lender would want to see. And it says whether a different product would get you there cheaper. That might be a line of credit, a second mortgage, or a <a href="/blend-and-extend-mortgage/">blend and extend</a> with your current lender. If you've asked for a call, I'll suggest a time.</p>
+<p>Maybe no one has looked at your mortgage since it funded. That's normal, and it's also the problem. My <a href="/mortgage-aftercare-program/">aftercare program</a> exists so the equity conversation happens at the right moment, not by accident.</p>
 
 <h2>What the check can't do</h2>
 <p>It can't value your home. It works from your estimate, which is why the result says "your estimate" next to it. It can't calculate your actual penalty, because your lender chooses the method. And it can't tell you whether a specific lender will approve a specific purpose. Some lenders restrict what they'll lend for, and that's a conversation. What it can do is tell you, in two minutes, whether you're having the right conversation at all.</p>

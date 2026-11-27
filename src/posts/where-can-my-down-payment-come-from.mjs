@@ -14,7 +14,7 @@ export default {
 ${short({
   answer: "Your down payment can come from your own savings, a gift from family, an FHSA, an RRSP withdrawal under the Home Buyers' Plan, or the sale of a home. Lenders mostly want a clear paper trail, often about 90 days of statements.",
   who: "First-time buyers in BC who are saving up, and anyone moving money around before an offer.",
-  next: "Make a list of where each dollar sits today. Then <a href=\"/contact/\">book a short call</a> and Joshua will tell you what paperwork each source needs."
+  next: "Make a list of where each dollar sits today. Then <a href=\"/contact/\">book a short call</a> and I'll tell you what paperwork each source needs."
 })}
 <h2>What lenders actually check</h2>
 <p>A lender wants to know three things about your down payment. How much is it? Is it really yours? And can you show where it came from?</p>
@@ -73,7 +73,7 @@ ${short({
 <p>How much you need depends on the price. The share is smaller on the first part of the price and larger on the rest. Homes above a certain price need a bigger share still. The <a href="/buying-with-5-percent-down/">5 percent down guide</a> and the <a href="/down-payment-guide-bc/">down payment guide</a> walk through the tiers with examples. Rules can change, so check the current numbers before you plan around them.</p>
 
 <h2>Sources and dates</h2>
-<p>The FHSA and HBP figures come from the Canada Revenue Agency, including the HBP limit change of April 16, 2024. The description of what lenders ask for comes from the Financial Consumer Agency of Canada's page on getting preapproved for a mortgage, checked on November 23, 2026. Government programs change, so confirm your own room with the CRA. Joshua is a mortgage broker, not a tax adviser. Check tax questions with the CRA or an accountant.</p>
+<p>The FHSA and HBP figures come from the Canada Revenue Agency, including the HBP limit change of April 16, 2024. The description of what lenders ask for comes from the Financial Consumer Agency of Canada's page on getting preapproved for a mortgage, checked on November 23, 2026. Government programs change, so confirm your own room with the CRA. I'm a mortgage broker, not a tax adviser. Check tax questions with the CRA or an accountant.</p>
 `,
   faqs: [
     { q: "Can my down payment be a gift?", a: "Yes, from close family in most cases. Lenders usually want a signed gift letter stating the money does not have to be repaid, plus proof of the transfer. A loan dressed up as a gift is treated very differently, so be honest about which it is." },

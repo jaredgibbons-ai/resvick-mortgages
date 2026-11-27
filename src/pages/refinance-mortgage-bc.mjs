@@ -10,7 +10,7 @@ ${short({ answer: "A refinance changes your balance, amortization or both, so it
 <p>There's a second difference, and it's the one your wallet cares about. If you refinance in the middle of a term, you're breaking your current mortgage, and breaking a mortgage usually costs a prepayment penalty. If you refinance at maturity, there's no penalty, because the old mortgage is ending anyway. That one fact, whether you're inside a term or at the end of it, decides more refinances than any rate does.</p>
 
 <h2>The four legitimate reasons to refinance</h2>
-<p>Nearly every refinance Joshua sees falls into one of four groups. Knowing which one you're in tells you which question to ask.</p>
+<p>Nearly every refinance I see falls into one of four groups. Knowing which one you're in tells you which question to ask.</p>
 <ol>
 <li><strong>A lower rate.</strong> Market rates have fallen well below your contract rate and you'd like the benefit before your term ends. This is the one that fails the math most often, because the penalty on a fixed-rate mortgage can quietly eat the savings. The <a href="/is-it-worth-refinancing/">break-even test</a> exists to settle it one way or the other.</li>
 <li><strong>Debt consolidation.</strong> You're carrying credit cards, lines of credit or loans at much higher rates than a mortgage, and your home equity could pay them out. It can cut your monthly payments sharply, and it comes with a trap that the page on <a href="/refinance-to-pay-off-debt/">refinancing to pay off debt</a> tackles head-on.</li>
@@ -20,7 +20,7 @@ ${short({ answer: "A refinance changes your balance, amortization or both, so it
 <p>If your refinance doesn't fit any of those, or the only reason is that a lender called with an offer, it deserves a second look. A good reason is one you can say in a sentence, with the number that backs it up.</p>
 
 <h2>The penalty-first framework</h2>
-<p>Here's the habit Joshua wishes everyone had. Before you look at any new rate, find out what it costs to leave your current mortgage. Then compare that cost, plus the costs of the new mortgage, to the benefit you expect. The order matters, because a rate quote is easy to get and a penalty figure is easy to forget until it shows up on the payout statement.</p>
+<p>Here's the habit me wishes everyone had. Before you look at any new rate, find out what it costs to leave your current mortgage. Then compare that cost, plus the costs of the new mortgage, to the benefit you expect. The order matters, because a rate quote is easy to get and a penalty figure is easy to forget until it shows up on the payout statement.</p>
 <ul>
 <li><strong>Variable-rate mortgages</strong> generally carry a penalty of three months of interest.</li>
 <li><strong>Fixed-rate mortgages</strong> generally carry the greater of three months of interest and the interest rate differential (IRD). The IRD can be many times larger than three months of interest, and the method is your lender's choice. The page on the <a href="/interest-rate-differential/">interest rate differential</a> explains the common methods.</li>
@@ -54,12 +54,12 @@ ${short({ answer: "A refinance changes your balance, amortization or both, so it
 
 <p>Not sure a refinance makes sense for you? The two-minute <a href="/equity-check/">equity check</a> gives you a quick read.</p>
 <p>A refinance is one of four ways to use your equity. The <a href="/home-equity-loan-bc/">home equity loan comparison</a> shows the other three.</p>
-${cta({ title: "Run the break-even check first", text: "Bring your balance, rate, term and the amount you are thinking of borrowing. Joshua will price the penalty and tell you whether a refinance, a switch at maturity or doing nothing comes out ahead." })}
+${cta({ title: "Run the break-even check first", text: "Bring your balance, rate, term and the amount you are thinking of borrowing. I'll price the penalty and tell you whether a refinance, a switch at maturity or doing nothing comes out ahead." })}
 
 <h2>Where to go from here</h2>
-<p>Each reason for refinancing has its own page, so pick the one that sounds like you. Chasing a lower rate? Start with <a href="/is-it-worth-refinancing/">is it worth refinancing</a>. Carrying high-interest debt? Read <a href="/refinance-to-pay-off-debt/">refinancing to pay off debt</a>. Want to use equity for a project or an investment? See <a href="/cash-out-refinance-bc/">cash-out refinancing in BC</a>. Landlords should read <a href="/refinance-rental-property/">refinancing a rental property</a>, and anyone planning to add a legal suite should read <a href="/secondary-suite-refinance/">the suite refinance guide</a>. And if you'd rather just talk it through, <a href="/contact/">contact Joshua</a> and he'll start with your penalty and your break-even.</p>
+<p>Each reason for refinancing has its own page, so pick the one that sounds like you. Chasing a lower rate? Start with <a href="/is-it-worth-refinancing/">is it worth refinancing</a>. Carrying high-interest debt? Read <a href="/refinance-to-pay-off-debt/">refinancing to pay off debt</a>. Want to use equity for a project or an investment? See <a href="/cash-out-refinance-bc/">cash-out refinancing in BC</a>. Landlords should read <a href="/refinance-rental-property/">refinancing a rental property</a>, and anyone planning to add a legal suite should read <a href="/secondary-suite-refinance/">the suite refinance guide</a>. And if you'd rather just talk it through, <a href="/contact/">contact me</a> and I'll start with your penalty and your break-even.</p>
 
-${callout("A note on tax and legal questions", "<p>Joshua is a mortgage broker, not a tax advisor or a lawyer. Where a refinance has tax consequences, such as whether interest is deductible, the pages here explain the general idea and then point you to an accountant for your own situation.</p>")}
+${callout("A note on tax and legal questions", "<p>I'm a mortgage broker, not a tax advisor or a lawyer. Where a refinance has tax consequences, such as whether interest is deductible, the pages here explain the general idea and then point you to an accountant for your own situation.</p>")}
 `;
 
 export default {
@@ -73,6 +73,6 @@ export default {
     { q: "How much can I borrow when I refinance in BC?", a: "Federally regulated lenders generally cap a refinance at 80 percent of your home's appraised value, less what you still owe. Alternative lenders may use a different limit. Policy varies by lender and property type, so confirm the ceiling for your own file." },
     { q: "Will I pay a penalty to refinance?", a: "If you refinance before your term ends, usually yes. A variable-rate penalty is generally three months of interest, and a fixed-rate penalty is generally the greater of three months of interest and the interest rate differential. If you refinance at maturity, there's no penalty." },
     { q: "Does refinancing hurt my credit?", a: "A new application involves a credit check, which can cause a small, temporary dip in your score. Paying off debts with the proceeds usually helps your credit over time, provided you don't run the balances back up. The mortgage itself is reported like any other credit account." },
-    { q: "Can I refinance if I am self-employed?", a: "Yes, but the lender will read your income through tax returns and business documents, and the route that fits depends on how long you've been in business. Joshua explains the options on the self-employed mortgage page, and a call will tell you which lenders suit your file." }
+    { q: "Can I refinance if I am self-employed?", a: "Yes, but the lender will read your income through tax returns and business documents, and the route that fits depends on how long you've been in business. I explain the options on the self-employed mortgage page, and a call will tell you which lenders suit your file." }
   ]
 };

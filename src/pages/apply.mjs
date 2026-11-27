@@ -71,7 +71,7 @@ ${choice("occupancy", "Will you live in it?", [["yes", "Yes, it's my home"], ["p
 <p class="small">Here's what you've told me. Use Back to change anything.</p>
 <div class="review" data-review></div>
 <div class="hp" aria-hidden="true"><label for="a-web">Leave this field empty</label><input id="a-web" name="website" type="text" tabindex="-1" autocomplete="off"></div>
-<label class="chk"><input type="checkbox" name="consent_enquiry_ack" required data-msg="Please tick the box so Joshua can contact you about your application."><span>I'd like Joshua Resvick to contact me about this application. I understand this form is a starting point, not a credit application: the credit-check authorization and the BCFSA Form 1A disclosure happen in a secure step later, and nothing is pulled on my credit from this form.</span></label>
+<label class="chk"><input type="checkbox" name="consent_enquiry_ack" required data-msg="Please tick the box so I can contact you about your application."><span>I'd like Joshua Resvick to contact me about this application. I understand this form is a starting point, not a credit application: the credit-check authorization and the BCFSA Form 1A disclosure happen in a secure step later, and nothing is pulled on my credit from this form.</span></label>
 <label class="chk"><input type="checkbox" name="consent_marketing"><span>Email me Bank of Canada rate updates and mortgage tips. Optional, unsubscribe any time.</span></label>
 <p class="small">See the <a href="/privacy/">privacy policy</a> for how this information is handled.</p>
 </fieldset>

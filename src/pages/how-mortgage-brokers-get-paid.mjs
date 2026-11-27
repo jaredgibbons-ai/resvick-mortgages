@@ -5,11 +5,11 @@ const body = `
 ${short({
   answer: "On most BC mortgages, the lender pays the broker and you pay nothing. Fees to you only come up on some B-lender and private files, and you must see them in writing before you commit.",
   who: "You're wondering what a broker costs, or how to tell if a broker's fee is fair.",
-  next: "Use the questions at the bottom of this page with any broker, or ask Joshua on a 15-minute call."
+  next: "Use the questions at the bottom of this page with any broker, or ask me on a 15-minute call."
 })}
 <h2>The short answer</h2>
 <p>On most mortgages in BC, the lender pays the mortgage broker. You pay nothing.</p>
-<p>That's how it works with mainstream lenders, usually called A lenders. These are the banks, credit unions and monoline lenders that lend on standard guidelines. Ask Joshua Resvick to arrange a mortgage with an A lender, and you won't get a bill for his work. Not a small one, not a hidden one, none.</p>
+<p>That's how it works with mainstream lenders, usually called A lenders. These are the banks, credit unions and monoline lenders that lend on standard guidelines. Ask me to arrange a mortgage with an A lender, and you won't get a bill for my work. Not a small one, not a hidden one, none.</p>
 <p>Fees to you only show up in a narrower set of cases, mainly with B lenders and private lenders. When they do, you see them in writing before you commit, on forms the BC Financial Services Authority (BCFSA) requires. This page walks through both cases, so you can spot them with any broker.</p>
 
 <h2>How lender compensation works</h2>
@@ -17,7 +17,7 @@ ${short({
 <p>A lender that takes applications through brokers pays the brokerage a fee when a mortgage funds. That fee comes out of the lender's own revenue. It isn't tacked onto your rate or your balance as a separate charge. If the mortgage doesn't fund, there's no payment at all.</p>
 <p>Two parts of the arrangement are worth knowing.</p>
 <ul>
-<li><strong>The payment goes to the brokerage.</strong> Under BCFSA's rules, the brokerage gets paid, not the individual broker. Joshua works under Xeva Mortgage, brokerage licence #X300203. The brokerage is the licensed party that receives the payment.</li>
+<li><strong>The payment goes to the brokerage.</strong> Under BCFSA's rules, the brokerage gets paid, not the individual broker. I work under Xeva Mortgage, brokerage licence #X300203. The brokerage is the licensed party that receives the payment.</li>
 <li><strong>It's disclosed.</strong> A BC mortgage broker must tell you in writing how the brokerage is paid. BCFSA's Form 1A lists the possible sources. Form 4 shows the expected pay on your deal, as an amount or an estimate of how it's worked out.</li>
 </ul>
 
@@ -33,17 +33,17 @@ ${short({
 </ol>
 <p>Two more rules protect you. On a consumer mortgage, a brokerage can only take its fees from the mortgage amount when the mortgage funds. So there are no upfront fees for arranging a consumer mortgage. That includes application and cancellation fees.</p>
 <p>The exception is costs someone else charges, like an appraisal or legal fees. If you ever see an upfront fee the broker keeps whether or not your mortgage funds, start asking questions.</p>
-<p>The rule is easy to remember. Whenever a fee to you is part of the plan, you should see it in writing before you commit. It should show an amount, or how the amount is worked out. Joshua tells you plainly on the first call if a file looks like it's heading that way.</p>
+<p>The rule is easy to remember. Whenever a fee to you is part of the plan, you should see it in writing before you commit. It should show an amount, or how the amount is worked out. I tell you plainly on the first call if a file looks like it's heading that way.</p>
 
 <p>More questions about working with a broker? The <a href="/mortgage-faq/">mortgage FAQ</a> has straight answers.</p>
-${cta({ title: "Ask the question on a call", text: "Want to know exactly what a mortgage would cost you, in every sense? Ask Joshua on a 15-minute call. He will tell you plainly." })}
+${cta({ title: "Ask the question on a call", text: "Want to know exactly what a mortgage would cost you, in every sense? Ask me on a 15-minute call. I'll tell you plainly." })}
 
 <h2>Why free does not mean biased</h2>
 <p>Here's a fair worry that people are often too polite to say out loud. If the lender pays the broker, won't the broker steer you to whoever pays the most? Good question. The answer has three parts.</p>
 <ul>
 <li><strong>The comparison is written down.</strong> Every client gets a written side-by-side of real lender options. It's described on the page about the <a href="/lender-comparison-report/">Lender Comparison Report</a>. If one lender looks better on rate but worse on penalties, you can see it and decide.</li>
 <li><strong>Disclosure is required.</strong> The rules above mean the arrangement isn't hidden from you.</li>
-<li><strong>The relationship continues after funding.</strong> Joshua's aftercare program keeps him involved for the life of the mortgage. That's a strong reason to recommend the right mortgage, not just the quickest one to fund.</li>
+<li><strong>The relationship continues after funding.</strong> My aftercare program keeps me involved for the life of the mortgage. That's a strong reason to recommend the right mortgage, not just the quickest one to fund.</li>
 </ul>
 <p>It also helps to look at the alternative. A bank loan officer is paid by the bank, and can only offer the bank's products. A broker is paid by whichever lender you end up with, and can offer several.</p>
 <p>Neither setup is free of incentives. What matters is that the incentives are disclosed and the comparison is visible. There's more on this on the <a href="/mortgage-broker-vs-bank/">broker versus bank</a> page.</p>
@@ -57,7 +57,7 @@ ${cta({ title: "Ask the question on a call", text: "Want to know exactly what a 
 </ul>
 
 <h2>What to ask any broker</h2>
-<p>Whether or not you work with Joshua, these questions give you a clear picture before you start. Don't be shy about asking.</p>
+<p>Whether or not you work with me, these questions give you a clear picture before you start. Don't be shy about asking.</p>
 <ol>
 <li>Will I pay you anything directly on this mortgage? If so, how much, and when?</li>
 <li>Can I see the BCFSA disclosure forms before I commit?</li>
@@ -66,11 +66,11 @@ ${cta({ title: "Ask the question on a call", text: "Want to know exactly what a 
 <li>What happens if the mortgage doesn't fund?</li>
 <li>Who will I talk to during the process, and after funding?</li>
 </ol>
-<p>You can also check any BC mortgage broker's licence in BCFSA's public Find a Mortgage Broker lookup. Joshua's own licence number is MB503619. There's more about his background and how he works on the <a href="/about-joshua-resvick/">About page</a>.</p>
+<p>You can also check any BC mortgage broker's licence in BCFSA's public Find a Mortgage Broker lookup. My own licence number is MB503619. There's more about my background and how I work on the <a href="/about-joshua-resvick/">About page</a>.</p>
 
 ${callout("The short version", "<p>On A-lender mortgages, the lender pays and you don't. Fees to you come up on some B-lender and private files. They're disclosed in writing before you commit. They're never collected upfront for arranging a consumer mortgage, apart from outside costs like an appraisal or legal work.</p>")}
 
-<p>Got a question about the cost of working with a broker, or about a mortgage you're weighing up? <a href="/contact/">Contact Joshua</a>.</p>
+<p>Got a question about the cost of working with a broker, or about a mortgage you're weighing up? <a href="/contact/">Contact me</a>.</p>
 `;
 
 export default {
@@ -82,7 +82,7 @@ export default {
     { q: "How much does a mortgage broker cost?", a: "On an A-lender mortgage, nothing: the lender pays the broker. Fees to the borrower can arise on B-lender and private files, and they must be disclosed in writing before you commit. BC rules also prevent upfront fees for arranging a consumer mortgage, apart from third-party costs like an appraisal." },
     { q: "Do I pay a mortgage broker?", a: "Not on a mortgage placed with an A lender. You may pay a fee on some B-lender or private-lender mortgages, where the disclosure forms will show you the amount or how it's calculated. Ask any broker to explain in writing before you proceed." },
     { q: "Are there mortgage broker fees in BC?", a: "There can be, but mostly on non-standard files. BCFSA's Form 1A lists three ways a brokerage can be paid: fees from the borrower, payment from the lender, and payment from third parties such as referral sources. Each must be disclosed to you." },
-    { q: "Does the lender's payment affect which lender I am offered?", a: "It can create an incentive, which is exactly why disclosure and comparison matter. Joshua gives every client a written Lender Comparison Report, so rate, penalties and flexibility sit side by side, and you can judge the recommendation for yourself before you commit to anything." },
-    { q: "Where can I verify a broker's licence?", a: "BCFSA keeps a public Find a Mortgage Broker lookup on its website. Joshua works under Xeva Mortgage, brokerage licence #X300203, and encourages you to check the licence of any professional you're considering, so you know who regulates them and how to raise a concern if you ever need to." }
+    { q: "Does the lender's payment affect which lender I am offered?", a: "It can create an incentive, which is exactly why disclosure and comparison matter. I give every client a written Lender Comparison Report, so rate, penalties and flexibility sit side by side, and you can judge the recommendation for yourself before you commit to anything." },
+    { q: "Where can I verify a broker's licence?", a: "BCFSA keeps a public Find a Mortgage Broker lookup on its website. I work under Xeva Mortgage, brokerage licence #X300203, and encourages you to check the licence of any professional you're considering, so you know who regulates them and how to raise a concern if you ever need to." }
   ]
 };

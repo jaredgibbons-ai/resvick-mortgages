@@ -9,9 +9,9 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-nel
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Nelson and the West Kootenay by phone and video from his Surrey office. Buyers here are often remote workers, hospital and college staff, small business owners and people moving from the coast. Older homes, laneway houses and a strict short-term rental cap all shape the mortgage.",
+  answer: "I serve Nelson and the West Kootenay by phone and video from my Surrey office. Buyers here are often remote workers, hospital and college staff, small business owners and people moving from the coast. Older homes, laneway houses and a strict short-term rental cap all shape the mortgage.",
   who: "Buyers and owners in Nelson, Fairview, Uphill, the North Shore of Kootenay Lake, Balfour and nearby towns.",
-  next: "Book a 15-minute call and tell Joshua how you earn your income and what kind of home you want."
+  next: "Book a 15-minute call and tell me how you earn your income and what kind of home you want."
 })}
 <p>Nelson sits on the West Arm of Kootenay Lake, in the Selkirk Mountains. It's compact, but it draws people from far away: a heritage downtown, a ski hill, and a strong arts and outdoors scene. Many buyers move here from bigger cities, and some bring their jobs with them.</p>
 <p>I'm Joshua Resvick, a broker with Xeva Mortgage. I spent five years as an underwriter at a lender before I switched sides, so I know how lenders weigh unusual incomes and older homes. I work from Surrey and serve Nelson clients remotely. There's no Nelson office. A <a href="/contact/">15-minute call</a> is the place to start.</p>
@@ -71,19 +71,19 @@ ${callout("Paying for broker help", "<p>On most files you don't. When an A lende
 ${cityFacts("nelson")}
 ${nearbyCallout("nelson", callout)}
 
-${cta({ title: "Talk to a broker who serves Nelson", text: "Book a 15-minute call. Tell Joshua how you earn, where you are moving from and which part of Nelson you like. He will tell you which lenders fit and what to check on the house." })}
+${cta({ title: "Talk to a broker who serves Nelson", text: "Book a 15-minute call. Tell me how you earn, where you are moving from and which part of Nelson you like. I'll tell you which lenders fit and what to check on the house." })}
 `;
 
 export default {
   slug: "/mortgage-broker-nelson/",
   h1: "Mortgage broker in Nelson, BC: buying a home or moving to Nelson",
-  lede: "Buying in Nelson, or moving to the West Kootenay? Joshua Resvick, Xeva Mortgage, serves Nelson by phone and video from his Surrey office. Remote work, heritage homes, laneway houses and the short-term rental cap, explained the way a lender reads them.",
+  lede: "Buying in Nelson, or moving to the West Kootenay? I'm Joshua Resvick, with Xeva Mortgage, and I serve Nelson by phone and video from my Surrey office. Remote work, heritage homes, laneway houses and the short-term rental cap, explained the way a lender reads them.",
   crumbs: [["Home", "/"], ["Cities served", "/bc-mortgage-broker-service-areas/"], ["Serving Nelson", "/mortgage-broker-nelson/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Do you have an office in Nelson?", a: "No. Joshua works from his Surrey office and serves Nelson and the West Kootenay by phone, video and secure upload. The lender, appraiser and your lawyer or notary do their parts locally, so you can start before you move." },
+    { q: "Do you have an office in Nelson?", a: "No. I work from my Surrey office and serve Nelson and the West Kootenay by phone, video and secure upload. The lender, appraiser and your lawyer or notary do their parts locally, so you can start before you move." },
     { q: "How much do I need to buy a home in Nelson?", a: "At BC Assessment's typical 2026 values, a $699,000 house needs at least $44,900 down and a $560,000 strata home needs $31,000. A qualifying first-time buyer pays about $3,980 in transfer tax on the house and $1,200 on the strata home." },
     { q: "Can I buy a Nelson home and keep its Airbnb licence?", a: "No. The City says a short-term rental licence doesn't pass to a buyer. You'd join a wait list, and as of October 2024 the residential quota was full. Don't count on that income to qualify." },
     { q: "Can I get a mortgage in Nelson on remote work income?", a: "Yes. If you're an employee, lenders read your salary the same way wherever you live. A job letter that confirms remote work helps. If you're self-employed, lenders usually want two years of tax returns." },

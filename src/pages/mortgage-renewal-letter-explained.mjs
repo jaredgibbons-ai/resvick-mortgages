@@ -31,7 +31,7 @@ ${short({ answer: "Your renewal letter is your lender's opening offer. It must a
 <p>Here is an illustrative case. Suppose your letter offers a five-year fixed rate of 4.99 percent on a $450,000 balance with 22 years of amortization remaining. The monthly payment is $2,798.26. If another lender offered 4.49 percent on the same balance and amortization, the payment would be $2,675.50, which is $122.76 less each month. Over five years the interest would be about $10,667 lower. These figures are illustrative, not quotes, but they show why a single comparison can be worth more than the time it takes.</p>
 
 <p>Want a quick read on your own renewal? The two-minute <a href="/renewal-check/">renewal check</a> tells you what to do next.</p>
-${cta({ title: "Have your letter? Send it over.", text: "Book a 15-minute call and bring your renewal letter. Joshua will explain every line and show you what the alternatives look like." })}
+${cta({ title: "Have your letter? Send it over.", text: "Book a 15-minute call and bring your renewal letter. I'll explain every line and show you what the alternatives look like." })}
 
 <h2>Red flags to look for</h2>
 <ul>
@@ -47,7 +47,7 @@ ${cta({ title: "Have your letter? Send it over.", text: "Book a 15-minute call a
 <p>At <strong>120 days</strong>, start. Note your maturity date, ask for a rate hold, and request a comparison from a broker. If your lender's letter has already arrived, set it aside until you have comparison numbers.</p>
 <p>At <strong>60 days</strong>, decide which route you are taking: negotiate with your current lender, switch, or refinance. If you are switching, the application should be in, with documents gathered and approval underway.</p>
 <p>At <strong>30 days</strong>, the paperwork should be moving: legal work in progress for a switch, or signed renewal terms for a stay. At <strong>21 days</strong> at the latest, the lender must have sent the statement, so if you have not received one, contact the lender and ask.</p>
-<p>If this timeline feels hard to keep, a free reminder can do the remembering for you. The <a href="/mortgage-renewal-reminder/">renewal reminder</a> sends two emails, at six months and at 120 days before your maturity date. And whenever you want a second pair of eyes on a letter, <a href="/contact/">contact Joshua</a>. On mainstream (A) lender mortgages the lender pays the broker, and you pay nothing for the service.</p>
+<p>If this timeline feels hard to keep, a free reminder can do the remembering for you. The <a href="/mortgage-renewal-reminder/">renewal reminder</a> sends two emails, at six months and at 120 days before your maturity date. And whenever you want a second pair of eyes on a letter, <a href="/contact/">contact me</a>. On mainstream (A) lender mortgages the lender pays the broker, and you pay nothing for the service.</p>
 
 ${callout("Illustrative figures", "<p>The rates, balances and payments in this page are sample figures used for illustration, calculated for this page. They are not quotes and do not describe any specific lender's letter.</p>")}
 `;
@@ -62,6 +62,6 @@ export default {
     { q: "Is the rate in my renewal letter negotiable?", a: "Often, yes. The rate in the letter is your lender's opening offer, and lenders frequently have room to move, especially when you show a competing written offer. A broker can obtain comparison offers from other lenders to support the conversation." },
     { q: "What happens if I never sign the renewal letter?", a: "If the maturity date passes unsigned, the mortgage typically rolls into an open term at a rate that is usually much higher than a negotiated renewal. It is a feature of the contract, not a penalty, and it can be avoided by responding before the deadline." },
     { q: "Can I ignore the letter and switch lenders instead?", a: "Yes. At maturity you can move your mortgage to a new lender without a prepayment penalty, and a straight switch often does not need a new stress test. The new lender still checks your credit, income and the property, so start early." },
-    { q: "Should I send my letter to a broker?", a: "It helps. A broker can read the rate, term, amortization and prepayment terms against other lenders' offers and tell you what is competitive. Joshua will explain every line on a call, and on A-lender mortgages you pay nothing for that." }
+    { q: "Should I send my letter to a broker?", a: "It helps. A broker can read the rate, term, amortization and prepayment terms against other lenders' offers and tell you what is competitive. I'll explain every line on a call, and on A-lender mortgages you pay nothing for that." }
   ]
 };

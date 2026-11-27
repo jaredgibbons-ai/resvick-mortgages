@@ -63,7 +63,7 @@ ${short({ answer: "A trucker mortgage comes down to how you're paid. Company dri
 <p>Tax depreciation is called CCA. That stands for capital cost allowance. It is a paper deduction. It lowers your taxable income, but no cash leaves your account that year.</p>
 <p>The CRA sorts vehicles into classes with set rates. For example, it lists heavy freight trucks in Class 16, at 40 percent. That means a rating above 11,788 kg, bought after December 6, 1991 (Canada Revenue Agency, Classes of depreciable property, read October 2026). Your accountant knows which class your truck falls in.</p>
 <p>Because CCA is not a cash cost, some lenders add part or all of it back when they work out your qualifying income. Others do not. Policy differs by lender and by program, and many limit the add-back to certain years or amounts. A lender that adds it back can see a much stronger file for the same truck.</p>
-<p>That is why a broker matters on an owner operator mortgage. Joshua spent five years as an underwriter reading files like these. He works out the figure each type of lender might use before anything is sent. The <a href="/stated-income-mortgage/">stated income mortgage page</a> explains the other route, which some lenders offer at a higher cost when the tax return does not show the full picture.</p>
+<p>That is why a broker matters on an owner operator mortgage. I spent five years as an underwriter reading files like these. I work out the figure each type of lender might use before anything is sent. The <a href="/stated-income-mortgage/">stated income mortgage page</a> explains the other route, which some lenders offer at a higher cost when the tax return does not show the full picture.</p>
 
 <h2>Seasons, slow months and cash-flow swings</h2>
 <p>Freight is seasonal. Produce, lumber, fuel, construction and holiday retail all move on their own calendars. Winter roads, wildfires, floods and border delays can stop a run for days. A tow driver might make half a year's income in two storms.</p>
@@ -75,7 +75,7 @@ ${short({ answer: "A trucker mortgage comes down to how you're paid. Company dri
 <p>Most A lenders want two years of self-employment history before they count the income. That is the usual rule, but it is not the only one. Some lenders accept less when you drove the same kind of freight as an employee first. Your past T4 years can be useful proof.</p>
 <p>Say you drove for a carrier for eight years and bought your own truck eight months ago. You have a short business history, but a long industry history. That is a stronger file than the calendar suggests, and the file should say so.</p>
 <p>If you are under two years in, read the <a href="/newly-self-employed-mortgage/">newly self-employed page</a>. It covers the options, from a bigger down payment to a different lender type. For the bigger picture, see the <a href="/self-employed-mortgage-bc/">self-employed mortgage guide</a>.</p>
-<p>One more tip. If you plan to buy within a year or two, think twice before you change how you are set up. Moving from a carrier's payroll to your own authority, or from a personal name to a corporation, can reset the clock at some lenders. Talk to Joshua and your accountant first.</p>
+<p>One more tip. If you plan to buy within a year or two, think twice before you change how you are set up. Moving from a carrier's payroll to your own authority, or from a personal name to a corporation, can reset the clock at some lenders. Talk to me and your accountant first.</p>
 
 <h2>Tax arrears and GST/HST</h2>
 <p>This is a common snag for owner-operators. Fuel, repairs and a new truck can eat the cash you set aside for tax. Then a bill arrives.</p>
@@ -83,19 +83,19 @@ ${short({ answer: "A trucker mortgage comes down to how you're paid. Company dri
 <p>If you owe money, fix that first. A payment plan with the CRA can help, and your lender may want to see it in good standing. If past trouble also dented your credit, the <a href="/bad-credit-mortgage-bc/">bad credit mortgage page</a> and the <a href="/build-credit-for-a-mortgage/">credit-building guide</a> cover the next steps.</p>
 
 <h2>Away from home? You can sign from the road</h2>
-<p>Joshua works from his Surrey office by phone and video. He serves drivers across BC the same way. You do not need to come in.</p>
+<p>I work from my Surrey office by phone and video. I serve drivers across BC the same way. You do not need to come in.</p>
 <p>Here is how that plays out in practice:</p>
 <ol>
 <li><strong>Call when you can.</strong> A 15-minute call fits a fuel stop or a loading wait. Many drivers pick a rest break.</li>
 <li><strong>Send documents from your phone.</strong> Photos or scans of your T4s, returns and statements are usually enough to start.</li>
-<li><strong>Sign by e-signature.</strong> Most mortgage forms can be signed electronically on your phone. Lenders and lawyers may have their own steps for identity checks, so Joshua explains them in advance.</li>
-<li><strong>Plan the big dates.</strong> Joshua tells you which dates you must be reachable. That might be an approval deadline or a signing day. You can then line up a rest stop or a short window at home.</li>
+<li><strong>Sign by e-signature.</strong> Most mortgage forms can be signed electronically on your phone. Lenders and lawyers may have their own steps for identity checks, so I explain them in advance.</li>
+<li><strong>Plan the big dates.</strong> I tell you which dates you must be reachable. That might be an approval deadline or a signing day. You can then line up a rest stop or a short window at home.</li>
 </ol>
 <p>If you live in a small town and work out of a bigger one, that works the same way. Where you live matters to the lender. Where you take the call does not.</p>
 
 <h2>Get pre-approved before a long run</h2>
 <p>If you will be away for a week or two, do the groundwork first. A real <a href="/mortgage-pre-approval-bc/">pre-approval</a> means a lender has looked at your documents and given you a number. A rate quote does not do that.</p>
-<p>Ask for a rate hold at the same time, if you can. A hold can protect you for a set period while you drive. Terms vary by lender, and a hold is not the same as a final approval. Joshua will tell you what you are actually getting.</p>
+<p>Ask for a rate hold at the same time, if you can. A hold can protect you for a set period while you drive. Terms vary by lender, and a hold is not the same as a final approval. I'll tell you what you are actually getting.</p>
 <p>Before you leave, ask three questions. How long does the pre-approval last? What would void it? What do I need to send while I'm gone? Avoid new debt while you wait. A truck loan or a new credit card can change the number.</p>
 
 <h2>A second job or a rental on the side</h2>
@@ -104,18 +104,18 @@ ${short({ answer: "A trucker mortgage comes down to how you're paid. Company dri
 
 <h2>Highway towns and small communities</h2>
 <p>A lot of BC drivers live along the highway corridors. They are in places like Kamloops, Prince George, Abbotsford and the smaller towns around them. Some live in the Interior or the North so they can be close to the yard.</p>
-<p>Property type can matter as much as income in these places. Acreage, older homes, mobile homes and homes on well and septic each have their own lender rules. If you are looking in one of these areas, see <a href="/mortgage-broker-kamloops/">Kamloops</a>, <a href="/mortgage-broker-prince-george/">Prince George</a> or <a href="/mortgage-broker-abbotsford/">Abbotsford</a> for the local picture. Joshua also works with buyers in towns that have no page of their own.</p>
+<p>Property type can matter as much as income in these places. Acreage, older homes, mobile homes and homes on well and septic each have their own lender rules. If you are looking in one of these areas, see <a href="/mortgage-broker-kamloops/">Kamloops</a>, <a href="/mortgage-broker-prince-george/">Prince George</a> or <a href="/mortgage-broker-abbotsford/">Abbotsford</a> for the local picture. I also work with buyers in towns that have no page of their own.</p>
 
 <h2>Down payment and closing costs</h2>
 <p>The minimum down payment in Canada depends on the price, and it is higher for homes over a set amount. The <a href="/down-payment-guide-bc/">down payment guide</a> has the current rules and the sources of funds lenders accept.</p>
 <p>For a self-employed driver, one thing needs care. The money has to come from somewhere a lender can trace. Savings in your account for 90 days are usually fine. A large deposit that just appeared may need a paper trail. Keep the business money and the down payment money clear in your records.</p>
 <p>Closing costs are the second pile of cash. They include legal fees, an appraisal in some cases, and often property transfer tax. The <a href="/closing-costs-bc/">closing costs guide</a> explains each one, and the calculator page can estimate them for you.</p>
 
-<h2>Joshua's process for a driver's file</h2>
+<h2>My process for a driver's file</h2>
 <ol>
 <li><strong>A short call</strong> about your pay, your history and what you want to buy.</li>
-<li><strong>An underwriter's read.</strong> Joshua works out what each type of lender might count from your T4s or returns. He says plainly where the file is strong and where it is thin.</li>
-<li><strong>The right lender.</strong> He compares options for your setup and shows them to you in a written Lender Comparison Report.</li>
+<li><strong>An underwriter's read.</strong> I work out what each type of lender might count from your T4s or returns. I say plainly where the file is strong and where it is thin.</li>
+<li><strong>The right lender.</strong> I compare options for your setup and show them to you in a written Lender Comparison Report.</li>
 <li><strong>A clean file.</strong> Your documents are organized and explained, so the underwriter has fewer reasons to pause.</li>
 <li><strong>Fee honesty.</strong> On an A-lender mortgage, the lender pays the broker and you pay nothing. Fees only come up on certain B-lender or private files. They are disclosed in writing on BCFSA's Form 1A before you commit.</li>
 </ol>
@@ -130,13 +130,13 @@ ${short({ answer: "A trucker mortgage comes down to how you're paid. Company dri
 <li><strong>Trusting one answer.</strong> One bank saying no does not mean every lender will.</li>
 </ul>
 
-${callout("Bring one thing to the call", "<p>Pull your last two years of T4s or tax returns and your latest settlement statement or pay stub. With those, Joshua can usually tell you in one call how a lender might read your income. You can send them from your phone.</p>")}
+${callout("Bring one thing to the call", "<p>Pull your last two years of T4s or tax returns and your latest settlement statement or pay stub. With those, I can usually tell you in one call how a lender might read your income. You can send them from your phone.</p>")}
 
-<p>If your company buys a yard or shop, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> for owner-occupied premises.</p>
+<p>If your company buys a yard or shop, I also arrange <a href="/commercial-mortgages-bc/">commercial mortgages</a> for owner-occupied premises.</p>
 
-<p class="more-links"><strong>Where Joshua helps truckers and owner-operators.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-delta/">Delta</a>, <a href="/mortgage-broker-abbotsford/">Abbotsford</a>, <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-kamloops/">Kamloops</a> and <a href="/mortgage-broker-quesnel/">Quesnel</a>. Related pages: <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/commercial-mortgages-bc/">commercial mortgages</a>.</p>
+<p class="more-links"><strong>Where I help truckers and owner-operators.</strong> I serve buyers online from my Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-delta/">Delta</a>, <a href="/mortgage-broker-abbotsford/">Abbotsford</a>, <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-kamloops/">Kamloops</a> and <a href="/mortgage-broker-quesnel/">Quesnel</a>. Related pages: <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>, <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/commercial-mortgages-bc/">commercial mortgages</a>.</p>
 
-${cta({ title: "The road is your office. The call can be too.", text: "Book a 15-minute call from wherever you are. Joshua will read your income the way a lender does and tell you which type of lender fits. Or <a href=\"/contact/\">contact him</a> by email." })}
+${cta({ title: "The road is your office. The call can be too.", text: "Book a 15-minute call from wherever you are. I'll read your income the way a lender does and tell you which type of lender fits. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {
@@ -152,6 +152,6 @@ export default {
     { q: "How does an owner operator mortgage differ from a company driver's?", a: "A company driver on a T4 is read like an employee. An owner-operator is self-employed, so lenders use tax returns or company statements, usually two years, and look at net income after truck costs. Some lenders add back depreciation, which can raise qualifying income. Policies vary." },
     { q: "Does my truck loan hurt my mortgage approval?", a: "It can. Truck payments lower net income on your return, and a lender may also count the loan in your debt ratios. Some treat a business truck loan as a business cost already taken out of income. Lenders vary, so ask before you buy a new truck or apply." },
     { q: "Can I get a mortgage if I owe tax or GST/HST?", a: "Many lenders will not fund while CRA balances are overdue. Some accept a payment plan in good standing. Returns must also be filed. Clear or arrange the balance first, then talk to your broker early. Policies differ between lenders, and early advice can help you avoid delays on the day you need to close." },
-    { q: "Can I apply for a mortgage while I'm on the road?", a: "Yes. Joshua works by phone and video from his Surrey office, so you can talk during a break, send photos of documents from your phone and sign by e-signature. Some steps, like identity checks, vary by lender and lawyer. He explains the timing so you know when to be reachable." }
+    { q: "Can I apply for a mortgage while I'm on the road?", a: "Yes. I work by phone and video from my Surrey office, so you can talk during a break, send photos of documents from your phone and sign by e-signature. Some steps, like identity checks, vary by lender and lawyer. I explain the timing so you know when to be reachable." }
   ]
 };

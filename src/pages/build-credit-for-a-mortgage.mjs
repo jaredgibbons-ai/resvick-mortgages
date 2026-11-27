@@ -46,7 +46,7 @@ ${callout("Take the readiness quiz", "<p>The <a href=\"/mortgage-calculators/#qu
 <h3>Months one to three</h3>
 <p>Pull both reports, dispute errors and pay any collections. Open a secured card if you can't get an unsecured one. Consider a credit-builder loan so the report shows two trades. Set up automatic payments. Start a savings habit for the down payment, in an account whose statements will later prove the money's history.</p>
 <h3>Months four to twelve</h3>
-<p>Use both accounts lightly and pay them in full every month. Ask the secured card issuer about converting to unsecured and raising the limit toward $2,000 or above. Do not open anything else. If your situation allows, speak with Joshua now. A file that is twelve months from ready benefits from a plan with a target.</p>
+<p>Use both accounts lightly and pay them in full every month. Ask the secured card issuer about converting to unsecured and raising the limit toward $2,000 or above. Do not open anything else. If your situation allows, speak with me now. A file that is twelve months from ready benefits from a plan with a target.</p>
 <h3>Months twelve to twenty-four</h3>
 <p>The two trades approach two years of history. Keep utilization low and the record perfect. Gather the documents on the <a href="/mortgage-application-checklist/">application checklist</a>. Run the <a href="/mortgage-calculators/#affordability">affordability calculator</a> with your real income, so the target purchase is realistic.</p>
 <p>At the two-year mark, with the 2/2/2 standard met, the full lender market opens. That includes insured purchases with as little as 5 percent down. If this will be your first home, the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> explains the programs to stack.</p>
@@ -54,10 +54,10 @@ ${callout("Take the readiness quiz", "<p>The <a href=\"/mortgage-calculators/#qu
 <h2>When you cannot wait two years</h2>
 <p>Sometimes the timeline doesn't fit life. A lease may be ending, your family may be growing, or there may be a market reason to buy now. In that case the B tier can hold a home while the credit finishes building. It costs a higher rate and a lender fee, for a short term. The plan is a switch to an A lender at renewal.</p>
 <p>The page on <a href="/bad-credit-mortgage-bc/">bad credit mortgages</a> explains what each credit range allows. It also shows where the B and private lines fall. On an A-lender mortgage the lender pays the broker and you pay nothing. On B or private files, any fee is disclosed in writing under BCFSA Form 1A before you commit.</p>
-<p>Whichever route fits, the first step is a look at your report together. <a href="/contact/">Book a 15-minute call</a> and Joshua will tell you how far you are from mortgage-ready. He'll also tell you what to do in which order.</p>
+<p>Whichever route fits, the first step is a look at your report together. <a href="/contact/">Book a 15-minute call</a> and I'll tell you how far you are from mortgage-ready. I'll also tell you what to do in which order.</p>
 
 <p>Paying a student loan on time helps your credit, but the payment still counts against your approval. <a href="/student-loans-and-your-mortgage/">Student loans and your mortgage</a> explains both sides.</p>
-${cta({ title: "Want a plan with a date on it?", text: "Take the readiness quiz, then book a 15-minute call. Joshua will read your report the way an underwriter does and set out the steps, month by month, to a mortgage-ready file." })}
+${cta({ title: "Want a plan with a date on it?", text: "Take the readiness quiz, then book a 15-minute call. I'll read your report the way an underwriter does and set out the steps, month by month, to a mortgage-ready file." })}
 `;
 
 export default {

@@ -32,7 +32,7 @@ ${short({
 
 <h2>3. What would another lender offer?</h2>
 <p>Your own lender will not tell you how it compares. A broker can ask several lenders at once and show you the results side by side. Your lender may also improve its offer when it sees you are shopping. The government's renewal guidance says the same: you can negotiate, and proof of a competing offer helps.</p>
-<p>Joshua compares lenders for renewals as part of his work, and on most A-lender mortgages the lender pays him. That means you pay nothing for the comparison. If a fee applies on a file, he tells you in writing before you sign.</p>
+<p>I compare lenders for renewals as part of my work, and on most A-lender mortgages the lender pays me. That means you pay nothing for the comparison. If a fee applies on a file, I tell you in writing before you sign.</p>
 
 <h2>4. What would switching cost?</h2>
 <p>Moving to a new lender can bring costs. These may include discharge or transfer fees from your current lender, an appraisal and legal fees. Some lenders cover part or all of them when you switch. Ask who pays.</p>

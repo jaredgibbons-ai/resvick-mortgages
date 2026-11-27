@@ -58,7 +58,7 @@ ${callout("Moving before your term ends?", "<p>If you sell and buy again, your i
 <p>Sometimes, but often not. Waiting saves the premium, but home prices and your rent keep moving while you save. An insured mortgage often has a lower rate than an uninsured one, which takes back part of the saving. And reaching 20% on a BC home can take years.</p>
 <p>The better question is what you can comfortably afford, and how much cash you'll have left after closing. The <a href="/down-payment-guide-bc/">down payment guide</a> covers the minimums and where the money can come from. First-time buyers can use the FHSA and the Home Buyers' Plan to get there faster. The <a href="/first-time-buyer-programs-bc/">first-time buyer programs page</a> shows how they stack. To compare the numbers side by side, the <a href="/mortgage-calculators/">mortgage calculators</a> include payment and affordability tools.</p>
 
-${cta({ title: "Want the premium on your own numbers?", text: "Book a 15-minute call. Joshua will compare 5%, 10% and more down on the homes you're looking at, with the premium and payment for each." })}
+${cta({ title: "Want the premium on your own numbers?", text: "Book a 15-minute call. I'll compare 5%, 10% and more down on the homes you're looking at, with the premium and payment for each." })}
 
 <p class="small">Sources: CMHC, Premium information for homeowner and small rental loans, read November 2026. Insured price limit and 30-year amortization for first-time buyers and new builds: federal rules effective December 15, 2024. Premiums from Sagen and Canada Guaranty are similar but set by each insurer.</p>
 `;

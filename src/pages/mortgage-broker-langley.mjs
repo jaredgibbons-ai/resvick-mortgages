@@ -8,7 +8,7 @@ const slug = "/mortgage-broker-langley/";
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Langley online and by phone from his Surrey office. A Willoughby presale, a Brookswood house with a suite and a South Langley acreage are three different mortgages, and each needs the right lender.",
+  answer: "I serve Langley online and by phone from my Surrey office. A Willoughby presale, a Brookswood house with a suite and a South Langley acreage are three different mortgages, and each needs the right lender.",
   who: "Langley City and Township buyers, renewers and self-employed owners.",
   next: "Buying an acreage? Book a 15-minute call before you write the offer."
 })}
@@ -19,18 +19,18 @@ ${short({
 <p>Then there's the rural south and east. Much of that land is in the Agricultural Land Reserve, and the lots are acreages, hobby farms and horse properties.</p>
 <p>The split matters because the property types are so different. A Willoughby townhouse is a conventional insured or insurable mortgage. A Brookswood house with a suite raises the rental income question.</p>
 <p>A five-acre property in South Langley raises harder questions. How much of the land will a lender value? Is the property farm-classed? Will a conventional lender touch it at all?</p>
-<p>Joshua Resvick serves Langley from his office in Surrey, by phone, video and secure document upload. There's no Langley branch, and you never need to visit an office. Every step is done online, and your lawyer or notary handles the signing near you.</p>
+<p>I serve Langley from my office in Surrey, by phone, video and secure document upload. There's no Langley branch, and you never need to visit an office. Every step is done online, and your lawyer or notary handles the signing near you.</p>
 
 ${ratesStrip()}
 
 <h2>Incomes in the two Langleys</h2>
-<p>The City and the Township of Langley are counted separately in the 2021 Census, and the numbers differ. In the City, the median household income was $77,000 for 2020 and 12.7 percent of workers were self-employed. In the Township, the median was $108,000 and 17.8 percent were self-employed. In both, construction was the largest industry, followed by retail and health care. (Statistics Canada, 2021 Census Profile, read October 2026). The gap reflects the housing: the Township has more detached homes, acreages and larger households. Joshua asks which side of the boundary you are buying on, because the rules and the typical file differ.</p>
+<p>The City and the Township of Langley are counted separately in the 2021 Census, and the numbers differ. In the City, the median household income was $77,000 for 2020 and 12.7 percent of workers were self-employed. In the Township, the median was $108,000 and 17.8 percent were self-employed. In both, construction was the largest industry, followed by retail and health care. (Statistics Canada, 2021 Census Profile, read October 2026). The gap reflects the housing: the Township has more detached homes, acreages and larger households. I ask which side of the boundary you are buying on, because the rules and the typical file differ.</p>
 ${censusTable("langley")}
 
 <h2>Willoughby, Yorkson and the new-construction file</h2>
 <p>A large part of Langley's buying happens in newer townhouse and condo projects. Most are in Willoughby and along 200 Street. Three mortgage points come up again and again.</p>
 <ul>
-<li><strong>Presales close later than you think.</strong> A presale is financed at completion. If that's two or three years out, the approval that matters is the one you can get then, at that time's rates and rules. Joshua plans for the completion date and checks in as it gets closer. The <a href="/presale-mortgages-bc/">presale guide</a> covers deposits, assignments and the completion approval.</li>
+<li><strong>Presales close later than you think.</strong> A presale is financed at completion. If that's two or three years out, the approval that matters is the one you can get then, at that time's rates and rules. I plan for the completion date and check in as it gets closer. The <a href="/presale-mortgages-bc/">presale guide</a> covers deposits, assignments and the completion approval.</li>
 <li><strong>New builds and the property transfer tax exemption.</strong> A newly built home can qualify for a property transfer tax exemption up to a price threshold. It's separate from the first-time buyer exemption. The <a href="/bc-property-transfer-tax-calculator/">property transfer tax calculator</a> applies both.</li>
 <li><strong>Strata fees count against you.</strong> Lenders add a share of the monthly strata fee to your housing costs. So two townhouses at the same price can get different approvals.</li>
 </ul>
@@ -43,7 +43,7 @@ ${censusTable("langley")}
 
 <h2>Manufactured homes on leased pads</h2>
 <p>Langley has a real leasehold market, and it is not in condos or towers. It is in manufactured home parks. In these parks you buy the home and lease the pad it sits on. MLS® listings for homes in Cedar Creek Estates in Brookswood, which has about 100 homes, show the tenure as "leasehold not prepaid, non-strata." Other parks in the Township include Langley Grove Estates, Fernridge Park, Pioneer Park and Pineridge. Most of what we found is in the Township, not the City. (Realtor.ca MLS® listings, read October 2026).</p>
-<p>A lease you pay monthly, with no prepaid term, works differently from a home you own outright. Lenders vary a great deal on this kind of property. Some will not lend on it at all. Others want a larger down payment or a shorter amortization. The appraisal can also be harder, because there are fewer sales to compare. Joshua checks the park, the lease terms and the age of the home before you make an offer, so the financing condition is realistic. Our page on <a href="/mobile-home-mortgages-bc/">mobile and manufactured home mortgages</a> covers the basics.</p>
+<p>A lease you pay monthly, with no prepaid term, works differently from a home you own outright. Lenders vary a great deal on this kind of property. Some will not lend on it at all. Others want a larger down payment or a shorter amortization. The appraisal can also be harder, because there are fewer sales to compare. I check the park, the lease terms and the age of the home before you make an offer, so the financing condition is realistic. Our page on <a href="/mobile-home-mortgages-bc/">mobile and manufactured home mortgages</a> covers the basics.</p>
 
 <h2>Acreage, ALR and rural Langley</h2>
 <p>South and east Langley include a lot of land inside the Agricultural Land Reserve. Acreage financing is its own skill. Here are a few things to know before you fall in love with a property.</p>
@@ -64,16 +64,16 @@ ${censusTable("langley")}
 <p>Langley has one of the region's larger groups of industrial and trades workers. Many work in the Gloucester and Port Kells industrial areas and along the 200 Street corridor. There are a lot of owner-operators, contractors and incorporated tradespeople.</p>
 <p>Lenders read business income in different ways. The choice of lender can change what two years of tax returns support. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains add-backs, dividends, stated-income programs and when a fee can apply.</p>
 
-<h2>Working with Joshua from Langley</h2>
+<h2>Working with me from Langley</h2>
 <p>The process is the same as for any client. A 15-minute call sets the goals and the timeline.</p>
-<p>Joshua reads your file the way an underwriter does. That's what he did for five years before becoming a broker. You get a written Lender Comparison Report of real options. After funding, <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> keeps the mortgage under review, with a renewal plan six months out.</p>
+<p>I read your file the way an underwriter does. That's what I did for five years before becoming a broker. You get a written Lender Comparison Report of real options. After funding, <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> keeps the mortgage under review, with a renewal plan six months out.</p>
 <p>On a mortgage with a mainstream lender, the lender pays the broker and you pay nothing. Fees apply only on some B-lender and private files, with written disclosure first.</p>
 <p>The <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set and what to compare beyond it. The <a href="/mortgage-calculators/">calculators</a> let you test a payment, affordability with a suite and your cash to close.</p>
 
 ${cityFacts("langley")}
-${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-surrey/">Surrey</a>, where his office is. He serves <a href="/mortgage-broker-abbotsford/">Abbotsford</a> and the rest of the Fraser Valley too. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from a Langley client helps the next one find him.</p>`)}
+${callout("Nearby", `<p>I also serve <a href="/mortgage-broker-surrey/">Surrey</a>, where my office is. I serve <a href="/mortgage-broker-abbotsford/">Abbotsford</a> and the rest of the Fraser Valley too. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from a Langley client helps the next one find me.</p>`)}
 
-<p>Manufactured homes on leased pads are only one kind of leasehold. See our pages on <a href="/leasehold-mortgages-bc/">leasehold mortgages</a> and <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> if the land under a home is leased.</p><p>If you own a business in Langley and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+<p>Manufactured homes on leased pads are only one kind of leasehold. See our pages on <a href="/leasehold-mortgages-bc/">leasehold mortgages</a> and <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> if the land under a home is leased.</p><p>If you own a business in Langley and want to buy its premises, I also arrange <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
 
 
 ${cta({ title: "Buying in Willoughby, renewing in Walnut Grove, or financing an acreage?", text: "Book a 15-minute call. You'll leave knowing what's realistic for the property you want and what to do first." })}
@@ -83,7 +83,7 @@ ${cta({ title: "Buying in Willoughby, renewing in Walnut Grove, or financing an 
 export default {
   slug,
   h1: "Mortgage broker serving Langley, BC: City and Township",
-  lede: "Willoughby presales, Brookswood suite houses and South Langley acreages are three different mortgages. Joshua Resvick serves Langley from his Surrey office, online and by phone.",
+  lede: "Willoughby presales, Brookswood suite houses and South Langley acreages are three different mortgages. I serve Langley from my Surrey office, online and by phone.",
   crumbs: [["Home", "/"], ["Langley", slug]],
   nav: "/about-joshua-resvick/",
   body,
@@ -91,8 +91,8 @@ export default {
   faqs: [
     { q: "Can I get a regular mortgage on a Langley acreage?", a: "Often, but the lender has to be chosen for the property. Many conventional lenders value the house and a limited number of acres and give little value to extra land, barns or arenas, so the mortgage can be a smaller share of the price than on a city lot. Farm status, wells and septic also matter. Plan the down payment around what the lender will value." },
     { q: "Is there a difference between financing in Langley City and Langley Township?", a: "Not in the lending rules, which are the same lender rules everywhere in BC. The difference is in the housing stock. The City is mostly condos, townhouses and small lots; the Township ranges from Willoughby presales to rural acreages inside the Agricultural Land Reserve, and each property type is read differently by lenders." },
-    { q: "How does a presale in Willoughby get financed?", a: "At completion, which can be years after you sign. Your deposits are paid from your own funds along the way, and the approval that counts is the one you get close to completion day, under the rules and rates in force then. Joshua plans for that date from the start and reviews the file as it approaches." },
-    { q: "Does Joshua have a Langley office?", a: "No. His office is in Surrey, and he serves Langley by phone, video and secure document upload, which is how most clients prefer to work anyway. Your lawyer or notary handles the signing in Langley. If you want to meet in person, the Surrey office is a short drive down the Fraser Highway." },
+    { q: "How does a presale in Willoughby get financed?", a: "At completion, which can be years after you sign. Your deposits are paid from your own funds along the way, and the approval that counts is the one you get close to completion day, under the rules and rates in force then. I plan for that date from the start and review the file as it approaches." },
+    { q: "Do you have a Langley office?", a: "No. My office is in Surrey, and I serve Langley by phone, video and secure document upload, which is how most clients prefer to work anyway. Your lawyer or notary handles the signing in Langley. If you want to meet in person, the Surrey office is a short drive down the Fraser Highway." },
     { q: "Will a lender count the rent from a suite in Brookswood or Walnut Grove?", a: "Usually some of it, if the suite is permitted and the rent is documented. Lenders either add a share of the rent to your income or subtract it from your housing costs, and the share varies by lender. Choosing the lender whose method suits your file can be the difference between an approval and a decline." }
   ]
 };

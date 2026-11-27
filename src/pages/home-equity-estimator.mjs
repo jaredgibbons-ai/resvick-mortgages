@@ -36,7 +36,7 @@ ${short({ answer: "Most BC homeowners can borrow up to 80% of their home's value
 
 <h2>What "no credit check" means here, and what it does not</h2>
 <p>The estimator does not pull your credit report and does not ask for your name. That is the extent of the claim. A real application is different. A lender checks your credit, confirms your income, appraises the property and reviews how you intend to use the money. Your credit history and the ratio of your debts to your income can limit what you are approved for, even when the equity is there. Being approved for the ceiling is not automatic.</p>
-<p>If your income or credit would stop a bank, other lenders exist, and Joshua can explain them. The <a href="/mortgage-calculators/">mortgage calculators</a> page has other tools that help you prepare for those conversations, including the <a href="/mortgage-calculators/#readvanceable">readvanceable mortgage calculator</a> and the <a href="/mortgage-calculators/#consolidation">debt consolidation calculator</a>.</p>
+<p>If your income or credit would stop a bank, other lenders exist, and I can explain them. The <a href="/mortgage-calculators/">mortgage calculators</a> page has other tools that help you prepare for those conversations, including the <a href="/mortgage-calculators/#readvanceable">readvanceable mortgage calculator</a> and the <a href="/mortgage-calculators/#consolidation">debt consolidation calculator</a>.</p>
 
 <h2>Costs that reduce the number</h2>
 <p>Borrowing against a home is not free. The estimator lets you subtract the main costs so you see what lands in your account.</p>
@@ -48,10 +48,10 @@ ${short({ answer: "Most BC homeowners can borrow up to 80% of their home's value
 <p>Whether borrowing is worth it depends on what you do with it. Paying off a high-interest debt can pay for itself, as the <a href="/refinance-to-pay-off-debt/">refinance to pay off debt</a> page explains. Using equity for an investment brings tax questions, since the deductibility of interest depends on how the borrowed money is used, so check with an accountant before you act. The <a href="/refinance-mortgage-bc/">refinancing hub</a> lays out every reason to refinance side by side.</p>
 
 <h2>Want a person to check the numbers?</h2>
-<p>The result above stays in your browser. If you would like Joshua to look at it with you, the form below sends him a message. The box that adds your figures to the message is unticked by default, so nothing travels unless you choose it.</p>
+<p>The result above stays in your browser. If you would like me to look at it with you, the form below sends me a message. The box that adds your figures to the message is unticked by default, so nothing travels unless you choose it.</p>
 <div class="form-card">
-<p class="small"><strong>Please do not send financial documents through this form.</strong> It does not accept attachments. When documents are needed, Joshua will send a secure upload link.</p>
-<form data-lead="equity-estimator" data-stay data-success="Sent. Joshua will look over your numbers and your plan himself, then email you back. If a call would help, he will suggest a time." novalidate>
+<p class="small"><strong>Please do not send financial documents through this form.</strong> It does not accept attachments. When documents are needed, I'll send a secure upload link.</p>
+<form data-lead="equity-estimator" data-stay data-success="Sent. I'll look over your numbers and your plan myself, then email you back. If a call would help, I'll suggest a time." novalidate>
 <input type="hidden" name="intent" value="refinance">
 <input type="hidden" name="tool_inputs" value="">
 <div class="row2">
@@ -72,9 +72,9 @@ ${short({ answer: "Most BC homeowners can borrow up to 80% of their home's value
 </form>
 </div>
 
-${callout("An estimate is not an offer", "<p>The amounts above are ceilings, not approvals. A lender may approve less, and different lenders follow different rules. For a view of the real options on your file, <a href=\"/contact/\">contact Joshua</a> or <a href=\"/how-mortgage-brokers-get-paid/\">read how brokers get paid</a> first. That way you know what a conversation costs. On mainstream lender files, it's nothing.</p>")}
+${callout("An estimate is not an offer", "<p>The amounts above are ceilings, not approvals. A lender may approve less, and different lenders follow different rules. For a view of the real options on your file, <a href=\"/contact/\">contact me</a> or <a href=\"/how-mortgage-brokers-get-paid/\">read how brokers get paid</a> first. That way you know what a conversation costs. On mainstream lender files, it's nothing.</p>")}
 
-${cta({ title: "Thinking about using your equity?", text: "Book a 15-minute call. Joshua will walk through the realistic routes for your situation, the costs of each and whether waiting for renewal would save you money." })}
+${cta({ title: "Thinking about using your equity?", text: "Book a 15-minute call. I'll walk through the realistic routes for your situation, the costs of each and whether waiting for renewal would save you money." })}
 `;
 
 export default {
@@ -88,6 +88,6 @@ export default {
     { q: "Does this estimator check my credit?", a: "No. It uses only the numbers you type, it does not look up your property and it does not send anything anywhere. A real application is different: a lender will check your credit, verify your income and appraise the home before approving any amount, so the estimate is a ceiling and not an approval." },
     { q: "Why is my usable equity so much lower than my total equity?", a: "Regulated lenders keep 20 percent of the home's value untouched, so usable equity is 80 percent of value less your debts. If you bought recently with a small down payment, most of your equity may sit inside that buffer. The estimator also shows how the figure falls if the appraisal comes in lower." },
     { q: "Is borrowing against my home cheaper than a personal loan or credit card?", a: "Usually the rate is lower because the home secures the loan, but the risk is larger too, since the lender can enforce against the property if you cannot pay. Costs such as a penalty on your current mortgage, legal fees and a longer repayment period also matter. Compare total cost, not only the rate." },
-    { q: "Can a mortgage broker access equity when my bank says no?", a: "Often there are other routes, such as a second mortgage or a different lender whose rules fit your income. They can come with higher rates or fees, which must be disclosed in writing before you commit. Joshua explains the trade-offs honestly, including when waiting or doing nothing is the better choice." }
+    { q: "Can a mortgage broker access equity when my bank says no?", a: "Often there are other routes, such as a second mortgage or a different lender whose rules fit your income. They can come with higher rates or fees, which must be disclosed in writing before you commit. I explain the trade-offs honestly, including when waiting or doing nothing is the better choice." }
   ]
 };

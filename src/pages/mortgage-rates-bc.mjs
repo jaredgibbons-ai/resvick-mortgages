@@ -17,7 +17,7 @@ ${ratesStrip()}
 </ul>
 <p>So this page does something a little different. It explains how your rate actually gets set. It compares the main choices of term and type. It shows what to look at besides the rate.</p>
 <p>The box above shows the public benchmarks: the Bank of Canada's rate, prime at the big banks and the stress-test floor. You won't find lender mortgage rates here, and that's on purpose. A posted rate goes out of date within days, and it's rarely the rate your file gets.</p>
-<p>Joshua Resvick doesn't post lender rates on this site. The rate that matters is the one your own file qualifies for. That depends on your down payment, credit, property and lender. A 15-minute call gets you real numbers for your situation.</p>
+<p>I don't post lender rates on this site. The rate that matters is the one your own file qualifies for. That depends on your down payment, credit, property and lender. A 15-minute call gets you real numbers for your situation.</p>
 
 <h2>Why your rate differs from the posted rate</h2>
 <p>Every lender publishes a posted rate. It works a lot like a list price, and hardly anyone pays it.</p>
@@ -77,23 +77,23 @@ ${callout("An illustration, not a quote", "<p>Take a $500,000 mortgage on a 25-y
 <h2>Rate holds, briefly</h2>
 <p>A rate hold reserves a rate for a set time. You might be shopping for a home, waiting for a build to finish or deciding at renewal. Holds commonly run 90 to 120 days. A hold isn't an approval. What happens if rates fall during it depends on the lender. The full story is on the page about <a href="/mortgage-rate-hold/">mortgage rate holds</a>.</p>
 
-<h2>How Joshua shops the market</h2>
-<p>Resvick Mortgages works under Xeva Mortgage. That gives Joshua access to a wide range of lenders.</p>
-<p>He doesn't just quote one lender's product. He asks the lenders whose rules fit your file for their terms. Then he compares them on everything above. That means rate, term, penalty, prepayment, portability and how the lender treats you later on. Every client gets that comparison in writing, in the <a href="/lender-comparison-report/">Lender Comparison Report</a>.</p>
+<h2>How I shop the market</h2>
+<p>Resvick Mortgages works under Xeva Mortgage. That gives me access to a wide range of lenders.</p>
+<p>I don't just quote one lender's product. I ask the lenders whose rules fit your file for their terms. Then I compare them on everything above. That means rate, term, penalty, prepayment, portability and how the lender treats you later on. Every client gets that comparison in writing, in the <a href="/lender-comparison-report/">Lender Comparison Report</a>.</p>
 <p>And since people always wonder, here's how fees work. With a mainstream (A) lender, the lender pays the broker, and you pay nothing for the service. Fees come up only on some B-lender and private-lender files. When they do, BC rules require written disclosure before you commit. The page on <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> has the detail.</p>
 
 <h2>Renewing rather than buying</h2>
 <p>Maybe your mortgage is already in place, and the question is what rate to accept at maturity. The same ideas apply, with one bonus. Renewal is when you can move lenders without a penalty. The page on <a href="/mortgage-renewal-rates-bc/">renewal rates in BC</a> explains how renewal offers stack up against switch offers. It also explains when to start.</p>
 
-<h2>Rates in the cities Joshua serves</h2>
+<h2>Rates in the cities I serve</h2>
 <p>Mortgage rates are set by lender and by file, not by city. A rate in Vancouver doesn't differ from one in Kelowna just because of the postal code.</p>
-<p>What does change from place to place is property type, price and how keen lenders are on certain areas. For the local angle, see the pages for <a href="/mortgage-rates-vancouver/">Vancouver mortgage rates</a> and <a href="/mortgage-rates-surrey/">Surrey mortgage rates</a>. Joshua works with clients across BC, online and by phone.</p>
+<p>What does change from place to place is property type, price and how keen lenders are on certain areas. For the local angle, see the pages for <a href="/mortgage-rates-vancouver/">Vancouver mortgage rates</a> and <a href="/mortgage-rates-surrey/">Surrey mortgage rates</a>. I work with clients across BC, online and by phone.</p>
 
 <h2>Compare your options side by side</h2>
 <p>The scenario tool on the <a href="/mortgage-calculators/#compare">calculators page</a> puts up to four options side by side. It covers payment, interest over the term and penalty exposure. Plug in rates you've been quoted. Or try a few to see how much a small difference really matters.</p>
 
 ${bocDates()}
-${cta({ title: "Get your comparison report", text: "A 15-minute call covers your goals and timeline. Then Joshua compares real lender options for your file and shows them to you in writing." })}
+${cta({ title: "Get your comparison report", text: "A 15-minute call covers your goals and timeline. Then I compare real lender options for your file and show them to you in writing." })}
 `;
 
 export default {
@@ -103,10 +103,10 @@ export default {
   crumbs: [["Home", "/"], ["Rates", "/mortgage-rates-bc/"]],
   nav: "/mortgage-rates-bc/", body,
   faqs: [
-    { q: "What is a good mortgage rate in BC right now?", a: "A good rate is one that compares well with real offers on your own file, at a term and penalty that fit your plans. Rates change often and vary by lender, down payment, credit and property, so a single number isn't meaningful. Joshua can show you what's available for your situation." },
+    { q: "What is a good mortgage rate in BC right now?", a: "A good rate is one that compares well with real offers on your own file, at a term and penalty that fit your plans. Rates change often and vary by lender, down payment, credit and property, so a single number isn't meaningful. I can show you what's available for your situation." },
     { q: "Why is the rate I was quoted higher than the one advertised?", a: "Advertised rates usually assume a standard, low-risk file, such as an insured purchase on a typical property. Your rate depends on your down payment, credit, the property, how you'll use it and the lender. Mortgage categories such as insured, insurable and uninsured can also change pricing." },
     { q: "Is the lowest rate always the cheapest mortgage?", a: "No. A lower rate can come with a larger penalty, tighter prepayment limits or less flexibility at renewal. Over a full term these can outweigh a small rate difference. Compare the whole mortgage, including what leaving early would cost, before choosing on the rate alone." },
-    { q: "Does using a mortgage broker cost extra?", a: "On a mortgage placed with a mainstream lender, the lender pays the broker and you pay nothing for the service. Fees arise only on certain B-lender and private-lender files, and BC rules require written disclosure before you commit. Joshua explains this fully on his page about how brokers are paid." },
+    { q: "Does using a mortgage broker cost extra?", a: "On a mortgage placed with a mainstream lender, the lender pays the broker and you pay nothing for the service. Fees arise only on certain B-lender and private-lender files, and BC rules require written disclosure before you commit. I explain this fully on my page about how brokers are paid." },
     { q: "How often do mortgage rates change?", a: "Fixed rates move with bond markets and lender funding costs and can change many times in a month. Variable rates follow the lender's prime rate, which changes after Bank of Canada rate announcements. A rate hold protects a quoted rate for a set period while you decide." }
   ]
 };

@@ -63,8 +63,8 @@ ${callout("Nothing on this page costs you a broker fee", "<p>A deferral or a ski
 
 <h2>Prevention: the part most people skip</h2>
 <p>The households that need a deferral least are the ones that have been paying a little ahead. A mortgage with a few thousand dollars of prepayments behind it has a skip-a-payment in reserve.</p>
-<p>A household that reviews its mortgage each year also knows, before renewal, whether the next payment will fit. That's what Joshua's <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> program is for. It's a yearly check of your mortgage against your household. You also get a conversation about six months before your term ends, so the renewal payment is one you've already planned for.</p>
-<p>Looking at a payment you can't make? Want a straight answer on whether a deferral, a restructure or something else is the right move? <a href="/contact/">Contact Joshua</a> and say so in your first message.</p>
+<p>A household that reviews its mortgage each year also knows, before renewal, whether the next payment will fit. That's what my <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> program is for. It's a yearly check of your mortgage against your household. You also get a conversation about six months before your term ends, so the renewal payment is one you've already planned for.</p>
+<p>Looking at a payment you can't make? Want a straight answer on whether a deferral, a restructure or something else is the right move? <a href="/contact/">Contact me</a> and say so in your first message.</p>
 `;
 
 export default {

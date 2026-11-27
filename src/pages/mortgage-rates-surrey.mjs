@@ -51,9 +51,9 @@ ${ratesStrip()}
 <li><strong>Purpose.</strong> A purchase, a straight switch and a cash-out refinance can each be priced differently at the same lender.</li>
 </ul>
 
-${callout("Why no rate is printed here", `<p>A rate on a page goes out of date within days. A rate that ignores your down payment, credit, property, amortization and purpose isn't your rate. Joshua confirms pricing with lenders on the day you ask. A call gets you the number that applies to you.</p>`)}
+${callout("Why no rate is printed here", `<p>A rate on a page goes out of date within days. A rate that ignores your down payment, credit, property, amortization and purpose isn't your rate. I confirm pricing with lenders on the day you ask. A call gets you the number that applies to you.</p>`)}
 
-${cta({ title: "Want the real Surrey rate for your file?", text: "Book a 15-minute call, by phone or at the Surrey office. Joshua will tell you which pricing category you're in and what your real options are." })}
+${cta({ title: "Want the real Surrey rate for your file?", text: "Book a 15-minute call, by phone or at the Surrey office. I'll tell you which pricing category you're in and what your real options are." })}
 <p>For anything else, the <a href="/contact/">contact page</a> has the details.</p>
 `;
 

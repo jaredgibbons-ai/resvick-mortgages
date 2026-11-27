@@ -34,7 +34,7 @@ ${short({ answer: "You can usually refinance a rental up to 80 percent of its va
 <p>A rental with less than about two years of documented rent is often discounted. Lenders may use a capped percentage or the appraiser's estimate of market rent instead. The <a href="/mortgage-application-checklist/">application checklist</a> shows the general document list.</p>
 
 <p>Planning your next property? The two-minute <a href="/investor-check/">investor check</a> gives you a quick read on where you stand.</p>
-${cta({ title: "Check what your rental can support", text: "Share your property value, balance, rent and the other properties you hold. Joshua will tell you which lenders fit, what ceiling to expect and what the lender will want to see." })}
+${cta({ title: "Check what your rental can support", text: "Share your property value, balance, rent and the other properties you hold. I'll tell you which lenders fit, what ceiling to expect and what the lender will want to see." })}
 
 <h2>Refinance, re-amortize, or sell</h2>
 <p>Before you refinance a rental, it helps to compare it with the other things you could do. Three questions frame the choice.</p>
@@ -50,8 +50,8 @@ ${cta({ title: "Check what your rental can support", text: "Share your property 
 <p>This is why many landlords keep investment and personal borrowing separate, and why a record of where the money went is worth keeping. This is general information, not tax advice. How it applies to you depends on your facts, and an accountant should advise before you structure the borrowing.</p>
 
 <h2>Using rental equity for the next purchase</h2>
-<p>Some landlords refinance to fund a down payment on another property. It can work, and it deserves a plan. Lenders generally want a bigger down payment on a property you won't live in, commonly 20 percent. They also count every mortgage in your portfolio when they assess a new one. That includes the larger payment from the refinance. As your door count grows, fewer lenders will look at you. The A-lender limit of about four doors can become the constraint. Joshua sequences the steps so that the refinance and the purchase do not undermine each other.</p>
-<p>If you are thinking of keeping your current home and renting it out while you buy the next one, see the guide on <a href="/converting-your-home-to-a-rental/">converting your home to a rental</a>. For the bigger lending picture, start at the <a href="/investment-property-mortgages-bc/">investment property mortgage hub</a>. Or <a href="/contact/">contact Joshua</a> with your own situation.</p>
+<p>Some landlords refinance to fund a down payment on another property. It can work, and it deserves a plan. Lenders generally want a bigger down payment on a property you won't live in, commonly 20 percent. They also count every mortgage in your portfolio when they assess a new one. That includes the larger payment from the refinance. As your door count grows, fewer lenders will look at you. The A-lender limit of about four doors can become the constraint. I sequence the steps so that the refinance and the purchase do not undermine each other.</p>
+<p>If you are thinking of keeping your current home and renting it out while you buy the next one, see the guide on <a href="/converting-your-home-to-a-rental/">converting your home to a rental</a>. For the bigger lending picture, start at the <a href="/investment-property-mortgages-bc/">investment property mortgage hub</a>. Or <a href="/contact/">contact me</a> with your own situation.</p>
 
 ${callout("Portfolios change the answer", "<p>The number of rental properties you hold changes which lenders will look at your file. Mention every property on the first call, even if the one you are refinancing is the only one with a mortgage that matters.</p>")}
 `;

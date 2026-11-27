@@ -5,7 +5,7 @@ const body = `
 ${short({
   answer: "A lender decides whether your acreage is a home or a farm. A home on land finances like a house, but lenders cap how many acres they count. A working farm goes to an agricultural lender. The ALR limits what you can build, not whether you can finance.",
   who: "Buyers and owners of BC acreages, hobby farms and ALR land. Farm operators should also read the <a href='/self-employed-mortgage-bc/'>self-employed mortgage guide</a>.",
-  next: "Send Joshua the listing and the ALR status on the <a href='/contact/'>contact page</a>."
+  next: "Send me the listing and the ALR status on the <a href='/contact/'>contact page</a>."
 })}
 
 <h2>Residential lending stops where the farm begins</h2>
@@ -40,7 +40,7 @@ ${short({
 </ul>
 <p>Confirm the ALR status and any existing ALC decisions on title before you write an offer. Your lawyer and the ALC's online map are the sources.</p>
 
-${cta({ title: "Looking at an acreage or farm property?", text: "Send Joshua the listing, the ALR status and a note on how you plan to use the land. He will tell you whether it reads as residential or agricultural to a lender, what down payment to expect, and which lenders are realistic for that property." })}
+${cta({ title: "Looking at an acreage or farm property?", text: "Send me the listing, the ALR status and a note on how you plan to use the land. I'll tell you whether it reads as residential or agricultural to a lender, what down payment to expect, and which lenders are realistic for that property." })}
 
 <h2>Hobby farms: the middle ground</h2>
 <p>Most BC acreage buyers are buying a hobby farm. That means a home on land, with horses, a few animals, a market garden or simply space. They have no plan to make a living from the land. These generally finance as residential properties, with the acreage cap and outbuilding treatment described above. Three things keep a hobby farm on the residential side of the line.</p>
@@ -70,7 +70,7 @@ ${cta({ title: "Looking at an acreage or farm property?", text: "Send Joshua the
 </ul>
 <p>Private lending on acreage is most often a bridge. It might help complete a purchase while an ALC decision is pending. It might finish a house that a residential lender will then refinance. Or it might buy time to document farm income. It should have an exit plan from the first day.</p>
 
-${callout("Fees, and who pays the broker", "<p>On an acreage financed with a residential A lender, the lender pays the broker and you pay nothing for the service. Agricultural lenders have their own fee structures. B-lender and private files can carry lender fees and sometimes a broker fee, disclosed on BCFSA's Form 1A before you commit. Joshua will tell you which kind of file a property is before anything is submitted. <a href=\"/contact/\">Contact him</a> with the listing and the ALR status.</p>")}
+${callout("Fees, and who pays the broker", "<p>On an acreage financed with a residential A lender, the lender pays the broker and you pay nothing for the service. Agricultural lenders have their own fee structures. B-lender and private files can carry lender fees and sometimes a broker fee, disclosed on BCFSA's Form 1A before you commit. I'll tell you which kind of file a property is before anything is submitted. <a href=\"/contact/\">Contact me</a> with the listing and the ALR status.</p>")}
 `;
 
 export default {

@@ -8,9 +8,9 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-for
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Fort St. John and the Peace region by phone and video from his Surrey office. Many buyers here earn gas, pipeline, trades or camp pay, and many own manufactured homes or acreage. You can start the mortgage before you travel north.",
+  answer: "I serve Fort St. John and the Peace region by phone and video from my Surrey office. Many buyers here earn gas, pipeline, trades or camp pay, and many own manufactured homes or acreage. You can start the mortgage before you travel north.",
   who: "Buyers and owners in Fort St. John, Taylor, Charlie Lake and the rural Peace, including energy workers, trades, health care staff and farm families.",
-  next: "Book a 15-minute call and tell Joshua how you are paid and what kind of home or land you want."
+  next: "Book a 15-minute call and tell me how you are paid and what kind of home or land you want."
 })}
 <p>Fort St. John is the largest city in BC's Peace River region. The City lists Shell Canada, PETRONAS Canada and NorthRiver Midstream among its largest employers, and says oil and gas, forestry, agriculture and mining drive the local economy (City of Fort St. John, Move Here, read October 2026). The median age is 34.1, against 43.1 for BC (City of Fort St. John, Move Here, read October 2026). It is a young, working city, and many files here involve shift, rotation or contract pay.</p>
 <p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I work from my Surrey office and help Fort St. John clients by phone and video. There is no Fort St. John branch. You can <a href="/contact/">book a 15-minute call</a> from home, a camp or a truck cab.</p>
@@ -30,7 +30,7 @@ ${ratesStrip()}
 <li><strong>Rotation and camp work.</strong> Pay may arrive in blocks, and overtime can make up a large share. Many lenders average two years. See our page for <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>.</li>
 <li><strong>Contract and project work.</strong> A contract can end. Lenders often ask how long it runs and what your history looks like. The <a href="/mortgage-for-contractors/">contractor page</a> explains the routes.</li>
 <li><strong>Truckers and owner-operators.</strong> Lenders usually want two years of returns and look at net income. See the <a href="/mortgages-for-truckers-and-owner-operators/">trucker page</a> and the <a href="/self-employed-mortgage-bc/">self-employed hub</a>.</li>
-<li><strong>If a job just ended.</strong> A recent layoff changes the file. Tell Joshua early, because lenders judge new work, severance and gaps in different ways.</li>
+<li><strong>If a job just ended.</strong> A recent layoff changes the file. Tell me early, because lenders judge new work, severance and gaps in different ways.</li>
 </ul>
 
 <h2>Incomes in Fort St. John</h2>
@@ -59,7 +59,7 @@ ${censusTable("fort-st-john")}
 <p>In May 2023 the Stoddart Creek and Red Creek fires led to an evacuation alert affecting more than 20,000 people around Fort St. John. The alert was lifted that week, though more than 1,300 rural and First Nations properties stayed evacuated (Global News, Evacuation alert rescinded for Fort St. John wildfire, May 17, 2023, read October 2026). Insurers may ask extra questions about rural and treed properties. Get a quote before you remove conditions, because a lender will want proof of coverage.</p>
 
 <h2>Land held by First Nations</h2>
-<p>The City says reserve land lies outside City bylaws and property tax, and that an urban reserve can include housing. Its page names no specific Fort St. John urban reserve or leasehold subdivision (City of Fort St. John, Urban Reserves and Treaty Land Entitlement, read October 2026). We found no homes on reserve land marketed to outside buyers here. If a purchase involves reserve land or leased land, tell Joshua at the start. He arranges those files through a lender that works on them, and the lender that fits depends on the land and your timing. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
+<p>The City says reserve land lies outside City bylaws and property tax, and that an urban reserve can include housing. Its page names no specific Fort St. John urban reserve or leasehold subdivision (City of Fort St. John, Urban Reserves and Treaty Land Entitlement, read October 2026). We found no homes on reserve land marketed to outside buyers here. If a purchase involves reserve land or leased land, tell me at the start. I arrange those files through a lender that works on them, and the lender that fits depends on the land and your timing. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
 
 <h2>How far everything is</h2>
 <p>The City lists Dawson Creek 75 km south, Grande Prairie 215 km east and Prince George 475 km away (City of Fort St. John, Move Here, read October 2026). Many Fort St. John buyers compare the <a href="/mortgage-broker-prince-george/">Prince George market</a>. Alberta buyers and workers are also common in this region. Plan an inspection trip around those distances, or sign from where you live.</p>
@@ -72,7 +72,7 @@ ${censusTable("fort-st-john")}
 <li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and call you about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
 </ol>
 
-${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Fort St. John files, such as pad homes, new self-employed income or recent job changes, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
+${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays me and you pay nothing for my work. Some Fort St. John files, such as pad homes, new self-employed income or recent job changes, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
 
 <p>Before we talk, it can help to read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> and the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>.</p>
@@ -85,17 +85,17 @@ ${cta({ title: "Talk to a broker who serves Fort St. John", text: "Book a 15-min
 export default {
   slug: "/mortgage-broker-fort-st-john/",
   h1: "Mortgage broker in Fort St. John, BC: buying a home in the Peace",
-  lede: "Buying a home in Fort St. John, Taylor or Charlie Lake, or moving to the Peace for work? Joshua Resvick, Xeva Mortgage, serves the region from his Surrey office by phone and video. Energy and camp pay, manufactured homes, suites and acreage, explained the way an underwriter reads them.",
+  lede: "Buying a home in Fort St. John, Taylor or Charlie Lake, or moving to the Peace for work? I'm Joshua Resvick, with Xeva Mortgage, and I serve the region from my Surrey office by phone and video. Energy and camp pay, manufactured homes, suites and acreage, explained the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Fort St. John", "/mortgage-broker-fort-st-john/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
     { q: "Can I buy a home in Fort St. John before I move there?", a: "Often, yes. Many buyers get pre-approved by phone or video, then make an offer through a realtor. Lenders look at your income, credit and down payment, not where you live today. Ask for a closing date that fits your move, and plan one trip for the inspection." },
-    { q: "How does a lender count rotation, camp or overtime pay?", a: "It depends on the lender and on how steady the hours are. Many average your income over two years, and some count overtime only if it is regular. A steady schedule helps. Joshua checks lender rules for your pay type before you apply." },
-    { q: "I was laid off or my project ended. Can I still get a mortgage?", a: "Sometimes. Lenders look at your new job or contract, your history and your savings. A gap in pay makes the file harder, and some lenders wait for a probation period to end. Tell Joshua early so he can match the file to a lender." },
-    { q: "Can I get a mortgage on a manufactured home?", a: "In many cases. A home on land you own is far easier than one on a rented pad. Fort St. John limits the age of homes in some zones to 10 years at permit. Pad homes often have fewer lenders and age limits. Joshua checks the land and the home first." },
+    { q: "How does a lender count rotation, camp or overtime pay?", a: "It depends on the lender and on how steady the hours are. Many average your income over two years, and some count overtime only if it is regular. A steady schedule helps. I check lender rules for your pay type before you apply." },
+    { q: "I was laid off or my project ended. Can I still get a mortgage?", a: "Sometimes. Lenders look at your new job or contract, your history and your savings. A gap in pay makes the file harder, and some lenders wait for a probation period to end. Tell me early so I can match the file to a lender." },
+    { q: "Can I get a mortgage on a manufactured home?", a: "In many cases. A home on land you own is far easier than one on a rented pad. Fort St. John limits the age of homes in some zones to 10 years at permit. Pad homes often have fewer lenders and age limits. I check the land and the home first." },
     { q: "Can a suite help me qualify for a Fort St. John mortgage?", a: "It can, if the suite is legal and the rent is documented. The City allows one secondary suite and up to two detached suites on many lots, but suites cannot be strata titled. Confirm the limits with the City before you plan a build." },
-    { q: "Can I buy acreage near Fort St. John with a regular mortgage?", a: "Sometimes. A home on a few acres can finance like a house, but lenders often count only part of the land. Farm land in the Agricultural Land Reserve limits what you can build. Share the listing with Joshua before you offer." }
+    { q: "Can I buy acreage near Fort St. John with a regular mortgage?", a: "Sometimes. A home on a few acres can finance like a house, but lenders often count only part of the land. Farm land in the Agricultural Land Reserve limits what you can build. Share the listing with me before you offer." }
   ]
 };
