@@ -144,3 +144,8 @@ export async function onRequestPost({ request, env }) {
   }
   return delivered ? new Response("ok", { status: 200 }) : new Response("Delivery failed", { status: 502 });
 }
+
+// Anything but POST gets a clear 405 instead of a 404.
+export async function onRequest() {
+  return new Response("Method not allowed", { status: 405, headers: { allow: "POST" } });
+}

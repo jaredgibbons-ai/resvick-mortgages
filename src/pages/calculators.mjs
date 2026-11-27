@@ -52,6 +52,28 @@ ${soon("mli", "MLI Select calculator", "Estimate qualifying details for CMHC's m
 </div>
 <p>Investors can start from the <a href="/investment-property-mortgages-bc/">investment property mortgage guide</a>, and those thinking about equity can start with the <a href="/refinance-mortgage-bc/">refinancing hub</a>.</p>
 
+<h2>Six mistakes that make a calculator answer wrong</h2>
+<p>A calculator is only as good as what you type into it. These are the slips I see most often when someone brings me a number from a website, this one included.</p>
+<ol>
+<li><strong>Using today's posted rate for the stress test.</strong> Lenders qualify you at the higher of your contract rate plus 2 points or a 5.25% floor. Type the rate you expect to pay, and the tool adds the buffer for you. Do not add it twice.</li>
+<li><strong>Leaving out debts that feel small.</strong> A $90 phone plan usually does not count, but a $90 line of credit payment does. So do student loans, support payments and any lease. Even a card you pay off each month can count, because lenders work out a payment for each card on your report by their own method.</li>
+<li><strong>Typing gross income for one person and household costs for two.</strong> If two people will be on the mortgage, enter both incomes and both sets of debts. If only one will be, enter only that person's.</li>
+<li><strong>Forgetting strata fees and heat.</strong> On a condo or townhouse, lenders count half the strata fee as a housing cost, plus a heating figure. Skip them and the result can run tens of thousands too high.</li>
+<li><strong>Treating the result as a pre-approval.</strong> The tools show what the published rules allow. A lender still checks your credit, your documents and the property. Two lenders can read the same file differently, so the real number comes from a full application.</li>
+<li><strong>Picking a 30-year amortization by default.</strong> A longer amortization lowers the payment. But on an insured mortgage, only first-time buyers and buyers of newly built homes can ask for one. You also pay more interest over the life of the loan. Run 25 and 30 years side by side, then decide whether the lower payment is worth the extra cost.</li>
+</ol>
+<p>If your number looks too good, it probably missed one of these. Send it to me and I will check it against the way a lender would read your file.</p>
+
+<h2>What to do with your result</h2>
+<p>Treat a calculator answer as a starting point for a conversation, not a finish line. Here is how I would use one.</p>
+<ul>
+<li><strong>Write down what you typed.</strong> The answer only makes sense next to the inputs behind it. A screenshot of the whole tool is easiest, or use the email button so the inputs travel with the result.</li>
+<li><strong>Run it twice.</strong> Once with the numbers you hope for, once with a cushion: a slightly lower price, a slightly higher rate, one more debt. The gap between the two tells you how much room you really have.</li>
+<li><strong>Check the cash, not only the payment.</strong> A payment that fits can still fail on closing day if the transfer tax, legal fees and moving costs were not planned. Pair the affordability tool with the closing cost tool.</li>
+<li><strong>Bring it to a 15-minute call.</strong> I will tell you which line a lender is most likely to question, and what paperwork would answer it.</li>
+</ul>
+<p>Not sure which rate to type? Use the rate on your renewal letter or a written pre-approval if you have one. If you have neither, run the same numbers at a few rates, one point apart, and watch how far the answer moves. That spread tells you more than any single guess. And if you would rather not type numbers at all, the two-minute check above asks plain questions instead.</p>
+
 <h2>One engine behind every tool</h2>
 <p>All of the calculators use the same math core, so a payment in one tool matches the payment in every other. That is on purpose. If one tool used a slightly different formula, the results would disagree. You would not know which to trust.</p>
 <p>The engine follows Canadian rules. Fixed-rate mortgages compound semi-annually, as federal law requires. That is why a 5.00% fixed mortgage costs slightly less than 5.00% compounded monthly would. Accelerated bi-weekly and accelerated weekly payments are the monthly payment divided by two or by four, which is how lenders define them. Rounding is to the nearest cent.</p>
