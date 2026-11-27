@@ -12,8 +12,8 @@ export default {
     areas: [
       { n: "Metrotown", d: "The City's 2050 plan says new homes here will mostly be high-rise buildings." },
       { n: "Brentwood", d: "The City's 2050 plan expects mostly apartments here, from mid-rise to high-rise." },
-      { n: "Lougheed", d: "The City's 2050 plan expects mostly apartments here, from mid-rise to high-rise." },
-      { n: "Edmonds", d: "The City's 2050 plan expects mostly apartments here, from mid-rise to high-rise." }
+      { n: "Lougheed", d: "Planned mainly for apartments under the 2050 plan, from mid-rise buildings to towers." },
+      { n: "Edmonds", d: "Also set for mostly apartments in the 2050 plan, mid-rise up to high-rise." }
     ],
     mix: "A City report shows 62 percent of Burnaby households owned their home in 2016. It says single-family and two-family homes were 22 percent of housing in 2021.",
     land: "UniverCity, beside SFU on Burnaby Mountain, is on land that SFU still owns. Its site says development parcels are leased for 99 years. Homes there are sold on a prepaid 99-year lease.",

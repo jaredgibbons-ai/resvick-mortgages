@@ -47,7 +47,7 @@ ${costToBuy("Port Alberni", [["Typical house", 485000]], "Vancouver Island")}
 <p>The City has tsunami evacuation zones today. If a home sits near the water or in a low-lying area, ask the insurer what it covers and what it costs. Lenders want the home insured before they fund. A higher premium also counts in your monthly costs.</p>
 
 <h2>Suites and the 2024 zoning update</h2>
-<p>In 2024 the City rewrote its zoning to meet the Province's small-scale housing rules. Zoning Bylaw No. 5105 allows 3 to 4 units on most lots in the new residential zones. Lots without City water or sewer, or larger than about one acre, are limited to a house and a suite. (City of Port Alberni, Council agenda, June 10, 2024, read November 2026).</p>
+<p>In 2024 the City rewrote its zoning to meet the Province's small-scale housing rules. Zoning Bylaw No. 5105 allows 3 to 4 units on most lots in the new residential zones. If a lot has no City water or sewer, or is over about one acre, the limit is a house and a suite. (City of Port Alberni, Council agenda, June 10, 2024, read November 2026).</p>
 <p>A legal suite can help you qualify, since many lenders count part of the rent. An unpermitted one usually counts for nothing. The <a href="/how-much-suite-income-will-a-lender-count/">suite income guide</a> shows the two common methods.</p>
 
 <h2>Sproat Lake, Beaver Creek and rural lots</h2>

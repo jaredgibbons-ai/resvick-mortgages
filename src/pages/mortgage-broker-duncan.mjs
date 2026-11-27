@@ -41,7 +41,7 @@ ${costToBuy("Duncan", [["Duncan house", 592000], ["North Cowichan house", 733000
 <p>If you are moving here for a job, you can start before you arrive. Pre-approval works the same from out of town. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a> lists the papers to gather.</p>
 
 <h2>Suites and the 2024 zoning change</h2>
-<p>In 2024 the City of Duncan let low-density lots hold up to four units. That follows the Province's small-scale housing rules. The City's notes also say part of that zone, east of the Trans-Canada Highway, is floodplain. New homes there must be built well above the ground. (City of Duncan, Small-Scale Multi-Unit Housing, read November 2026).</p>
+<p>In 2024 the City of Duncan let low-density lots hold up to four units. That follows the Province's small-scale housing rules. The City's notes also say part of that zone, east of the Trans-Canada Highway, is floodplain. Homes built there have to sit well above ground level. (City of Duncan, Small-Scale Multi-Unit Housing, read November 2026).</p>
 <p>A legal suite can help you qualify, because many lenders count part of the rent. An unpermitted suite usually counts for nothing. The <a href="/how-much-suite-income-will-a-lender-count/">suite income guide</a> shows the two common methods. If you plan to add units, check the flood construction level for the lot before you price the build.</p>
 
 <h2>Homes on Cowichan Tribes land</h2>

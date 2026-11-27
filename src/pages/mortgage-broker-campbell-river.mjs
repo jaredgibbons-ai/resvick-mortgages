@@ -44,8 +44,8 @@ ${costToBuy("Campbell River", [["Typical house", 680000], ["Typical strata home"
 <p>Industry towns can see layoffs and closures. Lenders know this, and a steady two-year history helps. If your income changed recently, talk to me before you apply, not after.</p>
 
 <h2>Short-term rentals are not allowed</h2>
-<p>This one surprises people. The City's zoning FAQ says short-term rentals are not a permitted use in Campbell River, and the City won't issue business licences for them. Bed and breakfasts are a separate use that can be licensed where zoning allows. (City of Campbell River, Zoning FAQs, read November 2026).</p>
-<p>So don't count on vacation rental income to carry a mortgage here. A lender will only count long-term rent from a legal suite or unit. If you were planning to rent by the night, read the <a href="/airbnb-and-short-term-rental-mortgages/">short-term rental guide</a> and check with the City first.</p>
+<p>This one surprises people. The City's zoning FAQ says short-term rentals are not a permitted use in Campbell River, and the City won't issue business licences for them. B&amp;Bs are licensed separately, where zoning allows them. (City of Campbell River, Zoning FAQs, read November 2026).</p>
+<p>So don't count on vacation rental income to carry a mortgage here. A lender counts only long-term rent, from a legal suite or unit. If you were planning to rent by the night, read the <a href="/airbnb-and-short-term-rental-mortgages/">short-term rental guide</a> and check with the City first.</p>
 
 <h2>Suites and the 2024 zoning change</h2>
 <p>A long-term suite is a different story. A June 2024 zoning update lets owners build 3 to 4 units on most R-I residential lots. The minimum lot is 350 square metres, and the height limit is 10 metres or 3 storeys. A suite needs a building permit. (City of Campbell River, Zoning FAQs, read November 2026).</p>

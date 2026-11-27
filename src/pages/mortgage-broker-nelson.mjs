@@ -25,7 +25,7 @@ ${ratesStrip()}
 ${costToBuy("Nelson", [["Typical house", 699000], ["Typical strata home", 560000]], "Southern Interior")}
 
 <h2>A small city that keeps growing</h2>
-<p>The 2021 Census counted 11,106 people in Nelson, up from 10,572 in 2016. (My Nelson Now, Nelson population tops 11,000, February 9, 2022, read November 2026). The local Chamber counts about 19,119 in Greater Nelson. (Nelson and District Chamber of Commerce, Welcome to Nelson 2025, read November 2026).</p>
+<p>The 2021 Census counted 11,106 people in Nelson, up from 10,572 in 2016. (My Nelson Now, Nelson population tops 11,000, February 9, 2022, read November 2026). The Chamber puts Greater Nelson at about 19,119 people. (Nelson and District Chamber of Commerce, Welcome to Nelson 2025, read November 2026).</p>
 <p>The City's October 2024 housing needs report estimates Nelson needs about 3,104 new homes over the next 20 years. (City of Nelson, Housing Needs, read November 2026). For a buyer, that means steady demand and a limited supply of homes for sale.</p>
 
 <h2>Remote workers and self-employed buyers</h2>
@@ -49,7 +49,7 @@ ${costToBuy("Nelson", [["Typical house", 699000], ["Typical strata home", 560000
 <p>So if a listing shows strong vacation rental income, don't assume you can keep it. Ask the City before you make an offer. Many lenders won't count short-term rent at all. The <a href="/airbnb-and-short-term-rental-mortgages/">short-term rental guide</a> explains what lenders look for.</p>
 
 <h2>Suites and laneway houses</h2>
-<p>Long-term rentals are a better bet. The City allows secondary suites and laneway houses in most residential zones, with a building permit. A suite must be at least 26 square metres. A laneway house can be 26 to 89 square metres, with height limits that depend on the design. (City of Nelson, Secondary Suites and Laneway Houses, read November 2026).</p>
+<p>Long-term rentals are a better bet. The City allows secondary suites and laneway houses in most residential zones, with a building permit. Suites need at least 26 square metres of floor area. A laneway house can be 26 to 89 square metres, with height limits that depend on the design. (City of Nelson, Secondary Suites and Laneway Houses, read November 2026).</p>
 <p>A legal suite or laneway house can help you qualify, since many lenders count part of the rent. An unpermitted unit usually counts for nothing. The <a href="/how-much-suite-income-will-a-lender-count/">suite income guide</a> shows the two methods. If you plan to build one, the <a href="/construction-and-self-build-mortgages-bc/">construction mortgage page</a> covers draws.</p>
 
 <h2>Moving to Nelson</h2>

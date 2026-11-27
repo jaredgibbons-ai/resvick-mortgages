@@ -48,7 +48,7 @@ ${cta({ title: "Buying a home that needs work?", text: "Book a 15-minute call be
 
 <h2>Cash you still need</h2>
 <p>The program doesn't reduce the closing costs of the purchase itself. Property transfer tax, legal fees, the inspection and adjustments are all still due on completion. The <a href="/closing-costs-bc/">closing costs guide</a> walks through them.</p>
-<p>The down payment is based on the as-improved price. Say you put five percent down on a $740,000 home with $60,000 of planned work. You need five percent of $800,000, or $40,000, not $37,000. And the holdback means you need working capital, or a contractor willing to wait, to carry the renovation.</p>
+<p>Remember that the down payment is figured on the as-improved price. Say you put five percent down on a $740,000 home with $60,000 of planned work. You need five percent of $800,000, or $40,000, not $37,000. And the holdback means you need working capital, or a contractor willing to wait, to carry the renovation.</p>
 <p>The <a href="/mortgage-application-checklist/">application checklist</a> lists the standard documents. The quotes and the appraisal are added to them. If this is your first purchase, the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> covers the programs you can stack alongside it, including the property transfer tax exemption.</p>
 <p>On a mortgage placed with a prime lender under this program, the lender pays the broker and you pay nothing for the service. Fees only come up on B-lender and private files, with written disclosure first. To see whether a specific home and project fit, <a href="/contact/">contact Joshua</a> with the listing and a rough scope of the work.</p>
 

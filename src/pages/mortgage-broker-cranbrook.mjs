@@ -44,7 +44,7 @@ ${costToBuy("Cranbrook", [["Cranbrook house", 517000], ["Cranbrook strata home",
 </ol>
 
 <h2>Suites and small multi-unit housing</h2>
-<p>Cranbrook's Council adopted Zoning Bylaw Amendment No. 4161 on June 10, 2024. Smaller parcels can have 3 units, and larger ones up to 4, in the main residential zones. A parcel can have one secondary suite plus one accessory dwelling unit. (City of Cranbrook, Small-Scale Multi-Unit Housing, June 2024, read November 2026).</p>
+<p>Cranbrook's Council adopted Zoning Bylaw Amendment No. 4161 on June 10, 2024. Smaller parcels can have 3 units, and larger ones up to 4, in the main residential zones. Each parcel can also hold one secondary suite and one accessory dwelling unit. (City of Cranbrook, Small-Scale Multi-Unit Housing, June 2024, read November 2026).</p>
 <p>The City said in 2023 that Cranbrook needs about 1,400 new homes by 2031. (City of Cranbrook news, October 26, 2023, read November 2026). That demand helps a legal suite rent steadily. Many lenders count part of that rent toward your income. The <a href="/how-much-suite-income-will-a-lender-count/">suite income guide</a> shows the two methods.</p>
 
 <h2>Short-term rentals</h2>
