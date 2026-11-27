@@ -16,8 +16,8 @@ ${ratesStrip()}
 <li>Whether the mortgage can move with you to a new home.</li>
 </ul>
 <p>So this page does something a little different. It explains how your rate actually gets set. It compares the main choices of term and type. It shows what to look at besides the rate.</p>
-<p>You'll notice it prints no rate. That's on purpose. A rate in an article goes out of date soon after it's written.</p>
-<p>Joshua Resvick doesn't post rates on this site. The rate that matters is the one your own file qualifies for. That depends on your down payment, credit, property and lender. A 15-minute call gets you real numbers for your situation.</p>
+<p>The box above shows the public benchmarks: the Bank of Canada's rate, prime at the big banks and the stress-test floor. You won't find lender mortgage rates here, and that's on purpose. A posted rate goes out of date within days, and it's rarely the rate your file gets.</p>
+<p>Joshua Resvick doesn't post lender rates on this site. The rate that matters is the one your own file qualifies for. That depends on your down payment, credit, property and lender. A 15-minute call gets you real numbers for your situation.</p>
 
 <h2>Why your rate differs from the posted rate</h2>
 <p>Every lender publishes a posted rate. It works a lot like a list price, and hardly anyone pays it.</p>

@@ -31,6 +31,17 @@ ${cta({ title: "Thinking of renewing before maturity?", text: "Joshua can price 
 <p>A rate hold locks in a renewal rate for a set period. That way, a jump in rates while you shop doesn't hurt you. Holds usually run for about 120 days. They protect you if rates rise. What happens if rates fall during the hold depends on the lender, so ask before you rely on it. Some lenders give you the lower rate, and some do not. The <a href="/mortgage-rate-hold/">rate hold guide</a> covers how holds work and what to ask.</p>
 <p>Holds also solve a practical problem. A broker can approach several lenders, collect offers and let you pick, while a rate hold keeps your option alive. You get time to compare without guessing where rates are headed.</p>
 
+<h2>A renewal timeline you can copy</h2>
+<p>Early renewal is one option. Most people do best by starting early and committing on time. This is the order that keeps the most choice open.</p>
+<ul>
+<li><strong>Six months out:</strong> find your maturity date, your charge type and your prepayment privileges. Decide what you want from the next term.</li>
+<li><strong>About 120 days out:</strong> ask your lender for its offer, have a broker approach other lenders, and get a rate hold.</li>
+<li><strong>Between 120 and 21 days:</strong> compare offers in writing. If you're switching, finish the new application and documents.</li>
+<li><strong>21 days out:</strong> your renewal statement must reach you by now. Check it against what you already know.</li>
+<li><strong>Maturity date:</strong> the option you chose takes effect, so nothing rolls over by accident.</li>
+</ul>
+<p>The <a href="/mortgage-renewal-reminder/">renewal reminder</a> emails you at six months and at 120 days if you'd rather not track the dates yourself.</p>
+
 <h2>A decision framework</h2>
 <p>If you are tempted to renew early, three questions settle most cases.</p>
 <ol>

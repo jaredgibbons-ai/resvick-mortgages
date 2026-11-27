@@ -57,6 +57,7 @@ ${tool}
 </ul>
 <p>The <a href="/mortgage-application-checklist/">mortgage application checklist</a> lists the full set. If the suite hasn't been rented for long, lenders often count less of it. With under about two years of documented rent, many lenders cap the credit at 50 percent. Others use an appraiser's estimate of market rent, minus an allowance for vacancy, instead of your lease.</p>
 <p>Rent paid by a family member is often left out or treated with caution. If you rent to a relative, say so early.</p>
+<p>Two more cases catch buyers out. Nightly or weekly rent from a short-term rental is usually left out, since lenders count long-term tenancies, and BC's rules limit where short-term rentals are allowed at all. And some lenders don't count suite income on certain insured products or on homes outside major centres. That's why the lender choice comes before the math.</p>
 
 <h2>The insured two-unit nuance</h2>
 <p>If CMHC will insure your mortgage, the insurer has its own rental income rules. CMHC's rental income reference sheet (2024) covers owner-occupied homes with two units. For those, it allows an approach that credits up to 100 percent of gross rent.</p>

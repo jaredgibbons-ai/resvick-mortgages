@@ -28,6 +28,7 @@ ${short({ answer: "BC property transfer tax is 1 percent on the first $200,000 a
 <li>Between $835,000 and <strong>$860,000</strong>, the exemption shrinks steadily and reaches zero at $860,000.</li>
 <li>At $860,000 and above, there's no exemption.</li>
 </ul>
+<p>In that phase-out band, the exemption drops by $320 for every $1,000 of value above $835,000. A home at $850,000 gets $3,200 off. Older guides that promise "no tax on the first $500,000" at any price below $835,000 are describing the $8,000 cap, not a bigger break.</p>
 <p>Keep this in mind: a home under $835,000 isn't exempt from the whole tax. A $750,000 home still carries $5,000 in tax after the exemption.</p>
 <p>The Province's rules have more conditions. The property must be 0.5 hectares or smaller and used only as your main home. There are also tests on residency and your ownership history. Whether you qualify depends on those tests. Read the Province's published criteria for first-time buyers before you rely on the result, and ask your lawyer or notary to confirm. These exemption rules took effect on April 1, 2024.</p>
 <p>The first-time buyers' exemption is one of several programs you can combine. The <a href="/first-time-buyer-programs-bc/">first-time buyer programs guide</a> explains how it stacks with the federal programs. The <a href="/first-time-home-buyer-bc/">first-time home buyer hub</a> shows where it fits in the overall sequence.</p>

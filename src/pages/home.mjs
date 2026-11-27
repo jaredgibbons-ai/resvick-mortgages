@@ -5,7 +5,7 @@ const photo = fs.existsSync("src/assets/img/josh-hero.webp")
   ? `<figure class="hero-photo"><img src="/assets/img/josh-hero-720.webp" srcset="/assets/img/josh-hero-720.webp 720w, /assets/img/josh-hero-1080.webp 1080w" sizes="(max-width: 900px) 100vw, (min-width: 1500px) 540px, 43vw" width="720" height="1080" alt="Joshua Resvick, mortgage broker in Surrey, BC" fetchpriority="high"></figure>`
   : "";
 
-const hero = `<div class="hero-copy"><h1>Josh Resvick<span class="sr-only">, </span><span class="h1-sub">Your BC mortgage broker</span></h1>
+const hero = `<div class="hero-copy"><h1>Joshua Resvick<span class="sr-only">, </span><span class="h1-sub">Your BC mortgage broker</span></h1>
 <p class="lede">I compare lenders for you, explain every step in plain English and stay with you after closing. On most mortgages, the lender pays me and you pay nothing.</p>
 ${actionCards()}<p class="hero-phone">Not sure where to start? <a href="/mortgage-check/" data-evt="checkup_click">Take the two-minute quiz</a>, or call <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p></div>${photo}`;
 
@@ -51,7 +51,7 @@ ${reviews({ only: ["J.M.", "R.H."] })}
 export default {
   slug: "/",
   home: true,
-  h1: "Josh Resvick, your BC mortgage broker",
+  h1: "Joshua Resvick, your BC mortgage broker",
   hero,
   nav: "/",
   body,
