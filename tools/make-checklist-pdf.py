@@ -80,7 +80,7 @@ def header(page):
     if page == 1:
         c.setFillColor(NAVY); c.setFont("Helvetica-Bold", 24); c.drawString(M, H - 62, "Mortgage document checklist")
         c.setFillColor(INK); c.setFont("Helvetica", 10.5)
-        intro = simpleSplit("Gather what applies to you before you apply, make an offer or renew. Lenders differ, so Joshua will confirm what your file needs. Tick each box as you go.", "Helvetica", 10.5, W - 2 * M)
+        intro = simpleSplit("Gather what applies to you before you apply, make an offer or renew. Lenders differ, so I'll confirm what your file needs. Tick each box as you go.", "Helvetica", 10.5, W - 2 * M)
         y = H - 82
         for ln in intro:
             c.drawString(M, y, ln); y -= 14
@@ -115,8 +115,8 @@ for title, items in SECTIONS:
 
 # closing note on the last page
 box = [
-    "Please do not email these documents. Joshua sends a secure upload link for anything sensitive.",
-    "Between approval and closing, do not open new credit, change jobs or move large sums without talking to him first.",
+    "Please do not email these documents. I send a secure upload link for anything sensitive.",
+    "Between approval and closing, do not open new credit, change jobs or move large sums without talking to me first.",
     "Want a second pair of eyes on your file? Book a free 15-minute call at cal.com/resvickmortgages/mortgage-advice or call 778.882.5674.",
 ]
 need = 24 + sum(len(simpleSplit(t, "Helvetica", 10.2, W - 2 * M - 24)) * 13 + 4 for t in box)

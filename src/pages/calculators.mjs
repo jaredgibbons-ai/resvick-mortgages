@@ -2,7 +2,6 @@ import { TOOLS } from "../lib/tools.mjs";
 import { cta, callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
-const soon = (id, title, text) => `<section class="tool soon" id="${id}" aria-labelledby="${id}-h"><h3 id="${id}-h">${title}</h3><p class="small">${text}</p><p class="honest"><strong>In development.</strong> This tool is not live yet. I can run the same numbers with you on a <a href="/contact/">call</a>.</p></section>`;
 
 const body = `
 ${short({ answer: "These free calculators work out your payment, what you can borrow, your cash needs and what leaving a mortgage early would cost. Results show right away, and nothing you type leaves your browser.", who: "You're buying, renewing or refinancing in BC. Not sure which tool you need? Try the <a href='/mortgage-check/'>two-minute check</a>.", next: "Pick your situation in the list below and open the tool that fits." })}
@@ -47,7 +46,6 @@ ${TOOLS.offset()}
 ${TOOLS["suite-checker"]().replace("(applications on or after January 15, 2025), CMHC's refinance fact sheet", "(applications on or after January 15, 2025). Also CMHC's refinance fact sheet")}
 ${TOOLS.readvanceable()}
 ${TOOLS["sale-proceeds"]()}
-${soon("mli", "MLI Select calculator", "Estimate qualifying details for CMHC's multi-unit financing program. Published only once the program's tier details are confirmed.")}
 <section class="tool" id="quiz" aria-labelledby="quiz-h"><h3 id="quiz-h">Two-minute mortgage check</h3><p class="small">Not sure which of these tools is yours? Answer a couple of questions and you'll be pointed to the right one. Your own numbers are worked through first, and no email is asked for.</p><p><a class="btn" href="/mortgage-check/">Start the two-minute check</a> <a class="btn btn-ghost" href="/mortgage-check-up/">Already have a mortgage? Run a check-up</a></p><p class="honest">The check routes you to a guide and a tool. The check-up reads your existing mortgage: renewal timing, what the rest of the term costs and what leaving early would cost.</p></section>
 </div>
 <p>Investors can start from the <a href="/investment-property-mortgages-bc/">investment property mortgage guide</a>, and those thinking about equity can start with the <a href="/refinance-mortgage-bc/">refinancing hub</a>.</p>
@@ -73,6 +71,7 @@ ${soon("mli", "MLI Select calculator", "Estimate qualifying details for CMHC's m
 <li><strong>Bring it to a 15-minute call.</strong> I will tell you which line a lender is most likely to question, and what paperwork would answer it.</li>
 </ul>
 <p>Not sure which rate to type? Use the rate on your renewal letter or a written pre-approval if you have one. If you have neither, run the same numbers at a few rates, one point apart, and watch how far the answer moves. That spread tells you more than any single guess. And if you would rather not type numbers at all, the two-minute check above asks plain questions instead.</p>
+<p>Buying a building with five or more units? Those loans run on CMHC's multi-unit programs, such as MLI Select, which score the building on affordability, energy and accessibility. None of the tools here covers them. The <a href="/commercial-mortgages-bc/">commercial mortgage guide</a> explains how they work, and I can walk through a specific building with you.</p>
 
 <h2>One engine behind every tool</h2>
 <p>All of the calculators use the same math core, so a payment in one tool matches the payment in every other. That is on purpose. If one tool used a slightly different formula, the results would disagree. You would not know which to trust.</p>

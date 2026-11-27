@@ -3,7 +3,7 @@ import { cta, callout } from "../lib/site.mjs";
 
 const body = `
 ${short({
-  answer: "Two separate rules can apply to a non-resident buying in BC. Ottawa's federal ban on foreign buyers is set to end on January 1, 2027, and the government has not said what comes next. BC's own foreign buyer tax is 20 percent of the value, and it applies in five regional districts.",
+  answer: "Two separate rules can apply to a non-resident buying in BC. Under current law, Ottawa's ban on foreign buyers ends on January 1, 2027. The November 2026 federal budget proposes keeping it for existing homes until 2029 and exempting new homes, but that isn't law yet. BC's own foreign buyer tax is 20 percent of the value, and it applies in five regional districts.",
   who: "Non-residents and temporary residents thinking of a BC purchase, and Canadians whose partner, relative or investor is not a citizen or permanent resident.",
   next: "Find your city in the list below, then <a href=\"/contact/\">book a call</a> before you write an offer. Your lawyer must confirm your status."
 })}
@@ -20,8 +20,9 @@ ${short({
 <p>The federal Act came into force on January 1, 2023. It bars a "non-Canadian" from buying residential property, directly or indirectly. In the Act, a non-Canadian is a person who is not a Canadian citizen, a registered Indian or a permanent resident. Corporations set up outside Canada, and some Canadian corporations controlled by such people, are included too (Government of Canada, Non-Canadians Act, current to September 30, 2026, read October 2026).</p>
 <p>It covers a house with up to three units, and a single unit in a condo, rowhouse or semi-detached building. A breach can bring a fine of up to $10,000, and a court can order the property sold. (Same Act.)</p>
 <p>The regulations list exceptions. Some are about the deal itself, such as a gift, an inheritance, a divorce settlement or buying land to develop. Others are about the person, such as diplomats and certain refugees. Some work permit holders and international students can also qualify if they meet set conditions. Property outside a census metropolitan area or census agglomeration is excluded too. That can include some rural land (Government of Canada, Non-Canadians Regulations, current to September 30, 2026, read October 2026).</p>
-<p>The ban is set to end on January 1, 2027. As of October 2026, Ottawa had not announced a decision. Finance Minister François-Philippe Champagne told reporters the government is "looking at all the options that we have in front of us." Two options were reported. One is letting the ban lapse. The other is changing it to allow foreign purchases of newly built homes (Canadian Mortgage Trends, Bloomberg report, October 7, 2026, read October 2026).</p>
-${callout("Check before you plan around the end date", "<p>Nobody should assume the ban disappears on January 1, 2027. The government may let it lapse, extend it or rewrite it. I'll tell you what applies on the day you buy, not what might apply later.</p>")}
+<p>Under the current law, the ban ends on January 1, 2027. Budget 2026, released on November 5, 2026, proposes two changes. The ban on existing homes would stay in force until January 1, 2029. Newly built homes would be exempt, so non-Canadians could buy them (Fasken, Budget 2026 bulletin, November 2026, read November 2026).</p>
+<p>Both changes are proposals. They need legislation and regulations before they apply. The budget doesn't define a "new" home or say when the exemption would start, so a presale and a finished, never-occupied unit could be treated differently.</p>
+${callout("Check before you plan around the end date", "<p>Nobody should assume the ban disappears on January 1, 2027. Ottawa has proposed keeping it for existing homes until 2029 and opening up new homes, and the details still have to be written into law. I'll tell you what applies on the day you buy, not what might apply later.</p>")}
 
 <h2>BC's foreign buyer tax: what it costs</h2>
 <p>BC charges an additional property transfer tax of 20 percent of a home's fair market value. If the foreign buyer owns only a share, the tax applies to that share. It applies to foreign nationals, foreign corporations and taxable trustees. It is on top of the regular property transfer tax (Province of BC, Additional property transfer tax, last updated June 20, 2025, read October 2026).</p>
@@ -71,12 +72,12 @@ ${cta({ title: "Not sure which rules apply to you?", text: "Book a 15-minute cal
 export default {
   slug: "/foreign-buyers-bc/",
   h1: "Foreign buyer ban and tax in BC: where it applies and what it costs",
-  lede: "Ottawa's foreign buyer ban is set to end on January 1, 2027, and BC adds a 20 percent tax in five regional districts. Where each rule applies, what it can cost and how financing works.",
+  lede: "Ottawa's foreign buyer ban runs to January 1, 2027, with a proposal to extend it for existing homes to 2029, and BC adds a 20 percent tax in five regional districts. Where each rule applies, what it can cost and how financing works.",
   crumbs: [["Home", "/"], ["Resources", "/resources/"], ["Foreign buyers", "/foreign-buyers-bc/"]],
   nav: "/first-time-home-buyer-bc/",
   body,
   faqs: [
-    { q: "Is there a foreign buyer ban in Canada right now?", a: "Yes. The federal ban has been in force since January 1, 2023 and is set to end on January 1, 2027. As of October 2026 Ottawa had not announced whether it will lapse, be extended or be changed. Your lawyer should confirm what applies on your purchase date." },
+    { q: "Is there a foreign buyer ban in Canada right now?", a: "Yes. The federal ban has been in force since January 1, 2023. Under current law it ends on January 1, 2027. Budget 2026 proposes extending it to January 1, 2029 for existing homes and exempting new homes, but that needs legislation first. Your lawyer should confirm what applies on your purchase date." },
     { q: "How much is BC's foreign buyer tax?", a: "The Province lists the additional property transfer tax at 20 percent of the fair market value, or the foreign buyer's share. On a $1,000,000 home that is $200,000, on top of the regular transfer tax. It applies in five regional districts, not the whole province." },
     { q: "Does the BC foreign buyer tax apply in Kelowna, Victoria or Nanaimo?", a: "Yes. Kelowna and West Kelowna are in the Central Okanagan, Victoria, Langford and Saanich are in the Capital Regional District, and Nanaimo is in the Regional District of Nanaimo. All three regional districts are on the Province's list, along with Metro Vancouver and the Fraser Valley." },
     { q: "Is the foreign buyer tax charged in Kamloops, Vernon or Prince George?", a: "Those cities are not in the five regional districts the Province lists, so the additional tax is not on its list for them. The federal ban can still apply if the property is in a census area. Ask your lawyer to check the exact address." },
