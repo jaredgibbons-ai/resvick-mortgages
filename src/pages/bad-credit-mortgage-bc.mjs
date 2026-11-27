@@ -10,7 +10,7 @@ ${short({ answer: "Yes, you can get a mortgage in BC with bad credit. It changes
 <p>Credit scores in Canada run from 300 to 900. Lenders group them into bands. Where the lines sit varies by lender and by product. The exact cut-offs aren't published in a way that can be quoted reliably. So this page describes the bands in general terms. It only names thresholds that come from an official source.</p>
 <p>What matters more than the number is the story behind it. What happened? When? Is it over? What have you done since?</p>
 
-<h2>What each range tends to unlock</h2>
+<h2>What each credit range can usually get you</h2>
 <p>Treat this as a map, not a rulebook. Lenders change their thresholds. Two lenders in the same tier can disagree about the same file.</p>
 <ul>
 <li><strong>Strong credit.</strong> The full A-lender market is open to you. That includes insured mortgages with as little as 5 percent down, at the best pricing. Credit isn't what limits you. Income and ratios are.</li>
