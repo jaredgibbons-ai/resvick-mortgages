@@ -57,9 +57,9 @@ ${ratesStrip()}
 <p>Since late 2024, a straight switch to a new lender at maturity usually doesn't need a new stress test. The balance and amortization can't go up. That opened up the market for uninsured renewals in a way it hadn't been for years. So compare your current lender's renewal letter before you sign it.</p>
 <p>The <a href="/mortgage-renewal-rates-bc/">renewal rates page</a> explains how renewal pricing is set and what a switch usually involves.</p>
 
-${callout("Why no rate is printed here", `<p>A rate on a page goes out of date within days. A rate that ignores your down payment, credit, home type, amortization and purpose isn't your rate. Joshua confirms pricing with lenders on the day you ask. A call gets you the number that applies to you.</p>`)}
+${callout("Why no rate is printed here", `<p>A rate on a page goes out of date within days. A rate that ignores your down payment, credit, home type, amortization and purpose isn't your rate. I confirm pricing with lenders on the day you ask. A call gets you the number that applies to you.</p>`)}
 
-${cta({ title: "Want the real Vancouver rate for your file?", text: "Book a 15-minute call. Joshua will tell you which pricing category your purchase or renewal falls into, and what your real options are." })}
+${cta({ title: "Want the real Vancouver rate for your file?", text: "Book a 15-minute call. I'll tell you which pricing category your purchase or renewal falls into, and what your real options are." })}
 <p>Questions that don't fit a call are welcome through the <a href="/contact/">contact page</a>.</p>
 `;
 

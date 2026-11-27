@@ -10,7 +10,7 @@ ${short({
 <h2>Standard charge or collateral charge: how the mortgage is registered</h2>
 <p>When you take out a mortgage, the lender registers a claim against your property at the land title office. In British Columbia that claim is called a charge. How the charge is written affects what happens later. It's one of the least discussed details of a mortgage, because most borrowers never see it until they try to move the mortgage.</p>
 <p>With a <strong>standard charge</strong>, the claim is registered for the amount you borrowed. It secures that specific mortgage, on its stated terms. With a <strong>collateral charge</strong>, the claim is registered as security for a separate promise to repay. It's often registered for more than the mortgage you took. The registration is the security, and the loan agreement sits behind it. Some larger lenders register their mortgages as collateral charges by default. Others offer both types.</p>
-<p>Neither is unlawful or harmful in itself. The question is whether you know which one you have, because a collateral charge can make switching lenders at renewal slower and more costly. This page explains why lenders use them and what changes at renewal. It also shows how to check your own mortgage and when a collateral charge is useful. Joshua Resvick raises it early in every renewal conversation, because it changes the cost of the best-priced option.</p>
+<p>Neither is unlawful or harmful in itself. The question is whether you know which one you have, because a collateral charge can make switching lenders at renewal slower and more costly. This page explains why lenders use them and what changes at renewal. It also shows how to check your own mortgage and when a collateral charge is useful. I raise it early in every renewal conversation, because it changes the cost of the best-priced option.</p>
 
 <h2>Why lenders use collateral charges</h2>
 <p>The main reason is flexibility. Say a charge is registered for more than the current loan. The lender can then lend you more money later, up to the registered amount, without registering a new charge. That's how readvanceable mortgages work. As you pay down the principal, credit room reopens in a line of credit attached to the same charge. You can borrow against it again without going back to the title office. The <a href="/readvanceable-mortgage/">readvanceable mortgage</a> page explains how those products operate.</p>
@@ -48,10 +48,10 @@ ${callout("Do not assume the worst", "<p>A collateral charge is not a reason to 
 </ul>
 <p>For borrowers without such a plan, the flexibility has no value, and the cost of leaving is paid for nothing. That's the central point. The charge type should match your plans.</p>
 
-<h2>How Joshua handles it</h2>
-<p>Joshua Resvick checks the charge type when he looks at a renewal. He compares lenders through Xeva Mortgage, and he asks each one how they register their mortgages and what switching would cost. The answers appear in your written <a href="/lender-comparison-report/">Lender Comparison Report</a>, next to the rate and the penalty. A lower rate with a harder exit is visible as such. On a mortgage placed with a mainstream (A) lender, the lender pays the broker and you pay nothing for the service. The overall renewal process is in the <a href="/mortgage-renewal-bc/">mortgage renewal guide</a>.</p>
+<h2>How I handle it</h2>
+<p>I check the charge type when I look at a renewal. I compare lenders through Xeva Mortgage, and I ask each one how they register their mortgages and what switching would cost. The answers appear in your written <a href="/lender-comparison-report/">Lender Comparison Report</a>, next to the rate and the penalty. A lower rate with a harder exit is visible as such. On a mortgage placed with a mainstream (A) lender, the lender pays the broker and you pay nothing for the service. The overall renewal process is in the <a href="/mortgage-renewal-bc/">mortgage renewal guide</a>.</p>
 
-${cta({ title: "Find out which charge you have", text: "Send Joshua your mortgage documents or renewal letter and he will tell you how the mortgage is registered and what leaving would involve.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "Find out which charge you have", text: "Send me your mortgage documents or renewal letter and I'll tell you how the mortgage is registered and what leaving would involve.", href: "/contact/", label: "Contact me" })}
 `;
 
 export default {

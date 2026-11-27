@@ -43,7 +43,7 @@ ${tool}
 <li><strong>Commercial and private lenders.</strong> Bigger portfolios, multi-unit buildings and unusual properties go to commercial underwriting. There, the building's net operating income drives the decision.</li>
 </ul>
 <p>Each lender sets its own door limits, and they change over time. So none are printed here as fixed numbers.</p>
-<p>The practical point is planning ahead. Know which lender takes your fifth and sixth property before you buy the fourth. The lender you pick early can decide how much room you have later. Joshua maps that out in a <a href="/lender-comparison-report/">Lender Comparison Report</a> for each purchase.</p>
+<p>The practical point is planning ahead. Know which lender takes your fifth and sixth property before you buy the fourth. The lender you pick early can decide how much room you have later. I map that out in a <a href="/lender-comparison-report/">Lender Comparison Report</a> for each purchase.</p>
 
 <h2>The strategy map</h2>
 <p>Investors talk about several named strategies. Each one has a page explaining how it works in Canada. Most of what's online is written for the US, and it often falls apart under Canadian lending rules.</p>
@@ -86,7 +86,7 @@ ${callout("Multi-unit financing and MLI Select", "<p>CMHC's MLI Select program i
 <p>On a rental mortgage with an A lender, the lender pays the broker. You pay nothing for the service, just like with a home you live in.</p>
 <p>When a file goes to a B lender or a private lender, lender fees are normal, and a broker fee may apply. In BC, both are disclosed in writing on BCFSA's Form 1A before you commit. So there's never a fee you haven't seen. The page on <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> explains it in full.</p>
 <p>Rental files move to alternative lenders more often than owner-occupied ones. That's why the comparison report shows the total cost of each option, fees included, not just the rate.</p>
-<p>Have a property in mind, or a portfolio you want to grow? <a href="/contact/">Contact Joshua</a> and bring the numbers you have. The first conversation is about whether the plan works, not about selling you a mortgage.</p>
+<p>Have a property in mind, or a portfolio you want to grow? <a href="/contact/">Contact me</a> and bring the numbers you have. The first conversation is about whether the plan works, not about selling you a mortgage.</p>
 `;
 
 export default {

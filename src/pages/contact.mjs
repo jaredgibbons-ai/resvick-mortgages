@@ -46,7 +46,7 @@ ${short({ answer: "Book a free 15-minute call, phone 778.882.5674, or send a not
 
 <h2>Phone, email and office</h2>
 <div class="contact-grid">
-<div><strong>Phone</strong><a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a><br>Best for anything time-sensitive.<br>Or <a href="${SITE.smsHref}" data-evt="text_click">text Josh</a>.</div>
+<div><strong>Phone</strong><a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a><br>Best for anything time-sensitive.<br>Or <a href="${SITE.smsHref}" data-evt="text_click">text me</a>.</div>
 <div><strong>Email</strong><a href="mailto:${SITE.email}">${SITE.email}</a><br>Best for questions that are not urgent.</div>
 <div><strong>Office</strong>#106, 2626 Croydon Drive<br>Surrey, BC V3Z 0S8<br>Xeva Mortgage head office</div>
 </div>
@@ -99,8 +99,8 @@ export default {
   h1: "Contact a mortgage broker in Surrey, BC",
   hero, crumb: "Contact", nav: "/contact/", forms: true, body,
   faqs: [
-    { q: "How quickly will Joshua reply?", a: "I read and answer messages myself, so the reply comes from the person who'll work on your file. For anything with a deadline, like a closing date or a lender cutoff, phone " + SITE.phone + " rather than waiting on email. Mention the deadline in your message and I'll bump it up the list." },
-    { q: "Can I speak with Joshua in the evening?", a: "The booking calendar shows the times I've got open, and it's the most reliable guide. If none of them suit your schedule, send an email or a message with a couple of times that work for you, and I'll reply with what's possible." },
+    { q: "How quickly will you reply?", a: "I read and answer messages myself, so the reply comes from the person who'll work on your file. For anything with a deadline, like a closing date or a lender cutoff, phone " + SITE.phone + " rather than waiting on email. Mention the deadline in your message and I'll bump it up the list." },
+    { q: "Can I speak with you in the evening?", a: "The booking calendar shows the times I've got open, and it's the most reliable guide. If none of them suit your schedule, send an email or a message with a couple of times that work for you, and I'll reply with what's possible." },
     { q: "Is the call really without obligation?", a: "Yes, really. The 15-minute call is for understanding your situation and explaining your options. You're not asked to commit to anything, and on mainstream (A-lender) mortgages the lender pays the broker, so you pay nothing for the service. See <a href=\"/how-mortgage-brokers-get-paid/\">how brokers get paid</a>." },
     { q: "Do I need documents before I book?", a: "No. Bring your questions and a rough idea of your income, debts, savings and timeline. Documents come later, once you decide to go ahead, and I'll tell you exactly which ones you need and send a secure upload link so you can share them safely." }
   ]

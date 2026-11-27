@@ -2,7 +2,7 @@ import { cta, callout, ratesStrip } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
-${short({ answer: "A 3-year fixed gives you a set payment for three years, then a fresh choice. You trade some rate certainty for flexibility and a smaller exit penalty.", who: "People with a plan on a date: a likely move, a refinance or a suite build in the next few years.", next: "Price it against the 5-year in the <a href=\"/mortgage-calculators/#compare\">scenario tool</a>, then <a href=\"/contact/\">ask Joshua</a> for real numbers." })}
+${short({ answer: "A 3-year fixed gives you a set payment for three years, then a fresh choice. You trade some rate certainty for flexibility and a smaller exit penalty.", who: "People with a plan on a date: a likely move, a refinance or a suite build in the next few years.", next: "Price it against the 5-year in the <a href=\"/mortgage-calculators/#compare\">scenario tool</a>, then <a href=\"/contact/\">ask me</a> for real numbers." })}
 
 <h2>The case for a shorter term</h2>
 <p>A 3-year fixed is the quiet option in the rate table. It gets less advertising than the five-year term. Fewer people choose it. Yet it solves a real problem. Life tends to change faster than a five-year commitment assumes.</p>
@@ -58,9 +58,9 @@ ${callout("Shorter isn't safer", "<p>A 3-year term cuts the time you're tied to 
 
 <h2>Where it sits among the other choices</h2>
 <p>The term is one part of a bigger choice about how to set up your mortgage. The page on <a href="/fixed-vs-variable-mortgage/">fixed versus variable</a> lays out the trade-offs between the two types. The <a href="/5-year-fixed-mortgage-rate/">5-year fixed</a> page covers the classic term in the same detail. The overview at <a href="/mortgage-rates-bc/">mortgage rates in BC</a> brings all the terms together.</p>
-<p>Joshua Resvick compares terms across a wide range of lenders. He gives you the results in writing, covering rate, penalty, prepayment and portability. On a mortgage with a mainstream (A) lender, the lender pays the broker. You pay nothing for the service. Fees come up only on some B-lender and private files, with written disclosure first.</p>
+<p>I compare terms across a wide range of lenders. I give you the results in writing, covering rate, penalty, prepayment and portability. On a mortgage with a mainstream (A) lender, the lender pays the broker. You pay nothing for the service. Fees come up only on some B-lender and private files, with written disclosure first.</p>
 
-${cta({ title: "Not sure three years is the right fit?", text: "Tell Joshua what you expect to happen in the next three to five years and he'll price the terms against it.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "Not sure three years is the right fit?", text: "Tell me what you expect to happen in the next three to five years and I'll price the terms against it.", href: "/contact/", label: "Contact me" })}
 `;
 
 export default {

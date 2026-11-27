@@ -56,7 +56,7 @@ ${short({
 
 <p>Wondering whether a line of credit fits your situation? Take the two-minute <a href="/equity-check/">equity check</a>.</p>
 <p>Comparing every way to borrow against your home? The <a href="/home-equity-loan-bc/">home equity loan comparison</a> puts a HELOC, a refinance, a second mortgage and a reverse mortgage side by side.</p>
-${cta({ title: "Estimate your room, then talk it through", text: "Run the equity estimator, then book a 15-minute call. Joshua will check the number against lender limits, your income and your mortgage. Then he'll tell you if a line, a refinance or neither is the right move." })}
+${cta({ title: "Estimate your room, then talk it through", text: "Run the equity estimator, then book a 15-minute call. I'll check the number against lender limits, your income and your mortgage. Then I'll tell you if a line, a refinance or neither is the right move." })}
 
 <h2>The risks, in plain language</h2>
 <ul>
@@ -70,7 +70,7 @@ ${cta({ title: "Estimate your room, then talk it through", text: "Run the equity
 
 <h2>What it costs you to arrange one</h2>
 <p>On a line placed with a prime lender, the lender pays the broker. You pay nothing for the arrangement. Broker fees come up only on some B-lender and private files. When they do, BC rules require written disclosure on a Form 1A before you commit.</p>
-<p>Appraisal, registration and discharge costs come from the lender's fee schedule, not the broker's, and they vary by lender. If a HELOC is part of a bigger plan, Joshua can show you the full cost of each route side by side. Or <a href="/contact/">contact him</a> with a question first.</p>
+<p>Appraisal, registration and discharge costs come from the lender's fee schedule, not the broker's, and they vary by lender. If a HELOC is part of a bigger plan, I can show you the full cost of each route side by side. Or <a href="/contact/">contact me</a> with a question first.</p>
 
 ${callout("A reserve is not a budget", "<p>The best use of a HELOC is often as a reserve you rarely touch. It's there for a real need, drawn and repaid on a schedule you set. The worst use is topping up monthly spending. Decide which one yours is before the lender hands you the limit.</p>")}
 `;

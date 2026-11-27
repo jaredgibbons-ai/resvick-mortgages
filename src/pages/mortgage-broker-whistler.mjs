@@ -8,12 +8,12 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-whi
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Whistler buyers by phone and video from his Surrey office. A Whistler home may be a nightly-rental condo, a rental-pool unit or an employee-restricted home. Each one is financed in its own way.",
+  answer: "I serve Whistler buyers by phone and video from my Surrey office. A Whistler home may be a nightly-rental condo, a rental-pool unit or an employee-restricted home. Each one is financed in its own way.",
   who: "Whistler buyers, resort workers, second-home owners and anyone looking at a Whistler Housing Authority home.",
-  next: "Book a 15-minute call and tell Joshua the building, the zoning and how you are paid."
+  next: "Book a 15-minute call and tell me the building, the zoning and how you are paid."
 })}
 <p>Whistler is one municipality, but it is not one housing market. Two condos a short walk apart can follow different rules. One lets the owner rent by the night. Another keeps the owner out for most of the year. A third can only be bought by someone who works in town. A lender wants to know which one you are buying before it looks at much else.</p>
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He serves Whistler clients online and by phone from his office in Surrey. There is no Whistler branch. You can <a href="/contact/">book a 15-minute call</a> to start.</p>
+<p>I'm Joshua Resvick, a licensed mortgage broker with Xeva Mortgage. I serve Whistler clients online and by phone from my office in Surrey. There is no Whistler branch. You can <a href="/contact/">book a 15-minute call</a> to start.</p>
 
 ${ratesStrip()}
 
@@ -38,7 +38,7 @@ ${censusTable("whistler")}
 <li><strong>Two or three jobs.</strong> Having more than one job does not rule you out. Each job a lender counts usually needs its own history.</li>
 <li><strong>Business owners.</strong> Guides, rental managers and trades are common here. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains how lenders read that income.</li>
 </ul>
-<p>Joshua spent five years as an underwriter, so he knows what a lender wants to see from a seasonal file. He lines up the paperwork before you apply. A new job can matter too, and the <a href="/guides/mortgage-with-a-new-job-or-probation/">guide on new jobs and probation</a> covers it. The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> shows why to start early.</p>
+<p>I spent five years as an underwriter, so I know what a lender wants to see from a seasonal file. I line up the paperwork before you apply. A new job can matter too, and the <a href="/guides/mortgage-with-a-new-job-or-probation/">guide on new jobs and probation</a> covers it. The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> shows why to start early.</p>
 
 <h2>Phase 1, Phase 2 and the lender list</h2>
 <p>Phase 1 and Phase 2 are labels for rental covenants registered on title. As commonly described, Phase 1 allows unlimited owner use. Phase 2 caps owner use at 56 days a year, split into 28 in winter and 28 in summer. The unit must be open for nightly rental the rest of the time (Whistler Real Estate For Sale, Phase I or Phase II Units, read October 2026). Terms can differ by building, so the covenant on title is the final word.</p>
@@ -66,7 +66,7 @@ ${censusTable("whistler")}
 <li>The lender pool is often narrower than for an unrestricted condo.</li>
 <li>Your job is part of the file, because eligibility rests on working in Whistler.</li>
 </ul>
-<p>The WHA decides who is eligible. Joshua helps with the financing side. He checks the covenant and your documents with a lender before you remove conditions. If you are early in the process, the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> shows the programs that can help with a down payment.</p>
+<p>The WHA decides who is eligible. I help with the financing side. I check the covenant and your documents with a lender before you remove conditions. If you are early in the process, the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> shows the programs that can help with a down payment.</p>
 
 <h2>Suites and employee housing under the bylaw</h2>
 <p>Whistler adopted new zoning on June 11, 2024, to match the province's small-scale multi-unit housing law. The bylaw is the Zoning Amendment Bylaw (Small-Scale Multi-Unit Housing) No. 2440, 2024. It allows an auxiliary unit on all parcels. That can be a secondary suite, carriage house, lane or garage house, or garden suite (RMOW, Provincial Housing Legislation Changes, updated October 31, 2025, read October 2026).</p>
@@ -76,7 +76,7 @@ ${censusTable("whistler")}
 <h2>Rules that do not apply in Whistler</h2>
 <p>Buyers from outside Canada sometimes ask what is different here. Three rules often come up. Each one has a regional exception, so check the address.</p>
 <ul>
-<li><strong>The federal ban.</strong> The Prohibition on the Purchase of Residential Property by Non-Canadians covers property inside a census metropolitan area or census agglomeration. Property outside both is not covered (Prohibition on the Purchase of Residential Property by Non-Canadians Regulations, section 3(1), Justice Laws, read October 2026). Whistler sits outside both (BC Real Estate Association, foreign buyer ban article, January 19, 2026, read October 2026). CMHC offers an address lookup. The ban is currently set to end on January 1, 2027 (CMHC, Prohibition Act page, read October 2026).</li>
+<li><strong>The federal ban.</strong> The Prohibition on the Purchase of Residential Property by Non-Canadians covers property inside a census metropolitan area or census agglomeration. Property outside both is not covered (Prohibition on the Purchase of Residential Property by Non-Canadians Regulations, section 3(1), Justice Laws, read October 2026). Whistler sits outside both (BC Real Estate Association, foreign buyer ban article, January 19, 2026, read October 2026). CMHC offers an address lookup. Under current law the ban ends on January 1, 2027 (CMHC, Prohibition Act page, read October 2026). The November 2026 federal budget proposes extending it to 2029 for existing homes and exempting new homes, which still needs legislation.</li>
 <li><strong>The additional property transfer tax.</strong> The province lists five areas where it applies. Whistler is not among them (Province of British Columbia, B.C. areas for the additional property transfer tax, updated June 20, 2025, read October 2026).</li>
 <li><strong>The speculation and vacancy tax.</strong> Whistler is not on the province's list of taxable areas (Province of British Columbia, taxable areas, updated December 8, 2025, read October 2026).</li>
 </ul>
@@ -89,17 +89,17 @@ ${censusTable("whistler")}
 
 <h2>Neighbourhood names buyers search</h2>
 <p>Listings use many local names. The most common are Whistler Village, Upper Village, Creekside, Blackcomb Benchlands, Alpine Meadows, Emerald Estates, Whistler Cay Heights, Bayshores, Nesters, Nordic and Rainbow. You will also see Cheakamus Crossing, Function Junction, Spring Creek, Spruce Grove, Taluswood, Stonebridge, Nicklaus North and Kadenwood.</p>
-<p>Names overlap. Benchlands and Blackcomb Benchlands mean the same area. Creekside is also written Whistler Creek. Zoning and covenants can change from one street to the next, so Joshua starts with the street address.</p>
+<p>Names overlap. Benchlands and Blackcomb Benchlands mean the same area. Creekside is also written Whistler Creek. Zoning and covenants can change from one street to the next, so I start with the street address.</p>
 
-<h2>What Joshua does for Whistler clients</h2>
+<h2>What I do for Whistler clients</h2>
 <ol>
 <li><strong>Sorts the property first.</strong> Phase 1, Phase 2, WHA or ordinary home. That choice shapes the lender list.</li>
 <li><strong>Matches your pay to a lender.</strong> Seasonal, tip, commission and multi-job income each suit certain lenders.</li>
 <li><strong>Writes out the options.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> puts rate, term, penalty method and flexibility side by side.</li>
-<li><strong>Stays in touch.</strong> Through <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage every year and calls before it matures.</li>
+<li><strong>Stays in touch.</strong> Through <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage every year and call before it matures.</li>
 </ol>
 
-${callout("Who pays for what", "<p>When a Whistler file suits an A lender, that lender pays Joshua and his help costs you nothing. Some Phase 2 or contract-income files need a B or private lender. In that case BC rules require any fee to you to appear in writing on BCFSA Form 1A before you agree to it.</p>")}
+${callout("Who pays for what", "<p>When a Whistler file suits an A lender, that lender pays me and my help costs you nothing. Some Phase 2 or contract-income files need a B or private lender. In that case BC rules require any fee to you to appear in writing on BCFSA Form 1A before you agree to it.</p>")}
 
 <h2>Buying, renewing and refinancing</h2>
 <p>Renewals deserve early planning, especially if you own a second property. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out a timeline. You can test your numbers with the <a href="/mortgage-calculators/">mortgage calculators</a>. To see how a rate is set, read the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
@@ -108,7 +108,7 @@ ${callout("Who pays for what", "<p>When a Whistler file suits an A lender, that 
 <p>If you also look at the North Shore, the <a href="/mortgage-broker-north-vancouver/">North Vancouver page</a> covers that market. The <a href="/mortgage-broker-squamish/">Squamish page</a> covers the town on the way up the highway.</p>
 
 <h2>Who writes this</h2>
-<p>This page is a Resvick Mortgages guide for Whistler. Joshua Resvick, a licensed BC broker with Xeva Mortgage, stands behind it. He spent five years as an underwriter before he became a broker, and he has funded over 1,000 mortgages. Each Whistler fact above names its source and was read in October 2026. Lender practice varies, so he confirms it on your file. This page is general information, not legal advice.</p>
+<p>This page is a Resvick Mortgages guide for Whistler. I'm Joshua Resvick, a licensed BC broker with Xeva Mortgage, and I stand behind it. I spent five years as an underwriter before I became a broker, and I have funded over 1,000 mortgages. Each Whistler fact above names its source and was read in October 2026. Lender practice varies, so I confirm it on your file. This page is general information, not legal advice.</p>
 
 
 <p>For another resort market in the Interior, see <a href="/mortgage-broker-revelstoke/">Revelstoke</a>, where some homes carry resale price caps.</p>
@@ -116,21 +116,21 @@ ${callout("Who pays for what", "<p>When a Whistler file suits an A lender, that 
 ${cityFacts("whistler")}
 ${nearbyCallout("whistler", callout)}
 
-${cta({ title: "Talk to a broker who serves Whistler", text: "Book a 15-minute call. Tell Joshua the building, the zoning and how you earn. You will leave knowing how a lender may read the file and what to gather first." })}
+${cta({ title: "Talk to a broker who serves Whistler", text: "Book a 15-minute call. Tell me the building, the zoning and how you earn. You will leave knowing how a lender may read the file and what to gather first." })}
 `;
 
 export default {
   slug: "/mortgage-broker-whistler/",
   h1: "Mortgage broker serving Whistler, BC",
-  lede: "Joshua Resvick, Xeva Mortgage, serves Whistler from his Surrey office by phone and video. Seasonal pay, Phase 1 and Phase 2 condos and Whistler Housing Authority homes, read the way an underwriter reads them.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I serve Whistler from my Surrey office by phone and video. Seasonal pay, Phase 1 and Phase 2 condos and Whistler Housing Authority homes, read the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Whistler", "/mortgage-broker-whistler/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "What is the difference between a Phase 1 and a Phase 2 home in Whistler?", a: "Both are rental covenants on title. Phase 1 usually allows unlimited owner use and nightly rental. Phase 2 caps owner stays and keeps the unit available for nightly rental otherwise. Fewer lenders finance Phase 2, and many want more down. Joshua reads the covenant first and then looks for a lender that accepts it." },
+    { q: "What is the difference between a Phase 1 and a Phase 2 home in Whistler?", a: "Both are rental covenants on title. Phase 1 usually allows unlimited owner use and nightly rental. Phase 2 caps owner stays and keeps the unit available for nightly rental otherwise. Fewer lenders finance Phase 2, and many want more down. I read the covenant first and then look for a lender that accepts it." },
     { q: "Can I rent out my home by the night if it is in Alpine Meadows or Whistler Cay?", a: "Probably not. The Resort Municipality says residential-zoned properties cannot offer tourist accommodation for any length of time. Nightly rental needs the right zoning and a business licence. Check the zoning and any covenant with the municipality before you count on that income. Lenders are careful with it anyway." },
-    { q: "How will a lender read my seasonal or hospitality income?", a: "Lenders vary. Many look for about two years in the same kind of seasonal role. Tips and commission are often averaged over two years and may need to show on your tax documents. More than one job can count if each has history. Joshua matches the file to a lender before you apply." },
+    { q: "How will a lender read my seasonal or hospitality income?", a: "Lenders vary. Many look for about two years in the same kind of seasonal role. Tips and commission are often averaged over two years and may need to show on your tax documents. More than one job can count if each has history. I match the file to a lender before you apply." },
     { q: "What is a WHA home, and what is the catch when I sell?", a: "A Whistler Housing Authority home has a covenant on title. You must live there as your primary residence and work for a qualified Whistler business. The covenant also caps the resale price using a Core Consumer Price Index formula. The cap is the trade-off for a lower price and a narrower lender list." },
     { q: "Can I buy in Whistler if I am not Canadian?", a: "Often yes, with limits. Whistler sits outside the federal ban's census areas, and it is not on the lists for BC's additional property transfer tax or the speculation and vacancy tax. Lenders still set their own rules for non-residents, so expect a larger down payment. Confirm your address and your file with a lawyer." }
   ]

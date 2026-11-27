@@ -7,10 +7,10 @@ import { cityFacts } from "../lib/city-facts.mjs";
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-prince-george/#service", url: SITE.origin + "/mortgage-broker-prince-george/", areaServed: [{ "@type": "City", name: "Prince George", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Northern British Columbia" }] };
 
 const body = `
-${short({ answer: "You don't need a local office to get a mortgage in Prince George. Joshua serves the North from his Surrey office by phone and video, and he's used to shift, camp and seasonal income.", who: "Prince George buyers, renewers and anyone with resource, rotation or contract pay.", next: "Book a 15-minute call, or start with the <a href=\"/self-employed-mortgage-bc/\">self-employed mortgage hub</a> if you work for yourself." })}
+${short({ answer: "You don't need a local office to get a mortgage in Prince George. I serve the North from my Surrey office by phone and video, and I'm used to shift, camp and seasonal income.", who: "Prince George buyers, renewers and anyone with resource, rotation or contract pay.", next: "Book a 15-minute call, or start with the <a href=\"/self-employed-mortgage-bc/\">self-employed mortgage hub</a> if you work for yourself." })}
 <p>Prince George is the service centre of northern BC. It has a university, a college and a regional hospital. It has government offices, forestry and manufacturing, and a rail and highway hub. Plenty of smaller towns look to it for services.</p>
-<p>Mortgage brokering doesn't depend on where the broker sits. Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He serves Prince George and the North from his Surrey office. He works by phone, video and secure document upload.</p>
-<p>He has no branch in the city. What he does have is a process built for distance. He has funded over 1,000 mortgages with it. Before that, he spent five years as a mortgage underwriter.</p>
+<p>Mortgage brokering doesn't depend on where the broker sits. I'm Joshua Resvick, a licensed mortgage broker with Xeva Mortgage. I serve Prince George and the North from my Surrey office. I work by phone, video and secure document upload.</p>
+<p>I have no branch in the city. What I do have is a process built for distance. I have funded over 1,000 mortgages with it. Before that, I spent five years as a mortgage underwriter.</p>
 
 ${ratesStrip()}
 
@@ -19,7 +19,7 @@ ${ratesStrip()}
 <p>Top employers include Northern Health and the University of Northern British Columbia. The College of New Caledonia, the school district and both levels of government are also on the list.</p>
 <p>That mix means different paycheques. On one side are steady salaries. On the other is pay that's variable, seasonal or on a rotation. Often both sit in the same household.</p>
 <p>Lenders are fine with both. But they document each one differently. Picture a Northern Health salary next to a partner's contract forestry income. Or a camp rotation. That file needs to be put together with care.</p>
-<p>Joshua reads your file the way an underwriter would, before it goes to a lender. He checks which income counts at face value and which gets averaged over two years. He checks which allowances each lender will accept. Then he finds the lender whose rules fit the whole picture.</p>
+<p>I read your file the way an underwriter would, before it goes to a lender. I check which income counts at face value and which gets averaged over two years. I check which allowances each lender will accept. Then I find the lender whose rules fit the whole picture.</p>
 <p>That's the difference between two kinds of approval. One has conditions you can meet. The other stalls a week before completion.</p>
 
 <h2>Incomes in Prince George</h2>
@@ -52,17 +52,17 @@ ${callout("What a broker costs in Prince George", "<p>The same as anywhere in BC
 
 <h2>How the process works at a distance</h2>
 <ol>
-<li><strong>A 15-minute call</strong> by phone or video, at a time that suits your shift. Joshua asks how you're paid, what you're buying or renewing, and when. Then he tells you what's realistic.</li>
-<li><strong>Documents by secure link</strong>, never by email. Joshua reviews them the way an underwriter would. He finds the lenders whose rules fit.</li>
+<li><strong>A 15-minute call</strong> by phone or video, at a time that suits your shift. I ask how you're paid, what you're buying or renewing, and when. Then I tell you what's realistic.</li>
+<li><strong>Documents by secure link</strong>, never by email. I review them the way an underwriter would. I find the lenders whose rules fit.</li>
 <li><strong>A written Lender Comparison Report.</strong> It sets rate, term, penalty method, prepayment privileges and portability side by side. The <a href="/lender-comparison-report/">report page</a> explains it. Portability matters if work might move you.</li>
-<li><strong>Approval, appraisal and signing.</strong> A local appraiser does the appraisal. You sign with a Prince George lawyer or notary of your choice. You get updates at every step. Your realtor and lawyer hear from Joshua directly.</li>
+<li><strong>Approval, appraisal and signing.</strong> A local appraiser does the appraisal. You sign with a Prince George lawyer or notary of your choice. You get updates at every step. Your realtor and lawyer hear from me directly.</li>
 <li><strong>Aftercare.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> means a yearly review and a call about six months before your term ends. That way your renewal gets compared, not signed by default.</li>
 </ol>
 
 <h2>Nearby</h2>
-<p>Joshua serves the Interior the same way. The <a href="/mortgage-broker-kamloops/">Kamloops page</a> covers rail, trades and contract income in the Thompson region. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the Okanagan, including recreational and acreage property. Current rates and how your rate gets set are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
+<p>I serve the Interior the same way. The <a href="/mortgage-broker-kamloops/">Kamloops page</a> covers rail, trades and contract income in the Thompson region. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the Okanagan, including recreational and acreage property. Current rates and how your rate gets set are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
-<p>If you own a business in Prince George and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+<p>If you own a business in Prince George and want to buy its premises, I also arrange <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
 
 
 <p>Buyers who work in the Peace often compare notes with Prince George. See our <a href="/mortgage-broker-fort-st-john/">Fort St. John page</a> for energy pay, manufactured homes and acreage in that region.</p>
@@ -70,7 +70,7 @@ ${callout("What a broker costs in Prince George", "<p>The same as anywhere in BC
 ${cityFacts("prince-george")}
 ${nearbyCallout("prince-george", callout)}
 
-${cta({ title: "Talk to a broker who serves Prince George", text: "Book a 15-minute call. Tell Joshua how you're paid and what you're looking at. You'll leave knowing how a lender will read your file and what to gather first." })}
+${cta({ title: "Talk to a broker who serves Prince George", text: "Book a 15-minute call. Tell me how you're paid and what you're looking at. You'll leave knowing how a lender will read your file and what to gather first." })}
 
 <p>Resvick Mortgages is listed on Google as a mortgage broker serving BC from Surrey. Did a search for a broker in Prince George bring you here? The <a href="/contact/">contact page</a> has the phone number, the email address and what to have ready.</p>
 `;
@@ -78,16 +78,16 @@ ${cta({ title: "Talk to a broker who serves Prince George", text: "Book a 15-min
 export default {
   slug: "/mortgage-broker-prince-george/",
   h1: "Mortgage broker serving Prince George and northern BC",
-  lede: "Joshua Resvick, Xeva Mortgage, serves Prince George from his Surrey office by phone and video. Resource, shift and rotational income read the way an underwriter reads it, for purchases, renewals and refinances.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I serve Prince George from my Surrey office by phone and video. Resource, shift and rotational income read the way an underwriter reads it, for purchases, renewals and refinances.",
   crumbs: [["Home", "/"], ["Serving Prince George", "/mortgage-broker-prince-george/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Can I get a mortgage on camp rotation income?", a: "Yes, with a lender whose policy fits. Lenders look for continuity, renewed contracts and whether you are paid on a T4 or by invoice. Living-out and travel allowances count at some lenders and not others. Joshua matches the file to the lender before it is submitted, which is most of the work on a rotational-income mortgage." },
+    { q: "Can I get a mortgage on camp rotation income?", a: "Yes, with a lender whose policy fits. Lenders look for continuity, renewed contracts and whether you are paid on a T4 or by invoice. Living-out and travel allowances count at some lenders and not others. I match the file to the lender before it is submitted, which is most of the work on a rotational-income mortgage." },
     { q: "Does seasonal work with EI periods disqualify me?", a: "No. Some lenders average the full-year income, including the seasonal pattern, over two years, while others exclude employment insurance from qualifying income. The answer depends on the lender and on how consistent the pattern has been. Two years of T4s and a letter from the employer confirming recurring seasonal work are the documents that matter." },
-    { q: "Is it harder to get an appraisal in a smaller northern community?", a: "It can take longer, and comparable sales may be few, which affects both timing and value. Build extra time into your financing condition and talk to Joshua before writing the offer. Lenders use local appraisers and the appraisal is ordered through the lender, so the process is the same as in the south, only slower." },
-    { q: "Do I need to travel to Surrey to work with Joshua?", a: "No. The process was built for distance: phone or video calls, secure document links, a Prince George appraiser and your choice of local lawyer or notary. Brokers in BC are licensed provincially by BCFSA, and the lenders lend across the province, so the broker's location has no effect on your mortgage." },
-    { q: "Can I finance an acreage outside Prince George?", a: "Often, but not with every lender. Many residential lenders cap the land value they will count, want year-round road access and standard services, and decline where the property is primarily a business. Lenders that handle rural property well exist. Identify the property type with Joshua before the offer is written so the financing condition is realistic." }
+    { q: "Is it harder to get an appraisal in a smaller northern community?", a: "It can take longer, and comparable sales may be few, which affects both timing and value. Build extra time into your financing condition and talk to me before writing the offer. Lenders use local appraisers and the appraisal is ordered through the lender, so the process is the same as in the south, only slower." },
+    { q: "Do I need to travel to Surrey to work with you?", a: "No. The process was built for distance: phone or video calls, secure document links, a Prince George appraiser and your choice of local lawyer or notary. Brokers in BC are licensed provincially by BCFSA, and the lenders lend across the province, so the broker's location has no effect on your mortgage." },
+    { q: "Can I finance an acreage outside Prince George?", a: "Often, but not with every lender. Many residential lenders cap the land value they will count, want year-round road access and standard services, and decline where the property is primarily a business. Lenders that handle rural property well exist. Identify the property type with me before the offer is written so the financing condition is realistic." }
   ]
 };

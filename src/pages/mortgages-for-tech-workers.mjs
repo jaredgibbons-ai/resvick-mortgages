@@ -7,7 +7,7 @@ ${short({ answer: "Lenders usually count your base pay first. Bonuses and shares
 <h2>Your situation</h2>
 <p>Your pay may not look like a classic salary. You might have a base wage, a yearly bonus and a grant of shares that vest over four years. You might work from a spare room in Surrey for a company in Toronto, Austin or Dublin. You might bill clients as a contractor, or you might be the third hire at a startup.</p>
 <p>Then you ask a bank for a mortgage. The form wants one employer, one salary and a Canadian address for the payroll office. Half of your pay does not fit the boxes. The answer comes back lower than you expected, or it is a no.</p>
-<p>None of this means you cannot buy. It means the file needs to be read by a person who knows how tech pay works. This page explains how lenders tend to see it. Joshua Resvick is a BC mortgage broker, and he spent five years as an underwriter reading files like yours.</p>
+<p>None of this means you cannot buy. It means the file needs to be read by a person who knows how tech pay works. This page explains how lenders tend to see it. I'm Joshua Resvick, a BC mortgage broker, and I spent five years as an underwriter reading files like yours.</p>
 
 <h2>Base pay: what a mortgage for tech workers in BC starts with</h2>
 <p>For most employees, the starting point is base pay. If you are permanent and past your probation, many lenders count your base salary in full. They check it with an employment letter, a recent pay stub and your T4s or deposits.</p>
@@ -23,7 +23,7 @@ ${short({ answer: "Lenders usually count your base pay first. Bonuses and shares
 <li><strong>Signing bonuses and retention payments.</strong> These are often seen as one-time. Lenders may leave them out of income, though a signing bonus can help as a down payment source.</li>
 <li><strong>Commission.</strong> Sales and solutions roles are often paid partly on commission. Lenders commonly want a two-year history and average it.</li>
 </ul>
-<p>The takeaway: a "stock options mortgage" is rarely a special product. It is a normal mortgage where the lender decides how much of your equity pay to trust. Joshua checks that policy before he picks a lender, so you do not find out at the last step.</p>
+<p>The takeaway: a "stock options mortgage" is rarely a special product. It is a normal mortgage where the lender decides how much of your equity pay to trust. I check that policy before I pick a lender, so you do not find out at the last step.</p>
 
 <h2>Using share sales for your down payment</h2>
 <p>Many tech workers build their down payment by selling vested shares. That is a perfectly good source. The only question is how you prove it.</p>
@@ -45,7 +45,7 @@ ${short({ answer: "Lenders usually count your base pay first. Bonuses and shares
 <li><strong>A move to a higher-paid role in the same field.</strong> Lenders often accept this easily, since your skills carry over. A letter from the new employer does the work.</li>
 <li><strong>A move from salary to contract, or the reverse.</strong> This changes the rules that apply, so tell your broker before you resign.</li>
 </ul>
-<p>If you have just been laid off or your role is at risk, talk to Joshua before you sign an offer on a home. A <a href="/mortgage-pre-approval-bc/">pre-approval</a> is based on today's job. If that changes before closing, you should know your options first.</p>
+<p>If you have just been laid off or your role is at risk, talk to me before you sign an offer on a home. A <a href="/mortgage-pre-approval-bc/">pre-approval</a> is based on today's job. If that changes before closing, you should know your options first.</p>
 
 <h2>Remote worker mortgage: employer outside BC</h2>
 <p>Remote work is common in tech. A remote worker mortgage is one place where tech files stand out. Your boss may sit in another province or another country. Your pay may arrive in US dollars or euros. Your payslip may come from a payroll provider and not from the company itself.</p>
@@ -64,7 +64,7 @@ ${short({ answer: "Lenders usually count your base pay first. Bonuses and shares
 <p>A contractor who bills clients is self-employed in the eyes of a lender, even when you work full time for one client. That means the file is built on tax returns, not pay stubs.</p>
 <p>The usual route for a sole proprietor or a corporation is two years of returns, plus notices of assessment. Lenders use your net income, which is the number after expenses. That figure can be much lower than your invoices. CMHC's self-employed program recommends at least 24 months in business or in the same line of work (CMHC, Self-Employed program page, read October 2026).</p>
 <p>Tech contractors often have a strong story. You may have been an employee in the same field for many years before you went on your own. Some lenders weigh that history and will look at less than two years in business. The <a href="/newly-self-employed-mortgage/">newly self-employed page</a> explains those options. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> covers the full picture, including how salary, dividends and company income are read.</p>
-<p>One tip before you apply: ask your accountant how your last return reads. If the net income is low because of write-offs, talk to Joshua early. The answer may be a different lender, or a plan for next tax year.</p>
+<p>One tip before you apply: ask your accountant how your last return reads. If the net income is low because of write-offs, talk to me early. The answer may be a different lender, or a plan for next tax year.</p>
 
 <h2>Founders and early startup teams</h2>
 <p>If you started the company, you are self-employed even if you pay yourself a salary. Lenders look at your personal returns and often at the company's statements. Many early startups pay founders little, since the money goes back into the business. That gives a thin personal income on paper.</p>
@@ -80,11 +80,11 @@ ${short({ answer: "Lenders usually count your base pay first. Bonuses and shares
 <li>Look at the government programs and registered accounts for first-time buyers. The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> explains what exists and how to claim it.</li>
 <li>Decide how much you want left in your account after closing. A buffer matters, since closing costs come on top of the down payment.</li>
 </ul>
-<p>A lower down payment is possible in some cases, and the rules change with the price of the home. Joshua can show you how the numbers work for your target.</p>
+<p>A lower down payment is possible in some cases, and the rules change with the price of the home. I can show you how the numbers work for your target.</p>
 
 <h2>Moving cities or provinces for work</h2>
 <p>Tech jobs move people. You might be relocating to Vancouver from Ontario, or heading from Surrey to the Island. You might own a place already and need to buy the next one before you sell.</p>
-<p>If you plan to buy before you sell, a <a href="/bridge-financing/">bridge loan</a> may help. If you want certainty before you start house hunting in a new city, start with a <a href="/mortgage-pre-approval-bc/">pre-approval</a>. Joshua works with you by phone or video from his Surrey office, so you can get started before you land.</p>
+<p>If you plan to buy before you sell, a <a href="/bridge-financing/">bridge loan</a> may help. If you want certainty before you start house hunting in a new city, start with a <a href="/mortgage-pre-approval-bc/">pre-approval</a>. I work with you by phone or video from my Surrey office, so you can get started before you land.</p>
 <p>When your employer pays relocation money, tell your broker early. A lump sum can help with the down payment. Some of it may be taxable. Some employers ask you to repay it if you leave within a set time.</p>
 
 <h2>New to Canada tech hires</h2>
@@ -96,12 +96,12 @@ ${short({ answer: "Lenders usually count your base pay first. Bonuses and shares
 <p>At a lender that counts base pay only, her file is built on $120,000. At a lender that averages two years of bonus, it is built on $135,000. A lender that also credits vested share sales on her pay records may go higher still.</p>
 <p>Run each version through the <a href="/mortgage-calculators/#affordability">affordability calculator</a>. The gap in purchase price comes from lender policy. Her job did not change. The lender did.</p>
 
-<h2>Joshua's process</h2>
+<h2>My process</h2>
 <ol>
 <li><strong>A 15-minute call</strong> by phone or video, booked around your work calendar. You explain your pay mix and your plan.</li>
-<li><strong>Income read first.</strong> Joshua works out what each type of lender will count. He tells you where the number lands and what could move it.</li>
+<li><strong>Income read first.</strong> I work out what each type of lender will count. I tell you where the number lands and what could move it.</li>
 <li><strong>A real pre-approval.</strong> It is checked against your documents, not just a quick quote.</li>
-<li><strong>The right lender.</strong> He picks one for its policy on bonuses, equity, remote work or contract income. You see the choices in writing.</li>
+<li><strong>The right lender.</strong> I pick one for its policy on bonuses, equity, remote work or contract income. You see the choices in writing.</li>
 <li><strong>Aftercare.</strong> A new job, a move or a vesting event is easier to handle when your broker already knows your file.</li>
 </ol>
 
@@ -117,11 +117,11 @@ ${short({ answer: "Lenders usually count your base pay first. Bonuses and shares
 <h2>What the service costs</h2>
 <p>Most tech worker files with documented income land with a mainstream A lender. On those mortgages, the lender pays the broker and you pay nothing. Fees can come up on certain B-lender and private files, and they are disclosed in writing on BCFSA's Form 1A before you commit.</p>
 
-${callout("One request before the call", "<p>Gather your offer letter or contract, your last two T4s or tax returns, your latest pay stub and your brokerage statements. With those, Joshua can tell you in one conversation what a lender is likely to count.</p>")}
+${callout("One request before the call", "<p>Gather your offer letter or contract, your last two T4s or tax returns, your latest pay stub and your brokerage statements. With those, I can tell you in one conversation what a lender is likely to count.</p>")}
 
-<p class="more-links"><strong>Where Joshua helps tech workers.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-vancouver/">Vancouver</a>, <a href="/mortgage-broker-burnaby/">Burnaby</a>, <a href="/mortgage-broker-kelowna/">Kelowna</a>, <a href="/mortgage-broker-squamish/">Squamish</a>, <a href="/mortgage-broker-richmond/">Richmond</a> and <a href="/mortgage-broker-port-moody/">Port Moody</a>.</p>
+<p class="more-links"><strong>Where I help tech workers.</strong> I serve buyers online from my Surrey office in <a href="/mortgage-broker-vancouver/">Vancouver</a>, <a href="/mortgage-broker-burnaby/">Burnaby</a>, <a href="/mortgage-broker-kelowna/">Kelowna</a>, <a href="/mortgage-broker-squamish/">Squamish</a>, <a href="/mortgage-broker-richmond/">Richmond</a> and <a href="/mortgage-broker-port-moody/">Port Moody</a>.</p>
 
-${cta({ title: "Equity, remote work or contract pay, read right", text: "Book a 15-minute call. Joshua will read your income the way a lender does and point you to the lenders that fit. Or <a href=\"/contact/\">contact him</a> by email." })}
+${cta({ title: "Equity, remote work or contract pay, read right", text: "Book a 15-minute call. I'll read your income the way a lender does and point you to the lenders that fit. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {

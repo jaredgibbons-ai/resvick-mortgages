@@ -43,13 +43,13 @@ ${short({ answer: "BRRRR means buy, renovate, rent, refinance, repeat. In Canada
 <p>The example shows two things. The strategy returns cash only when the value added comfortably exceeds the cash spent. And the 80 percent cap, not the appraisal, is usually the binding limit. Say the appraisal had come in at $800,000. The refinance would have released $80,000 before costs. A plan built on recovering everything would have stalled. Run the <a href="/refinance-break-even/">refinance break-even calculator</a> and the <a href="/mortgage-calculators/#payment">payment calculator</a> on the refinanced balance before you buy. Treat the result as the deal's real test.</p>
 
 <p>Before you start, take the two-minute <a href="/investor-check/">investor check</a>. It shows how ready you are to buy a rental.</p>
-${cta({ title: "Checking a BRRRR deal before you commit?", text: "Bring the purchase price, the renovation budget, the expected rent and your own income. Joshua will show you what a lender would actually refinance and whether the cash comes back out." })}
+${cta({ title: "Checking a BRRRR deal before you commit?", text: "Bring the purchase price, the renovation budget, the expected rent and your own income. I'll show you what a lender would actually refinance and whether the cash comes back out." })}
 
 <h2>Repeat: portfolios hit limits</h2>
 <p>Each cycle adds a mortgage to your personal file. Mainstream lenders commonly cap residential rental programs at a small number of doors, often around four. After that, the file moves to stricter policies, to alternative lenders or to commercial underwriting. The <a href="/investment-property-mortgages-bc/">investment property mortgage guide</a> explains how door counts change the lender you need.</p>
 <p>If you plan to repeat several times, choose lenders on the early properties with the later ones in mind. At some point a property will need to qualify mostly on its own income. The <a href="/dscr-loans-canada/">DSCR loans</a> page describes that.</p>
 
-${callout("Fees and honesty about costs", "<p>On a purchase or refinance placed with an A lender, the lender pays the broker and you pay nothing for the service. Some steps of the cycle may use a B lender or a private lender. There, lender fees are normal and a broker fee may apply. In BC both are disclosed in writing on BCFSA's Form 1A before you commit. Those fees belong in the deal's math. That is why Joshua's written comparison shows total cost rather than rate alone. If you want a second set of eyes on a deal, <a href=\"/contact/\">contact Joshua</a>.</p>")}
+${callout("Fees and honesty about costs", "<p>On a purchase or refinance placed with an A lender, the lender pays the broker and you pay nothing for the service. Some steps of the cycle may use a B lender or a private lender. There, lender fees are normal and a broker fee may apply. In BC both are disclosed in writing on BCFSA's Form 1A before you commit. Those fees belong in the deal's math. That is why my written comparison shows total cost rather than rate alone. If you want a second set of eyes on a deal, <a href=\"/contact/\">contact me</a>.</p>")}
 `;
 
 export default {

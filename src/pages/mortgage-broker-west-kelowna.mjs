@@ -8,12 +8,12 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-wes
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves West Kelowna and Peachland by phone and video from his Surrey office. Three things set this side of the lake apart: homes on Westbank First Nation leased land, steep hillside lots and winery-country acreage. Each one changes the lender list.",
+  answer: "I serve West Kelowna and Peachland by phone and video from my Surrey office. Three things set this side of the lake apart: homes on Westbank First Nation leased land, steep hillside lots and winery-country acreage. Each one changes the lender list.",
   who: "West Kelowna and Peachland buyers, renewers and refinancers, especially with a leasehold home, a hillside lot, a suite or an acreage.",
   next: "Book a 15-minute call and say which neighbourhood and which kind of title you are looking at."
 })}
 <p>West Kelowna faces Kelowna across Okanagan Lake. It has newer subdivisions in places like Shannon Lake and Smith Creek, older homes around Westbank and Lakeview Heights, and hillside and vineyard properties above the highway. Peachland sits farther south along the lake.</p>
-<p>Joshua Resvick is a Xeva Mortgage broker who was a lender's underwriter for five years before he started brokering, ten years ago. He has funded over 1,000 mortgages. He works with West Kelowna and Peachland clients from his Surrey office, and there is no branch on the Westside. Start with a <a href="/contact/">15-minute call</a>.</p>
+<p>I'm Joshua Resvick, a Xeva Mortgage broker who was a lender's underwriter for five years before I started brokering, ten years ago. I have funded over 1,000 mortgages. I work with West Kelowna and Peachland clients from my Surrey office, and there is no branch on the Westside. Start with a <a href="/contact/">15-minute call</a>.</p>
 
 ${ratesStrip()}
 
@@ -45,22 +45,22 @@ ${censusTable("west-kelowna")}
 <h2>Peachland</h2>
 <p>Peachland is its own municipality, the District of Peachland. It requires suites to be registered. The District's page lists a registration form, a building permit, an annual suite licence and added water or sewer charges. It also says a grace period for unregistered suites ended in December 2019. (District of Peachland, Suites page, read October 2026.) A suite that is not registered may not count with a lender, and it can also cause trouble at resale.</p>
 
-<h2>What Joshua does for Westside clients</h2>
+<h2>What I do for Westside clients</h2>
 <ol>
-<li><strong>Checks the title before the price.</strong> A freehold house, a leasehold home and a strata townhouse each have different lenders. He confirms which one you have before you commit.</li>
+<li><strong>Checks the title before the price.</strong> A freehold house, a leasehold home and a strata townhouse each have different lenders. I confirm which one you have before you commit.</li>
 <li><strong>Shows the options on paper.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lists the rate, term, penalty method and portability side by side, so you can see what you give up by choosing one lender over another.</li>
-<li><strong>Works with your local team.</strong> You send documents through a secure link. An appraiser, lawyer or notary on the Westside does the local steps, and Joshua keeps your realtor informed.</li>
+<li><strong>Works with your local team.</strong> You send documents through a secure link. An appraiser, lawyer or notary on the Westside does the local steps, and I keep your realtor informed.</li>
 <li><strong>Follows up each year.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> adds a yearly review and a call roughly six months before your term ends.</li>
 </ol>
 
-${callout("Who pays for the broker", "<p>On most West Kelowna files, the lender pays Joshua and the service costs you nothing. Leasehold, acreage and unusual-income files sometimes call for a B or private lender. If one does, any fee to you must be shown in writing on BCFSA's Form 1A before you commit.</p>")}
+${callout("Who pays for the broker", "<p>On most West Kelowna files, the lender pays me and the service costs you nothing. Leasehold, acreage and unusual-income files sometimes call for a B or private lender. If one does, any fee to you must be shown in writing on BCFSA's Form 1A before you commit.</p>")}
 
 <h2>Buying, renewing and refinancing in West Kelowna</h2>
 <p><strong>First-time buyers</strong> can use BC and federal programs. These include the First Home Savings Account, the Home Buyers' Plan and the property transfer tax exemption. Leased land can change the tax side, so check with your lawyer. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> explains how the programs fit together.</p>
 <p><strong>Renewing owners</strong> have more room than they think. The <a href="/mortgage-renewal-bc/">renewal guide</a> has the timeline. Test your options in the <a href="/mortgage-calculators/">mortgage calculators</a>, where the <a href="/mortgage-calculators/#renewal">renewal tool</a> compares staying, switching and refinancing. For how rates are set, read the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
 <h2>Around West Kelowna</h2>
-<p>Many buyers cross the lake to compare. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the city on the other side, including carriage houses and recreational property. The <a href="/mortgage-broker-kamloops/">Kamloops page</a> covers trades, rail and shift income farther north. Joshua serves the whole Okanagan, including Lake Country, in the same way.</p>
+<p>Many buyers cross the lake to compare. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the city on the other side, including carriage houses and recreational property. The <a href="/mortgage-broker-kamloops/">Kamloops page</a> covers trades, rail and shift income farther north. I serve the whole Okanagan, including Lake Country, in the same way.</p>
 
 
 ${cityFacts("west-kelowna")}
@@ -72,16 +72,16 @@ ${cta({ title: "Talk to a broker who serves West Kelowna", text: "Book a 15-minu
 export default {
   slug: "/mortgage-broker-west-kelowna/",
   h1: "Mortgage broker serving West Kelowna and Peachland, BC",
-  lede: "Joshua Resvick, Xeva Mortgage, serves West Kelowna and Peachland from his Surrey office by phone and video. Leasehold homes, hillside lots, suites and winery acreage, read the way an underwriter reads them.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I serve West Kelowna and Peachland from my Surrey office by phone and video. Leasehold homes, hillside lots, suites and winery acreage, read the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving West Kelowna", "/mortgage-broker-west-kelowna/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Can I get a mortgage on a home on Westbank First Nation land?", a: "Often, but not with every lender. You own a lease, not the land, so lenders look at the years left on the lease against your amortization, whether it is prepaid, whether it is registered and whether the landlord can cancel it. Some want more down. Joshua checks the lease terms against lender policy early." },
-    { q: "Does a 125-year lease make financing easier?", a: "It can, but no official page says it must. A long lease leaves more years than most amortizations need, which lenders like. CMHC accepts a registered leasehold on reserve land as security if it meets CMHC's leasehold requirements, but its page sets no minimum term and does not name 125-year leases (CMHC, Alternative types of security, published March 19, 2021, read October 2026). Your own lease and lender still decide, so Joshua reviews it first." },
-    { q: "Can I count the rent from a West Kelowna suite?", a: "If the suite is permitted and registered under City rules, many lenders count a share of documented rent, either against your housing costs or as added income. The share and method vary by lender. An unpermitted suite usually cannot be counted. Joshua runs both methods on your numbers." },
+    { q: "Can I get a mortgage on a home on Westbank First Nation land?", a: "Often, but not with every lender. You own a lease, not the land, so lenders look at the years left on the lease against your amortization, whether it is prepaid, whether it is registered and whether the landlord can cancel it. Some want more down. I check the lease terms against lender policy early." },
+    { q: "Does a 125-year lease make financing easier?", a: "It can, but no official page says it must. A long lease leaves more years than most amortizations need, which lenders like. CMHC accepts a registered leasehold on reserve land as security if it meets CMHC's leasehold requirements, but its page sets no minimum term and does not name 125-year leases (CMHC, Alternative types of security, published March 19, 2021, read October 2026). Your own lease and lender still decide, so I review it first." },
+    { q: "Can I count the rent from a West Kelowna suite?", a: "If the suite is permitted and registered under City rules, many lenders count a share of documented rent, either against your housing costs or as added income. The share and method vary by lender. An unpermitted suite usually cannot be counted. I run both methods on your numbers." },
     { q: "Will a hillside or wildfire area affect my purchase?", a: "It can affect plans more than approval. The City says a development permit may be needed in Hillside, Wildfire, Aquatic and Sensitive Terrestrial Ecosystem areas, which adds time and cost to a suite or addition. A lender also needs proof of home insurance before funding, so get a quote early." },
-    { q: "Do you also serve Peachland, and do I need to visit Surrey?", a: "Yes to Peachland, and no to Surrey. Joshua serves Peachland like West Kelowna, by phone, video and secure document upload, and your appraiser and lawyer or notary are local. BC lenders and rules are provincial, so the broker's location does not change your options." }
+    { q: "Do you also serve Peachland, and do I need to visit Surrey?", a: "Yes to Peachland, and no to Surrey. I serve Peachland like West Kelowna, by phone, video and secure document upload, and your appraiser and lawyer or notary are local. BC lenders and rules are provincial, so the broker's location does not change your options." }
   ]
 };

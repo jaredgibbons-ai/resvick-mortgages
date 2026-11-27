@@ -47,10 +47,10 @@ ${short({ answer: "Contractors and tradespeople can get a mortgage, but lenders 
 <p>Seasonal work isn't a problem in itself. A lender averages it across the year and across two years. A roofer who works April to November every year is a predictable borrower. What lenders dislike is a gap with no explanation, or income that's trending down.</p>
 <p>The <a href="/mortgage-calculators/#affordability">affordability calculator</a> applies the qualifying rate and standard ratios to any income you enter. So run it twice. First, use the net figure from your return. Then use the figure a stated-income or add-back lender might use. The gap between the two is what depends on lender choice and how the file is put together.</p>
 
-<h2>Joshua's process for a contractor file</h2>
+<h2>My process for a contractor file</h2>
 <ol>
 <li><strong>A 15-minute call</strong> about how you're paid, how long you've been at it and what your returns show.</li>
-<li><strong>An underwriter's read of your income.</strong> Before anything is sent, Joshua works out the figure each type of lender would use. He tells you plainly where the file is strong and where it's thin.</li>
+<li><strong>An underwriter's read of your income.</strong> Before anything is sent, I work out the figure each type of lender would use. I tell you plainly where the file is strong and where it's thin.</li>
 <li><strong>Picking the lender.</strong> Options include A lenders with add-backs, insured programs for the self-employed, and B lenders with stated-income options. The file goes to the one that fits. You see the options side by side in a written Lender Comparison Report.</li>
 <li><strong>Fee honesty.</strong> On an A-lender mortgage, the lender pays the broker and you pay nothing. On a B-lender or private file, lender fees are normal and a broker fee can apply. Both are shown to you in writing on BCFSA's Form 1A before you commit. You'll know the cost of each route before you choose.</li>
 <li><strong>A clean submission.</strong> Returns, statements and explanations are organized so the lender's underwriter has no reason to pause.</li>
@@ -65,11 +65,11 @@ ${short({ answer: "Contractors and tradespeople can get a mortgage, but lenders 
 <li><strong>Treating one bank's figure as the answer.</strong> Lenders differ more on self-employed income than on anything else.</li>
 </ul>
 
-${callout("Why the underwriting years matter for the trades", "<p>An underwriter looks at a contractor's file and asks three things. Is the income real? Will it continue? Has it been declared? Joshua answers those questions in the application itself. He lines up the bank statements, contracts and trade ticket beside the tax return. That way the lender reads your business the way you do.</p>")}
+${callout("Why the underwriting years matter for the trades", "<p>An underwriter looks at a contractor's file and asks three things. Is the income real? Will it continue? Has it been declared? I answer those questions in the application itself. I line up the bank statements, contracts and trade ticket beside the tax return. That way the lender reads your business the way you do.</p>")}
 
-<p>If your company buys a shop or yard, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> for owner-occupied premises.</p>
+<p>If your company buys a shop or yard, I also arrange <a href="/commercial-mortgages-bc/">commercial mortgages</a> for owner-occupied premises.</p>
 
-${cta({ title: "Your returns do not tell the whole story", text: "Book a 15-minute call. Joshua will tell you what each lender type would count and what it would cost. He'll tell you whether to apply now or plan the next tax year first. Or <a href=\"/contact/\">contact him</a> by email." })}
+${cta({ title: "Your returns do not tell the whole story", text: "Book a 15-minute call. I'll tell you what each lender type would count and what it would cost. I'll tell you whether to apply now or plan the next tax year first. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {

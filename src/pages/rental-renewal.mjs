@@ -50,12 +50,12 @@ ${short({ answer: "Renewing a rental mortgage with your current lender is usuall
 </ul>
 
 <h2>When you own more than one rental</h2>
-<p>If you are building a portfolio, the renewal on one property is also a chance to review the whole. Lenders view your borrowing across everything you own, and one property's mortgage can limit what you qualify for on the next. Spreading mortgages across lenders, matching renewal dates and keeping the rent documentation up to date for every unit all make future approvals easier. The <a href="/investment-property-mortgages-bc/">investment property mortgage guide</a> sets out the wider strategies and the limits that apply to investors. To discuss your own portfolio, <a href="/contact/">contact Joshua</a>.</p>
+<p>If you are building a portfolio, the renewal on one property is also a chance to review the whole. Lenders view your borrowing across everything you own, and one property's mortgage can limit what you qualify for on the next. Spreading mortgages across lenders, matching renewal dates and keeping the rent documentation up to date for every unit all make future approvals easier. The <a href="/investment-property-mortgages-bc/">investment property mortgage guide</a> sets out the wider strategies and the limits that apply to investors. To discuss your own portfolio, <a href="/contact/">contact me</a>.</p>
 <p>Short-term rentals deserve their own warning. Short-term rental income is often treated differently from long-term tenancies. Many A lenders won't credit it the same way. Confirm how it will be handled before you rely on it in an application.</p>
 
 ${callout("What it costs", "<p>On a mortgage placed with an A lender, the lender pays the broker and you pay nothing for the service. Fees arise only on B-lender and private files, with written disclosure (BCFSA Form 1A) before you commit.</p>")}
 
-${cta({ title: "Bring the lease and the renewal letter", text: "Book a 15-minute call with the maturity date and your current rate on hand. Joshua will tell you how lenders are likely to see the rent and whether a switch, a refinance or a plain renewal fits your plan." })}
+${cta({ title: "Bring the lease and the renewal letter", text: "Book a 15-minute call with the maturity date and your current rate on hand. I'll tell you how lenders are likely to see the rent and whether a switch, a refinance or a plain renewal fits your plan." })}
 `;
 
 export default {

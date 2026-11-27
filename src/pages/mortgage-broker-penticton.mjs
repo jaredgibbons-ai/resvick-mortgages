@@ -8,12 +8,12 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-pen
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Penticton, Summerland and Naramata by phone and video from his Surrey office. Penticton files are often decided by the property: a suite, a nightly rental, an orchard lot or a home in a park. Each is read by lenders in its own way.",
+  answer: "I serve Penticton, Summerland and Naramata by phone and video from my Surrey office. Penticton files are often decided by the property: a suite, a nightly rental, an orchard lot or a home in a park. Each is read by lenders in its own way.",
   who: "Penticton and South Okanagan buyers, retirees and downsizers, second-home buyers, rental owners and anyone renewing.",
-  next: "Book a 15-minute call and tell Joshua what kind of property you're looking at."
+  next: "Book a 15-minute call and tell me what kind of property you're looking at."
 })}
 <p>Penticton sits on a strip of land between Okanagan Lake and Skaha Lake. People move here to retire, to downsize, to raise a family or to own a place near the water. Many buyers arrive with money from a sale somewhere else, which changes how the mortgage is built.</p>
-<p>Joshua Resvick is a mortgage broker with Xeva Mortgage. He has ten years in the business and spent five years before that as a lender's underwriter. More than 1,000 mortgages have been funded through him. He works with South Okanagan clients from Surrey, and there is no Penticton branch. You can <a href="/contact/">book a 15-minute call</a> from wherever you are.</p>
+<p>I'm Joshua Resvick, a mortgage broker with Xeva Mortgage. I have ten years in the business and spent five years before that as a lender's underwriter. More than 1,000 mortgages have been funded through me. I work with South Okanagan clients from Surrey, and there is no Penticton branch. You can <a href="/contact/">book a 15-minute call</a> from wherever you are.</p>
 
 ${ratesStrip()}
 
@@ -23,7 +23,7 @@ ${ratesStrip()}
 <p>The timing is the other half. If you must buy before your old home closes, a bridge loan or a longer closing can cover the gap. The <a href="/bridge-financing/">bridge financing page</a> explains the costs and risks. The <a href="/downsizing-and-your-mortgage/">downsizing page</a> covers how much of the proceeds to keep in cash. Homeowners who want to stay put and draw on equity can read about the <a href="/reverse-mortgage-bc/">reverse mortgage</a> option too.</p>
 
 <h2>Incomes in Penticton</h2>
-<p>Penticton's median household income was $68,000 for 2020. About 17.5 percent of workers were self-employed. Health care was the largest industry, followed by retail and construction. (Statistics Canada, 2021 Census Profile, read October 2026). The lower median fits a city with many retirees. Pension and savings income can qualify, but lenders vary in how they count it. If you are selling a home elsewhere, the sale proceeds also matter for the down payment. Joshua will tell you which documents each lender expects.</p>
+<p>Penticton's median household income was $68,000 for 2020. About 17.5 percent of workers were self-employed. Health care was the largest industry, followed by retail and construction. (Statistics Canada, 2021 Census Profile, read October 2026). The lower median fits a city with many retirees. Pension and savings income can qualify, but lenders vary in how they count it. If you are selling a home elsewhere, the sale proceeds also matter for the down payment. I'll tell you which documents each lender expects.</p>
 ${censusTable("penticton")}
 
 <h2>Renting a Penticton home by the night</h2>
@@ -47,10 +47,10 @@ ${censusTable("penticton")}
 <li><strong>I name the property type first.</strong> Before you offer, I ask whether the place is a plain house, has a suite, sits on farmland or is rented by the night. That one answer narrows the lender list.</li>
 <li><strong>I put the options in writing.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> lines up the rate, term, penalty method and portability for each lender, so a retirement move or a second home is not judged on rate alone.</li>
 <li><strong>I handle the paper trail.</strong> You upload documents through a secure link. A Penticton appraiser and lawyer or notary do the local work, and I keep them and your realtor on the same dates.</li>
-<li><strong>I look in again later.</strong> With <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and contacts you about six months before it matures.</li>
+<li><strong>I look in again later.</strong> With <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and contact you about six months before it matures.</li>
 </ol>
 
-${callout("What a mortgage broker costs", "<p>For most Penticton purchases and renewals, an A lender pays Joshua and your cost is zero. Rural, rental-income and retirement-income files can sometimes need a B or private lender. Any fee that applies to you has to be shown in writing, on BCFSA's Form 1A, before you agree to it.</p>")}
+${callout("What a mortgage broker costs", "<p>For most Penticton purchases and renewals, an A lender pays me and your cost is zero. Rural, rental-income and retirement-income files can sometimes need a B or private lender. Any fee that applies to you has to be shown in writing, on BCFSA's Form 1A, before you agree to it.</p>")}
 
 <h2>Buying, renewing and refinancing in the South Okanagan</h2>
 <p><strong>First-time buyers</strong> can use the same BC and federal programs as anyone else. These include the property transfer tax exemption, the First Home Savings Account and the Home Buyers' Plan. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> shows the order to use them in.</p>
@@ -58,9 +58,9 @@ ${callout("What a mortgage broker costs", "<p>For most Penticton purchases and r
 <p><strong>Self-employed buyers</strong> are common in a region built on tourism, farms and trades. Their income is read from tax returns. The <a href="/self-employed-mortgage-bc/">self-employed hub</a> explains the routes. For how a rate is set, see the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
 <h2>Close to Penticton</h2>
-<p>Many South Okanagan buyers compare Penticton with the north end of the lake. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the larger city, and the <a href="/mortgage-broker-kamloops/">Kamloops page</a> covers the Thompson region. Joshua serves all three the same way, with the same lender comparison.</p>
+<p>Many South Okanagan buyers compare Penticton with the north end of the lake. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the larger city, and the <a href="/mortgage-broker-kamloops/">Kamloops page</a> covers the Thompson region. I serve all three the same way, with the same lender comparison.</p>
 
-<p>Some Penticton homes sit on leased land. Skaha Hills, on Penticton Indian Band land, says it offers a registered, deeded title to a 99-year prepaid Crown lease (Skaha Hills, Current phases, read October 2026). That is the developer's own description, and each lender decides for itself whether to lend. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. Our pages on <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a> explain the questions to ask.</p>
+<p>Some Penticton homes sit on leased land. Skaha Hills, on Penticton Indian Band land, says it offers a registered, deeded title to a 99-year prepaid Crown lease (Skaha Hills, Current phases, read October 2026). That is the developer's own description, and each lender decides for itself whether to lend. I arrange mortgages on reserve land, leased land and First Nation land through a lender that works on it. Our pages on <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a> explain the questions to ask.</p>
 
 
 <p>South of Penticton, the <a href="/mortgage-broker-osoyoos-oliver/">Osoyoos and Oliver page</a> covers wine country, band leasehold homes and local short-term rental rules.</p>
@@ -74,16 +74,16 @@ ${cta({ title: "Talk to a broker who serves Penticton", text: "Book a 15-minute 
 export default {
   slug: "/mortgage-broker-penticton/",
   h1: "Mortgage broker serving Penticton and the South Okanagan, BC",
-  lede: "Joshua Resvick, Xeva Mortgage, serves Penticton, Summerland and Naramata from his Surrey office by phone and video. Retirement moves, suites, vacation rentals and orchard lots, read the way an underwriter reads them.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I serve Penticton, Summerland and Naramata from my Surrey office by phone and video. Retirement moves, suites, vacation rentals and orchard lots, read the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Penticton", "/mortgage-broker-penticton/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
     { q: "Can I buy a Penticton home to rent out by the night?", a: "You need to clear three tests. The City licenses short-term rentals and asks applicants to be the primary resident. The Province lists Penticton as a community where nightly rentals are limited to a principal residence, plus one suite or accessory unit. And many lenders do not count nightly income. Rules change, so check the City and Province pages before you write an offer." },
-    { q: "Will a lender count my pension and RRIF income?", a: "Often, yes. Many lenders count pensions, CPP and OAS from award letters, and registered income from statements. Investment income is commonly averaged over two years. Some lenders also weigh savings alongside income. Policies differ, so Joshua matches your mix of income to a lender that handles it well." },
-    { q: "Does a suite or carriage house help me qualify in Penticton?", a: "It can, if the unit is permitted and the rent is documented. Many lenders then count a share of the rent against your housing costs or add it to income. The method and share vary by lender. An unpermitted unit usually cannot be counted. Joshua runs the numbers both ways." },
-    { q: "How is a Naramata orchard or vineyard property financed?", a: "Differently from a city lot. Many residential lenders limit how much land value they will count, give farm buildings little value and decline where the property is mainly a business. Land in the Agricultural Land Reserve adds rules. Joshua identifies the property type before the offer is written." },
-    { q: "Do I need to travel to Surrey to work with Joshua?", a: "No. Everything is done by phone, video and secure document upload, and your appraiser and lawyer or notary are local to you. BC lenders and rules are provincial, so the broker's location does not change your options. If you prefer to meet in person, ask on the first call." }
+    { q: "Will a lender count my pension and RRIF income?", a: "Often, yes. Many lenders count pensions, CPP and OAS from award letters, and registered income from statements. Investment income is commonly averaged over two years. Some lenders also weigh savings alongside income. Policies differ, so I match your mix of income to a lender that handles it well." },
+    { q: "Does a suite or carriage house help me qualify in Penticton?", a: "It can, if the unit is permitted and the rent is documented. Many lenders then count a share of the rent against your housing costs or add it to income. The method and share vary by lender. An unpermitted unit usually cannot be counted. I run the numbers both ways." },
+    { q: "How is a Naramata orchard or vineyard property financed?", a: "Differently from a city lot. Many residential lenders limit how much land value they will count, give farm buildings little value and decline where the property is mainly a business. Land in the Agricultural Land Reserve adds rules. I identify the property type before the offer is written." },
+    { q: "Do I need to travel to Surrey to work with you?", a: "No. Everything is done by phone, video and secure document upload, and your appraiser and lawyer or notary are local to you. BC lenders and rules are provincial, so the broker's location does not change your options. If you prefer to meet in person, ask on the first call." }
   ]
 };

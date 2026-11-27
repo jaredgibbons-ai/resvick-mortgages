@@ -65,8 +65,8 @@ ${short({
 
 ${callout("A caution about 'what will rates do'", "<p>Choosing fixed or variable based on a forecast is a gamble, however confident the forecast sounds. A sturdier approach is to pick the structure whose worst case you can live with. Then review it regularly. Resvick Aftercare includes rate monitoring, so today's decision isn't forgotten until renewal.</p>")}
 
-<h2>What Joshua asks before recommending one</h2>
-<p>A recommendation needs facts a rate table can't supply. Before he suggests a structure, Joshua asks questions like these:</p>
+<h2>What I ask before recommending one</h2>
+<p>A recommendation needs facts a rate table can't supply. Before I suggest a structure, I ask questions like these:</p>
 <ol>
 <li>How long do you expect to keep this property, and how sure are you?</li>
 <li>If your payment rose by a few hundred dollars a month, what would you change?</li>
@@ -74,13 +74,13 @@ ${callout("A caution about 'what will rates do'", "<p>Choosing fixed or variable
 <li>Do you carry other debts whose payments could also rise?</li>
 <li>How would a large penalty affect you if you had to leave early?</li>
 </ol>
-<p>Your answers shape the comparison he builds for you. Every client gets it in writing as the <a href="/lender-comparison-report/">Lender Comparison Report</a>. It shows rate, term, penalty and flexibility side by side. On a mortgage placed with a mainstream (A) lender, the lender pays the broker. You pay nothing for the advice.</p>
+<p>Your answers shape the comparison I build for you. Every client gets it in writing as the <a href="/lender-comparison-report/">Lender Comparison Report</a>. It shows rate, term, penalty and flexibility side by side. On a mortgage placed with a mainstream (A) lender, the lender pays the broker. You pay nothing for the advice.</p>
 
 <h2>Timing a lock</h2>
 <p>Choosing fixed while you're still shopping? A rate hold keeps the rate available for a while as you decide. The page on <a href="/mortgage-rate-hold/">when to lock in</a> covers how holds work. A hold reserves a rate, not the right answer. You still need to pick the structure carefully.</p>
 
 ${bocDates()}
-${cta({ title: "Choose the risk you can carry", text: "In 15 minutes, Joshua can show you a fixed and a variable option side by side. That includes what each would cost to leave." })}
+${cta({ title: "Choose the risk you can carry", text: "In 15 minutes, I can show you a fixed and a variable option side by side. That includes what each would cost to leave." })}
 `;
 
 export default {

@@ -2,7 +2,7 @@ import { cta, callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
-${short({ answer: "A blend-and-extend mixes your current rate with today's rate and starts a longer term with the same lender. There's no penalty, but you only get part of today's rate and you're tied in longer.", who: "You have a rate above today's rates who wants a lower payment before maturity.", next: "Compare blend, break and wait with the <a href=\"/refinance-break-even/\">break-even calculator</a>, then <a href=\"/contact/\">ask Joshua</a> to model it." })}
+${short({ answer: "A blend-and-extend mixes your current rate with today's rate and starts a longer term with the same lender. There's no penalty, but you only get part of today's rate and you're tied in longer.", who: "You have a rate above today's rates who wants a lower payment before maturity.", next: "Compare blend, break and wait with the <a href=\"/refinance-break-even/\">break-even calculator</a>, then <a href=\"/contact/\">ask me</a> to model it." })}
 
 <h2>What blending is</h2>
 <p>Say your mortgage has two years left, at a rate higher than today's rates. You'd like the lower payment now, not at maturity. Breaking the mortgage would trigger a prepayment penalty.</p>
@@ -58,11 +58,11 @@ ${callout("Blending is a negotiation", "<p>Lenders don't always offer a blend, a
 <li>What would I get if I did nothing and renewed at my original maturity date?</li>
 </ol>
 
-<h2>How Joshua helps</h2>
-<p>Joshua Resvick compares the blend against the other paths: staying, breaking and refinancing, and switching at maturity. He lays them side by side in the <a href="/mortgage-calculators/#compare">scenario tool</a> and in his written Lender Comparison Report. Each option shows the penalty, the break-even and the commitment.</p>
-<p>If the best option is to renew with your lender, he'll say so. If it's to wait, he'll say that too. On a mortgage with a mainstream (A) lender, the lender pays the broker. You pay nothing for the service. For renewal timing and the steps, see the <a href="/mortgage-renewal-bc/">mortgage renewal guide</a>.</p>
+<h2>How I help</h2>
+<p>I compare the blend against the other paths: staying, breaking and refinancing, and switching at maturity. I lay them side by side in the <a href="/mortgage-calculators/#compare">scenario tool</a> and in my written Lender Comparison Report. Each option shows the penalty, the break-even and the commitment.</p>
+<p>If the best option is to renew with your lender, I'll say so. If it's to wait, I'll say that too. On a mortgage with a mainstream (A) lender, the lender pays the broker. You pay nothing for the service. For renewal timing and the steps, see the <a href="/mortgage-renewal-bc/">mortgage renewal guide</a>.</p>
 
-${cta({ title: "See whether blending beats breaking for you", text: "Send Joshua your balance, rate and maturity date. He'll model the blend, the break and the wait side by side.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "See whether blending beats breaking for you", text: "Send me your balance, rate and maturity date. I'll model the blend, the break and the wait side by side.", href: "/contact/", label: "Contact me" })}
 `;
 
 export default {

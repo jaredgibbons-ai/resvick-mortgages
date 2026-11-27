@@ -8,7 +8,7 @@ const slug = "/mortgage-broker-burnaby/";
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Burnaby online and by phone from his Surrey office. Most Burnaby files are either a condo or townhouse near a town centre, or a house with a suite or laneway home.",
+  answer: "I serve Burnaby online and by phone from my Surrey office. Most Burnaby files are either a condo or townhouse near a town centre, or a house with a suite or laneway home.",
   who: "Burnaby buyers, newcomers to Canada buying a first home, multigenerational families and owners coming up for renewal.",
   next: "Book a 15-minute call, or start with the <a href=\"/first-time-home-buyer-bc/\">first-time home buyer guide</a> if this is your first purchase."
 })}
@@ -17,7 +17,7 @@ ${short({
 <p>Most of Burnaby's new housing goes up in and around those centres. That means concrete towers, plus townhouses and low-rises at the edges.</p>
 <p>Between them are the single-family neighbourhoods. Think of the slopes of Burnaby Mountain, Capitol Hill, the Heights, Buckingham and South Slope. Houses there are big, lots are deep, and more of them now have a suite or a laneway home.</p>
 <p>So a Burnaby broker sees two main kinds of file. One is the strata purchase near a town centre, often a first home or a newcomer's first Canadian property. The other is the detached house, often a move-up or multigenerational purchase with a suite in the plan.</p>
-<p>Joshua Resvick serves Burnaby from his office in Surrey, by phone, video and secure document upload. There's no Burnaby branch, and you never need to visit an office. Every step is done online, and your lawyer or notary handles the signing near you.</p>
+<p>I serve Burnaby from my office in Surrey, by phone, video and secure document upload. There's no Burnaby branch, and you never need to visit an office. Every step is done online, and your lawyer or notary handles the signing near you.</p>
 
 ${ratesStrip()}
 
@@ -56,7 +56,7 @@ ${censusTable("burnaby")}
 <p>Commission, contract, incorporated and self-employed income all work, but lenders read them differently. The <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> explains add-backs, dividends and stated-income programs. It also covers when a fee can apply on a non-mainstream file.</p>
 <p>On a mortgage with a mainstream lender, the lender pays the broker. You pay nothing for the service.</p>
 
-<h2>Working with Joshua from Burnaby</h2>
+<h2>Working with me from Burnaby</h2>
 <ol>
 <li><strong>A 15-minute call</strong> to map your goals, your numbers and your timeline.</li>
 <li><strong>An underwriter's read of your file</strong> before a lender sees it. That's where problems are cheapest to fix.</li>
@@ -67,9 +67,9 @@ ${censusTable("burnaby")}
 <p>The <a href="/mortgage-calculators/">calculators</a> let you test a payment with strata fees and the CMHC premium. You can see how a suite changes affordability, and estimate the cash you need on completion. Every result shows right away, with no email needed.</p>
 
 ${cityFacts("burnaby")}
-${callout("Nearby", `<p>Joshua also serves <a href="/mortgage-broker-vancouver/">Vancouver</a>, <a href="/mortgage-broker-coquitlam/">Coquitlam</a> and the Tri-Cities. He serves New Westminster and the rest of Metro Vancouver too. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from a Burnaby client helps the next buyer find him.</p>`)}
+${callout("Nearby", `<p>I also serve <a href="/mortgage-broker-vancouver/">Vancouver</a>, <a href="/mortgage-broker-coquitlam/">Coquitlam</a> and the Tri-Cities. I serve New Westminster and the rest of Metro Vancouver too. The Google Business Profile for Resvick Mortgages shows the Surrey office and the BC-wide service area. A review from a Burnaby client helps the next buyer find me.</p>`)}
 
-<p>UniverCity at SFU is leasehold. SFU Community Trust says it prepares sites for developers on a prepaid, 99-year leasehold basis (SFU Community Trust, UniverCity for developers, read October 2026). Lenders vary on leasehold, so ask early. See <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p><p>If you own a business in Burnaby and want to buy its premises, Joshua also arranges <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
+<p>UniverCity at SFU is leasehold. SFU Community Trust says it prepares sites for developers on a prepaid, 99-year leasehold basis (SFU Community Trust, UniverCity for developers, read October 2026). Lenders vary on leasehold, so ask early. See <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p><p>If you own a business in Burnaby and want to buy its premises, I also arrange <a href="/commercial-mortgages-bc/">commercial mortgages</a> as well.</p>
 
 
 ${cta({ title: "Buying near Metrotown or Brentwood, or renewing in the Heights?", text: "Book a 15-minute call. You'll leave knowing what's realistic and what to do first." })}
@@ -79,7 +79,7 @@ ${cta({ title: "Buying near Metrotown or Brentwood, or renewing in the Heights?"
 export default {
   slug,
   h1: "Mortgage broker serving Burnaby, BC",
-  lede: "Tower condos at the four town centres, newcomer first purchases, and big houses with suites and laneway homes. Joshua Resvick serves Burnaby from his Surrey office, online and by phone.",
+  lede: "Tower condos at the four town centres, newcomer first purchases, and big houses with suites and laneway homes. I serve Burnaby from my Surrey office, online and by phone.",
   crumbs: [["Home", "/"], ["Burnaby", slug]],
   nav: "/about-joshua-resvick/",
   body,
@@ -89,6 +89,6 @@ export default {
     { q: "Why do high strata fees matter to my Burnaby condo approval?", a: "Lenders add a share of the monthly strata fee to your housing costs when they calculate your debt service ratios, so a tower with high fees reduces what you qualify for compared with a lower-fee building at the same price. The building's reserve fund and any special levies also affect which lenders will approve the unit." },
     { q: "Can I use laneway home rent to qualify in Burnaby?", a: "Usually some of it, if the laneway home is permitted and the rent is documented. Burnaby has allowed laneway homes since 2023, and lenders either add a share of the rent to your income or subtract it from your housing costs. The share varies by lender, which is why the choice of lender matters on a house with a rental unit." },
     { q: "Can my parents and I buy a Burnaby house together?", a: "Yes. Lenders can place several borrowers on one mortgage and combine incomes and debts for qualification. Everyone on the mortgage is responsible for the whole debt, and the ownership shares are set separately by your lawyer. The co-buying guide covers the common structures and what to agree on before you buy." },
-    { q: "Do I need to visit an office to work with Joshua?", a: "No. His office is in Surrey, and Burnaby clients work with him by phone, video and secure document upload. Your lawyer or notary handles the signing in Burnaby. Everything from the first call to the funded mortgage can be done without a visit, and the service is the same as for a client next door to the office." }
+    { q: "Do I need to visit an office to work with you?", a: "No. My office is in Surrey, and Burnaby clients work with me by phone, video and secure document upload. Your lawyer or notary handles the signing in Burnaby. Everything from the first call to the funded mortgage can be done without a visit, and the service is the same as for a client next door to the office." }
   ]
 };

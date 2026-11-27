@@ -51,7 +51,7 @@ ${callout("Compare before you sign", "<p>A reverse mortgage is one of several wa
 <p>The federal consumer agency recommends talking to a financial adviser, your family and possibly a lawyer before signing. That's sound advice. A reverse mortgage reduces what's left for your estate, and your executor will have a limited time to repay it after the last owner passes away. If family members expect to inherit the home, it's better they hear about the plan now.</p>
 <p>The <a href="/reverse-mortgage-bc/">reverse mortgage guide</a> covers the pros, cons and alternatives in more depth. If you're still working out your retirement income, the page on <a href="/mortgages-for-retirees-and-seniors/">mortgages for retirees and seniors</a> explains how lenders count pension income for a regular mortgage too.</p>
 
-${cta({ title: "Want a real number?", text: "Book a 15-minute call. Joshua arranges reverse mortgages with HomeEquity Bank across BC and will compare them with a line of credit and downsizing on your numbers." })}
+${cta({ title: "Want a real number?", text: "Book a 15-minute call. I arrange reverse mortgages with HomeEquity Bank across BC and will compare them with a line of credit and downsizing on your numbers." })}
 
 <p class="small">Sources: Financial Consumer Agency of Canada, Reverse mortgages, modified October 15, 2025. HomeEquity Bank, CHIP Reverse Mortgage page, read November 2026. The worked example uses 7% compounded semi-annually and is illustrative, not a quote.</p>
 `;

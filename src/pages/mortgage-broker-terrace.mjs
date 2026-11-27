@@ -8,9 +8,9 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-ter
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Terrace by phone and video from his Surrey office. Terrace is a hub for big northwest projects, and a move here often means a tight rental market. Project, contract and shift pay can all work. The order of the steps matters.",
+  answer: "I serve Terrace by phone and video from my Surrey office. Terrace is a hub for big northwest projects, and a move here often means a tight rental market. Project, contract and shift pay can all work. The order of the steps matters.",
   who: "Newcomers to the northwest, project and contract workers, hospital and college staff, and buyers of older or manufactured homes in the Terrace area.",
-  next: "Book a 15-minute call and tell Joshua when you arrive and how you are paid."
+  next: "Book a 15-minute call and tell me when you arrive and how you are paid."
 })}
 <p>Terrace sits on the Skeena River where Highway 16 meets Highway 37. It is the hub for a wide stretch of the northwest. Kitimat is about 63 km south on Highway 37. (Wikipedia, Kitimat, read October 2026). That reach is why people move to Terrace for work, and why they often arrive in a hurry.</p>
 <p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I've funded more than 1,000 mortgages. I work from my Surrey office and help Terrace clients by phone, video and secure document upload. There is no Terrace branch. You can <a href="/contact/">book a 15-minute call</a> before you pack a single box.</p>
@@ -28,11 +28,11 @@ ${ratesStrip()}
 <p>Do not assume every new job lands in Terrace. The first phase of the power line is a 165 km stretch near Prince George. The article does not say where crews will live. A job tied to the line may be a rotation, a camp or a contract with an out-of-town employer. Each one reads differently to a lender, so the details matter more than the headline.</p>
 
 <h2>Incomes in Terrace</h2>
-<p>The 2021 Census puts Terrace's median household income at $90,000 for 2020. About 12.1 percent of workers were self-employed, or 780 of 6,470. Health care was the largest industry with 1,165 workers. Retail had 805, construction 650 and educational services 605. (Statistics Canada, 2021 Census Profile, read October 2026). Health care and schools bring steady salaried files. Construction brings contract and project pay, which lenders read through your tax returns. Joshua can sort out which type your file is before he picks a lender.</p>
+<p>The 2021 Census puts Terrace's median household income at $90,000 for 2020. About 12.1 percent of workers were self-employed, or 780 of 6,470. Health care was the largest industry with 1,165 workers. Retail had 805, construction 650 and educational services 605. (Statistics Canada, 2021 Census Profile, read October 2026). Health care and schools bring steady salaried files. Construction brings contract and project pay, which lenders read through your tax returns. I can sort out which type your file is before I pick a lender.</p>
 ${censusTable("terrace")}
 
 <h2>How a lender reads project, contract and rotation pay</h2>
-<p>Terrace files often mix pay types. Here is how lenders commonly see them. Policies vary, so Joshua checks each one before he picks a lender.</p>
+<p>Terrace files often mix pay types. Here is how lenders commonly see them. Policies vary, so I check each one before I pick a lender.</p>
 <ul>
 <li><strong>Permanent employee with a signed offer.</strong> This is the simplest file. Many lenders want probation done before funding. Some will look sooner if the new job matches your last one.</li>
 <li><strong>Fixed-term or project contract.</strong> Lenders look at the contract length, whether it has renewed before and how long you have worked in the trade. A long record in the same trade helps a lot. A first-ever contract is harder.</li>
@@ -60,7 +60,7 @@ ${censusTable("terrace")}
 <li><strong>Set aside cash for more than the down payment.</strong> The <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs page</a> show the full list. Moving costs come on top.</li>
 <li><strong>Hold off on new debt.</strong> A truck loan before funding can change what you qualify for. The <a href="/car-loan-affecting-mortgage/">car loan page</a> shows how.</li>
 </ol>
-<p>You do not have to live in Terrace to start. Joshua works by phone and video, so a pre-approval can be done before you drive up Highway 16. Moving from another province changes little. Lenders ask for the same papers from a different employer and bank.</p>
+<p>You do not have to live in Terrace to start. I work by phone and video, so a pre-approval can be done before you drive up Highway 16. Moving from another province changes little. Lenders ask for the same papers from a different employer and bank.</p>
 
 <h2>What Terrace homes are, and what lenders ask</h2>
 <p>The Housing Needs Report puts single detached homes at about 60% of occupied dwellings. Mobile homes are 7%, or 325 of 4,870. Nearly half of occupied homes were built in the 1960s and 1970s. About 70% of households own. (City of Terrace, Housing Needs Report, December 2024, read October 2026).</p>
@@ -79,7 +79,7 @@ ${censusTable("terrace")}
 <p>For a lender, the unit must be legal, and the rent must be documented. Many lenders then count part of the rent. An unpermitted unit usually counts for nothing. The <a href="/how-much-suite-income-will-a-lender-count/">suite income page</a> shows the two methods. The <a href="/secondary-suite-refinance/">secondary suite refinance page</a> helps if you add a unit after you buy.</p>
 
 <h2>Hospital and college staff</h2>
-<p>Health care and teaching jobs are salaried and easy to document. For these files, the real choices are about term, penalty method and portability. If you plan to move between northern towns, a portable mortgage is worth a look. The <a href="/mortgages-for-nurses-and-healthcare-workers/">health care workers page</a> lists the common situations. Joshua also reviews the <a href="/porting-your-mortgage/">porting rules</a> with clients who may move on.</p>
+<p>Health care and teaching jobs are salaried and easy to document. For these files, the real choices are about term, penalty method and portability. If you plan to move between northern towns, a portable mortgage is worth a look. The <a href="/mortgages-for-nurses-and-healthcare-workers/">health care workers page</a> lists the common situations. I also review the <a href="/porting-your-mortgage/">porting rules</a> with clients who may move on.</p>
 
 <h2>When a mill or plant job ends</h2>
 <p>Forestry has had a rough stretch in the area. Skeena Sawmills was reported closed and in receivership in 2023. (Wood Business, Offers now open for closed Skeena sawmill and pellet plant, November 14, 2023, read October 2026). Current mill status may have changed, so check local news.</p>
@@ -93,7 +93,7 @@ ${censusTable("terrace")}
 <li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and call you about six months before renewal.</li>
 </ol>
 
-${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Terrace files, such as pad homes or very new income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
+${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays me and you pay nothing for my work. Some Terrace files, such as pad homes or very new income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
 <h2>Buying, renewing and refinancing in the northwest</h2>
 <p><strong>Calculators.</strong> The <a href="/mortgage-calculators/">mortgage calculators</a> let you test your own numbers before you call.</p>
@@ -103,10 +103,10 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 <h2>Close to Terrace</h2>
 <p>Terrace buyers often compare homes in other northern towns. The <a href="/mortgage-broker-prince-george/">Prince George page</a> covers the northern service centre, where resource, rotation and seasonal pay are read in a similar way.</p>
 
-<p>If a home near Terrace sits on First Nation land, it is financed differently from other land. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
+<p>If a home near Terrace sits on First Nation land, it is financed differently from other land. I arrange mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
 
 
-<p>If you are comparing the coast, Joshua also serves <a href="/mortgage-broker-prince-rupert/">Prince Rupert</a> and Port Edward, where port work and older homes shape the files.</p>
+<p>If you are comparing the coast, I also serve <a href="/mortgage-broker-prince-rupert/">Prince Rupert</a> and Port Edward, where port work and older homes shape the files.</p>
 
 ${cityFacts("terrace")}
 ${nearbyCallout("terrace", callout)}
@@ -117,19 +117,19 @@ ${cta({ title: "Talk to a broker who serves Terrace", text: "Book a 15-minute ca
 export default {
   slug: "/mortgage-broker-terrace/",
   h1: "Mortgage broker in Terrace, BC: buying a home or moving to Terrace",
-  lede: "Buying a home in Terrace, or moving to Terrace for work? Joshua Resvick, Xeva Mortgage, serves Terrace from his Surrey office by phone and video. Project and contract pay, a tight rental market, older homes and suites, explained the way an underwriter reads them.",
+  lede: "Buying a home in Terrace, or moving to Terrace for work? I'm Joshua Resvick, with Xeva Mortgage, and I serve Terrace from my Surrey office by phone and video. Project and contract pay, a tight rental market, older homes and suites, explained the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Terrace", "/mortgage-broker-terrace/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "I'm moving to Terrace for a contract job. Can I get a mortgage?", a: "Often yes, but lenders look at the contract closely. They check its length, whether it has renewed and how long you have worked in the trade. A permanent offer is simpler than a first contract. Joshua checks which lenders fit your pay type before you make an offer, so you know your options early." },
+    { q: "I'm moving to Terrace for a contract job. Can I get a mortgage?", a: "Often yes, but lenders look at the contract closely. They check its length, whether it has renewed and how long you have worked in the trade. A permanent offer is simpler than a first contract. I check which lenders fit your pay type before you make an offer, so you know your options early." },
     { q: "Should I buy in Terrace before I arrive, since rentals are scarce?", a: "Not always, but rentals are tight. The City's 2024 report estimated overall vacancy at 0.8% in July 2024. A pre-approval before you move lets you shop with a clear budget. Keep your down payment, closing costs and employer letter ready, and talk to your realtor about a closing date that fits your start date." },
-    { q: "Can I buy a home in Terrace before I move there?", a: "Yes, you can start early. Joshua works by phone and video, so a pre-approval can be done before you visit. Lenders will want your offer letter, start date and pay stubs. Many want probation finished before funding, so ask your realtor about a closing date that follows your start." },
-    { q: "I am moving to Terrace for a new job. When should I get pre-approved?", a: "As soon as you have a signed offer letter. A pre-approval shows your price range and holds a rate for a set time. Bring the offer, your start date, recent pay stubs and down payment details. If you are on probation, tell Joshua early so he can plan around it." },
-    { q: "How will a lender count overtime, camp pay or travel allowances?", a: "Base wage is usually counted once employment is confirmed. Overtime, premiums and bonuses are variable, so many lenders average them over two years. Allowances may or may not count. Policies vary by lender, and Joshua shows you the file with and without the extras." },
-    { q: "Can I get a mortgage on a manufactured home in Terrace?", a: "Yes, in some cases, but the land decides. A manufactured home on land you own is a far easier file. A home on a rented pad has fewer lenders, shorter terms and age limits. Pad rent and park rules also affect the file. Joshua checks this before you make an offer." },
-    { q: "Does a house built in the 1960s or 1970s cause problems with a lender?", a: "Not by itself. Lenders and insurers focus on the roof, wiring, plumbing and heating, and on the condition of the home. A good inspection helps. Ask your insurer about the home before you remove conditions, and speak to Joshua if the repairs need to be funded." },
+    { q: "Can I buy a home in Terrace before I move there?", a: "Yes, you can start early. I work by phone and video, so a pre-approval can be done before you visit. Lenders will want your offer letter, start date and pay stubs. Many want probation finished before funding, so ask your realtor about a closing date that follows your start." },
+    { q: "I am moving to Terrace for a new job. When should I get pre-approved?", a: "As soon as you have a signed offer letter. A pre-approval shows your price range and holds a rate for a set time. Bring the offer, your start date, recent pay stubs and down payment details. If you are on probation, tell me early so I can plan around it." },
+    { q: "How will a lender count overtime, camp pay or travel allowances?", a: "Base wage is usually counted once employment is confirmed. Overtime, premiums and bonuses are variable, so many lenders average them over two years. Allowances may or may not count. Policies vary by lender, and I show you the file with and without the extras." },
+    { q: "Can I get a mortgage on a manufactured home in Terrace?", a: "Yes, in some cases, but the land decides. A manufactured home on land you own is a far easier file. A home on a rented pad has fewer lenders, shorter terms and age limits. Pad rent and park rules also affect the file. I check this before you make an offer." },
+    { q: "Does a house built in the 1960s or 1970s cause problems with a lender?", a: "Not by itself. Lenders and insurers focus on the roof, wiring, plumbing and heating, and on the condition of the home. A good inspection helps. Ask your insurer about the home before you remove conditions, and speak to me if the repairs need to be funded." },
     { q: "Can I add a suite or a second unit to a Terrace home?", a: "Possibly. The City's older fact sheet allows one suite per lot, and a 2024 zoning change allows up to four units on most low-density lots. Lots without municipal water or sewer may be limited. Confirm your lot with the City's planning office. A legal, documented unit can help you qualify." }
   ]
 };

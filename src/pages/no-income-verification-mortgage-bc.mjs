@@ -50,7 +50,7 @@ ${short({
 <li><strong>Your down payment or equity source.</strong> On a purchase, the lender still wants to see where the down payment came from. Skipping income doesn't mean skipping the anti-money-laundering checks.</li>
 <li><strong>A reason that makes sense.</strong> An underwriter will ask why income can't be shown. A plain, believable answer helps.</li>
 </ul>
-<p>Joshua spent five years as an underwriter before he became a broker. He knows how a file like this reads from the other side of the desk, and what makes a lender comfortable.</p>
+<p>I spent five years as an underwriter before I became a broker. I know how a file like this reads from the other side of the desk, and what makes a lender comfortable.</p>
 
 <h2>What it costs</h2>
 <p>Expect to pay more than you would at a bank, in a few ways.</p>
@@ -75,10 +75,10 @@ ${short({
 
 ${callout("Two warnings worth reading", "<p>First, don't overstate anything to any lender, on any program. Mortgage fraud is a crime, and it can cost you the home. Second, read the renewal terms. Some lenders charge a renewal fee, and the rate at renewal isn't guaranteed. Ask for both in writing up front.</p>")}
 
-<h2>How Joshua handles these files</h2>
+<h2>How I handle these files</h2>
 <ol>
-<li><strong>A short call first.</strong> Joshua asks about your property, your equity, your credit and why income is hard to show. Often a cheaper option turns up right there.</li>
-<li><strong>A check against cheaper options.</strong> If a stated income or B-lender mortgage would work, he'll say so. You only go to a no income program if it's the right tool.</li>
+<li><strong>A short call first.</strong> I ask about your property, your equity, your credit and why income is hard to show. Often a cheaper option turns up right there.</li>
+<li><strong>A check against cheaper options.</strong> If a stated income or B-lender mortgage would work, I'll say so. You only go to a no income program if it's the right tool.</li>
 <li><strong>A written cost comparison.</strong> You see the rate, the lender fee, the broker fee, legal costs and the term side by side. The <a href="/lender-comparison-report/">Lender Comparison Report</a> lays it out in writing.</li>
 <li><strong>A plan for the exit.</strong> Before you commit, you'll agree on how and when you'll move to a cheaper mortgage. Then the <a href="/mortgage-aftercare-program/">aftercare program</a> keeps an eye on that date for you.</li>
 </ol>

@@ -8,9 +8,9 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-tra
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Trail, Castlegar and the nearby West Kootenay towns by phone and video from his Surrey office. Many buyers here earn smelter, mill, hospital or college pay, and many buy older homes. You can start the mortgage before you ever drive in.",
+  answer: "I serve Trail, Castlegar and the nearby West Kootenay towns by phone and video from my Surrey office. Many buyers here earn smelter, mill, hospital or college pay, and many buy older homes. You can start the mortgage before you ever drive in.",
   who: "Buyers and owners in Trail, Castlegar, Rossland, Warfield, Fruitvale and Montrose, including smelter and mill workers, health care staff and Selkirk College employees.",
-  next: "Book a 15-minute call and tell Joshua how you are paid and what kind of home you want."
+  next: "Book a 15-minute call and tell me how you are paid and what kind of home you want."
 })}
 <p>Trail and Castlegar sit on the Columbia River in the West Kootenay. They share a labour market. In the 2021 census data, about 15 percent of the Castlegar residents who commute to work go to Trail, and some workers live in Trail because homes cost less (City of Castlegar, 2023 Castlegar Housing Needs Report, 2023, read October 2026). The price gap is real. BC Assessment puts the 2026 typical single-family value at $376,000 in Trail and $519,000 in Castlegar (BC Assessment, Southern Interior 2026 Property Assessments Announced, January 2, 2026, read October 2026).</p>
 <p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I work from my Surrey office and help Trail and Castlegar clients by phone and video. There is no branch in either town. You can <a href="/contact/">book a 15-minute call</a> from home or from the job site.</p>
@@ -72,17 +72,17 @@ ${censusTable("trail-castlegar")}
 
 <h2>Taxes, floods and land</h2>
 <p>Castlegar, Trail, Nelson and Rossland are not on the speculation and vacancy tax list (Province of BC, Taxable areas, December 8, 2025, read October 2026). Castlegar is also mapping flood risk on six upland creeks, with a draft plan planned for 2026 (City of Castlegar, Understanding mapping flood risks, read October 2026). We found no flood construction level or floodplain bylaw there, so ask the City about a specific lot. Insurers may ask extra questions about creek-side, hillside and rural homes. Get a quote before you remove conditions, because a lender will want proof of coverage.</p>
-<p>We did not find reserve or leased land with homes for sale here. If a purchase involves either, tell Joshua at the start. He arranges those files through a lender that works on them, and the lender that fits depends on the land and your timing. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
+<p>We did not find reserve or leased land with homes for sale here. If a purchase involves either, tell me at the start. I arrange those files through a lender that works on them, and the lender that fits depends on the land and your timing. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
 
-<h2>What working with Joshua looks like</h2>
+<h2>What working with me looks like</h2>
 <ol>
 <li><strong>The pay question comes first.</strong> Union wages, shift premiums, a business or a pension each lead to a different short list of lenders.</li>
-<li><strong>The house gets a close look.</strong> He asks how old it is, whether it has a suite, what the land is and whether the soil was tested. Those answers narrow the lenders before you get attached to a place.</li>
+<li><strong>The house gets a close look.</strong> I ask how old it is, whether it has a suite, what the land is and whether the soil was tested. Those answers narrow the lenders before you get attached to a place.</li>
 <li><strong>You get the choices on paper.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> sets term, penalty method and portability side by side, so rate is not the only thing you compare.</li>
-<li><strong>He keeps checking in.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage each year and calls about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
+<li><strong>I keep checking in.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and call about six months before renewal. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out the timeline.</li>
 </ol>
 
-${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some West Kootenay files, such as pad homes, new self-employed income or homes needing major repairs, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
+${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays me and you pay nothing for my work. Some West Kootenay files, such as pad homes, new self-employed income or homes needing major repairs, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
 <p>Buyers here also look east and west. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the closest large Okanagan city, and the <a href="/mortgage-broker-penticton/">Penticton page</a> covers the South Okanagan.</p>
 
@@ -97,14 +97,14 @@ ${cta({ title: "Talk to a broker who serves Trail and Castlegar", text: "Book a 
 export default {
   slug: "/mortgage-broker-trail-castlegar/",
   h1: "Mortgage broker in Trail and Castlegar, BC: buying in the West Kootenay",
-  lede: "Buying a home in Trail, Castlegar or Rossland, or moving to the West Kootenay for work? Joshua Resvick, Xeva Mortgage, serves the region from his Surrey office by phone and video. Smelter and mill pay, older homes, suites and manufactured homes, explained the way an underwriter reads them.",
+  lede: "Buying a home in Trail, Castlegar or Rossland, or moving to the West Kootenay for work? I'm Joshua Resvick, with Xeva Mortgage, and I serve the region from my Surrey office by phone and video. Smelter and mill pay, older homes, suites and manufactured homes, explained the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Trail and Castlegar", "/mortgage-broker-trail-castlegar/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
     { q: "Can I buy a home in Trail or Castlegar before I move there?", a: "Often, yes. Many buyers get pre-approved by phone or video, then make an offer through a realtor. Lenders look at your income, credit and down payment, not where you live today. Ask for a closing date that fits your move." },
-    { q: "How does a lender count smelter, mill or shift pay?", a: "It depends on the lender and on how steady the hours are. A permanent union job with a set schedule is read like most jobs. Overtime and shift premiums are often averaged over two years. Joshua checks lender rules for your pay type before you apply." },
+    { q: "How does a lender count smelter, mill or shift pay?", a: "It depends on the lender and on how steady the hours are. A permanent union job with a set schedule is read like most jobs. Overtime and shift premiums are often averaged over two years. I check lender rules for your pay type before you apply." },
     { q: "Is Trail cheaper than Castlegar?", a: "On BC Assessment's 2026 typical single-family values, yes. Trail was $376,000 and Castlegar $519,000. These are assessed values, not sale prices, and condo values are not published for either city. Compare real listings, and check the age and condition of each home." },
     { q: "Can a suite or carriage house help me qualify?", a: "It can, if the unit is legal and the rent is documented. Castlegar allows up to four dwellings on larger lots and does not require owner occupancy. Trail has its own limits and does not allow strata titling of suites. Confirm current rules with the city before you plan a build." },
     { q: "Can I use a Trail or Castlegar home as a short-term rental?", a: "The rules differ. Castlegar licenses short-term rentals and allows non-principal residences. Trail requires a Council rezoning first. Rossland allows them only in a principal residence. Check the current bylaw, and note that lenders ask what rent they can count." },

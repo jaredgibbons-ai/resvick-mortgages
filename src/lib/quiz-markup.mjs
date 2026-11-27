@@ -17,6 +17,6 @@ export function quizEmbed(id) {
   if (!QUIZ_IDS.includes(id)) throw new Error("Unknown quiz " + id);
   return `<section class="quiz tool" id="quiz-${id}" data-quiz="${id}" data-book="${SITE.book}" data-nocount aria-label="${id === "check" ? "Where are you at" : id === "lendermatch" ? "Lender match" : "Readiness check"}">
 <p class="small">${LEDE[id]}</p>
-<noscript><p class="honest">This check needs JavaScript. You can <a href="/contact/">contact Joshua</a> and he will walk through the same questions with you on a call.</p></noscript>
+<noscript><p class="honest">This check needs JavaScript. You can <a href="/contact/">contact me</a> and I'll walk through the same questions with you on a call.</p></noscript>
 </section>`;
 }

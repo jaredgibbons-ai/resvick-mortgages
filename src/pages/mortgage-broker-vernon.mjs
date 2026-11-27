@@ -9,12 +9,12 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-ver
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Vernon, Coldstream and the North Okanagan by phone and video from his Surrey office. In this part of BC, the address decides which bylaws apply, and the land decides which lenders will say yes.",
+  answer: "I serve Vernon, Coldstream and the North Okanagan by phone and video from my Surrey office. In this part of BC, the address decides which bylaws apply, and the land decides which lenders will say yes.",
   who: "Buyers, renewers and refinancers around Vernon, especially with lake or ski-hill property, hobby farms, orchard land or a suite.",
-  next: "Book a 15-minute call and give Joshua the property address you are looking at."
+  next: "Book a 15-minute call and give me the property address you are looking at."
 })}
 <p>Start with a question that sounds simple. Which Vernon do you mean? The City of Vernon is only one of the local governments in the North Okanagan. Its neighbour, the District of Coldstream, is a separate municipality. Beyond both lie rural electoral areas, including Swan Lake and Commonage (Area B) and BX and SilverStar (Area C). (Regional District of North Okanagan, member and electoral area list, read October 2026).</p>
-<p>That matters for a mortgage, because each government has its own zoning, its own suite rules and its own services. Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. A decade of brokering and five years of underwriting before that taught him to check the property first. He works from Surrey by phone, video and secure uploads, with no North Okanagan branch.</p>
+<p>That matters for a mortgage, because each government has its own zoning, its own suite rules and its own services. I'm Joshua Resvick, a licensed mortgage broker with Xeva Mortgage. A decade of brokering and five years of underwriting before that taught me to check the property first. I work from Surrey by phone, video and secure uploads, with no North Okanagan branch.</p>
 
 ${ratesStrip()}
 
@@ -46,43 +46,43 @@ ${censusTable("vernon")}
 
 <h2>Three checks before you make an offer</h2>
 <ol>
-<li><strong>The government.</strong> City, Coldstream or regional district? Joshua confirms which bylaws and services apply.</li>
-<li><strong>The land.</strong> Is any of it in the ALR? What can be built or rented on it? He flags lender limits early.</li>
-<li><strong>The income.</strong> He matches how you are paid to a lender whose rules fit, then puts the options in a <a href="/lender-comparison-report/">Lender Comparison Report</a>.</li>
+<li><strong>The government.</strong> City, Coldstream or regional district? I confirm which bylaws and services apply.</li>
+<li><strong>The land.</strong> Is any of it in the ALR? What can be built or rented on it? I flag lender limits early.</li>
+<li><strong>The income.</strong> I match how you are paid to a lender whose rules fit, then put the options in a <a href="/lender-comparison-report/">Lender Comparison Report</a>.</li>
 </ol>
 <p>Afterwards, <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> adds a yearly review and a nudge ahead of maturity, so your renewal gets compared.</p>
 
-${callout("What you pay", "<p>On most North Okanagan files the lender pays Joshua, and you pay him nothing. Land-heavy or unusual-income files can end up with a B or private lender instead. When that happens, any fee to you is written out on BCFSA's Form 1A before you agree.</p>")}
+${callout("What you pay", "<p>On most North Okanagan files the lender pays me, and you pay me nothing. Land-heavy or unusual-income files can end up with a B or private lender instead. When that happens, any fee to you is written out on BCFSA's Form 1A before you agree.</p>")}
 
 <h2>Buying, renewing and borrowing against equity</h2>
 <p>First-time buyers in Vernon use the same programs as the rest of BC. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> lays out the order, and the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a> explains how a rate is set.</p>
 <p>Renewal work should begin about four months before maturity. The <a href="/mortgage-renewal-bc/">renewal guide</a> has the schedule, and the <a href="/mortgage-calculators/">mortgage calculators</a> compare staying, switching and refinancing on your own figures. Orchard, hobby-farm and business owners can start with the <a href="/self-employed-mortgage-bc/">self-employed hub</a>.</p>
 
 <h2>Nearby</h2>
-<p>The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the central Okanagan to the south. The <a href="/mortgage-broker-kamloops/">Kamloops page</a> covers rail, trades and shift income to the north and west. Ready to talk? The <a href="/contact/">contact page</a> shows how to reach Joshua.</p>
+<p>The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the central Okanagan to the south. The <a href="/mortgage-broker-kamloops/">Kamloops page</a> covers rail, trades and shift income to the north and west. Ready to talk? The <a href="/contact/">contact page</a> shows how to reach me.</p>
 
-<p>If a home you like sits on First Nation land or leased land, it is a different kind of file. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
+<p>If a home you like sits on First Nation land or leased land, it is a different kind of file. I arrange mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
 
 
 ${cityFacts("vernon")}
 ${nearbyCallout("vernon", callout)}
 
-${cta({ title: "Talk to a broker who serves the North Okanagan", text: "Book a 15-minute call. Share the address, the land and how you are paid. Joshua will tell you what a lender is likely to say." })}
+${cta({ title: "Talk to a broker who serves the North Okanagan", text: "Book a 15-minute call. Share the address, the land and how you are paid. I'll tell you what a lender is likely to say." })}
 `;
 
 export default {
   slug: "/mortgage-broker-vernon/",
   h1: "Mortgage broker serving Vernon, Coldstream and the North Okanagan",
-  lede: "Joshua Resvick, Xeva Mortgage, serves the North Okanagan from his Surrey office by phone and video. Lake homes, ALR land, suites and renewals, with the property checked before the offer is written.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I serve the North Okanagan from my Surrey office by phone and video. Lake homes, ALR land, suites and renewals, with the property checked before the offer is written.",
   crumbs: [["Home", "/"], ["Serving Vernon", "/mortgage-broker-vernon/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Does it matter whether a home is in Vernon, Coldstream or a rural area?", a: "Yes. Each local government sets its own zoning, suite rules and services, and the rural electoral areas differ again. A lender will ask about the property type and its status. Joshua confirms which bylaws apply before you make an offer, so the mortgage condition matches the real property." },
+    { q: "Does it matter whether a home is in Vernon, Coldstream or a rural area?", a: "Yes. Each local government sets its own zoning, suite rules and services, and the rural electoral areas differ again. A lender will ask about the property type and its status. I confirm which bylaws apply before you make an offer, so the mortgage condition matches the real property." },
     { q: "Can I rent my Vernon second home on a short-term basis?", a: "Possibly, but the City generally limits short-term rental to homes where the operator lives, for stays under 90 consecutive days, with a business licence and provincial requirements. A home bought only as a vacation rental may not qualify. Lenders also want at least 20 percent down on homes you won't occupy." },
     { q: "Can I add a suite or second home on ALR land near Vernon?", a: "Only within provincial and local limits. The Agricultural Land Commission allows a secondary suite inside the principal residence, and a detached additional residence only in limited cases, with size caps. Local governments can restrict further. Confirm with the City or district and the Commission before you rely on the rent." },
-    { q: "Will a lender finance a hobby farm or orchard property?", a: "Often, but not with every lender. Many residential lenders limit the land value they count, give farm buildings little value and decline working farms. Others, including some B lenders, are more flexible. Joshua identifies the property type first so the financing condition matches what lenders will do." },
-    { q: "Do I need to travel to Surrey to work with Joshua?", a: "No. The file runs by phone, video and secure document exchange, and the appraiser and lawyer are local to Vernon. A meeting in person can be arranged by appointment in Surrey. There is no North Okanagan branch, and lenders in BC work the same way for every address." }
+    { q: "Will a lender finance a hobby farm or orchard property?", a: "Often, but not with every lender. Many residential lenders limit the land value they count, give farm buildings little value and decline working farms. Others, including some B lenders, are more flexible. I identify the property type first so the financing condition matches what lenders will do." },
+    { q: "Do I need to travel to Surrey to work with you?", a: "No. The file runs by phone, video and secure document exchange, and the appraiser and lawyer are local to Vernon. A meeting in person can be arranged by appointment in Surrey. There is no North Okanagan branch, and lenders in BC work the same way for every address." }
   ]
 };

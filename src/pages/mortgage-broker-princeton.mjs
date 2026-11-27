@@ -8,9 +8,9 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-pri
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Princeton by phone and video from his Surrey office. A new job at Copper Mountain Mine and a town with almost no rentals can force you to buy during probation. That file can work, and the order of the steps matters.",
+  answer: "I serve Princeton by phone and video from my Surrey office. A new job at Copper Mountain Mine and a town with almost no rentals can force you to buy during probation. That file can work, and the order of the steps matters.",
   who: "Mine and mill hires, shift workers, and buyers of older homes, manufactured homes, acreages and lake cabins in the Princeton area.",
-  next: "Book a 15-minute call and tell Joshua your start date and how you are paid."
+  next: "Book a 15-minute call and tell me your start date and how you are paid."
 })}
 <p>Princeton sits where Highway 3 meets Highway 5A, at the joining of two rivers. It is a small town with a big employer nearby. Copper Mountain Mine is about 20 km to the south, and it shapes who buys homes here and when.</p>
 <p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, so I know what a lender's desk looks for in a file. I've funded more than 1,000 mortgages. I work from my Surrey office and help Princeton clients by phone and video. There is no Princeton branch. You can <a href="/contact/">book a 15-minute call</a> from your kitchen table or your truck.</p>
@@ -24,7 +24,7 @@ ${ratesStrip()}
 <ul>
 <li><strong>Base wage.</strong> Your hourly rate times your regular hours is clean, full-time income. Lenders read it easily once your employment is confirmed.</li>
 <li><strong>Night premiums, overtime and bonuses.</strong> Lenders treat these as variable income. Many want a two-year history, which a new hire does not have yet. Some lenders credit part of it sooner. Policies vary.</li>
-<li><strong>Year-one math.</strong> For a new hire, the file often runs on base wage alone. At mine pay scales, that can still be enough for a Princeton home. Joshua runs both versions so you see the gap.</li>
+<li><strong>Year-one math.</strong> For a new hire, the file often runs on base wage alone. At mine pay scales, that can still be enough for a Princeton home. I run both versions so you see the gap.</li>
 </ul>
 <p>The papers that help most are an offer letter, your first pay stubs and a letter from the employer. If you worked at another mine or mill before, bring those T4s. Two years of steady work in the same trade makes a new-hire file much stronger. The <a href="/mortgage-pre-approval-bc/">pre-approval page</a> lists what to gather.</p>
 
@@ -66,7 +66,7 @@ ${censusTable("princeton")}
 <h2>Where buyers look: the names people search</h2>
 <p><strong>In town:</strong> the Benches (1st, 2nd and 3rd Bench), Allison Flats, East Princeton, Westridge, Deerview, Downtown and Pine Park.</p>
 <p><strong>Lake and rural country:</strong> Tulameen, Otter Lake and Coalmont to the west, Osprey Lake, Link Lake and Allison Lake to the north and east. Missezula Lake is about 45 km north of town, in Electoral Area H. Its cabins carry Princeton addresses, and its water system serves about 190 lots. The Regional District has run that system since January 1, 2020. (Regional District of Okanagan-Similkameen, Missezula Lake water system, read October 2026). (Regional District of Okanagan-Similkameen, Missezula Lake Water System request for proposals, January 28, 2025, read October 2026). Erris is a named community in Electoral Area H, off the Princeton-Summerland Road. Its listings usually read Princeton Rural. (Regional District of Okanagan-Similkameen, Electoral Area H planning report, March 5, 2026, read October 2026).</p>
-<p>Hedley is a separate community further along Highway 3. Joshua serves it too, but buyers there compare it with Princeton instead of treating it as a Princeton area.</p>
+<p>Hedley is a separate community further along Highway 3. I serve it too, but buyers there compare it with Princeton instead of treating it as a Princeton area.</p>
 <p>Cabins and lake lots can mean seasonal roads, shared water systems and holding-tank septic. Lenders ask about all three. The mortgage may also differ if the place is a second home.</p>
 
 <h2>Commutes and move-up patterns</h2>
@@ -82,7 +82,7 @@ ${censusTable("princeton")}
 </ol>
 <p>If you do not have a realtor yet, Stacey Roberts of Flex Realty is the Princeton realtor I work with. You can see her listings at <a href="https://sellingprinceton.ca" rel="noopener" target="_blank">sellingprinceton.ca</a> and find her contact details on our <a href="/partners/">partners page</a>. You are free to use any realtor you like. I don't take or pay referral fees for introductions.</p>
 
-${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Princeton files, such as pad homes or very new income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
+${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays me and you pay nothing for my work. Some Princeton files, such as pad homes or very new income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
 <h2>Buying, renewing and refinancing in the Similkameen</h2>
 <p><strong>First-time buyers</strong> can use the same BC and federal programs as buyers anywhere. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> shows the order in which to use them.</p>
@@ -91,7 +91,7 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 <h2>Close to Princeton</h2>
 <p>Many Princeton buyers also price homes in the Okanagan. The <a href="/mortgage-broker-penticton/">Penticton page</a> covers the South Okanagan. The <a href="/mortgage-broker-kamloops/">Kamloops page</a> covers the Thompson region, where rail and mining pay are read in a similar way.</p>
 
-<p>If a home near Princeton sits on First Nation land or leased land, it is a different kind of file. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
+<p>If a home near Princeton sits on First Nation land or leased land, it is a different kind of file. I arrange mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
 
 
 ${cityFacts("princeton")}
@@ -103,16 +103,16 @@ ${cta({ title: "Talk to a broker who serves Princeton", text: "Book a 15-minute 
 export default {
   slug: "/mortgage-broker-princeton/",
   h1: "Mortgage broker serving Princeton, BC and the Similkameen",
-  lede: "Joshua Resvick, Xeva Mortgage, serves Princeton from his Surrey office by phone and video. New mine jobs, shift pay, older homes, acreages and suites, explained the way an underwriter reads them.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I serve Princeton from my Surrey office by phone and video. New mine jobs, shift pay, older homes, acreages and suites, explained the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Princeton", "/mortgage-broker-princeton/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "I just got hired at Copper Mountain Mine. Can I buy before my probation ends?", a: "Often you can start the process, and sometimes you can finish it. Many lenders want probation completed before they fund. Some will consider a file sooner if your last job was in the same trade and your employer letter is strong. Joshua can line up a pre-approval and a closing date that falls after probation." },
-    { q: "How will a lender count my 7x7 pay, overtime and night premiums?", a: "Base wage is usually counted in full once employment is confirmed. Overtime, night premiums and bonuses are variable. Many lenders average them over two years, so a new hire often qualifies on base pay first. Some lenders credit part of the extra pay sooner. Joshua shows you both versions." },
+    { q: "I just got hired at Copper Mountain Mine. Can I buy before my probation ends?", a: "Often you can start the process, and sometimes you can finish it. Many lenders want probation completed before they fund. Some will consider a file sooner if your last job was in the same trade and your employer letter is strong. I can line up a pre-approval and a closing date that falls after probation." },
+    { q: "How will a lender count my 7x7 pay, overtime and night premiums?", a: "Base wage is usually counted in full once employment is confirmed. Overtime, night premiums and bonuses are variable. Many lenders average them over two years, so a new hire often qualifies on base pay first. Some lenders credit part of the extra pay sooner. I show you both versions." },
     { q: "There is nowhere to rent in Princeton. Do I have to buy right away?", a: "Not always, but rentals are scarce. The Town's 2024 report put rental vacancy at 1.4%. If you cannot find a rental, a pre-approval before your start date lets you shop with a clear budget. Keep your down payment, closing costs and employer letter ready so you can move when a home comes up." },
-    { q: "Can I get a mortgage on a manufactured home in a Princeton park?", a: "Yes, in some cases, but the land decides. A manufactured home on land you own is a far easier file. A home on a rented pad has fewer lenders, shorter terms and age limits. Pad rent and park rules also affect the file. Joshua checks this before you make an offer." },
+    { q: "Can I get a mortgage on a manufactured home in a Princeton park?", a: "Yes, in some cases, but the land decides. A manufactured home on land you own is a far easier file. A home on a rented pad has fewer lenders, shorter terms and age limits. Pad rent and park rules also affect the file. I check this before you make an offer." },
     { q: "Can I add a suite or a carriage house to a Princeton home?", a: "Inside the Town, one accessory unit is allowed: a suite or a carriage house, not both. A suite has size limits and needs a parking space. The Town is rewriting its zoning bylaw, so confirm with the Town first. Outside town limits, regional district rules apply. A legal unit can help you qualify." }
   ]
 };

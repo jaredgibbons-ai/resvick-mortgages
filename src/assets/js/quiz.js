@@ -300,7 +300,7 @@
       if (def.match) {
         var m = lenderMatch(state.nums);
         h += '<p class="qz-kicker">Your lender match</p><h3 class="qz-band">' + esc(m.lender) + ", on a " + m.rateType + " rate</h3><p>" + esc(m.lenderWhy) + "</p><p>" + esc(m.rateWhy) + '</p><p class="small">Runner-up: ' + esc(m.runnerUp) + ". Every match is a starting point for a written comparison, never a recommendation on its own. The right lender for your file depends on income, property and timing.</p>";
-        h += '<div class="qz-actions qz-wrap"><a class="btn btn-sm" href="/contact/">Talk it through with Joshua</a><a class="btn btn-ghost btn-sm" href="/fixed-vs-variable-mortgage/">Fixed vs variable</a><a class="btn btn-ghost btn-sm" href="/collateral-charge-mortgage/">Collateral charges</a><a class="btn btn-ghost btn-sm" href="/mortgage-broker-vs-bank/">Compare lender types</a><button type="button" class="qz-link" data-act="restart">Take it again</button></div></div>';
+        h += '<div class="qz-actions qz-wrap"><a class="btn btn-sm" href="/contact/">Talk it through with me</a><a class="btn btn-ghost btn-sm" href="/fixed-vs-variable-mortgage/">Fixed vs variable</a><a class="btn btn-ghost btn-sm" href="/collateral-charge-mortgage/">Collateral charges</a><a class="btn btn-ghost btn-sm" href="/mortgage-broker-vs-bank/">Compare lender types</a><button type="button" class="qz-link" data-act="restart">Take it again</button></div></div>';
         sec.innerHTML = h; track("quiz_complete", { quiz: id }); return;
       }
       var r = score(def, state.answers);
@@ -311,7 +311,7 @@
       var links = []; (def.steps || []).forEach(function (st) { var o = st.options && st.options[state.answers[st.id]]; if (o && o.link && links.indexOf(o.link[0]) < 0) { links.push(o.link[0]); h += '<p class="qz-handoff"><a href="' + esc(o.link[0]) + '">' + esc(o.link[1]) + '</a></p>'; } });
       h += '<p class="small">Scores are a way to organise a conversation, not a lender decision. Nothing you typed has been sent anywhere.</p>';
       h += '<div class="qz-unlock"><button type="button" class="btn" data-act="unlock">Get the written version, free</button><a class="btn btn-ghost" href="' + esc(book) + '" data-evt="book_call_click">Book a 15-minute call</a><button type="button" class="qz-link" data-act="restart">Start over</button></div>';
-      h += '<form class="qz-form" hidden novalidate><p class="qz-q">Where should the written version go?</p><p class="small">Joshua writes it up by hand, usually within a business day, with the numbers above and what to do next. No obligation.</p>';
+      h += '<form class="qz-form" hidden novalidate><p class="qz-q">Where should the written version go?</p><p class="small">I write it up by hand, usually within a business day, with the numbers above and what to do next. No obligation.</p>';
       h += '<div class="fld"><label for="qz-name">Your name</label><input id="qz-name" name="name" type="text" autocomplete="name" required></div><div class="fld"><label for="qz-email">Email</label><input id="qz-email" name="email" type="email" autocomplete="email" required></div><div class="fld"><label for="qz-phone">Phone (optional)</label><input id="qz-phone" name="phone" type="tel" autocomplete="tel"></div>';
       h += '<label class="qz-check"><input type="checkbox" name="call"> I would like Joshua to call me about this</label><label class="qz-check"><input type="checkbox" name="consent_marketing"> Send me Joshua\'s occasional notes on rate decisions and rule changes (unsubscribe any time)</label><label class="qz-check"><input type="checkbox" name="consent_enquiry" required> I agree that Joshua Resvick may contact me about this enquiry. <a href="/privacy/">Privacy policy</a></label>';
       h += '<p class="qz-err" role="alert"></p><div class="qz-actions"><button type="submit" class="btn btn-sm">Send it</button><button type="button" class="qz-link" data-act="unlock-close">Cancel</button></div></form></div>';
@@ -361,7 +361,7 @@
     function submitLead(f) {
       var err = f.querySelector(".qz-err"), name = f.elements.name.value.trim(), email = f.elements.email.value.trim();
       if (!name || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { err.textContent = "A name and a working email address are needed to send it."; return; }
-      if (!f.elements.consent_enquiry.checked) { err.textContent = "Please tick the consent box so Joshua is allowed to reply."; return; }
+      if (!f.elements.consent_enquiry.checked) { err.textContent = "Please tick the consent box so I'm allowed to reply."; return; }
       var r = score(def, state.answers), ti = { quiz: id, score: r.score };
       Object.keys(state.nums).forEach(function (k) { if (Object.keys(ti).length < 20) ti[k] = state.nums[k]; });
       Object.keys(state.answers).forEach(function (k) { if (Object.keys(ti).length < 20) ti["a_" + k] = state.answers[k]; });
@@ -373,7 +373,7 @@
         track("form_submit", { form: "quiz", quiz: id });
         // Keep the score for /thank-you/ (no financial values), leave a one-conversion token, then go there. If navigation is blocked, the message below stays.
         try { window.sessionStorage.setItem("rm-quiz", JSON.stringify({ title: def.title, score: r.score, band: r.band.name, page: location.pathname })); window.sessionStorage.setItem("rm-lead", JSON.stringify({ f: "quiz", t: Date.now() })); } catch (x) {}
-        f.innerHTML = '<p class="qz-q">Sent. Thank you.</p><p>Joshua will write it up and send it to ' + esc(email) + '. If you would rather talk sooner, <a href="' + esc(book) + '" data-evt="book_call_click">book a 15-minute call</a>.</p>';
+        f.innerHTML = '<p class="qz-q">Sent. Thank you.</p><p>I\'ll write it up and send it to ' + esc(email) + '. If you would rather talk sooner, <a href="' + esc(book) + '" data-evt="book_call_click">book a 15-minute call</a>.</p>';
         try { location.assign("/thank-you/?f=quiz"); } catch (x) {}
       }).catch(function () { btn.disabled = false; btn.textContent = "Send it"; err.innerHTML = 'That did not go through. Email <a href="mailto:joshua@resvickmortgages.com">joshua@resvickmortgages.com</a> or call 778.882.5674 and mention your score.'; });
     }

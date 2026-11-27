@@ -22,7 +22,7 @@ ${short({ answer: "Your renewal letter is your lender's first offer, not your on
 <li><strong>Switch to a new lender.</strong> A switch at maturity is a transfer of your mortgage. There's no prepayment penalty at maturity. The new lender often covers the legal and appraisal costs. The full process is on the page about <a href="/switch-mortgage-lenders-at-renewal/">switching lenders at renewal</a>.</li>
 <li><strong>Refinance.</strong> Want to change the balance, borrow more or stretch the amortization? That's a refinance, and the rules are different. The <a href="/refinance-mortgage-bc/">refinance hub</a> explains when it makes sense.</li>
 </ol>
-<p>Which one is best depends on the numbers and your plans for the next few years. A lender comparison puts those numbers side by side, so you're not deciding on a hunch. Joshua prepares one in writing, the <a href="/lender-comparison-report/">Lender Comparison Report</a>.</p>
+<p>Which one is best depends on the numbers and your plans for the next few years. A lender comparison puts those numbers side by side, so you're not deciding on a hunch. I prepare one in writing, the <a href="/lender-comparison-report/">Lender Comparison Report</a>.</p>
 
 <h2>The timeline that matters: 120 days and 21 days</h2>
 <p>Two numbers shape a renewal. The first is 21 days. Lenders send a renewal statement shortly before your term ends. The rule requires at least 21 days, and many lenders send it earlier.</p>
@@ -39,7 +39,7 @@ ${short({ answer: "Your renewal letter is your lender's first offer, not your on
 <p>Credit unions, collateral charges and any increase in the balance change the picture. The new lender still checks your credit, income and property. Read the full explanation in the <a href="/stress-test-exemption-switching-lenders/">guide to the stress-test exemption for switching lenders</a>.</p>
 
 <p>Not sure where you stand? The two-minute <a href="/renewal-check/">renewal check</a> tells you whether you're ready to compare before you sign.</p>
-${cta({ title: "Four months out? That's the moment.", text: "Book a 15-minute call. Bring your renewal letter or maturity date. Joshua will show you your options before the clock runs down." })}
+${cta({ title: "Four months out? That's the moment.", text: "Book a 15-minute call. Bring your renewal letter or maturity date. I'll show you your options before the clock runs down." })}
 
 <h2>What switching costs, and who pays</h2>
 <p>A switch at maturity usually means discharging the old mortgage and registering the new one. There's some legal work, and sometimes an appraisal.</p>
@@ -57,7 +57,7 @@ ${cta({ title: "Four months out? That's the moment.", text: "Book a 15-minute ca
 <p>The page on <a href="/mortgage-renewal-letter-explained/">how to read your mortgage renewal letter</a> walks through every line. If a lender has declined to renew, or you're worried it might, see <a href="/mortgage-renewal-denied/">what to do when a renewal is denied</a>.</p>
 
 <h2>Renewing a rental property</h2>
-<p>Landlords face the same timeline, with a few extra conditions. Lenders treat rental income differently. They often look at your whole portfolio. And choosing between renewing and refinancing can have tax effects. Joshua covers all of it on the page about <a href="/rental-property-mortgage-renewal/">renewing a mortgage on a rental property</a>.</p>
+<p>Landlords face the same timeline, with a few extra conditions. Lenders treat rental income differently. They often look at your whole portfolio. And choosing between renewing and refinancing can have tax effects. I cover all of it on the page about <a href="/rental-property-mortgage-renewal/">renewing a mortgage on a rental property</a>.</p>
 
 <h2>I'll check in before your renewal</h2>
 <p>The best renewals are planned long before the letter shows up. That's the point of my <a href="/mortgage-aftercare-program/">aftercare program</a>. Here's what it includes:</p>
@@ -67,7 +67,7 @@ ${cta({ title: "Four months out? That's the moment.", text: "Book a 15-minute ca
 <li>Plain-language notes when the Bank of Canada makes an announcement.</li>
 <li>A call about six months before your term ends, so there's time to compare.</li>
 </ul>
-<p>Is your mortgage with a bank or another broker? You can still use the free reminder. You can also <a href="/contact/">contact Joshua</a> any time to talk through your options.</p>
+<p>Is your mortgage with a bank or another broker? You can still use the free reminder. You can also <a href="/contact/">contact me</a> any time to talk through your options.</p>
 <p>And since it comes up, here's how fees work. With a mainstream (A) lender, the lender pays the broker, and you pay nothing for the service. Fees come up only on some B-lender and private-lender files. BC rules require written disclosure before you commit.</p>
 
 ${callout("Illustrative figures", "<p>The payment and interest examples on this page use sample balances and rates to make a point. They aren't quotes. Your lender's figures, and the rates available to you on the day, will differ.</p>")}
@@ -86,6 +86,6 @@ export default {
     { q: "When should I start shopping for my renewal?", a: "About four months, or 120 days, before maturity. Most lenders will hold a rate for roughly that long, while the renewal statement itself may arrive only 21 days or so before the term ends. Starting at 120 days leaves time to compare, negotiate and, if needed, switch." },
     { q: "Will I need to pass the stress test to switch lenders?", a: "Often not on a straight switch. Since late 2024, uninsured straight switches between federally regulated lenders do not need the stress test if the amount and amortization stay the same. You may not need to re-pass it, but the new lender still checks credit, income and property." },
     { q: "What happens if I do nothing at renewal?", a: "If the maturity date passes with nothing signed, the mortgage typically rolls into an open term at a rate that's usually much higher than a negotiated one. It's avoidable. Read the letter, note the deadline and respond before it, or set a renewal reminder well ahead of time." },
-    { q: "Does a broker charge me for a renewal?", a: "On a mortgage placed with a mainstream A lender, the lender pays the broker and you pay nothing for the service. Fees arise only on certain B-lender and private-lender files, with written disclosure first. Joshua explains how this works on his page about how brokers get paid." }
+    { q: "Does a broker charge me for a renewal?", a: "On a mortgage placed with a mainstream A lender, the lender pays the broker and you pay nothing for the service. Fees arise only on certain B-lender and private-lender files, with written disclosure first. I explain how this works on my page about how brokers get paid." }
   ]
 };

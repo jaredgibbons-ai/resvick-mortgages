@@ -42,9 +42,9 @@ ${short({ answer: "Renewing with your current lender is often still possible, be
 
 ${callout("A plan, in order", "<p>1. Find your maturity date and your renewal offer. 2. Confirm whether your own lender will renew, and on what terms. 3. If you want to switch, apply while your income is still documented. Or ask a broker what each lender will accept. 4. If you can't switch, take the same-lender renewal instead of letting the term lapse. 5. Rebuild your income picture and revisit the market at the next chance.</p>")}
 
-<p>Renewal has its own calendar. The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> sets out the timeline, the costs of switching and the common traps. The page on <a href="/switch-mortgage-lenders-at-renewal/">switching mortgage lenders at renewal</a> explains the steps one by one. It's useful context before you decide whether to try. If you'd like to talk it through, <a href="/contact/">contact Joshua</a> and describe your timeline.</p>
+<p>Renewal has its own calendar. The <a href="/mortgage-renewal-bc/">mortgage renewal guide</a> sets out the timeline, the costs of switching and the common traps. The page on <a href="/switch-mortgage-lenders-at-renewal/">switching mortgage lenders at renewal</a> explains the steps one by one. It's useful context before you decide whether to try. If you'd like to talk it through, <a href="/contact/">contact me</a> and describe your timeline.</p>
 
-${cta({ title: "Talk it through before you decide", text: "If your job situation is about to change, a short talk can show which track is open to you. Book a 15-minute call. Joshua has an underwriting background, and he'll tell you what a lender is likely to approve." })}
+${cta({ title: "Talk it through before you decide", text: "If your job situation is about to change, a short talk can show which track is open to you. Book a 15-minute call. I have an underwriting background, and I'll tell you what a lender is likely to approve." })}
 `;
 
 export default {

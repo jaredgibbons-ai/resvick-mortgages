@@ -8,9 +8,9 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-que
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Quesnel by phone and video from his Surrey office. He builds each file around the pay you can document today, whether you work at a mill, a mine, a hospital or for yourself.",
+  answer: "I serve Quesnel by phone and video from my Surrey office. I build each file around the pay you can document today, whether you work at a mill, a mine, a hospital or for yourself.",
   who: "Buyers, newcomers and owners in Quesnel and the North Cariboo, including forestry workers facing shift changes or a layoff.",
-  next: "Book a 15-minute call and tell Joshua how you are paid."
+  next: "Book a 15-minute call and tell me how you are paid."
 })}
 <p>Quesnel sits where the Quesnel River meets the Fraser River, on Highway 97. It lies nearly evenly between Prince George and Williams Lake (Wikipedia, Quesnel, read October 2026). The 2021 census counted 9,889 people (North Cariboo Housing Needs Assessment, December 2024, read October 2026).</p>
 <p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I spent five years as a lender's underwriter before I started brokering, and more than 1,000 mortgages have been funded through me. I work from my Surrey office and help Quesnel clients by phone and video. There is no Quesnel branch. You can <a href="/contact/">book a 15-minute call</a> from home, from the truck or on a break.</p>
@@ -27,12 +27,12 @@ ${ratesStrip()}
 <li><strong>You are working now.</strong> A lender wants to confirm your job. An employer letter and recent pay stubs do most of the work. Base wage counts in full once confirmed. Shift premiums and overtime usually need a two-year history.</li>
 <li><strong>You are on a temporary layoff.</strong> Many lenders will not fund a new purchase with no current paid work. Some will look at a firm recall letter. Policies vary, so ask before you make an offer.</li>
 <li><strong>You received employment insurance or severance.</strong> Many lenders do not count these as income to qualify for a new mortgage. Some count part of them. Do not assume either way.</li>
-<li><strong>You already own and a renewal is coming.</strong> Talk to Joshua early. The <a href="/mortgage-renewal-bc/">renewal guide</a> covers the timeline, and the page on <a href="/renewing-mortgage-without-a-job/">renewing without a job</a> covers the harder cases.</li>
+<li><strong>You already own and a renewal is coming.</strong> Talk to me early. The <a href="/mortgage-renewal-bc/">renewal guide</a> covers the timeline, and the page on <a href="/renewing-mortgage-without-a-job/">renewing without a job</a> covers the harder cases.</li>
 </ul>
 <p>The common thread is timing. The earlier a file is reviewed, the more options it has.</p>
 
 <h2>Incomes in Quesnel</h2>
-<p>The 2021 Census puts Quesnel's median household income at $67,000 for 2020. About 10.9 percent of workers were self-employed, or 485 of 4,440 in the labour force. Manufacturing was the largest industry with 750 workers, followed by health care with 625 and retail with 610. (Statistics Canada, 2021 Census Profile, read October 2026). Manufacturing includes wood products, so many Quesnel files are mill wages, often with shift work and overtime. Lenders commonly average overtime over two years. If your mill shifts are cut back, tell Joshua early, since lenders look at your most recent pay.</p>
+<p>The 2021 Census puts Quesnel's median household income at $67,000 for 2020. About 10.9 percent of workers were self-employed, or 485 of 4,440 in the labour force. Manufacturing was the largest industry with 750 workers, followed by health care with 625 and retail with 610. (Statistics Canada, 2021 Census Profile, read October 2026). Manufacturing includes wood products, so many Quesnel files are mill wages, often with shift work and overtime. Lenders commonly average overtime over two years. If your mill shifts are cut back, tell me early, since lenders look at your most recent pay.</p>
 ${censusTable("quesnel")}
 
 <h2>Moving to Quesnel: buying a home before or after you arrive</h2>
@@ -44,10 +44,10 @@ ${censusTable("quesnel")}
 <li><strong>Pick a closing date that fits your move.</strong> If you can, close after your start date and after any probation ends.</li>
 <li><strong>Plan for the home you leave.</strong> If it has not sold, a <a href="/bridge-financing/">bridge loan</a> may cover a gap in some cases.</li>
 </ol>
-<p>Joshua works by phone and video, so none of this needs a trip north. A realtor in town can show you homes while he handles the lender side.</p>
+<p>I work by phone and video, so none of this needs a trip north. A realtor in town can show you homes while I handle the lender side.</p>
 
 <h2>Other paycheques in the North Cariboo</h2>
-<p>The mills are the biggest name, but not the only one. Here are other income types Joshua sees.</p>
+<p>The mills are the biggest name, but not the only one. Here are other income types I see.</p>
 <h3>Mine work</h3>
 <p>Taseko says its Gibraltar copper mine in the Cariboo employs about 700 people (Taseko, February 11, 2025, read October 2026). Mine pay often runs on shifts. A lender reads base wage first, then looks at premiums and bonuses with a longer history.</p>
 <h3>Health care and public service</h3>
@@ -84,7 +84,7 @@ ${censusTable("quesnel")}
 <li><strong>I stay in touch.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage each year and call you about six months before renewal. That way a change in your work does not catch you off guard.</li>
 </ol>
 
-${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Quesnel files, such as pad homes or very new income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
+${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays me and you pay nothing for my work. Some Quesnel files, such as pad homes or very new income, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
 <h2>Test your numbers, and plan the next step</h2>
 <p>The <a href="/mortgage-calculators/">mortgage calculators</a> let you try your own numbers. The <a href="/mortgage-rates-bc/">BC rates hub</a> explains how a rate is set, without quoting one that goes stale.</p>
@@ -92,7 +92,7 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 <h2>Close to Quesnel</h2>
 <p>Many Quesnel buyers also compare Prince George, which has a bigger market and more condos and townhouses. The <a href="/mortgage-broker-prince-george/">Prince George page</a> covers the northern service centre.</p>
 
-<p>If a home near Quesnel sits on First Nation land, it is financed differently from other land. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
+<p>If a home near Quesnel sits on First Nation land, it is financed differently from other land. I arrange mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
 
 
 ${cityFacts("quesnel")}
@@ -104,18 +104,18 @@ ${cta({ title: "Talk to a broker who serves Quesnel", text: "Book a 15-minute ca
 export default {
   slug: "/mortgage-broker-quesnel/",
   h1: "Mortgage broker in Quesnel, BC: buying a home or moving to Quesnel",
-  lede: "Buying a home in Quesnel, or moving to Quesnel for work? Joshua Resvick, Xeva Mortgage, serves Quesnel from his Surrey office by phone and video. Mill, mine and hospital pay, self-employed income, acreages and suites, explained the way an underwriter reads them.",
+  lede: "Buying a home in Quesnel, or moving to Quesnel for work? I'm Joshua Resvick, with Xeva Mortgage, and I serve Quesnel from my Surrey office by phone and video. Mill, mine and hospital pay, self-employed income, acreages and suites, explained the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Quesnel", "/mortgage-broker-quesnel/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
     { q: "Can I buy a home in Quesnel before I move there?", a: "Yes, often. Many people get pre-approved by phone or video, then make an offer through a realtor or on a visit. Lenders look at your job, pay and credit, not where you live today. Ask for a closing date that fits your start date, and plan for the home you are leaving." },
-    { q: "I am moving to Quesnel. When should I get pre-approved?", a: "As soon as you have a signed job offer, or a clear picture of your income if you work remotely. A pre-approval shows your price range and holds a rate for a set time. Bring pay stubs, T4s and down payment details. If probation applies, tell Joshua early." },
-    { q: "My mill hours were cut or paused. Can I still get a mortgage?", a: "It depends on the lender and on your status. If you are working, your employer letter and pay stubs matter most. If you are laid off, many lenders wait until pay resumes, and some look at a firm recall letter. Talk to Joshua before you apply or make an offer." },
+    { q: "I am moving to Quesnel. When should I get pre-approved?", a: "As soon as you have a signed job offer, or a clear picture of your income if you work remotely. A pre-approval shows your price range and holds a rate for a set time. Bring pay stubs, T4s and down payment details. If probation applies, tell me early." },
+    { q: "My mill hours were cut or paused. Can I still get a mortgage?", a: "It depends on the lender and on your status. If you are working, your employer letter and pay stubs matter most. If you are laid off, many lenders wait until pay resumes, and some look at a firm recall letter. Talk to me before you apply or make an offer." },
     { q: "Will a lender count employment insurance or severance?", a: "Many lenders do not count either as income to qualify for a new mortgage, and some count only part. Lenders vary. Keep your records, and ask before you rely on them. If you already own, raise any renewal early so there is time to compare options." },
     { q: "Can I add or legalize a suite in Quesnel?", a: "The City allows secondary suites in most residential zones, with a building permit and fire separation between units. Existing suites can be inspected and legalized. Check your zone with the City first. A legal, documented suite can help you qualify, while an unpermitted one usually does not." },
-    { q: "Can I get a mortgage on an acreage with a well and septic?", a: "Often, but not with every lender. Many cap the acres they count, want year-round road access and ask for water and septic proof. Some decline land farmed as a business. Joshua identifies the property type before you write an offer, so your conditions are realistic." },
+    { q: "Can I get a mortgage on an acreage with a well and septic?", a: "Often, but not with every lender. Many cap the acres they count, want year-round road access and ask for water and septic proof. Some decline land farmed as a business. I identify the property type before you write an offer, so your conditions are realistic." },
     { q: "Why might a Quesnel home appraise low?", a: "A smaller market has fewer recent sales, so an appraiser may have few close comparisons. The value can land under the price you agreed on. Keep extra cash on hand, and add a financing condition with enough time. Lenders vary in how they treat small markets." }
   ]
 };

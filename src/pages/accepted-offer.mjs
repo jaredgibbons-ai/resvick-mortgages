@@ -5,7 +5,7 @@ const BOOK45 = "https://cal.com/resvickmortgages/30min"; // cal.com "New Client 
 
 const form = `
 <div class="form-card urgent" data-nocount>
-<form data-lead="accepted-offer" data-success="Got it. Joshua will be in touch about your file." novalidate>
+<form data-lead="accepted-offer" data-success="Got it. I'll be in touch about your file." novalidate>
 <div class="row2">
 <div class="fld"><label for="o-name">Your name</label><input id="o-name" name="name" type="text" autocomplete="name" required></div>
 <div class="fld"><label for="o-phone">Mobile phone</label><input id="o-phone" name="phone" type="tel" autocomplete="tel" required></div>
@@ -84,7 +84,7 @@ ${callout("Already an accepted offer and no pre-approval?", "<p>It happens, and 
 <div class="book-facade" data-nocount>
 <p><strong>45-minute file review</strong></p>
 <div id="book-frame-45" style="width:100%"></div>
-<button class="btn" type="button" data-book-load data-book-frame="book-frame-45" data-book-url="${BOOK45}" data-book-title="Book a 45-minute file review with Joshua Resvick">Show available times</button>
+<button class="btn" type="button" data-book-load data-book-frame="book-frame-45" data-book-url="${BOOK45}" data-book-title="Book a 45-minute file review with me">Show available times</button>
 <a href="${BOOK45}" data-evt="book_call_click">Or open the booking page in a new view</a>
 <p class="small">If nothing suits in the next day or two, don't wait for the calendar. Phone <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p>
 </div>

@@ -46,10 +46,10 @@ ${short({ answer: "Most closed mortgages let you pay extra each year with no pen
 ${callout("Check before you promise yourself a payoff", "<p>People often plan to pay off a mortgage with a coming windfall. Then they find the amount is more than the prepayment privilege allows. Read the privileges and the penalty before you count on a date. If the penalty on the excess is large, waiting for maturity may be better.</p>")}
 
 <h2>Prepayment planning inside aftercare</h2>
-<p>Prepayment is a plan you revisit, not a one-time choice. Joshua Resvick holds an annual review as part of <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>. In it, he looks at your privileges, your progress and your goals. He works out whether it makes sense to prepay, raise your payment or keep the money in reserve. He also notes the dates your allowance resets, so you don't miss them.</p>
-<p>When you choose a mortgage, he compares prepayment terms across a wide range of lenders. You get them in writing in the <a href="/lender-comparison-report/">Lender Comparison Report</a>. On a mortgage placed with a mainstream (A) lender, the lender pays the broker and you pay nothing for the service. Fees only come up on certain B-lender and private-lender files, with written disclosure first.</p>
+<p>Prepayment is a plan you revisit, not a one-time choice. I hold an annual review as part of <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>. In it, I look at your privileges, your progress and your goals. I work out whether it makes sense to prepay, raise your payment or keep the money in reserve. I also notes the dates your allowance resets, so you don't miss them.</p>
+<p>When you choose a mortgage, I compare prepayment terms across a wide range of lenders. You get them in writing in the <a href="/lender-comparison-report/">Lender Comparison Report</a>. On a mortgage placed with a mainstream (A) lender, the lender pays the broker and you pay nothing for the service. Fees only come up on certain B-lender and private-lender files, with written disclosure first.</p>
 
-${cta({ title: "Know your privileges before you need them", text: "Send Joshua your mortgage contract or renewal letter and he will list your privileges, your penalty method and the best time to use them.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "Know your privileges before you need them", text: "Send me your mortgage contract or renewal letter and I'll list your privileges, your penalty method and the best time to use them.", href: "/contact/", label: "Contact me" })}
 `;
 
 export default {

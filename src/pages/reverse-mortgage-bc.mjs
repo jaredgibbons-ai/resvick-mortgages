@@ -43,7 +43,7 @@ ${short({ answer: "A reverse mortgage lets homeowners 55 and over borrow against
 </ul>
 
 <p>Want to see the numbers? The <a href="/reverse-mortgage-calculator-bc/">reverse mortgage calculator</a> shows the most you could get and how the balance grows each year.</p>
-${cta({ title: "Bring the family to the call", text: "A reverse mortgage is a family decision as much as a money one. Book a 15-minute call, and bring an adult child or anyone else it affects. Joshua will explain the cost curve, the alternatives and what the estate would look like. There's no pressure to go ahead." })}
+${cta({ title: "Bring the family to the call", text: "A reverse mortgage is a family decision as much as a money one. Book a 15-minute call, and bring an adult child or anyone else it affects. I'll explain the cost curve, the alternatives and what the estate would look like. There's no pressure to go ahead." })}
 
 <h2>The family conversation</h2>
 <p>A reverse mortgage changes what the estate will be. Some adult children expect to inherit the home, or to help with its upkeep. They should know what's being considered before it's signed, not after.</p>
@@ -52,12 +52,12 @@ ${cta({ title: "Bring the family to the call", text: "A reverse mortgage is a fa
 
 <h2>Who offers them</h2>
 <p>A small number of specialist lenders offer reverse mortgages in Canada. They include a federally regulated bank that has offered the product for decades, a second bank that joined the market more recently, and newer entrants. Each sets its own age rules, maximum share of value, rate, fees and prepayment terms. The terms differ enough that comparing them matters.</p>
-<p>This page doesn't name products or quote rates. The terms change, and a rate on a page is out of date the day after it's written. Joshua compares the current offers for each client and explains the differences in writing.</p>
+<p>This page doesn't name products or quote rates. The terms change, and a rate on a page is out of date the day after it's written. I compare the current offers for each client and explain the differences in writing.</p>
 <p>On a reverse mortgage arranged through a broker, the lender pays the broker and you pay nothing for the service. If a fee ever applied on a file, it would be disclosed to you in writing on a Form 1A before you commit. The lender's own fees for the appraisal, set-up and legal work are separate. The lender discloses those.</p>
 
 <h2>After it is in place</h2>
-<p>A reverse mortgage isn't something to set up and forget. Review the balance each year against the home's value. Your circumstances can also change in ways that make repaying or moving sensible. Joshua's <a href="/mortgage-aftercare-program/">aftercare program</a> includes that yearly review for his clients.</p>
-<p>Are you or a parent thinking about a reverse mortgage? Or do you already have one and want a second opinion? <a href="/contact/">Contact Joshua</a>. The conversation is confidential, and there's no obligation.</p>
+<p>A reverse mortgage isn't something to set up and forget. Review the balance each year against the home's value. Your circumstances can also change in ways that make repaying or moving sensible. My <a href="/mortgage-aftercare-program/">aftercare program</a> includes that yearly review for my clients.</p>
+<p>Are you or a parent thinking about a reverse mortgage? Or do you already have one and want a second opinion? <a href="/contact/">Contact me</a>. The conversation is confidential, and there's no obligation.</p>
 
 ${callout("Take the time", "<p>Nobody needs to decide on a reverse mortgage quickly. If someone is pressing you to sign, that's a reason to slow down. Get independent advice and involve your family. The loan will still be there next month.</p>")}
 `;
@@ -69,7 +69,7 @@ export default {
   crumbs: [["Home", "/"], ["Refinancing", "/refinance-mortgage-bc/"], ["Reverse mortgages", "/reverse-mortgage-bc/"]],
   nav: "/refinance-mortgage-bc/", body,
   faqs: [
-    { q: "Can I use a mortgage broker for a reverse mortgage?", a: "Yes. Reverse mortgages in Canada come from a small number of lenders, and a broker can compare them with other options like a HELOC or downsizing. Joshua arranges reverse mortgages across BC, including Vancouver and the Fraser Valley, by phone and video from his Surrey office." },
+    { q: "Can I use a mortgage broker for a reverse mortgage?", a: "Yes. Reverse mortgages in Canada come from a small number of lenders, and a broker can compare them with other options like a HELOC or downsizing. I arrange reverse mortgages across BC, including Vancouver and the Fraser Valley, by phone and video from my Surrey office." },
     { q: "How does a reverse mortgage work in Canada?", a: "Homeowners aged 55 and over borrow against their home with no regular payments required. Interest is added to the balance monthly, and the loan is repaid when the home is sold, the last borrower moves out permanently or dies, or the borrower chooses to repay. Title stays with the owner." },
     { q: "How much can I get from a reverse mortgage?", a: "Typically up to about 55 percent of the appraised value, with some products slightly higher, and the share rises with age. The exact amount depends on your age, the home's value and location, and the lender's rules. The funds are not taxed as income." },
     { q: "What does a reverse mortgage cost over time?", a: "Because nothing is paid, interest compounds on interest and the balance roughly doubles in about ten years at a 7 percent rate, in a generic illustration. Equity shrinks accordingly unless the home's value rises enough to offset it. Rates are higher than on conventional mortgages." },

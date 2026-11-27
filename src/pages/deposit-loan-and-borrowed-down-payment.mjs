@@ -39,7 +39,7 @@ ${short({
 <p>Insured mortgages carry a premium charged as a percentage of the loan. The premium rises with the loan-to-value. For a purchase at 90.01 to 95 percent loan-to-value with a traditional down payment, the premium is 4.00 percent. With a non-traditional, borrowed down payment at the same loan-to-value, the premium is 4.50 percent. Both figures carry a 0.20 percent surcharge if the amortization is longer than 25 years. On a $570,000 mortgage, the difference between 4.00 and 4.50 percent is $2,850. It's added to the loan and paid off over its life. The <a href="/mortgage-calculators/#cmhc">CMHC premium calculator</a> shows the premium at each tier.</p>
 <p>So a borrowed down payment costs you three times. You pay interest on the borrowed funds. You qualify for less. And you pay the higher premium. For some buyers it's still worth it, because waiting to save has its own cost in rent and in the risk of prices or rates moving. For others it's a sign that the purchase is a year or two early. A broker's job is to show the arithmetic both ways. The <a href="/mortgage-application-checklist/">application checklist</a> shows what a lender will ask for on either path.</p>
 
-${cta({ title: "Find out if borrowing the down payment makes sense for you", text: "Book a 15-minute call. Joshua will run your income, credit and the borrowed payment through the ratios, show you the all-in cost against waiting to save, and tell you which lenders offer flex-down on a file like yours." })}
+${cta({ title: "Find out if borrowing the down payment makes sense for you", text: "Book a 15-minute call. I'll run your income, credit and the borrowed payment through the ratios, show you the all-in cost against waiting to save, and tell you which lenders offer flex-down on a file like yours." })}
 
 <h2>Who should not do this</h2>
 <ul>
@@ -49,7 +49,7 @@ ${cta({ title: "Find out if borrowing the down payment makes sense for you", tex
 <li><strong>Anyone who could save it within a year or two.</strong> Waiting avoids all three costs above. The programs on the <a href="/first-time-home-buyer-bc/">first-time home buyer page</a> help too. The First Home Savings Account, in particular, makes saving faster than it used to be.</li>
 <li><strong>Anyone being told it is simple.</strong> It isn't. The product exists and it's legitimate. It has three costs that must be counted honestly.</li>
 </ul>
-<p>On a mortgage placed with a prime lender under a flex-down program, the lender pays the broker and you pay nothing for the arrangement. Fees arise only on B-lender and private files. You get written disclosure on a Form 1A first. If you want the numbers run for your own situation, <a href="/contact/">contact Joshua</a> or book a call.</p>
+<p>On a mortgage placed with a prime lender under a flex-down program, the lender pays the broker and you pay nothing for the arrangement. Fees arise only on B-lender and private files. You get written disclosure on a Form 1A first. If you want the numbers run for your own situation, <a href="/contact/">contact me</a> or book a call.</p>
 
 ${callout("A borrowed down payment is still a down payment", "<p>The money has to be real, in your account, and traceable to a loan you are responsible for. Lenders verify the source. The program is a way to fund a five percent down payment from credit, not a way around having one.</p>")}
 `;

@@ -23,7 +23,7 @@ ${short({
 
 <h2>Can a second home be insured?</h2>
 <p>Insured mortgages, where you put down less than 20 percent, are meant for homes you occupy. CMHC's published rules say the property must be suitable and available for full-time, year-round use, and intended for homeowner occupancy. They also allow insured financing on up to two properties per borrower at a time. In practice, that means a house or condo that works as a year-round home may qualify. A seasonal cottage usually does not.</p>
-<p>The insurers update their rules, and lenders can be stricter than the insurer. Most vacation property is bought with a conventional mortgage, which means at least 20 percent down. Joshua can check the current rules for the property you have in mind.</p>
+<p>The insurers update their rules, and lenders can be stricter than the insurer. Most vacation property is bought with a conventional mortgage, which means at least 20 percent down. I can check the current rules for the property you have in mind.</p>
 
 <h2>How much down payment to expect</h2>
 <p>Plan on 20 percent as a starting point, and more for some properties. Lenders often ask for a larger down payment on seasonal or remote property, on a property with no year-round road, or on one that is hard to sell. Water-access property is the hardest to finance. Some lenders will not touch it, and the ones that will may limit the loan to a smaller share of the value.</p>
@@ -52,24 +52,24 @@ ${short({
 <li>BC's Speculation and Vacancy Tax in designated areas. Check whether the property sits in one.</li>
 <li>Upkeep and travel. A property you visit a few times a year still needs care when you are away.</li>
 </ul>
-<p>When you sell, tax rules for a second property differ from those for your main home. A tax adviser can explain what applies to you. A broker does not give tax advice, but Joshua will tell you when a question belongs with your accountant.</p>
+<p>When you sell, tax rules for a second property differ from those for your main home. A tax adviser can explain what applies to you. A broker does not give tax advice, but I'll tell you when a question belongs with your accountant.</p>
 
 <h2>Other ways to fund it</h2>
 <p>A new mortgage on the second home is not the only route. You can also borrow against your main home to buy the second one outright, or to put down a larger share. That gives you one lender and one set of rules, but it puts your main home at risk. Whether it makes sense depends on your income and plans, and the answer is often different from what people expect. A comparison on paper, with the costs of each route, makes the choice clearer.</p>
 <p>If your main home is not sold yet and the second property is the one you want to keep, see <a href="/bridge-financing/">bridge financing</a>. If you plan to retire to the second home, the page on <a href="/mortgages-for-retirees-and-seniors/">retirees and seniors</a> explains how lenders count retirement income.</p>
 
-<h2>How Joshua helps</h2>
+<h2>How I help</h2>
 <ol>
 <li><strong>A 15-minute call</strong> about both homes, your income and how you plan to use the new place.</li>
-<li><strong>A lender match.</strong> Lenders differ a lot on cottages, remote property and rental use. Joshua checks the fit before you make an offer.</li>
+<li><strong>A lender match.</strong> Lenders differ a lot on cottages, remote property and rental use. I check the fit before you make an offer.</li>
 <li><strong>A plan for the down payment</strong>, whether it comes from savings, a line of credit or a refinance.</li>
 <li><strong>A review of the property</strong> against what the lender will ask, such as access, water, septic and strata documents.</li>
 </ol>
 <p>On a mortgage placed with an A lender, the lender pays the broker and you pay nothing for the service. Fees arise only on some B-lender and private files. They are disclosed in writing on BCFSA's Form 1A before you commit.</p>
 
-${callout("Tell the lender the plan", "<p>The most common problem on a second home is a mismatch between how the buyer plans to use it and how the lender sees it. Say what you plan to do, including any rental, and Joshua will match the file to a lender who is comfortable with it.</p>")}
+${callout("Tell the lender the plan", "<p>The most common problem on a second home is a mismatch between how the buyer plans to use it and how the lender sees it. Say what you plan to do, including any rental, and I'll match the file to a lender who is comfortable with it.</p>")}
 
-${cta({ title: "Looking at a second home?", text: "Book a 15-minute call. You will leave with a down payment target, a list of lenders that fit the property and a plan for the money. Or <a href=\"/contact/\">contact Joshua</a> by email." })}
+${cta({ title: "Looking at a second home?", text: "Book a 15-minute call. You will leave with a down payment target, a list of lenders that fit the property and a plan for the money. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {

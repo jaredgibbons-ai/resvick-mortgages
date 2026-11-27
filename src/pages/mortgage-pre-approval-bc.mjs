@@ -26,7 +26,7 @@ ${short({ answer: "A real pre-approval means a lender has checked your income, c
 <p>It also depends on your file staying the same. The lender reviews your file again before funding. So changes between pre-approval and closing can change the answer. Think of a new car loan, a job change, a big unexplained deposit or a missed payment. The pre-approval protects you from the problems that exist today. It can't protect you from problems created later. So the practical advice is to keep your finances steady until you have the keys.</p>
 
 <p>Not sure you're ready to apply? The two-minute <a href="/purchase-readiness-check/">purchase readiness check</a> tells you what to work on first.</p>
-${cta({ title: "Want to know your real number before you shop?", text: "Book a 15-minute call. Joshua will tell you what documents to bring and how he would structure your pre-approval." })}
+${cta({ title: "Want to know your real number before you shop?", text: "Book a 15-minute call. I'll tell you what documents to bring and how I would structure your pre-approval." })}
 
 <h2>Documents by employment type</h2>
 <p>The checklist depends on how you earn your income. These lists are a general guide, and a specific lender may ask for more. The <a href="/mortgage-application-checklist/">application checklist</a> goes into the six issues that most often sink applications. For a printable version with boxes to tick, get the <a href="/mortgage-document-checklist/">free document checklist</a>. To see the steps that follow, read <a href="/what-happens-after-you-apply/">what happens after you apply</a>.</p>
@@ -55,10 +55,10 @@ ${cta({ title: "Want to know your real number before you shop?", text: "Book a 1
 <p>The time depends mostly on how complete your documents are. A buyer with employment income, a clean credit report and statements ready can move quickly. A file with missing documents, explanation letters or unclear income takes longer. Every gap becomes a question the lender needs answered before it will commit. The easiest way to shorten the process is to gather the documents before you ask.</p>
 <p>A lender's pre-approval usually carries an expiry date and a rate hold for a limited period, and the length varies by lender. Ask for the terms in writing. If your shopping takes longer than the hold, the approval can usually be refreshed, but it is another review of your file.</p>
 
-<h2>How Joshua approaches it</h2>
-<p>Joshua's background includes underwriting mortgage files at volume, and he does a pre-approval the way an underwriter would. He reads your documents looking for the reasons a lender might hesitate, then fixes or explains them before the file goes anywhere. The goal is a pre-approval that holds up when it is tested, not one that merely produces an attractive number.</p>
+<h2>How I approach it</h2>
+<p>My background includes underwriting mortgage files at volume, and I do a pre-approval the way an underwriter would. I read your documents looking for the reasons a lender might hesitate, then fix or explain them before the file goes anywhere. The goal is a pre-approval that holds up when it is tested, not one that merely produces an attractive number.</p>
 <p>That approach includes choosing the lender. Lenders count income, credit events and properties differently. So the right match for your file may not be the lender with the lowest advertised rate. Fees are straightforward: on a mortgage with a mainstream (A) lender, the lender pays the broker and you pay nothing for the service.</p>
-<p>If you are early in the process, start with the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> for the whole sequence, then <a href="/contact/">contact Joshua</a> to book a call.</p>
+<p>If you are early in the process, start with the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> for the whole sequence, then <a href="/contact/">contact me</a> to book a call.</p>
 
 ${callout("A quick test", "<p>Before you rely on a pre-approval, ask three questions. Did anyone read my documents? Did anyone check my credit? Is the amount and the rate hold in writing? If the answer to any is no, you have an estimate, not a pre-approval.</p>")}
 `;
@@ -76,6 +76,6 @@ export default {
     { q: "Can I get a mortgage pre-approval without a credit check?", a: `A real one needs your credit report, because credit is one of the things being verified. A rate quote or an online estimate can be done without a credit check, but it is not a pre-approval. If someone offers an approval without looking at your credit, treat the number as a guess.` },
     { q: "Does a pre-approval guarantee I will get the mortgage?", a: `No. It is conditional on the property being approved and on your finances staying the same until closing. An appraisal, strata documents, a job change or new debt can all change the outcome, which is why the file is reviewed again before the lender funds.` },
     { q: "How long does a pre-approval last?", a: `The length varies by lender, and so does the rate hold that comes with it. Ask for the expiry date and the hold period in writing. If you are still shopping when it ends, it can usually be refreshed, though your file will be reviewed again.` },
-    { q: "Which documents should I gather first?", a: `Photo ID, recent pay stubs and a letter of employment if you are employed, tax notices of assessment from CRA, and statements for the account holding your down payment. Self-employed buyers also need tax returns and business financials. Joshua will confirm the exact list for your situation.` }
+    { q: "Which documents should I gather first?", a: `Photo ID, recent pay stubs and a letter of employment if you are employed, tax notices of assessment from CRA, and statements for the account holding your down payment. Self-employed buyers also need tax returns and business financials. I'll confirm the exact list for your situation.` }
   ]
 };

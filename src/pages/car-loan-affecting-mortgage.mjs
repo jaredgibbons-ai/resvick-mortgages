@@ -53,12 +53,12 @@ ${TOOLS.affordability()}
 
 <h2>What to bring to the conversation</h2>
 <p>If you are considering both a car and a home, tell your broker before you visit a dealership. Bring the amount you expect to finance, the payment you have been quoted and the interest rate. The <a href="/mortgage-application-checklist/">application checklist</a> shows how debts are documented.</p>
-<p>The broker can run the numbers with and without the car. He can tell you what the difference is worth in purchase price. You can <a href=\"/contact/\">contact Joshua</a> before you start shopping.</p>
+<p>The broker can run the numbers with and without the car. I can tell you what the difference is worth in purchase price. You can <a href=\"/contact/\">contact me</a> before you start shopping.</p>
 
 ${callout("A rule of thumb, not a rule", "<p>Every lender calculates the payment, treats leases and nearly finished loans, and rounds ratios in its own way. The figures here use the standard 39 and 44 percent limits and the stress-test rate. They are for illustration only. A real answer needs your real file.</p>")}
 
 <p>A car loan isn't the only payment lenders count. The guide to <a href="/student-loans-and-your-mortgage/">student loans and your mortgage</a> covers the other one many first-time buyers carry.</p>
-${cta({ title: "Planning to buy a car and a home?", text: "Run your figures through the affordability calculator, then book a 15-minute call. Joshua will show you how the car changes your approval before you sign for either." })}
+${cta({ title: "Planning to buy a car and a home?", text: "Run your figures through the affordability calculator, then book a 15-minute call. I'll show you how the car changes your approval before you sign for either." })}
 `;
 
 export default {

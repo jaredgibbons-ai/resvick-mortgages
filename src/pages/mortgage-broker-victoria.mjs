@@ -8,9 +8,9 @@ const city = "Victoria";
 const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-victoria/#service", url: SITE.origin + "/mortgage-broker-victoria/", areaServed: [{ "@type": "City", name: "Victoria", containedInPlace: { "@type": "AdministrativeArea", name: "British Columbia" } }, { "@type": "AdministrativeArea", name: "Greater Victoria" }] };
 
 const body = `
-${short({ answer: "You can get a mortgage in Victoria through a broker who isn't in town. Joshua serves the Island from his Surrey office by phone and video. You sign with a local lawyer or notary.", who: "Greater Victoria buyers, public servants and military families, retirees moving to the Island, and anyone renewing.", next: "Book a 15-minute call, or work out your tax with the <a href=\"/bc-property-transfer-tax-calculator/\">BC property transfer tax calculator</a>." })}
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. His office is in Surrey. He serves Victoria and the rest of Vancouver Island by phone, video and secure document upload.</p>
-<p>There's no branch in Victoria, and you won't need one. Every step can be done from where you are, from the first chat to the lawyer's appointment. You get the same broker who has funded over 1,000 mortgages, working your file himself.</p>
+${short({ answer: "You can get a mortgage in Victoria through a broker who isn't in town. I serve the Island from my Surrey office by phone and video. You sign with a local lawyer or notary.", who: "Greater Victoria buyers, public servants and military families, retirees moving to the Island, and anyone renewing.", next: "Book a 15-minute call, or work out your tax with the <a href=\"/bc-property-transfer-tax-calculator/\">BC property transfer tax calculator</a>." })}
+<p>I'm Joshua Resvick, a licensed mortgage broker with Xeva Mortgage. My office is in Surrey. I serve Victoria and the rest of Vancouver Island by phone, video and secure document upload.</p>
+<p>There's no branch in Victoria, and you won't need one. Every step can be done from where you are, from the first chat to the lawyer's appointment. You get the same broker who has funded over 1,000 mortgages, working your file myself.</p>
 
 ${ratesStrip()}
 
@@ -36,12 +36,12 @@ ${censusTable("victoria")}
 <p>Planning to add a suite to a house you already own? The <a href="/secondary-suite-refinance/">secondary suite refinance</a> program may apply.</p>
 <h3>Strata homes</h3>
 <p>Condos and townhouses are a big share of what sells in Greater Victoria. For a strata purchase, the lender reviews the building as well as you. It looks at the depreciation report, the reserve fund, any special levies and the building's insurance.</p>
-<p>Leasehold and co-op homes exist in the region, and they need specific lenders. Mention leasehold or co-op early, and Joshua will tell you which lenders to plan around.</p>
+<p>Leasehold and co-op homes exist in the region, and they need specific lenders. Mention leasehold or co-op early, and I'll tell you which lenders to plan around.</p>
 <h3>Presales</h3>
 <p>New construction is a big part of the regional market, both downtown and on the West Shore. A presale is financed differently from a resale. The rate that counts is the one when the building is finished, which may be years away. Your approval has to still hold then.</p>
 <p>The <a href="/presale-mortgages-bc/">presale mortgage guide</a> walks through the deposits, the completion date and how to protect yourself.</p>
 
-<h2>Who Joshua works with in Victoria</h2>
+<h2>Who I work with in Victoria</h2>
 <ul>
 <li><strong>First-time buyers.</strong> Three programs matter most on the Island: the property transfer tax exemption, the First Home Savings Account and the Home Buyers' Plan. Start with the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a>.</li>
 <li><strong>Public servants and military families.</strong> They have salaries and pensions. For CAF members, a posting may mean buying before the move or porting a mortgage later.</li>
@@ -53,14 +53,14 @@ ${censusTable("victoria")}
 
 <h2>How the online process works from Victoria</h2>
 <ol>
-<li><strong>A 15-minute call.</strong> Phone or video, at a time that suits you. Joshua asks about your goals, numbers and timeline. Then he tells you what's realistic.</li>
-<li><strong>Documents by secure link.</strong> Nothing private goes by email. You upload through a secure link. Joshua reviews it all the way an underwriter would, before a lender sees it.</li>
+<li><strong>A 15-minute call.</strong> Phone or video, at a time that suits you. I ask about your goals, numbers and timeline. Then I tell you what's realistic.</li>
+<li><strong>Documents by secure link.</strong> Nothing private goes by email. You upload through a secure link. I review it all the way an underwriter would, before a lender sees it.</li>
 <li><strong>A written Lender Comparison Report.</strong> Real lender options side by side: rate, term, penalty method, prepayment privileges and portability. The <a href="/lender-comparison-report/">report page</a> explains it.</li>
-<li><strong>Approval and signing.</strong> The lender issues the commitment. You sign with a Victoria lawyer or notary you choose. Joshua keeps your realtor and lawyer in the loop so dates don't slip.</li>
+<li><strong>Approval and signing.</strong> The lender issues the commitment. You sign with a Victoria lawyer or notary you choose. I keep your realtor and lawyer in the loop so dates don't slip.</li>
 <li><strong>Aftercare.</strong> After funding, <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> keeps your mortgage under review. You get a yearly check, rate watching and a call about six months before your term ends.</li>
 </ol>
 
-${callout("What it costs you", "<p>On a mortgage placed with an A lender, the lender pays the broker. You pay nothing for the service. Fees come up only on some B-lender and private files. In BC those fees must be shown in writing, on BCFSA's Form 1A, before you commit. Joshua will tell you which kind of file yours is on the first call.</p>")}
+${callout("What it costs you", "<p>On a mortgage placed with an A lender, the lender pays the broker. You pay nothing for the service. Fees come up only on some B-lender and private files. In BC those fees must be shown in writing, on BCFSA's Form 1A, before you commit. I'll tell you which kind of file yours is on the first call.</p>")}
 
 <h2>Calculators for Victoria buyers and renewers</h2>
 <p>Every tool on this site shows the full result right away. None of them ask for your email. For a Victoria purchase, most people start with three.</p>
@@ -72,13 +72,13 @@ ${callout("What it costs you", "<p>On a mortgage placed with an A lender, the le
 <p>Renewing? Compare staying, switching and refinancing with the <a href="/mortgage-calculators/#renewal">renewal scenario tool</a>. They're all on the <a href="/mortgage-calculators/">calculators page</a>.</p>
 
 <h2>Nearby</h2>
-<p>Joshua serves the whole Island and the Lower Mainland the same way. Up-Island? The <a href="/mortgage-broker-nanaimo/">Nanaimo page</a> covers ferry-commuter purchases and the mid-Island market. Comparing Victoria with the mainland, or moving between them? See the <a href="/mortgage-broker-vancouver/">Vancouver page</a>. Current rates and how they're set are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
+<p>I serve the whole Island and the Lower Mainland the same way. Up-Island? The <a href="/mortgage-broker-nanaimo/">Nanaimo page</a> covers ferry-commuter purchases and the mid-Island market. Comparing Victoria with the mainland, or moving between them? See the <a href="/mortgage-broker-vancouver/">Vancouver page</a>. Current rates and how they're set are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
 
 ${cityFacts("victoria")}
 ${nearbyCallout("victoria", callout)}
 
-${cta({ title: "Talk to a broker who serves Victoria", text: "Book a 15-minute call. You'll leave with a clear picture of what you qualify for, what it'll cost and what to do next, whether or not you end up working with Joshua." })}
+${cta({ title: "Talk to a broker who serves Victoria", text: "Book a 15-minute call. You'll leave with a clear picture of what you qualify for, what it'll cost and what to do next, whether or not you end up working with me." })}
 
 <p>Resvick Mortgages is listed on Google as a mortgage broker serving BC from Surrey. Found this page by searching for a broker in Victoria? The <a href="/contact/">contact page</a> has the phone number, the email address and what to have ready for the first call.</p>
 
@@ -89,16 +89,16 @@ ${cta({ title: "Talk to a broker who serves Victoria", text: "Book a 15-minute c
 export default {
   slug: "/mortgage-broker-victoria/",
   h1: "Mortgage broker serving Victoria, BC",
-  lede: "Joshua Resvick, Xeva Mortgage, serves Victoria and the Capital Region online and by phone from his Surrey office: first homes, government and military income, renewals and refinances.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I serve Victoria and the Capital Region online and by phone from my Surrey office: first homes, government and military income, renewals and refinances.",
   crumbs: [["Home", "/"], ["Serving " + city, "/mortgage-broker-victoria/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Does Joshua have an office in Victoria?", a: "No. His office is in Surrey, and he serves Victoria and the rest of Vancouver Island by phone, video and secure document exchange. You never need to visit an office; the lender, the lawyer and the land title work are all handled where you are. Many clients never meet their broker in person and the service is identical." },
-    { q: "Can a Surrey-based broker arrange a mortgage on a Victoria property?", a: "Yes. Mortgage brokers in BC are licensed provincially by BCFSA, not by city, and the lenders Joshua works with lend across the province. The appraisal is done by a local appraiser, and you sign with a Victoria lawyer or notary of your choosing. Where the broker sits makes no difference to the lender." },
-    { q: "Do lenders count the rent from a Victoria garden suite or basement suite?", a: "Usually a share of it, provided the suite is legal and the rent can be documented, and the share and method vary by lender. Some offset the rent against your housing costs and some add a portion to your income, which produce different results. Joshua will show you both on your own numbers before you make an offer." },
-    { q: "I am a CAF member posted to Esquimalt. Can I buy before I arrive?", a: "Often, yes, with a posting message and employment documents in hand. Lenders are used to military relocations. If you may be posted again, ask about portability before you choose a lender, because moving a mortgage to a new property is far cheaper than breaking it. Joshua compares portability terms in every Lender Comparison Report." },
+    { q: "Do you have an office in Victoria?", a: "No. My office is in Surrey, and I serve Victoria and the rest of Vancouver Island by phone, video and secure document exchange. You never need to visit an office; the lender, the lawyer and the land title work are all handled where you are. Many clients never meet their broker in person and the service is identical." },
+    { q: "Can a Surrey-based broker arrange a mortgage on a Victoria property?", a: "Yes. Mortgage brokers in BC are licensed provincially by BCFSA, not by city, and the lenders I work with lend across the province. The appraisal is done by a local appraiser, and you sign with a Victoria lawyer or notary of your choosing. Where the broker sits makes no difference to the lender." },
+    { q: "Do lenders count the rent from a Victoria garden suite or basement suite?", a: "Usually a share of it, provided the suite is legal and the rent can be documented, and the share and method vary by lender. Some offset the rent against your housing costs and some add a portion to your income, which produce different results. I'll show you both on your own numbers before you make an offer." },
+    { q: "I am a CAF member posted to Esquimalt. Can I buy before I arrive?", a: "Often, yes, with a posting message and employment documents in hand. Lenders are used to military relocations. If you may be posted again, ask about portability before you choose a lender, because moving a mortgage to a new property is far cheaper than breaking it. I compare portability terms in every Lender Comparison Report." },
     { q: "Is the BC first-time buyer property transfer tax exemption available in Victoria?", a: "Yes. It is a provincial program and applies anywhere in BC, subject to the price thresholds in force. The exemption is a flat amount on homes up to a threshold and phases out above it, so on higher-priced Victoria homes it may be reduced or unavailable. The BC property transfer tax calculator on this site shows the exact figure for any price." }
   ]
 };

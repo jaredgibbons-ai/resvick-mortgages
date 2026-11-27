@@ -5,7 +5,7 @@ const body = `
 ${short({
   answer: "Yes, you can get or keep a mortgage in retirement. Lenders count pensions, CPP, OAS, RRIF withdrawals and some investment income. The stress test still applies, and the right plan depends on how long you want the mortgage to last.",
   who: "Retirees and people close to retirement in BC who are buying, renewing, refinancing or helping an adult child. Thinking of selling the family home? Read the <a href='/downsizing-and-your-mortgage/'>downsizing page</a> too.",
-  next: "Book a 15-minute call. Bring your latest pension and tax documents, and Joshua will show you what lenders would count."
+  next: "Book a 15-minute call. Bring your latest pension and tax documents, and I'll show you what lenders would count."
 })}
 
 <h2>Your situation</h2>
@@ -26,7 +26,7 @@ ${short({
 
 <h2>Does age matter?</h2>
 <p>A lender should judge your file on income, credit and the property, and not on your age alone. What does matter is how the mortgage fits your income over time. A lender wants to see that you can make the payment now and that the plan still works if your income changes. A shorter amortization raises the payment, and a longer one lowers it. Choosing the right length is a real decision, and it deserves a real conversation.</p>
-<p>Have a plan for the later years too. Ask yourself what happens if one spouse dies, and whether the survivor can carry the mortgage on one pension. Joshua will raise it, because it affects which lender and term suit you. Questions about wills and estates belong with your lawyer or financial planner.</p>
+<p>Have a plan for the later years too. Ask yourself what happens if one spouse dies, and whether the survivor can carry the mortgage on one pension. I'll raise it, because it affects which lender and term suit you. Questions about wills and estates belong with your lawyer or financial planner.</p>
 
 <h2>The stress test still applies</h2>
 <p>At a federally regulated lender, every new mortgage is tested at a higher rate than the one you will pay. The same is true for a refinance, and for a new lender at renewal in some cases. The test uses your retirement income, so a smaller income means a smaller loan. For a clear explanation, read the page on the <a href="/mortgage-stress-test-canada/">mortgage stress test</a>.</p>
@@ -42,7 +42,7 @@ ${short({
 <h3>Helping an adult child</h3>
 <p>Parents help with a down payment or co-sign a mortgage. A gift needs a letter and has its own rules, covered on the <a href="/gifted-down-payment/">gifted down payment page</a>. Co-signing puts the debt on your credit and counts against your own borrowing. Read <a href="/mortgage-with-a-cosigner/">the co-signer page</a> and <a href="/guides/should-my-parents-co-sign/">our guide on parents co-signing</a> before you sign.</p>
 <h3>Mortgage-free or a small mortgage?</h3>
-<p>Paying off a mortgage is a good goal. But once you pay it off, borrowing again on a small income is harder. Some retirees keep a small mortgage or set up a line of credit while they still qualify. Others prefer to be free of debt. Neither is right for everyone. Joshua can show you the numbers for both.</p>
+<p>Paying off a mortgage is a good goal. But once you pay it off, borrowing again on a small income is harder. Some retirees keep a small mortgage or set up a line of credit while they still qualify. Others prefer to be free of debt. Neither is right for everyone. I can show you the numbers for both.</p>
 
 <h2>Documents to have ready</h2>
 <ol>
@@ -55,10 +55,10 @@ ${short({
 </ol>
 <p>The <a href="/mortgage-document-checklist/">free document checklist</a> lists the rest. Gathering these before the call makes the first answer faster.</p>
 
-<h2>How Joshua helps</h2>
+<h2>How I help</h2>
 <ol>
 <li><strong>A 15-minute call</strong> about your income, your home and what you want from the mortgage.</li>
-<li><strong>A lender match.</strong> Lenders count retirement income in different ways. Joshua picks the ones that fit.</li>
+<li><strong>A lender match.</strong> Lenders count retirement income in different ways. I pick the ones that fit.</li>
 <li><strong>A written comparison.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> sets out the options, costs and trade-offs side by side.</li>
 <li><strong>Aftercare.</strong> The <a href="/mortgage-aftercare-program/">aftercare program</a> checks in each year, so your mortgage still fits as your income changes.</li>
 </ol>
@@ -67,7 +67,7 @@ ${short({
 ${callout("Start early", "<p>Retirement income is easier to document when you plan ahead. If you may want to borrow in the next few years, talk to a broker before your income changes, not after. A short call now can keep your options open.</p>")}
 
 <p>Thinking about a reverse mortgage? The <a href="/reverse-mortgage-calculator-bc/">reverse mortgage calculator</a> shows how much you could get and what you'd owe over time.</p>
-${cta({ title: "Planning a mortgage in retirement?", text: "Book a 15-minute call. You will leave knowing what lenders would count, which options fit and what to gather. Or <a href=\"/contact/\">contact Joshua</a> by email." })}
+${cta({ title: "Planning a mortgage in retirement?", text: "Book a 15-minute call. You will leave knowing what lenders would count, which options fit and what to gather. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {
@@ -82,7 +82,7 @@ export default {
     { q: "Does my age affect whether I qualify?", a: "A lender should judge the file on income, credit and the property. Age matters in a practical way, because the plan has to keep working as your income changes. Choosing the amortization and term with that in mind is part of the advice you should get." },
     { q: "Do lenders count RRIF withdrawals as income?", a: "Often they do, when you can show the amount and that it is regular, usually with statements. Some lenders also have programs that turn savings and investments into qualifying income. Rules differ by lender, so ask before you assume your savings do not count." },
     { q: "Do I need to pass the stress test when I renew?", a: "If you stay with your current lender, usually not. If you switch lenders on an uninsured mortgage without raising the balance, you may be exempt from a new test. If you increase the loan or refinance, the test normally applies. See the stress test exemption page for the details." },
-    { q: "Should I keep a small mortgage in retirement?", a: "It depends. Some retirees keep a small mortgage or a line of credit because borrowing later on a smaller income is harder. Others prefer to have no debt. Joshua can show you both options side by side, with the costs, so you can choose with the whole picture." },
+    { q: "Should I keep a small mortgage in retirement?", a: "It depends. Some retirees keep a small mortgage or a line of credit because borrowing later on a smaller income is harder. Others prefer to have no debt. I can show you both options side by side, with the costs, so you can choose with the whole picture." },
     { q: "Can I help my child buy a home without hurting my own finances?", a: "A gift is the cleanest route, with a signed gift letter and no expectation of repayment. Co-signing makes you responsible for the debt and counts against your own borrowing. Read both pages first, and talk to your lawyer or financial planner about the effect on you." }
   ]
 };

@@ -8,12 +8,12 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-kam
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Kamloops by phone and video from his Surrey office. Here the hard part is often the income, not the house. The work is matching your pay to the right lender.",
+  answer: "I serve Kamloops by phone and video from my Surrey office. Here the hard part is often the income, not the house. The work is matching your pay to the right lender.",
   who: "Kamloops buyers, renewers and refinancers, especially with overtime, contract, rotation or self-employed income.",
-  next: "Book a 15-minute call and tell Joshua how you're paid."
+  next: "Book a 15-minute call and tell me how you're paid."
 })}
 <p>Kamloops is a working city. Rail, trades, mining, health care, the university and the ranching country around it produce a mix of incomes. Lenders don't all read those incomes the same way. That's where a broker earns a place in the process.</p>
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He serves Kamloops and the Thompson region from his Surrey office, by phone and video. There's no Kamloops branch. Instead, there's a broker who was an underwriter for five years and has funded over 1,000 mortgages. He handles your file himself.</p>
+<p>I'm Joshua Resvick, a licensed mortgage broker with Xeva Mortgage. I serve Kamloops and the Thompson region from my Surrey office, by phone and video. There's no Kamloops branch. Instead, there's a broker who was an underwriter for five years and have funded over 1,000 mortgages. I handle your file myself.</p>
 
 ${ratesStrip()}
 
@@ -33,7 +33,7 @@ ${ratesStrip()}
 <p>Allowances may or may not count. The answer depends on the lender, and matching your file to the right one is most of the work.</p>
 <h3>Health care, education and public service</h3>
 <p>These files are usually simple. Royal Inland Hospital, Thompson Rivers University, the school district and government give Kamloops a large base of salaried, pensionable income.</p>
-<p>The decisions that matter are about term, penalty and portability, not qualifying. Those are the terms Joshua compares in every Lender Comparison Report.</p>
+<p>The decisions that matter are about term, penalty and portability, not qualifying. Those are the terms I compare in every Lender Comparison Report.</p>
 
 <h2>Incomes in Kamloops</h2>
 <p>Kamloops had a median household income of $88,000 for 2020. About 12.0 percent of workers were self-employed, a lower share than in most cities we cover. Health care was the biggest industry, followed by retail and construction. (Statistics Canada, 2021 Census Profile, read October 2026). The low self-employed share points to a wage economy built on hospitals, stores and trades employers. Salaried files are the most common. For these, lenders usually want a recent pay stub, a job letter and your tax slip.</p>
@@ -46,11 +46,11 @@ ${censusTable("kamloops")}
 <p>Outside the city, acreages and ranch properties in the Thompson-Nicola are financed differently from a city lot. Many residential lenders limit the land value they'll count. They won't lend where the property is mainly a business.</p>
 <p>Properties at Sun Peaks are often second homes or rentals, with their own rules. In both cases, the property type needs to be identified before the offer is written.</p>
 
-<h2>What Joshua does for Kamloops clients</h2>
+<h2>What I do for Kamloops clients</h2>
 <ol>
-<li><strong>Reads the income like an underwriter.</strong> Before anything is sent, he works out which lender's policy suits your income documents. He also works out what that lender will ask for, so the questions are answered in advance.</li>
+<li><strong>Reads the income like an underwriter.</strong> Before anything is sent, I work out which lender's policy suits your income documents. I also work out what that lender will ask for, so the questions are answered in advance.</li>
 <li><strong>Compares lenders in writing.</strong> You get a <a href="/lender-comparison-report/">Lender Comparison Report</a>: rate, term, penalty method, prepayment privileges and portability, side by side. Portability matters if work may move you.</li>
-<li><strong>Runs the file to funding.</strong> You get secure document links, a Kamloops appraiser, your choice of local lawyer or notary, and updates at every step. Your realtor and lawyer hear from him directly.</li>
+<li><strong>Runs the file to funding.</strong> You get secure document links, a Kamloops appraiser, your choice of local lawyer or notary, and updates at every step. Your realtor and lawyer hear from me directly.</li>
 <li><strong>Stays on it afterwards.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> means an annual review and contact about six months before your maturity date. So a renewal is compared, not signed by default.</li>
 </ol>
 
@@ -63,9 +63,9 @@ ${callout("What you pay", "<p>On a mortgage placed with an A lender, the lender 
 <p><strong>Refinancing</strong> to pay off debt, renovate or add a suite starts with the break-even math. The <a href="/refinance-mortgage-bc/">refinance guide</a> and the <a href="/mortgage-calculators/">calculators</a> show whether the penalty is worth paying. Do that before anyone talks about a rate.</p>
 
 <h2>Nearby</h2>
-<p>Joshua serves the Interior and the North the same way he serves the coast. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the Okanagan, including recreational and acreage property. The <a href="/mortgage-broker-prince-george/">Prince George page</a> covers northern resource and shift income. Current rates, and how your rate is set, are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
+<p>I serve the Interior and the North the same way I serve the coast. The <a href="/mortgage-broker-kelowna/">Kelowna page</a> covers the Okanagan, including recreational and acreage property. The <a href="/mortgage-broker-prince-george/">Prince George page</a> covers northern resource and shift income. Current rates, and how your rate is set, are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
-<p>Sun Rivers is a golf community on Tk'emlúps te Secwépemc land. The community's own pages say the Crown holds a 99-year head lease and buyers take a registered leasehold title (Sun Rivers community pages, read October 2026). Lenders vary on leasehold homes, so ask early. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/leasehold-mortgages-bc/">leasehold mortgages</a> and <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p><p>Kamloops has plenty of owner-operators, from trucking outfits to trades businesses. If yours is ready to buy its own yard, shop or office, Joshua arranges commercial mortgages as well, and the <a href="/commercial-mortgages-bc/">commercial mortgage page</a> shows what lenders look for.</p>
+<p>Sun Rivers is a golf community on Tk'emlúps te Secwépemc land. The community's own pages say the Crown holds a 99-year head lease and buyers take a registered leasehold title (Sun Rivers community pages, read October 2026). Lenders vary on leasehold homes, so ask early. I arrange mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/leasehold-mortgages-bc/">leasehold mortgages</a> and <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p><p>Kamloops has plenty of owner-operators, from trucking outfits to trades businesses. If yours is ready to buy its own yard, shop or office, I arrange commercial mortgages as well, and the <a href="/commercial-mortgages-bc/">commercial mortgage page</a> shows what lenders look for.</p>
 
 
 <p>Rail crews also work out of Revelstoke. Our <a href="/mortgage-broker-revelstoke/">Revelstoke page</a> explains how rail, hydro and resort pay are read.</p>
@@ -73,7 +73,7 @@ ${callout("What you pay", "<p>On a mortgage placed with an A lender, the lender 
 ${cityFacts("kamloops")}
 ${nearbyCallout("kamloops", callout)}
 
-${cta({ title: "Talk to a broker who serves Kamloops", text: "Book a 15-minute call. Tell Joshua how you're paid. You'll leave knowing how a lender will read it and what to gather first." })}
+${cta({ title: "Talk to a broker who serves Kamloops", text: "Book a 15-minute call. Tell me how you're paid. You'll leave knowing how a lender will read it and what to gather first." })}
 
 <p>Resvick Mortgages is listed on Google as a mortgage broker serving British Columbia from Surrey. Did you search for a mortgage broker in Kamloops and land here? The <a href="/contact/">contact page</a> has the phone number, the email address and what to have ready for the first call.</p>
 `;
@@ -81,16 +81,16 @@ ${cta({ title: "Talk to a broker who serves Kamloops", text: "Book a 15-minute c
 export default {
   slug: "/mortgage-broker-kamloops/",
   h1: "Mortgage broker serving Kamloops, BC",
-  lede: "Joshua Resvick, Xeva Mortgage, serves Kamloops from his Surrey office by phone and video. Rail, trades, contract and shift income read the way an underwriter reads them, for purchases, renewals and refinances.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I serve Kamloops from my Surrey office by phone and video. Rail, trades, contract and shift income read the way an underwriter reads them, for purchases, renewals and refinances.",
   crumbs: [["Home", "/"], ["Serving Kamloops", "/mortgage-broker-kamloops/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Does overtime count toward my mortgage in Kamloops?", a: "Usually, as variable income counted at the lower of last year's total or the two-year average, provided it is consistent and shown on your T4s. Base salary counts at face value. A single strong year of overtime does not lift your qualifying income the way a two-year average does, and some lenders are stricter than others. Joshua will tell you which lenders suit your pattern." },
+    { q: "Does overtime count toward my mortgage in Kamloops?", a: "Usually, as variable income counted at the lower of last year's total or the two-year average, provided it is consistent and shown on your T4s. Base salary counts at face value. A single strong year of overtime does not lift your qualifying income the way a two-year average does, and some lenders are stricter than others. I'll tell you which lenders suit your pattern." },
     { q: "I work rotations at a mine on contract. Can I get a mortgage?", a: "Yes, with the right lender. Lenders look for continuity: how long you have worked this way, whether contracts have renewed, and whether you are paid on a T4 or by invoice. Allowances may or may not count. The file is matched to a lender whose policy fits, which is most of the work on a contract-income mortgage." },
-    { q: "Will a lender count the rent from my basement suite?", a: "If the suite is legal under the City of Kamloops rules, with a building permit and final inspection, most lenders count a share of the documented rent, either against your housing costs or as added income. The share and method vary by lender. An unpermitted suite usually cannot be counted. Joshua runs both methods on your numbers." },
-    { q: "Do I need to come to Surrey to work with Joshua?", a: "No. Everything is done by phone, video and secure document exchange. The appraisal is done by a Kamloops appraiser and you sign with a local lawyer or notary. BC brokers are licensed provincially by BCFSA and the lenders lend across the province, so the broker's location has no effect on your mortgage." },
-    { q: "Can I finance a ranch or acreage near Kamloops?", a: "Often, but not with every lender. Many residential lenders limit how much land they will value, give farm buildings no lending value, and decline where the property is mainly a business. Lenders that specialize in rural and agricultural property exist. Identify the property type with Joshua before the offer is written so the financing condition is realistic." }
+    { q: "Will a lender count the rent from my basement suite?", a: "If the suite is legal under the City of Kamloops rules, with a building permit and final inspection, most lenders count a share of the documented rent, either against your housing costs or as added income. The share and method vary by lender. An unpermitted suite usually cannot be counted. I run both methods on your numbers." },
+    { q: "Do I need to come to Surrey to work with you?", a: "No. Everything is done by phone, video and secure document exchange. The appraisal is done by a Kamloops appraiser and you sign with a local lawyer or notary. BC brokers are licensed provincially by BCFSA and the lenders lend across the province, so the broker's location has no effect on your mortgage." },
+    { q: "Can I finance a ranch or acreage near Kamloops?", a: "Often, but not with every lender. Many residential lenders limit how much land they will value, give farm buildings no lending value, and decline where the property is mainly a business. Lenders that specialize in rural and agricultural property exist. Identify the property type with me before the offer is written so the financing condition is realistic." }
   ]
 };

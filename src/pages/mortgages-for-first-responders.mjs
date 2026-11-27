@@ -7,7 +7,7 @@ ${short({ answer: "Every lender counts your base pay in full. Overtime, premiums
 <p>You work a rotating schedule. Your pay stubs never look the same twice. A good part of your income comes as overtime, shift premiums, on-call pay or acting pay.</p>
 <p>You may also have a second stream. Maybe it's paid-duty work, a training contract or a side business run through a corporation.</p>
 <p>When you walked into a bank branch, the software averaged the wrong numbers and ignored the rest. It gave you a figure that didn't match the life you actually live.</p>
-<p>Are you a police officer, firefighter, paramedic, dispatcher or corrections officer in BC? This page covers how a lender really reads your file and what to gather. It also shows how Joshua puts it together so the lender counts what it should. He spent five years as a mortgage underwriter before he became a broker.</p>
+<p>Are you a police officer, firefighter, paramedic, dispatcher or corrections officer in BC? This page covers how a lender really reads your file and what to gather. It also shows how I put it together so the lender counts what it should. I spent five years as a mortgage underwriter before I became a broker.</p>
 
 <h2>How lenders see first-responder income</h2>
 <p>Lenders split pay into two groups.</p>
@@ -39,10 +39,10 @@ ${short({ answer: "Every lender counts your base pay in full. Overtime, premiums
 <p>Here's an example. Picture a constable with a base salary of $105,000 and a two-year average of $22,000 in overtime and premiums. They qualify for noticeably more at a lender that counts the full average. A lender that counts half or none gives a smaller number.</p>
 <p>The exact gap depends on your debts, your down payment and the qualifying rate. That's why the calculator is a planning tool. The lender confirms the real figure.</p>
 
-<h2>Joshua's process for a first-responder file</h2>
+<h2>My process for a first-responder file</h2>
 <ol>
 <li><strong>A 15-minute call</strong> about your pay, your schedule and your timeline. Shift workers often need the call outside office hours, and that's fine.</li>
-<li><strong>An underwriter's read of your income.</strong> Before anything is sent, Joshua works out what a lender will count. He tells you if the number is lower than you hoped, and what would raise it.</li>
+<li><strong>An underwriter's read of your income.</strong> Before anything is sent, I work out what a lender will count. I tell you if the number is lower than you hoped, and what would raise it.</li>
 <li><strong>Picking the lender.</strong> Lenders differ on probation, on how much variable pay they count and on second jobs. The file goes to the lender whose policy fits. You see the options in a written <a href="/lender-comparison-report/">Lender Comparison Report</a>.</li>
 <li><strong>A clean submission.</strong> Documents are organized and explained up front. The lender's underwriter has no reason to pause.</li>
 <li><strong>Aftercare.</strong> After funding, the <a href="/mortgage-aftercare-program/">aftercare program</a> keeps track of your renewal and your rate. It also tracks changes, like a promotion, a move to a new detachment or a plan to rent out a suite.</li>
@@ -62,11 +62,11 @@ ${short({ answer: "Every lender counts your base pay in full. Overtime, premiums
 <p>With a mainstream A lender, the lender pays the broker, and you pay nothing for the service. Fees apply only on some B-lender and private files. In BC, they're shown to you in writing on BCFSA's Form 1A before you commit. A first-responder file with steady base pay is almost always an A-lender file.</p>
 <p>Buying for the first time? The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> walks through the programs and the order of steps.</p>
 
-${callout("Why an underwriting background matters here", "<p>An underwriter reads a shift-work file by asking one question. How much of this income will still be there in two years? Joshua builds your application to answer that before it's asked. He lays out the base pay on the grid and the variable pay with its two-year history. He explains anything that looks unusual.</p>")}
+${callout("Why an underwriting background matters here", "<p>An underwriter reads a shift-work file by asking one question. How much of this income will still be there in two years? I build your application to answer that before it's asked. I lay out the base pay on the grid and the variable pay with its two-year history. I explain anything that looks unusual.</p>")}
 
-<p class="more-links"><strong>Where Joshua helps first responders.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-abbotsford/">Abbotsford</a>, <a href="/mortgage-broker-langford/">Langford</a>, <a href="/mortgage-broker-new-westminster/">New Westminster</a>, <a href="/mortgage-broker-vancouver/">Vancouver</a> and <a href="/mortgage-broker-prince-george/">Prince George</a>.</p>
+<p class="more-links"><strong>Where I help first responders.</strong> I serve buyers online from my Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-abbotsford/">Abbotsford</a>, <a href="/mortgage-broker-langford/">Langford</a>, <a href="/mortgage-broker-new-westminster/">New Westminster</a>, <a href="/mortgage-broker-vancouver/">Vancouver</a> and <a href="/mortgage-broker-prince-george/">Prince George</a>.</p>
 
-${cta({ title: "Shift work should not shrink your approval", text: "Book a 15-minute call at a time that fits your rotation. Joshua will tell you what a lender will count, and which lender counts the most of it. You can also <a href=\"/contact/\">contact him</a> by email." })}
+${cta({ title: "Shift work should not shrink your approval", text: "Book a 15-minute call at a time that fits your rotation. I'll tell you what a lender will count, and which lender counts the most of it. You can also <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {

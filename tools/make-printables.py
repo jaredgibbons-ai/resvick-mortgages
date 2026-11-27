@@ -257,7 +257,7 @@ dp = [
     "Ask your broker for the lender's document list before you apply.",
   ]),
   Spacer(1, 4),
-  Paragraph(CTA + " Joshua is a mortgage broker, not a tax adviser. Confirm FHSA and RRSP room with the CRA.", S["small"]),
+  Paragraph(CTA + " I'm a mortgage broker, not a tax adviser. Confirm FHSA and RRSP room with the CRA.", S["small"]),
 ]
 
 if __name__ == "__main__":

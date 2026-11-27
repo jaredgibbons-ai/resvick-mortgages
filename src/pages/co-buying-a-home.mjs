@@ -50,13 +50,13 @@ ${short({
 <p>A buyout means a new mortgage in one name. The remaining owner has to qualify alone on their own income. It usually means a refinance, with a prepayment penalty if the mortgage is in a fixed term. Timing the exit to a renewal date avoids the penalty.</p>
 <p>The lender won't release the departing co-buyer just because your agreement says so. The release comes with the new mortgage. The <a href="/mortgage-application-checklist/">application checklist</a> covers what the remaining owner will need to provide.</p>
 
-<h2>Joshua's process</h2>
+<h2>My process</h2>
 <ol>
 <li><strong>A 15-minute call with both of you</strong> about incomes, debts, down payments and what you want to buy.</li>
 <li><strong>An honest combined number.</strong> You also get a separate read of how each person qualifies alone, because the exit plan depends on it.</li>
 <li><strong>The programs, person by person.</strong> Who is a first-time buyer under which program, and how the transfer tax exemption applies to the shares you're considering.</li>
-<li><strong>The right lender.</strong> You get options in a written Lender Comparison Report. Joshua also recommends you see a lawyer about the co-ownership agreement before the subject-removal date.</li>
-<li><strong>Aftercare.</strong> After funding, the renewal date is also the natural exit date, and Joshua tracks it.</li>
+<li><strong>The right lender.</strong> You get options in a written Lender Comparison Report. I also recommend you see a lawyer about the co-ownership agreement before the subject-removal date.</li>
+<li><strong>Aftercare.</strong> After funding, the renewal date is also the natural exit date, and I track it.</li>
 </ol>
 <p>Most co-buying files land with an A lender. There, the lender pays the broker and you pay nothing for the service. Fees come up only on some B-lender and private files. They're disclosed in writing on BCFSA's Form 1A before you commit.</p>
 
@@ -69,9 +69,9 @@ ${short({
 <li><strong>Forgetting that both of you are liable for everything.</strong> A missed payment by one is a missed payment by both.</li>
 </ul>
 
-${callout("See a lawyer before subject removal", "<p>The co-ownership agreement and the choice between joint tenancy and tenancy in common are legal decisions. Joshua handles the mortgage; a BC lawyer or notary handles the title and the agreement. Book both early, because the subject-removal date arrives fast.</p>")}
+${callout("See a lawyer before subject removal", "<p>The co-ownership agreement and the choice between joint tenancy and tenancy in common are legal decisions. I handle the mortgage; a BC lawyer or notary handles the title and the agreement. Book both early, because the subject-removal date arrives fast.</p>")}
 
-${cta({ title: "Buying together?", text: "Book a 15-minute call for both of you. Joshua will show what you qualify for together and separately, which programs each of you can use, and what to put in the agreement before you offer. Or <a href=\"/contact/\">contact him</a> by email." })}
+${cta({ title: "Buying together?", text: "Book a 15-minute call for both of you. I'll show what you qualify for together and separately, which programs each of you can use, and what to put in the agreement before you offer. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {

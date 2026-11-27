@@ -20,12 +20,12 @@ ${short({ answer: "Lenders don't care how many people earn the income, only whet
 <li><strong>Canada Child Benefit.</strong> Some lenders count it as income. Often it's only for children under a certain age, and sometimes only part of it. Others leave it out. Since it's non-taxable, lenders that count it may gross it up. Ask, don't assume.</li>
 <li><strong>Employment income.</strong> It counts the same as for anyone. Base pay counts in full and variable pay on the lower of last year or the two-year average, with letters and T4s.</li>
 </ul>
-<p>These are lender norms, not published rules. Here's the practical point. A single parent's qualifying income can differ by tens of thousands of dollars between lenders, just from how support and benefits are treated. That's the first thing Joshua checks.</p>
+<p>These are lender norms, not published rules. Here's the practical point. A single parent's qualifying income can differ by tens of thousands of dollars between lenders, just from how support and benefits are treated. That's the first thing I check.</p>
 
 <h2>Programs that reduce your cash</h2>
 <p>If you haven't owned a home before, you're likely a first-time buyer, and several programs stack. Some programs also count you if you haven't owned in the last few years.</p>
 <p>The <a href="/fhsa-bc/">First Home Savings Account</a> lets you put money in tax-deductible and take it out tax-free for a purchase. The Home Buyers' Plan lets you withdraw from an RRSP and pay it back over time. In BC, the first-time buyers' property transfer tax exemption can save a qualifying buyer up to $8,000 at closing, below the current price threshold. The federal GST rebate cuts the tax on a new home.</p>
-<p>The <a href="/first-time-buyer-programs-bc/">programs and stacking guide</a> explains each one, who qualifies and the order to use them in. One point catches people. A home you owned with a former spouse can affect your first-time status under some programs. Each program has its own definition, so Joshua checks each one against your history.</p>
+<p>The <a href="/first-time-buyer-programs-bc/">programs and stacking guide</a> explains each one, who qualifies and the order to use them in. One point catches people. A home you owned with a former spouse can affect your first-time status under some programs. Each program has its own definition, so I check each one against your history.</p>
 
 <h2>The down payment</h2>
 <p>An insured purchase needs 5 percent of the first $500,000 and 10 percent of the rest. The money can come from savings, the FHSA, the Home Buyers' Plan, or a gift from immediate family.</p>
@@ -36,17 +36,17 @@ ${short({ answer: "Lenders don't care how many people earn the income, only whet
 <ol>
 <li><strong>Pay down debt first.</strong> A car payment or a credit card balance can cost far more in approval than it's worth. Paying down the right debt before you apply is often the cheapest fix.</li>
 <li><strong>A co-signer for a term.</strong> A parent or sibling who co-signs adds their income to the application. They become liable for the whole mortgage. They're released at renewal or refinance once you qualify alone. The <a href="/mortgage-with-a-cosigner/">co-signer page</a> explains what they're agreeing to and how the exit works. Read it together before anyone signs.</li>
-<li><strong>Adjust the target.</strong> A home with a legal suite can add rental income to the file at many lenders. Or a smaller home now, with a plan to move up later, is sometimes the better path. Joshua will tell you plainly if that's the case.</li>
+<li><strong>Adjust the target.</strong> A home with a legal suite can add rental income to the file at many lenders. Or a smaller home now, with a plan to move up later, is sometimes the better path. I'll tell you plainly if that's the case.</li>
 </ol>
 
 <h2>Credit</h2>
 <p>A separation often leaves your credit worse than it should be. Maybe a joint account went unpaid during the dispute. Maybe a card got closed. Or your file is thin because everything was in the other person's name.</p>
 <p>The <a href="/build-credit-for-a-mortgage/">credit building page</a> explains how to rebuild quickly with a secured card and a small line of credit. It also covers how long different marks stay on a report. If credit is the only problem, a B lender can bridge a year or two while it repairs. The costs of that route are disclosed in writing before you choose it.</p>
 
-<h2>Joshua's process</h2>
+<h2>My process</h2>
 <ol>
 <li><strong>A 15-minute call,</strong> at a time that works around kids and work. You talk about your income, support, savings and what you need in a home.</li>
-<li><strong>An honest number first.</strong> Joshua works out what each type of lender would count. He tells you where the approval lands before you look at homes.</li>
+<li><strong>An honest number first.</strong> I work out what each type of lender would count. I tell you where the approval lands before you look at homes.</li>
 <li><strong>A plan if the number is short.</strong> Which debt to clear, whether a co-signer makes sense, and which programs apply.</li>
 <li><strong>The right lender.</strong> It's chosen for how it treats support and benefits. You see the options in a written Lender Comparison Report.</li>
 <li><strong>A clean file, then aftercare.</strong> The relationship continues after funding. A change in support, a raise or a plan to add a suite gets handled early.</li>
@@ -62,11 +62,11 @@ ${short({ answer: "Lenders don't care how many people earn the income, only whet
 <li><strong>Stretching to the max.</strong> One income has no backup. A payment that leaves room for a bad month beats the biggest one a lender will approve.</li>
 </ul>
 
-${callout("Bring the agreement", "<p>If you receive or pay support, a lender will ask first for the separation agreement or court order. Bring it, your latest pay stub and three months of bank statements. With those, Joshua can tell you in one call what your income counts for at the lenders that read it best.</p>")}
+${callout("Bring the agreement", "<p>If you receive or pay support, a lender will ask first for the separation agreement or court order. Bring it, your latest pay stub and three months of bank statements. With those, I can tell you in one call what your income counts for at the lenders that read it best.</p>")}
 
-<p class="more-links"><strong>Where Joshua helps single parents.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-abbotsford/">Abbotsford</a>, <a href="/mortgage-broker-chilliwack/">Chilliwack</a>, <a href="/mortgage-broker-mission/">Mission</a> and <a href="/mortgage-broker-nanaimo/">Nanaimo</a>.</p>
+<p class="more-links"><strong>Where I help single parents.</strong> I serve buyers online from my Surrey office in <a href="/mortgage-broker-surrey/">Surrey</a>, <a href="/mortgage-broker-abbotsford/">Abbotsford</a>, <a href="/mortgage-broker-chilliwack/">Chilliwack</a>, <a href="/mortgage-broker-mission/">Mission</a> and <a href="/mortgage-broker-nanaimo/">Nanaimo</a>.</p>
 
-${cta({ title: "One income, full approval", text: "Book a 15-minute call. Joshua will show you the real number, the programs that apply and the plan if the number needs to move. Or <a href=\"/contact/\">contact him</a> by email." })}
+${cta({ title: "One income, full approval", text: "Book a 15-minute call. I'll show you the real number, the programs that apply and the plan if the number needs to move. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {

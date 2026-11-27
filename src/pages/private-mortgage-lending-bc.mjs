@@ -29,13 +29,13 @@ ${short({ answer: "A private mortgage lends mainly against your property, not yo
 <li><strong>Legal and appraisal costs.</strong> You pay for the lender's lawyer as well as yours, plus an appraisal the lender chooses.</li>
 <li><strong>Renewal fees.</strong> If the loan isn't repaid at the end of the term, most private lenders charge a fee to renew. That's why the exit plan matters so much.</li>
 </ol>
-<p>Add it all up and the true yearly cost is well above the quoted rate. Joshua puts every figure in a written comparison before you decide. He sets it next to the cost of the alternatives, including the cost of doing nothing.</p>
+<p>Add it all up and the true yearly cost is well above the quoted rate. I put every figure in a written comparison before you decide. I set it next to the cost of the alternatives, including the cost of doing nothing.</p>
 ${callout("A rule for private files", "<p>Don't sign a private mortgage until you've seen the lender fee, broker fee, legal costs, renewal terms and exit plan in writing. Independent legal advice is a condition of most private mortgages in BC. It's there to protect you. Use it.</p>")}
 
 <h2>The exit plan is the product</h2>
 <p>Private mortgage terms are short. A year is common, sometimes less. That's by design. A private mortgage is meant to solve a problem and get repaid.</p>
 <p>You repay it by selling the property or by refinancing with a B or A lender. That happens once whatever blocked bank lending has been fixed. The term is the time you have to make that happen.</p>
-<p>Joshua's approach to a private mortgage starts with the exit. What has to change, by when, and which lender is the target? It's written down at the start. If the exit is a sale, the plan includes a listing date. If it's a refinance, the plan lists the credit, income or paperwork milestones to hit. It also names the lender tier that opens up next. That's often a <a href="/b-lender-mortgage-bc/">B lender</a> as a middle step. A private mortgage without an exit plan just keeps renewing, with a fee, until the equity is gone.</p>
+<p>My approach to a private mortgage starts with the exit. What has to change, by when, and which lender is the target? It's written down at the start. If the exit is a sale, the plan includes a listing date. If it's a refinance, the plan lists the credit, income or paperwork milestones to hit. It also names the lender tier that opens up next. That's often a <a href="/b-lender-mortgage-bc/">B lender</a> as a middle step. A private mortgage without an exit plan just keeps renewing, with a fee, until the equity is gone.</p>
 
 <h2>Second mortgages and equity</h2>
 <p>Much private lending in BC is a <a href="/second-mortgage-bc/">second mortgage</a> behind an existing first. The borrower wants to keep a low-rate first mortgage and borrow only what's needed.</p>
@@ -43,19 +43,19 @@ ${callout("A rule for private files", "<p>Don't sign a private mortgage until yo
 
 <h2>Risks and protections</h2>
 <p>The main risk is the one already described: costs that pile up if the exit doesn't happen. The second risk is losing the property. A private lender has the same remedies as a bank if payments stop. And because the loan is short and expensive, trouble comes faster. Be careful of anyone offering private money without a licence, a lawyer or written disclosure.</p>
-<p>Protections do exist. Mortgage brokers in BC are licensed and regulated by the BC Financial Services Authority. Fee disclosure is mandatory. Independent legal advice is standard. The mortgage is registered on title and closes through lawyers. You can check any broker's licence in BCFSA's public lookup before dealing with them. Joshua works under Xeva Mortgage, BCFSA brokerage licence #X300203, and his own licence is MB503619.</p>
+<p>Protections do exist. Mortgage brokers in BC are licensed and regulated by the BC Financial Services Authority. Fee disclosure is mandatory. Independent legal advice is standard. The mortgage is registered on title and closes through lawyers. You can check any broker's licence in BCFSA's public lookup before dealing with them. I work under Xeva Mortgage, BCFSA brokerage licence #X300203, and my own licence is MB503619.</p>
 
 <h2>A note for would-be private lenders</h2>
 <p>Many people searching for private lending in BC are investors thinking about lending, not borrowers. That's a different conversation. Lending privately means sizing up the property, the borrower and the legal setup. The returns come with real risk to your capital. This site makes no investment promises and publishes no returns.</p>
-<p>If you're thinking about lending, Joshua is happy to explain how private mortgages work in practice. He'll point you to the professional advice the decision needs. <a href="/contact/">Get in touch</a> and say lending, not borrowing, is the topic.</p>
+<p>If you're thinking about lending, I'm happy to explain how private mortgages work in practice. I'll point you to the professional advice the decision needs. <a href="/contact/">Get in touch</a> and say lending, not borrowing, is the topic.</p>
 
 <h2>When time is short</h2>
 <p>Maybe a deadline is close, a foreclosure notice has arrived or a renewal was refused. The most useful thing you can do is call today, not next week. Private lending works fastest when the file is organized early. The cheaper options, where they exist, take longer to arrange.</p>
-<p><a href="/contact/">Contact Joshua</a> or phone directly. He'll tell you plainly whether private money is the right tool, what it costs in full and what the way out looks like.</p>
+<p><a href="/contact/">Contact me</a> or phone directly. I'll tell you plainly whether private money is the right tool, what it costs in full and what the way out looks like.</p>
 
 <p>For a commercial property that a bank will not finance, private lending is one option. See <a href="/commercial-mortgages-bc/">commercial mortgages</a> for how commercial files work.</p>
 
-${cta({ title: "Facing a deadline?", text: "Call or book a 15-minute conversation today. Joshua will tell you whether a private mortgage is the right tool, show you every cost in writing, and set the exit plan before anything is signed." })}
+${cta({ title: "Facing a deadline?", text: "Call or book a 15-minute conversation today. I'll tell you whether a private mortgage is the right tool, show you every cost in writing, and set the exit plan before anything is signed." })}
 `;
 
 export default {
@@ -69,7 +69,7 @@ export default {
     { q: "What is a private mortgage lender?", a: "An individual investor, a group of investors or a mortgage investment corporation that lends against real estate outside the banking system. Private lenders lend mainly against the property rather than income and credit, which is why they can fund quickly and why they charge more." },
     { q: "How much does a private mortgage cost?", a: "This site does not print rates, because private pricing moves with the market and the file. The structure is a rate well above A and B pricing, a lender fee, a broker fee, legal and appraisal costs, and a renewal fee if the loan is not repaid on time. Every figure must be disclosed in writing before you commit." },
     { q: "Do I pay a broker fee on a private mortgage?", a: "Usually yes, because private lenders generally do not pay brokers. BC rules require the fee to be disclosed to you in writing under BCFSA Form 1A before you commit. On an A-lender mortgage, by contrast, the lender pays the broker and you pay nothing." },
-    { q: "How long is a private mortgage term?", a: "Commonly a year, sometimes less. The term is the time you have to sell or to refinance with a B or A lender. Joshua writes an exit plan with milestones and a target lender for every private file, because a private mortgage that keeps renewing erodes equity through fees." },
+    { q: "How long is a private mortgage term?", a: "Commonly a year, sometimes less. The term is the time you have to sell or to refinance with a B or A lender. I write an exit plan with milestones and a target lender for every private file, because a private mortgage that keeps renewing erodes equity through fees." },
     { q: "Can a private mortgage stop a foreclosure?", a: "Sometimes. If you have substantial equity, a private mortgage can bring the first mortgage current and stop proceedings, buying time to sell or refinance on your own terms. It is expensive, and it only makes sense with a clear exit. Call early, because speed matters in these cases." }
   ]
 };

@@ -8,12 +8,12 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-inv
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Invermere and the Columbia Valley by phone and video from his Surrey office. Many homes here are second homes, rentals or have suites. Each use changes how a lender reads the file.",
+  answer: "I serve Invermere and the Columbia Valley by phone and video from my Surrey office. Many homes here are second homes, rentals or have suites. Each use changes how a lender reads the file.",
   who: "Second-home buyers, Alberta and out-of-province buyers, short-term rental owners, suite builders and local business owners.",
-  next: "Book a 15-minute call and tell Joshua how you plan to use the home."
+  next: "Book a 15-minute call and tell me how you plan to use the home."
 })}
 <p>Invermere is a small town with a lot of weekend traffic. About 3,917 people lived here in the 2021 Census (Housing Needs Report, November 25, 2024, read October 2026). On a long weekend, many more fill the lake, the golf courses and the trails. A mortgage here often starts with one question. Is this your home, your getaway or your rental?</p>
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He serves Invermere clients online and by phone from his office in Surrey. There is no Invermere branch. You can <a href="/contact/">book a 15-minute call</a> from anywhere in the valley, or from your home in another province.</p>
+<p>I'm Joshua Resvick, a licensed mortgage broker with Xeva Mortgage. I serve Invermere clients online and by phone from my office in Surrey. There is no Invermere branch. You can <a href="/contact/">book a 15-minute call</a> from anywhere in the valley, or from your home in another province.</p>
 
 ${ratesStrip()}
 
@@ -33,10 +33,10 @@ ${censusTable("invermere")}
 <li><strong>The plan for the cabin.</strong> A lender may ask if you will rent it, and how often. Say so at the start, because a change later can create problems.</li>
 <li><strong>Closing costs.</strong> A second home still pays property transfer tax and legal fees. The <a href="/closing-costs-bc/">closing costs page</a> lists the usual items.</li>
 </ul>
-<p>Some buyers use equity in their main home as part of the down payment. That can work, but it changes the shape of the file. Joshua walks through the choices before you write an offer.</p>
+<p>Some buyers use equity in their main home as part of the down payment. That can work, but it changes the shape of the file. I walk through the choices before you write an offer.</p>
 
 <h2>Buying from Alberta or another province</h2>
-<p>Many valley owners live elsewhere for most of the year. The housing report does not say how many are from Alberta, and Joshua will not guess. What he can say is how the file works.</p>
+<p>Many valley owners live elsewhere for most of the year. The housing report does not say how many are from Alberta, and I won't guess. What I can say is how the file works.</p>
 <ul>
 <li><strong>Income.</strong> Pay stubs, an employer letter and Canada Revenue Agency tax documents read the same way in any province. A lender may ask more about how long the job will last.</li>
 <li><strong>Your main home.</strong> Its mortgage and property taxes count as debts. If you rent it out, ask early how the lender will count that rent.</li>
@@ -47,7 +47,7 @@ ${censusTable("invermere")}
 <h2>Moving to Invermere: buying a home before or after you arrive</h2>
 <p>A lot of people looking at Invermere don't live here yet. Some have a job offer or a remote-work plan. Others want to retire near the lake. Moving to Invermere brings a few mortgage questions that a local buyer never faces.</p>
 <ul>
-<li><strong>Get pre-approved before your first visit.</strong> Joshua works by phone and video, so you can do this from your kitchen table. See the <a href="/mortgage-pre-approval-bc/">pre-approval page</a> for what to gather. A clear budget lets you act when a home comes up.</li>
+<li><strong>Get pre-approved before your first visit.</strong> I work by phone and video, so you can do this from your kitchen table. See the <a href="/mortgage-pre-approval-bc/">pre-approval page</a> for what to gather. A clear budget lets you act when a home comes up.</li>
 <li><strong>Bring income papers from your province.</strong> Pay stubs, an employer letter and tax documents work in any province. If you will work remotely for an employer elsewhere, ask for a letter that says the job continues after the move.</li>
 <li><strong>Pick a closing date that fits the move.</strong> Match it to your start date, your move-out date and any probation. Invermere has no local vacancy count, so the town's report uses the province's 1.4 percent rental vacancy rate as a stand-in (Housing Needs Report, November 2024, read October 2026). Rentals may be hard to find, so plan your housing for the days between homes.</li>
 <li><strong>Plan for the home you leave.</strong> If it has not sold, you may need to carry two homes for a while. The <a href="/bridge-financing/">bridge financing page</a> explains the options.</li>
@@ -77,7 +77,7 @@ ${censusTable("invermere")}
 <li><strong>Trades and contractors.</strong> Winter can be slow and summer can be full. The <a href="/mortgage-for-contractors/">contractor mortgage page</a> covers lumpy income.</li>
 <li><strong>Remote workers.</strong> A job with a company elsewhere can count. The lender will want proof the job is stable.</li>
 </ul>
-<p>Joshua spent five years as an underwriter. He knows which lenders accept seasonal, tip and business income, and he lines up the papers before you apply. If you are new to buying, the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> shows the programs that can help.</p>
+<p>I spent five years as an underwriter. I know which lenders accept seasonal, tip and business income, and I line up the papers before you apply. If you are new to buying, the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> shows the programs that can help.</p>
 
 <h2>Acreages, wells and septic</h2>
 <p>Outside town, lots get bigger. Many rural homes use a well and a septic system. Lenders often ask for a water test and proof the septic works. Some limit how many acres they will count. Land in the Agricultural Land Reserve adds more rules. The <a href="/farm-and-alr-mortgages-bc/">farm and ALR page</a> sets out the property types.</p>
@@ -89,28 +89,28 @@ ${censusTable("invermere")}
 <li><strong>The additional property transfer tax.</strong> The Province lists the areas where it applies. The East Kootenay and Invermere are not listed (Province of British Columbia, additional property transfer tax page, read October 2026).</li>
 <li><strong>The speculation and vacancy tax.</strong> The East Kootenay and Invermere are not on the taxable list (Province of BC, taxable areas, December 8, 2025, read October 2026).</li>
 </ul>
-<p>The federal foreign buyer ban works differently. It covers only property inside a census metropolitan area or census agglomeration (Non-Canadians Regulations, section 3(1), Justice Laws, read October 2026). Joshua has not confirmed where each valley address falls. Use CMHC's address lookup for your property, and confirm it with a lawyer. The <a href="/foreign-buyers-bc/">foreign buyers page</a> explains the lender side.</p>
+<p>The federal foreign buyer ban works differently. It covers only property inside a census metropolitan area or census agglomeration (Non-Canadians Regulations, section 3(1), Justice Laws, read October 2026). I have not confirmed where each valley address falls. Use CMHC's address lookup for your property, and confirm it with a lawyer. The <a href="/foreign-buyers-bc/">foreign buyers page</a> explains the lender side.</p>
 <p>Regular property transfer tax still applies. Lenders also set their own rules for buyers who live outside Canada.</p>
 
 <h2>Beyond the District line</h2>
-<p>Buyers search the whole valley. Radium Hot Springs, Windermere, Fairmont Hot Springs and Panorama Mountain Resort all come up in listings. Radium is its own village. The others generally sit outside the District of Invermere, many under the RDEK. Zoning, rental rules and water systems can differ from one to the next, so Joshua starts with the street address.</p>
+<p>Buyers search the whole valley. Radium Hot Springs, Windermere, Fairmont Hot Springs and Panorama Mountain Resort all come up in listings. Radium is its own village. The others generally sit outside the District of Invermere, many under the RDEK. Zoning, rental rules and water systems can differ from one to the next, so I start with the street address.</p>
 <p>If you are comparing resort towns, the <a href="/mortgage-broker-whistler/">Whistler page</a> covers a market with nightly-rental condos. The <a href="/mortgage-broker-princeton/">Princeton page</a> covers another small BC town with lake cabins and acreages.</p>
 
-<h2>What Joshua does for Columbia Valley clients</h2>
+<h2>What I do for Columbia Valley clients</h2>
 <ol>
 <li><strong>Asks about use first.</strong> Main home, second home, rental or suite. That choice shapes the lender list.</li>
 <li><strong>Checks the property early.</strong> Strata rules, permits, water and septic can all change the file.</li>
 <li><strong>Writes out the options.</strong> The <a href="/lender-comparison-report/">Lender Comparison Report</a> puts rate, term, penalty method and flexibility side by side.</li>
-<li><strong>Stays in touch.</strong> Through <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, he reviews your mortgage every year and calls before it matures.</li>
+<li><strong>Stays in touch.</strong> Through <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your mortgage every year and call before it matures.</li>
 </ol>
 
-${callout("Who pays for what", "<p>When a Columbia Valley file suits an A lender, that lender pays Joshua and his help costs you nothing. Some second-home, rental or unusual-income files need a B or private lender. In that case BC rules require any fee to you to appear in writing on BCFSA Form 1A before you agree to it.</p>")}
+${callout("Who pays for what", "<p>When a Columbia Valley file suits an A lender, that lender pays me and my help costs you nothing. Some second-home, rental or unusual-income files need a B or private lender. In that case BC rules require any fee to you to appear in writing on BCFSA Form 1A before you agree to it.</p>")}
 
 <h2>Buying, renewing and refinancing</h2>
 <p>If you already own in the valley, plan your renewal early. The <a href="/mortgage-renewal-bc/">renewal guide</a> sets out a timeline. You can test your numbers with the <a href="/mortgage-calculators/">mortgage calculators</a>. To see how a rate is set, read the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
 <h2>Who writes this</h2>
-<p>This page is a Resvick Mortgages guide for Invermere. Joshua Resvick, a licensed BC broker with Xeva Mortgage, stands behind it. He spent five years as an underwriter before he became a broker, and he has funded over 1,000 mortgages. Each local fact above names its source and was read in October 2026. Lender practice varies, so he confirms it on your file. This page is general information, not legal advice.</p>
+<p>This page is a Resvick Mortgages guide for Invermere. I'm Joshua Resvick, a licensed BC broker with Xeva Mortgage, and I stand behind it. I spent five years as an underwriter before I became a broker, and I have funded over 1,000 mortgages. Each local fact above names its source and was read in October 2026. Lender practice varies, so I confirm it on your file. This page is general information, not legal advice.</p>
 
 
 <p>Another mountain market sits to the south. The <a href="/mortgage-broker-fernie/">Fernie page</a> covers mine pay, resort pay and second homes in the Elk Valley.</p>
@@ -118,25 +118,25 @@ ${callout("Who pays for what", "<p>When a Columbia Valley file suits an A lender
 ${cityFacts("invermere")}
 ${nearbyCallout("invermere", callout)}
 
-${cta({ title: "Talk to a broker who serves Invermere", text: "Book a 15-minute call. Tell Joshua how you plan to use the home and how you earn. You will leave knowing how a lender may read the file and what to gather first." })}
+${cta({ title: "Talk to a broker who serves Invermere", text: "Book a 15-minute call. Tell me how you plan to use the home and how you earn. You will leave knowing how a lender may read the file and what to gather first." })}
 `;
 
 export default {
   slug: "/mortgage-broker-invermere/",
   h1: "Mortgage broker in Invermere, BC: buying a home or moving to the Valley",
-  lede: "Buying a home in Invermere, or moving to Invermere? Joshua Resvick, Xeva Mortgage, serves the Columbia Valley from his Surrey office by phone and video. Vacation homes, short-term rentals, suites and rural properties, read the way an underwriter reads them.",
+  lede: "Buying a home in Invermere, or moving to Invermere? I'm Joshua Resvick, with Xeva Mortgage, and I serve the Columbia Valley from my Surrey office by phone and video. Vacation homes, short-term rentals, suites and rural properties, read the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Invermere", "/mortgage-broker-invermere/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Can I get a mortgage on a second home or cabin in Invermere?", a: "Yes, often. Lenders vary, but a second home usually needs a larger down payment, and plan on at least 20 percent. The lender also counts the payment on your main home in your debt ratios. Tell Joshua early if you plan to rent the place out, because that changes the file." },
+    { q: "Can I get a mortgage on a second home or cabin in Invermere?", a: "Yes, often. Lenders vary, but a second home usually needs a larger down payment, and plan on at least 20 percent. The lender also counts the payment on your main home in your debt ratios. Tell me early if you plan to rent the place out, because that changes the file." },
     { q: "Can I rent my Invermere home by the night?", a: "Not always. The District uses a business licence plus a Temporary Use Permit in single-family and low-density areas. Stratas and titles can also say no. Ask for the licence, the permit and its end date before you rely on the income, and know that many lenders count it in a limited way." },
     { q: "I live in Alberta. Can I still buy in the Columbia Valley?", a: "Often yes. Income documents from another province read the same way, and a lawyer in BC can handle signing. The lender will count your main home's mortgage and taxes as debts. A pre-approval before your first trip lets you make an offer with a clear budget." },
     { q: "Can I add a suite to my Invermere home?", a: "Possibly. The District changed its suite rules in 2026, and the notice said size limits and the principal residency rule would be removed. Confirm the details for your lot with the District. A lender counts rent only when the suite is legal and the rent is documented." },
     { q: "Can I buy a home in Invermere before I move there?", a: "Yes, often. Many people get pre-approved by phone or video, then make an offer when they visit or through a realtor. Lenders look at your income, credit and down payment, not where you live today. Ask for a closing date that fits your move and any probation." },
-    { q: "I am moving to Invermere. When should I get pre-approved?", a: "As soon as you know your income and budget, and before your first visit. A pre-approval shows your price range and holds a rate for a set time. Bring pay stubs, tax documents and down payment details. If the home you leave is unsold, tell Joshua early." },
-    { q: "Do the foreign buyer taxes apply in Invermere?", a: "The province's additional property transfer tax and the speculation and vacancy tax do not list Invermere or the East Kootenay. The federal ban covers only certain census areas, and Joshua has not confirmed where each valley address falls. Check the address and your status with a lawyer before you commit." },
-    { q: "How do lenders see tourism or seasonal income?", a: "Lenders vary. Many look for about two years in the same kind of work. Tips and commission are often averaged. Self-employed owners usually show two years of tax returns. Joshua matches the file to a lender before you apply so there are fewer surprises." }
+    { q: "I am moving to Invermere. When should I get pre-approved?", a: "As soon as you know your income and budget, and before your first visit. A pre-approval shows your price range and holds a rate for a set time. Bring pay stubs, tax documents and down payment details. If the home you leave is unsold, tell me early." },
+    { q: "Do the foreign buyer taxes apply in Invermere?", a: "The province's additional property transfer tax and the speculation and vacancy tax do not list Invermere or the East Kootenay. The federal ban covers only certain census areas, and I have not confirmed where each valley address falls. Check the address and your status with a lawyer before you commit." },
+    { q: "How do lenders see tourism or seasonal income?", a: "Lenders vary. Many look for about two years in the same kind of work. Tips and commission are often averaged. Self-employed owners usually show two years of tax returns. I match the file to a lender before you apply so there are fewer surprises." }
   ]
 };

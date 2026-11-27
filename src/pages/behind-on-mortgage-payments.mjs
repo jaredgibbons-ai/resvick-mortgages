@@ -2,7 +2,7 @@ import { callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
 const body = `
-${short({ answer: "In BC, a lender has to go through the court to take or sell your home, and that takes months. Use that time. Call your lender this week and work through your options in order.", who: "You've missed a mortgage payment, or you know you're about to.", next: "Read the call script below, then call your lender. If you want a second opinion, <a href=\"/contact/\">contact Joshua</a>." })}
+${short({ answer: "In BC, a lender has to go through the court to take or sell your home, and that takes months. Use that time. Call your lender this week and work through your options in order.", who: "You've missed a mortgage payment, or you know you're about to.", next: "Read the call script below, then call your lender. If you want a second opinion, <a href=\"/contact/\">contact me</a>." })}
 
 <h2>First, the BC reality</h2>
 <p>If you're behind on your mortgage, you probably picture a letter, a locked door and thirty days. That picture comes from American TV and a few other provinces. It's not how BC works.</p>
@@ -76,12 +76,12 @@ ${short({ answer: "In BC, a lender has to go through the court to take or sell y
 <p>The People's Law School guide to foreclosure was reviewed for legal accuracy in April 2025. It's the plain-language source for each of those stages. The <a href="/missed-a-mortgage-payment/">missed a payment</a> page covers the first thirty days, before any of this starts.</p>
 <p>What does that mean in practice? A household that acts in the first month usually has every option on the ladder. A household that acts after the petition is served still has most of them, with less time and more cost. A household that waits for the sale hearing usually has one.</p>
 
-${callout("The fee question, answered first", "<p>On any mortgage with a mainstream A lender, the lender pays the broker. You pay nothing for the work. Fees come up only on B-lender and private files. A tough situation can lead to exactly that kind of file. If yours goes there, you'll see every fee in writing, on BCFSA's Form 1A, before you commit to anything. And Joshua will tell you plainly when a private solution is worse than selling.</p>")}
+${callout("The fee question, answered first", "<p>On any mortgage with a mainstream A lender, the lender pays the broker. You pay nothing for the work. Fees come up only on B-lender and private files. A tough situation can lead to exactly that kind of file. If yours goes there, you'll see every fee in writing, on BCFSA's Form 1A, before you commit to anything. And I'll tell you plainly when a private solution is worse than selling.</p>")}
 
 <h2>Where a broker fits, and where one doesn't</h2>
 <p>A mortgage broker can't stop a foreclosure. A broker can't speak to the court for you or make a lender's hardship team say yes.</p>
 <p>Here's what a broker can do. A broker can tell you quickly which steps on the ladder are realistic for your file. A broker can run the numbers on a consolidation or a second mortgage, so you see if it actually helps. And a broker can place the file with a lender that will consider it.</p>
-<p>Joshua spent five years as an underwriter and ten as a broker. The most useful thing he can offer here is a straight answer. If the right answer is a sale, he'll say so. If you want that conversation, <a href="/contact/">contact him</a>. Say in the first line that you're behind on payments, so it's handled with the urgency it deserves.</p>
+<p>I spent five years as an underwriter and ten as a broker. The most useful thing I can offer here is a straight answer. If the right answer is a sale, I'll say so. If you want that conversation, <a href="/contact/">contact me</a>. Say in the first line that you're behind on payments, so it's handled with the urgency it deserves.</p>
 `;
 
 export default {

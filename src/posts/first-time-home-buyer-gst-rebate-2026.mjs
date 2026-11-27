@@ -42,7 +42,7 @@ ${short({
 <ul>
 <li><strong>The First Home Savings Account</strong> allows $8,000 of contributions a year and $40,000 in a lifetime. It's tax-deductible going in and tax-free coming out for a qualifying first home.</li>
 <li><strong>The Home Buyers' Plan</strong> lets each person withdraw up to $60,000 from an RRSP. You pay it back over time.</li>
-<li><strong>The BC first-time home buyers' property transfer tax exemption</strong> removes up to $8,000 of transfer tax on a home worth up to $835,000. It phases out to zero at $860,000. On a newly built home, a separate exemption applies up to $1,100,000, phasing out at $1,150,000. The <a href="/guides/bc-property-transfer-tax-thresholds-2024/">post on the 2024 threshold change</a> records how those figures came about.</li>
+<li><strong>The BC first-time home buyers' property transfer tax exemption</strong> removes up to $8,000 of transfer tax on a home worth up to $835,000. It phases out to zero at $860,000. On a newly built home, a separate exemption applies up to $1,100,000, phasing out at $1,150,000. The <a href="/bc-property-transfer-tax-calculator/">post on the 2024 threshold change</a> records how those figures came about.</li>
 </ul>
 <p>The GST rebate is a different kind of help from the other three. The FHSA and HBP are about the down payment. They're sources of cash before closing. The PTT exemption and the GST rebate are about closing costs. They reduce what you owe at completion or soon after.</p>
 <p>The GST rebate is usually signed over to the builder in the contract. So the buyer pays the net price and never sees the cash. That's worth knowing before you read a presale price sheet. The <a href="/closing-costs-bc/">closing costs guide</a> shows where each one lands in your cash to close. The <a href="/mortgage-calculators/#closing-costs">closing costs calculator</a> runs it with your own numbers.</p>
@@ -71,7 +71,7 @@ export default {
   crumb: "GST rebate, 2026",
   lede: "The old new-housing rebate stopped at $450,000 and was worth nothing in most of BC. The new one covers homes to $1 million in full. The record of the change, the dates and the four separate first-time buyer tests.",
   body,
-  links: ["/first-time-buyer-programs-bc/", "/presale-mortgages-bc/", "/guides/bc-property-transfer-tax-thresholds-2024/", "/closing-costs-bc/", "/mortgage-calculators/#closing-costs", "/how-much-mortgage-can-i-afford/"],
+  links: ["/first-time-buyer-programs-bc/", "/presale-mortgages-bc/", "/bc-property-transfer-tax-calculator/", "/closing-costs-bc/", "/mortgage-calculators/#closing-costs", "/how-much-mortgage-can-i-afford/"],
   faqs: [
     { q: "I signed a presale contract in 2025, before the bill passed. Do I qualify?", a: "If the agreement of purchase and sale was entered into on or after March 20, 2025, and you meet the first-time buyer test, yes. That date is when the measure was announced, and the legislation reaches back to it. An agreement signed before March 20, 2025 does not qualify, whatever the completion date." },
     { q: "Is this the same as the GST new housing rebate my builder mentioned?", a: "No. The older rebate returns 36 percent of the GST to a maximum of $6,300 and phases out between $350,000 and $450,000, which excludes nearly every new home in BC's cities. The first-time buyer rebate is a separate, larger rebate that can be claimed in addition to the old one where both apply, with the new one acting as a top-up." },

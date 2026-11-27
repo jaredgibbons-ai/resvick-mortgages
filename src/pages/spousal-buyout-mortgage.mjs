@@ -13,7 +13,7 @@ ${short({
 <p>A regular refinance at a federally regulated lender is capped at 80 percent of the home's value. For a separating couple, that cap is often the problem. After paying off the old mortgage and the departing partner's share, 80 percent isn't enough.</p>
 <p>A buyout is treated as a purchase, so mortgage default insurance is available. The insurers' published rules allow financing above the refinance limit.</p>
 <p>Sagen published a lender bulletin on its equity buyout policy dated February 5, 2019. It was still on Sagen's site as of October 2026. It allows the deal on purchase terms up to 95 percent loan-to-value. Both parties must be on title. It accepts a purchase agreement, a final separation agreement or a court order as the supporting document.</p>
-<p>The other insurers describe similar programs. Bulletins change, so Joshua confirms the current terms with the insurer on every file.</p>
+<p>The other insurers describe similar programs. Bulletins change, so I confirm the current terms with the insurer on every file.</p>
 
 <h2>The separation agreement's role</h2>
 <p>The lender and the insurer want the buyout terms in writing, in a document with legal weight. That usually means a final separation agreement, a court order, or a formal purchase agreement between the two of you.</p>
@@ -37,7 +37,7 @@ ${short({
 <p>If the staying partner's income falls a little short, a <a href="/mortgage-with-a-cosigner/">co-signer</a> is sometimes the answer. Make sure the co-signer understands their own duties and risks first.</p>
 <p>The <a href="/mortgage-application-checklist/">application checklist</a> lists the documents. For a buyout, add the agreement, the appraisal and a payout statement to the usual set.</p>
 
-${cta({ title: "A confidential conversation first", text: "Book a 15-minute call. Joshua will look at the numbers and tell you whether keeping the home is realistic on your income. He'll also explain what the lender and insurer will need, before anything is signed." })}
+${cta({ title: "A confidential conversation first", text: "Book a 15-minute call. I'll look at the numbers and tell you whether keeping the home is realistic on your income. I'll also explain what the lender and insurer will need, before anything is signed." })}
 
 <h2>Title and release from the mortgage</h2>
 <p>A buyout is only done when two things happen, one at the land title office and one at the lender. The departing partner's name comes off the title. And the departing partner is released from the mortgage.</p>
@@ -59,9 +59,9 @@ ${cta({ title: "A confidential conversation first", text: "Book a 15-minute call
 
 <h2>Related situations</h2>
 <p>The buyout is one of several mortgage questions a separation raises. What happens to a joint mortgage during the separation? How is a renewal handled while both names are on title? Should you sell instead? How do you qualify for a new purchase with support in the picture? The page on <a href="/mortgages-during-separation-and-divorce/">mortgages during separation and divorce</a> covers all of these.</p>
-<p>The <a href="/refinance-mortgage-bc/">refinance hub</a> covers the regular route if the loan fits under 80 percent. On any of this, <a href="/contact/">contact Joshua</a> directly. These talks are confidential, and he's had many of them.</p>
+<p>The <a href="/refinance-mortgage-bc/">refinance hub</a> covers the regular route if the loan fits under 80 percent. On any of this, <a href="/contact/">contact me</a> directly. These talks are confidential, and I've had many of them.</p>
 
-${callout("Nothing here is legal advice", "<p>A separation agreement is a legal document with effects well beyond the mortgage. The financing on this page depends on it. A family lawyer should draft and review it. Joshua works alongside your lawyer, not instead of one.</p>")}
+${callout("Nothing here is legal advice", "<p>A separation agreement is a legal document with effects well beyond the mortgage. The financing on this page depends on it. A family lawyer should draft and review it. I work alongside your lawyer, not instead of one.</p>")}
 `;
 
 export default {
@@ -72,7 +72,7 @@ export default {
   nav: "/refinance-mortgage-bc/", body,
   faqs: [
     { q: "How does a spousal buyout mortgage work?", a: "The partner keeping the home takes a new mortgage in their own name that pays out the joint mortgage and pays the other partner their share of the equity. It is structured as a purchase between the two owners, which makes default insurance available above the 80 percent refinance limit." },
-    { q: "How much can I borrow for a spousal buyout?", a: "Sagen's published equity buyout policy allows purchase financing up to 95 percent of value with both parties on title and a finalized separation agreement, court order or purchase agreement. Other insurers describe comparable programs. Terms change, so Joshua confirms the current bulletin on every file." },
+    { q: "How much can I borrow for a spousal buyout?", a: "Sagen's published equity buyout policy allows purchase financing up to 95 percent of value with both parties on title and a finalized separation agreement, court order or purchase agreement. Other insurers describe comparable programs. Terms change, so I confirm the current bulletin on every file." },
     { q: "Do I need a signed separation agreement to get the mortgage?", a: "You can start the application with a draft, but funds will not advance until the agreement, court order or purchase agreement is final. The lender uses it to confirm the price, the use of proceeds and any support obligations." },
     { q: "Does spousal support count as income for the mortgage?", a: "Support received can usually be counted if it is set out in the agreement or order and there is a payment history or a clear start. Support paid is added to your monthly debts. Both must be documented." },
     { q: "Is my ex still responsible for the mortgage after I keep the house?", a: "Only until they are formally released. Taking their name off title does not remove them from the mortgage. A new mortgage in your name alone, or a lender-approved assumption with a written release, is what ends their liability." }

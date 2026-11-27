@@ -30,7 +30,7 @@ ${short({ answer: "A rate hold locks in a rate for a set time, commonly 90 or 12
 <li><strong>A float-down.</strong> Some lenders lower your rate if market rates drop below it before you close. Some do it automatically, and some do it when you ask. Whether a float-down exists, and what triggers it, depends on the lender and the product.</li>
 <li><strong>A re-lock at the lower rate.</strong> Some advisers monitor rates and ask the lender to apply a lower rate if it becomes available during the hold.</li>
 </ul>
-<p>So ask this. If rates fall during the hold, what happens to my rate? Get the answer in writing before you choose the lender. A hold with a float-down is more valuable than one without, and it is one of the items in Joshua Resvick's comparison.</p>
+<p>So ask this. If rates fall during the hold, what happens to my rate? Get the answer in writing before you choose the lender. A hold with a float-down is more valuable than one without, and it is one of the items in my comparison.</p>
 <p>Here's what's at stake, using rates chosen just for the example. Take a $500,000 mortgage with a 25-year amortization. A five-year fixed rate of 4.50 percent gives a payment of $2,767.36 a month. Say rates rise a quarter point to 4.75 percent while you're shopping. The payment becomes $2,837.28. That's about $70 more each month and about $5,990 more interest over five years. A half-point rise adds about $141 a month and about $12,000 over the term. A hold prevents that exposure for its length, which is its entire value.</p>
 
 <h2>When should I lock in?</h2>
@@ -46,10 +46,10 @@ ${short({ answer: "A rate hold locks in a rate for a set time, commonly 90 or 12
 
 ${callout("A hold is not a decision", "<p>Holding a rate keeps your options open. It does not oblige you to take the mortgage, and it does not replace comparing offers. Use the hold to give yourself time, then use the time to compare.</p>")}
 
-<h2>How Joshua uses holds</h2>
-<p>Joshua Resvick builds the hold into your timeline from the first call. For a purchase, he locks a rate with your pre-approval. He tells you the expiry date and what the lender does if rates fall. For a renewal, he starts about 120 days out. He holds a rate and compares offers before the lender's letter arrives. He compares hold terms across a wide range of lenders. They're shown in the written <a href="/lender-comparison-report/">Lender Comparison Report</a>. With a mainstream (A) lender, the lender pays the broker, and you pay nothing for the service. Fees arise only on certain B-lender and private-lender files, with written disclosure first.</p>
+<h2>How I use holds</h2>
+<p>I build the hold into your timeline from the first call. For a purchase, I lock a rate with your pre-approval. I tell you the expiry date and what the lender does if rates fall. For a renewal, I start about 120 days out. I hold a rate and compare offers before the lender's letter arrives. I compare hold terms across a wide range of lenders. They're shown in the written <a href="/lender-comparison-report/">Lender Comparison Report</a>. With a mainstream (A) lender, the lender pays the broker, and you pay nothing for the service. Fees arise only on certain B-lender and private-lender files, with written disclosure first.</p>
 
-${cta({ title: "Put a date on your rate", text: "Tell Joshua when you plan to buy or when your mortgage matures. He'll work out when to hold a rate and for how long.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "Put a date on your rate", text: "Tell me when you plan to buy or when your mortgage matures. I'll work out when to hold a rate and for how long.", href: "/contact/", label: "Contact me" })}
 `;
 
 export default {

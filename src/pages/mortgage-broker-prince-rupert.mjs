@@ -8,9 +8,9 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-pri
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Prince Rupert and Port Edward by phone and video from his Surrey office. Many buyers here earn port, rail, health care or shift pay, and many homes are older. You can start the mortgage before you travel north.",
+  answer: "I serve Prince Rupert and Port Edward by phone and video from my Surrey office. Many buyers here earn port, rail, health care or shift pay, and many homes are older. You can start the mortgage before you travel north.",
   who: "Buyers and owners in Prince Rupert and Port Edward, including port and rail workers, health care staff and people moving north for work.",
-  next: "Book a 15-minute call and tell Joshua how you are paid and what kind of home you want."
+  next: "Book a 15-minute call and tell me how you are paid and what kind of home you want."
 })}
 <p>Prince Rupert sits on Kaien Island on BC's north coast. The Port Authority lists six terminals, from containers and grain to cruise ships and wood pellets. It says the port directly supports 3,300 full-time jobs, plus about 4,200 indirect and induced jobs (Prince Rupert Port Authority, Economic Impact, read October 2026). That puts a lot of household income in one place. It also means a mortgage here often turns on how a lender reads port, rail and shift pay.</p>
 <p>My name is Joshua Resvick, and I'm a mortgage broker with Xeva Mortgage. Before brokering, I spent five years as an underwriter, so I've sat on the lender's side of files built on port, rail and project pay. My office is in Surrey, and Prince Rupert and North Coast clients work with me by phone, video and secure upload. I don't have a Prince Rupert office. You can <a href="/contact/">book a 15-minute call</a> from home or from a job site.</p>
@@ -22,7 +22,7 @@ ${ratesStrip()}
 <p>Big projects bring work, but a lender does not lend against a forecast. It looks at the job you hold today. These are common cases:</p>
 <ul>
 <li><strong>Permanent terminal, rail or hospital jobs.</strong> A salaried or hourly job with a steady schedule is read like most jobs. Recent pay stubs and an employer letter do most of the work.</li>
-<li><strong>Union hall and call-out work.</strong> Pay can vary with the season and the ship schedule. Many lenders average two years of income. Policies differ, so Joshua checks before you apply.</li>
+<li><strong>Union hall and call-out work.</strong> Pay can vary with the season and the ship schedule. Many lenders average two years of income. Policies differ, so I check before you apply.</li>
 <li><strong>Construction and contract work.</strong> A project can end. Lenders often ask how long the contract runs and what your history looks like.</li>
 <li><strong>Self-employed owners.</strong> Boat, trucking and service owners usually need two years of tax returns. The <a href="/self-employed-mortgage-bc/">self-employed hub</a> explains the routes.</li>
 </ul>
@@ -47,7 +47,7 @@ ${censusTable("prince-rupert")}
 
 <h2>Older homes, muskeg and the inspection</h2>
 <p>The City's 2022 report says about three-quarters of the housing stock was built before 1980, and 14 percent of homes needed major repair, against 5.8 percent for BC (City of Prince Rupert, Prince Rupert Housing Needs Report, December 2022, read October 2026). That is dated, but the pattern is clear: many homes are older, and the wet coast is hard on them. Lenders and insurers may ask about the roof, the wiring, the heating and drainage. Plan for a full inspection, and ask early whether a repair could affect financing. Some files need a larger repair budget built in. The <a href="/purchase-plus-improvements/">purchase plus improvements page</a> explains how a lender can fold repairs into the mortgage.</p>
-<p>Building a new home has its own risk. The City says it is "very difficult to determine the costs of excavating muskeg" (City of Prince Rupert, Interim Housing Strategy, February 15, 2021, read October 2026). Muskeg is soft peat, and it can be deep. If you plan to build, get the site checked before you buy the lot, and talk to Joshua about a construction file. The City also lists lots it holds for sale. Buyers grant the City an option to purchase, with deadlines for a building permit and a finished home (City of Prince Rupert, City Held Properties for Sale, read October 2026). Prices and terms on that page may be out of date, so confirm them with the City.</p>
+<p>Building a new home has its own risk. The City says it is "very difficult to determine the costs of excavating muskeg" (City of Prince Rupert, Interim Housing Strategy, February 15, 2021, read October 2026). Muskeg is soft peat, and it can be deep. If you plan to build, get the site checked before you buy the lot, and talk to me about a construction file. The City also lists lots it holds for sale. Buyers grant the City an option to purchase, with deadlines for a building permit and a finished home (City of Prince Rupert, City Held Properties for Sale, read October 2026). Prices and terms on that page may be out of date, so confirm them with the City.</p>
 
 <h2>Suites, garden suites and rentals</h2>
 <p>In May 2024 the City adopted Zoning Bylaw Amendment Bylaw No. 3536. It renamed the R2 duplex zone as R1 Small-Scale Residential. It allows up to four units on a lot, including accessory dwellings, and adds garden suites of up to 90 square metres. Accessory units cannot be strata titled, and the owner must register a covenant against it (City of Prince Rupert, Zoning Bylaw Amendment Bylaw No. 3536, 2024, May 2024, read October 2026). The copy we read mixes current and proposed wording, so confirm the final rules with the City before you plan a build.</p>
@@ -57,11 +57,11 @@ ${censusTable("prince-rupert")}
 
 <h2>Port Edward and the surrounding area</h2>
 <p>Many searches say Prince Rupert but mean the wider area. Port Edward, a small district to the south, had 470 people in the 2021 Census and 207 homes, and 88 percent of households owned (District of Port Edward, Interim Housing Needs Report, November 6, 2024, read October 2026). We found no Port Edward bylaw for small-scale multi-unit housing, so ask the District what is allowed before you plan a suite.</p>
-<p>Two First Nations are also part of the picture. Metlakatla has a village a few kilometres from the city, and Lax Kw'alaams is at Port Simpson to the northwest (Province of BC, Metlakatla First Nation and Lax Kw'alaams Band, read October 2026). Homes on reserve land are held differently from a town lot. We found no homes on First Nation land marketed to outside buyers here. If a purchase involves reserve land or leased land, tell Joshua at the start. He arranges those files through a lender that works on them, and the lender that fits depends on the land and your timing. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
+<p>Two First Nations are also part of the picture. Metlakatla has a village a few kilometres from the city, and Lax Kw'alaams is at Port Simpson to the northwest (Province of BC, Metlakatla First Nation and Lax Kw'alaams Band, read October 2026). Homes on reserve land are held differently from a town lot. We found no homes on First Nation land marketed to outside buyers here. If a purchase involves reserve land or leased land, tell me at the start. I arrange those files through a lender that works on them, and the lender that fits depends on the land and your timing. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a> and <a href="/leasehold-mortgages-bc/">leasehold mortgages</a>.</p>
 <p>The nearest larger centre by road is Terrace. Our <a href="/mortgage-broker-terrace/">Terrace page</a> covers that market, and the <a href="/mortgage-broker-kitimat/">Kitimat page</a> covers the next town along the corridor.</p>
 
 <h2>Booms, busts and your plan</h2>
-<p>Prince Rupert has seen big project talk before. A 2016 letter from the local MLA said LNG speculation tightened the rental market, while no LNG project had yet been built (Jennifer Rice MLA, MLA Rice Advocates for Provincial Investment in Prince Rupert Housing Infrastructure, September 19, 2016, read October 2026). Some projects now move ahead and some wait. For example, the Ksi Lisims LNG partners said in late October 2026 that they aim to make a final investment decision this year, and no decision had been announced (BNN Bloomberg, Ksi Lisims finalizes supply deal with German utility SEFE, October 26, 2026, read October 2026). A sound plan does not depend on any one project. Choose a payment you could carry on today's income, with room if hours change.</p>
+<p>Prince Rupert has seen big project talk before. A 2016 letter from the local MLA said LNG speculation tightened the rental market, while no LNG project had yet been built (Jennifer Rice MLA, MLA Rice Advocates for Provincial Investment in Prince Rupert Housing Infrastructure, September 19, 2016, read October 2026). Some projects now move ahead and some wait. For example, in late October 2026 the Ksi Lisims LNG partners said they aimed to make a final investment decision by the end of 2026. No decision had been announced at that point (BNN Bloomberg, Ksi Lisims finalizes supply deal with German utility SEFE, October 26, 2026, read October 2026). A sound plan does not depend on any one project. Choose a payment you could carry on today's income, with room if hours change.</p>
 
 <h2>How I work with Prince Rupert clients</h2>
 <ol>
@@ -71,7 +71,7 @@ ${censusTable("prince-rupert")}
 <li><strong>I stay on it after closing.</strong> With <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, I review your Prince Rupert mortgage every year. I also call you about six months before renewal, so a contract change or a rate move doesn't catch you short. The <a href="/mortgage-renewal-bc/">renewal guide</a> covers the timeline.</li>
 </ol>
 
-${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Prince Rupert files, such as a home that needs major repairs, new self-employed income or a home on leased land, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
+${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays me and you pay nothing for my work. Some Prince Rupert files, such as a home that needs major repairs, new self-employed income or a home on leased land, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
 
 <p>Before we talk, it can help to read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>.</p>
@@ -84,17 +84,17 @@ ${cta({ title: "Talk to a broker who serves Prince Rupert", text: "Book a 15-min
 export default {
   slug: "/mortgage-broker-prince-rupert/",
   h1: "Mortgage broker in Prince Rupert, BC: buying a home or moving north",
-  lede: "Buying a home in Prince Rupert or Port Edward, or moving north for port, rail or health care work? Joshua Resvick, Xeva Mortgage, serves the North Coast from his Surrey office by phone and video. Shift pay, older homes, suites and muskeg lots, explained the way an underwriter reads them.",
+  lede: "Buying a home in Prince Rupert or Port Edward, or moving north for port, rail or health care work? I'm Joshua Resvick, with Xeva Mortgage, and I serve the North Coast from my Surrey office by phone and video. Shift pay, older homes, suites and muskeg lots, explained the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving Prince Rupert", "/mortgage-broker-prince-rupert/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
     { q: "Can I buy a home in Prince Rupert before I move there?", a: "Often, yes. Many buyers get pre-approved by phone or video, then make an offer through a realtor. Lenders look at your income, credit and down payment, not where you live today. Ask for a closing date that fits your move, and plan one trip for the inspection." },
-    { q: "How does a lender count port, rail or shift pay?", a: "It depends on the lender and on how steady the hours are. Permanent jobs with a set schedule are read like most jobs. Call-out work, overtime and premiums are often averaged over two years. Joshua checks lender rules for your pay type before you apply." },
+    { q: "How does a lender count port, rail or shift pay?", a: "It depends on the lender and on how steady the hours are. Permanent jobs with a set schedule are read like most jobs. Call-out work, overtime and premiums are often averaged over two years. I check lender rules for your pay type before you apply." },
     { q: "Are older homes a problem for a mortgage in Prince Rupert?", a: "Not by themselves. About three-quarters of the city's homes were built before 1980, according to the City's 2022 report. A lender may ask about the roof, wiring, heating and drainage, and an insurer may too. A full inspection helps you and the lender see the risks early." },
     { q: "Can a suite or garden suite help me qualify?", a: "It can, if the suite is legal and the rent is documented. The City allows up to four units on many lots under a 2024 bylaw, but accessory units cannot be strata titled. Confirm the final rules with the City before you plan a build." },
     { q: "Can I use a Prince Rupert home as an Airbnb?", a: "Usually not as an investment. Prince Rupert is on the Province's principal residence list, and the local bylaw requires the operator to live in the home. Lenders also ask about the rent they can count. Check the City's current rules before you plan on short-term rental income." },
-    { q: "Do you help with homes on First Nation land near Prince Rupert?", a: "Yes. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. Which lender fits depends on the land and your timing. Tell him at the start what paper you hold, such as a lease or a certificate of possession." }
+    { q: "Do you help with homes on First Nation land near Prince Rupert?", a: "Yes. I arrange mortgages on reserve land, leased land and First Nation land through a lender that works on it. Which lender fits depends on the land and your timing. Tell me at the start what paper you hold, such as a lease or a certificate of possession." }
   ]
 };

@@ -19,7 +19,7 @@ ${short({
 <p>The rest of this site is written to stay true. It covers things like how a stress test works, what a renewal letter means and how a lender counts suite income. Those pages skip dates and market numbers on purpose. A figure that was right one month is wrong the next, and a page that quotes it ages badly.</p>
 <p>This section is the opposite. Everything here is dated, and the date is part of the information.</p>
 <p>A Bank of Canada post is about one announcement on one day. A rule-change post is about one change, with its start date and its source. When a newer post replaces an old one, the old one stays as a record. The new one links back to it.</p>
-<p>Joshua Resvick writes these the way he explains things on a call. What changed? Who does it affect? What should you do, and what can you ignore? There are no predictions and no sales pitches. If a post makes you want a number for your own situation, the <a href="/contact/">contact page</a> is the next step. A 15-minute call is free.</p>
+<p>I write these the way I explain things on a call. What changed? Who does it affect? What should you do, and what can you ignore? There are no predictions and no sales pitches. If a post makes you want a number for your own situation, the <a href="/contact/">contact page</a> is the next step. A 15-minute call is free.</p>
 
 <h2>${esc(SERIES.boc.label)}</h2>
 <p>Each one is explained the same day.</p>
@@ -48,7 +48,7 @@ ${list("questions")}
 <p>A Bank of Canada post tells you what happened on the day. The <a href="/variable-rate-mortgage/">variable rate mortgage guide</a> tells you how a variable mortgage behaves in general, including trigger rates and conversion rights.</p>
 <p>A rule-change post might tell you the secondary suite refinance program opened on a set date. The <a href="/secondary-suite-refinance/">secondary suite refinance guide</a> carries the current terms and the eligibility checker.</p>
 <p>The two kinds of page are kept apart so each can do its job. The post can be specific and dated. The guide can stay accurate without a rewrite every month.</p>
-<p>Want a heads-up when it matters to you? Sign up on the <a href="/mortgage-renewal-reminder/">free renewal reminder page</a>. Joshua will get in touch six months and 120 days before your maturity date. That's when the decisions in this section start to affect you directly.</p>
+<p>Want a heads-up when it matters to you? Sign up on the <a href="/mortgage-renewal-reminder/">free renewal reminder page</a>. I'll get in touch six months and 120 days before your maturity date. That's when the decisions in this section start to affect you directly.</p>
 <p>For the Bank of Canada series itself, just bookmark this page. The decision dates are published a year ahead, and each post goes up on the day.</p>
 
 ${callout("What you will not find here", "<p>No rate predictions, market forecasts, lender rankings or anything written to rush you. The Bank's own statements are quoted. Rule changes link to their official sources. And the posts say plainly when something is uncertain or depends on your lender.</p>")}

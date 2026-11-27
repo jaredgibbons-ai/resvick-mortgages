@@ -61,7 +61,7 @@ export default {
       { n: "Yennadon", d: "Active agricultural area and a major recreation centre" },
       { n: "Ruskin", d: "Rural area on the Stave River where shake and sawmills still run" }
     ],
-    land: "Katzie First Nation has reserves in Maple Ridge, Pitt Meadows and nearby areas. Kwantlen First Nation also has reserves next to Maple Ridge, including Whonnock 1. Reserve land is not regular municipal land. Tell Joshua early if a property is on or beside one.",
+    land: "Katzie First Nation has reserves in Maple Ridge, Pitt Meadows and nearby areas. Kwantlen First Nation also has reserves next to Maple Ridge, including Whonnock 1. Reserve land is not regular municipal land. Tell me early if a property is on or beside one.",
     feature: "Land status changes what a Maple Ridge lot can legally hold. Secondary suites are not allowed in the Floodplain Area. Farmland reserve lots have a smaller garden suite limit. Check a lot's status before you count on suite income.",
     src: [
       ["City of Maple Ridge: short-term rental operator guide", "https://www.mapleridge.ca/news/city-maple-ridge-reminds-operators-deadline-short-term-rental-business-licences"],

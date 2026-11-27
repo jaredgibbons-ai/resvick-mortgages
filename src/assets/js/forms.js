@@ -3,7 +3,7 @@
    in localStorage), and click-to-load cal.com embeds ([data-book-load], with an optional data-book-url). */
 (function () {
   var EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
-  var FALLBACK = "That did not send. Please call 778.882.5674 or email joshua@resvickmortgages.com and Joshua will pick it up directly.";
+  var FALLBACK = "That did not send. Please call 778.882.5674 or email joshua@resvickmortgages.com and I'll pick it up directly.";
   function utm() { var o = {}, p = new URLSearchParams(location.search); ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content"].forEach(function (k) { if (p.get(k)) o[k] = p.get(k); }); return o; }
   function val(d, k) { return (d.get(k) || "").toString().trim(); }
   // Leave a short-lived token so /thank-you/ counts exactly one conversion, then go there. If navigation is blocked, the in-page success message stays.
@@ -133,7 +133,7 @@
       var name = val(d, "name"), email = val(d, "email");
       if (kind === "renewal-reminder" && d.get("consent_reminders") !== "on") { setMsg("Please tick the box to agree to receive the two reminder emails.", true); return; }
       if (kind === "refer" && d.get("consent_referee") !== "on") { setMsg("Please confirm the person you are referring has agreed to be contacted.", true); return; }
-      if (kind === "callback") { if (!name || val(d, "phone").replace(/\D/g, "").length < 7) { setMsg("Please enter your name and a phone number Joshua can call.", true); return; } }
+      if (kind === "callback") { if (!name || val(d, "phone").replace(/\D/g, "").length < 7) { setMsg("Please enter your name and a phone number I can call.", true); return; } }
       else if (!name || !EMAIL.test(email)) { setMsg("Please enter your name and a valid email address.", true); return; }
       var btn = f.querySelector("button[type=submit]"); btn.disabled = true; setMsg("Sending...", false);
       var ti = null; if (d.get("include_estimate") === "on" && d.get("tool_inputs")) { try { ti = JSON.parse(d.get("tool_inputs")); } catch (x) { ti = null; } }
@@ -142,7 +142,7 @@
         current_lender: val(d, "current_lender"), result_text: (d.get("result_text") || "").slice(0, 3000), printable: val(d, "printable"), source_page: location.pathname, utm: utm(), submitted_at: new Date().toISOString(), form: kind };
       (window.RMGuard ? window.RMGuard.get(f) : Promise.resolve("")).then(function (tok) { if (tok) body.turnstile = tok; return fetch("/api/lead", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }); })
         .then(function (r) { if (!r.ok) throw new Error("bad"); f.reset(); clearSaved();
-          var done = f.getAttribute("data-success") || "Sent. Joshua will read it himself and reply by email.";
+          var done = f.getAttribute("data-success") || "Sent. I'll read it myself and reply by email.";
           var panel = f.querySelector("[data-done]");
           if (panel) { Array.prototype.forEach.call(f.children, function (c) { if (c !== panel) c.hidden = true; }); panel.hidden = false; try { panel.scrollIntoView({ block: "start", behavior: "smooth" }); } catch (x) {} } else setMsg(done, false);
           if (window.RMTrack) window.RMTrack(kind === "renewal-reminder" ? "reminder_signup" : "form_submit", { page: location.pathname, intent: body.intent, form: kind });
@@ -160,7 +160,7 @@
     b.addEventListener("click", function () {
       var h = document.getElementById(b.getAttribute("data-book-frame") || "book-frame"); if (!h) return;
       var url = b.getAttribute("data-book-url") || "https://cal.com/resvickmortgages/mortgage-advice";
-      var title = b.getAttribute("data-book-title") || "Book a 15-minute call with Joshua Resvick";
+      var title = b.getAttribute("data-book-title") || "Book a 15-minute call with me";
       h.innerHTML = '<iframe src="' + url + (url.indexOf("?") > 0 ? "&" : "?") + 'embed=true&layout=month_view" title="' + title.replace(/"/g, "") + '" width="100%" height="680" style="border:0;border-radius:14px" loading="lazy"></iframe>';
       b.hidden = true; if (window.RMTrack) window.RMTrack("book_call_click", { page: location.pathname, via: "embed" });
       listenBooking(h);

@@ -3,12 +3,12 @@ import { short } from "../lib/short.mjs";
 
 const body = `
 ${short({
-  answer: "Yes. Joshua arranges mortgages on reserve land, leased land and First Nation land. The steps are different, because a lender needs a lease or a guarantee approved through the First Nation. Few lenders do this work, so he places your file with a specific lender that does.",
+  answer: "Yes. I arrange mortgages on reserve land, leased land and First Nation land. The steps are different, because a lender needs a lease or a guarantee approved through the First Nation. Few lenders do this work, so I place your file with a specific lender that does.",
   who: "People buying, building or refinancing a home on First Nation land in BC, including members and, on some leased land, buyers who are not members.",
-  next: "Tell Joshua which Nation, which land and what paper you hold. Then book a 15-minute call."
+  next: "Tell me which Nation, which land and what paper you hold. Then book a 15-minute call."
 })}
 <p>A mortgage on First Nation land works differently from a mortgage on other land in BC. The rules come from the First Nation and from federal programs, not only from the BC land title system. Three things decide your path: who holds the right to the land, what paper proves it, and which lender will accept it. This page explains the common setups in plain language. It is general information, and each Nation has its own process.</p>
-<p>Joshua Resvick is a BC mortgage broker with Xeva Mortgage. He serves buyers across BC from his Surrey office, by phone and video. He arranges mortgages on reserve land, leased land and First Nation land. Few lenders do this work, so he places these files with a specific lender that does, and the right one depends on your Nation and your land. Your First Nation's housing office and your lawyer are part of the team.</p>
+<p>I'm Joshua Resvick, a BC mortgage broker with Xeva Mortgage. I serve buyers across BC from my Surrey office, by phone and video. I arrange mortgages on reserve land, leased land and First Nation land. Few lenders do this work, so I place these files with a specific lender that does, and the right one depends on your Nation and your land. Your First Nation's housing office and your lawyer are part of the team.</p>
 
 <h2>Why reserve land is different</h2>
 <p>On most BC land, a lender registers its mortgage at the land title office. On reserve land, that system does not apply. Leases on Westbank First Nation land, for example, go into a federal land register, not the BC system (Westbank First Nation Land Registry Regulations, SOR/2007-232, Justice Laws Website, read October 2026). Tsleil-Waututh Nation says it runs its own lands registry that records subleases, mortgages and discharges on its reserve land (Tsleil-Waututh Nation, Lands Registry, read October 2026). Other Nations have their own methods.</p>
@@ -61,16 +61,16 @@ ${short({
 <h2>Taxes and costs</h2>
 <p>Taxes may be different on First Nation land. Westbank First Nation says most properties on its land carry no PST, GST, property transfer tax or speculation tax (Westbank First Nation, Benefits to purchasing on leasehold land, August 21, 2019, read October 2026). That is one Nation's statement about its own land. Other Nations and other situations differ, and an Indian Act tax exemption for a member is its own topic. Ask a lawyer to confirm the costs for your exact property. Our <a href="/closing-costs-bc/">closing costs guide</a> lists the usual items on an ordinary purchase.</p>
 
-${callout("Start with your housing office", "<p>If you are a member, your First Nation's housing office knows its own process, its lots and its approvals. Talk to them early. Then bring the paperwork to Joshua so the mortgage plan matches it.</p>")}
+${callout("Start with your housing office", "<p>If you are a member, your First Nation's housing office knows its own process, its lots and its approvals. Talk to them early. Then bring the paperwork to me so the mortgage plan matches it.</p>")}
 
-<h2>How Joshua helps</h2>
+<h2>How I help</h2>
 <ol>
-<li><strong>A 15-minute call.</strong> You tell him the Nation, the land and the paper you hold.</li>
-<li><strong>The right lender.</strong> Not every lender works on this land. He places your file with a specific lender that does, and tells you what that lender will ask for. Which lender fits depends on the Nation, the land and your timing, so he confirms it once he has seen your paperwork. Banks and credit unions that have financed First Nations land in BC include Scotiabank, Vancity, Coast Capital Savings, Prospera Credit Union and BlueShore Financial. Each has its own approved Nations and developments, and those lists change.</li>
-<li><strong>A plan with your team.</strong> He works with your lawyer and your housing office so each step happens in the right order.</li>
+<li><strong>A 15-minute call.</strong> You tell me the Nation, the land and the paper you hold.</li>
+<li><strong>The right lender.</strong> Not every lender works on this land. I place your file with a specific lender that does, and tell you what that lender will ask for. Which lender fits depends on the Nation, the land and your timing, so I confirm it once I have seen your paperwork. Banks and credit unions that have financed First Nations land in BC include Scotiabank, Vancity, Coast Capital Savings, Prospera Credit Union and BlueShore Financial. Each has its own approved Nations and developments, and those lists change.</li>
+<li><strong>A plan with your team.</strong> I work with your lawyer and your housing office so each step happens in the right order.</li>
 <li><strong>Options in writing.</strong> You see the choices side by side before you commit.</li>
 </ol>
-<p>Where a mainstream lender takes the file, the lender pays Joshua and you pay nothing for his work. Some files need a B lender or private lender. If a fee applies there, it appears in writing on BCFSA's Form 1A before you commit. See <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
+<p>Where a mainstream lender takes the file, the lender pays me and you pay nothing for my work. Some files need a B lender or private lender. If a fee applies there, it appears in writing on BCFSA's Form 1A before you commit. See <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
 ${cta({ title: "Buying or building on First Nation land?", text: "Book a 15-minute call. Share the Nation, the land and the paper you hold. You will leave knowing what to ask, who to talk to first, and which lender fits." })}
 `;
@@ -83,7 +83,7 @@ export default {
   nav: "/leasehold-mortgages-bc/",
   body,
   faqs: [
-    { q: "Can I get a mortgage on reserve land in BC?", a: "Yes, and Joshua arranges these mortgages. The path is different. Reserve land is not registered like other BC land, so a lender relies on a lease, a certificate of possession, or a guarantee approved through the First Nation. Few lenders do this work, so he places the file with a specific lender that does." },
+    { q: "Can I get a mortgage on reserve land in BC?", a: "Yes, and I arrange these mortgages. The path is different. Reserve land is not registered like other BC land, so a lender relies on a lease, a certificate of possession, or a guarantee approved through the First Nation. Few lenders do this work, so I place the file with a specific lender that does." },
     { q: "What is a ministerial loan guarantee?", a: "It is a guarantee from Indigenous Services Canada that backs a loan for a home on reserve. The First Nation requests it for the borrower and issues a band council resolution. CMHC says that if a borrower cannot repay, the lender is paid and the department then looks to the First Nation." },
     { q: "How much down payment do I need on reserve land?", a: "For a homebuyer using CMHC's insured on-reserve loan, CMHC's page says the minimum is at least 5% of the loan's value. A lender may ask for more, and rules for leasehold homes differ. Check the current terms with the lender before you plan your savings." },
     { q: "Can someone who is not a First Nation member buy a home on reserve land?", a: "On some leased land, yes. Westbank First Nation, for example, leases land for homes sold to the public. Other reserve land is for members only. Each Nation sets its own rules, so ask the Nation or the developer who may buy." },

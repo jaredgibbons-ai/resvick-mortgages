@@ -22,7 +22,7 @@ ${ratesStrip()}
 <p>When a lender can insure the mortgage, it carries less risk. That can affect how it prices the switch. Whether it does varies by lender. So ask each lender how it prices your file, instead of assuming. The <a href="/stress-test-exemption-switching-lenders/">stress-test exemption guide</a> explains both measures, and what they do and don't cover.</p>
 <p>The details of the switch itself, like who pays which cost and how long it takes, are in the <a href="/switch-mortgage-lenders-at-renewal/">switching lenders guide</a>. You don't pay a prepayment penalty to switch at maturity. That's why renewal is the one free move you have.</p>
 
-${cta({ title: "Bring your renewal letter", text: "Share the rate and term your lender offered. Joshua will show you in writing what other lenders could do with the same mortgage, before you sign anything." })}
+${cta({ title: "Bring your renewal letter", text: "Share the rate and term your lender offered. I'll show you in writing what other lenders could do with the same mortgage, before you sign anything." })}
 
 <h2>The savings math: do your own, not someone else's</h2>
 <p>Some websites advertise an average saving from switching. Those figures describe somebody else's mortgage. The only number that matters is yours. It takes four inputs. Those are your balance, the years left on your amortization, the rate you've been offered and the rate you could get elsewhere.</p>
@@ -44,10 +44,10 @@ ${cta({ title: "Bring your renewal letter", text: "Share the rate and term your 
 <p>Starting around 120 days out gives you time to compare offers. A rate hold protects you if rates rise while you decide. What happens if rates fall during the hold depends on the lender, so ask before you rely on it. The <a href="/early-mortgage-renewal/">early renewal guide</a> covers rate holds in detail. It also explains when renewing early costs you instead.</p>
 <p>The warning on this page is the same as on every renewal page. A mortgage that reaches maturity without a signed renewal commonly rolls into an open term at a much higher rate. That's how the contract works, not a penalty. It's entirely avoidable if you start early. The <a href="/mortgage-rates-bc/">mortgage rates guide</a> explains how lenders set rates, and why the lowest advertised number is rarely the whole story.</p>
 
-${callout("What a rate does not tell you", "<p>Two mortgages with the same rate can cost different amounts. One may have a pricier penalty, a smaller prepayment allowance or terms that make switching harder next time. Compare the whole mortgage, not just the rate. Joshua's written Lender Comparison Report is built to do that.</p>")}
+${callout("What a rate does not tell you", "<p>Two mortgages with the same rate can cost different amounts. One may have a pricier penalty, a smaller prepayment allowance or terms that make switching harder next time. Compare the whole mortgage, not just the rate. My written Lender Comparison Report is built to do that.</p>")}
 
 <p>Your lender's letter is where the renewal rate shows up first. <a href="/mortgage-renewal-letter-explained/">Your renewal letter, explained</a> shows what to look for.</p>
-${cta({ title: "Find out what a switch could save you", text: "A 15-minute call is enough to see whether a different lender is worth the move, and when to start.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "Find out what a switch could save you", text: "A 15-minute call is enough to see whether a different lender is worth the move, and when to start.", href: "/contact/", label: "Contact me" })}
 `;
 
 export default {

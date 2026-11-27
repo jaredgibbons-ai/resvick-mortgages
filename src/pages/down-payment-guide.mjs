@@ -48,7 +48,7 @@ ${cta({ title: "Not sure which sources fit your plan?", text: "A 15-minute call 
 
 <h2>The paper trail lenders expect</h2>
 <p>Lenders do not only ask how much you have; they ask where it came from. Many lenders want roughly 90 days of statements for the account that holds your down payment. They want to see the money was yours, or was gifted, and wasn't secretly borrowed. The exact requirement varies by lender and by file. A large deposit that appears without explanation is the classic problem, and it is much easier to explain before the application than after.</p>
-<p>Keep statements, the record of any transfer between your own accounts, and the paperwork for any gift, sale of an asset or RRSP withdrawal. A lender who finds a gap will ask for the document that closes it, and a clean file moves faster. The <a href="/mortgage-application-checklist/">application checklist</a> shows what Joshua looks for.</p>
+<p>Keep statements, the record of any transfer between your own accounts, and the paperwork for any gift, sale of an asset or RRSP withdrawal. A lender who finds a gap will ask for the document that closes it, and a clean file moves faster. The <a href="/mortgage-application-checklist/">application checklist</a> shows what I look for.</p>
 
 <h2>Deposit versus down payment</h2>
 <p>These are different things. The deposit is the amount you pay when your offer is accepted, and it is held in trust until completion. It is part of your down payment, not an addition to it. The down payment is the total of your own funds that goes toward the price on completion. Because the deposit is due first, you need that money available quickly, and in some cases lenders will want to know where it came from too. If your plan relies on funds that will not arrive until later, such as an RRSP withdrawal, check the timing before you make an offer.</p>
@@ -69,11 +69,11 @@ ${cta({ title: "Not sure which sources fit your plan?", text: "A 15-minute call 
 </tbody></table></div>
 <p>Notice that the larger down payments do two jobs: they remove the premium, and they shrink the amount you pay interest on. They also take far more cash, and cash you keep in reserve has real value. Nothing in the table says which choice is best. It shows the trade-off, and the right answer depends on your savings, your other goals and your comfort with the payment.</p>
 
-${callout("Check this against your own file", "<p>These are the standard insured rules. A lender can ask for more than the minimum, and some property types or situations have their own conditions. Joshua will confirm what applies to your purchase before you make an offer.</p>")}
+${callout("Check this against your own file", "<p>These are the standard insured rules. A lender can ask for more than the minimum, and some property types or situations have their own conditions. I'll confirm what applies to your purchase before you make an offer.</p>")}
 
 <p>Want to know how ready you are overall? Take the two-minute <a href="/purchase-readiness-check/">purchase readiness check</a>.</p>
 <p>Putting less than 20% down? <a href="/cmhc-insurance-bc/">CMHC insurance in BC</a> shows the premium at each down payment. Saving in an FHSA? The <a href="/fhsa-bc/">FHSA guide</a> covers the limits.</p>
-${cta({ title: "Turn the numbers into a plan", text: "Bring your savings and your target price to a 15-minute call. You'll leave with a down payment figure and an order for using each source.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "Turn the numbers into a plan", text: "Bring your savings and your target price to a 15-minute call. You'll leave with a down payment figure and an order for using each source.", href: "/contact/", label: "Contact me" })}
 `;
 
 export default {

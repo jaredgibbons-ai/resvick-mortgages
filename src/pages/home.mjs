@@ -5,7 +5,7 @@ const photo = fs.existsSync("src/assets/img/josh-hero.webp")
   ? `<figure class="hero-photo"><img src="/assets/img/josh-hero-720.webp" srcset="/assets/img/josh-hero-720.webp 720w, /assets/img/josh-hero-1080.webp 1080w" sizes="(max-width: 900px) 100vw, (min-width: 1500px) 540px, 43vw" width="720" height="1080" alt="Joshua Resvick, mortgage broker in Surrey, BC" fetchpriority="high"></figure>`
   : "";
 
-const hero = `<div class="hero-copy"><h1>Josh Resvick<span class="sr-only">, </span><span class="h1-sub">Your BC mortgage broker</span></h1>
+const hero = `<div class="hero-copy"><h1>Joshua Resvick<span class="sr-only">, </span><span class="h1-sub">Your BC mortgage broker</span></h1>
 <p class="lede">I compare lenders for you, explain every step in plain English and stay with you after closing. On most mortgages, the lender pays me and you pay nothing.</p>
 ${actionCards()}<p class="hero-phone">Not sure where to start? <a href="/mortgage-check/" data-evt="checkup_click">Take the two-minute quiz</a>, or call <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p></div>${photo}`;
 
@@ -51,7 +51,7 @@ ${reviews({ only: ["J.M.", "R.H."] })}
 export default {
   slug: "/",
   home: true,
-  h1: "Josh Resvick, your BC mortgage broker",
+  h1: "Joshua Resvick, your BC mortgage broker",
   hero,
   nav: "/",
   body,
@@ -61,6 +61,6 @@ export default {
     { q: "How much does a mortgage broker cost?", a: "On a mortgage placed with an A lender, the lender pays the broker and you pay nothing for the service. Fees only come up on some B-lender and private-lender files, and BC rules require written disclosure before you commit. I explain the whole thing on my <a href=\"/how-mortgage-brokers-get-paid/\">page about how brokers get paid</a>." },
     { q: "Why use a broker instead of going to my bank?", a: "Your bank can only offer its own products. A broker can compare several lenders and pick the one whose rules, penalties and flexibility fit your file, not just the one with a nice posted rate. The comparison is the whole point. Read the full answer on <a href=\"/mortgage-broker-vs-bank/\">broker versus bank</a>." },
     { q: "How fast can a mortgage be arranged?", a: "Mostly it depends on how quickly your documents arrive and how soon the lender can appraise the property. A clean, complete file moves fastest, which is why I review it like an underwriter first. Tell me your deadline on the first call and I'll plan backwards from it." },
-    { q: "Where does Joshua work, and who do you serve?", a: "My office is at #106, 2626 Croydon Drive in Surrey, and the brokerage is Xeva Mortgage. Everything can be done online or by phone, so I work with clients across British Columbia, not just near Surrey, and you never need to visit the office unless you'd like to. <a href=\"/contact/\">Get in touch</a> to start." }
+    { q: "Where do you work, and who do you serve?", a: "My office is at #106, 2626 Croydon Drive in Surrey, and the brokerage is Xeva Mortgage. Everything can be done online or by phone, so I work with clients across British Columbia, not just near Surrey, and you never need to visit the office unless you'd like to. <a href=\"/contact/\">Get in touch</a> to start." }
   ]
 };

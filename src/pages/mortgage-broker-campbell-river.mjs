@@ -9,9 +9,9 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-cam
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Campbell River by phone and video from his Surrey office. Buyers here often work in aquaculture, forestry, mining or the trades, or they are retirees and newcomers from the mainland. Rentals are tight, so many people buy sooner than they planned.",
+  answer: "I serve Campbell River by phone and video from my Surrey office. Buyers here often work in aquaculture, forestry, mining or the trades, or they are retirees and newcomers from the mainland. Rentals are tight, so many people buy sooner than they planned.",
   who: "Buyers and owners in Campbell River, Willow Point, Quadra Island and the rest of the Strathcona region.",
-  next: "Book a 15-minute call and tell Joshua how you are paid and when you plan to move."
+  next: "Book a 15-minute call and tell me how you are paid and when you plan to move."
 })}
 <p>Campbell River sits on Discovery Passage, north of the Comox Valley on the Island Highway. It is a service centre for the North Island and for the islands across the passage. Fishing, forestry and mining built it. Aquaculture, tourism and remote work have joined them.</p>
 <p>I'm Joshua Resvick, and I broker mortgages with Xeva Mortgage. For five years before that, I was the underwriter deciding which files a lender approved. I work out of Surrey and serve Campbell River entirely by phone and video. There's no branch up the Island. You can <a href="/contact/">book a 15-minute call</a> from home, from the boat or from camp.</p>
@@ -71,22 +71,22 @@ ${callout("The cost of using a broker", "<p>For most Campbell River buyers, noth
 ${cityFacts("campbell-river")}
 ${nearbyCallout("campbell-river", callout)}
 
-${cta({ title: "Talk to a broker who serves Campbell River", text: "Book a 15-minute call. Tell Joshua about your rotation or pay, your move date and what you want to buy. He will show you which lenders fit and what papers to line up." })}
+${cta({ title: "Talk to a broker who serves Campbell River", text: "Book a 15-minute call. Tell me about your rotation or pay, your move date and what you want to buy. I'll show you which lenders fit and what papers to line up." })}
 `;
 
 export default {
   slug: "/mortgage-broker-campbell-river/",
   h1: "Mortgage broker in Campbell River, BC: buying a home or moving to Campbell River",
-  lede: "Buying in Campbell River, or moving here for work? Joshua Resvick, Xeva Mortgage, serves the city by phone and video from his Surrey office. Industry pay, suites, the short-term rental ban and island lots, explained the way a lender reads them.",
+  lede: "Buying in Campbell River, or moving here for work? I'm Joshua Resvick, with Xeva Mortgage, and I serve the city by phone and video from my Surrey office. Industry pay, suites, the short-term rental ban and island lots, explained the way a lender reads them.",
   crumbs: [["Home", "/"], ["Vancouver Island", "/mortgage-broker-vancouver-island/"], ["Serving Campbell River", "/mortgage-broker-campbell-river/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Do you have an office in Campbell River?", a: "No. Joshua works from his Surrey office and serves Campbell River by phone, video and secure upload. The lender, appraiser and your lawyer or notary do their parts locally, so you can start before you move." },
+    { q: "Do you have an office in Campbell River?", a: "No. I work from my Surrey office and serve Campbell River by phone, video and secure upload. The lender, appraiser and your lawyer or notary do their parts locally, so you can start before you move." },
     { q: "How much do I need to buy a home in Campbell River?", a: "At BC Assessment's typical 2026 values, a $680,000 house needs at least $43,000 down and a $412,000 strata home needs $20,600. A qualifying first-time buyer pays about $3,600 in transfer tax on the house and none on the strata home." },
     { q: "Can I run an Airbnb in Campbell River?", a: "The City's zoning FAQ says short-term rentals are not a permitted use and won't be licensed. Bed and breakfasts are a separate use where zoning allows. Don't count on nightly rental income to qualify. A lender will only count long-term rent." },
-    { q: "How do lenders count camp or rotation pay?", a: "Base pay is usually easy. Overtime, camp allowances and bonuses are often averaged over two years, and lenders vary in what they accept. Bring two years of T4s and recent pay stubs. Joshua checks lender rules before you apply." },
+    { q: "How do lenders count camp or rotation pay?", a: "Base pay is usually easy. Overtime, camp allowances and bonuses are often averaged over two years, and lenders vary in what they accept. Bring two years of T4s and recent pay stubs. I check lender rules before you apply." },
     { q: "Can I buy in Campbell River before I move there?", a: "Often, yes. You can get pre-approved by phone or video and make an offer through a realtor. Most lenders want a signed job offer or employer letter. Ask for a closing date that fits your move." },
     { q: "Will a lender count rent from a suite in Campbell River?", a: "Often, if the suite is legal and the rent is documented. The City's 2024 zoning allows 3 to 4 units on most R-I lots, with a building permit. An unpermitted suite usually counts for nothing." }
   ]

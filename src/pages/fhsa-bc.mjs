@@ -66,9 +66,9 @@ ${callout("FHSA plus the Home Buyers' Plan", "<p>You can use both on the same ho
 </ul>
 <p>The <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a> puts the FHSA in order with the rest of the steps, from pre-approval to getting your keys.</p>
 
-${cta({ title: "Planning your down payment?", text: "Book a 15-minute call. Joshua will map out your FHSA, Home Buyers' Plan and savings against the homes you're looking at, and what lenders will want to see." })}
+${cta({ title: "Planning your down payment?", text: "Book a 15-minute call. I'll map out your FHSA, Home Buyers' Plan and savings against the homes you're looking at, and what lenders will want to see." })}
 
-<p class="small">Sources: Canada Revenue Agency, Participating in your FHSAs (modified September 17, 2026) and Definitions for FHSAs (modified February 5, 2026), read November 2026. Joshua is a mortgage broker, not a tax adviser. Check your own room and tax questions with the CRA or an accountant.</p>
+<p class="small">Sources: Canada Revenue Agency, Participating in your FHSAs (modified September 17, 2026) and Definitions for FHSAs (modified February 5, 2026), read November 2026. I'm a mortgage broker, not a tax adviser. Check your own room and tax questions with the CRA or an accountant.</p>
 `;
 
 export default {

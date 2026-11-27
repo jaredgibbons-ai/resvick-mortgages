@@ -95,7 +95,7 @@ ${short({ answer: "Steady pay on a published grid helps a file. Lenders still lo
 <h2>Relocating for a city or provincial job</h2>
 <p>Public employers hire across the province. You may be moving to BC for a role. Or you may be moving within BC, say from a larger city to a smaller one for a posting.</p>
 <p>A move often means buying and selling around the same dates. A <a href="/mortgage-pre-approval-bc/">mortgage pre-approval</a> lets you shop with a real number. It can include a rate hold, which protects you for a set time while you look. If you own a home now, <a href="/bridge-financing/">bridge financing</a> can cover the gap between buying the new home and closing the sale of the old one. Lenders set the terms and costs, so ask what applies to your dates.</p>
-<p>Joshua works with clients across BC by phone and video from his Surrey office. You can talk through the plan before you list your home or visit a new town. Relocation help from your employer, if you have it, is worth bringing up. Ask your HR team what applies and how it is paid, because it can affect your cash on hand.</p>
+<p>I work with clients across BC by phone and video from my Surrey office. You can talk through the plan before you list your home or visit a new town. Relocation help from your employer, if you have it, is worth bringing up. Ask your HR team what applies and how it is paid, because it can affect your cash on hand.</p>
 
 <h2>Down payment and closing costs</h2>
 <p>Your down payment depends on the price of the home. The <a href="/down-payment-guide-bc/">down payment guide</a> explains the minimums and how insurance fits in. Your closing costs are separate. The <a href="/closing-costs-bc/">closing costs page</a> lists them, including legal fees, adjustments and, in some cases, property transfer tax.</p>
@@ -105,10 +105,10 @@ ${short({ answer: "Steady pay on a published grid helps a file. Lenders still lo
 <p>If this is your first purchase, start with the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a>. It covers the programs and the order of steps.</p>
 <p>If you already own, your renewal date is a good time to look at your options. Read about <a href="/mortgage-renewal-bc/">mortgage renewal in BC</a>. A new role, a raise or a change in your household can change what a lender will offer, and you are free to compare at renewal.</p>
 
-<h2>How Joshua works through a public-sector file</h2>
+<h2>How I work through a public-sector file</h2>
 <ol>
 <li><strong>A short call</strong> about your employer, your status and your timeline.</li>
-<li><strong>An income read.</strong> Joshua spent five years as an underwriter. He works out what a lender will count before any application goes in, and he tells you if the number is lower than you hoped.</li>
+<li><strong>An income read.</strong> I spent five years as an underwriter. I work out what a lender will count before any application goes in, and I tell you if the number is lower than you hoped.</li>
 <li><strong>The right lender.</strong> Lenders differ on probation, term jobs, auxiliary work and variable pay. The file goes to a lender whose policy fits yours.</li>
 <li><strong>A clean file.</strong> Your letter, stubs and T4s are explained up front, so the lender has fewer reasons to stop and ask.</li>
 <li><strong>Aftercare.</strong> After funding, the <a href="/mortgage-aftercare-program/">aftercare program</a> tracks your renewal and your life changes, such as a promotion or a move.</li>
@@ -127,11 +127,11 @@ ${short({ answer: "Steady pay on a published grid helps a file. Lenders still lo
 <p>Your rate depends on your down payment, credit, property and lender. The <a href="/mortgage-rates-bc/">mortgage rates page</a> explains how rates are set, and a call gets you current figures.</p>
 <p>Most public-sector files with steady income go to a mainstream A lender. On those, the lender pays the broker and you pay nothing for the service. Fees apply only on some B-lender and private files, and they are shown to you in writing on BCFSA's Form 1A before you commit.</p>
 
-${callout("Why an underwriting background helps here", "<p>An underwriter asks one question about a public-sector file. How much of this income will still be there in two years? Joshua builds your application to answer that before it is asked. He shows the grid, the status and the history, and he explains anything that looks unusual.</p>")}
+${callout("Why an underwriting background helps here", "<p>An underwriter asks one question about a public-sector file. How much of this income will still be there in two years? I build your application to answer that before it is asked. I show the grid, the status and the history, and I explain anything that looks unusual.</p>")}
 
-<p class="more-links"><strong>Where Joshua helps government and city employees.</strong> He serves buyers online from his Surrey office in <a href="/mortgage-broker-victoria/">Victoria</a>, <a href="/mortgage-broker-saanich/">Saanich</a>, <a href="/mortgage-broker-langford/">Langford</a>, <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-courtenay/">Courtenay and Comox</a> and <a href="/mortgage-broker-vancouver/">Vancouver</a>.</p>
+<p class="more-links"><strong>Where I help government and city employees.</strong> I serve buyers online from my Surrey office in <a href="/mortgage-broker-victoria/">Victoria</a>, <a href="/mortgage-broker-saanich/">Saanich</a>, <a href="/mortgage-broker-langford/">Langford</a>, <a href="/mortgage-broker-prince-george/">Prince George</a>, <a href="/mortgage-broker-courtenay/">Courtenay and Comox</a> and <a href="/mortgage-broker-vancouver/">Vancouver</a>.</p>
 
-${cta({ title: "Your employer is solid. Let's make the file read that way.", text: "Book a call and Joshua will tell you what a lender will count and which lender fits your status. You can also <a href=\"/contact/\">contact him</a> by email." })}
+${cta({ title: "Your employer is solid. Let's make the file read that way.", text: "Book a call and I'll tell you what a lender will count and which lender fits your status. You can also <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {
@@ -146,7 +146,7 @@ export default {
     { q: "How do lenders count term, auxiliary or casual public-sector jobs?", a: "Lenders vary. With no guaranteed hours, many want about two years of history and use an average of your T4s. Some count a term contract that still has months left. A long record of public-sector work, even across several contracts, can help your file at some lenders." },
     { q: "Does my government pension count as income for a mortgage?", a: "Pension contributions come off your pay, and lenders qualify you on gross pay. A pension you are not yet receiving is not income for qualifying. Once you retire and receive pension payments, lenders can count that as income. Ask your plan for an estimate before you plan around it." },
     { q: "Will a lender count overtime, standby and shift premiums?", a: "Many lenders count them when you have a two-year history on your T4s, often using the lower of last year or the average. Some cap them, and some count none. A letter from your employer saying the extra pay is regular can help. Lenders vary quite a bit." },
-    { q: "Can I buy if I am moving to BC or within BC for a government job?", a: "Often, yes. A pre-approval gives you a number to shop with, and bridge financing may help if you must buy before selling. Lenders set the terms and costs. Joshua works with clients across BC by phone and video, so you can plan the move before you arrive." },
+    { q: "Can I buy if I am moving to BC or within BC for a government job?", a: "Often, yes. A pre-approval gives you a number to shop with, and bridge financing may help if you must buy before selling. Lenders set the terms and costs. I work with clients across BC by phone and video, so you can plan the move before you arrive." },
     { q: "Does it cost me anything to use a mortgage broker?", a: "On a mortgage placed with a mainstream A lender, where most steady public-sector files land, the lender pays the broker and you pay nothing for the service. Fees apply only on some B-lender and private files, and BC rules require written disclosure on Form 1A before you commit." }
   ]
 };

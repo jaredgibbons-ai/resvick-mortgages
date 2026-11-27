@@ -31,7 +31,7 @@ ${short({ answer: "Only if it pays for itself before you leave the mortgage. Add
 <p>Say you borrow $120,000 to build a legal suite. Use an illustrative 4.50 percent over 25 years. The added payment is $664.17 a month. Say the suite rents for $1,800. Insurance, utilities, upkeep and the odd empty month bring the net to about $1,200. After the new payment, the suite adds about $536 a month. Treat $11,500 of combined penalty and fees as the one-time cost, and the break-even is about 22 months of the suite being rented.</p>
 <p>The flaw in that arithmetic is the assumption that the suite exists, is legal, and is rented the day the work finishes. Building runs late and over budget. And a suite that isn't registered or up to code can count as zero income at many lenders. The page on <a href="/secondary-suite-refinance/">refinancing to build a secondary suite</a> covers the federal program. The page on <a href="/how-much-suite-income-will-a-lender-count/">how much suite income a lender will count</a> covers the income side.</p>
 
-${cta({ title: "Run your own break-even", text: "Send Joshua your balance, rate, maturity date and the reason you are considering a refinance. He will get your penalty figure and give you a straight answer on the break-even months, before you talk to any lender." })}
+${cta({ title: "Run your own break-even", text: "Send me your balance, rate, maturity date and the reason you are considering a refinance. I'll get your penalty figure and give you a straight answer on the break-even months, before you talk to any lender." })}
 
 <h2>The hidden costs checklist</h2>
 <p>People price the penalty and forget the rest. Before you decide, ask for each of these in writing:</p>
@@ -54,7 +54,7 @@ ${cta({ title: "Run your own break-even", text: "Send Joshua your balance, rate,
 
 ${callout("Rule of thumb", "<p>Penalty first, new rate second. If you cannot get the penalty in writing, you do not yet have the information you need to decide.</p>")}
 
-<p>For the wider picture of why people refinance and which route fits each reason, return to the <a href="/refinance-mortgage-bc/">refinance hub</a>. If you want the numbers checked, <a href="/contact/">contact Joshua</a> and he will run them with you.</p>
+<p>For the wider picture of why people refinance and which route fits each reason, return to the <a href="/refinance-mortgage-bc/">refinance hub</a>. If you want the numbers checked, <a href="/contact/">contact me</a> and I'll run them with you.</p>
 `;
 
 export default {

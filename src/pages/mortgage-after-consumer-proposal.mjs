@@ -38,13 +38,13 @@ ${short({
 <li><strong>A lenders and insurers</strong> typically want a longer clean stretch. The industry commonly describes it as about two years after completion, with the 2/2/2 standard met. Then an insured purchase with as little as 5 percent down becomes possible, subject to each insurer's current policy.</li>
 <li><strong>Private lenders</strong> come before both. They lend against equity for people who need to act before a B lender will. The cost only makes sense for a short time.</li>
 </ul>
-<p>These are norms, not rules. Joshua confirms each lender's current policy for your file, because the time each one wants shifts with the market.</p>
+<p>These are norms, not rules. I confirm each lender's current policy for your file, because the time each one wants shifts with the market.</p>
 ${callout("Documents for a post-proposal application", "<p>Your trustee's certificate of full performance is the central document. You'll also need statements for every account opened since completion. Add a short letter explaining the cause of the proposal and what has changed, plus the standard items on the application checklist. Keep the certificate somewhere safe. Lenders will ask for it for years.</p>")}
 
 <h2>The explanation letter</h2>
 <p>Lenders usually ask for a letter explaining the proposal. The best letters are short and specific.</p>
 <p>They give the cause, such as a business downturn, a divorce, an illness or a job loss. They give the dates filed and completed. And they list what you've done since, like the new accounts and your savings history.</p>
-<p>An underwriter isn't looking for remorse. They want a cause that has ended, and a borrower who has handled money well since. Joshua helps draft the letter. He's read many of them from the underwriting side, and knows which ones move a file forward.</p>
+<p>An underwriter isn't looking for remorse. They want a cause that has ended, and a borrower who has handled money well since. I help draft the letter. I've read many of them from the underwriting side, and know which ones move a file forward.</p>
 
 <h2>First-time buyers after a proposal</h2>
 <p>A proposal doesn't disqualify you from the first-time buyer programs. The FHSA, the Home Buyers' Plan, the BC transfer tax exemption and the GST rebate each have their own rules. None of them asks about past insolvency.</p>
@@ -53,10 +53,10 @@ ${callout("Documents for a post-proposal application", "<p>Your trustee's certif
 
 <h2>Fees, honestly</h2>
 <p>On a mortgage with an A lender, the lender pays the broker. You pay nothing for the service.</p>
-<p>If your file needs a B or private lender after a proposal, a lender fee is normal, and a broker fee can apply. BC rules require any fee to be disclosed in writing under BCFSA Form 1A before you commit. Joshua puts every figure in front of you next to the cost of waiting. That way you decide with numbers, not pressure.</p>
+<p>If your file needs a B or private lender after a proposal, a lender fee is normal, and a broker fee can apply. BC rules require any fee to be disclosed in writing under BCFSA Form 1A before you commit. I put every figure in front of you next to the cost of waiting. That way you decide with numbers, not pressure.</p>
 <p>Are you in a proposal, just finished one, or done years ago and wondering if a lender will say yes? <a href="/contact/">Book a 15-minute call</a>. The first step is just to look at the certificate date and your credit report together.</p>
 
-${cta({ title: "Finished a proposal and wondering what is possible?", text: "Book a 15-minute call. Joshua will tell you which lenders would look at your file today and what it would cost. Then he'll map the steps to standard pricing." })}
+${cta({ title: "Finished a proposal and wondering what is possible?", text: "Book a 15-minute call. I'll tell you which lenders would look at your file today and what it would cost. Then I'll map the steps to standard pricing." })}
 `;
 
 export default {

@@ -8,7 +8,7 @@ const slug = "/bc-mortgage-broker-service-areas/";
 
 // Regions are for finding your town quickly. Every key must have a built city page.
 const REGIONS = [
-  ["Surrey and south of the Fraser", "This is home base. Joshua's office is in Surrey, and these are the towns closest to it.", ["surrey", "white-rock", "delta", "langley"]],
+  ["Surrey and south of the Fraser", "This is home base. My office is in Surrey, and these are the towns closest to it.", ["surrey", "white-rock", "delta", "langley"]],
   ["Vancouver, Burnaby and the North Shore", "Condos, strata rules and older houses with suites come up a lot here.", ["vancouver", "burnaby", "new-westminster", "richmond", "north-vancouver"]],
   ["Tri-Cities, Pitt Meadows and Maple Ridge", "Townhouses and newer builds are common, and so are presales.", ["coquitlam", "port-coquitlam", "port-moody", "pitt-meadows", "maple-ridge"]],
   ["Fraser Valley", "Farmland, acreages and houses with suites all show up in the same search here.", ["abbotsford", "mission", "chilliwack"]],
@@ -34,13 +34,13 @@ const sections = REGIONS.map(([name, blurb, keys, hub]) => `<h3 id="${regionId(n
 
 const body = `
 ${short({
-  answer: "Joshua Resvick arranges mortgages for people all over BC from one office in Surrey. He works by phone, video and email, so where you live doesn't change the service.",
+  answer: "I arrange mortgages for people all over BC from one office in Surrey. I work by phone, video and email, so where you live doesn't change the service.",
   who: "You want a broker who knows the housing rules in your town, not just the big cities.",
-  next: "Find your town in the list below. Not there? <a href=\"/contact/\">Get in touch</a> anyway. He can still help."
+  next: "Find your town in the list below. Not there? <a href=\"/contact/\">Get in touch</a> anyway. I can still help."
 })}
 <h2>One office, all of BC</h2>
-<p>Joshua Resvick is a licensed mortgage broker with ${esc(SITE.brokerage)}. His office is in Surrey. That's the only office, and he doesn't pretend otherwise.</p>
-<p>He doesn't have a branch in Kelowna, Victoria or Prince George. What he has is a way of working that doesn't need one. You talk by phone or video. You send your documents online. The lender, the appraiser and your lawyer or notary do their parts where you live.</p>
+<p>I'm Joshua Resvick, a licensed mortgage broker with ${esc(SITE.brokerage)}. My office is in Surrey. That's the only office, and I don't pretend otherwise.</p>
+<p>I don't have a branch in Kelowna, Victoria or Prince George. What I have is a way of working that doesn't need one. You talk by phone or video. You send your documents online. The lender, the appraiser and your lawyer or notary do their parts where you live.</p>
 <p>Most people never need to visit a broker's office at all. A mortgage is paperwork, numbers and good advice. None of that depends on a waiting room.</p>
 <p>The licence matters more than the address. Mortgage brokers in BC are licensed by the BC Financial Services Authority, and that licence covers the whole province. So a broker in Surrey can arrange a mortgage in Fernie or Fort St. John the same way.</p>
 
@@ -80,9 +80,9 @@ ${sections}
 <h2>How a mortgage works when your broker is in another town</h2>
 <p>The steps are the same whether you live ten minutes from the office or ten hours.</p>
 <ol>
-<li><b>A 15-minute call.</b> You tell Joshua what you're trying to do. He tells you what's realistic and what to gather. The call is free.</li>
+<li><b>A 15-minute call.</b> You tell me what you're trying to do. I tell you what's realistic and what to gather. The call is free.</li>
 <li><b>Your documents.</b> You send income and down payment documents online. The <a href="/mortgage-application-checklist/">application checklist</a> shows what most people need.</li>
-<li><b>A pre-approval or a plan.</b> Joshua reads your file the way an underwriter would. He spent five years as one before he became a broker. Then he matches you with lenders that fit.</li>
+<li><b>A pre-approval or a plan.</b> I read your file the way an underwriter would. I spent five years as one before I became a broker. Then I match you with lenders that fit.</li>
 <li><b>The property.</b> Once you have an accepted offer, the lender reviews the home. Many lenders order an appraisal, and a local appraiser does that visit.</li>
 <li><b>Closing.</b> You sign with a lawyer or notary near you. They handle the title and the money on closing day.</li>
 </ol>
@@ -97,11 +97,11 @@ ${sections}
 <p>Homes on wells, septic systems or large lots can bring extra questions from a lender. So can homes with a wood stove as the main heat. Lenders vary on all of these. They rarely stop a mortgage. They just need the right lender and a little lead time.</p>
 <p>Moving to a new town for work? A new job, a probation period or a transfer each change how a lender reads your income. Bring it up on the first call.</p>
 
-${callout("Don't see your town?", "<p>The list covers the places with their own pages so far. It isn't the edge of the map. Joshua arranges mortgages anywhere in BC, and new town pages are added over time. If yours is missing, the process is exactly the same. <a href=\"/contact/\">Send a note</a> or book a call.</p>")}
+${callout("Don't see your town?", "<p>The list covers the places with their own pages so far. It isn't the edge of the map. I arrange mortgages anywhere in BC, and new town pages are added over time. If yours is missing, the process is exactly the same. <a href=\"/contact/\">Send a note</a> or book a call.</p>")}
 
 <h2>Where to go next</h2>
 <p>If you're buying your first home, start with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. If your term is ending, the <a href="/mortgage-renewal-bc/">renewal guide</a> is the place to begin. Thinking about using your equity? Read the <a href="/refinance-mortgage-bc/">refinancing guide</a>.</p>
-<p>Want to know who you'd be working with? The <a href="/about-joshua-resvick/">about page</a> covers Joshua's background, and <a href="/how-mortgage-brokers-get-paid/">how brokers get paid</a> explains the money side in plain terms.</p>
+<p>Want to know who you'd be working with? The <a href="/about-joshua-resvick/">about page</a> covers my background, and <a href="/how-mortgage-brokers-get-paid/">how brokers get paid</a> explains the money side in plain terms.</p>
 
 ${cta({ title: "Wherever you are in BC, start with a call", text: "Fifteen minutes by phone or video is enough to see where you stand. No obligation, and no drive to Surrey." })}
 `;
@@ -113,9 +113,9 @@ export default {
   crumb: "Cities", nav: "/resources/", body,
   faqs: [
     { q: "Do I need a mortgage broker in my own town?", a: "No. A BC mortgage broker's licence covers the whole province, and almost every step can be done by phone, video and email. What matters is that your broker understands the rules and the property types where you're buying. The closing itself happens with a lawyer or notary near you." },
-    { q: "Does Joshua have an office in my city?", a: "He has one office, in Surrey. He serves every other town in BC from there by phone and video. The town pages on this site cover local details, but they are not branch offices and he doesn't claim they are." },
+    { q: "Do you have an office in my city?", a: "I have one office, in Surrey. I serve every other town in BC from there by phone and video. The town pages on this site cover local details, but they are not branch offices and I don't claim they are." },
     { q: "Will it cost more because I live far from Surrey?", a: "No. Where you live doesn't change how a broker is paid. On most mortgages with mainstream lenders, the lender pays the broker and you pay nothing. A fee can apply on some alternative or private files, and it is disclosed in writing before you sign anything." },
-    { q: "My town isn't on the list. Can you still help?", a: "Yes. The list shows the towns that have their own page so far. Joshua arranges mortgages anywhere in BC, and the steps are the same. Some lenders are more careful in very small or remote markets, so it helps to talk early about where you plan to buy." },
-    { q: "How do I sign documents if we never meet?", a: "Your mortgage paperwork with the lender is handled online or by email in most cases, and lenders vary on the exact method. The legal documents are signed with a lawyer or notary in your area close to your closing date. Joshua tells you what to expect at each step." }
+    { q: "My town isn't on the list. Can you still help?", a: "Yes. The list shows the towns that have their own page so far. I arrange mortgages anywhere in BC, and the steps are the same. Some lenders are more careful in very small or remote markets, so it helps to talk early about where you plan to buy." },
+    { q: "How do I sign documents if we never meet?", a: "Your mortgage paperwork with the lender is handled online or by email in most cases, and lenders vary on the exact method. The legal documents are signed with a lawyer or notary in your area close to your closing date. I tell you what to expect at each step." }
   ]
 };

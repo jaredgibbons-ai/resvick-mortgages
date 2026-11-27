@@ -65,7 +65,7 @@ for (const file of files) {
   $("img").each((_, i) => { if ($(i).attr("alt") == null) E(slug, "img without alt"); });
   $("input,select,textarea").each((_, i) => { const id = $(i).attr("id"); if ($(i).attr("type") === "hidden" || $(i).closest(".hp").length) return; if (!$(i).closest("label").length && !(id && $(`label[for="${id}"]`).length)) E(slug, `unlabelled field ${$(i).attr("name")}`); });
   // calc anchors that the spec links to must exist when the index is built
-  if (slug === "/mortgage-calculators/") for (const a of ["payment", "affordability", "down-payment", "closing-costs", "cmhc", "renewal", "penalty", "prepayment", "compare", "offset", "consolidation", "readvanceable", "sale-proceeds", "mli", "suite-checker", "quiz"]) if (!$("#" + a).length) E(slug, `anchor #${a} missing`);
+  if (slug === "/mortgage-calculators/") for (const a of ["payment", "affordability", "down-payment", "closing-costs", "cmhc", "renewal", "penalty", "prepayment", "compare", "offset", "consolidation", "readvanceable", "sale-proceeds", "suite-checker", "quiz"]) if (!$("#" + a).length) E(slug, `anchor #${a} missing`);
   rows.push([slug, words, inBody]);
 }
 console.log("\nPage".padEnd(42) + "words".padStart(7) + "  body links");

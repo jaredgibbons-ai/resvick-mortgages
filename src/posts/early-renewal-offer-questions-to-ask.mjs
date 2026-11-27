@@ -9,7 +9,7 @@ export default {
   h1: "Your lender offered an early renewal. What should you ask before you sign?",
   crumb: "Early renewal offer: questions to ask",
   lede: "An early offer feels like good news, and sometimes it is. But it asks you to decide before you have to. These seven questions show what you give up, what you gain, and what the new mortgage would cost to leave.",
-  links: ["/early-mortgage-renewal/", "/mortgage-renewal-bc/", "/switch-mortgage-lenders-at-renewal/", "/interest-rate-differential/", "/blend-and-extend-mortgage/", "/porting-your-mortgage/", "/downsizing-and-your-mortgage/", "/mortgage-penalty-calculator/", "/guides/when-to-start-your-renewal/", "/contact/"],
+  links: ["/early-mortgage-renewal/", "/mortgage-renewal-bc/", "/switch-mortgage-lenders-at-renewal/", "/interest-rate-differential/", "/blend-and-extend-mortgage/", "/porting-your-mortgage/", "/downsizing-and-your-mortgage/", "/mortgage-penalty-calculator/", "/early-mortgage-renewal/", "/contact/"],
   body: `
 ${short({
   answer: "Ask when the new rate and term start, what it costs to wait, what a competing lender would offer, and how the penalty on the new mortgage is worked out. Get the answers in writing before you sign anything.",
@@ -32,7 +32,7 @@ ${short({
 
 <h2>3. What would another lender offer?</h2>
 <p>Your own lender will not tell you how it compares. A broker can ask several lenders at once and show you the results side by side. Your lender may also improve its offer when it sees you are shopping. The government's renewal guidance says the same: you can negotiate, and proof of a competing offer helps.</p>
-<p>Joshua compares lenders for renewals as part of his work, and on most A-lender mortgages the lender pays him. That means you pay nothing for the comparison. If a fee applies on a file, he tells you in writing before you sign.</p>
+<p>I compare lenders for renewals as part of my work, and on most A-lender mortgages the lender pays me. That means you pay nothing for the comparison. If a fee applies on a file, I tell you in writing before you sign.</p>
 
 <h2>4. What would switching cost?</h2>
 <p>Moving to a new lender can bring costs. These may include discharge or transfer fees from your current lender, an appraisal and legal fees. Some lenders cover part or all of them when you switch. Ask who pays.</p>
@@ -68,7 +68,7 @@ ${short({
 <li>Do not sign until you have compared it with at least one other lender.</li>
 <li>Decide how long you plan to keep the home.</li>
 </ol>
-<p>If you would like help comparing, the <a href="/contact/">contact page</a> has the booking link. The <a href="/guides/when-to-start-your-renewal/">renewal timeline post</a> shows what to do at each point before your term ends.</p>
+<p>If you would like help comparing, the <a href="/contact/">contact page</a> has the booking link. The <a href="/early-mortgage-renewal/">renewal timeline post</a> shows what to do at each point before your term ends.</p>
 
 <h2>Sources and dates</h2>
 <p>The points on renewal statements, switching costs and negotiating come from the Financial Consumer Agency of Canada's page on renewing your mortgage, checked on November 23, 2026. Penalty methods and fees vary by lender, so use your own mortgage contract and your lender's written figures as the final word.</p>

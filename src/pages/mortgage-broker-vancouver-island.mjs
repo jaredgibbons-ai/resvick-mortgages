@@ -27,7 +27,7 @@ const table = `<div class="table-wrap"><table>
 
 const body = `
 ${short({
-  answer: "Joshua Resvick arranges mortgages across Vancouver Island by phone and video from his Surrey office. Prices fall a long way as you head north and west from Victoria, and local rules on rentals and the empty-home tax change from town to town. This page compares them and links to each town's own page.",
+  answer: "I arrange mortgages across Vancouver Island by phone and video from my Surrey office. Prices fall a long way as you head north and west from Victoria, and local rules on rentals and the empty-home tax change from town to town. This page compares them and links to each town's own page.",
   who: "You're buying, moving or refinancing anywhere from Victoria to Campbell River, or you're weighing one Island town against another.",
   next: "Find your town in the table, then open its page. Or book a 15-minute call and talk it through."
 })}
@@ -85,23 +85,23 @@ ${table}
 <li><strong>Retiring here?</strong> Lenders commonly count pensions and registered income. The <a href="/mortgages-for-retirees-and-seniors/">retirees page</a> and the <a href="/downsizing-and-your-mortgage/">downsizing page</a> explain how.</li>
 </ol>
 
-${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some files, such as new self-employment or recent credit trouble, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
+${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays me and you pay nothing for my work. Some files, such as new self-employment or recent credit trouble, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
 <p class="more-links"><strong>Where to go next.</strong> First-time buyers can start with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>, and self-employed buyers with the <a href="/self-employed-mortgage-bc/">self-employed hub</a>. Owners coming up for renewal can read the <a href="/mortgage-renewal-bc/">renewal guide</a>. Check today's benchmarks on the <a href="/mortgage-rates-bc/">BC rates hub</a>, test your numbers in the <a href="/mortgage-calculators/">mortgage calculators</a>, and learn about <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>. The full list of towns is on the <a href="/bc-mortgage-broker-service-areas/">cities served page</a>.</p>
 
-${cta({ title: "Talk to a broker who serves the whole Island", text: "Book a 15-minute call. Tell Joshua which towns you're weighing and how you're paid. You'll leave knowing what you can afford in each and which lenders fit." })}
+${cta({ title: "Talk to a broker who serves the whole Island", text: "Book a 15-minute call. Tell me which towns you're weighing and how you're paid. You'll leave knowing what you can afford in each and which lenders fit." })}
 `;
 
 export default {
   slug: "/mortgage-broker-vancouver-island/",
   h1: "Mortgage broker on Vancouver Island: comparing towns from Victoria to Campbell River",
-  lede: "Joshua Resvick, Xeva Mortgage, serves the whole Island by phone and video from his Surrey office. Assessed values, the empty-home tax, rental rules and suites, town by town, with a page for each.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I serve the whole Island by phone and video from my Surrey office. Assessed values, the empty-home tax, rental rules and suites, town by town, with a page for each.",
   crumbs: [["Home", "/"], ["Cities served", "/bc-mortgage-broker-service-areas/"], ["Vancouver Island", "/mortgage-broker-vancouver-island/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Do you have an office on Vancouver Island?", a: "No. Joshua works from his Surrey office and serves the whole Island by phone, video and secure upload. The lender, appraiser and your lawyer or notary do their parts locally, so you never need to cross on the ferry to meet." },
+    { q: "Do you have an office on Vancouver Island?", a: "No. I work from my Surrey office and serve the whole Island by phone, video and secure upload. The lender, appraiser and your lawyer or notary do their parts locally, so you never need to cross on the ferry to meet." },
     { q: "Where are homes cheapest on Vancouver Island?", a: "Among the towns in BC Assessment's 2026 Island release, Port Alberni had the lowest typical single-family value at $485,000, then Duncan at $592,000. Saanich was highest at $1,164,000. These are assessed values, not sale prices." },
     { q: "Does the empty-home tax apply on Vancouver Island?", a: "In many towns, yes, including the capital region, Nanaimo, Duncan, Parksville and the Comox Valley. Owners file a yearly declaration, and those who live in the home are generally exempt. Port Alberni and Campbell River aren't in the taxable area." },
     { q: "Can I run a short-term rental on Vancouver Island?", a: "It depends on the town. In most cities the Province limits short-term rentals to your own home plus one suite. Campbell River doesn't allow them at all. Many lenders won't count short-term rent to help you qualify." },

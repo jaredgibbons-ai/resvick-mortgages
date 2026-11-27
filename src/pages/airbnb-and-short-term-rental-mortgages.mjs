@@ -38,7 +38,7 @@ ${short({ answer: "Most mainstream lenders won't count Airbnb income. And since 
 <p>Switching a unit to short-term rental after funding doesn't usually breach the mortgage on its own. But it does change your insurance needs and your tax picture. In most larger BC communities, it also changes whether the use is legal. And it won't help you at the next renewal or refinance.</p>
 
 <p>Weighing a nightly rental against a long-term one? The two-minute <a href="/investor-check/">investor check</a> helps you see where you stand.</p>
-${cta({ title: "Planning to buy a property with rental income in mind?", text: "Tell Joshua the property, the community and how you plan to use it. He'll say which lenders would count the income, how, and whether the plan works without it." })}
+${cta({ title: "Planning to buy a property with rental income in mind?", text: "Tell me the property, the community and how you plan to use it. I'll say which lenders would count the income, how, and whether the plan works without it." })}
 
 <h2>Financing routes that are still open</h2>
 <ul>
@@ -49,7 +49,7 @@ ${cta({ title: "Planning to buy a property with rental income in mind?", text: "
 </ul>
 <p>Whatever the route, the lender will want two things. The property must be insured for its actual use. And that use must be legal where the property sits. The <a href="/investment-property-mortgages-bc/">investment property mortgage guide</a> covers the wider rules for rental financing, including down payments and door limits.</p>
 
-${callout("Fees, and who pays the broker", "<p>On a mortgage with an A lender, the lender pays the broker. You pay nothing for the service. Short-term rental files end up at B lenders more often than most. On those files, lender fees are normal and a broker fee may apply. In BC, both are disclosed in writing on BCFSA's Form 1A before you commit. Joshua's written comparison shows each option's total cost, fees included. <a href=\"/contact/\">Contact him</a> with the property and the plan.</p>")}
+${callout("Fees, and who pays the broker", "<p>On a mortgage with an A lender, the lender pays the broker. You pay nothing for the service. Short-term rental files end up at B lenders more often than most. On those files, lender fees are normal and a broker fee may apply. In BC, both are disclosed in writing on BCFSA's Form 1A before you commit. My written comparison shows each option's total cost, fees included. <a href=\"/contact/\">Contact me</a> with the property and the plan.</p>")}
 `;
 
 export default {

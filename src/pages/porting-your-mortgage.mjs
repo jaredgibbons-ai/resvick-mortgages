@@ -58,7 +58,7 @@ ${short({ answer: "Porting moves your mortgage, rate and remaining term to your 
 <li>You want to change lenders. A port stays with the same lender by definition. Moving to a different lender is a break, with the penalty, so the comparison has to include it.</li>
 </ul>
 
-<h2>Joshua's process</h2>
+<h2>My process</h2>
 <ol>
 <li><strong>A 15-minute call</strong> about your current mortgage, its rate and term, and the move you're planning.</li>
 <li><strong>Two numbers.</strong> The penalty to break, and the interest you'd keep or lose by porting at your rate versus today's.</li>
@@ -68,9 +68,9 @@ ${short({ answer: "Porting moves your mortgage, rate and remaining term to your 
 </ol>
 <p>On a mortgage placed with an A lender, the lender pays the broker and you pay nothing for the service. That includes arranging a port with your existing lender. Fees only come up on some B-lender and private files. They're disclosed in writing on BCFSA's Form 1A before you commit.</p>
 
-${callout("Ask about the port before the penalty", "<p>Lenders will quote the penalty readily and mention the port only if you ask. If you're selling with time left on a fixed term, first ask whether the mortgage is portable and what the window is. Then ask whether you still qualify. Joshua answers both before you list.</p>")}
+${callout("Ask about the port before the penalty", "<p>Lenders will quote the penalty readily and mention the port only if you ask. If you're selling with time left on a fixed term, first ask whether the mortgage is portable and what the window is. Then ask whether you still qualify. I answer both before you list.</p>")}
 
-${cta({ title: "Moving with time left on your term?", text: "Book a 15-minute call. Joshua will work out the penalty, the port and the blend, and tell you which is cheapest. Or <a href=\"/contact/\">contact him</a> by email." })}
+${cta({ title: "Moving with time left on your term?", text: "Book a 15-minute call. I'll work out the penalty, the port and the blend, and tell you which is cheapest. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {

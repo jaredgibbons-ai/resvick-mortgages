@@ -62,7 +62,7 @@ ${short({ answer: "A co-signer lends their income or credit to your mortgage and
 </ul>
 <p>The <a href="/mortgage-application-checklist/">application checklist</a> lists what both people will need to provide. Co-signers go through the same document requirements as the borrower. If you are buying your first home with help, the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> places the choice among the other programs and supports.</p>
 
-${callout("Bring the co-signer to the call", "<p>The best conversations include everyone who will sign. Joshua can explain each role in plain terms. <a href=\"/contact/\">Contact him</a> to set a time. He'll show the effect on the co-signer's own borrowing. Then he'll help the family decide what fits best before anyone commits: a co-signer, a gift or a different lender.</p>")}
+${callout("Bring the co-signer to the call", "<p>The best conversations include everyone who will sign. I can explain each role in plain terms. <a href=\"/contact/\">Contact me</a> to set a time. I'll show the effect on the co-signer's own borrowing. Then I'll help the family decide what fits best before anyone commits: a co-signer, a gift or a different lender.</p>")}
 
 ${cta({ title: "Thinking about a co-signer?", text: "Book a 15-minute call and invite the person who would sign. They will hear the risks as clearly as the borrower hears the benefits, and everyone leaves with the same information." })}
 `;

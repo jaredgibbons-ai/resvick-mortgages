@@ -9,12 +9,12 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-cou
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves Courtenay, Comox and Cumberland by phone and video from his Surrey office. Most Comox Valley buyers are moving, retiring, posted here or buying a second home. Each story needs a different mortgage plan.",
+  answer: "I serve Courtenay, Comox and Cumberland by phone and video from my Surrey office. Most Comox Valley buyers are moving, retiring, posted here or buying a second home. Each story needs a different mortgage plan.",
   who: "Comox Valley buyers, renewers and refinancers, especially people relocating from the mainland, downsizing, serving at the base or buying a getaway.",
   next: "Book a 15-minute call and say which of those stories is yours."
 })}
 <p>The Comox Valley is one region with three municipal governments. Courtenay is the City, Comox is the Town and Cumberland is the Village. Around them sit rural electoral areas, including Baynes Sound-Denman/Hornby Islands, Lazo North and Puntledge-Black Creek. (CivicInfo BC, Comox Valley Regional District page, read October 2026.) That mix means one street address can fall under very different rules and services.</p>
-<p>Joshua Resvick is a licensed mortgage broker with Xeva Mortgage. He spent five years as an underwriter before becoming a broker ten years ago. His office is in Surrey, so Comox Valley clients work with him by phone, video and secure uploads. There is no Comox Valley branch. More than 1,000 mortgages have been funded through him.</p>
+<p>I'm Joshua Resvick, a licensed mortgage broker with Xeva Mortgage. I spent five years as an underwriter before becoming a broker ten years ago. My office is in Surrey, so Comox Valley clients work with me by phone, video and secure uploads. There is no Comox Valley branch. More than 1,000 mortgages have been funded through me.</p>
 
 ${ratesStrip()}
 
@@ -52,7 +52,7 @@ ${censusTable("courtenay")}
 <p><strong>While the file is open.</strong> You get a <a href="/lender-comparison-report/">Lender Comparison Report</a> that shows rate, term, penalty method and prepayment room side by side. Documents travel by secure link, and I deal with your realtor and lawyer directly.</p>
 <p><strong>After you move in.</strong> <a href="/mortgage-aftercare-program/">Resvick Aftercare</a> brings a yearly check-in and a note roughly six months before maturity. That way a renewal is shopped, not simply signed.</p>
 
-${callout("What you pay", "<p>For most Comox Valley purchases and renewals, the lender pays Joshua and you pay nothing for his work. Some files, such as certain rural or retirement-income cases, need a B or private lender. If yours does, BCFSA's Form 1A puts any fee to you in writing before you commit.</p>")}
+${callout("What you pay", "<p>For most Comox Valley purchases and renewals, the lender pays me and you pay nothing for my work. Some files, such as certain rural or retirement-income cases, need a B or private lender. If yours does, BCFSA's Form 1A puts any fee to you in writing before you commit.</p>")}
 
 <h2>First homes, renewals and refinancing</h2>
 <p>A first-time buyer in the Comox Valley can combine the same programs as anyone in BC. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> sets out the order, and the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a> explains how a rate gets set.</p>
@@ -65,22 +65,22 @@ ${callout("What you pay", "<p>For most Comox Valley purchases and renewals, the 
 ${cityFacts("courtenay")}
 ${nearbyCallout("courtenay", callout)}
 
-${cta({ title: "Talk to a broker who serves the Comox Valley", text: "Book a 15-minute call. Tell Joshua whether you are moving, retiring, posted or buying a getaway. You will leave with a clear next step." })}
+${cta({ title: "Talk to a broker who serves the Comox Valley", text: "Book a 15-minute call. Tell me whether you are moving, retiring, posted or buying a getaway. You will leave with a clear next step." })}
 `;
 
 export default {
   slug: "/mortgage-broker-courtenay/",
   h1: "Mortgage broker serving Courtenay, Comox and Cumberland, BC",
-  lede: "Joshua Resvick, Xeva Mortgage, serves the Comox Valley from his Surrey office by phone and video. Relocations, retirement, base postings and second homes, each planned the way an underwriter would plan them.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I serve the Comox Valley from my Surrey office by phone and video. Relocations, retirement, base postings and second homes, each planned the way an underwriter would plan them.",
   crumbs: [["Home", "/"], ["Serving the Comox Valley", "/mortgage-broker-courtenay/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "Can I buy in the Comox Valley before my mainland home sells?", a: "Yes, if the numbers hold. Some buyers use a bridge loan or a lender that approves them on the new purchase with the old home still owned. Each route has costs and conditions. Joshua checks both options on your figures before you remove any subjects on the new home." },
-    { q: "How does a lender treat retirement income in Courtenay?", a: "Many lenders count pension payments, registered retirement income fund withdrawals and some investment or rental income. How they average it and how much they count differs by lender. You usually need statements or tax slips to prove it. Joshua matches your income mix to a lender whose rules fit." },
+    { q: "Can I buy in the Comox Valley before my mainland home sells?", a: "Yes, if the numbers hold. Some buyers use a bridge loan or a lender that approves them on the new purchase with the old home still owned. Each route has costs and conditions. I check both options on your figures before you remove any subjects on the new home." },
+    { q: "How does a lender treat retirement income in Courtenay?", a: "Many lenders count pension payments, registered retirement income fund withdrawals and some investment or rental income. How they average it and how much they count differs by lender. You usually need statements or tax slips to prove it. I match your income mix to a lender whose rules fit." },
     { q: "Do military postings at CFB Comox affect my mortgage?", a: "They can, mainly through timing and flexibility. Ask about portability, the penalty method and how the lender handles a move mid-term. Service income is usually treated as stable. The military and veterans page covers what lenders ask for and what housing allowances may count." },
     { q: "Can I rent out a second home in the Comox Valley?", a: "Often, but the bylaw comes first. Courtenay adopted a short-term rental bylaw on May 7, 2025. It requires the owner's principal residence on the same parcel, and the City's current zoning bylaw repeats that rule. Long-term rentals work differently. Lenders also want at least 20 percent down on a home you won't occupy. Check local rules before you buy." },
-    { q: "Do I need to travel to Surrey to work with Joshua?", a: "No. The whole process runs by phone, video and secure document exchange, and your appraiser, lawyer or notary are local to you. Meeting in person is possible by appointment at the Surrey office, but there is no Comox Valley branch and none is needed." }
+    { q: "Do I need to travel to Surrey to work with you?", a: "No. The whole process runs by phone, video and secure document exchange, and your appraiser, lawyer or notary are local to you. Meeting in person is possible by appointment at the Surrey office, but there is no Comox Valley branch and none is needed." }
   ]
 };

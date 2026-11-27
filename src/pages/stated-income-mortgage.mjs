@@ -22,7 +22,7 @@ ${short({
 <li><strong>How old is the business?</strong> Two years is the usual minimum. The lender wants proof, like a business licence, a GST number, incorporation papers, a website or a lease.</li>
 <li><strong>Does the rest of the file agree?</strong> A figure that fits your trade and your deposits reads as true. It helps to have decent credit and a solid down payment. A high figure with thin deposits and a maxed-out credit card reads as a stretch.</li>
 </ul>
-<p>Joshua's years as an underwriter help here. He knows which figures an underwriter will accept without a second look. He also knows which ones will come back with a request for more paper. He builds the file to answer that second question before it's asked.</p>
+<p>My years as an underwriter help here. I know which figures an underwriter will accept without a second look. I also know which ones will come back with a request for more paper. I build the file to answer that second question before it's asked.</p>
 
 <h2>Who stated income is for</h2>
 <p>This program suits a certain kind of borrower. It's worth being honest about who that is.</p>
@@ -56,9 +56,9 @@ ${callout("Run the numbers at the income a lender will count", "<p>Use the <a hr
 <h2>The path back to an A lender</h2>
 <p>A stated income mortgage is a bridge. On the far side is an A lender. The way across is simple to describe and takes discipline to do.</p>
 <p>Declare enough income on your next two tax returns to qualify the normal way. Keep your business bank statements clean. Keep your credit card balances low. Pay CRA on time. Two years later, your two-year average is a number a bank can use. Then the mortgage can move to A pricing at renewal, with no penalty.</p>
-<p>Joshua builds that timeline at the start, with a target income for each year written down. Part of his aftercare is checking that plan. He looks at the annual review, and again about six months before maturity, to see if the move back to an A lender is on schedule.</p>
+<p>I build that timeline at the start, with a target income for each year written down. Part of my aftercare is checking that plan. I look at the annual review, and again about six months before maturity, to see if the move back to an A lender is on schedule.</p>
 <p>Sometimes the stated figure can't be supported at all. Then the honest option may be a <a href="/private-mortgage-lending-bc/">private mortgage</a> for a year while the paperwork catches up. That page explains it, with its full cost.</p>
-<p>If your tax return undersells your business, <a href="/contact/">book a 15-minute call</a>. Joshua will tell you whether a stated income file is likely to pass the test. He'll also tell you what it would cost and how long you should plan to stay in it.</p>
+<p>If your tax return undersells your business, <a href="/contact/">book a 15-minute call</a>. I'll tell you whether a stated income file is likely to pass the test. I'll also tell you what it would cost and how long you should plan to stay in it.</p>
 
 <p>Realtors on commission often start here. <a href="/mortgages-for-real-estate-agents/">Mortgages for real estate agents</a> explains how lenders read that income.</p>
 ${cta({ title: "Does your NOA undersell you?", text: "A 15-minute call is enough to find out whether a stated income lender would accept your figure. You'll also see what it would cost next to waiting for your tax returns to catch up." })}
@@ -74,7 +74,7 @@ export default {
   faqs: [
     { q: "Is stated income the same as no income verification?", a: "No. A stated income lender verifies that your declared figure is reasonable for your industry, supported by business bank deposits and consistent with the age of the business. Banks and credit unions don't lend without verifying income. A small group of alternative and private lenders will, but only on a lot of equity, usually about 50 to 65 percent of the home's value, at a higher cost. See the no income verification mortgage page for how those programs work." },
     { q: "How much down payment do I need for a stated income mortgage?", a: "It depends on the program. Uninsured stated income and alternative programs are capped at 80 percent of value, so they need at least 20 percent down. Insured stated income programs, offered through Sagen and Canada Guaranty, can allow as little as 10 percent down with strong credit and reasonable income. Some lenders want more for a higher stated figure or a property outside a major centre. Tell your broker your down payment on the first call so the lender list is realistic." },
-    { q: "Are stated income rates much higher?", a: "They are higher than A-lender rates, and a lender fee is normal. The exact gap changes with the market, so this site does not print it. Joshua shows the full cost next to the alternative of waiting for your tax returns to catch up, so you can decide with real figures." },
+    { q: "Are stated income rates much higher?", a: "They are higher than A-lender rates, and a lender fee is normal. The exact gap changes with the market, so this site does not print it. I show the full cost next to the alternative of waiting for your tax returns to catch up, so you can decide with real figures." },
     { q: "Can I owe money to CRA and still get a stated income mortgage?", a: "It is difficult. Most lenders want proof that income tax is paid or that a formal payment arrangement exists, and some will pay the balance from the mortgage proceeds on a refinance. Disclose any balance early, because it changes which lenders are available." },
     { q: "Will I pay a broker fee on a stated income file?", a: "A fee can apply because this is a B-lender product. BC rules require written disclosure under BCFSA Form 1A before you commit. On an A-lender mortgage, by contrast, the lender pays the broker and you pay nothing for the service." }
   ]

@@ -36,14 +36,14 @@ ${short({
 
 <h2>Why the result comes first</h2>
 <p>You see your score, band and focus the moment you finish. Nothing is sent anywhere, because the check runs in your browser.</p>
-<p>Afterwards, an optional button offers a written version with Joshua's notes. It asks for a name and an email. The consent box starts unticked, and so does the "I'd like a call" box.</p>
+<p>Afterwards, an optional button offers a written version with my notes. It asks for a name and an email. The consent box starts unticked, and so does the "I'd like a call" box.</p>
 
 ${callout("The 20 percent rule, briefly", "<p>High-ratio mortgage insurance isn't available on a purchase you won't live in. So plan on at least 20 percent down, and more at some lenders. Small rentals of two to four units can still be insured up to 80 percent loan-to-value. The <a href=\"/investment-property-mortgages-bc/\">investment property guide</a> has the details and the exceptions.</p>")}
 
-<h2>What Joshua does with the written version</h2>
-<p>He reads your answers the way an underwriter reads a rental file. That was his job for five years before he became a broker.</p>
+<h2>What I do with the written version</h2>
+<p>I read your answers the way an underwriter reads a rental file. That was my job for five years before I became a broker.</p>
 <p>The written version covers how a lender is likely to count the rent on your kind of property. It covers the reserves they'd want to see and how your other properties affect the count. It also tests whether your exit plan holds up.</p>
-<p>If your plan uses a strategy with its own rules, like <a href="/brrrr-strategy-canada/">BRRRR</a> or turning your home into a rental, it points you to the right guide. If you asked for a call, he'll suggest a time.</p>
+<p>If your plan uses a strategy with its own rules, like <a href="/brrrr-strategy-canada/">BRRRR</a> or turning your home into a rental, it points you to the right guide. If you asked for a call, I'll suggest a time.</p>
 <p>Planning a short-term rental? The written version will be straight with you about that too. Many lenders count that income differently, or not at all. And BC's short-term rental rules changed in 2024. Better to know before you buy than after.</p>
 
 <h2>What the check can't do</h2>
@@ -52,7 +52,7 @@ ${callout("The 20 percent rule, briefly", "<p>High-ratio mortgage insurance isn'
 <p>On fees: on a mortgage with a mainstream (A) lender, the lender pays the broker. You pay nothing for the service, including on a rental. Fees only come up on some B-lender and private-lender files. BC rules say you see the disclosure in writing first.</p>
 <p>Already own a rental and need to renew it? The <a href="/rental-property-mortgage-renewal/">rental renewal guide</a> is the better page. Not sure this is your check? The <a href="/mortgage-check/">two-question router</a> will sort it out. The <a href="/contact/">contact page</a> is there if you'd rather talk.</p>
 
-${cta({ title: "Ready to run a real property through the numbers?", text: "Bring the listing and your result to a 15-minute call. Joshua will show you how a lender would count the rent." })}
+${cta({ title: "Ready to run a real property through the numbers?", text: "Bring the listing and your result to a 15-minute call. I'll show you how a lender would count the rent." })}
 `;
 
 export default {

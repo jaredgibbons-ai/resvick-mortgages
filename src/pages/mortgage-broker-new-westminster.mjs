@@ -8,12 +8,12 @@ const schema = { ...businessSchema(), "@id": SITE.origin + "/mortgage-broker-new
 
 const body = `
 ${short({
-  answer: "Joshua Resvick serves New Westminster by phone and video, and in person at his Surrey office. This is an older, dense city. Strata towers, character houses and homes with suites each need a different kind of file.",
+  answer: "I serve New Westminster by phone and video, and in person at my Surrey office. This is an older, dense city. Strata towers, character houses and homes with suites each need a different kind of file.",
   who: "New Westminster buyers, renewers and refinancers, especially condo buyers, owners of older homes and anyone with a suite.",
   next: "Book a 15-minute call and say what kind of building you are looking at."
 })}
 <p>New Westminster is one of the oldest cities in the region, and it shows in the housing. Heritage streets climb the hill above the Fraser River. Condo towers stand along the waterfront and near the SkyTrain stations. Queensborough sits across the river to the southeast. The mortgage questions change from one of these places to the next.</p>
-<p>Joshua Resvick is a licensed Xeva Mortgage broker, and he worked five years as an underwriter before he started brokering. Surrey is a short trip down the road, so you can meet him there if you like. Most clients just use the phone, a video call and secure uploads. There is no branch in New Westminster. <a href="/contact/">Book a 15-minute call</a> to get started.</p>
+<p>I'm Joshua Resvick, a licensed Xeva Mortgage broker, and I worked five years as an underwriter before I started brokering. Surrey is a short trip down the road, so you can meet me there if you like. Most clients just use the phone, a video call and secure uploads. There is no branch in New Westminster. <a href="/contact/">Book a 15-minute call</a> to get started.</p>
 
 ${ratesStrip()}
 
@@ -24,7 +24,7 @@ ${ratesStrip()}
 <p>Lenders and buyers commonly ask for the minutes, the budget, the contingency reserve fund and any depreciation report. They look for special levies, big repairs and legal claims. A building with open problems can slow an approval or change the terms. The <a href="/condo-and-townhouse-mortgages/">condo and townhouse mortgage page</a> lists what to request and what the answers mean.</p>
 <h3>Owners of older houses</h3>
 <p>The streets around Queen's Park and the Brow of the Hill hold many older houses. Age brings its own checks. An appraiser may want to see updated wiring, plumbing and a sound foundation. An insurer may ask about the electrical system before it covers the home. A lender wants proof of insurance before it funds.</p>
-<p>Some character homes also carry a heritage designation or a heritage agreement with the City. That can limit what you may change. Ask the City and your lawyer about a specific address before you remove a subject. Joshua cannot give legal advice on a title, but he can tell you how a lender is likely to treat the property.</p>
+<p>Some character homes also carry a heritage designation or a heritage agreement with the City. That can limit what you may change. Ask the City and your lawyer about a specific address before you remove a subject. I cannot give legal advice on a title, but I can tell you how a lender is likely to treat the property.</p>
 <h3>Queensborough</h3>
 <p>Queensborough is a distinct community across the river, with newer townhomes and detached houses. The City notes that it must study water, sewer and ground conditions there before some of the new provincial housing rules apply in full. Details change, so confirm what a given lot allows. (City of New Westminster, Small Scale Multi Unit Housing page, read October 2026.)</p>
 
@@ -46,7 +46,7 @@ ${censusTable("new-westminster")}
 <li><strong>I keep an eye on your renewal.</strong> Under <a href="/mortgage-aftercare-program/">Resvick Aftercare</a>, you get a yearly review and a nudge well ahead of your maturity date.</li>
 </ol>
 
-${callout("What it costs you", "<p>For most New Westminster purchases and renewals, an A lender pays Joshua for the work, and the bill to you is zero. A few files, such as a self-employed buyer with thin tax returns, may call for a B or private lender. If so, BC rules require written disclosure of any fee on BCFSA's Form 1A before you commit to anything.</p>")}
+${callout("What it costs you", "<p>For most New Westminster purchases and renewals, an A lender pays me for the work, and the bill to you is zero. A few files, such as a self-employed buyer with thin tax returns, may call for a B or private lender. If so, BC rules require written disclosure of any fee on BCFSA's Form 1A before you commit to anything.</p>")}
 
 <h2>Buying, renewing and refinancing here</h2>
 <p><strong>First-time buyers</strong> in New Westminster often start with a condo near transit. The BC transfer tax exemption, the First Home Savings Account, the Home Buyers' Plan and the new-home GST rebate can all play a part. Each has its own test. The <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> shows how to line them up, and the <a href="/first-time-buyer-programs-bc/">programs page</a> explains each one.</p>
@@ -54,7 +54,7 @@ ${callout("What it costs you", "<p>For most New Westminster purchases and renewa
 <p><strong>Self-employed owners</strong> are common in a city with so many small studios and shops. Lenders read business income through tax returns, so the <a href="/self-employed-mortgage-bc/">self-employed mortgage hub</a> is worth a look. For how a rate is set in the first place, see the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
 <h2>Next door</h2>
-<p>New Westminster sits between Burnaby and Surrey, and many buyers compare all three. The <a href="/mortgage-broker-burnaby/">Burnaby page</a> covers the strata and SkyTrain side of that search. The <a href="/mortgage-broker-surrey/">Surrey page</a> has the office address and what to bring to an in-person meeting. Joshua works the same way in each place, with the same lenders and the same written comparison.</p>
+<p>New Westminster sits between Burnaby and Surrey, and many buyers compare all three. The <a href="/mortgage-broker-burnaby/">Burnaby page</a> covers the strata and SkyTrain side of that search. The <a href="/mortgage-broker-surrey/">Surrey page</a> has the office address and what to bring to an in-person meeting. I work the same way in each place, with the same lenders and the same written comparison.</p>
 
 
 ${cityFacts("new-westminster")}
@@ -66,16 +66,16 @@ ${cta({ title: "Talk to a broker who serves New Westminster", text: "Book a 15-m
 export default {
   slug: "/mortgage-broker-new-westminster/",
   h1: "Mortgage broker serving New Westminster, BC",
-  lede: "Joshua Resvick, Xeva Mortgage, serves New Westminster by phone and video, with meetings at his nearby Surrey office. Condos, character homes, suites and infill, read the way an underwriter reads them.",
+  lede: "I'm Joshua Resvick, with Xeva Mortgage, and I serve New Westminster by phone and video, with meetings at my nearby Surrey office. Condos, character homes, suites and infill, read the way an underwriter reads them.",
   crumbs: [["Home", "/"], ["Serving New Westminster", "/mortgage-broker-new-westminster/"]],
   nav: "/about-joshua-resvick/",
   body,
   schema: [schema],
   faqs: [
-    { q: "What will a lender check on a New Westminster condo?", a: "Beyond your own file, a lender looks at the strata corporation. It commonly asks for the minutes, the budget, the contingency reserve fund and any depreciation report, and it looks for special levies or legal claims. A weak building can slow approval or change the terms. Joshua reviews the documents with you before you remove subjects." },
-    { q: "Can I count rent from a basement suite in New Westminster?", a: "If the suite is authorized, meaning it was created under a City building permit, many lenders count a share of documented rent. An unauthorized suite usually can't be counted, and the City can take enforcement action. The share and the method vary by lender, so Joshua runs both methods on your numbers." },
-    { q: "Does an older or heritage house make a mortgage harder?", a: "Not by itself, but age raises questions. An appraiser or insurer may ask about wiring, plumbing or the foundation, and a heritage designation can limit what you may change. Lenders vary in how they treat these homes. Raise the address with Joshua early, so any condition is known before you commit." },
-    { q: "Is there a branch in New Westminster?", a: "No. Joshua works from an office in Surrey, which is close by, and serves New Westminster clients by phone, video and secure document upload. You can meet him in person at the Surrey office if you prefer. BC mortgage rules and lenders are provincial, so his location does not narrow your options." },
-    { q: "Can a laneway house help me qualify for a bigger mortgage?", a: "Only in limited ways. A permitted unit that already exists and earns documented rent can count toward qualifying at many lenders. A unit you plan to build usually cannot count until it is finished and rented. Some refinance programs fund a new suite. Joshua explains which route fits your plan." }
+    { q: "What will a lender check on a New Westminster condo?", a: "Beyond your own file, a lender looks at the strata corporation. It commonly asks for the minutes, the budget, the contingency reserve fund and any depreciation report, and it looks for special levies or legal claims. A weak building can slow approval or change the terms. I review the documents with you before you remove subjects." },
+    { q: "Can I count rent from a basement suite in New Westminster?", a: "If the suite is authorized, meaning it was created under a City building permit, many lenders count a share of documented rent. An unauthorized suite usually can't be counted, and the City can take enforcement action. The share and the method vary by lender, so I run both methods on your numbers." },
+    { q: "Does an older or heritage house make a mortgage harder?", a: "Not by itself, but age raises questions. An appraiser or insurer may ask about wiring, plumbing or the foundation, and a heritage designation can limit what you may change. Lenders vary in how they treat these homes. Raise the address with me early, so any condition is known before you commit." },
+    { q: "Is there a branch in New Westminster?", a: "No. I work from an office in Surrey, which is close by, and serve New Westminster clients by phone, video and secure document upload. You can meet me in person at the Surrey office if you prefer. BC mortgage rules and lenders are provincial, so my location does not narrow your options." },
+    { q: "Can a laneway house help me qualify for a bigger mortgage?", a: "Only in limited ways. A permitted unit that already exists and earns documented rent can count toward qualifying at many lenders. A unit you plan to build usually cannot count until it is finished and rented. Some refinance programs fund a new suite. I explain which route fits your plan." }
   ]
 };

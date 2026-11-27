@@ -22,7 +22,7 @@ ${short({ answer: "Lenders test you at a higher rate than you'll pay, then cap h
 <p>This is also why a lower advertised rate does not always raise your qualifying amount as much as you hope. If your contract rate is below 3.25 percent, the qualifying rate is the same 5.25 percent, so a lower rate helps your payment but not your approval.</p>
 
 <p>Paying off a student loan? The guide to <a href="/student-loans-and-your-mortgage/">student loans and your mortgage</a> shows how lenders count that payment. Want a quick read on where you stand overall? Try the two-minute <a href="/purchase-readiness-check/">purchase readiness check</a>.</p>
-${cta({ title: "Run it against your real documents", text: "The calculator uses what you type. A call with Joshua checks it against how lenders would actually count your income and debts.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "Run it against your real documents", text: "The calculator uses what you type. A call with me checks it against how lenders would actually count your income and debts.", href: "/contact/", label: "Contact me" })}
 
 <h2>What counts as a debt</h2>
 <p>Everything with a required monthly payment goes into TDS, and people regularly forget some of them. The list includes:</p>
@@ -69,7 +69,7 @@ ${cta({ title: "Run it against your real documents", text: "The calculator uses 
 <p>The pattern is clear. Eliminating a modest debt changed nothing, because housing costs were the constraint, while a large debt shifted the limit to TDS and removed about $100,000 of buying power. A higher down payment and a longer amortization each helped, and a rate increase hurt, since the qualifying rate rises with it. Notice also that the extra $40,000 down raised the maximum price by $41,400. That's a little more than the deposit itself, because a smaller loan carries a smaller insurance premium.</p>
 
 <h2>What the number is and is not</h2>
-<p>The result is an estimate for planning. A lender confirms your income, credit and the property before any approval, and individual lenders apply their own policies. Use the number to set a search range, but keep your comfort in mind. The most a lender will approve isn't the same as what makes sense for your budget. For the full sequence, read the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a>, then <a href="/contact/">contact Joshua</a> to review your own file.</p>
+<p>The result is an estimate for planning. A lender confirms your income, credit and the property before any approval, and individual lenders apply their own policies. Use the number to set a search range, but keep your comfort in mind. The most a lender will approve isn't the same as what makes sense for your budget. For the full sequence, read the <a href="/first-time-home-buyer-bc/">first-time home buyer guide</a>, then <a href="/contact/">contact me</a> to review your own file.</p>
 
 ${callout("A practical rule", "<p>Run the calculator three ways: with your best case, your likely case and a case where your income drops a little. If the payment still works in the third, the number is solid.</p>")}
 `;

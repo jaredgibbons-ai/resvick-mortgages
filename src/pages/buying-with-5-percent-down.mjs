@@ -15,7 +15,7 @@ ${short({ answer: "Yes. You can buy in BC with 5 percent down, but only on the f
 <p>The money has to come from an acceptable source. Savings, an FHSA or Home Buyers' Plan withdrawal, and a gift from family all qualify with the right paperwork. Borrowed money is treated differently and costs more. A down payment that is borrowed or from a non-traditional source carries a higher premium rate when the loan-to-value is above 90 percent. See the <a href="/down-payment-guide-bc/">down payment guide</a> for the sources and the documents.</p>
 
 <p>The full premium table, with a worked example, is on the <a href="/cmhc-insurance-bc/">CMHC insurance page</a>.</p>
-${cta({ title: "See what your own numbers look like", text: "Try the affordability calculator, or book a 15-minute call and Joshua will run a 5 percent scenario against your income and debts." , href: "/mortgage-calculators/#affordability", label: "Open the affordability calculator" })}
+${cta({ title: "See what your own numbers look like", text: "Try the affordability calculator, or book a 15-minute call and I'll run a 5 percent scenario against your income and debts." , href: "/mortgage-calculators/#affordability", label: "Open the affordability calculator" })}
 
 <h2>The true cost of 5 percent down</h2>
 <p>The cost is the insurance premium and the larger loan. CMHC's premium is a one-time percentage of the loan. It is set by the loan-to-value ratio, and you can add it to the mortgage instead of paying it up front. The standard schedule for owner-occupied homes is:</p>
@@ -55,7 +55,7 @@ ${cta({ title: "See what your own numbers look like", text: "Try the affordabili
 <h2>Qualification math at 5 percent</h2>
 <p>A larger loan means a higher payment. A higher payment means you need more income to qualify. In this example, the qualifying rate is 6.50 percent (4.50 plus 2). At that rate, the payment on the $494,000 mortgage is about $3,309 a month for qualifying purposes.</p>
 <p>For housing costs alone to stay within 39 percent of gross income, that implies a household income of about $101,800 a year. This is before property tax, heating or any other debts. The 10 percent version needs about $95,600. The 20 percent version needs about $82,400. This is illustrative and excludes your other costs, which the <a href="/how-much-mortgage-can-i-afford/">mortgage affordability guide</a> handles in full.</p>
-<p>One more point is easy to miss. A bigger down payment raises your buying power in two ways. It reduces the loan, and it removes or reduces the premium. So a bit more savings can move your approval more than you'd expect. If you are close to a threshold, <a href="/contact/">talk to Joshua</a> about whether a few more months of saving or a gift changes the picture.</p>
+<p>One more point is easy to miss. A bigger down payment raises your buying power in two ways. It reduces the loan, and it removes or reduces the premium. So a bit more savings can move your approval more than you'd expect. If you are close to a threshold, <a href="/contact/">talk to me</a> about whether a few more months of saving or a gift changes the picture.</p>
 
 ${callout("The $500,000 line", "<p>The 5 percent rate applies to the first $500,000 only. On a $600,000 home, the minimum is $35,000, which is 5.83 percent. On a $750,000 home it is $50,000, which is 6.67 percent. A page that says 5 percent works at any price up to $1.5 million is skipping this step.</p>")}
 `;

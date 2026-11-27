@@ -44,7 +44,7 @@ ${short({
 <p>Being honest here isn't just a rule. It protects you. A gift called a gift on paper but treated as a loan at home can undo an approval late in the process.</p>
 <p>If the family expects repayment, say so, and a broker will find a structure that fits. Sometimes the better design is a family member acting as a co-signer or co-owner. The <a href="/mortgage-with-a-cosigner/">co-signer guide</a> explains those roles.</p>
 
-${cta({ title: "Planning to use a family gift?", text: "Tell Joshua who is giving, how much and when. He will confirm what your lender needs before the money moves." })}
+${cta({ title: "Planning to use a family gift?", text: "Tell me who is giving, how much and when. I'll confirm what your lender needs before the money moves." })}
 
 <h2>Combining a gift with the FHSA and the Home Buyers' Plan</h2>
 <p>A gift sits alongside your own savings and the federal programs. You aren't limited to one source.</p>
@@ -70,7 +70,7 @@ ${cta({ title: "Planning to use a family gift?", text: "Tell Joshua who is givin
 
 ${callout("A word on tax", "<p>A gift can have tax effects for you or the giver, for example if the giver sells an investment to fund it. That depends on your situation. It's a question for an accountant, not a mortgage broker.</p>")}
 
-${cta({ title: "Walk through your plan with Joshua", text: "A 15-minute call will confirm what your lender needs for a gift and how it fits with your other down payment sources.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "Walk through your plan with me", text: "A 15-minute call will confirm what your lender needs for a gift and how it fits with your other down payment sources.", href: "/contact/", label: "Contact me" })}
 `;
 
 export default {

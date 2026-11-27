@@ -82,9 +82,9 @@ ${tool}
 <p>The program is for building a suite. It isn't for general borrowing. You can't use it to pay off debts or take cash out, and you can't borrow more than the project costs.</p>
 <p>If you want to use your equity for other things, see the <a href="/cash-out-refinance-bc/">cash-out refinance guide</a> and the wider <a href="/refinance-mortgage-bc/">refinancing hub</a>. If you're buying a place to rent out, start with the <a href="/investment-property-mortgages-bc/">investment property mortgage guide</a>. To see first how much your income could support, use the <a href="/how-much-mortgage-can-i-afford/">mortgage affordability guide</a>.</p>
 
-${callout("Before you start building", "<p>The rule that catches people is the timing. Approval comes first, and a conversation takes fifteen minutes. If you're thinking about a suite, call before you hire a contractor or sign anything. That way the file is set up in the right order. The <a href=\"/mortgage-calculators/#suite-checker\">suite eligibility checker</a> gives a first read in a few minutes. You can <a href=\"/contact/\">contact Joshua</a> to go through the result.</p>")}
+${callout("Before you start building", "<p>The rule that catches people is the timing. Approval comes first, and a conversation takes fifteen minutes. If you're thinking about a suite, call before you hire a contractor or sign anything. That way the file is set up in the right order. The <a href=\"/mortgage-calculators/#suite-checker\">suite eligibility checker</a> gives a first read in a few minutes. You can <a href=\"/contact/\">contact me</a> to go through the result.</p>")}
 
-${cta({ title: "Check your plan before you build", text: "Use the checker, then book a 15-minute call before building starts. Joshua will confirm whether the program fits your numbers. He'll also tell you what the lender will need to see." })}
+${cta({ title: "Check your plan before you build", text: "Use the checker, then book a 15-minute call before building starts. I'll confirm whether the program fits your numbers. I'll also tell you what the lender will need to see." })}
 `;
 
 export default {

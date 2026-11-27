@@ -187,7 +187,7 @@ export const SLUGS = `/
 /variable-rate-mortgage/
 /guides/`.split("\n");
 
-export const ANCHORS = ["payment","affordability","down-payment","closing-costs","cmhc","renewal","penalty","prepayment","compare","offset","consolidation","readvanceable","sale-proceeds","mli","suite-checker","quiz"];
+export const ANCHORS = ["payment","affordability","down-payment","closing-costs","cmhc","renewal","penalty","prepayment","compare","offset","consolidation","readvanceable","sale-proceeds","suite-checker","quiz"];
 
 export const isCanonical = (href) => {
   const [path, hash] = href.split("#");

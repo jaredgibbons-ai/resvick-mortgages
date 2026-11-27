@@ -11,7 +11,7 @@ ${short({
 <p>Thinking about moving your mortgage to a new lender at renewal? Here's the good news. You may not need to re-pass the stress test.</p>
 <p>Two separate federal measures, both from late 2024, remove the higher qualifying rate for what's called a straight switch. They have different dates, different sources and different conditions. Mixing them up is the most common mistake in articles on this topic.</p>
 <p>So this page keeps them apart. It walks you through who's covered and who isn't. Then it shows what still happens at the new lender once the test is gone.</p>
-<p>A quick word on who's writing this. Joshua Resvick is a BC mortgage broker. He has ten years as a broker, five years as an underwriter before that, and over 1,000 mortgages funded. He explains these rules the way he does on a call. He also reads a file the way a lender will, before it's ever sent.</p>
+<p>A quick word on who's writing this. I'm Joshua Resvick, a BC mortgage broker. I have ten years as a broker, five years as an underwriter before that, and over 1,000 mortgages funded. I explain these rules the way I do on a call. I also read a file the way a lender will, before it's ever sent.</p>
 <p>Everything here was checked against the official sources listed at the bottom on October 30, 2026. The page gets updated if the rules change.</p>
 
 <h2>What the stress test is</h2>
@@ -61,10 +61,10 @@ ${short({
 <p>This is the part people miss. The exemption removes the qualifying rate. It does not remove the approval.</p>
 <p>Under OSFI Guideline B-20, the new lender is still expected to review your credit history. It verifies your income, counts your debts and confirms the property is acceptable. Someone whose credit has dropped sharply can still be declined, even with no stress test. So can someone whose income has fallen, or whose property has problems.</p>
 <p>That's why the honest wording is that you may not need to re-pass the stress test. It's never that no approval is needed.</p>
-<p>This is also where an underwriter's eye pays off. Joshua reads your file the way a lender will, before anything is sent. Any soft spot gets found early, and the right lender gets picked for it.</p>
+<p>This is also where an underwriter's eye pays off. I read your file the way a lender will, before anything is sent. Any soft spot gets found early, and the right lender gets picked for it.</p>
 <p>And if a switch does get declined, you still have options. The page on <a href="/mortgage-renewal-denied/">renewals that are denied</a> sets them out calmly.</p>
 
-${cta({ title: "Find out if your switch qualifies", text: "Book a 15-minute call. Bring your maturity date, your lender's name, and whether your mortgage is a collateral charge. Joshua will tell you which rules apply." })}
+${cta({ title: "Find out if your switch qualifies", text: "Book a 15-minute call. Bring your maturity date, your lender's name, and whether your mortgage is a collateral charge. I'll tell you which rules apply." })}
 
 <h2>Three example scenarios</h2>
 <p>Numbers make this easier to see, so here are three. They all use a $450,000 balance with 22 years of amortization left. The offered rate is 4.49 percent. The figures are examples worked out for this page, not quotes. At that rate, the minimum qualifying rate would be 6.49 percent.</p>
@@ -83,7 +83,7 @@ ${cta({ title: "Find out if your switch qualifies", text: "Book a 15-minute call
 <p>A renewal letter from your current lender is written to keep you. It rarely says you could move with no new stress test, because that makes moving easier. Lenders aren't hiding it, exactly. They just don't have to tell you, and most people never ask.</p>
 <p>On top of that, switch pricing is often better than the rate in your renewal letter. New lenders compete for new business. The page on <a href="/mortgage-renewal-rates-bc/">renewal rates in BC</a> explains how that works. The full step-by-step is in the guide to <a href="/switch-mortgage-lenders-at-renewal/">switching mortgage lenders at renewal</a>.</p>
 <p>And if you do nothing at all? An unsigned mortgage often rolls into an open term at a much higher rate. That alone is reason enough to know about the exemption.</p>
-<p>Start about 120 days before maturity. Read your letter properly and compare. The <a href="/mortgage-renewal-bc/">mortgage renewal hub</a> pulls all the pieces together. You can <a href="/contact/">contact Joshua</a> with your details whenever you're ready.</p>
+<p>Start about 120 days before maturity. Read your letter properly and compare. The <a href="/mortgage-renewal-bc/">mortgage renewal hub</a> pulls all the pieces together. You can <a href="/contact/">contact me</a> with your details whenever you're ready.</p>
 
 ${callout("Sources, checked October 30, 2026", "<p>OSFI, minimum qualifying rate page and backgrounder (Measure A, effective November 21, 2024). Department of Finance Canada, straight switches and portfolio insurance (Measure B, effective December 16, 2024). OSFI Guideline B-20. This is general education. Your lender and insurer decide how the rules apply to your file.</p>")}
 `;

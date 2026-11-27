@@ -64,13 +64,13 @@ ${ratesStrip()}
 
 ${callout("Variable and aftercare", "<p>A variable mortgage works best when someone is watching it. Resvick Aftercare includes rate monitoring and plain-language notes after Bank of Canada announcements. So a rate change prompts a talk about converting or renewing. If your mortgage is somewhere else, the free renewal reminder is a good start.</p>")}
 
-<h2>How Joshua approaches the decision</h2>
-<p>Joshua Resvick asks about your budget, your savings and your plans before he talks rates. The structure matters as much as the number.</p>
-<p>He compares variable and fixed options across a wide range of lenders. He looks at the trigger rate, the conversion terms and the penalty on each. Then he puts them in writing in the <a href="/lender-comparison-report/">Lender Comparison Report</a>.</p>
+<h2>How I approach the decision</h2>
+<p>I ask about your budget, your savings and your plans before I talk rates. The structure matters as much as the number.</p>
+<p>I compare variable and fixed options across a wide range of lenders. I look at the trigger rate, the conversion terms and the penalty on each. Then I put them in writing in the <a href="/lender-comparison-report/">Lender Comparison Report</a>.</p>
 <p>When a mortgage goes to a mainstream (A) lender, the lender pays the broker. You pay nothing for the service. The wider rate picture is on the <a href="/mortgage-rates-bc/">mortgage rates in BC</a> page.</p>
 
 ${bocDates()}
-${cta({ title: "Check how a variable would behave for you", text: "Bring your numbers. Joshua will show you the payment at several rates, your trigger rate and the conversion terms before you decide.", href: "/contact/", label: "Contact Joshua" })}
+${cta({ title: "Check how a variable would behave for you", text: "Bring your numbers. I'll show you the payment at several rates, your trigger rate and the conversion terms before you decide.", href: "/contact/", label: "Contact me" })}
 `;
 
 export default {

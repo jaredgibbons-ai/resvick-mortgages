@@ -44,7 +44,7 @@ ${short({
 <h2>Building it yourself</h2>
 <p>An owner-builder is someone who builds a home for their own use and acts as their own general contractor. In BC, you need an Owner Builder Authorization from BC Housing, and you must pass an exam first. That authorization removes the third-party warranty that licensed builders must carry. It does not remove your responsibility. If you sell within 10 years, you stay liable for construction defects.</p>
 <p>BC also limits what you can do with an owner-built home. You cannot sell it while it is still under construction. In most cases you must live in it for at least a year before you list it. If you sell within 10 years, you must give the buyer a disclosure notice from BC Housing.</p>
-<p>Lenders are more careful with a self-build, because there is no builder with a track record. Some insurers do accept owner-builders, with conditions. One published rule, for instance, says no single trade contract can be more than half of the total cost. Many lenders will not do a self-build at all. Joshua can tell you early which ones will.</p>
+<p>Lenders are more careful with a self-build, because there is no builder with a track record. Some insurers do accept owner-builders, with conditions. One published rule, for instance, says no single trade contract can be more than half of the total cost. Many lenders will not do a self-build at all. I can tell you early which ones will.</p>
 
 <h2>What it costs beyond the build</h2>
 <p>The build price is not the full cost. Plan for these, and ask each lender which ones apply:</p>
@@ -67,10 +67,10 @@ ${short({
 <li><strong>Starting the build before the land is in your name.</strong> Most lenders will not advance without clear title.</li>
 </ul>
 
-<h2>How Joshua helps with a build</h2>
+<h2>How I help with a build</h2>
 <ol>
 <li><strong>A 15-minute call</strong> about the land, the plans, the builder and your savings.</li>
-<li><strong>A lender check.</strong> Not every lender does construction, and credit unions and banks differ. Joshua tells you which ones fit your project before you pay for an appraisal.</li>
+<li><strong>A lender check.</strong> Not every lender does construction, and credit unions and banks differ. I tell you which ones fit your project before you pay for an appraisal.</li>
 <li><strong>A review of the contract and budget</strong> against the lender's rules, before you sign.</li>
 <li><strong>A plan for the end of the build</strong>, including the regular mortgage and the first renewal.</li>
 </ol>
@@ -79,9 +79,9 @@ ${short({
 <h2>Related pages</h2>
 <p>If you are buying a lot and building later, read the page on <a href="/purchase-plus-improvements/">purchase plus improvements</a> as well. If you plan to add a suite, the <a href="/secondary-suite-refinance/">secondary suite page</a> explains how lenders count it. For land in the Agricultural Land Reserve, see the <a href="/farm-and-alr-mortgages-bc/">farm and ALR page</a>. If you need cash for the down payment, see <a href="/heloc-bc/">home equity lines</a> and <a href="/bridge-financing/">bridge financing</a>.</p>
 
-${callout("Talk to a broker before the contract", "<p>Most construction problems start with a contract or a budget that the lender will not accept. A short call before you sign can save you from a rewrite later. Joshua will tell you what the lenders will ask for, in plain words.</p>")}
+${callout("Talk to a broker before the contract", "<p>Most construction problems start with a contract or a budget that the lender will not accept. A short call before you sign can save you from a rewrite later. I'll tell you what the lenders will ask for, in plain words.</p>")}
 
-${cta({ title: "Planning to build?", text: "Book a 15-minute call. You will leave knowing which lenders fit your project, how much down payment to plan for and what to fix before you sign. Or <a href=\"/contact/\">contact Joshua</a> by email." })}
+${cta({ title: "Planning to build?", text: "Book a 15-minute call. You will leave knowing which lenders fit your project, how much down payment to plan for and what to fix before you sign. Or <a href=\"/contact/\">contact me</a> by email." })}
 `;
 
 export default {
