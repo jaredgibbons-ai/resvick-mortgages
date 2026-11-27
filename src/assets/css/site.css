@@ -176,7 +176,7 @@ a:hover{text-decoration-thickness:1px;text-decoration-color:var(--marker);backgr
 table{border-collapse:collapse;width:100%;font:400 16px/1.5 var(--ui)}
 th,td{padding:11px 14px 11px 0;text-align:left;border-bottom:1px solid var(--rule);vertical-align:top}
 thead th{font-weight:600;color:var(--ink);border-bottom:2px solid var(--ink)}tr:last-child td,tr:last-child th{border-bottom:0}
-td.num,th.num{text-align:right;padding-right:0}
+td.num,th.num{text-align:right;padding-right:0;padding-left:12px}@media(max-width:479px){table{font-size:14.5px}th,td{padding-right:8px}td.num,th.num{padding-left:8px;padding-right:0}td.num:last-child,th.num:last-child{padding-right:0}}
 
 /* closing prompt inside an article, and the closing band */
 .cta-block{margin:56px 0;border-top:3px solid var(--spruce);padding:22px 0 0;display:grid;gap:16px;align-items:center}
