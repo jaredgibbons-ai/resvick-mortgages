@@ -39,10 +39,10 @@ export default {
     land: "Katzie First Nation has reserve land in and next to Pitt Meadows. Its main reserve is next to the city. Reserve land is not regular municipal land. We did not find market housing sold on it. If a property is on reserve land, the title works differently. Lenders need extra checks.",
     feature: "The City's plan says about 78 percent of Pitt Meadows is in the Agricultural Land Reserve. The City also says about 85 percent sits in the Fraser and Pitt River floodplains. Flood construction levels and farmland rules affect most properties here.",
     src: [
-      ["City of Pitt Meadows: short-term rentals and home businesses", "https://www.pittmeadows.ca/node/171"],
+      ["City of Pitt Meadows: short-term rentals and home businesses", "https://www.pittmeadows.ca/business-and-building/business-licences/home-based-businesses"],
       ["City of Pitt Meadows: SSMUH update, December 2025", "https://www.pittmeadows.ca/sites/default/files/2025-12/Dec_2_2025_SSMUH_Transit_Oriented_Areas_Implementation_Update.pdf"],
       ["City of Pitt Meadows: guide to secondary suites", "https://www.pittmeadows.ca/sites/default/files/2026-02/Guide-to-Secondary-Suites.pdf"],
-      ["City of Pitt Meadows: flood preparation", "https://www.pittmeadows.ca/city-services/emergency-preparedness/flood-preparation"],
+      ["City of Pitt Meadows: flood preparation", "https://www.pittmeadows.ca/emergency-services/emergency-preparedness/flood-preparation"],
       ["City of Pitt Meadows: housing needs reports", "https://www.pittmeadows.ca/sites/default/files/2024-12/Consolidated%20IHNR%20and%20HNR.pdf"],
       ["City of Pitt Meadows: community plan, residential policies", "https://www.pittmeadows.ca/sites/default/files/docs/our-community/community-plan/section_4_-_policies_-_4_6_residential.pdf"]
     ],
@@ -96,7 +96,7 @@ export default {
       ["City of Surrey: short-term rentals", "https://www.surrey.ca/renovating-building-development/land-planning-development/provincial-housing-financial-regulations/short-term-rentals"],
       ["City of Surrey: small-scale multi-unit housing zoning", "https://www.surrey.ca/renovating-building-development/land-planning-development/provincial-housing-financial-regulations/zoning-small-scale-multi-unit-housing"],
       ["City of Surrey: our communities", "https://www.surrey.ca/about-surrey/our-communities"],
-      ["City of Surrey: Corporate Report R162", "https://www.surrey.ca/city-government/council-meetings-documents/corporate-reports/r162-small-scale-multi-unit-housing-review-framework"]
+      ["City of Surrey: Corporate Report R162", "https://www.surrey.ca/sites/default/files/corporate-reports/CR_2026-R162.pdf"]
     ],
     omitted: ["Khalsa CU NOT VERIFIED", "Housing mix per community NOT VERIFIED", "STR bylaws now confirmed from June 10, 2024 council minutes: Zoning Amendment 21277, Business Licence Amendment 21278, both finally adopted June 10, 2024", "SSMUH: Zoning By-law 12000 Amendment Bylaw 2024 No. 21281 appears in Corporate Report R109 (June 10, 2024) and the City page says adoption July 8, 2024 (R172 repeats July 8), but R109 proposed adoption June 26 and no page ties 21281 to July 8, so number left out (max 2 numbers)", "Prospera and Coast Capital head offices not re-verified this pass (search budget ran out)", "Licence fee dropped (changes)", "Coast Capital cited page had gclid so not in src"]
   },

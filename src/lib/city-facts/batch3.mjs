@@ -65,7 +65,7 @@ export default {
       ["City of Mission, Homelessness and Housing Needs Report", "https://www.mission.ca/media/file/housing-needs-report-2025pdf"],
       ["City of Mission, Community profile 2022", "https://www.mission.ca/media/file/2022-community-profile"],
       ["City of Mission, Cedar Valley Local Area Plan", "https://www.mission.ca/media/file/cedar-valley-local-area-planpdf"],
-      ["City of Mission, draft Official Community Plan Bylaw 6350-2025", "https://www.mission.ca/media/file/attachment-draft-ocp-bylaw-public-engagement"],
+      ["City of Mission, Official Community Plan", "https://www.mission.ca/council-government/plans-strategies/official-community-plan"],
       ["City of Mission, Special Council minutes of July 17, 2024", "https://pub-mission.escribemeetings.com/filestream.ashx?DocumentId=16214"]
     ],
     omitted: [
@@ -98,7 +98,7 @@ export default {
     feature: "Chilliwack's urban neighbourhoods sit inside a ring of Agricultural Land Reserve farmland. The City's plans note it on the edges of Sardis. Farmland status can matter for properties at the city's edges.",
     src: [
       ["City of Chilliwack, Short-Term Rental Bylaw 2021, No. 5141", "https://www.chilliwack.com/main/attachments/Files/363/BL51411.pdf"],
-      ["Tzeachten First Nation, Residential development", "https://www.tzeachten.ca/departments-tzeachten/housing-public-works/residential-development/"],
+      ["Tzeachten First Nation, Residential development", "https://www.tzeachten.ca/lands/residential-developments"],
       ["Province of BC, SSMUH extension announcement", "https://news.gov.bc.ca/releases/2024hous0178-001534"],
       ["Canadian Army, 39 Combat Engineer Regiment", "https://www.canada.ca/en/army/corporate/3-canadian-division/39-combat-engineer-regiment.html"],
       ["School District 33, About", "https://www.sd33.bc.ca/about"],
@@ -207,7 +207,7 @@ export default {
     src: [
       ["City of Victoria, Short-term rentals", "https://www.victoria.ca/building-business/business-licensing/short-term-rentals"],
       ["City of Victoria, Capital Regional District Housing Needs Assessment, October 2020", "https://www.victoria.ca/media/file/crd-housing-needs-report-victoria-2020"],
-      ["City of Victoria, Zoning Bylaw 2018 Schedule P", "https://www.victoria.ca/media/1207"],
+      ["City of Victoria, Zoning Bylaw 2018 Schedule P", "https://www.victoria.ca/media/file/schedule-p"],
       ["City of Victoria, Downtown Core Area Plan, introduction", "https://www.victoria.ca/media/file/dcap-introductionpdf"],
       ["Greater Victoria School District, About us", "https://www.sd61.bc.ca/our-district/about-us/"],
       ["City of Victoria, Rockland neighbourhood directions", "https://www.victoria.ca/media/file/rockland-neighbourhood-directions-extract-official-community-plan"],

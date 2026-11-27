@@ -22,7 +22,7 @@ ${ratesStrip()}
 <p>Three pieces of the local picture matter to a lender and to you:</p>
 <ul>
 <li><strong>Power line work.</strong> A groundbreaking on September 3, 2026 marked the start of the North Coast Transmission Line. The line is to run from Prince George to Terrace. The governments expect about 1,400 jobs at the peak of construction. The line is meant to power the Ksi Lisims LNG facility and mining in the Golden Triangle. (Energy Now, Construction begins on major B.C. transmission line, September 2026, read October 2026).</li>
-<li><strong>A new hospital.</strong> Mills Memorial Hospital opened in its new building on November 24, 2024, with 82 private rooms. (Northern Health, Mills Memorial Hospital Replacement, read October 2026).</li>
+<li><strong>A new hospital.</strong> The new Ksyen Regional Hospital, which replaced Mills Memorial Hospital, took its first patients on November 24, 2024. (Northern Health, Ksyen Regional Hospital, read November 2026).</li>
 <li><strong>A college campus.</strong> Coast Mountain College runs a Terrace campus with trades, nursing and university courses, and a student residence. (Coast Mountain College, Terrace campus, read October 2026).</li>
 </ul>
 <p>Do not assume every new job lands in Terrace. The first phase of the power line is a 165 km stretch near Prince George. The article does not say where crews will live. A job tied to the line may be a rotation, a camp or a contract with an out-of-town employer. Each one reads differently to a lender, so the details matter more than the headline.</p>

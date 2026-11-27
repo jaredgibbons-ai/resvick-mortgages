@@ -99,7 +99,7 @@ export default {
     feature: "The City says an unauthorized secondary suite should not be rented out until its building permit is finalized. That matters when a buyer plans to count suite rent as income.",
     src: [
       ["City of Courtenay short-term rentals", "http://www.courtenay.ca/services/bylaws/find-bylaw/short-term-rentals"],
-      ["City of Courtenay small-scale multi-unit housing", "https://www.courtenay.ca/EN/main/community/housing-issues/small-scale-multi-unit-housing-ssmuh.html"],
+      ["City of Courtenay small-scale multi-unit housing", "https://www.courtenay.ca/community-and-culture/housing/small-scale-multi-unit-housing"],
       ["City of Courtenay secondary suites", "https://www.courtenay.ca/secondary-suites"],
       ["Town of Comox vacation rental approval process", "https://www.comox.ca/vacationrental"],
       ["Town of Comox small-scale multi-family housing bylaw adopted", "https://www.comox.ca/government-bylaws/news-alerts/small-scale-multi-family-housing-bylaw-adopted"],
@@ -266,7 +266,7 @@ export default {
       ["City of Vernon housing needs report, 2024", "https://www.vernon.ca/sites/default/files/docs/241120-Vernon-HNR-final.pdf"],
       ["City of Vernon, education and health", "https://www.vernon.ca/business/moving-vernon/services"],
       ["VantageOne Credit Union 2024 annual report", "https://www.vantageone.net/wp-content/uploads/2025/05/VO_Annual_Report-2024-WEB.pdf"],
-      ["Tolko Industries", "http://www.tolko.com/"]
+      ["Tolko Industries", "https://tolko.com/"]
     ],
     omitted: [
       "Lender head office rechecked: VantageOne's 2024 annual report (Note 1) says the head office is at 3108 33 Avenue, Vernon. The credit union's contact page lists 5300 26 Street for VantageOne Financial Corp but does not call it the head office.",

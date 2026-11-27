@@ -145,7 +145,7 @@ export default {
     feature: "Mining made up about 20 percent of Princeton's labour force in the 2021 Census. Manufacturing was second. When most jobs sit with a few employers, a lender may ask more about job type and stability. Lenders vary.",
     src: [
       ["Copper Mountain Mine, FAQ", "https://hudbaycoppermountain.com/faq/"],
-      ["Town of Princeton, zoning amendment bylaw", "https://princeton.civicweb.net/document/50357"],
+      ["Town of Princeton, zoning amendment bylaw", "https://princeton.civicweb.net/document/50357/"],
       ["Town of Princeton, about Princeton", "https://www.princeton.ca/p/about-princeton"],
       ["Town of Princeton, business directory", "https://princeton.ca/p/business-directory/1000"],
       ["Interior Health, Princeton General Hospital", "https://www.interiorhealth.ca/locations/princeton-general-hospital"],
@@ -227,11 +227,11 @@ export default {
     feature: "Accommodation and food services is Revelstoke's largest job sector in the 2021 Census. If a purchase counts on rental income, check the City's licence and operator rules first.",
     src: [
       ["City of Revelstoke, Short-Term Rental and B&B Regulations Factsheet (April 2025)", "https://revelstoke.ca/DocumentCenter/View/11877/2025-04-14-BB-and-STR-Factsheet-PDF?bidId="],
-      ["City of Revelstoke, Housing Needs Report (November 2024)", "https://revelstoke.ca/DocumentCenter/View/10817/2024-11-27---Revelstoke-HNR-FINAL"],
+      ["City of Revelstoke, Housing Needs Report (November 2024)", "https://revelstoke.ca/DocumentCenter/View/10817/2024-11-27---Revelstoke-HNR--PDF"],
       ["Choose Revelstoke, transport sector", "https://chooserevelstoke.ca/economic-development/sectors/transport/"],
       ["City of Revelstoke, Zoning Amendment Bylaw No. 2380 (Bill 44)", "https://revelstoke.civicweb.net/FileStorage/51B831DA04834DFABE72509C50EB6C41-2380%20-%20Zoning%20Amendment%20Bylaw%20Bill%2044%20for%20EDAS%20sub.pdf"],
       ["Queen Victoria Hospital, Interior Health", "https://www.interiorhealth.ca/locations/queen-victoria-hospital"],
-      ["City of Revelstoke, OCP Implementation Strategy (2022)", "https://revelstoke.ca/DocumentCenter/View/8994/2022-05-28-OCP-Implementation-Strategy-FINAL"],
+      ["City of Revelstoke, OCP Implementation Strategy (2022)", "https://revelstoke.ca/DocumentCenter/View/8994/2022-05-28-OCP-Implementation-Strategy-Final-PDF"],
       ["City of Revelstoke, Housing Action Plan (2022)", "https://revelstoke.ca/DocumentCenter/View/9004/2022-08-25-Revelstoke-Housing-Action-Plan-Screen-PDF?bidId="]
     ],
     omitted: [
