@@ -65,7 +65,6 @@ ${callout("What you pay", "<p>Most Chilliwack files go to an A lender, where the
 
 <p>Some manufactured home parks in the area sit on First Nation land. Listings for one park show leases running to 2072. Ask for the lease before you make an offer. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
 
-<p class="more-links"><strong>More for Chilliwack buyers.</strong> Pages that may fit your situation: <a href="/mortgage-for-contractors/">contractors and trades</a>, <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
 ${cityFacts("chilliwack")}
 ${nearbyCallout("chilliwack", callout)}

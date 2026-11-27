@@ -25,7 +25,7 @@ ${ratesStrip()}
 ${costToBuy("Nelson", [["Typical house", 699000], ["Typical strata home", 560000]], "Southern Interior")}
 
 <h2>A small city that keeps growing</h2>
-<p>The 2021 Census counted 11,106 people in Nelson, up from 10,572 in 2016. (My Nelson Now, Nelson population tops 11,000, February 9, 2022, read November 2026). The local Chamber counts about 19,119 in Greater Nelson. (Nelson and District Chamber of Commerce, Welcome to Nelson 2025, read November 2026).</p>
+<p>The 2021 Census counted 11,106 people in Nelson, up from 10,572 in 2016. (My Nelson Now, Nelson population tops 11,000, February 9, 2022, read November 2026). The Chamber puts Greater Nelson at about 19,119 people. (Nelson and District Chamber of Commerce, Welcome to Nelson 2025, read November 2026).</p>
 <p>The City's October 2024 housing needs report estimates Nelson needs about 3,104 new homes over the next 20 years. (City of Nelson, Housing Needs, read November 2026). For a buyer, that means steady demand and a limited supply of homes for sale.</p>
 
 <h2>Remote workers and self-employed buyers</h2>
@@ -66,8 +66,8 @@ ${costToBuy("Nelson", [["Typical house", 699000], ["Typical strata home", 560000
 
 ${callout("Paying for broker help", "<p>On most files you don't. When an A lender funds the mortgage, it pays the broker. A file that needs a B or private lender, such as one with new self-employment income, may carry a fee. Any fee is set out in writing on BCFSA's Form 1A before you sign.</p>")}
 
-<p class="more-links"><strong>Where to go next.</strong> Comparing towns? The <a href="/mortgage-broker-trail-castlegar/">Trail and Castlegar page</a> covers the next two cities south. First-time buyers can start with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Check today's benchmarks on the <a href="/mortgage-rates-bc/">BC rates hub</a>.</p>
 
+<p>Before we talk, it can help to read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>, <a href="/mortgage-rates-bc/">how BC mortgage rates are set</a>, the <a href="/closing-costs-bc/">closing costs guide</a> and the <a href="/down-payment-guide-bc/">down payment guide</a>.</p>
 ${cityFacts("nelson")}
 ${nearbyCallout("nelson", callout)}
 

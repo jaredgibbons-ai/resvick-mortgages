@@ -53,13 +53,13 @@ ${ratesStrip()}
 
 ${callout("Why no rate is printed here", `<p>A rate on a page goes out of date within days. A rate that ignores your down payment, credit, property, amortization and purpose isn't your rate. Joshua confirms pricing with lenders on the day you ask. A call gets you the number that applies to you.</p>`)}
 
-${cta({ title: "Want today's Surrey rate for your actual file?", text: "Book a 15-minute call, by phone or at the Surrey office. Joshua will tell you which pricing category you're in and what your real options are." })}
+${cta({ title: "Want the real Surrey rate for your file?", text: "Book a 15-minute call, by phone or at the Surrey office. Joshua will tell you which pricing category you're in and what your real options are." })}
 <p>For anything else, the <a href="/contact/">contact page</a> has the details.</p>
 `;
 
 export default {
   slug,
-  h1: "Mortgage rates in Surrey: current rates and the local context",
+  h1: "Mortgage rates in Surrey: what sets your rate and how to compare offers",
   lede: "A townhouse with 10 percent down, a suite house with 20 percent down and a City Centre presale are three different prices at the same lender. Here is why, and what to compare beyond the rate.",
   crumbs: [["Home", "/"], ["Rates", "/mortgage-rates-bc/"], ["Surrey rates", slug]],
   nav: "/mortgage-rates-bc/",

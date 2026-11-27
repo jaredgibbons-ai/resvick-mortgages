@@ -48,7 +48,7 @@ ${list("questions")}
 <p>A Bank of Canada post tells you what happened on the day. The <a href="/variable-rate-mortgage/">variable rate mortgage guide</a> tells you how a variable mortgage behaves in general, including trigger rates and conversion rights.</p>
 <p>A rule-change post might tell you the secondary suite refinance program opened on a set date. The <a href="/secondary-suite-refinance/">secondary suite refinance guide</a> carries the current terms and the eligibility checker.</p>
 <p>The two kinds of page are kept apart so each can do its job. The post can be specific and dated. The guide can stay accurate without a rewrite every month.</p>
-<p>Want a heads-up when it matters to you? Sign up on the <a href="/mortgage-renewal-reminder/">free renewal reminder page</a>. Joshua will reach out six months and 120 days before your maturity date. That's when the decisions in this section start to affect you directly.</p>
+<p>Want a heads-up when it matters to you? Sign up on the <a href="/mortgage-renewal-reminder/">free renewal reminder page</a>. Joshua will get in touch six months and 120 days before your maturity date. That's when the decisions in this section start to affect you directly.</p>
 <p>For the Bank of Canada series itself, just bookmark this page. The decision dates are published a year ahead, and each post goes up on the day.</p>
 
 ${callout("What you will not find here", "<p>No rate predictions, market forecasts, lender rankings or anything written to rush you. The Bank's own statements are quoted. Rule changes link to their official sources. And the posts say plainly when something is uncertain or depends on your lender.</p>")}

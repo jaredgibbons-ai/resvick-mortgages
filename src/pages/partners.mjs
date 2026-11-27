@@ -51,7 +51,7 @@ const body = `
 ${short({ answer: "Buying a home takes a team. A mortgage broker, a realtor and a lawyer or notary each do a different job. Below are the realtor, notaries and real estate lawyers I know and am happy to point you to. You can use any licensed professional you like.", who: "You're buying in BC, you have a mortgage approval or are about to, and you need the rest of your team.", next: `Read who does what below, then contact whoever fits. If you still need the mortgage piece, <a href="${SITE.book}" data-evt="book_call_click">book a 15-minute call</a>.` })}
 
 <h2>Who does what when you buy a home</h2>
-<p>A home purchase in BC has more moving parts than most people expect. Each person on the team has a clear job. Knowing the jobs makes the process feel calmer. If you are earlier in the journey, start with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>.</p>
+<p>A home purchase in BC has more moving parts than most people expect. Each person on the team has a clear job. Knowing the jobs makes the process feel calmer. If you're new to buying, begin with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>.</p>
 <ul>
 <li><strong>The mortgage broker (me).</strong> I compare lenders, build your approval, and make sure the mortgage is ready before your offer deadlines. When the deal is firm, I send the lender's approval to your lawyer or notary.</li>
 <li><strong>The realtor.</strong> Your realtor helps you find a home, writes the offer, and negotiates the price and conditions. A good one also keeps the dates straight.</li>

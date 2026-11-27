@@ -100,7 +100,7 @@ export default {
       ["City staff report on short-term rentals, Feb 2024", "https://quesnel.civicweb.net/FileStorage/ECB2EA49874A43048D8FD6A4BC1768EF-City%20Staff%20Report%20-%20Short%20Term%20Rentals%20Policy.pdf"],
       ["Zoning Amendment Bylaw No. 1962", "https://quesnel.civicweb.net/document/154416/"],
       ["City page on adding units to your property", "https://www.quesnel.ca/building-development/housing-initiatives/add-residential-units-your-property"],
-      ["Quesnel Zoning Bylaw No. 1880, consolidated", "https://www.quesnel.ca/media/file/zoning-bylaw-1880-consolidated-updated-oct-28-2024"],
+      ["Quesnel Zoning Bylaw No. 1880, consolidated", "https://www.quesnel.ca/media/file/quesnel-zoning-bylaw-no-1980-2025-master"],
       ["North Cariboo Interim Housing Needs Assessment, December 2024", "https://www.quesnel.ca/media/file/north-cariboo-interim-housing-needs-assessment"]
     ],
     omitted: [
@@ -137,8 +137,8 @@ export default {
       ["City of Terrace zoning change page", "https://engage.terrace.ca/zoning/news_feed/zoning-bylaw-amendment-passed"],
       ["Terrace Zoning Bylaw No. 2069-2014, 2023 consolidation", "https://www.terrace.ca/sites/default/files/2023-04/2069-14%20Zoning%20Bylaw%20-%20MARCH%202023%20CONSOLIDATION.pdf"],
       ["Terrace Housing Needs Report, December 2024", "https://www.terrace.ca/sites/default/files/docs/business-development/Terrace-Housing-Needs-Report-with-Appendices-Dec2024.pdf"],
-      ["Terrace Official Community Plan, consolidated", "https://terrace.ca/sites/default/files/docs/city-hall/bylaws/2142-18_official_community_plan_consolidated_to_2153-18.pdf"],
-      ["Northern Health, Ksyen Regional Hospital", "https://www.northernhealth.ca/find-a-facility/hospitals/mills-memorial-hospital"],
+      ["Terrace Official Community Plan, consolidated", "https://www.terrace.ca/sites/default/files/docs/city-hall/bylaws/2142-18_official_community_plan_consolidated_to_2153-18.pdf"],
+      ["Northern Health, Ksyen Regional Hospital", "https://www.northernhealth.ca/find-a-facility/hospitals/ksyen-regional-hospital"],
       ["Terrace community profile, 2016", "https://www.terrace.ca/sites/default/files/docs/terrace_investment_ready_community_profile_sept_2016_updated.pdf"],
       ["City of Terrace, Zoning Bylaw amendment list", "https://www.terrace.ca/media/3766"]
     ],

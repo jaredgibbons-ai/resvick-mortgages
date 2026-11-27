@@ -63,8 +63,8 @@ ${costToBuy("Cranbrook", [["Cranbrook house", 517000], ["Cranbrook strata home",
 
 ${callout("Is there a fee?", "<p>Not when an A lender takes the mortgage. The lender pays the broker. Pad homes, new self-employment or credit trouble can push a file to a B or private lender, and those may carry a fee. You see any fee in writing on BCFSA's Form 1A before you commit.</p>")}
 
-<p class="more-links"><strong>Where to go next.</strong> Nearby, the <a href="/mortgage-broker-fernie/">Fernie page</a> covers the Elk Valley and the <a href="/mortgage-broker-invermere/">Invermere page</a> covers the Columbia Valley. First-time buyers can start with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>, and self-employed buyers with the <a href="/self-employed-mortgage-bc/">self-employed hub</a>. Check today's benchmarks on the <a href="/mortgage-rates-bc/">BC rates hub</a>, and test your numbers in the <a href="/mortgage-calculators/">mortgage calculators</a>.</p>
 
+<p>Before we talk, it can help to read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>, the <a href="/mortgage-calculators/">mortgage calculators</a>, <a href="/mortgage-rates-bc/">how BC mortgage rates are set</a> and the <a href="/self-employed-mortgage-bc/">self-employed mortgage guide</a>.</p>
 ${cityFacts("cranbrook")}
 ${nearbyCallout("cranbrook", callout)}
 

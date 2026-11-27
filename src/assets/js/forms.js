@@ -179,3 +179,15 @@
     });
   }
 })();
+
+/* Mobile menu: Escape closes it and returns focus to the menu button; choosing a link closes it too. */
+(function () {
+  var m = document.querySelector("details.mnav");
+  if (!m) return;
+  var s = m.querySelector("summary");
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && m.open) { m.open = false; if (s) s.focus(); }
+  });
+  m.addEventListener("click", function (e) { if (e.target.closest && e.target.closest(".mnav-panel a")) m.open = false; });
+  if (s) { s.setAttribute("aria-expanded", "false"); m.addEventListener("toggle", function () { s.setAttribute("aria-expanded", m.open ? "true" : "false"); }); }
+})();

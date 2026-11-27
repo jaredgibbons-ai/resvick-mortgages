@@ -83,8 +83,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <p>Buyers here also compare nearby towns. The <a href="/mortgage-broker-penticton/">Penticton page</a> covers the next large town north, and the <a href="/mortgage-broker-keremeos/">Keremeos page</a> covers the Similkameen to the west.</p>
 
-<p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgage-for-contractors/">contractors and trades</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. To plan a South Okanagan purchase, start with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
+<p>Before we talk, it can help to read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>.</p>
 ${cityFacts("osoyoos-oliver")}
 ${nearbyCallout("osoyoos-oliver", callout)}
 

@@ -22,7 +22,7 @@ ${ratesStrip()}
 <p>Three pieces of the local picture matter to a lender and to you:</p>
 <ul>
 <li><strong>Power line work.</strong> A groundbreaking on September 3, 2026 marked the start of the North Coast Transmission Line. The line is to run from Prince George to Terrace. The governments expect about 1,400 jobs at the peak of construction. The line is meant to power the Ksi Lisims LNG facility and mining in the Golden Triangle. (Energy Now, Construction begins on major B.C. transmission line, September 2026, read October 2026).</li>
-<li><strong>A new hospital.</strong> Mills Memorial Hospital opened in its new building on November 24, 2024, with 82 private rooms. (Northern Health, Mills Memorial Hospital Replacement, read October 2026).</li>
+<li><strong>A new hospital.</strong> The new Ksyen Regional Hospital, which replaced Mills Memorial Hospital, took its first patients on November 24, 2024. (Northern Health, Ksyen Regional Hospital, read November 2026).</li>
 <li><strong>A college campus.</strong> Coast Mountain College runs a Terrace campus with trades, nursing and university courses, and a student residence. (Coast Mountain College, Terrace campus, read October 2026).</li>
 </ul>
 <p>Do not assume every new job lands in Terrace. The first phase of the power line is a 165 km stretch near Prince George. The article does not say where crews will live. A job tied to the line may be a rotation, a camp or a contract with an out-of-town employer. Each one reads differently to a lender, so the details matter more than the headline.</p>
@@ -105,7 +105,6 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <p>If a home near Terrace sits on First Nation land, it is financed differently from other land. Joshua arranges mortgages on reserve land, leased land and First Nation land through a lender that works on it. See <a href="/first-nations-land-mortgages-bc/">First Nations land mortgages</a>.</p>
 
-<p class="more-links"><strong>Related reading.</strong> Joshua has pages for <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a>, <a href="/mortgages-for-truckers-and-owner-operators/">truckers and owner-operators</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a> work for any Terrace file. To know who pays him, see <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>, or read <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
 <p>If you are comparing the coast, Joshua also serves <a href="/mortgage-broker-prince-rupert/">Prince Rupert</a> and Port Edward, where port work and older homes shape the files.</p>
 

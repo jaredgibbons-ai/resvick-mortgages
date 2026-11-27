@@ -41,7 +41,7 @@ ${costToBuy("Duncan", [["Duncan house", 592000], ["North Cowichan house", 733000
 <p>If you are moving here for a job, you can start before you arrive. Pre-approval works the same from out of town. The <a href="/mortgage-pre-approval-bc/">pre-approval guide</a> lists the papers to gather.</p>
 
 <h2>Suites and the 2024 zoning change</h2>
-<p>In 2024 the City of Duncan let low-density lots hold up to four units. That follows the Province's small-scale housing rules. The City's notes also say part of that zone, east of the Trans-Canada Highway, is floodplain. New homes there must be built well above the ground. (City of Duncan, Small-Scale Multi-Unit Housing, read November 2026).</p>
+<p>In 2024 the City of Duncan let low-density lots hold up to four units. That follows the Province's small-scale housing rules. The City's notes also say part of that zone, east of the Trans-Canada Highway, is floodplain. Homes built there have to sit well above ground level. (City of Duncan, Small-Scale Multi-Unit Housing, read November 2026).</p>
 <p>A legal suite can help you qualify, because many lenders count part of the rent. An unpermitted suite usually counts for nothing. The <a href="/how-much-suite-income-will-a-lender-count/">suite income guide</a> shows the two common methods. If you plan to add units, check the flood construction level for the lot before you price the build.</p>
 
 <h2>Homes on Cowichan Tribes land</h2>
@@ -57,8 +57,8 @@ ${costToBuy("Duncan", [["Duncan house", 592000], ["North Cowichan house", 733000
 
 ${callout("Who pays for the advice", "<p>On a normal purchase or renewal with a mainstream (A) lender, the lender pays Joshua. You don't. If your file needs a B or private lender, for example after credit trouble, there may be a fee. It is shown to you in writing on BCFSA's Form 1A before you sign.</p>")}
 
-<p class="more-links"><strong>Where to go next.</strong> Compare the other Island towns on the <a href="/mortgage-broker-vancouver-island/">Vancouver Island overview</a>. Self-employed buyers can start with the <a href="/self-employed-mortgage-bc/">self-employed hub</a>, and owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>. Check today's benchmarks on the <a href="/mortgage-rates-bc/">BC rates hub</a>, and test your numbers in the <a href="/mortgage-calculators/">mortgage calculators</a>.</p>
 
+<p>Before we talk, it can help to read the <a href="/mortgage-calculators/">mortgage calculators</a>, <a href="/mortgage-rates-bc/">how BC mortgage rates are set</a>, the <a href="/self-employed-mortgage-bc/">self-employed mortgage guide</a> and the <a href="/mortgage-broker-vancouver-island/">Vancouver Island overview</a>.</p>
 ${cityFacts("duncan")}
 ${nearbyCallout("duncan", callout)}
 

@@ -59,13 +59,13 @@ ${ratesStrip()}
 
 ${callout("Why no rate is printed here", `<p>A rate on a page goes out of date within days. A rate that ignores your down payment, credit, home type, amortization and purpose isn't your rate. Joshua confirms pricing with lenders on the day you ask. A call gets you the number that applies to you.</p>`)}
 
-${cta({ title: "Want today's Vancouver rate for your actual file?", text: "Book a 15-minute call. Joshua will tell you which pricing category your purchase or renewal falls into, and what your real options are." })}
+${cta({ title: "Want the real Vancouver rate for your file?", text: "Book a 15-minute call. Joshua will tell you which pricing category your purchase or renewal falls into, and what your real options are." })}
 <p>Questions that don't fit a call are welcome through the <a href="/contact/">contact page</a>.</p>
 `;
 
 export default {
   slug,
-  h1: "Mortgage rates in Vancouver: current rates and the local context",
+  h1: "Mortgage rates in Vancouver: what sets your rate and how to compare offers",
   lede: "The rate you get in Vancouver depends on the property type, the price and your down payment, and the lowest number is rarely the cheapest mortgage for a buyer who will move again.",
   crumbs: [["Home", "/"], ["Rates", "/mortgage-rates-bc/"], ["Vancouver rates", slug]],
   nav: "/mortgage-rates-bc/",

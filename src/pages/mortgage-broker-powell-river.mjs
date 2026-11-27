@@ -63,8 +63,8 @@ ${costToBuy("Powell River", [["Typical house", 580000]], "Vancouver Island")}
 
 ${callout("What you pay for the advice", "<p>Usually nothing. With an A lender, the lender pays the broker. A unique rural home or brand-new self-employment can mean a B or private lender, and that may carry a fee. If it does, BCFSA's Form 1A shows it to you in writing before you agree.</p>")}
 
-<p class="more-links"><strong>Where to go next.</strong> Buyers often compare the Comox Valley across the water, and the <a href="/mortgage-broker-vancouver-island/">Vancouver Island overview</a> sets the towns side by side. First-time buyers can start with the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. Check today's benchmarks on the <a href="/mortgage-rates-bc/">BC rates hub</a>, and test your numbers in the <a href="/mortgage-calculators/">mortgage calculators</a>.</p>
 
+<p>Before we talk, it can help to read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>, the <a href="/mortgage-calculators/">mortgage calculators</a> and <a href="/mortgage-rates-bc/">how BC mortgage rates are set</a>.</p>
 ${cityFacts("powell-river")}
 ${nearbyCallout("powell-river", callout)}
 

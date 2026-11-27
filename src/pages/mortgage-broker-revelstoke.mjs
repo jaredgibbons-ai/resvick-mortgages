@@ -70,8 +70,8 @@ ${callout("What a mortgage broker costs", "<p>When the deal goes through an A le
 
 <p>Buyers here also compare other towns. The <a href="/mortgage-broker-kamloops/">Kamloops page</a> and the <a href="/mortgage-broker-kelowna/">Kelowna page</a> cover the two nearest large cities. The <a href="/mortgage-broker-whistler/">Whistler page</a> covers another resort market.</p>
 
-<p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-tech-workers/">tech workers</a> and <a href="/mortgages-for-first-responders/">first responders</a>. To plan a Revelstoke purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
+<p>Before we talk, it can help to read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> and the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>.</p>
 ${cityFacts("revelstoke")}
 ${nearbyCallout("revelstoke", callout)}
 

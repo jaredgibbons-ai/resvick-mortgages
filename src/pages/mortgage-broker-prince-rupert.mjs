@@ -73,8 +73,8 @@ ${censusTable("prince-rupert")}
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Prince Rupert files, such as a home that needs major repairs, new self-employed income or a home on leased land, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
-<p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>, <a href="/mortgages-for-camp-mine-and-shift-workers/">camp, mine and shift workers</a> and <a href="/mortgage-for-contractors/">contractors and trades</a>. To plan a Prince Rupert purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
+<p>Before we talk, it can help to read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>.</p>
 ${cityFacts("prince-rupert")}
 ${nearbyCallout("prince-rupert", callout)}
 

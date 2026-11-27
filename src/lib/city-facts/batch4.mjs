@@ -1,6 +1,6 @@
 export default {
   "langford": {
-    str: "Langford's planning page says the City does not regulate short-term rentals right now. It sends owners to the Province's rules. This is as of November 2026. Check with the City before you rely on it.",
+    str: "Langford's planning page says the City does not regulate short-term rentals right now. It sends owners to the Province's rules. This is as of November 2026. Confirm with the City before you count on it.",
     suites: "Langford changed its zoning for small-scale multi-unit housing in 2024. The bylaw is No. 2183. The City's council report on it is dated June 2024. Lots of 280 square metres or less can have up to three homes. Larger lots can have up to four. Up to six are allowed near transit. Check with the City before you rely on it.",
     employers: [
       "Sooke School District No. 62, board office in Langford",
@@ -99,7 +99,7 @@ export default {
     feature: "The City says an unauthorized secondary suite should not be rented out until its building permit is finalized. That matters when a buyer plans to count suite rent as income.",
     src: [
       ["City of Courtenay short-term rentals", "http://www.courtenay.ca/services/bylaws/find-bylaw/short-term-rentals"],
-      ["City of Courtenay small-scale multi-unit housing", "https://www.courtenay.ca/EN/main/community/housing-issues/small-scale-multi-unit-housing-ssmuh.html"],
+      ["City of Courtenay small-scale multi-unit housing", "https://www.courtenay.ca/community-and-culture/housing/small-scale-multi-unit-housing"],
       ["City of Courtenay secondary suites", "https://www.courtenay.ca/secondary-suites"],
       ["Town of Comox vacation rental approval process", "https://www.comox.ca/vacationrental"],
       ["Town of Comox small-scale multi-family housing bylaw adopted", "https://www.comox.ca/government-bylaws/news-alerts/small-scale-multi-family-housing-bylaw-adopted"],
@@ -215,7 +215,7 @@ export default {
       { n: "Westbank Centre", d: "A priority infill area. The City's report proposes a transit hub at the Westbank exchange." },
       { n: "Boucherie Centre", d: "A priority infill area. The report expects taller buildings near the Highway 97 and Ross Road transit hub." },
       { n: "Glenrosa", d: "A priority infill area with larger lots that suit carriage houses or multi-plexes. Transit is limited." },
-      { n: "Lakeview Heights", d: "A priority infill area with larger lots that suit carriage houses or multi-plexes." }
+      { n: "Lakeview Heights", d: "Another priority infill area. Its bigger lots work well for carriage houses or multi-plexes." }
     ],
     mix: "The 2021 Census, in the City's interim housing report, shows about 83 percent of West Kelowna households owned their home. Single-detached houses were about 68 percent of homes.",
     land: "Westbank First Nation has governed itself since 2005. Buyers on Westbank Lands often get a long-term sublease under a head lease, not fee simple title. Mortgages are registered in the First Nation's own Lands Registry. Lender acceptance varies by development, so ask early.",
@@ -266,7 +266,7 @@ export default {
       ["City of Vernon housing needs report, 2024", "https://www.vernon.ca/sites/default/files/docs/241120-Vernon-HNR-final.pdf"],
       ["City of Vernon, education and health", "https://www.vernon.ca/business/moving-vernon/services"],
       ["VantageOne Credit Union 2024 annual report", "https://www.vantageone.net/wp-content/uploads/2025/05/VO_Annual_Report-2024-WEB.pdf"],
-      ["Tolko Industries", "http://www.tolko.com/"]
+      ["Tolko Industries", "https://tolko.com/"]
     ],
     omitted: [
       "Lender head office rechecked: VantageOne's 2024 annual report (Note 1) says the head office is at 3108 33 Avenue, Vernon. The credit union's contact page lists 5300 26 Street for VantageOne Financial Corp but does not call it the head office.",

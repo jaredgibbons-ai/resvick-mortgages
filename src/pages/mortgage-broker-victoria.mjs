@@ -74,7 +74,6 @@ ${callout("What it costs you", "<p>On a mortgage placed with an A lender, the le
 <h2>Nearby</h2>
 <p>Joshua serves the whole Island and the Lower Mainland the same way. Up-Island? The <a href="/mortgage-broker-nanaimo/">Nanaimo page</a> covers ferry-commuter purchases and the mid-Island market. Comparing Victoria with the mainland, or moving between them? See the <a href="/mortgage-broker-vancouver/">Vancouver page</a>. Current rates and how they're set are on the <a href="/mortgage-rates-bc/">BC mortgage rates hub</a>.</p>
 
-<p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-government-and-city-employees/">government and city employees</a>, <a href="/mortgages-for-military-and-veterans/">military and veterans</a> and <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a>. To plan a Victoria purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/down-payment-guide-bc/">down payment guide</a> and the <a href="/closing-costs-bc/">closing costs guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
 ${cityFacts("victoria")}
 ${nearbyCallout("victoria", callout)}

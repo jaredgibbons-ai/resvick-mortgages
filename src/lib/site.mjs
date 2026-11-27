@@ -9,6 +9,7 @@ export function asset(url) {
   const v = VERS.get(url); return v ? url + "?v=" + v : url;
 }
 import { CITY_NAME } from "./nearby.mjs";
+import { mergeLocal } from "./city-facts.mjs";
 
 export const SITE = {
   origin: "https://www.resvickmortgages.com",
@@ -115,8 +116,16 @@ const CLOSE_COPY = {
   situation: ["Let's look at your situation.", "Tell me what's going on. I'll read your file the way a lender will, then tell you what's realistic and what to fix first."],
   tool: ["Got your number? Let's check it against real lenders.", "A calculator gives you a rough answer. A 15-minute call gets you real options."],
   home: ["Let's talk it through.", "One 15-minute call is enough to see where you stand and what to do next. No obligation, and you'll be talking to me, the person who does the work."],
+  rates: ["Want a real rate for your file?", "Rates depend on your income, down payment and property. A 15-minute call is enough to see what lenders would actually offer you."],
+  learn: ["Still have a question?", "Ask me directly. A 15-minute call is free, and you'll get a straight answer for your own situation."],
+  trust: ["Talk to the person who'll do the work.", "Book a 15-minute call. You'll deal with me from the first question to the day your mortgage funds, and after."],
+  legal: ["Questions about this page?", "Call or email me and I'll answer them directly. You can also book a 15-minute call."],
   other: ["Want this run on your numbers?", "Book a 15-minute call and I'll work through your own figures with you. No obligation."]
 };
+const T_RATES = /mortgage-rates|fixed-mortgage-rate|variable-rate|fixed-vs-variable|fixed-or-variable|stress-test-canada|open-vs-closed|bank-of-canada|thirty-year/;
+const T_LEARN = /^\/(mortgage-faq|mortgage-glossary|resources|guides|mortgage-document-checklist|mortgage-application-checklist|what-happens-after-you-apply)\/$/;
+const T_TRUST = /^\/(about-joshua-resvick|partners|refer|lender-comparison-report|mortgage-aftercare-program|how-mortgage-brokers-get-paid|mortgage-broker-vs-bank|bc-mortgage-broker-service-areas|apply|contact)\/$|what-a-mortgage-broker-costs/;
+const T_LEGAL = /^\/(privacy|terms-of-use)\/$/;
 const T_CITY = /^\/mortgage-broker-(?!vs-bank)[a-z-]+\/$/;
 const T_TOOL = /calculator|break-even|equity-estimator|lender-match|mortgage-check|readiness|check-up|-check\/$/;
 const T_RENEW = /renew|switch-mortgage|rate-hold|blend-and-extend|stress-test-exemption|interest-rate-differential|prepayment|penalty|porting|collateral/;
@@ -125,11 +134,16 @@ const T_BUY = /first-time|down-payment|pre-approval|closing-costs|how-much-mortg
 const T_SIT = /mortgages-for-|mortgage-for-|self-employed|bad-credit|mortgage-after|behind-on|missed|default|separation|spousal|stated-income|no-income|b-lender|private-mortgage|new-to-canada|cosigner|co-sign|student-loans|car-loan|build-credit|camp|first-nations|leasehold|farm|mobile-home|rent-to-own|commercial|investment|airbnb|brrrr|dscr|converting|investor|rental|probation|new-job|without-a-job|appraisal/;
 export function closeType(slug) {
   if (T_CITY.test(slug)) return "city";
+  if (T_LEGAL.test(slug)) return "legal";
+  if (T_TRUST.test(slug)) return "trust";
+  if (T_LEARN.test(slug)) return "learn";
   if (T_TOOL.test(slug)) return "tool";
   if (T_RENEW.test(slug)) return "renew";
   if (T_REFI.test(slug)) return "refi";
   if (T_BUY.test(slug)) return "buy";
   if (T_SIT.test(slug)) return "situation";
+  if (T_RATES.test(slug)) return "rates";
+  if (/fhsa|home-buyers-plan/.test(slug)) return "buy";
   return "other";
 }
 const cityKey = (slug) => slug.replace("/mortgage-broker-", "").replace(/\/$/, "");
@@ -244,7 +258,8 @@ function withTop(page) {
   return { html: i >= 0 ? html.slice(0, i + 8) + "\n" + blk + html.slice(i + 8) : blk + html, toc: t.toc };
 }
 function withToc(page) {
-  const body = page.body || "";
+  const ck = T_CITY.test(page.slug) ? cityKey(page.slug) : null;
+  const body = ck ? mergeLocal(page.body || "", ck) : (page.body || "");
   if (page.home || NO_QUICK.has(page.slug)) return { body, toc: "" };
   const used = new Set((body.match(/\sid="([^"]+)"/g) || []).map((x) => x.slice(5, -1)));
   const items = [];

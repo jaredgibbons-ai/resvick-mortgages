@@ -5,7 +5,7 @@ const toggle = (v, l) => `<label><input type="checkbox" name="x_need_${v}" value
 
 const form = `
 <div class="form-card" data-nocount>
-<form data-lead="refer" data-success="Thank you. Joshua will reach out to them gently." novalidate>
+<form data-lead="refer" data-success="Thank you. I'll get in touch with them gently." novalidate>
 <p class="small"><strong>About you</strong> (so I know who to thank, and who they'll recognise when I say your name)</p>
 <div class="row2">
 <div class="fld"><label for="r-name">Your name</label><input id="r-name" name="name" type="text" autocomplete="name" required></div>
@@ -29,7 +29,7 @@ ${toggle("buying", "Buying a home")}${toggle("renewing", "Renewing")}${toggle("r
 <p class="form-msg" role="status" aria-live="polite"></p>
 <div class="done" data-done hidden>
 <p><strong>Thank you. That means a lot.</strong></p>
-<p>I'll reach out to them in the next day or two, mention your name so it isn't a cold call, and take it from there at their pace. If they'd rather make the first move, they can <a href="${SITE.book}" data-evt="book_call_click">book a 15-minute call</a> directly.</p>
+<p>I'll get in touch with them in the next day or two, mention your name so it isn't a cold call, and take it from there at their pace. If they'd rather make the first move, they can <a href="${SITE.book}" data-evt="book_call_click">book a 15-minute call</a> directly.</p>
 </div>
 </form>
 </div>`;
@@ -46,7 +46,7 @@ ${short({ answer: "If someone you know needs mortgage help, send them my way her
 <p>Two things I want to be clear about up front. First, I don't pay for referrals, and I don't run contests or gift cards. A referral should be a recommendation, not a transaction. BC's rules for mortgage brokers are also strict about anything that looks like an inducement. Second, the person you refer never pays for the service on a mainstream (A) lender file. The lender pays me, and they pay nothing. Fees only arise on some B-lender and private files, with written disclosure first. The page about <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> explains the whole arrangement. Feel free to send it to them before they decide.</p>
 
 <h2>Why I ask whether they've agreed</h2>
-<p>That required box isn't a formality. Canada's anti-spam law means I shouldn't email or text someone who hasn't agreed to hear from me, and a referral doesn't change that. More to the point, nobody enjoys a surprise call about their mortgage. So here's what works best. You tell them about me. They say sure, have him reach out. Then you fill in the form. If you'd rather not be the go-between, send them the <a href="/contact/">contact page</a> instead. They can book a call themselves. Either route ends in the same conversation.</p>
+<p>That required box isn't a formality. Canada's anti-spam law means I shouldn't email or text someone who hasn't agreed to hear from me, and a referral doesn't change that. More to the point, nobody enjoys a surprise call about their mortgage. So here's what works best. You tell them about me. They say sure, have him call. Then you fill in the form. If you'd rather not be the go-between, send them the <a href="/contact/">contact page</a> instead. They can book a call themselves. Either route ends in the same conversation.</p>
 
 <h2>Who tends to benefit most</h2>
 <p>You don't need to diagnose their situation. But if you're wondering whether to mention me, these are the moments when a second opinion most often helps.</p>
@@ -75,12 +75,12 @@ ${cta({ title: "Rather talk it through first?", text: "If you're not sure whethe
 export default {
   slug: "/refer/",
   h1: "Refer a friend",
-  lede: "Know someone who could use straight answers about a mortgage? Send them my way. No fees, no incentives, and I only reach out once they've said yes.",
+  lede: "Know someone who could use straight answers about a mortgage? Send them my way. No fees, no incentives, and I only get in touch once they've said yes.",
   crumb: "Refer a friend", nav: "/about-joshua-resvick/", forms: true, body,
   faqs: [
     { q: "Do you pay a referral fee or offer a gift?", a: "No. I don't pay for referrals, and I don't run contests or gift cards. A referral should be a recommendation, not a transaction, and BC's rules for mortgage brokers are strict about anything that looks like an inducement. The thank-you you get is a genuine one, and the person you referred gets the same service as every client." },
     { q: "Will the person I refer be charged anything?", a: "On a mortgage placed with a mainstream (A) lender, the lender pays the broker and the borrower pays nothing for the service. Fees only arise on some B-lender and private files, and BC rules require written disclosure before anyone commits. There is never a charge for the first call or the written comparison." },
-    { q: "Why do I have to confirm they've agreed to be contacted?", a: "Because Canada's anti-spam law means I shouldn't reach out to someone who hasn't agreed to hear from me, and because nobody likes a surprise call about their finances. Tell them about me first. If you'd rather not be in the middle, send them the contact page link and let them book a call themselves." },
+    { q: "Why do I have to confirm they've agreed to be contacted?", a: "Because Canada's anti-spam law means I shouldn't contact someone who hasn't agreed to hear from me, and because nobody likes a surprise call about their finances. Tell them about me first. If you'd rather not be in the middle, send them the contact page link and let them book a call themselves." },
     { q: "What if they're outside the Lower Mainland?", a: "That's fine. I work with clients across British Columbia, and everything can be done online and by phone. My office is in Surrey, but there's no geographic limit on who I can help, from the Island to the Okanagan to the North. The process and the service are the same from anywhere." },
     { q: "Can I refer myself, or a family member I'm buying with?", a: "You don't need this form for yourself; just book a call from the contact page. For a family member you're buying with, or helping with a down payment, use the form and say so in the notes. I'm glad to talk with both of you, together or separately, and I keep each person's details to themselves." }
   ]

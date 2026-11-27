@@ -65,7 +65,7 @@ export default {
       ["City of Mission, Homelessness and Housing Needs Report", "https://www.mission.ca/media/file/housing-needs-report-2025pdf"],
       ["City of Mission, Community profile 2022", "https://www.mission.ca/media/file/2022-community-profile"],
       ["City of Mission, Cedar Valley Local Area Plan", "https://www.mission.ca/media/file/cedar-valley-local-area-planpdf"],
-      ["City of Mission, draft Official Community Plan Bylaw 6350-2025", "https://www.mission.ca/media/file/attachment-draft-ocp-bylaw-public-engagement"],
+      ["City of Mission, Official Community Plan", "https://www.mission.ca/council-government/plans-strategies/official-community-plan"],
       ["City of Mission, Special Council minutes of July 17, 2024", "https://pub-mission.escribemeetings.com/filestream.ashx?DocumentId=16214"]
     ],
     omitted: [
@@ -98,7 +98,7 @@ export default {
     feature: "Chilliwack's urban neighbourhoods sit inside a ring of Agricultural Land Reserve farmland. The City's plans note it on the edges of Sardis. Farmland status can matter for properties at the city's edges.",
     src: [
       ["City of Chilliwack, Short-Term Rental Bylaw 2021, No. 5141", "https://www.chilliwack.com/main/attachments/Files/363/BL51411.pdf"],
-      ["Tzeachten First Nation, Residential development", "https://www.tzeachten.ca/departments-tzeachten/housing-public-works/residential-development/"],
+      ["Tzeachten First Nation, Residential development", "https://www.tzeachten.ca/lands/residential-developments"],
       ["Province of BC, SSMUH extension announcement", "https://news.gov.bc.ca/releases/2024hous0178-001534"],
       ["Canadian Army, 39 Combat Engineer Regiment", "https://www.canada.ca/en/army/corporate/3-canadian-division/39-combat-engineer-regiment.html"],
       ["School District 33, About", "https://www.sd33.bc.ca/about"],
@@ -207,7 +207,7 @@ export default {
     src: [
       ["City of Victoria, Short-term rentals", "https://www.victoria.ca/building-business/business-licensing/short-term-rentals"],
       ["City of Victoria, Capital Regional District Housing Needs Assessment, October 2020", "https://www.victoria.ca/media/file/crd-housing-needs-report-victoria-2020"],
-      ["City of Victoria, Zoning Bylaw 2018 Schedule P", "https://www.victoria.ca/media/1207"],
+      ["City of Victoria, Zoning Bylaw 2018 Schedule P", "https://www.victoria.ca/media/file/schedule-p"],
       ["City of Victoria, Downtown Core Area Plan, introduction", "https://www.victoria.ca/media/file/dcap-introductionpdf"],
       ["Greater Victoria School District, About us", "https://www.sd61.bc.ca/our-district/about-us/"],
       ["City of Victoria, Rockland neighbourhood directions", "https://www.victoria.ca/media/file/rockland-neighbourhood-directions-extract-official-community-plan"],
@@ -238,7 +238,7 @@ export default {
       { n: "Cordova Bay", d: "Mostly single-family homes, about 94 percent in the 1998 local area plan. Multi-family homes are near the village." },
       { n: "Cadboro Bay", d: "Mostly single-family homes, about 88 percent in the 2002 plan. Multi-family homes are in the village and at Wedgewood Point." },
       { n: "Saanich Core", d: "Mostly apartments and other multi-family homes, about 81 percent in the 1999 plan. Council re-adopted the plan in 2024." },
-      { n: "Quadra", d: "Mostly single and two-family homes, about 74 percent in the 2001 plan. Council re-adopted the plan in 2024." },
+      { n: "Quadra", d: "Mostly single and two-family homes, about 74 percent in the 2001 plan, which Council also re-adopted in 2024." },
       { n: "Rural Saanich", d: "Land outside the Urban Containment Boundary. The District's page allows only one secondary suite per property there." }
     ],
     mix: "The District's 2024 housing needs report uses 2021 Census data. It shows about 69 percent of homes owned and 31 percent rented. Detached houses are about 47 percent of homes. Apartments in buildings under five storeys are about 20 percent.",

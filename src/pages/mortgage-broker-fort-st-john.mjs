@@ -74,8 +74,8 @@ ${censusTable("fort-st-john")}
 
 ${callout("What a mortgage broker costs", "<p>When the deal goes through an A lender, the lender pays Joshua and you pay nothing for his work. Some Fort St. John files, such as pad homes, new self-employed income or recent job changes, may need a B or private lender. If a fee applies, you will see it in writing on BCFSA's Form 1A before you agree to anything.</p>")}
 
-<p class="more-links"><strong>Where to go next.</strong> If you work in one of these fields, see <a href="/mortgages-for-nurses-and-healthcare-workers/">nurses and healthcare workers</a> and <a href="/mortgages-for-government-and-city-employees/">government and city employees</a>. To plan a Fort St. John purchase, start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, then the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a>. Owners can read the <a href="/refinance-mortgage-bc/">refinance guide</a>, and everyone can read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a>.</p>
 
+<p>Before we talk, it can help to read the <a href="/first-time-home-buyer-bc/">first-time buyer guide</a> and the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>.</p>
 ${cityFacts("fort-st-john")}
 ${nearbyCallout("fort-st-john", callout)}
 

@@ -87,7 +87,7 @@ ${short({
 
 <h2>The short version to keep</h2>
 <p>On a mortgage with a mainstream lender, the lender pays the broker and you pay nothing.</p>
-<p>Fees can apply on B-lender and private files. Lender fees are normal there, and a broker fee is possible. Both must be disclosed in writing before you commit.</p>
+<p>On B-lender and private files, fees can apply. Lender fees are normal there, and a broker fee is possible. Both must be disclosed in writing before you commit.</p>
 <p>Everything else you pay at closing is a cost of the mortgage, not of the broker. That means the lawyer, the appraisal, the insurance premium and the transfer tax.</p>
 <p>Want to see how that plays out on your own file? The <a href="/contact/">contact page</a> has the booking link for a 15-minute call, which is also free.</p>
 `,

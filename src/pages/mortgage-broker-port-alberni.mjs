@@ -62,8 +62,8 @@ ${costToBuy("Port Alberni", [["Typical house", 485000]], "Vancouver Island")}
 
 ${callout("Do you pay Joshua?", "<p>Not on an ordinary file. When an A lender takes the mortgage, the lender pays the broker. A few Alberni Valley files, such as a home needing major work or recent credit problems, go to a B or private lender, and those can carry a fee. You see any fee in writing on BCFSA's Form 1A first.</p>")}
 
-<p class="more-links"><strong>Where to go next.</strong> Compare the other Island towns on the <a href="/mortgage-broker-vancouver-island/">Vancouver Island overview</a>. Start with the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, check today's benchmarks on the <a href="/mortgage-rates-bc/">BC rates hub</a>, and test your numbers in the <a href="/mortgage-calculators/">mortgage calculators</a>.</p>
 
+<p>Before we talk, it can help to read the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, the <a href="/mortgage-calculators/">mortgage calculators</a>, <a href="/mortgage-rates-bc/">how BC mortgage rates are set</a> and the <a href="/mortgage-broker-vancouver-island/">Vancouver Island overview</a>.</p>
 ${cityFacts("port-alberni")}
 ${nearbyCallout("port-alberni", callout)}
 

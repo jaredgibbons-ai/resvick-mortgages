@@ -65,7 +65,6 @@ ${callout("What a broker costs here", "<p>Most Westshore purchases and renewals 
 <h2>Nearby</h2>
 <p>Joshua also serves <a href="/mortgage-broker-victoria/">Victoria</a>, where heritage homes and condos dominate, and <a href="/mortgage-broker-nanaimo/">Nanaimo</a>, a drive up the Island. Many Westshore buyers compare all three before they decide.</p>
 
-<p class="more-links"><strong>More for Langford buyers.</strong> Pages that may fit your situation: <a href="/mortgages-for-military-and-veterans/">military and veterans</a>, <a href="/mortgages-for-government-and-city-employees/">government and city employees</a> and <a href="/mortgages-for-first-responders/">first responders</a>. For the basics, see the <a href="/mortgage-pre-approval-bc/">pre-approval guide</a>, <a href="/down-payment-guide-bc/">down payment guide</a> and <a href="/closing-costs-bc/">closing costs guide</a>. You can also read <a href="/how-mortgage-brokers-get-paid/">how mortgage brokers get paid</a> or <a href="/about-joshua-resvick/">about Joshua</a>.</p>
 
 ${cityFacts("langford")}
 ${nearbyCallout("langford", callout)}
