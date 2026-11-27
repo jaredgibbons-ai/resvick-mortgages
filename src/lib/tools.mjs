@@ -25,6 +25,9 @@ export const toolMail = (id, calc, title, intent = CALC_INTENT[calc]) => intent 
 <div class="done" data-done hidden><p><strong>Sent. I'll look over your numbers and email you back.</strong></p><p class="small">Want to talk it through sooner? <a href="${SITE.book}" data-evt="book_call_click">Book a 15-minute call</a> or phone <a href="${SITE.phoneHref}" data-evt="phone_click">${SITE.phone}</a>.</p></div>
 </form>` : "";
 
+/** For a tool placed before the page's first h2: make its heading an h2 so the outline doesn't skip from h1 to h3. Same look. */
+export const topTool = (html) => html.replace(/<h3 (id="[^"]+-h")>([\s\S]*?)<\/h3>/, '<h2 class="tool-h" $1>$2</h2>');
+
 function tool(id, calc, title, blurb, fields, honest, btn = "Calculate") {
   // Field ids must be unique on the page (several tools share names like "rate" and "balance"); labels follow.
   fields = fields.replace(/\b(id|for)="([^"]+)"/g, (m, a, v) => `${a}="${id}-${v}"`);

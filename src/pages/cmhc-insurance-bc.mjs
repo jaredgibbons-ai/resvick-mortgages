@@ -1,4 +1,4 @@
-import { TOOLS } from "../lib/tools.mjs";
+import { TOOLS, topTool } from "../lib/tools.mjs";
 import { cta, callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
@@ -12,7 +12,7 @@ ${short({
   next: "Run the premium calculator below with your price and down payment, then try it with a bit more down."
 })}
 
-<div class="tools">${TOOLS.cmhc()}</div>
+<div class="tools">${topTool(TOOLS.cmhc())}</div>
 
 <h2>What mortgage default insurance is</h2>
 <p>Mortgage default insurance protects the lender, not you. If a borrower stops paying and the home sells for less than what's owed, the insurer covers the lender's loss. Because the lender carries less risk, it can lend with as little as 5% down, and insured mortgages often get some of the lowest rates.</p>

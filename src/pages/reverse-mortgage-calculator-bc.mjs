@@ -1,4 +1,4 @@
-import { TOOLS } from "../lib/tools.mjs";
+import { TOOLS, topTool } from "../lib/tools.mjs";
 import { cta, callout } from "../lib/site.mjs";
 import { short } from "../lib/short.mjs";
 
@@ -12,7 +12,7 @@ ${short({
   next: "Fill in the calculator below with a rate you've been quoted. Then read how the balance grows before you decide."
 })}
 
-<div class="tools">${TOOLS.reverse()}</div>
+<div class="tools">${topTool(TOOLS.reverse())}</div>
 
 <h2>How the calculator works</h2>
 <p>It does two things. First, it shows the most you could get in cash. That's 55% of the value you enter, less any mortgage or line of credit that has to be paid off. Second, it shows what you'd owe after 5, 10, 15 years and more, if you make no payments.</p>
