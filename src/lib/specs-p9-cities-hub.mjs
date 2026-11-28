@@ -4,7 +4,7 @@ export default {
   "/bc-mortgage-broker-service-areas/": {
     exempt: true,
     title: "BC Mortgage Broker Service Areas | Cities and Towns We Serve",
-    meta: "Joshua Resvick arranges mortgages across BC from his Surrey office. Find your city or town and see the local housing rules that affect your mortgage.",
+    meta: "BC mortgage broker Joshua Resvick serves every city and town online from Surrey. Find yours and see the local housing rules that affect your mortgage.",
     links: ["/first-time-home-buyer-bc/", "/mortgage-renewal-bc/", "/refinance-mortgage-bc/", "/mortgage-rates-bc/", "/mortgage-aftercare-program/", "/about-joshua-resvick/", "/how-mortgage-brokers-get-paid/", "/contact/"]
   }
 };
