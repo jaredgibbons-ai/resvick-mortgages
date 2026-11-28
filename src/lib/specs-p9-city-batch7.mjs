@@ -2,7 +2,7 @@
 const common = ["/mortgage-rates-bc/", "/first-time-home-buyer-bc/", "/mortgage-renewal-bc/", "/self-employed-mortgage-bc/", "/mortgage-calculators/", "/mortgage-aftercare-program/", "/contact/"];
 export default {
   "/mortgage-broker-vancouver-island/": {
-    title: "Mortgage Broker Vancouver Island | Compare Island Towns",
+    title: "Mortgage Broker on Vancouver Island, BC | Compare Towns",
     meta: "Buying on Vancouver Island? Joshua Resvick (Xeva Mortgage) compares Island towns on values, rental rules and the empty-home tax.",
     links: [...common, "/mortgage-broker-victoria/", "/mortgage-broker-saanich/", "/mortgage-broker-langford/", "/mortgage-broker-duncan/", "/mortgage-broker-nanaimo/", "/mortgage-broker-port-alberni/", "/mortgage-broker-courtenay/", "/mortgage-broker-campbell-river/", "/mortgage-broker-powell-river/"]
   },
@@ -12,17 +12,17 @@ export default {
     links: [...common, "/down-payment-guide-bc/", "/closing-costs-bc/", "/mortgage-pre-approval-bc/", "/first-nations-land-mortgages-bc/", "/farm-and-alr-mortgages-bc/", "/mortgage-broker-vancouver-island/"]
   },
   "/mortgage-broker-port-alberni/": {
-    title: "Mortgage Broker Port Alberni, BC | Alberni Valley Mortgages",
+    title: "Mortgage Broker in Port Alberni, BC | Alberni Valley",
     meta: "Buying in Port Alberni or the Alberni Valley? Joshua Resvick (Xeva Mortgage) helps first-time buyers, retirees and trades workers by phone and video.",
     links: [...common, "/down-payment-guide-bc/", "/closing-costs-bc/", "/mortgage-pre-approval-bc/", "/first-nations-land-mortgages-bc/", "/mortgage-broker-vancouver-island/"]
   },
   "/mortgage-broker-campbell-river/": {
-    title: "Mortgage Broker Campbell River | Moving to Campbell River",
+    title: "Mortgage Broker in Campbell River, BC | Buying or Moving",
     meta: "Buying in Campbell River? Joshua Resvick (Xeva Mortgage) helps aquaculture, forestry and mine workers, retirees and newcomers by phone and video.",
     links: [...common, "/down-payment-guide-bc/", "/closing-costs-bc/", "/mortgage-pre-approval-bc/", "/airbnb-and-short-term-rental-mortgages/", "/mortgage-broker-vancouver-island/"]
   },
   "/mortgage-broker-powell-river/": {
-    title: "Mortgage Broker Powell River, BC | qathet Region Mortgages",
+    title: "Mortgage Broker in Powell River, BC | qathet Region",
     meta: "Buying in Powell River or the qathet region? Joshua Resvick (Xeva Mortgage) helps retirees, remote workers and local buyers by phone and video.",
     links: [...common, "/down-payment-guide-bc/", "/closing-costs-bc/", "/mortgage-pre-approval-bc/", "/first-nations-land-mortgages-bc/", "/airbnb-and-short-term-rental-mortgages/"]
   },

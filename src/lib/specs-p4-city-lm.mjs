@@ -7,7 +7,7 @@ const ratesLinks = (broker) => ["/mortgage-rates-bc/", broker, "/fixed-vs-variab
 
 export default {
   "/mortgage-broker-vancouver/": {
-    title: "Mortgage Broker in Vancouver, BC | Resvick Mortgages",
+    title: "Mortgage Broker in Vancouver, BC | Condos, Suites, Renewals",
     meta: "Vancouver mortgage broker Joshua Resvick (Xeva Mortgage) serves condo, townhouse and suite-house buyers and renewers across the city, all online.",
     specTitle: "Mortgage Broker in Vancouver | Resvick Mortgages",
     specMeta: "Vancouver mortgage broker Joshua Resvick (Xeva Mortgage) serves buyers and renewers across the city — first homes, condos, renewals and switches, all online.",
@@ -21,35 +21,35 @@ export default {
     links: city("/mortgage-rates-surrey/", "/mortgage-broker-langley/", "/mortgage-broker-richmond/")
   },
   "/mortgage-broker-langley/": {
-    title: "Mortgage Broker in Langley, BC | Resvick Mortgages",
+    title: "Mortgage Broker in Langley, BC | City, Township, Willoughby",
     meta: "Langley mortgage broker service from Joshua Resvick (Xeva Mortgage): Willoughby presales, suite homes, acreages and renewals across the City and Township.",
     specTitle: "Mortgage Broker in Langley | Resvick Mortgages",
     specMeta: "Langley mortgage broker service from Joshua Resvick (Xeva Mortgage): first-time buyers, renewals, refinances and suite homes across Langley City and Township.",
     links: city("/mortgage-rates-bc/", "/mortgage-broker-surrey/", "/mortgage-broker-abbotsford/")
   },
   "/mortgage-broker-burnaby/": {
-    title: "Mortgage Broker in Burnaby, BC | Resvick Mortgages",
+    title: "Mortgage Broker in Burnaby, BC | Condos, Suites, Renewals",
     meta: "Mortgage broker serving Burnaby, BC: Joshua Resvick (Xeva Mortgage) for condo and townhouse purchases, newcomer files, renewals and switches, all online.",
     specTitle: "Mortgage Broker in Burnaby | Resvick Mortgages",
     specMeta: "Mortgage broker serving Burnaby, BC: Joshua Resvick (Xeva Mortgage) — condo and townhouse purchases, newcomer files, renewals and switches, all online.",
     links: city("/mortgage-rates-bc/", "/mortgage-broker-vancouver/", "/mortgage-broker-coquitlam/")
   },
   "/mortgage-broker-coquitlam/": {
-    title: "Mortgage Broker in Coquitlam, BC | Resvick Mortgages",
+    title: "Mortgage Broker in Coquitlam, BC | Tri-Cities Mortgages",
     meta: "Coquitlam mortgage broker service from Joshua Resvick (Xeva Mortgage): Tri-Cities family purchases, presales, renewals and refinances, handled online.",
     specTitle: "Mortgage Broker in Coquitlam | Resvick Mortgages",
     specMeta: "Coquitlam mortgage broker service from Joshua Resvick (Xeva Mortgage): Tri-Cities family purchases, presales, renewals and refinances, handled online.",
     links: city("/mortgage-rates-bc/", "/mortgage-broker-burnaby/", "/mortgage-broker-surrey/")
   },
   "/mortgage-broker-richmond/": {
-    title: "Mortgage Broker in Richmond, BC | Resvick Mortgages",
+    title: "Mortgage Broker in Richmond, BC | Steveston & City Centre",
     meta: "Mortgage broker serving Richmond, BC: Joshua Resvick (Xeva Mortgage) helps newcomer and move-up buyers with purchases, renewals and refinances, online.",
     specTitle: "Mortgage Broker in Richmond | Resvick Mortgages",
     specMeta: "Mortgage broker serving Richmond, BC — Joshua Resvick (Xeva Mortgage) helps newcomer and move-up buyers with purchases, renewals and refinances, online.",
     links: city("/mortgage-rates-bc/", "/mortgage-broker-vancouver/", "/mortgage-broker-surrey/")
   },
   "/mortgage-broker-abbotsford/": {
-    title: "Mortgage Broker in Abbotsford, BC | Resvick Mortgages",
+    title: "Mortgage Broker in Abbotsford, BC | Farms, Suites, Renewals",
     meta: "Mortgage broker serving Abbotsford, BC: Joshua Resvick (Xeva Mortgage) for farm and acreage files, suite homes, first-time buyers and Valley renewals.",
     specTitle: "Mortgage Broker in Abbotsford | Resvick Mortgages",
     specMeta: "Mortgage broker serving Abbotsford, BC: Joshua Resvick (Xeva Mortgage) — farm and acreage files, suite homes, first-time buyers and renewals in the Valley.",
